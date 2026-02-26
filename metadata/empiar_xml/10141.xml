@@ -1,0 +1,172 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10141" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2017-12-06</depositionDate>
+            <releaseDate>2018-04-05</releaseDate>
+            <updateDate>2022-07-21</updateDate>
+        </keyDates>
+        <title>CryoET of apoferritin with 0.5 mM TCEP single particle</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0624-5020</authorORCID>
+            <firstName>Bridget</firstName>
+            <lastName>Carragher</lastName>
+            <organization type="academic">New York Structural Biology Center</organization>
+            <street>89 Convent Avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0624-5020</authorORCID>
+            <firstName>Bridget</firstName>
+            <lastName>Carragher</lastName>
+            <organization type="academic">New York Structural Biology Center</organization>
+            <street>89 Convent Avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-8634-2279">Noble AJ</author>
+            <author>Dandey VP</author>
+            <author>Wei H</author>
+            <author>Brasch J</author>
+            <author>Chase J</author>
+            <author>Acharya P</author>
+            <author authorORCID="0000-0001-6656-6320">Tan YZ</author>
+            <author>Zhang Z</author>
+            <author>Kim LY</author>
+            <author>Scapin G</author>
+            <author>Rapp M</author>
+            <author authorORCID="0000-0002-8014-7269">Eng ET</author>
+            <author>Rice MJ</author>
+            <author>Cheng A</author>
+            <author>Negro CJ</author>
+            <author>Shapiro L</author>
+            <author>Kwong PD</author>
+            <author>Jeruzalmi D</author>
+            <author>des Georges A</author>
+            <author>Potter CS</author>
+            <author authorORCID="0000-0002-0624-5020">Carragher B</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2018-04-05</date>
+                <statusCode>REL</statusCode>
+                <details>The depositor added tomography particle picks.</details>
+            </version>
+        </versionHistory>
+        <datasetSize units="GB">35.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10141</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-7150</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-8634-2279" order="1">Noble AJ</author>
+                    <author order="2">Dandey VP</author>
+                    <author order="3">Wei H</author>
+                    <author order="4">Brasch J</author>
+                    <author order="5">Chase J</author>
+                    <author order="6">Acharya P</author>
+                    <author authorORCID="0000-0001-6656-6320" order="7">Tan YZ</author>
+                    <author order="8">Zhang Z</author>
+                    <author order="9">Kim LY</author>
+                    <author order="10">Scapin G</author>
+                    <author order="11">Rapp M</author>
+                    <author authorORCID="0000-0002-8014-7269" order="12">Eng ET</author>
+                    <author order="13">Rice WJ</author>
+                    <author order="14">Cheng A</author>
+                    <author order="15">Negro CJ</author>
+                    <author order="16">Shapiro L</author>
+                    <author order="17">Kwong PD</author>
+                    <author authorORCID="0000-0001-5886-1370" order="18">Jeruzalmi D</author>
+                    <author order="19">des Georges A</author>
+                    <author authorORCID="0000-0003-2394-0831" order="20">Potter CS</author>
+                    <author authorORCID="0000-0002-0624-5020" order="21">Carragher B</author>
+                    <title>Routine single particle CryoEM sample and grid characterization by tomography</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation>Elife</journalAbbreviation>
+                    <country></country>
+                    <volume>7</volume>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.7554/elife.34257</externalReferences>
+                    <externalReferences type="pubmed">29809143</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Tilt-series image stacks</name>
+        <directory>/data/SerialEM</directory>
+        <category>tilt series</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3712</imageWidth>
+            <pixelWidth>2.34</pixelWidth>
+            <imageHeight>4984</imageHeight>
+            <pixelHeight>2.34</pixelHeight>
+        </dimensions>
+        <details>Not frame-aligned.
+.mdoc files included.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Appion-Protomo tilt-series alignments</name>
+        <directory>/data/protomo_alignments</directory>
+        <category>tilt series</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3712</imageWidth>
+            <pixelWidth>2.34</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>2.34</pixelHeight>
+        </dimensions>
+        <details>Includes a full tilt-series alignment run for each tilt-series. To view properly, navigate to the protomo_alignments folder in Appion-Protomo.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Manual particle picking in Dynamo</name>
+        <directory>/data/manual_particle_picking</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>Binned by 4 manual particle picking of the tomogram using Dynamo in TBL and OMD formats that relate to the corresponding .mrc file. Manual picking was performed to accurately distinguish between particles adsorbed to the air-water interfaces, non-adsorbed particles, and particles over or adsorbed to carbon.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

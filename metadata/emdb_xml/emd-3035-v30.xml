@@ -1,0 +1,433 @@
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" emdb_id="EMD-3035" version="3.0.1.1" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+   <admin>
+      <current_status>
+         <code>REL</code>
+         <processing_site>PDBe</processing_site>
+      </current_status>
+      <sites>
+         <deposition>PDBe</deposition>
+         <last_processing>PDBe</last_processing>
+      </sites>
+      <key_dates>
+         <deposition>2015-06-01</deposition>
+         <header_release>2015-07-15</header_release>
+         <map_release>2015-08-26</map_release>
+         <update>2015-09-09</update>
+      </key_dates>
+      <title>The structure of YnaI implies structural and mechanistic conservation in the MscS-family of mechanosensitive channels</title>
+      <authors_list>
+         <author>Bottcher B</author>
+         <author>Prazak V</author>
+         <author>Rasmussen A</author>
+         <author>Black SS</author>
+         <author>Rasmussen T</author>
+      </authors_list>
+      <keywords>YnaI, mechanosensitive channels, lipid-protein interaction, osmotic stress</keywords>
+   </admin>
+   <crossreferences>
+      <citation_list>
+         <primary_citation>
+            <journal_citation published="true">
+               <author order="1">Bottcher B</author>
+               <author order="2">Prazak V</author>
+               <author order="3">Rasmussen A</author>
+               <author order="4">Black SS</author>
+               <author order="5">Rasmussen T</author>
+               <title>The Structure of YnaI Implies Structural and Mechanistic Conservation in the MscS Family of Mechanosensitive Channels.</title>
+               <journal>STRUCTURE</journal>
+               <volume>23</volume>
+               <first_page>1705</first_page>
+               <last_page>1714</last_page>
+               <year>2015</year>
+               <external_references type="PUBMED">26256535</external_references>
+               <external_references type="DOI">doi:10.1016/j.str.2015.06.023</external_references>
+            </journal_citation>
+         </primary_citation>
+      </citation_list>
+   </crossreferences>
+   <sample>
+      <name>Low conductance mechanosensitive channel YnaI</name>
+      <supramolecule_list>
+         <sample_supramolecule supramolecule_id="1000">
+            <name>Low conductance mechanosensitive channel YnaI</name>
+            <oligomeric_state>7</oligomeric_state>
+            <number_unique_components>1</number_unique_components>
+            <molecular_weight>
+               <theoretical units="MDa">0.271</theoretical>
+            </molecular_weight>
+         </sample_supramolecule>
+      </supramolecule_list>
+      <macromolecule_list>
+         <protein_or_peptide macromolecule_id="1">
+            <name>YnaI</name>
+            <natural_source database="NCBI">
+               <organism ncbi="562">Escherichia coli</organism>
+               <strain>MJF641</strain>
+               <cellular_location>Pasma membrane</cellular_location>
+            </natural_source>
+            <molecular_weight>
+               <theoretical units="MDa">0.03876</theoretical>
+            </molecular_weight>
+            <number_of_copies>7</number_of_copies>
+            <oligomeric_state>heptamer</oligomeric_state>
+            <recombinant_exp_flag>false</recombinant_exp_flag>
+            <recombinant_expression database="NCBI">
+               </recombinant_expression>
+            <sequence>
+               <external_references type="UNIPROTKB">P0AEB5</external_references>
+               <external_references type="GO">GO:0055085</external_references>
+               <external_references type="INTERPRO">IPR006685</external_references>
+               <external_references type="INTERPRO">IPR011014</external_references>
+               <external_references type="INTERPRO">IPR010920</external_references>
+               <external_references type="INTERPRO">IPR011066</external_references>
+               <external_references type="INTERPRO">IPR006686</external_references>
+            </sequence>
+         </protein_or_peptide>
+      </macromolecule_list>
+   </sample>
+   <structure_determination_list>
+      <structure_determination structure_determination_id="1">
+         <method>singleParticle</method>
+         <aggregation_state>particle</aggregation_state>
+         <specimen_preparation_list>
+            <single_particle_preparation preparation_id="1">
+               <concentration units="mg/mL">2.2</concentration>
+               <buffer>
+                  <ph>7.2</ph>
+               </buffer>
+               <grid>
+                  <details>1.2/1.3 Quantifoil 400 mesh copper Rh/grids, glow discharge for 1 min in air</details>
+               </grid>
+               <vitrification>
+                  <cryogen_name>ETHANE</cryogen_name>
+                  <chamber_humidity units="percentage">100</chamber_humidity>
+                  <instrument>HOMEMADE PLUNGER</instrument>
+                  <method>blot for 15 s with 2 layers of filter paper Whatman No 1 before plunging into Ethane cooled by N2; heater is used for preventing freezing of ethane; plunger has an environmental chamber, which is humidified with 2 water soaked sponges (Bellare Design);
+Bellare design of</method>
+               </vitrification>
+            </single_particle_preparation>
+         </specimen_preparation_list>
+         <microscopy_list>
+            <single_particle_microscopy microscopy_id="1">
+               <microscope>FEI TECNAI F20</microscope>
+               <illumination_mode>FLOOD BEAM</illumination_mode>
+               <imaging_mode>BRIGHT FIELD</imaging_mode>
+               <electron_source>FIELD EMISSION GUN</electron_source>
+               <acceleration_voltage units="kV">200</acceleration_voltage>
+               <nominal_cs units="mm">2</nominal_cs>
+               <nominal_defocus_min units="&#181;m">1.39</nominal_defocus_min>
+               <nominal_defocus_max units="&#181;m">5.7</nominal_defocus_max>
+               <nominal_magnification>62000.0</nominal_magnification>
+               <specimen_holder_model>GATAN LIQUID NITROGEN</specimen_holder_model>
+               <temperature>
+                  <temperature_average units="K">95</temperature_average>
+               </temperature>
+               <alignment_procedure>
+                  <legacy>
+                     <astigmatism>at 200,000 magnification on carbon; computationally during image processing</astigmatism>
+                  </legacy>
+               </alignment_procedure>
+               <date>2013-03-15</date>
+               <image_recording_list>
+                  <image_recording>
+                     <film_or_detector_model category="CCD">TVIPS TEMCAM-F416 (4k x 4k)</film_or_detector_model>
+                     <digitization_details>
+                        <sampling_interval units="&#181;m">15.6</sampling_interval>
+                     </digitization_details>
+                     <number_real_images>3308</number_real_images>
+                     <average_electron_dose_per_image units="e/&#8491;^2">25</average_electron_dose_per_image>
+                     <bits_per_pixel>12.</bits_per_pixel>
+                  </image_recording>
+               </image_recording_list>
+            </single_particle_microscopy>
+            <single_particle_microscopy microscopy_id="2">
+               <microscope>FEI TECNAI F20</microscope>
+               <illumination_mode>FLOOD BEAM</illumination_mode>
+               <imaging_mode>BRIGHT FIELD</imaging_mode>
+               <electron_source>FIELD EMISSION GUN</electron_source>
+               <acceleration_voltage units="kV">200</acceleration_voltage>
+               <nominal_cs units="mm">2</nominal_cs>
+               <nominal_defocus_min units="&#181;m">1.39</nominal_defocus_min>
+               <nominal_defocus_max units="&#181;m">5.7</nominal_defocus_max>
+               <nominal_magnification>62000.0</nominal_magnification>
+               <specimen_holder_model>GATAN LIQUID NITROGEN</specimen_holder_model>
+               <temperature>
+                  <temperature_average units="K">95</temperature_average>
+               </temperature>
+               <alignment_procedure>
+                  <legacy>
+                     <astigmatism>at 200,000 magnification on carbon; computationally during image processing</astigmatism>
+                  </legacy>
+               </alignment_procedure>
+               <date>2013-03-15</date>
+               <image_recording_list>
+                  <image_recording>
+                     <film_or_detector_model category="CCD">TVIPS TEMCAM-F416 (4k x 4k)</film_or_detector_model>
+                     <digitization_details>
+                        <sampling_interval units="&#181;m">15.6</sampling_interval>
+                     </digitization_details>
+                     <number_real_images>3308</number_real_images>
+                     <average_electron_dose_per_image units="e/&#8491;^2">25</average_electron_dose_per_image>
+                     <bits_per_pixel>12.</bits_per_pixel>
+                  </image_recording>
+               </image_recording_list>
+            </single_particle_microscopy>
+            <single_particle_microscopy microscopy_id="3">
+               <microscope>FEI TECNAI F20</microscope>
+               <illumination_mode>FLOOD BEAM</illumination_mode>
+               <imaging_mode>BRIGHT FIELD</imaging_mode>
+               <electron_source>FIELD EMISSION GUN</electron_source>
+               <acceleration_voltage units="kV">200</acceleration_voltage>
+               <nominal_cs units="mm">2</nominal_cs>
+               <nominal_defocus_min units="&#181;m">1.39</nominal_defocus_min>
+               <nominal_defocus_max units="&#181;m">5.7</nominal_defocus_max>
+               <nominal_magnification>62000.0</nominal_magnification>
+               <specimen_holder_model>GATAN LIQUID NITROGEN</specimen_holder_model>
+               <temperature>
+                  <temperature_average units="K">95</temperature_average>
+               </temperature>
+               <alignment_procedure>
+                  <legacy>
+                     <astigmatism>at 200,000 magnification on carbon; computationally during image processing</astigmatism>
+                  </legacy>
+               </alignment_procedure>
+               <date>2013-04-07</date>
+               <image_recording_list>
+                  <image_recording>
+                     <film_or_detector_model category="CCD">TVIPS TEMCAM-F416 (4k x 4k)</film_or_detector_model>
+                     <digitization_details>
+                        <sampling_interval units="&#181;m">15.6</sampling_interval>
+                     </digitization_details>
+                     <number_real_images>3308</number_real_images>
+                     <average_electron_dose_per_image units="e/&#8491;^2">25</average_electron_dose_per_image>
+                     <bits_per_pixel>12.</bits_per_pixel>
+                  </image_recording>
+               </image_recording_list>
+            </single_particle_microscopy>
+            <single_particle_microscopy microscopy_id="4">
+               <microscope>FEI TECNAI F20</microscope>
+               <illumination_mode>FLOOD BEAM</illumination_mode>
+               <imaging_mode>BRIGHT FIELD</imaging_mode>
+               <electron_source>FIELD EMISSION GUN</electron_source>
+               <acceleration_voltage units="kV">200</acceleration_voltage>
+               <nominal_cs units="mm">2</nominal_cs>
+               <nominal_defocus_min units="&#181;m">1.39</nominal_defocus_min>
+               <nominal_defocus_max units="&#181;m">5.7</nominal_defocus_max>
+               <nominal_magnification>62000.0</nominal_magnification>
+               <specimen_holder_model>GATAN LIQUID NITROGEN</specimen_holder_model>
+               <temperature>
+                  <temperature_average units="K">95</temperature_average>
+               </temperature>
+               <alignment_procedure>
+                  <legacy>
+                     <astigmatism>at 200,000 magnification on carbon; computationally during image processing</astigmatism>
+                  </legacy>
+               </alignment_procedure>
+               <date>2013-04-15</date>
+               <image_recording_list>
+                  <image_recording>
+                     <film_or_detector_model category="CCD">TVIPS TEMCAM-F416 (4k x 4k)</film_or_detector_model>
+                     <digitization_details>
+                        <sampling_interval units="&#181;m">15.6</sampling_interval>
+                     </digitization_details>
+                     <number_real_images>3308</number_real_images>
+                     <average_electron_dose_per_image units="e/&#8491;^2">25</average_electron_dose_per_image>
+                     <bits_per_pixel>12.</bits_per_pixel>
+                  </image_recording>
+               </image_recording_list>
+            </single_particle_microscopy>
+            <single_particle_microscopy microscopy_id="5">
+               <microscope>FEI TECNAI F20</microscope>
+               <illumination_mode>FLOOD BEAM</illumination_mode>
+               <imaging_mode>BRIGHT FIELD</imaging_mode>
+               <electron_source>FIELD EMISSION GUN</electron_source>
+               <acceleration_voltage units="kV">200</acceleration_voltage>
+               <nominal_cs units="mm">2</nominal_cs>
+               <nominal_defocus_min units="&#181;m">1.39</nominal_defocus_min>
+               <nominal_defocus_max units="&#181;m">5.7</nominal_defocus_max>
+               <nominal_magnification>62000.0</nominal_magnification>
+               <specimen_holder_model>GATAN LIQUID NITROGEN</specimen_holder_model>
+               <temperature>
+                  <temperature_average units="K">95</temperature_average>
+               </temperature>
+               <alignment_procedure>
+                  <legacy>
+                     <astigmatism>at 200,000 magnification on carbon; computationally during image processing</astigmatism>
+                  </legacy>
+               </alignment_procedure>
+               <date>2013-04-17</date>
+               <image_recording_list>
+                  <image_recording>
+                     <film_or_detector_model category="CCD">TVIPS TEMCAM-F416 (4k x 4k)</film_or_detector_model>
+                     <digitization_details>
+                        <sampling_interval units="&#181;m">15.6</sampling_interval>
+                     </digitization_details>
+                     <number_real_images>3308</number_real_images>
+                     <average_electron_dose_per_image units="e/&#8491;^2">25</average_electron_dose_per_image>
+                     <bits_per_pixel>12.</bits_per_pixel>
+                  </image_recording>
+               </image_recording_list>
+            </single_particle_microscopy>
+            <single_particle_microscopy microscopy_id="6">
+               <microscope>FEI TECNAI F20</microscope>
+               <illumination_mode>FLOOD BEAM</illumination_mode>
+               <imaging_mode>BRIGHT FIELD</imaging_mode>
+               <electron_source>FIELD EMISSION GUN</electron_source>
+               <acceleration_voltage units="kV">200</acceleration_voltage>
+               <nominal_cs units="mm">2</nominal_cs>
+               <nominal_defocus_min units="&#181;m">1.39</nominal_defocus_min>
+               <nominal_defocus_max units="&#181;m">5.7</nominal_defocus_max>
+               <nominal_magnification>62000.0</nominal_magnification>
+               <specimen_holder_model>GATAN LIQUID NITROGEN</specimen_holder_model>
+               <temperature>
+                  <temperature_average units="K">95</temperature_average>
+               </temperature>
+               <alignment_procedure>
+                  <legacy>
+                     <astigmatism>at 200,000 magnification on carbon; computationally during image processing</astigmatism>
+                  </legacy>
+               </alignment_procedure>
+               <date>2013-04-19</date>
+               <image_recording_list>
+                  <image_recording>
+                     <film_or_detector_model category="CCD">TVIPS TEMCAM-F416 (4k x 4k)</film_or_detector_model>
+                     <digitization_details>
+                        <sampling_interval units="&#181;m">15.6</sampling_interval>
+                     </digitization_details>
+                     <number_real_images>3308</number_real_images>
+                     <average_electron_dose_per_image units="e/&#8491;^2">25</average_electron_dose_per_image>
+                     <bits_per_pixel>12.</bits_per_pixel>
+                  </image_recording>
+               </image_recording_list>
+            </single_particle_microscopy>
+         </microscopy_list>
+         <singleparticle_processing image_processing_id="1">
+            <details>particle image were selected manually with e2-boxer, initial reference map was determined with Imagic, particle orientations were refined with Relion 1.3</details>
+            <ctf_correction>
+               <details>each particle</details>
+            </ctf_correction>
+            <final_reconstruction>
+               <applied_symmetry>
+                  <point_group>C7</point_group>
+               </applied_symmetry>
+               <algorithm>OTHER</algorithm>
+               <resolution res_type="BY AUTHOR" units="&#8491;">12.6</resolution>
+               <resolution_method>OTHER</resolution_method>
+               <software_list>
+                  <software>
+                     <name>Imagic, Relion</name>
+                  </software>
+               </software_list>
+               <details>resolution was determined from independently processed halves</details>
+               <number_images_used>7202</number_images_used>
+            </final_reconstruction>
+            <final_angle_assignment>
+               <details>euler angles were determined with relion using auto_refine</details>
+            </final_angle_assignment>
+         </singleparticle_processing>
+      </structure_determination>
+   </structure_determination_list>
+   <map format="CCP4" size_kbytes="16001">
+      <file>emd_3035.map.gz</file>
+      <symmetry>
+         <space_group>1</space_group>
+      </symmetry>
+      <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+      <dimensions>
+         <col>160</col>
+         <row>160</row>
+         <sec>160</sec>
+      </dimensions>
+      <origin>
+         <col>0</col>
+         <row>0</row>
+         <sec>0</sec>
+      </origin>
+      <spacing>
+         <x>160</x>
+         <y>160</y>
+         <z>160</z>
+      </spacing>
+      <cell>
+         <a units="&#8491;">276.48</a>
+         <b units="&#8491;">276.48</b>
+         <c units="&#8491;">276.48</c>
+         <alpha units="deg">90.0</alpha>
+         <beta units="deg">90.0</beta>
+         <gamma units="deg">90.0</gamma>
+      </cell>
+      <axis_order>
+         <fast>X</fast>
+         <medium>Y</medium>
+         <slow>Z</slow>
+      </axis_order>
+      <statistics>
+         <minimum>-0.03759287</minimum>
+         <maximum>0.12191901</maximum>
+         <average>0.00122589</average>
+         <std>0.01530758</std>
+      </statistics>
+      <pixel_spacing>
+         <x units="&#8491;">1.728</x>
+         <y units="&#8491;">1.728</y>
+         <z units="&#8491;">1.728</z>
+      </pixel_spacing>
+      <contour_list>
+         <contour primary="true">
+            <level>0.045</level>
+            <source>AUTHOR</source>
+         </contour>
+      </contour_list>
+      <annotation_details>Reconstruction of YnaI</annotation_details>
+      <details>::::EMDATABANK.org::::EMD-3035::::</details>
+   </map>
+   <interpretation>
+      <modelling_list>
+         <modelling>
+            <initial_model>
+               <access_code>2OAU</access_code>
+               <chain>
+                  <chain_id>A</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>B</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>C</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>D</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>E</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>F</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>G</chain_id>
+               </chain>
+            </initial_model>
+            <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+            <software_list>
+               <software>
+                  <name>Chimera</name>
+               </software>
+            </software_list>
+            <details>The structure of the related MscS (2oAU) was fitted manually as rigid body, the fit was optimized by the fit in map option of chimera using residues 129-281 of MscS (cytosolic part)</details>
+            <target_criteria>overlap</target_criteria>
+            <refinement_space>REAL</refinement_space>
+         </modelling>
+      </modelling_list>
+      <figure_list>
+         <figure>
+            <file>emd_3035.png</file>
+         </figure>
+      </figure_list>
+   </interpretation>
+   <validation>
+      <fsc_curve>
+         <file>emd_3035_fsc.xml</file>
+      </fsc_curve>
+   </validation>
+</emd>

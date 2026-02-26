@@ -1,0 +1,102 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10199" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-07-12</depositionDate>
+            <releaseDate>2019-08-07</releaseDate>
+            <updateDate>2021-09-01</updateDate>
+        </keyDates>
+        <title>Identification of a druggable VP1-VP3 interprotomer pocket in the capsid of enteroviruses</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-3378-0683</authorORCID>
+            <firstName>James</firstName>
+            <middleName>Alexander</middleName>
+            <lastName>Geraets</lastName>
+            <organization type="academic">Institute of Biotechnology, University of Helsinki</organization>
+            <street>P.O. Box 56</street>
+            <townOrCity>University of Helsinki</townOrCity>
+            <country>Finland</country>
+            <postOrZipCode>00014</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-7060-5871</authorORCID>
+            <firstName>Sarah</firstName>
+            <middleName>Jane</middleName>
+            <lastName>Butcher</lastName>
+            <organization type="academic">Faculty of Biological and Environmental Sciences and Institute of Biotechnology, University of Helsinki</organization>
+            <street>P.O. Box 56</street>
+            <townOrCity>University of Helsinki</townOrCity>
+            <country>Finland</country>
+            <postOrZipCode>12</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-3378-0683">Geraets JA</author>
+            <author authorORCID="0000-0001-5406-8156">Flatt JW</author>
+            <author authorORCID="0000-0002-3772-6003">Domanska A</author>
+            <author authorORCID="0000-0001-7060-5871">Butcher SJ</author>
+        </authorsList>
+        <datasetSize units="TB">2.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10199</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-0103</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-9771-7312" order="1">Abdelnabi R</author>
+                    <author authorORCID="0000-0003-3378-0683" order="2">Geraets JA</author>
+                    <author order="3">Ma Y</author>
+                    <author authorORCID="0000-0002-4785-5482" order="4">Mirabelli C</author>
+                    <author authorORCID="0000-0001-5406-8156" order="5">Flatt JW</author>
+                    <author authorORCID="0000-0002-3772-6003" order="6">Domanska A</author>
+                    <author authorORCID="0000-0002-8874-675X" order="7">Delang L</author>
+                    <author authorORCID="0000-0002-9265-6028" order="8">Jochmans D</author>
+                    <author order="9">Kumar TA</author>
+                    <author authorORCID="0000-0002-9724-4153" order="10">Jayaprakash V</author>
+                    <author authorORCID="0000-0002-6558-3572" order="11">Sinha BN</author>
+                    <author authorORCID="0000-0002-7537-1688" order="12">Leyssen P</author>
+                    <author authorORCID="0000-0001-7060-5871" order="13">Butcher SJ</author>
+                    <author authorORCID="0000-0002-0033-7514" order="14">Neyts J</author>
+                    <title>A novel druggable interprotomer pocket in the capsid of rhino- and enteroviruses</title>
+                    <journal>PLoS biology</journal>
+                    <journalAbbreviation>PLoS Biol.</journalAbbreviation>
+                    <country></country>
+                    <issue>6</issue>
+                    <volume>17</volume>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1371/journal.pbio.3000281</externalReferences>
+                    <externalReferences type="pubmed">31185007</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of CVB3 in complex with a small molecular inhibitor</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2120</numImagesOrTiltSeries>
+        <framesPerImage>20</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>20</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.048</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.048</pixelHeight>
+        </dimensions>
+        <details>These data are unaligned frames (20 dose fractions) collected on a K2 Summit in counting mode at Diamond Light Source, U.K. Total electron dose was ~47e-/Å². Micrographs are grouped by the GridSquare in which they were collected. Also included are the particle coordinates for 10173 particles after 2D classification (Relion particle coordinate STAR file format).</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

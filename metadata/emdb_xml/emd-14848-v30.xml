@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-14848">
+    <admin>
+        <current_status>
+            <date>2024-07-24</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-04-26</deposition>
+            <header_release>2022-11-30</header_release>
+            <map_release>2022-11-30</map_release>
+            <update>2024-07-24</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Swiss National Science Foundation</funding_body>
+                <code>SNF Grants CRSII5_177195</code>
+                <country>Switzerland</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Swiss National Science Foundation</funding_body>
+                <code>NCCR TransCure (185544)</code>
+                <country>Switzerland</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of a CRISPR effector in complex with a caspase regulator</title>
+        <authors_list>
+            <author>Babatunde EE</author>
+            <author>Davide T</author>
+            <author>Bertrand B</author>
+            <author>Sergey N</author>
+            <author>Alexander M</author>
+            <author>Henning S</author>
+            <author>Dong CN</author>
+        </authors_list>
+        <keywords>CRISPR-cas, effector, regulator, CrRNA, guide RNA, antiphage, ANTIVIRAL PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Ekundayo B</author>
+                    <author ORCID="0000-0002-7072-0578" order="2">Torre D</author>
+                    <author order="3">Beckert B</author>
+                    <author order="4">Nazarov S</author>
+                    <author ORCID="0000-0003-2607-7121" order="5">Myasnikov A</author>
+                    <author ORCID="0000-0002-1185-4592" order="6">Stahlberg H</author>
+                    <author ORCID="0000-0002-3193-6077" order="7">Ni D</author>
+                    <title>Structural insights into the regulation of Cas7-11 by TPR-CHAT.</title>
+                    <journal_abbreviation>Nat.Struct.Mol.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>30</volume>
+                    <first_page>135</first_page>
+                    <last_page>139</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">36471056</external_references>
+                    <external_references type="DOI">doi:10.1038/s41594-022-00894-5</external_references>
+                    <external_references type="ISSN">1545-9985</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-14847</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>NTD</details>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7zoq</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Cas7-11 with TRP-CHAT-full</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Cas7-11 with TRP-CHAT-full</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="45655">Desulfonema magnum</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.31</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>TPR-CHAT</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="45655">Desulfonema magnum</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.09538682</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSSAFSGLKIPELSVDPAEVFKSDNPQLVSVLLDEFELQEQRPFFSGLIPEKQINIALKKSPQLKKLACHLLEAYEINGR
+RWKHADRRRVLEKAIRLLEKVSNELKGDIQKLENNVKESGKDSEELNKTREKHGEILADMGRAYLHRAKIIRPKGFTIPA
+KKKESLRKALDFCKEAKARHLAGLVGLEMDRCDMSDFDSENSLEKLLRDATTGVSLSKDQYYSNEYRKAEYYQMCIRLAE
+IEEDKHGATDEGSENNRYKRLEGILGPKKSQGKKKGKKNKKKKGTNSKSALEKIMAFEKFKVAVYLGEGKEKTHWNDFSE
+FLMRYPFSHPSWEDSVRFLRRLYKKGNDKWRELSVALWEIAKKNSAKTSSIHLRWYWSRQRDLYDLAFLSALEQADIAED
+ESVRQEKLRLAAKVADSAKNRPALTWQAMEQMADKDEALKKEIENYAQALGGGYIEQFEKTELPKNTNPQDDIPDDLKTS
+GLVVQFYLVHLKDYENGYALIYDGKTKKWSCEMFNFFPIWEKYLQWQSVYFDLPANQKEESADQLKALCLELGRHLYFLF
+DFEENRKAHEKNQDTAKENWDMLFIPHDFLHRVPIHGAIKKNGTNILLKKFNCTYFPTLPNASITPESPKSDNVAELIEY
+FSEHEKDYSEYFDKIEHIFDKKNRAATSQDLLDAAISPPRTLTIYCHGQSDVNNPFYSRLLLKDKLELIKLATLQEHYSG
+THIFLGACETDLMPPLSAPLDEQLSMAAMFLQKGVGSVLGTLWEAYPRAVKDIVKNILSADDTQYFEKLFSLKKKISVNQ
+KKSLYYYLCFKLYRSFDQIGKE</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>cas7-11</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="45655">Desulfonema magnum</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.207402859</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGSSHHHHHHSQDPMQHIIPLTITFLESFRVIEWHKSSDRNSLRFLRGYAYARWHRSLKNNKGRPYITGTLVRSAIIRAA
+EELLWLNDGNYKGAICCPGEFNGSNAKVFREGKARRLRRRQTLTWPTKCACHEKEPCPFCLLLGRYEKSSKTSKSPVLNN
+VNFSNFNVLGKEKEFLNIEDVADMRVVNRVDQQSGKAEDFFNIWEITDGAWKIFRGEIQVSDKGWSDEENFSKFLTLLKG
+ASVLVDKISGGLCYLTLDKPELAELPAVKTEKDVLEPGDDASVLEISRPPYWNNMLNLAGTISEAFEREDKLVHLRLFAD
+TVRELRRSDIETLDLPKGHADRLGKPSDHFIWDIEINKKVKLRNWLFWIFNEFRDTYAYFDWRTFCEALGQALYLEAKKQ
+VPNQFSSERPVGATPAMEVKTPEHDPGRAAQGPRYEWLIKGELVSQTPFFFGWSTEADNREHTNLKLLAARDGRLRLPLS
+VLRGILRRDIKVVLDNKCRAELAMKQPCSCPVCNLMKKITIRDSFSSNYAEPPKIRHKIRLDPKSGTVAKGALFDSEVGP
+RGVVFPFELRLRSADDTLPQALKTVFSWWQQGTVSFSGDAGTGKGIFCLRNLKSIRWDLKTEMDKYAATLGGRKTPVGKW
+DKCHIPDDKTYPWVKETVEISVCSPFITKDPVNSLIDSAGYDAICYTTVDLEKSENINSLPESEISLLFEMFDLQYPMSY
+LFPNKDIYLLKGESFRGMLRTAVGRGENLLLREHEDCSCTLCRIFGNEHNAGKIRVEDFIIQGEPRTKLVDRVAIDRFTA
+GAKDKFKFDAAPIVGTPTNKLKFRGNIWIHRDLDGLACESLKLALEDIENGLYPFGGLGNAGFGWVNYNPLSHPAQEENK
+ADFSLTKKMELNWSMKELSTDKIYWPHYFLPFGKKVLREKTPPSHACIDENEDSELYSGKIVCTLETRTPLIIPDSEFQG
+EEHKSYDFFNLNGELCIPGSEIRGMISSVFEALTNSCMRIFDEKKRLSWRMNPNKKDKKNNNRRELDDFIPGRVTNDRKM
+EEMKEYRYPFYDQAITANDKQNKYFDQWEATIELTDESLEKLKAEKILQSVLDALRPLTKKKEKYKNTETFVFDLKKFIG
+KIDDNQQMISEALERGKVRLTGNSLKQISKTKKIPRQILNQLKGLKDNTYENREQFISVLKTTVRGINDEQISLILDNID
+EDVRLTDLSLTKIRKAKVPQTLVDMLADLKKDEPYKNEKEFLSEFKKKMGEIIGLILKHAAKTGGDVPRYNHPTPTDKML
+LSLAAYNRNHKHENGKAEYRIVKPKHNLKVDFMFAVTPFENPFKGYNPAAVVEEPVGGYLKVSGPNKIEKVKKVNPNSVS
+VRDDKNQEIIHNGVYLRKITVANAKSKNKLRERLVPEFAWYDKDSEAAYAMTKRCERVFVEIGAKPIPIQPSAREKFKIL
+TQEYQKNAKQQKTPEAFQTILPKDGELRPGDLVYFREDKKTNTVTDIIPVRISRTVDDEVLARKIPDDVGDVRPCVREIL
+DKEKQKEIADAGVKEVFQHHPDGLCPACSLFGTTFYKGRIAFGFAFHKDKDPELANNGKHITLPLLERPRPTWSMPKKES
+RVPGRKFYVHHQGWERVIKHSNLDESDPNATKQTVNNRSVQAIKEEQKFQFEVRFENLREWELGLLVYVLQLEPQFAHKL
+GMGKALGFGSVRIRVGEIHSGPKELDESRLVSSAMKKMEEIWDRDKNVLEKLFRLLYFNESKDIKVRYPKLQKEKEEEEE
+ESGYMELAKEEYQPEQRRNKLTNPWEGWGNILKKPAILI</string>
+                </sequence>
+            </protein_or_peptide>
+            <rna macromolecule_id="3">
+                <name>RNA (39-MER)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="45655">Desulfonema magnum</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.012344250999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>UAUGUGAUGGAACCUCUCCGGAUAAUUCUAUCUCUUCUG</string>
+                </sequence>
+            </rna>
+            <ligand macromolecule_id="4">
+                <name>ZINC ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">6.5409e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <formula>ZN</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1.2</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>GOLD</material>
+                        <mesh>400</mesh>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">30</time>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">298</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.5</nominal_defocus_max>
+                    <nominal_magnification>96000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">60.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>1719283</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <algorithm>BACK PROJECTION</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">3.2</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>65755</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="70305">
+        <file>emd_14848.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>260</col>
+            <row>260</row>
+            <sec>260</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>260</x>
+            <y>260</y>
+            <z>260</z>
+        </spacing>
+        <cell>
+            <a units="Å">331.99402</a>
+            <b units="Å">331.99402</b>
+            <c units="Å">331.99402</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.38358805</minimum>
+            <maximum>0.9311176</maximum>
+            <average>0.00010264354</average>
+            <std>0.03371714</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.2769</x>
+            <y units="Å">1.2769</y>
+            <z units="Å">1.2769</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.1</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-14848::::</label>
+        <annotation_details>752</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>43.0</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="70305">
+                <file>emd_14848_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>260</col>
+                    <row>260</row>
+                    <sec>260</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>260</x>
+                    <y>260</y>
+                    <z>260</z>
+                </spacing>
+                <cell>
+                    <a units="Å">331.99402</a>
+                    <b units="Å">331.99402</b>
+                    <c units="Å">331.99402</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.3396402</minimum>
+                    <maximum>0.84935564</maximum>
+                    <average>0.00010264353</average>
+                    <std>0.03068225</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.2769</x>
+                    <y units="Å">1.2769</y>
+                    <z units="Å">1.2769</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14848::::</label>
+                <annotation_details>752</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="70305">
+                <file>emd_14848_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>260</col>
+                    <row>260</row>
+                    <sec>260</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>260</x>
+                    <y>260</y>
+                    <z>260</z>
+                </spacing>
+                <cell>
+                    <a units="Å">331.99402</a>
+                    <b units="Å">331.99402</b>
+                    <c units="Å">331.99402</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.25385717</minimum>
+                    <maximum>0.5755893</maximum>
+                    <average>0.00010187143</average>
+                    <std>0.019194372</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.2769</x>
+                    <y units="Å">1.2769</y>
+                    <z units="Å">1.2769</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14848::::</label>
+                <annotation_details>752</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="70305">
+                <file>emd_14848_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>260</col>
+                    <row>260</row>
+                    <sec>260</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>260</x>
+                    <y>260</y>
+                    <z>260</z>
+                </spacing>
+                <cell>
+                    <a units="Å">331.99402</a>
+                    <b units="Å">331.99402</b>
+                    <c units="Å">331.99402</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.7173767</minimum>
+                    <maximum>1.7186012</maximum>
+                    <average>0.0003811862</average>
+                    <std>0.2174082</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.2769</x>
+                    <y units="Å">1.2769</y>
+                    <z units="Å">1.2769</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14848::::</label>
+                <annotation_details>1</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="70305">
+                <file>emd_14848_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>260</col>
+                    <row>260</row>
+                    <sec>260</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>260</x>
+                    <y>260</y>
+                    <z>260</z>
+                </spacing>
+                <cell>
+                    <a units="Å">331.99402</a>
+                    <b units="Å">331.99402</b>
+                    <c units="Å">331.99402</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.900912</minimum>
+                    <maximum>1.7131389</maximum>
+                    <average>0.00041023252</average>
+                    <std>0.21633975</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.2769</x>
+                    <y units="Å">1.2769</y>
+                    <z units="Å">1.2769</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14848::::</label>
+                <annotation_details>2</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

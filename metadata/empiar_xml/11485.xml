@@ -1,0 +1,117 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11485" schemaVersion="0.63" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-02-12</depositionDate>
+            <releaseDate>2023-07-18</releaseDate>
+            <updateDate>2023-07-18</updateDate>
+        </keyDates>
+        <title>Human alpha-catenin monomer</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-3902-8847</authorORCID>
+            <firstName>Rangarajan</firstName>
+            <middleName>Srinivasan</middleName>
+            <lastName>Erumbi</lastName>
+            <organization type="academic">UF Scripps Biomedical Research</organization>
+            <street>130 Scripps Way</street>
+            <townOrCity>Jupiter</townOrCity>
+            <stateOrProvince>Florida</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>33458</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-2895-483X</authorORCID>
+            <firstName>Tina</firstName>
+            <middleName>-</middleName>
+            <lastName>Izard</lastName>
+            <organization type="academic">UF Biomedical Research</organization>
+            <street>130 Scripps Way</street>
+            <townOrCity>Jupiter</townOrCity>
+            <stateOrProvince>Florida</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>33458</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-3902-8847">Rangarajan ES</author>
+            <author authorORCID="0000-0003-0985-6617">Smith EW</author>
+            <author authorORCID="0000-0002-2895-483X">Izard T</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">8.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11485</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-27717</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-3902-8847" order="1">Rangarajan ES</author>
+                    <author authorORCID="0000-0003-0985-6617" order="2">Smith EW</author>
+                    <author authorORCID="0000-0002-2895-483X" order="3">Izard T</author>
+                    <title>Distinct inter-domain interactions of dimeric versus monomeric α-catenin link cell junctions to filaments</title>
+                    <journal>Communications biology</journal>
+                    <journalAbbreviation>Commun Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>6</volume>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s42003-023-04610-x</externalReferences>
+                    <externalReferences type="pubmed">36928388</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Patch motion corrected micrographs.</name>
+        <directory>/data/Micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>13116</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.72</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.72</pixelHeight>
+        </dimensions>
+        <details>Curated motion corrected images.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned raw multi frame micrographs</name>
+        <directory>/data/Movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>16291</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.36</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.36</pixelHeight>
+        </dimensions>
+        <details>Raw movies collected in super resolution mode.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

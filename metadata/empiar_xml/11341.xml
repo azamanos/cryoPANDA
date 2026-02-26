@@ -1,0 +1,103 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11341" schemaVersion="0.64" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-10-04</depositionDate>
+            <releaseDate>2023-10-13</releaseDate>
+            <updateDate>2024-01-16</updateDate>
+        </keyDates>
+        <title>cryo-EM structure of a broadly neutralizing anti-SARS-CoV-2 antibody STI-9167</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-0480-4324</authorORCID>
+            <firstName>Goran</firstName>
+            <lastName>Bajic</lastName>
+            <organization type="academic">Icahn School of Medicine at Mount Sinai</organization>
+            <street>One Gustave L Levy Place, #1124</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10029</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-0480-4324</authorORCID>
+            <firstName>Goran</firstName>
+            <lastName>Bajic</lastName>
+            <organization type="academic">Icahn School of Medicine at Mount Sinai</organization>
+            <street>One Gustave L Levy Place, #1124</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10029</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-0480-4324">Bajic G</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>National Institutes of Health (NIH)</fundingBody>
+                <code>AI168178</code>
+                <country>United States</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">1.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11341</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-28537</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-1025-4640" order="1">Atanasoff KE</author>
+                    <author order="2">Brambilla L</author>
+                    <author order="3">Adelsberg DC</author>
+                    <author order="4">Kowdle S</author>
+                    <author order="5">Stevens CS</author>
+                    <author order="6">Slamanig S</author>
+                    <author order="7">Hung C-T</author>
+                    <author order="8">Fu Y</author>
+                    <author order="9">Lim R</author>
+                    <author order="10">Tran L</author>
+                    <author order="11">Allen R</author>
+                    <author order="12">Sun W</author>
+                    <author order="13">Duty JA</author>
+                    <author authorORCID="0000-0003-0480-4324" order="14">Bajic G</author>
+                    <author authorORCID="0000-0003-0760-1709" order="15">Lee B</author>
+                    <author authorORCID="0000-0003-0961-3535" order="16">Tortorella D</author>
+                    <title>An &lt;i&gt;in vitro&lt;/i&gt; experimental pipeline to characterize the epitope of a SARS-CoV-2 neutralizing antibody</title>
+                    <journal>mBio</journal>
+                    <journalAbbreviation>mBio</journalAbbreviation>
+                    <country>United States</country>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1128/mbio.02477-23</externalReferences>
+                    <externalReferences type="pubmed">38054729</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned, dose-weighted micrographs of STI-9167 in complex with SARS-CoV-2 spike</name>
+        <directory>/data/imported</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>20590</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

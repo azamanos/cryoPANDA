@@ -1,0 +1,133 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10532" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-05-14</depositionDate>
+            <releaseDate>2020-11-11</releaseDate>
+            <updateDate>2020-11-11</updateDate>
+        </keyDates>
+        <title>Single-Particle CryoEM of Influenza Hemagglutinin (HA) Trimer Vitrified Using Back-it-up</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-6656-6320</authorORCID>
+            <firstName>Yong Zi</firstName>
+            <lastName>Tan</lastName>
+            <organization type="academic">The Hospital for Sick Children</organization>
+            <street>686 Bay Street</street>
+            <townOrCity>Toronto</townOrCity>
+            <stateOrProvince>Ontario</stateOrProvince>
+            <country>Canada</country>
+            <postOrZipCode>M5G0A4</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-0566-2209</authorORCID>
+            <firstName>John</firstName>
+            <middleName>L</middleName>
+            <lastName>Rubinstein</lastName>
+            <organization type="academic">The Hospital for Sick Children</organization>
+            <street>686 Bay Street</street>
+            <townOrCity>Toronto</townOrCity>
+            <stateOrProvince>Ontario</stateOrProvince>
+            <country>Canada</country>
+            <postOrZipCode>M5G0A4</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-6656-6320">Tan YZ</author>
+            <author authorORCID="0000-0003-0566-2209">Rubinstein JL</author>
+        </authorsList>
+        <datasetSize units="TB">1.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10532</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-21954</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-6656-6320" order="1">Tan YZ</author>
+                    <author authorORCID="0000-0003-0566-2209" order="2">Rubinstein JL</author>
+                    <title>Through-grid wicking enables high-speed cryoEM specimen preparation</title>
+                    <journal>Acta crystallographica. Section D, Structural biology</journal>
+                    <journalAbbreviation>Acta Crystallogr D Struct Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>Pt 11</issue>
+                    <volume>76</volume>
+                    <firstPage>1092</firstPage>
+                    <lastPage>1103</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1107/s2059798320012474</externalReferences>
+                    <externalReferences type="pubmed">33135680</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned Falcon IV movies</name>
+        <directory>/data/01_Raw_Frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>1556</numImagesOrTiltSeries>
+        <framesPerImage>30</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>30</frameRangeMax>
+        </frameRange>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.03</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.03</pixelHeight>
+        </dimensions>
+        <details>1,556 movies were acquired from one grid with hemagglutinin prepared with the BIU device. The calibrated pixel size was 1.03 Å. Movies were collected for 9 sec with 29 exposure fractions, a camera exposure rate of ~5 e–/pix/sec, and a total specimen exposure of ~40 e-/Å2. No objective aperture was used. Note: Due to software issues, the last frames in these raw movies have errors. Please exclude the last frame (frame 30) when doing any alignments.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/02_Aligned_Micrographs/motioncorrected/*doseweighted.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/03_Refined_Particles/P30_J363_particles/P30_J363_particles_exported.cs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/03_Refined_Particles/P30_J363_particles/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned micrographs</name>
+        <directory>/data/02_Aligned_Micrographs/motioncorrected</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1556</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.03</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.03</pixelHeight>
+        </dimensions>
+        <details>Micrographs were aligned using cryoSPARC patch motion correction.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/02_Aligned_Micrographs/motioncorrected/*doseweighted.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/03_Refined_Particles/P30_J363_particles/P30_J363_particles_exported.cs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/03_Refined_Particles/P30_J363_particles/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final Refined Particles with Euler Angles and Shifts</name>
+        <directory>/data/03_Refined_Particles/P30_J363_particles/J342/localmotioncorrected</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>128305</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.03</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.03</pixelHeight>
+        </dimensions>
+        <details>Final refined particles from cryoSPARC with Euler angles and shifts.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/02_Aligned_Micrographs/motioncorrected/*doseweighted.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/03_Refined_Particles/P30_J363_particles/P30_J363_particles_exported.cs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/03_Refined_Particles/P30_J363_particles/</pickedParticlesDirectory>
+    </imageSet>
+</entry>

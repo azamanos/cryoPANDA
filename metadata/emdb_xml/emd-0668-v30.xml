@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_5/emdb.xsd" emdb_id="EMD-0668" version="3.0.1.5">
+    <admin>
+        <current_status>
+            <date>2019-06-26</date>
+            <code>REL</code>
+            <processing_site>PDBj</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBj</deposition>
+            <last_processing>PDBj</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-01-10</deposition>
+            <header_release>2019-06-19</header_release>
+            <map_release>2019-06-26</map_release>
+            <update>2019-06-26</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Ministry of Science and Technology (China)</funding_body>
+                <code>2017YFA0504600 and 2016YFA0501100</code>
+                <country>China</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Natural Science Foundation of China</funding_body>
+                <code>21532004, 31570733 and 31800620</code>
+                <country>China</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Science Foundation (China)</funding_body>
+                <code>31625008</code>
+                <country>China</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of the mammalian E-state ATP synthase FO section</title>
+        <authors_list>
+            <author>Gu JK</author>
+            <author>Zhang LX</author>
+            <author>Yi JB</author>
+            <author>Yang MJ</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Gu J</author>
+                    <author order="2">Zhang L</author>
+                    <author order="3">Zong S</author>
+                    <author order="4">Guo R</author>
+                    <author order="5">Liu T</author>
+                    <author order="6">Yi J</author>
+                    <author order="7">Wang P</author>
+                    <author order="8">Zhuo W</author>
+                    <author order="9">Yang M</author>
+                    <title>Cryo-EM structure of the mammalian ATP synthase tetramer bound with inhibitory protein IF1.</title>
+                    <journal_abbreviation>Science</journal_abbreviation>
+                    <country>US</country>
+                    <volume>364</volume>
+                    <first_page>1068</first_page>
+                    <last_page>1075</last_page>
+                    <year>2019</year>
+                    <external_references type="PUBMED">31197009</external_references>
+                    <external_references type="DOI">doi:10.1126/science.aaw4852</external_references>
+                    <external_references type="ISSN">1095-9203</external_references>
+                    <external_references type="CSD">0038</external_references>
+                    <external_references type="ASTM">SCIEAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-0668</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6j54</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Cryo-EM structure of the mammalian E-state ATP synthase FO section</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Cryo-EM structure of the mammalian E-state ATP synthase FO section</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="9822">Sus</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.0</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <details></details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">1.56</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.9</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>167954</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>RANDOM ASSIGNMENT</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>RANDOM ASSIGNMENT</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="55297">
+        <file>emd_0668.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>240</col>
+            <row>240</row>
+            <sec>240</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>240</x>
+            <y>240</y>
+            <z>240</z>
+        </spacing>
+        <cell>
+            <a units="Å">331.2</a>
+            <b units="Å">331.2</b>
+            <c units="Å">331.2</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.13042706</minimum>
+            <maximum>0.18580157</maximum>
+            <average>0.00011490878</average>
+            <std>0.0027791094</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.38</x>
+            <y units="Å">1.38</y>
+            <z units="Å">1.38</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0286</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::D_1300010470::::</label>
+    </map>
+</emd>

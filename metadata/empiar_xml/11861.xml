@@ -1,0 +1,229 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11861" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-01-16</depositionDate>
+            <releaseDate>2024-05-13</releaseDate>
+            <updateDate>2024-05-13</updateDate>
+        </keyDates>
+        <title>Structure of an endogenous human TREX complex bound to mRNA (single particle cryo-EM dataset)</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-5975-5609</authorORCID>
+            <firstName>Matthias</firstName>
+            <middleName>Kopano</middleName>
+            <lastName>Vorländer</lastName>
+            <organization type="academic">Forschungsinstitut für Molekulare Pathologie</organization>
+            <street>Campus-Vienna-Biocenter 1</street>
+            <townOrCity>Wien</townOrCity>
+            <country>Austria</country>
+            <postOrZipCode>1030</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-6020-9514</authorORCID>
+            <firstName>Clemens</firstName>
+            <lastName>Plaschka</lastName>
+            <organization type="academic">Forschungsinstitut für Molekulare Pathologie</organization>
+            <street>Campus-Vienna-Biocenter 1</street>
+            <townOrCity>Wien</townOrCity>
+            <country>Austria</country>
+            <postOrZipCode>1030</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Pacheco-Fiallos B</author>
+            <author authorORCID="0000-0001-5975-5609">Vorländer MK</author>
+            <author authorORCID="0000-0002-6020-9514">Plaschka C</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>European Research Council (ERC)</fundingBody>
+                <code>ERC-2020-STG 949081 RNApaxport</code>
+                <country>Belgium</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Welch Foundation</fundingBody>
+                <code>203149</code>
+                <country>United Kingdom</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>European Molecular Biology Organization (EMBO)</fundingBody>
+                <code>ALTF 623-2020</code>
+                <country>Germany</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>European Research Council (ERC)</fundingBody>
+                <code>MCSA 101028744</code>
+                <country>Belgium</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">6.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11861</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-14804</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Pacheco-Fiallos B</author>
+                    <author authorORCID="0000-0001-5975-5609" order="2">Vorländer MK</author>
+                    <author order="3">Riabov-Bassat D</author>
+                    <author order="4">Fin L</author>
+                    <author authorORCID="0000-0001-9258-0150" order="5">O'Reilly FJ</author>
+                    <author authorORCID="0000-0002-7844-0570" order="6">Ayala FI</author>
+                    <author authorORCID="0000-0002-9684-9839" order="7">Schellhaas U</author>
+                    <author authorORCID="0000-0001-5999-1310" order="8">Rappsilber J</author>
+                    <author authorORCID="0000-0002-6020-9514" order="9">Plaschka C</author>
+                    <title>mRNA recognition and packaging by the human transcription-export complex</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <issue>7958</issue>
+                    <volume>616</volume>
+                    <firstPage>828</firstPage>
+                    <lastPage>835</lastPage>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41586-023-05904-0</externalReferences>
+                    <externalReferences type="pubmed">37020021</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned movies in compressed TIFF format collected on a K3 detector (dataset 1)</name>
+        <directory>/data/TREX-mRNP_SPA/frames_dataset1</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>11756</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.381</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.381</pixelHeight>
+        </dimensions>
+        <details>Unaligned movies in compressed TIFF format collected on a K3 detector with a total dose of 60 e-/Å2 (dataset 1)</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/TREX-mRNP_SPA/frames_dataset1/*tif</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Motion-corrected micrographs (dataset 1)</name>
+        <directory>/data/TREX-mRNP_SPA/motioncorrected_dataset1</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>11756</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.381</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.381</pixelHeight>
+        </dimensions>
+        <details>Aligned micrographs (dataset 1)</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/TREX-mRNP_SPA/motioncorrected_dataset1/*mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies in compressed TIFF format collected on a K3 detector (dataset 2)</name>
+        <directory>/data/TREX-mRNP_SPA/frames_dataset2</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>10182</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.381</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.381</pixelHeight>
+        </dimensions>
+        <details>Unaligned movies in compressed TIFF format collected on a K3 detector with a total dose of 60 e-/Å2 (dataset 2)</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/TREX-mRNP_SPA/frames_dataset2/*tif</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Motion-corrected micrographs (dataset 2)</name>
+        <directory>/data/TREX-mRNP_SPA/motioncorrected_dataset2</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>10182</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.381</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.381</pixelHeight>
+        </dimensions>
+        <details>Aligned micrographs (dataset 1)</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/TREX-mRNP_SPA/motioncorrected_dataset2/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Gainref file for motion correction of compressed tiff movies (dataset 1)</name>
+        <directory>/data/TREX-mRNP_SPA/gainref_dataset1</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.381</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.381</pixelHeight>
+        </dimensions>
+        <details>Gainref file for motion correction of dataset 1</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/TREX-mRNP_SPA/gainref_dataset1/CountRef_BP06_1_131-239_000_-0.0_Feb17.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Gainref file for motion correction of compressed tiff movies (dataset 2)</name>
+        <directory>/data/TREX-mRNP_SPA/gainref_dataset2</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.381</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.381</pixelHeight>
+        </dimensions>
+        <details>Gainref file for motion correction of dataset 2</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/TREX-mRNP_SPA/gainref_dataset2/CountRef_BP07_g2_106-25_000_-0.0_Jun02.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

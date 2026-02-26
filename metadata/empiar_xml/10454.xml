@@ -1,0 +1,127 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10454" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-05-22</depositionDate>
+            <releaseDate>2020-07-27</releaseDate>
+            <updateDate>2020-07-27</updateDate>
+        </keyDates>
+        <title>Saccharomyces cerevisiae fatty acid synthase complex with bound gamma subunit</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-6161-1118</authorORCID>
+            <firstName>Holger</firstName>
+            <lastName>Stark</lastName>
+            <organization type="academic">Max Planck Institute for Biophysical Chemistry</organization>
+            <street>am Fassberg 11</street>
+            <townOrCity>Goettingen</townOrCity>
+            <stateOrProvince>Lower saxony</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>37077</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-6161-1118</authorORCID>
+            <firstName>Holger</firstName>
+            <lastName>Stark</lastName>
+            <organization type="academic">Max Planck Institute for Biophysical Chemistry</organization>
+            <street>am Fassberg 11</street>
+            <townOrCity>Goettingen</townOrCity>
+            <stateOrProvince>Lower saxony</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>37077</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-6220-9828</authorORCID>
+            <firstName>Ashwin</firstName>
+            <lastName>Chari</lastName>
+            <organization type="academic">Max Planck Institute for Biophysical Chemistry</organization>
+            <street>am Fassberg 11</street>
+            <townOrCity>Goettingen</townOrCity>
+            <stateOrProvince>Lower saxony</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>37077</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-9891-8148">Singh K</author>
+            <author>Graf B</author>
+            <author authorORCID="0000-0002-6161-1118">Stark H</author>
+            <author authorORCID="0000-0001-6220-9828">Chari A</author>
+        </authorsList>
+        <datasetSize units="GB">329.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10454</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-4577</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-9891-8148" order="1">Singh K</author>
+                    <author order="2">Graf B</author>
+                    <author order="3">Linden A</author>
+                    <author order="4">Sautner V</author>
+                    <author order="5">Urlaub H</author>
+                    <author order="6">Tittmann K</author>
+                    <author authorORCID="0000-0002-6161-1118" order="7">Stark H</author>
+                    <author authorORCID="0000-0001-6220-9828" order="8">Chari A</author>
+                    <title>Discovery of a Regulatory Subunit of the Yeast Fatty Acid Synthase</title>
+                    <journal>Cell</journal>
+                    <journalAbbreviation>Cell</journalAbbreviation>
+                    <country>Germany</country>
+                    <issue>6</issue>
+                    <volume>180</volume>
+                    <firstPage>1130</firstPage>
+                    <lastPage>1143</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.cell.2020.02.034</externalReferences>
+                    <externalReferences type="pubmed">32160528</externalReferences>
+                    <details>The micrographs are the motion-corrected, aligned and dose-weighted.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned and doseweighted  micrographs of yeast fatty acid synthase with bound gamma subunit</name>
+        <directory>/data/for_empiar</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4593</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.06</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.06</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/for_empiar/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/polished_particles/fas_plus_gammasubunit_final_shiny.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/polished_particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Stack of Polished particles (in relion) used for final reconstruction</name>
+        <directory>/data/polished_particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>110597</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>320</imageWidth>
+            <pixelWidth>1.06</pixelWidth>
+            <imageHeight>320</imageHeight>
+            <pixelHeight>1.06</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

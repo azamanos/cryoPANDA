@@ -1,0 +1,273 @@
+<emd emdb_id="EMD-2527" version="3.0.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+    <admin>
+        <current_status>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2013-12-04</deposition>
+            <header_release>2014-01-08</header_release>
+            <map_release>2014-01-15</map_release>
+            <update>2016-02-17</update>
+        </key_dates>
+        <title>The electron crystallography structure of the cAMP-free potassium channel MloK1</title>
+        <authors_list>
+            <author>Kowal J</author>
+            <author>Chami M</author>
+            <author>Baumgartner P</author>
+            <author>Arheit M</author>
+            <author>Chiu P-L</author>
+            <author>Rangl M</author>
+            <author>Scheuring S</author>
+            <author>Schroeder GF</author>
+            <author>Nimigean CM</author>
+            <author>Stahlberg H</author>
+        </authors_list>
+        <keywords>Electron crystallography, 2dx, voltage gated potassium channel, CNBD, 2D crystal</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Kowal J</author>
+                    <author order="2">Chami M</author>
+                    <author order="3">Baumgartner P</author>
+                    <author order="4">Arheit M</author>
+                    <author order="5">Chiu P-L</author>
+                    <author order="6">Rangl M</author>
+                    <author order="7">Scheuring S</author>
+                    <author order="8">Schroeder GF</author>
+                    <author order="9">Nimigean CM</author>
+                    <author order="10">Stahlberg H</author>
+                    <title>Ligand-induced structural changes in the cyclic nucleotide-modulated potassium channel MloK1.</title>
+                    <journal>NAT.COMMUN.</journal>
+                    <volume>5</volume>
+                    <first_page>3106</first_page>
+                    <last_page>3106</last_page>
+                    <year>2014</year>
+                    <external_references type="PUBMED">24469021</external_references>
+                    <external_references type="DOI">doi:10.1038/ncomms4106</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>4chw</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+        <auxiliary_link_list>
+            <auxiliary_link>
+                <link>http://www.2dx.unibas.ch/download/2dx-software/test-data</link>
+            </auxiliary_link>
+        </auxiliary_link_list>
+    </crossreferences>
+    <sample>
+        <name>MloK1 without cAMP</name>
+        <supramolecule_list>
+            <sample_supramolecule supramolecule_id="1000">
+                <name>MloK1 without cAMP</name>
+                <oligomeric_state>tetramer</oligomeric_state>
+                <number_unique_components>1</number_unique_components>
+                <molecular_weight>
+                    <theoretical units="MDa">0.148</theoretical>
+                    <method>Calculated from sequence for the tetrameric assembly. Lipids are not included.</method>
+                </molecular_weight>
+            </sample_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name synonym="MlotiK1">MloK1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="381">Mesorhizobium loti</organism>
+                    <synonym_organism>Rhizobium</synonym_organism>
+                    <cellular_location>Membrane</cellular_location>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.148</theoretical>
+                </molecular_weight>
+                <details>cAMP not present in buffer</details>
+                <number_of_copies>4</number_of_copies>
+                <oligomeric_state>Tetramer</oligomeric_state>
+                <recombinant_exp_flag>true</recombinant_exp_flag>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="469008">Escherichia coli BL21(DE3)</recombinant_organism>
+                    <recombinant_plasmid>pASK90</recombinant_plasmid>
+                </recombinant_expression>
+                <sequence>
+                    <external_references type="UNIPROTKB">Q98GN8</external_references>
+                    <external_references type="GO">GO:0006810</external_references>
+                    <external_references type="GO">GO:0006811</external_references>
+                    <external_references type="GO">GO:0006813</external_references>
+                    <external_references type="GO">GO:0071805</external_references>
+                    <external_references type="GO">GO:0000166</external_references>
+                    <external_references type="GO">GO:0005267</external_references>
+                    <external_references type="GO">GO:0030552</external_references>
+                    <external_references type="GO">GO:0005886</external_references>
+                    <external_references type="GO">GO:0016020</external_references>
+                    <external_references type="GO">GO:0016021</external_references>
+                    <external_references type="INTERPRO">IPR013099</external_references>
+                    <external_references type="INTERPRO">IPR018490</external_references>
+                    <external_references type="INTERPRO">IPR018488</external_references>
+                    <external_references type="INTERPRO">IPR000595</external_references>
+                    <external_references type="INTERPRO">IPR003091</external_references>
+                    <external_references type="INTERPRO">IPR027278</external_references>
+                    <external_references type="INTERPRO">IPR014710</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>electronCrystallography</method>
+            <aggregation_state>twoDArray</aggregation_state>
+            <specimen_preparation_list>
+                <crystallography_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.7</concentration>
+                    <buffer>
+                        <ph>7.6</ph>
+                        <details>20 mM KCl, 1 mM BaCl2, 1 mM EDTA, 20 mM Tris</details>
+                    </buffer>
+                    <grid>
+                        <details>Holey carbon film (Quantifoil) covered with ultra thin carbon film. Vitrified in crystallization buffer solution by plunge freezing into ethane.</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">90</chamber_humidity>
+                        <chamber_temperature units="K">120</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <method>Blot for 3 seconds before plunging</method>
+                    </vitrification>
+                    <details>Dialysis</details>
+                    <crystal_formation>
+                        <details>Dialysis</details>
+                    </crystal_formation>
+                </crystallography_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <crystallography_microscopy microscopy_id="1">
+                    <microscope>FEI/PHILIPS CM200FEG</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_cs units="mm">2.0</nominal_cs>
+                    <nominal_defocus_min units="&#181;m">0.655</nominal_defocus_min>
+                    <nominal_defocus_max units="&#181;m">3.077</nominal_defocus_max>
+                    <nominal_magnification>50000.0</nominal_magnification>
+                    <specimen_holder_model>GATAN LIQUID NITROGEN</specimen_holder_model>
+                    <temperature>
+                        <temperature_min units="K">85</temperature_min>
+                        <temperature_average units="K">85</temperature_average>
+                    </temperature>
+                    <date>2012-03-01</date>
+                    <image_recording_list>
+                        <image_recording>
+                            <film_or_detector_model category="FILM">KODAK SO-163 FILM</film_or_detector_model>
+                            <digitization_details>
+                                <scanner>PRIMESCAN</scanner>
+                                <sampling_interval units="&#181;m">5</sampling_interval>
+                            </digitization_details>
+                            <number_real_images>78</number_real_images>
+                            <average_electron_dose_per_image units="e/&#8491;^2">5</average_electron_dose_per_image>
+                            <od_range>1.4</od_range>
+                            <bits_per_pixel>16.</bits_per_pixel>
+                        </image_recording>
+                    </image_recording_list>
+                    <tilt_angle_min>0</tilt_angle_min>
+                    <tilt_angle_max>46</tilt_angle_max>
+                    <tilt_series>
+                        <axis1>
+                            <min_angle units="deg">0</min_angle>
+                            <max_angle units="deg">46</max_angle>
+                        </axis1>
+                    </tilt_series>
+                </crystallography_microscopy>
+            </microscopy_list>
+            <crystallography_processing image_processing_id="1">
+                <details>2dx</details>
+                <final_reconstruction>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">7.0</resolution>
+                    <resolution_method>OTHER</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>2dx</name>
+                        </software>
+                    </software_list>
+                    <details>Resolution was limited to 7 x 7 x 12 Angstroems</details>
+                </final_reconstruction>
+                <crystal_parameters>
+                    <unit_cell>
+                        <a units="&#8491;">130</a>
+                        <b units="&#8491;">130</b>
+                        <c units="&#8491;">400</c>
+                        <gamma units="deg">90.0</gamma>
+                        <alpha units="deg">90.0</alpha>
+                        <beta units="deg">90.0</beta>
+                    </unit_cell>
+                    <plane_group>P 4 21 2</plane_group>
+                </crystal_parameters>
+            </crystallography_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="4787">
+        <file>emd_2527.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>107</col>
+            <row>107</row>
+            <sec>107</sec>
+        </dimensions>
+        <origin>
+            <col>5</col>
+            <row>5</row>
+            <sec>133</sec>
+        </origin>
+        <spacing>
+            <x>107</x>
+            <y>107</y>
+            <z>107</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">104.325005</a>
+            <b units="&#8491;">104.325005</b>
+            <c units="&#8491;">104.325005</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-1.16991782</minimum>
+            <maximum>4.0808568</maximum>
+            <average>0.0</average>
+            <std>1.0</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">0.975</x>
+            <y units="&#8491;">0.975</y>
+            <z units="&#8491;">0.975</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>2.3</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <annotation_details>MloK1 without cAMP</annotation_details>
+        <details>::::EMDATABANK.org::::EMD-2527::::</details>
+    </map>
+</emd>

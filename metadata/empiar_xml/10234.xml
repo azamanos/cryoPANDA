@@ -1,0 +1,133 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10234" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-10-04</depositionDate>
+            <releaseDate>2019-04-18</releaseDate>
+            <updateDate>2022-01-31</updateDate>
+        </keyDates>
+        <title>Single particle cryoEM of mouse protocadherin gamma B6</title>
+        <correspondingAuthor private="true">
+            <firstName>Lawrence</firstName>
+            <lastName>Shapiro</lastName>
+            <organization type="academic">Zuckerman Mind, Brain and Behavior Institute, Columbia University</organization>
+            <street>3227 Broadway</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Lawrence</firstName>
+            <lastName>Shapiro</lastName>
+            <organization type="academic">Zuckerman Mind, Brain and Behavior Institute, Columbia University</organization>
+            <street>3227 Broadway</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Brasch J</author>
+            <author authorORCID="0000-0003-2063-5823">Goodman KM</author>
+            <author>Potter CS</author>
+            <author authorORCID="0000-0002-0624-5020">Carragher B</author>
+            <author authorORCID="0000-0002-1835-1031">Honig B</author>
+            <author authorORCID="0000-0001-9943-8819">Shapiro L</author>
+            <author authorORCID="0000-0001-8634-2279">Noble AJ</author>
+            <author>Mannepalli S</author>
+            <author>Bahna F</author>
+            <author>Rapp M</author>
+            <author>Dandey VP</author>
+            <author>Bepler T</author>
+            <author authorORCID="0000-0002-2724-7228">Berger B</author>
+            <author>Maniatis T</author>
+        </authorsList>
+        <datasetSize units="GB">438.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10234</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-9197</emdbEntry>
+            <emdbEntry>EMD-9198</emdbEntry>
+            <emdbEntry>EMD-9199</emdbEntry>
+            <emdbEntry>EMD-9200</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Brasch J</author>
+                    <author authorORCID="0000-0003-2063-5823" order="2">Goodman KM</author>
+                    <author order="3">Potter CS</author>
+                    <author authorORCID="0000-0002-0624-5020" order="4">Carragher B</author>
+                    <author authorORCID="0000-0002-1835-1031" order="5">Honig B</author>
+                    <author authorORCID="0000-0001-9943-8819" order="6">Shapiro L</author>
+                    <author authorORCID="0000-0001-8634-2279" order="7">Noble AJ</author>
+                    <author order="8">Mannepalli S</author>
+                    <author order="9">Bahna F</author>
+                    <author order="10">Rapp M</author>
+                    <author order="11">Dandey VP</author>
+                    <author order="12">Bepler T</author>
+                    <author authorORCID="0000-0002-2724-7228" order="13">Berger B</author>
+                    <author order="14">Maniatis T</author>
+                    <title>Visualization of clustered protocadherin neuronal self-recognition complexes</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>7755</issue>
+                    <volume>569</volume>
+                    <firstPage>280</firstPage>
+                    <lastPage>283</lastPage>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41586-019-1089-3</externalReferences>
+                    <externalReferences type="pubmed">30971825</externalReferences>
+                    <details>Includes raw frames, aligned micrographs using MotionCor2, naively summed micrographs, and tilt-series.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Micrograph frames</name>
+        <directory>/data/frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1138</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.061</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.061</pixelHeight>
+        </dimensions>
+        <details>Frames and references.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Micrographs along with all other magnification images from the collection</name>
+        <directory>/data/leginon</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1138</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.061</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.061</pixelHeight>
+        </dimensions>
+        <details>Frame aligned with MotionCor2, with and without dose weighting. Also includes tilt-series from the same collection session.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

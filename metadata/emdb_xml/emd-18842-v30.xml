@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-18842">
+    <admin>
+        <current_status>
+            <date>2024-08-14</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-11-06</deposition>
+            <header_release>2024-06-12</header_release>
+            <map_release>2024-06-12</map_release>
+            <update>2024-08-14</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>H2020 Marie Curie Actions of the European Commission</funding_body>
+                <code>860816</code>
+                <country>European Union</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Medical Research Council (MRC, United Kingdom)</funding_body>
+                <code>218785/Z/19/Z</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of 1-deoxy-D-xylulose 5-phosphate synthase (DXPS) from Plasmodium falciparum</title>
+        <authors_list>
+            <author>Gawriljuk VO</author>
+            <author>Godoy AS</author>
+            <author>Oerlemans R</author>
+            <author>Groves MR</author>
+        </authors_list>
+        <keywords>1-deoxy-D-xylulose 5-phosphate synthase, thiamin di-phosphate complex, transketolase, TRANSFERASE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Gawriljuk VO</author>
+                    <author ORCID="0000-0002-0613-9164" order="2">Godoy AS</author>
+                    <author order="3">Oerlemans R</author>
+                    <author order="4">Welker LAT</author>
+                    <author ORCID="0000-0001-8734-4663" order="5">Hirsch AKH</author>
+                    <author ORCID="0000-0001-9859-5177" order="6">Groves MR</author>
+                    <title>Cryo-EM structure of 1-deoxy-D-xylulose 5-phosphate synthase DXPS from Plasmodium falciparum reveals a distinct N-terminal domain.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>15</volume>
+                    <first_page>6642</first_page>
+                    <last_page>6642</last_page>
+                    <year>2024</year>
+                    <external_references type="PUBMED">39103329</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-024-50671-9</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8r2h</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Dimer of 1-deoxy-D-xylulose 5-phosphate synthase with Thiamin diphosphate bound.</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Dimer of 1-deoxy-D-xylulose 5-phosphate synthase with Thiamin diphosphate bound.</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="5833">Plasmodium falciparum</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>1-deoxy-D-xylulose-5-phosphate synthase</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="5833">Plasmodium falciparum</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.10595360899999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="469008">Escherichia coli BL21(DE3)</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGSSHHHHHHSSGLVPRGSHMYDIGKYFKQINTFINIDEYKTIYGDEIYKEIYELYVERNIPEYYERKYFSEDIKKSVLF
+DIDKYNDVEFEKAIKEEFINNGVYINNIDNTYYKKENILIMKKILHYFPLLKLINNPSDLKKLKKQYLPLLAHELKIFLF
+FIVNITGGHFSSVLSSLEIQLLLLYIFNQPYDNVIYDIGHQAYVHKILTGRKLLFLSLRNKKGISGFLNIFESIYDKFGA
+GHSSTSLSAIQGYYEAEWQVKNKEKYGNGDIEISDNANVTNNERIFQKGIHNDNNINNNINNNNYINPSDVVGRENTNVP
+NVRNDNHNVDKVHIAIIGDGGLTGGMALEALNYISFLNSKILIIYNDNGQVSLPTNAVSISGNRPIGSISDHLHYFVSNI
+EANAGDNKLSKNAKENNIFENLNYDYIGVVNGNNTEELFKVLNNIKENKLKRATVLHVRTKKSNDFINSKSPISILHSIK
+KNEIFPFDTTILNGNIHKENKIEEEKNVSSSTKYDVNNKNNKNNDNSEIIKYEDMFSKETFTDIYTNEMLKYLKKDRNII
+FLSPAMLGGSGLVKISERYPNNVYDVGIAEQHSVTFAAAMAMNKKLKIQLCIYSTFLQRAYDQIIHDLNLQNIPLKVIIG
+RSGLVGEDGATHQGIYDLSYLGTLNNAYIISPSNQVDLKRALRFAYLDKDHSVYIRIPRMNILSDKYMKGYLNIHMKNES
+KNIDVNVDINDDVDKYSEEYMDDDNFIKSFIGKSRIIKMDNENNNTNEHYSSRGDTQTKKKKVCIFNMGSMLFNVINAIK
+EIEKEQYISHNYSFSIVDMIFLNPLDKNMIDHVIKQNKHQYLITYEDNTIGGFSTHFNNYLIENNYITKHNLYVHNIYLS
+NEPIEHASFKDQQEVVKMDKCSLVNRIKNYLKNNPT</string>
+                    <external_references type="UNIPROTKB">O96694</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>MAGNESIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">2.4305e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>MG</formula>
+            </ligand>
+            <ligand macromolecule_id="3">
+                <name>THIAMINE DIPHOSPHATE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000425314</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>TPP</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.9</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.4</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>TFS FALCON 4i (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">44.47</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <number_classes_used>2</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C2</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">2.42</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>Coot</name>
+                            <version>0.9.6</version>
+                        </software>
+                        <software>
+                            <name>PHENIX</name>
+                            <version>1.20.1-4487</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>97205</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.1.2</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.1.2</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="256001">
+        <file>emd_18842.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>400</col>
+            <row>400</row>
+            <sec>400</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>400</x>
+            <y>400</y>
+            <z>400</z>
+        </spacing>
+        <cell>
+            <a units="Å">296.0</a>
+            <b units="Å">296.0</b>
+            <c units="Å">296.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.059852377</minimum>
+            <maximum>2.205356</maximum>
+            <average>0.0009618149</average>
+            <std>0.021254776</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.74</x>
+            <y units="Å">0.74</y>
+            <z units="Å">0.74</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.2</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-18842::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>O96694</access_code>
+                    <chain>
+                        <source_name>AlphaFold</source_name>
+                        <initial_model_type>in silico model</initial_model_type>
+                    </chain>
+                </initial_model>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_18842_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="256001">
+                <file>emd_18842_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>400</col>
+                    <row>400</row>
+                    <sec>400</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>400</x>
+                    <y>400</y>
+                    <z>400</z>
+                </spacing>
+                <cell>
+                    <a units="Å">296.0</a>
+                    <b units="Å">296.0</b>
+                    <c units="Å">296.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.55361384</minimum>
+                    <maximum>1.2165015</maximum>
+                    <average>-0.0001613356</average>
+                    <std>0.026770864</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.74</x>
+                    <y units="Å">0.74</y>
+                    <z units="Å">0.74</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-18842::::</label>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="256001">
+                <file>emd_18842_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>400</col>
+                    <row>400</row>
+                    <sec>400</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>400</x>
+                    <y>400</y>
+                    <z>400</z>
+                </spacing>
+                <cell>
+                    <a units="Å">296.0</a>
+                    <b units="Å">296.0</b>
+                    <c units="Å">296.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.7445084</minimum>
+                    <maximum>1.3873461</maximum>
+                    <average>0.0004131662</average>
+                    <std>0.09720154</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.74</x>
+                    <y units="Å">0.74</y>
+                    <z units="Å">0.74</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-18842::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="256001">
+                <file>emd_18842_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>400</col>
+                    <row>400</row>
+                    <sec>400</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>400</x>
+                    <y>400</y>
+                    <z>400</z>
+                </spacing>
+                <cell>
+                    <a units="Å">296.0</a>
+                    <b units="Å">296.0</b>
+                    <c units="Å">296.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.7673378</minimum>
+                    <maximum>1.3945314</maximum>
+                    <average>0.00036912726</average>
+                    <std>0.09777654</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.74</x>
+                    <y units="Å">0.74</y>
+                    <z units="Å">0.74</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-18842::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

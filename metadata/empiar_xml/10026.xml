@@ -1,0 +1,99 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10026" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2015-04-20</depositionDate>
+            <releaseDate>2015-06-04</releaseDate>
+            <updateDate>2015-06-04</updateDate>
+        </keyDates>
+        <title>Raw data for the 3D structure of horse spleen apoferritin determined by electron cryomicroscopy</title>
+        <correspondingAuthor private="true">
+            <firstName>Christopher</firstName>
+            <middleName>J</middleName>
+            <lastName>Russo</lastName>
+            <organization type="academic">Medical Research Council (MRC) Laboratory of Molecular Biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Lori</firstName>
+            <middleName>A</middleName>
+            <lastName>Passmore</lastName>
+            <organization type="academic">Medical Research Council (MRC) Laboratory of Molecular Biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Russo CJ</author>
+            <author>Passmore LA</author>
+        </authorsList>
+        <datasetSize units="GB">180.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10026</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-2788</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Russo CJ</author>
+                    <author authorORCID="0000-0003-1815-3710" order="2">Passmore LA</author>
+                    <title>Electron microscopy: Ultrastable gold substrates for electron cryomicroscopy</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country></country>
+                    <issue>6215</issue>
+                    <volume>346</volume>
+                    <firstPage>1377</firstPage>
+                    <lastPage>1380</lastPage>
+                    <year>2014</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.1259530</externalReferences>
+                    <externalReferences type="pubmed">25504723</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Raw unprocessed micrograph movies</name>
+        <directory>/data/Micrographs</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>180</numImagesOrTiltSeries>
+        <framesPerImage>16</framesPerImage>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.346</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.346</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Final selected particles</name>
+        <directory>/data/Particles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>483</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>132</imageWidth>
+            <pixelWidth>1.346</pixelWidth>
+            <imageHeight>132</imageHeight>
+            <pixelHeight>1.346</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+</entry>

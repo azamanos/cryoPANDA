@@ -1,0 +1,106 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10173" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-04-03</depositionDate>
+            <releaseDate>2018-04-05</releaseDate>
+            <updateDate>2018-04-05</updateDate>
+        </keyDates>
+        <title>CryoET of insulin-bound insulin receptor single particle with spot-to-plunge time of 200ms</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0624-5020</authorORCID>
+            <firstName>Bridget</firstName>
+            <lastName>Carragher</lastName>
+            <organization type="academic">New York Structural Biology Center</organization>
+            <street>89 Convent Avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0624-5020</authorORCID>
+            <firstName>Bridget</firstName>
+            <lastName>Carragher</lastName>
+            <organization type="academic">New York Structural Biology Center</organization>
+            <street>89 Convent Avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-8634-2279">Noble AJ</author>
+            <author>Wei H</author>
+            <author>Dandey VP</author>
+            <author>Zhang Z</author>
+            <author>Potter CS</author>
+            <author authorORCID="0000-0002-0624-5020">Carragher B</author>
+        </authorsList>
+        <datasetSize units="GB">40.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10173</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-7629</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author authorORCID="0000-0001-8634-2279" order="1">Noble AJ</author>
+                    <author order="2">Wei H</author>
+                    <author order="3">Dandey VP</author>
+                    <author order="4">Zhang Z</author>
+                    <author order="5">Potter CS</author>
+                    <author authorORCID="0000-0002-0624-5020" order="6">Carragher B</author>
+                    <title>Reducing effects of particle adsorption to the air-water interface in cryoEM</title>
+                    <journal>BioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1101/288340</externalReferences>
+                    <details>The tilt images are whole-frame aligned averages using Motioncor2.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Whole-frame aligned tilt images along with all other magnification images from the collection</name>
+        <directory>/data/leginon</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>7</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>2.16423</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>2.16423</pixelHeight>
+        </dimensions>
+        <details>Whole-frame aligned tilt images using Motioncor2.</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Appion-Protomo tilt-series alignments</name>
+        <directory>/data/protomo_alignments</directory>
+        <category>tilt series</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>2.16423</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>2.16423</pixelHeight>
+        </dimensions>
+        <details>Includes a full tilt-series alignment run for some of the IR tilt-series.
+To view properly, navigate to the protomo_alignments folder in Appion-Protomo.
+The export/ directory contains SerialEM-formatted unaligned tilt-series stacks, mdoc files, and tilt files. This allows for easy upload to Appion-Protomo.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

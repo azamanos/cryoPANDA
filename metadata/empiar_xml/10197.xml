@@ -1,0 +1,108 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ftp://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10197" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-06-22</depositionDate>
+            <releaseDate>2018-07-06</releaseDate>
+            <updateDate>2019-04-10</updateDate>
+        </keyDates>
+        <title>Single particle cryoEM of hemagglutinin with spot-to-plunge time of 500ms</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-0624-5020</authorORCID>
+            <firstName>Bridget</firstName>
+            <lastName>Carragher</lastName>
+            <organization type="academic">New York Structural Biology Center</organization>
+            <street>89 Convent Avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-0624-5020</authorORCID>
+            <firstName>Bridget</firstName>
+            <lastName>Carragher</lastName>
+            <organization type="academic">New York Structural Biology Center</organization>
+            <street>89 Convent Avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-8634-2279">Noble AJ</author>
+            <author>Wei H</author>
+            <author>Dandey VP</author>
+            <author>Zhang Z</author>
+            <author>Potter CS</author>
+            <author authorORCID="0000-0002-0624-5020">Carragher B</author>
+        </authorsList>
+        <datasetSize>51.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10197</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true">
+                    <author authorORCID="0000-0001-8634-2279" order="1">Noble AJ</author>
+                    <author order="2">Wei H</author>
+                    <author order="3">Dandey VP</author>
+                    <author order="4">Zhang Z</author>
+                    <author authorORCID="0000-0001-6656-6320" order="5">Tan YZ</author>
+                    <author order="6">Potter CS</author>
+                    <author authorORCID="0000-0002-0624-5020" order="7">Carragher B</author>
+                    <editor order="1"> </editor>
+                    <title>Reducing effects of particle adsorption to the air-water interface in cryo-EM</title>
+                    <journal>Nature methods</journal>
+                    <journalAbbreviation>Nat. Methods</journalAbbreviation>
+                    <country></country>
+                    <issue>10</issue>
+                    <volume>15</volume>
+                    <firstPage>793</firstPage>
+                    <lastPage>795</lastPage>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41592-018-0139-3</externalReferences>
+                    <externalReferences type="pubmed">30250056</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Full Leginon data collection, including all magnification images and aligned micrographs with and without dose weighting</name>
+        <directory>/data/leginondata</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>103</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.061</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.061</pixelHeight>
+        </dimensions>
+        <details>Includes unaligned images (enn), MotionCor2 frame-aligned images using 5x5 patches (enn-a), and frame aligned images with dose weighting using MotionCor2 (enn-a-DW). Also includes all grid, hole, and square magnification images during the collection session.</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Raw K2 counting frames</name>
+        <directory>/data/frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>103</numImagesOrTiltSeries>
+        <framesPerImage>90</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.061</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.061</pixelHeight>
+        </dimensions>
+        <details>Compressed using bzip2. References are included in the 'references' folder.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

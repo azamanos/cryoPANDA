@@ -1,0 +1,104 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10075" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2016-09-21</depositionDate>
+            <releaseDate>2016-09-21</releaseDate>
+            <updateDate>2016-09-21</updateDate>
+        </keyDates>
+        <title>Asymmetric cryo-EM reconstruction of phage MS2 reveals genome structure in situ</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-6736-7147</authorORCID>
+            <firstName>Roman</firstName>
+            <middleName>Ivan</middleName>
+            <lastName>Koning</lastName>
+            <organization type="academic">Leiden University Medical Center</organization>
+            <street>Department of Cell Biology</street>
+            <townOrCity>Leiden</townOrCity>
+            <stateOrProvince>Zuid-Holland</stateOrProvince>
+            <country>Netherlands</country>
+            <postOrZipCode>2333 RC</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-6736-7147</authorORCID>
+            <firstName>Roman</firstName>
+            <middleName>Ivan</middleName>
+            <lastName>Koning</lastName>
+            <organization type="academic">Leiden University Medical Center</organization>
+            <street>Department of Cell Biology</street>
+            <townOrCity>Leiden</townOrCity>
+            <stateOrProvince>Zuid-Holland</stateOrProvince>
+            <country>Netherlands</country>
+            <postOrZipCode>2333 RC</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-6736-7147">Koning RI</author>
+            <author>Gomez-Blanco J</author>
+            <author>Akopjana I</author>
+            <author>Vargas J</author>
+            <author>Kazaks A</author>
+            <author>Tars K</author>
+            <author>Carazo JM</author>
+            <author>Koster AJ</author>
+        </authorsList>
+        <datasetSize units="GB">46.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10075</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-3402</emdbEntry>
+            <emdbEntry>EMD-3403</emdbEntry>
+            <emdbEntry>EMD-3404</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-6736-7147" order="1">Koning RI</author>
+                    <author order="2">Gomez-Blanco J</author>
+                    <author order="3">Akopjana I</author>
+                    <author order="4">Vargas J</author>
+                    <author order="5">Kazaks A</author>
+                    <author order="6">Tars K</author>
+                    <author authorORCID="0000-0003-0788-8447" order="7">Carazo JM</author>
+                    <author authorORCID="0000-0003-1717-2549" order="8">Koster AJ</author>
+                    <title>Asymmetric cryo-EM reconstruction of phage MS2 reveals genome structure in situ</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <issue>12524</issue>
+                    <volume>7</volume>
+                    <firstPage>1</firstPage>
+                    <lastPage>6</lastPage>
+                    <year>2016</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/ncomms12524</externalReferences>
+                    <externalReferences type="pubmed">27561669</externalReferences>
+                    <details>The micrographs are aligned averages of 7 frame movies </details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned 7-frame micrographs of bacteriophage MS2.</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>751</numImagesOrTiltSeries>
+        <framesPerImage>7</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>7</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.16</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.16</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+</entry>

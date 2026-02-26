@@ -1,0 +1,94 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10207" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-09-07</depositionDate>
+            <releaseDate>2018-12-13</releaseDate>
+            <updateDate>2018-12-13</updateDate>
+        </keyDates>
+        <title>Beta-2-microglobulin fibrils with multiple polymorphs formed at pH 2</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-6152-1844</authorORCID>
+            <firstName>Matthew</firstName>
+            <middleName>Gregory</middleName>
+            <lastName>Iadanza</lastName>
+            <organization type="academic">University of Leeds</organization>
+            <street>Astbury Centre for Structural Molecular Biology, University of Leeds</street>
+            <townOrCity>Leeds</townOrCity>
+            <stateOrProvince>West Yorkshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>LS29JT</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-3640-5275</authorORCID>
+            <firstName>Neil</firstName>
+            <middleName>A</middleName>
+            <lastName>Ranson</lastName>
+            <organization type="academic">University of Leeds</organization>
+            <street>Astbury Centre for Structural Molecular Biology</street>
+            <townOrCity>Leeds</townOrCity>
+            <stateOrProvince>West Yorkshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>LS29JT</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-6152-1844">Iadanza MG</author>
+        </authorsList>
+        <datasetSize units="GB">294.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10207</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-0014</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-6152-1844" order="1">Iadanza MG</author>
+                    <author authorORCID="0000-0003-0197-3878" order="2">Silvers R</author>
+                    <author order="3">Boardman J</author>
+                    <author order="4">Smith HI</author>
+                    <author order="5">Karamanos TK</author>
+                    <author authorORCID="0000-0001-6775-9415" order="6">Debelouchina GT</author>
+                    <author authorORCID="0000-0001-5063-3218" order="7">Su Y</author>
+                    <author authorORCID="0000-0003-1589-832X" order="8">Griffin RG</author>
+                    <author authorORCID="0000-0002-3640-5275" order="9">Ranson NA</author>
+                    <author authorORCID="0000-0002-3079-8039" order="10">Radford SE</author>
+                    <title>The structure of a β2-microglobulin fibril suggests a molecular basis for its amyloid polymorphism</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>9</volume>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-018-06761-6</externalReferences>
+                    <externalReferences type="pubmed">30375379</externalReferences>
+                    <details>The micrographs are the aligned and dose weighted averages of 40 frames form two data collections with 10 second exposures at 1.05 or 0.89 electrons per square angstrom for total doses of 42.3 or 35.8 electrons per square angstrom respectivly.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned, dose-weighted micrographs</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5549</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.065</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.065</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data</micrographsFilePattern>
+        <pickedParticlesFilePattern>data</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data</pickedParticlesDirectory>
+    </imageSet>
+</entry>

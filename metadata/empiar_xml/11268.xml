@@ -1,0 +1,88 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11268" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-10-19</depositionDate>
+            <releaseDate>2022-12-02</releaseDate>
+            <updateDate>2022-12-05</updateDate>
+        </keyDates>
+        <title>Cryogenic electron microscopy SPA of CRISPR Craspase complex Cas7-11</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-3193-6077</authorORCID>
+            <firstName>Dongchun</firstName>
+            <lastName>Ni</lastName>
+            <organization type="academic">EPFL SB IPHYS LBEM</organization>
+            <street>Rte de la Sorge</street>
+            <townOrCity>Lausanne</townOrCity>
+            <stateOrProvince>Not US or Canada</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>1015</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-1185-4592</authorORCID>
+            <firstName>Henning</firstName>
+            <lastName>Stahlberg</lastName>
+            <organization type="academic">epfl</organization>
+            <street>Rte de la Sorge</street>
+            <townOrCity>Lausanne</townOrCity>
+            <stateOrProvince>Not US or Canada</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>1015</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-0928-4682">Ekundayo B</author>
+            <author authorORCID="0000-0002-3193-6077">Ni DC</author>
+            <author authorORCID="0000-0002-1185-4592">Stahlberg H</author>
+            <author>Torre D</author>
+            <author>Beckert B</author>
+            <author>Nazarov S</author>
+            <author>Myasnikov A</author>
+        </authorsList>
+        <datasetSize units="TB">1.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11268</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-14848</emdbEntry>
+            <emdbEntry>EMD-14847</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0002-0928-4682" order="1">Ekundayo B</author>
+                    <author authorORCID="0000-0002-3193-6077" order="2">Ni DC</author>
+                    <author authorORCID="0000-0002-1185-4592" order="3">Stahlberg H</author>
+                    <title>Structural insights into the regulation of Cas7-11 by TPR-CHAT</title>
+                    <journal>nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>NSMB</journalAbbreviation>
+                    <country>Switzerland</country>
+                    <year>2022</year>
+                    <language>English</language>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>aligned micrographs of cas7-11 trpchat complex</name>
+        <directory>/data/for-cas7-caspase-titan-new-x-mas</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>18968</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.83</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.83</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

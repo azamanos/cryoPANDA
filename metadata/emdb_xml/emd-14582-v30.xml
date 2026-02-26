@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-14582">
+    <admin>
+        <current_status>
+            <date>2024-11-06</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-03-23</deposition>
+            <header_release>2022-12-07</header_release>
+            <map_release>2022-12-07</map_release>
+            <update>2024-11-06</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Centre National de la Recherche Scientifique (CNRS)</funding_body>
+                <code>ATIP-Avenir</code>
+                <country>France</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Agence Nationale de la Recherche (ANR)</funding_body>
+                <code>ANR-18-CE11- 0006-01</code>
+                <country>France</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Agence Nationale de la Recherche (ANR)</funding_body>
+                <code>ANR-15-IDEX-02</code>
+                <country>France</country>
+            </grant_reference>
+        </grant_support>
+        <title>Human heparan sulfate polymerase complex EXT1-EXT2</title>
+        <authors_list>
+            <author>Leisico F</author>
+            <author>Omeiri J</author>
+            <author>Hons M</author>
+            <author>Schoehn G</author>
+            <author>Lortat-Jacob H</author>
+            <author>Wild R</author>
+        </authors_list>
+        <keywords>Heparan sulfate biosynthesis, Enzyme complex, Glycosyltransferase, Golgi, TRANSFERASE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-4672-4659" order="1">Leisico F</author>
+                    <author ORCID="0000-0003-0607-1179" order="2">Omeiri J</author>
+                    <author order="3">Le Narvor C</author>
+                    <author order="4">Beaudouin J</author>
+                    <author ORCID="0000-0002-8317-7631" order="5">Hons M</author>
+                    <author order="6">Fenel D</author>
+                    <author ORCID="0000-0002-1459-3201" order="7">Schoehn G</author>
+                    <author ORCID="0000-0003-3896-6196" order="8">Coute Y</author>
+                    <author ORCID="0000-0001-9361-2599" order="9">Bonnaffe D</author>
+                    <author order="10">Sadir R</author>
+                    <author ORCID="0000-0002-9772-0762" order="11">Lortat-Jacob H</author>
+                    <author ORCID="0000-0003-2025-7228" order="12">Wild R</author>
+                    <title>Structure of the human heparan sulfate polymerase complex EXT1-EXT2.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>13</volume>
+                    <first_page>7110</first_page>
+                    <last_page>7110</last_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">36402845</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-022-34882-6</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7zay</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Hetero-dimeric complex EXT1-EXT2</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Hetero-dimeric complex EXT1-EXT2</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>local resolution-filtered map generated using a B-factor of -30 A2</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.16</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Exostosin-1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.085261859</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GASRASRSHSRREEHSGRNGLHHPSPDHFWPRFPDALRPFVPWDQLENEDSSVHISPRQKRDANSSIYKGKKCRMESCFD
+FTLCKKNGFKVYVYPQQKGEKIAESYQNILAAIEGSRFYTSDPSQACLFVLSLDTLDRDQLSPQYVHNLRSKVQSLHLWN
+NGRNHLIFNLYSGTWPDYTEDVGFDIGQAMLAKASISTENFRPNFDVSIPLFSKDHPRTGGERGFLKFNTIPPLRKYMLV
+FKGKRYLTGIGSDTRNALYHVHNGEDVVLLTTCKHGKDWQKHKDSRCDRDNTEYEKYDYREMLHNATFCLVPRGRRLGSF
+RFLEALQAACVPVMLSNGWELPFSEVINWNQAAVIGDERLLLQIPSTIRSIHQDKILALRQQTQFLWEAYFSSVEKIVLT
+TLEIIQDRIFKHISRNSLIWNKHPGGLFVLPQYSSYLGDFPYYYANLGLKPPSKFTAVIHAVTPLVSQSQPVLKLLVAAA
+KSQYCAQIIVLWNCDKPLPAKHRWPATAVPVVVIEGESKVMSSRFLPYDNIITDAVLSLDEDTVLSTTEVDFAFTVWQSF
+PERIVGYPARSHFWDNSKERWGYTSKWTNDYSMVLTGAAIYHKYYHYLYSHYLPASLKNMVDQLANCEDILMNFLVSAVT
+KLPPIKVTQKKQYKETMMGQTSRASRWADPDHFAQRQSCMNTFASWFGYMPLIHSQMRLDPVLFKDQVSILRKKYRDIER
+LNNNNNNGHHHHHHHH</string>
+                    <external_references type="UNIPROTKB">Q16394</external_references>
+                </sequence>
+                <ec_number>2.4.1.224</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Exostosin-2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.07905683599999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GASPHSIESSNDWNVEKRSIRDVPVVRLPADSPIPERGDLSCRMHTCFDVYRCGFNPKNKIKVYIYALKKYVDDFGVSVS
+NTISREYNELLMAISDSDYYTDDINRACLFVPSIDVLNQNTLRIKETAQAMAQLSRWDRGTNHLLFNMLPGGPPDYNTAL
+DVPRDRALLAGGGFSTWTYRQGYDVSIPVYSPLSAEVDLPEKGPGPRQYFLLSSQVGLHPEYREDLEALQVKHGESVLVL
+DKCTNLSEGVLSVRKRCHKHQVFDYPQVLQEATFCVVLRGARLGQAVLSDVLQAGCVPVVIADSYILPFSEVLDWKRASV
+VVPEEKMSDVYSILQSIPQRQIEEMQRQARWFWEAYFQSIKAIALATLQIINDRIYPYAAISYEEWNDPPAVKWGSVSNP
+LFLPLIPPQSQGFTAIVLTYDRVESLFRVITEVSKVPSLSKLLVVWNNQNKNPPEDSLWPKIRVPLKVVRTAENKLSNRF
+FPYDEIETEAVLAIDDDIIMLTSDELQFGYEVWREFPDRLVGYPGRLHLWDHEMNKWKYESEWTNEVSMVLTGAAFYHKY
+FNYLYTYKMPGDIKNWVDAHMNCEDIAMNFLVANVTGKAVIKVTPRKKFKCPECTAIDGLSLDQTHMVERSECINKFASV
+FGTMPLKVVEHRADPVLYKDDFPEKLKSFPNIGSLNNNNNNGHHHHHHHH</string>
+                    <external_references type="UNIPROTKB">Q93063</external_references>
+                </sequence>
+                <ec_number>2.4.1.224</ec_number>
+            </protein_or_peptide>
+            <ligand macromolecule_id="4">
+                <name>2-acetamido-2-deoxy-beta-D-glucopyranose</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000221208</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>NAG</formula>
+            </ligand>
+            <ligand macromolecule_id="5">
+                <name>URIDINE-5'-DIPHOSPHATE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000404161</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>UDP</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.4</concentration>
+                    <buffer>
+                        <ph>7.2</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                    <details>Purified EXT1-EXT2 complex at 0.4mg/mL was mixed with 1mM of UDP-GlcNAc, 1mM UDP-GlcA and 1mM MnCl2 and incubated 15 min on ice before applying 4 uL of the sample onto a glow discharged Quantifoil holey carbon grid (R1.2/1.3, 300 mesh, copper).</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">3.0</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">46.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>Model of the hetero-dimeric EXT1-EXT2 complex predicted using the software AlphaFold2.</insilico_model>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">2.8</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>286390</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="131073">
+        <file>emd_14582.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>320</col>
+            <row>320</row>
+            <sec>320</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>320</x>
+            <y>320</y>
+            <z>320</z>
+        </spacing>
+        <cell>
+            <a units="Å">268.8</a>
+            <b units="Å">268.8</b>
+            <c units="Å">268.8</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.09967563</minimum>
+            <maximum>0.13719282</maximum>
+            <average>0.0000033763044</average>
+            <std>0.0023645854</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.84</x>
+            <y units="Å">0.84</y>
+            <z units="Å">0.84</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.01</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-14582::::</label>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_14582_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="131073">
+                <file>emd_14582_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">268.8</a>
+                    <b units="Å">268.8</b>
+                    <c units="Å">268.8</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.029675215</minimum>
+                    <maximum>0.04437045</maximum>
+                    <average>0.0000014972013</average>
+                    <std>0.0009600755</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.84</x>
+                    <y units="Å">0.84</y>
+                    <z units="Å">0.84</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14582::::</label>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="131073">
+                <file>emd_14582_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">268.8</a>
+                    <b units="Å">268.8</b>
+                    <c units="Å">268.8</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.033096503</minimum>
+                    <maximum>0.051938463</maximum>
+                    <average>0.0000014030007</average>
+                    <std>0.0017897608</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.84</x>
+                    <y units="Å">0.84</y>
+                    <z units="Å">0.84</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14582::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="131073">
+                <file>emd_14582_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">268.8</a>
+                    <b units="Å">268.8</b>
+                    <c units="Å">268.8</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.036171585</minimum>
+                    <maximum>0.05619227</maximum>
+                    <average>0.0000015724447</average>
+                    <std>0.0017907657</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.84</x>
+                    <y units="Å">0.84</y>
+                    <z units="Å">0.84</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14582::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_1/emdb.xsd" version="3.0.9.1" emdb_id="EMD-25483">
+    <admin>
+        <current_status>
+            <date>2024-01-17</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-11-21</deposition>
+            <header_release>2022-03-02</header_release>
+            <map_release>2022-03-02</map_release>
+            <update>2024-01-17</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01-GM084192</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>2.9 A structure of the nucleosome-bound ChEx, part of the chromatin remodeler Chd1</title>
+        <authors_list>
+            <author ORCID="0000-0003-1181-6913">Nodelman IM</author>
+            <author>Das S</author>
+            <author ORCID="0000-0003-1743-9186">Faustino AM</author>
+            <author ORCID="0000-0003-1093-0108">Fried SD</author>
+            <author ORCID="0000-0001-8025-4315">Bowman GD</author>
+            <author ORCID="0000-0001-9195-2282">Armache J-P</author>
+        </authors_list>
+        <keywords>CHD1, chromatin remodeling, ATPase, DBD, nucleosome, remodeling, transcription, DNA BINDING PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0003-1181-6913" order="1">Nodelman IM</author>
+                    <author ORCID="0000-0002-8925-6832" order="2">Das S</author>
+                    <author ORCID="0000-0003-1743-9186" order="3">Faustino AM</author>
+                    <author ORCID="0000-0003-2494-2193" order="4">Fried SD</author>
+                    <author ORCID="0000-0001-8025-4315" order="5">Bowman GD</author>
+                    <author ORCID="0000-0001-9195-2282" order="6">Armache JP</author>
+                    <title>Nucleosome recognition and DNA distortion by the Chd1 remodeler in a nucleotide-free state.</title>
+                    <journal_abbreviation>Nat.Struct.Mol.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>29</volume>
+                    <first_page>121</first_page>
+                    <last_page>129</last_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">35173352</external_references>
+                    <external_references type="DOI">doi:10.1038/s41594-021-00719-x</external_references>
+                    <external_references type="ISSN">1545-9985</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-25479</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-25480</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-25481</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Chd1 ATP-dependent chromatin remodeler bound to a nucleosome in a nucleotide-free state</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Chd1 ATP-dependent chromatin remodeler bound to a nucleosome in a nucleotide-free state</name>
+                <parent>0</parent>
+                <details>This entry has a weak DNA-binding domain</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.4</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1.7</concentration>
+                    <buffer>
+                        <ph>7.0</ph>
+                        <details>20 mM HEPES, pH 7.0, 60 mM KCl, 1.5 mM DTT, 1 mM MgCl2</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/2</model>
+                        <material>COPPER</material>
+                        <mesh>200</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">10</time>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                    <details>Nucleosome-bound CHD1, prepared in the presence of ATPgammaS, and then crosslinked using GraFix.</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">100.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">-1.0</nominal_defocus_min>
+                    <calibrated_defocus_min units="µm">4.0</calibrated_defocus_min>
+                    <nominal_defocus_max units="µm">-2.2</nominal_defocus_max>
+                    <calibrated_defocus_max units="µm">28.0</calibrated_defocus_max>
+                    <nominal_magnification>81000.0</nominal_magnification>
+                    <calibrated_magnification>46296.0</calibrated_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <zemlin_tableau/>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">11520</width>
+                                    <height units="pixel">8184</height>
+                                </dimensions>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>6906</number_real_images>
+                            <average_exposure_time units="s">3.3</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">49.9</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>Data collected in Super Resolution at 0.54A/pixel. Motion corrected, 1.5x fourier binned, dose-weighed</details>
+                <particle_selection>
+                    <number_selected>10900948</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>Ab initio model from cryoSPARC</insilico_model>
+                </startup_model>
+                <final_reconstruction>
+                    <algorithm>BACK PROJECTION</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">2.9</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.2</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>78437</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.2</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.2</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="131073">
+        <file>emd_25483.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>320</col>
+            <row>320</row>
+            <sec>320</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>320</x>
+            <y>320</y>
+            <z>320</z>
+        </spacing>
+        <cell>
+            <a units="Å">259.2</a>
+            <b units="Å">259.2</b>
+            <c units="Å">259.2</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.48802137</minimum>
+            <maximum>1.5301604</maximum>
+            <average>0.0030511601</average>
+            <std>0.048077326</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.81000006</x>
+            <y units="Å">0.81000006</y>
+            <z units="Å">0.81000006</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.2</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-25483::::</label>
+        <annotation_details>Sharpened 2.9A map with a negative bfactor (-30) in an orientation aligned to a common reference.</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>3LZ0</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>3MWY</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>OTHER</refinement_protocol>
+                <details>phenix.real_space_refine</details>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_25483_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="131073">
+                <file>emd_25483_additional_5.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">259.2</a>
+                    <b units="Å">259.2</b>
+                    <c units="Å">259.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0.0</minimum>
+                    <maximum>1.0</maximum>
+                    <average>0.04397265</average>
+                    <std>0.1976975</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.81000006</x>
+                    <y units="Å">0.81000006</y>
+                    <z units="Å">0.81000006</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-25483::::</label>
+                <annotation_details>Refine Mask from cryoSPARC</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="131073">
+                <file>emd_25483_additional_4.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">259.2</a>
+                    <b units="Å">259.2</b>
+                    <c units="Å">259.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0.0</minimum>
+                    <maximum>1.0</maximum>
+                    <average>0.030515887</average>
+                    <std>0.16640793</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.81000006</x>
+                    <y units="Å">0.81000006</y>
+                    <z units="Å">0.81000006</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-25483::::</label>
+                <annotation_details>FSC Mask from cryoSPARC (before auto-tightening)</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="131073">
+                <file>emd_25483_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">259.2</a>
+                    <b units="Å">259.2</b>
+                    <c units="Å">259.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.5538777</minimum>
+                    <maximum>1.6137412</maximum>
+                    <average>0.0027132903</average>
+                    <std>0.050827544</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.81000006</x>
+                    <y units="Å">0.81000006</y>
+                    <z units="Å">0.81000006</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-25483::::</label>
+                <annotation_details>Sharpened 2.9A map with a negative bfactor (-30)</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="131073">
+                <file>emd_25483_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">259.2</a>
+                    <b units="Å">259.2</b>
+                    <c units="Å">259.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0.0</minimum>
+                    <maximum>1.2479234</maximum>
+                    <average>0.0070863846</average>
+                    <std>0.042164706</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.81000006</x>
+                    <y units="Å">0.81000006</y>
+                    <z units="Å">0.81000006</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-25483::::</label>
+                <annotation_details>Unsharpened 2.9A map</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="131073">
+                <file>emd_25483_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">259.2</a>
+                    <b units="Å">259.2</b>
+                    <c units="Å">259.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0.0</minimum>
+                    <maximum>1.1888063</maximum>
+                    <average>0.00690787</average>
+                    <std>0.041176766</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.81000006</x>
+                    <y units="Å">0.81000006</y>
+                    <z units="Å">0.81000006</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-25483::::</label>
+                <annotation_details>Unsharpened 2.9A map in an orientation aligned to a common reference.</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="131073">
+                <file>emd_25483_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">259.2</a>
+                    <b units="Å">259.2</b>
+                    <c units="Å">259.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.55949205</minimum>
+                    <maximum>1.488162</maximum>
+                    <average>0.0026324838</average>
+                    <std>0.066929094</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.81000006</x>
+                    <y units="Å">0.81000006</y>
+                    <z units="Å">0.81000006</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-25483::::</label>
+                <annotation_details>half-map 2 (half_B) from cryoSPARC</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="131073">
+                <file>emd_25483_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">259.2</a>
+                    <b units="Å">259.2</b>
+                    <c units="Å">259.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.5443452</minimum>
+                    <maximum>1.5060579</maximum>
+                    <average>0.0026575024</average>
+                    <std>0.066686936</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.81000006</x>
+                    <y units="Å">0.81000006</y>
+                    <z units="Å">0.81000006</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-25483::::</label>
+                <annotation_details>half-map 1 (half_A) from cryoSPARC</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

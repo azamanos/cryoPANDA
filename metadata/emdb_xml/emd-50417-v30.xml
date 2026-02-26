@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-50417">
+    <admin>
+        <current_status>
+            <date>2024-06-26</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2024-05-25</deposition>
+            <header_release>2024-06-12</header_release>
+            <map_release>2024-06-12</map_release>
+            <update>2024-06-26</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Other private</funding_body>
+                <country>Italy</country>
+            </grant_reference>
+        </grant_support>
+        <title>SARS-CoV-2 (wuhan variant) Spike protein in complex with the single chain fragment scFv76-77</title>
+        <authors_list>
+            <author ORCID="0009-0004-6877-2020">Berlinguer M</author>
+            <author ORCID="0000-0003-3287-9024">Chaves-Sanjuan A</author>
+            <author>Milazzo FM</author>
+            <author>Minenkova O</author>
+            <author>De Santis R</author>
+            <author ORCID="0000-0002-9253-5170">Bolognesi M</author>
+        </authors_list>
+        <keywords>sars-cov-2, spike, scfv, single chain fragment, virus, VIRAL PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="false">
+                    <author order="1">Chaves-Sanjuan A</author>
+                    <author order="2">Bolognesi M</author>
+                    <title>SARS-CoV-2 Spike protein in complex with the single chain fragment scFv76-77</title>
+                    <journal_abbreviation>To Be Published</journal_abbreviation>
+                    <external_references type="CSD">0353</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-50418</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>SARS-CoV-2 Spike protein trimer in complex with the single chain fragment scFv76</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>SARS-CoV-2 Spike protein trimer in complex with the single chain fragment scFv76</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <molecular_weight>
+                    <theoretical units="MDa">0.51</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>SARS-CoV-2 Spike protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2697049">Severe acute respiratory syndrome coronavirus 2</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFDNPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVYSSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQTLLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRVQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFLPFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGSNVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPGSASSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTISVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGFNFSQILPDPSKPSKRSPIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTITSGWTFGAGPALQIPFPMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTPSALGKLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDPPEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNTFVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQGSGYIPEAPRDGQAYVRKDGEWVLLSTFLGRSLEVLFQGPGHHHHHHHHSAWSHPQFEKGGGSGGGGSGGSAWSHPQFEK</string>
+                    <external_references type="UNIPROTKB">P0DTC2</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>scFv76-77 single chain fragment</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>RTMEEVQLLQ SAGGLVQPGG SLRLSCAASG FTVSANYMSW VRQAPGKGLE WVSVIYPGGS 
+TFYADSVKGR FTISKDNSKN TLYLQMNSLR VEDTAVYYCA RDLSVAGAFD IWGQGTLVTV  
+SSGGGGSGGG GSGGGGSEIV LTQSPGTLSL SPGEKATLFC RASQTFSSNY LAWYQQKPGQ 
+APSLLIYGGS TRAAGIPDRF SGSGSGTDFT LTINRLEPED FAIYYCQEYG SSPRVTFGQG 
+TRLEIKRAAA GDYKDDDDKH HHHHH</string>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.6</concentration>
+                    <buffer>
+                        <ph>7.0</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">30</time>
+                            <atmosphere>AIR</atmosphere>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TALOS ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.5</nominal_defocus_max>
+                    <nominal_magnification>120000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>3012</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>242907</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.9</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>41717</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="256001">
+        <file>emd_50417.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>400</col>
+            <row>400</row>
+            <sec>400</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>400</x>
+            <y>400</y>
+            <z>400</z>
+        </spacing>
+        <cell>
+            <a units="Å">355.6</a>
+            <b units="Å">355.6</b>
+            <c units="Å">355.6</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.34838098</minimum>
+            <maximum>1.356414</maximum>
+            <average>0.001707405</average>
+            <std>0.06083116</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.889</x>
+            <y units="Å">0.889</y>
+            <z units="Å">0.889</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.336</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-50417::::</label>
+        <annotation_details>unsharpened map</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_50417_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="256001">
+                <file>emd_50417_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>400</col>
+                    <row>400</row>
+                    <sec>400</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>400</x>
+                    <y>400</y>
+                    <z>400</z>
+                </spacing>
+                <cell>
+                    <a units="Å">355.6</a>
+                    <b units="Å">355.6</b>
+                    <c units="Å">355.6</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.3323603</minimum>
+                    <maximum>2.9040396</maximum>
+                    <average>0.0017074049</average>
+                    <std>0.08938621</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.889</x>
+                    <y units="Å">0.889</y>
+                    <z units="Å">0.889</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-50417::::</label>
+                <annotation_details>sharpened map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="256001">
+                <file>emd_50417_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>400</col>
+                    <row>400</row>
+                    <sec>400</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>400</x>
+                    <y>400</y>
+                    <z>400</z>
+                </spacing>
+                <cell>
+                    <a units="Å">355.6</a>
+                    <b units="Å">355.6</b>
+                    <c units="Å">355.6</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.9096092</minimum>
+                    <maximum>1.6490247</maximum>
+                    <average>0.0030139524</average>
+                    <std>0.126903</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.889</x>
+                    <y units="Å">0.889</y>
+                    <z units="Å">0.889</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-50417::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="256001">
+                <file>emd_50417_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>400</col>
+                    <row>400</row>
+                    <sec>400</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>400</x>
+                    <y>400</y>
+                    <z>400</z>
+                </spacing>
+                <cell>
+                    <a units="Å">355.6</a>
+                    <b units="Å">355.6</b>
+                    <c units="Å">355.6</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.87981987</minimum>
+                    <maximum>1.6979924</maximum>
+                    <average>0.003015108</average>
+                    <std>0.12708487</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.889</x>
+                    <y units="Å">0.889</y>
+                    <z units="Å">0.889</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-50417::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

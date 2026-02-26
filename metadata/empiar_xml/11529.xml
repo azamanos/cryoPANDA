@@ -1,0 +1,115 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11529" schemaVersion="0.63" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-04-25</depositionDate>
+            <releaseDate>2023-09-22</releaseDate>
+            <updateDate>2023-09-22</updateDate>
+        </keyDates>
+        <title>Cryo-EM particle stacks of the ∆KsgA immature 30S sample</title>
+        <correspondingAuthor private="true">
+            <firstName>Joseph</firstName>
+            <lastName>Davis</lastName>
+            <organization type="academic">Department of Biology, Massachusetts Institute of Technology</organization>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>MA 02142</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Joseph</firstName>
+            <lastName>Davis</lastName>
+            <organization type="academic">Department of Biology, Massachusetts Institute of Technology</organization>
+            <townOrCity>Cambridge</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>MA 02142</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-9423-3344</authorORCID>
+            <firstName>Joaquin</firstName>
+            <lastName>Ortega</lastName>
+            <organization type="academic">Department of Anatomy and Cell Biology, McGill University</organization>
+            <townOrCity>Montreal</townOrCity>
+            <stateOrProvince>Quebec</stateOrProvince>
+            <country>Canada</country>
+            <postOrZipCode>H3G 0B1</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-1611-1683">Sun J</author>
+            <author authorORCID="0000-0001-6822-9352">Kinman LF</author>
+            <author>Jahagirdar D</author>
+            <author>Ortega J</author>
+            <author authorORCID="0000-0002-8858-8907">Davis JH</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>National Science Foundation (NSF, United States)</fundingBody>
+                <code>2046778</code>
+                <country>United States</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>National Institutes of Health (NIH)</fundingBody>
+                <code>R01-GM144542</code>
+                <country>United States</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Canadian Institutes of Health Research (CIHR)</fundingBody>
+                <code>PJT-180305</code>
+                <country>Canada</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">422.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11529</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-28692</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-1611-1683" order="1">Sun J</author>
+                    <author authorORCID="0000-0001-6822-9352" order="2">Kinman LF</author>
+                    <author order="3">Jahagirdar D</author>
+                    <author order="4">Ortega J</author>
+                    <author authorORCID="0000-0002-8858-8907" order="5">Davis JH</author>
+                    <title>KsgA facilitates ribosomal small subunit maturation by proofreading a key structural lesion</title>
+                    <journal>Nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>Nat Struct Mol Biol</journalAbbreviation>
+                    <country></country>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41594-023-01078-5</externalReferences>
+                    <externalReferences type="pubmed">37653244</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Particle stacks of ∆KsgA immature 30S sample</name>
+        <directory>/data/EMPAIR_Extract_job030</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>775859</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>33</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>382</imageWidth>
+            <pixelWidth>0.855</pixelWidth>
+            <imageHeight>382</imageHeight>
+            <pixelHeight>0.855</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPAIR_Extract_job030/Particle_stacks_1/30S_Cont_Jingyu_*.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPAIR_Extract_job030/Particles_star/particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPAIR_Extract_job030/Particles_star</pickedParticlesDirectory>
+    </imageSet>
+</entry>

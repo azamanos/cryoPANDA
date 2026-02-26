@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_10_1/emdb.xsd" version="3.0.10.1" emdb_id="EMD-10669">
+    <admin>
+        <current_status>
+            <date>2025-04-09</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <revision_history>
+            <revision version="1.0" date="2020-03-04">
+                <change_list>
+                    <fsc>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </fsc>
+                    <half_map part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <half_map part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <image>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </image>
+                    <mask part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </mask>
+                    <mask part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </mask>
+                    <primary_map>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </primary_map>
+                </change_list>
+            </revision>
+            <revision version="1.1" date="2025-04-09">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>citation</category>
+                            <category>database_2</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_citation.journal_id_ISSN</item>
+                            <item>_database_2.pdbx_DOI</item>
+                            <item>_database_2.pdbx_database_accession</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="1.2" date="2025-04-09">
+                <change_list>
+                    <model>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>chem_comp_atom</category>
+                            <category>chem_comp_bond</category>
+                            <category>citation</category>
+                            <category>database_2</category>
+                            <category>em_admin</category>
+                            <category>pdbx_entry_details</category>
+                        </categories>
+                        <items>
+                            <item>_citation.journal_id_ISSN</item>
+                            <item>_database_2.pdbx_DOI</item>
+                            <item>_database_2.pdbx_database_accession</item>
+                            <item>_em_admin.last_update</item>
+                            <item>_pdbx_entry_details.has_protein_modification</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+        </revision_history>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-02-11</deposition>
+            <header_release>2020-03-04</header_release>
+            <map_release>2020-03-04</map_release>
+            <update>2025-04-09</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>726368</code>
+                <country>European Union</country>
+            </grant_reference>
+        </grant_support>
+        <title>Amyloid fibril structure of islet amyloid polypeptide</title>
+        <authors_list>
+            <author>Roeder C</author>
+            <author>Kupreichyk T</author>
+        </authors_list>
+        <keywords>amylin, iapp, amyloid fibril, diabetes, HORMONE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0003-2600-8636" order="1">Roder C</author>
+                    <author ORCID="0000-0002-5151-6424" order="2">Kupreichyk T</author>
+                    <author ORCID="0000-0001-7065-5027" order="3">Gremer L</author>
+                    <author ORCID="0000-0002-8481-6298" order="4">Schafer LU</author>
+                    <author ORCID="0000-0003-0073-2511" order="5">Pothula KR</author>
+                    <author ORCID="0000-0001-6056-5888" order="6">Ravelli RBG</author>
+                    <author ORCID="0000-0002-0065-7366" order="7">Willbold D</author>
+                    <author ORCID="0000-0003-4301-5416" order="8">Hoyer W</author>
+                    <author ORCID="0000-0003-1803-5431" order="9">Schroder GF</author>
+                    <title>Cryo-EM structure of islet amyloid polypeptide fibrils reveals similarities with amyloid-beta fibrils.</title>
+                    <journal_abbreviation>Nat.Struct.Mol.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>27</volume>
+                    <first_page>660</first_page>
+                    <last_page>667</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32541895</external_references>
+                    <external_references type="DOI">doi:10.1038/s41594-020-0442-4</external_references>
+                    <external_references type="ISSN">1545-9985</external_references>
+                </journal_citation>
+            </primary_citation>
+            <secondary_citation>
+                <journal_citation published="true">
+                    <author order="10">Roeder C</author>
+                    <author order="11">Kupreichyk T</author>
+                    <author order="12">Gremer L</author>
+                    <author order="13">Schaefer LU</author>
+                    <author order="14">Pothula KR</author>
+                    <author order="15">Ravelli RBG</author>
+                    <author order="16">Willbold D</author>
+                    <author order="17">Hoyer W</author>
+                    <author order="18">Schroder GF</author>
+                    <title>Amyloid fibril structure of islet amyloid polypeptide by cryo-electron microscopy reveals similarities with amyloid beta</title>
+                    <journal_abbreviation>Biorxiv</journal_abbreviation>
+                    <country>US</country>
+                    <year>2020</year>
+                    <external_references type="DOI">doi:10.1101/2020.02.11.944546</external_references>
+                    <external_references type="ISSN">2692-8205</external_references>
+                </journal_citation>
+            </secondary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6y1a</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Amyloid fibril of the islet amyloid polypeptide (IAPP)</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Amyloid fibril of the islet amyloid polypeptide (IAPP)</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>The fibril consists of IAPP monomers.</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="kDa/nm">10.6</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Islet amyloid polypeptide</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.003909304</theoretical>
+                </molecular_weight>
+                <number_of_copies>16</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>KCNTATCATQRLANFLVHSSNNFGAILSSTNVGSNTY</string>
+                    <external_references type="UNIPROTKB">P10997</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>AMINO GROUP</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.6023e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>16</number_of_copies>
+                <formula>NH2</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <buffer>
+                        <ph>6.0</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TECNAI ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <specialist_optics>
+                        <phase_plate>OTHER</phase_plate>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>1330</number_real_images>
+                            <average_exposure_time units="s">46.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">41.4</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">2.351</delta_z>
+                            <delta_phi units="deg">178.23</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">4.2</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.5</version>
+                        </software>
+                    </software_list>
+                    <details>the data set was split by whole fibrils and then refined independently for 25 iterations to yield the two half maps.</details>
+                    <number_images_used>37120</number_images_used>
+                </final_reconstruction>
+                <startup_model type_of_model="OTHER">
+                    <details>noise filled cylinder</details>
+                </startup_model>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="32001">
+        <file>emd_10669.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>200</col>
+            <row>200</row>
+            <sec>200</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>200</x>
+            <y>200</y>
+            <z>200</z>
+        </spacing>
+        <cell>
+            <a units="Å">187.0</a>
+            <b units="Å">187.0</b>
+            <c units="Å">187.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-7.585202</minimum>
+            <maximum>12.759401</maximum>
+            <average>0.00000000002459</average>
+            <std>1.0000464</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.935</x>
+            <y units="Å">0.935</y>
+            <z units="Å">0.935</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>4.17</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-10669::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_10669_msk_1.map</file>
+            </segmentation>
+            <segmentation>
+                <file>emd_10669_msk_2.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="32001">
+                <file>emd_10669_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>200</col>
+                    <row>200</row>
+                    <sec>200</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>200</x>
+                    <y>200</y>
+                    <z>200</z>
+                </spacing>
+                <cell>
+                    <a units="Å">187.0</a>
+                    <b units="Å">187.0</b>
+                    <c units="Å">187.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.008202875</minimum>
+                    <maximum>0.03646193</maximum>
+                    <average>0.0011683741</average>
+                    <std>0.004894997</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.935</x>
+                    <y units="Å">0.935</y>
+                    <z units="Å">0.935</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-10669::::</label>
+                <annotation_details>half map 2</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="32001">
+                <file>emd_10669_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>200</col>
+                    <row>200</row>
+                    <sec>200</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>200</x>
+                    <y>200</y>
+                    <z>200</z>
+                </spacing>
+                <cell>
+                    <a units="Å">187.0</a>
+                    <b units="Å">187.0</b>
+                    <c units="Å">187.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.008883418</minimum>
+                    <maximum>0.03765027</maximum>
+                    <average>0.0011799451</average>
+                    <std>0.004861329</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.935</x>
+                    <y units="Å">0.935</y>
+                    <z units="Å">0.935</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-10669::::</label>
+                <annotation_details>half map 1</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

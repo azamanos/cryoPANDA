@@ -1,0 +1,108 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12562" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2025-02-18</depositionDate>
+            <releaseDate>2025-03-05</releaseDate>
+            <updateDate>2025-03-05</updateDate>
+        </keyDates>
+        <title>Cryo-EM micrographs of purified human BIRC6 in presence of CASP9</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-0293-1063</authorORCID>
+            <firstName>Juraj</firstName>
+            <lastName>Ahel</lastName>
+            <organization type="academic">IMP Vienna</organization>
+            <townOrCity>Vienna</townOrCity>
+            <country>Austria</country>
+            <postOrZipCode>1030</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-1582-6924</authorORCID>
+            <firstName>Tim</firstName>
+            <lastName>Clausen</lastName>
+            <organization type="academic">IMP Vienna</organization>
+            <townOrCity>Vienna</townOrCity>
+            <country>Austria</country>
+            <postOrZipCode>1030</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-2518-5681">Ehrmann JF</author>
+            <author authorORCID="0000-0003-0216-7085">Grabarczyk DB</author>
+            <author authorORCID="0000-0003-1582-6924">Clausen T</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">580.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12562</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-15663</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-2518-5681" order="1">Ehrmann JF</author>
+                    <author authorORCID="0000-0003-0216-7085" order="2">Grabarczyk DB</author>
+                    <author order="3">Heinke M</author>
+                    <author order="4">Deszcz L</author>
+                    <author order="5">Kurzbauer R</author>
+                    <author authorORCID="0000-0003-1099-0741" order="6">Hudecz O</author>
+                    <author order="7">Shulkina A</author>
+                    <author order="8">Gogova R</author>
+                    <author order="9">Meinhart A</author>
+                    <author authorORCID="0000-0002-6150-2165" order="10">Versteeg GA</author>
+                    <author authorORCID="0000-0003-1582-6924" order="11">Clausen T</author>
+                    <title>Structural basis for regulation of apoptosis and autophagy by the BIRC6/SMAC complex</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country></country>
+                    <issue>6637</issue>
+                    <volume>379</volume>
+                    <firstPage>1117</firstPage>
+                    <lastPage>1123</lastPage>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.ade8873</externalReferences>
+                    <externalReferences type="pubmed">36758105</externalReferences>
+                    <details>1) reconstructed micrographs, from motion correction and dose-weighted averaging of movies collected by a Titan Krios equipped with a Falcon4 camera
+
+2) relion .star file(s) describing the particles used in the final reconstruction of the associated EMDB entries</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned motion-corrected dose-weighted micrograph averages of BIRC6 with CASP9</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>9289</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.17</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.17</pixelHeight>
+        </dimensions>
+        <details># /motioncorr/
+Contains all motioncorrected dose-weighted micrograph averages for this data collection
+
+# /EMD-15663/run_data.star
+Relion star file describing all the particles from this dataset that were used in reconstruction of EMD-15663.
+(Note: the EMD-15663 model is derived from 3 separate EMPIAR datasets. Each dataset includes a star file with the particles from that dataset only)</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/motioncorr/*mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMD-*/run_data.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

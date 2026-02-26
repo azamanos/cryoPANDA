@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-26061">
+    <admin>
+        <current_status>
+            <date>2024-08-14</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-01-25</deposition>
+            <header_release>2022-05-04</header_release>
+            <map_release>2022-05-04</map_release>
+            <update>2024-08-14</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Heart, Lung, and Blood Institute (NIH/NHLBI)</funding_body>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-em structure of human prothrombinase on a nanodisc at 5.3 Angstrom resolution</title>
+        <authors_list>
+            <author>Di Cera E</author>
+            <author>Ruben EA</author>
+        </authors_list>
+        <keywords>prothrombinase, BLOOD CLOTTING</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Ruben EA</author>
+                    <author order="2">Summers B</author>
+                    <author order="3">Rau MJ</author>
+                    <author order="4">Fitzpatrick JAJ</author>
+                    <author order="5">Di Cera E</author>
+                    <title>Cryo-EM structure of the prothrombin-prothrombinase complex.</title>
+                    <journal_abbreviation>Blood</journal_abbreviation>
+                    <country>US</country>
+                    <volume>139</volume>
+                    <first_page>3463</first_page>
+                    <last_page>3473</last_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">35427420</external_references>
+                    <external_references type="DOI">doi:10.1182/blood.2022015807</external_references>
+                    <external_references type="ISSN">1528-0020</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7tpq</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>prothrombinase</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>prothrombinase</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>Factor X light chain, Activated factor Xa heavy chain</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>Coagulation factor Va</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Factor X light chain</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015743385</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="10036">Mesocricetus auratus</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>ANSFLEEMKKGHLERECMEETCSYEEAREVFEDSDKTNEFWNKYKDGDQCETSPCQNQGKCKDGLGEYTCTCLEGFEGKN
+CELFTRKLCSLDNGDCDQFCHEEQNSVVCSCARGYTLADNGKACIPTGPYPCGKQTLER</string>
+                    <external_references type="UNIPROTKB">P00742</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Coagulation factor Va</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.081274391</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>AQLRQFYVAAQGISWSYRPEPTNSSLNLSVTSFKKIVYREYEPYFKKEKPQSTISGLLGPTLYAEVGDIIKVHFKNKADK
+PLSIHPQGIRYSKLSEGASYLDHTFPAEKMDDAVAPGREYTYEWSISEDSGPTHDDPPCLTHIYYSHENLIEDFNSGLIG
+PLLICKKGTLTEGGTQKTFDKQIVLLFAVFDESKSWSQSSSLMYTVNGYVNGTMPDITVCAHDHISWHLLGMSSGPELFS
+IHFNGQVLEQNHHKVSAITLVSATSTTANMTVGPEGKWIISSLTPKHLQAGMQAYIDIKNCPKKTRNLKKITREQRRHMK
+RWEYFIAAEEVIWDYAPVIPANMDKKYRSQHLDNFSNQIGKHYKKVMYTQYEDESFTKHTVNPNMKEDGILGPIIRAQVR
+DTLKIVFKNMASRPYSIYPHGVTFSPYEDEVNSSFTSGRNNTMIRAVQPGETYTYKWNILEFDEPTENDAQCLTRPYYSD
+VDIMRDIASGLIGLLLICKSRSLDRRGIQRAADIEQQAVFAVFDENKSWYLEDNINKFCENPDEVKRDDPKFYESNIMST
+INGYVPESITTLGFCFDDTVQWHFCSVGTQNEILTIHFTGHSFIYGKRHEDTLTLFPMRGESVTVTMDNVGTWMLTSMNS
+SPRSKKLRLKFRDVKCIPDDDEDSYEIFEPPESTVMATRKMHDRLEPEDEESDADYDYQNRLAAALGIR</string>
+                    <external_references type="UNIPROTKB">P12259</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Coagulation factor Va</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.075283008</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SNNGNRRNYYIAAEEISWDYSEFVQRETDIEDSDDIPEDTTYKKVVFRKYLDSTFTKRDPRGEYEEHLGILGPIIRAEVD
+DVIQVRFKNLASRPYSLHAHGLSYEKSSEGKTYEDDSPEWFKEDNAVQPNSSYTYVWHATERSGPESPGSACRAWAYYSA
+VNPEKDIHSGLIGPLLICQKGILHKDSNMPMDMREFVLLFMTFDEKKSWYYEKKSRSSWRLTSSEMKKSHEFHAINGMIY
+SLPGLKMYEQEWVRLHLLNIGGSQDIHVVHFHGQTLLENGNKQHQLGVWPLLPGSFKTLEMKASKPGWWLLNTEVGENQR
+AGMQTPFLIMDRDCRMPMGLSTGIISDSQIKASEFLGYWEPRLARLNNGGSYNAWSVEKLAAEFASKPWIQVDMQKEVII
+TGIQTQGAKHYLKSCYTTEFYVAYSSNQINWQIFKGNSTRNVMYFNGNSDASTIKENQFDPPIVARYIRISPTRAYNRPT
+LRLELQGCEVNGCSTPLGMENGKIENKQITASSFKKSWWGDYWEPFRARLNAQGRVNAWQAKANNNKQWLEIDLLKIKKI
+TAIITQGCKSLSSEMYVKSYTIHYSEQGVEWKPYRLKSSMVDKIFEGNTNTKGHVKNFFNPPIISRFIRVIPKTWNQSIA
+LRLELFGCDIY</string>
+                    <external_references type="UNIPROTKB">P12259</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Activated factor Xa heavy chain</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.028534596</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="10036">Mesocricetus auratus</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>IVGGQECKDGECPWQALLINEENEGFCGGTILSEFYILTAAHCLYQAKRFKVRVGDRNTEQEEGGEAVHEVEVVIKHNRF
+TKETYDFDIAVLRLKTPITFRMNVAPACLPERDWAESTLMTQKTGIVSGFGRTHEKGRQSTRLKMLEVPYVDRNSCKLSS
+SFIITQNMFCAGYDTKQEDACQGDAGGPHVTRFKDTYFVTGIVSWGEGCARKGKYGIYTKVTAFLKWIDRSMKTRGLPKA
+KSHAPEVITSSPLK</string>
+                    <external_references type="UNIPROTKB">P00742</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                        <details>20mM Hepes, 150mM NaCl, 5mM CaCl2</details>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS GLACIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.4</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">51.28</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>7KVE</pdb_id>
+                    </pdb_model>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">5.3</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>16835</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="267694">
+        <file>emd_26061.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>406</col>
+            <row>406</row>
+            <sec>406</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>406</x>
+            <y>406</y>
+            <z>406</z>
+        </spacing>
+        <cell>
+            <a units="Å">381.63998</a>
+            <b units="Å">381.63998</b>
+            <c units="Å">381.63998</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.5035569</minimum>
+            <maximum>1.0712842</maximum>
+            <average>0.003383162</average>
+            <std>0.029865986</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.93999994</x>
+            <y units="Å">0.93999994</y>
+            <z units="Å">0.93999994</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.2</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-26061::::</label>
+        <annotation_details>prothrombinase on a nanodisc</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_26061_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="267694">
+                <file>emd_26061_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>406</col>
+                    <row>406</row>
+                    <sec>406</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>406</x>
+                    <y>406</y>
+                    <z>406</z>
+                </spacing>
+                <cell>
+                    <a units="Å">381.63998</a>
+                    <b units="Å">381.63998</b>
+                    <c units="Å">381.63998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.45308405</minimum>
+                    <maximum>0.83116233</maximum>
+                    <average>0.0021729402</average>
+                    <std>0.07204433</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.93999994</x>
+                    <y units="Å">0.93999994</y>
+                    <z units="Å">0.93999994</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-26061::::</label>
+                <annotation_details>prothrombinase on a nanodisc</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="267694">
+                <file>emd_26061_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>406</col>
+                    <row>406</row>
+                    <sec>406</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>406</x>
+                    <y>406</y>
+                    <z>406</z>
+                </spacing>
+                <cell>
+                    <a units="Å">381.63998</a>
+                    <b units="Å">381.63998</b>
+                    <c units="Å">381.63998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.5359854</minimum>
+                    <maximum>0.8620061</maximum>
+                    <average>0.0021832837</average>
+                    <std>0.07165988</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.93999994</x>
+                    <y units="Å">0.93999994</y>
+                    <z units="Å">0.93999994</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-26061::::</label>
+                <annotation_details>prothrombinase on a nanodisc</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

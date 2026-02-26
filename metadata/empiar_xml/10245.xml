@@ -1,0 +1,93 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10245" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-01-23</depositionDate>
+            <releaseDate>2019-06-07</releaseDate>
+            <updateDate>2019-06-07</updateDate>
+        </keyDates>
+        <title>AL amyloid fibril from a lambda 1 light chain</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-2123-6816</authorORCID>
+            <firstName>Marcus</firstName>
+            <lastName>Fändrich</lastName>
+            <organization type="academic">Institute for Protein Biochemistry, Ulm University</organization>
+            <street>Helmholtzstraße 8/1</street>
+            <townOrCity>Ulm</townOrCity>
+            <stateOrProvince>Bayern</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>89081</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-2123-6816</authorORCID>
+            <firstName>Marcus</firstName>
+            <lastName>Fändrich</lastName>
+            <organization type="academic">Institute for Protein Biochemistry, Ulm University</organization>
+            <street>Helmholtzstraße 8/1</street>
+            <townOrCity>Ulm</townOrCity>
+            <stateOrProvince>Bayern</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>89081</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Radamaker L</author>
+            <author>Schmidt M</author>
+            <author authorORCID="0000-0003-2123-6816">Fändrich M</author>
+            <author>Fritz G</author>
+        </authorsList>
+        <datasetSize units="GB">44.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10245</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-4452</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Radamaker L</author>
+                    <author order="2">Lin Y</author>
+                    <author authorORCID="0000-0003-2809-5155" order="3">Annamalai K</author>
+                    <author authorORCID="0000-0003-1700-2371" order="4">Huhn S</author>
+                    <author authorORCID="0000-0003-1917-6746" order="5">Hegenbart U</author>
+                    <author authorORCID="0000-0002-4853-5579" order="6">Schönland SO</author>
+                    <author order="7">Fritz G</author>
+                    <author order="8">Schmidt M</author>
+                    <author authorORCID="0000-0003-2123-6816" order="9">Fändrich M</author>
+                    <title>Cryo-EM structure of a light chain-derived amyloid fibril from a patient with systemic AL amyloidosis</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>10</volume>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-019-09032-0</externalReferences>
+                    <externalReferences type="pubmed">30894526</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned, motion-corrected micrographs of AL fibrils extracted from human heart tissue</name>
+        <directory>/data/Micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>843</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.041</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.041</pixelHeight>
+        </dimensions>
+        <details>The micrographs were aligned and motion-corrected using MotionCor2. 30 frames were recorded with 5.33 electron per squared Angstrom per second.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Micrographs/map_*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Micrographs/map_*_manualpick.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data</pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-39542">
+    <admin>
+        <current_status>
+            <date>2024-10-16</date>
+            <code>REL</code>
+            <processing_site>PDBj</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBj</deposition>
+            <last_processing>PDBj</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2024-03-21</deposition>
+            <header_release>2024-05-22</header_release>
+            <map_release>2024-05-22</map_release>
+            <update>2024-10-16</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Diabetes and Digestive and Kidney Disease (NIH/NIDDK)</funding_body>
+                <code>R01DA055656</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Diabetes and Digestive and Kidney Disease (NIH/NIDDK)</funding_body>
+                <code>U24DK116195</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>CryoEM structure of fospropofol-bound MRGPRX4-Gq complex</title>
+        <authors_list>
+            <author>Cao C</author>
+            <author>Fay JF</author>
+            <author>Roth BL</author>
+        </authors_list>
+        <keywords>GPCR-G protein complex, SIGNALING PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-6844-5477" order="1">Chien DC</author>
+                    <author ORCID="0000-0002-9540-6171" order="2">Limjunyawong N</author>
+                    <author ORCID="0000-0003-4017-741X" order="3">Cao C</author>
+                    <author ORCID="0000-0001-6776-3975" order="4">Meixiong J</author>
+                    <author order="5">Peng Q</author>
+                    <author ORCID="0000-0003-1036-8370" order="6">Ho CY</author>
+                    <author ORCID="0000-0003-1822-2384" order="7">Fay JF</author>
+                    <author ORCID="0000-0002-0561-6520" order="8">Roth BL</author>
+                    <author ORCID="0000-0002-9750-7718" order="9">Dong X</author>
+                    <title>MRGPRX4 mediates phospho-drug-associated pruritus in a humanized mouse model.</title>
+                    <journal_abbreviation>Sci Transl Med</journal_abbreviation>
+                    <country>US</country>
+                    <volume>16</volume>
+                    <first_page>eadk8198</first_page>
+                    <last_page>eadk8198</last_page>
+                    <year>2024</year>
+                    <external_references type="PUBMED">38718132</external_references>
+                    <external_references type="DOI">doi:10.1126/scitranslmed.adk8198</external_references>
+                    <external_references type="ISSN">1946-6242</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8yrg</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>fospropofol-bound MRGPRX4-Gq complex</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>fospropofol-bound MRGPRX4-Gq complex</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="kDa/nm">150</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Gs-mini-Gq chimera</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.028084831999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGSTVSAEDKAAAERSKMIDKNLREDGEKARRTLRLLLLGADNSGKSTIVKQMRILHGGSGGSGGTSGIFETKFQVDKVN
+FHMFDVGGQRDERRKWIQCFNDVTAIIFVVDSSDYNRLQEALNDFKSIWNNRWLRTISVILFLNKQDLLAEKVLAGKSKI
+EDYFPEFARYTTPEDATPEPGEDPRVTRAKYFIRKEFVDISTASGDGRHICYPHFTCAVDTENARRIFNDCKDIILQMNL
+REYNLV</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.039418086</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MHHHHHHLEVLFQGPGSSGSELDQLRQEAEQLKNQIRDARKACADATLSQITNNIDPVGRIQMRTRRTLRGHLAKIYAMH
+WGTDSRLLVSASQDGKLIIWDSYTTNKVHAIPLRSSWVMTCAYAPSGNYVACGGLDNICSIYNLKTREGNVRVSRELAGH
+TGYLSCCRFLDDNQIVTSSGDTTCALWDIETGQQTTTFTGHTGDVMSLSLAPDTRLFVSGACDASAKLWDVREGMCRQTF
+TGHESDINAICFFPNGNAFATGSDDATCRLFDLRADQELMTYSHDNIICGITSVSFSKSGRLLLAGYDDFNCNVWDALKA
+DRAGVLAGHDNRVSCLGVTDDGMAVATGSWDSFLKIWN</string>
+                    <external_references type="UNIPROTKB">P62873</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007861143</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MASNNTASIAQARKLVEQLKMEANIDRIKVSKAAADLMAYCEAHAKEDPLLTPVPASENPFREKKFFCAIL</string>
+                    <external_references type="UNIPROTKB">P59768</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>scFv16</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.028668921999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>DVQLVESGGGLVQPGGSRKLSCSASGFAFSSFGMHWVRQAPEKGLEWVAYISSGSGTIYYADTVKGRFTISRDDPKNTLF
+LQMTSLRSEDTAMYYCVRSIYYYGSSPFDFWGQGTTLTVSSGGGGSGGGGSGGGGSDIVMTQATSSVPVTPGESVSISCR
+SSKSLLHSNGNTYLYWFLQRPGQSPQLLIYRMSNLASGVPDRFSGSGSGTAFTLTISRLEAEDVGVYYCMQHLEYPLTFG
+AGTKLELKAAALEVLFQGPHHHHHHHH</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>Soluble cytochrome b562,Mas-related G-protein coupled receptor member X4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.053396019999999995</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>DYKDDDDAKLQTMHHHHHHHHHHENLYFQGGTTMADLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPP
+KLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLGSTLEVLFQGPDPTVPVFGT
+KLTPINGREETPCYNQTLSFTVLTCIISLVGLTGNAVVLWLLGYRMRRNAVSIYILNLAAADFLFLSFQIIRSPLRLINI
+SHLIRKILVSVMTFPYFTGLSMLSAISTERCLSVLWPIWYRCRRPTHLSAVVCVLLWGLSLLFSMLEWRFCDFLFSGADS
+SWCETSDFIPVAWLIFLCVVLCVSSLVLLVRILCGSRKMPLTRLYVTILLTVLVFLLCGLPFGILGALIYRMHLNLEVLY
+CHVYLVCMSLSSLNSSANPIIYFFVGSFRQRQNRQNLKLVLQRALQDKPEVDKGEGQLPEESLELSGSRLGP</string>
+                    <external_references type="UNIPROTKB">P0ABE7</external_references>
+                    <external_references type="UNIPROTKB">Q96LA9</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="6">
+                <name>[2,6-di(propan-2-yl)phenoxy]methyl dihydrogen phosphate</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000288277</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>A1LZU</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TALOS ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.2</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">28.0</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">56.5</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.14</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>375325</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="95552">
+        <file>emd_39542.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>288</col>
+            <row>288</row>
+            <sec>288</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>288</x>
+            <y>288</y>
+            <z>288</z>
+        </spacing>
+        <cell>
+            <a units="Å">253.43999</a>
+            <b units="Å">253.43999</b>
+            <c units="Å">253.43999</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.018767532</minimum>
+            <maximum>1.8697067</maximum>
+            <average>0.0010134141</average>
+            <std>0.020525727</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.87999994</x>
+            <y units="Å">0.87999994</y>
+            <z units="Å">0.87999994</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.27</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-39542::::</label>
+    </map>
+    <interpretation>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="95552">
+                <file>emd_39542_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>288</col>
+                    <row>288</row>
+                    <sec>288</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>288</x>
+                    <y>288</y>
+                    <z>288</z>
+                </spacing>
+                <cell>
+                    <a units="Å">253.43999</a>
+                    <b units="Å">253.43999</b>
+                    <c units="Å">253.43999</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.78237844</minimum>
+                    <maximum>1.5656784</maximum>
+                    <average>0.0013332543</average>
+                    <std>0.04781128</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.87999994</x>
+                    <y units="Å">0.87999994</y>
+                    <z units="Å">0.87999994</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-39542::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="95552">
+                <file>emd_39542_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>288</col>
+                    <row>288</row>
+                    <sec>288</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>288</x>
+                    <y>288</y>
+                    <z>288</z>
+                </spacing>
+                <cell>
+                    <a units="Å">253.43999</a>
+                    <b units="Å">253.43999</b>
+                    <c units="Å">253.43999</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.90467036</minimum>
+                    <maximum>1.5715023</maximum>
+                    <average>0.0013207573</average>
+                    <std>0.04783191</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.87999994</x>
+                    <y units="Å">0.87999994</y>
+                    <z units="Å">0.87999994</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-39542::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

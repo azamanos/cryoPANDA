@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_7/emdb.xsd" emdb_id="EMD-20110" version="3.0.1.7">
+    <admin>
+        <current_status>
+            <date>2020-01-22</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-04-15</deposition>
+            <header_release>2019-05-08</header_release>
+            <map_release>2019-11-27</map_release>
+            <update>2020-01-22</update>
+        </key_dates>
+        <title>Separating distinct macromolecular assemblies from cryo-EM images</title>
+        <authors_list>
+            <author>Verbeke EJ</author>
+            <author>Zhou Y</author>
+            <author>Horton AP</author>
+            <author>Mallam AL</author>
+            <author>Taylor DW</author>
+            <author>Marcotte EM</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Verbeke EJ</author>
+                    <author order="2">Zhou Y</author>
+                    <author order="3">Horton AP</author>
+                    <author order="4">Mallam AL</author>
+                    <author order="5">Taylor DW</author>
+                    <author order="6">Marcotte EM</author>
+                    <title>Separating distinct structures of multiple macromolecular assemblies from cryo-EM projections.</title>
+                    <journal_abbreviation>J.Struct.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>209</volume>
+                    <first_page>107416</first_page>
+                    <last_page>107416</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">31726096</external_references>
+                    <external_references type="DOI">doi:10.1016/j.jsb.2019.107416</external_references>
+                    <external_references type="ISSN">1095-8657</external_references>
+                    <external_references type="CSD">0803</external_references>
+                    <external_references type="ASTM">JSBIEM</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-20110</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-20109</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-20111</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-20112</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>60S ribosome</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>60S ribosome</name>
+                <parent>0</parent>
+                <details>From a complex mixture of defined assemblies</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">2</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <grid>
+                        <details>unspecified</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details></details>
+                    </vitrification>
+                    <details>a mixture of 40S, 60S, 80S, and apoferritin</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">-2.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">-3.0</nominal_defocus_max>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <frames_per_image>1-20</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>2400</number_real_images>
+                            <average_exposure_time units="s">6.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>Drift-correction using MotionCorr2</details>
+                <particle_selection>
+                    <number_selected>522000</number_selected>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>CTFFIND</name>
+                            <version>4</version>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">4.0</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>126000</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>4</number_classes>
+                    <details>SLICEM</details>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="226493">
+        <file>emd_20110.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>384</col>
+            <row>384</row>
+            <sec>384</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>384</x>
+            <y>384</y>
+            <z>384</z>
+        </spacing>
+        <cell>
+            <a units="Å">422.40002</a>
+            <b units="Å">422.40002</b>
+            <c units="Å">422.40002</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.58188504</minimum>
+            <maximum>1.3696401</maximum>
+            <average>0.0062304763</average>
+            <std>0.07187424</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.1</x>
+            <y units="Å">1.1</y>
+            <z units="Å">1.1</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.4</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-20110::::</label>
+        <annotation_details>Reconstruction of the 60S ribosome</annotation_details>
+    </map>
+</emd>

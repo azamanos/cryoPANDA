@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-13781">
+    <admin>
+        <current_status>
+            <date>2024-07-17</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-10-26</deposition>
+            <header_release>2022-09-21</header_release>
+            <map_release>2022-09-21</map_release>
+            <update>2024-07-17</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Helmholtz Association</funding_body>
+                <country>Germany</country>
+            </grant_reference>
+        </grant_support>
+        <title>cryo iDPC-STEM structure recorded with CSA 4.0</title>
+        <authors_list>
+            <author>Sachse C</author>
+            <author>Leidl ML</author>
+        </authors_list>
+        <keywords>tobacco mosaic virus, RNA virus, VIRUS</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-5238-952X" order="1">Lazic I</author>
+                    <author order="2">Wirix M</author>
+                    <author ORCID="0000-0001-8896-1647" order="3">Leidl ML</author>
+                    <author order="4">de Haas F</author>
+                    <author ORCID="0000-0002-9106-9358" order="5">Mann D</author>
+                    <author order="6">Beckers M</author>
+                    <author order="7">Pechnikova EV</author>
+                    <author order="8">Muller-Caspary K</author>
+                    <author order="9">Egoavil R</author>
+                    <author order="10">Bosch EGT</author>
+                    <author ORCID="0000-0002-1168-5143" order="11">Sachse C</author>
+                    <title>Single-particle cryo-EM structures from iDPC-STEM at near-atomic resolution.</title>
+                    <journal_abbreviation>Nat.Methods</journal_abbreviation>
+                    <country>US</country>
+                    <volume>19</volume>
+                    <first_page>1126</first_page>
+                    <last_page>1136</last_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">36064775</external_references>
+                    <external_references type="DOI">doi:10.1038/s41592-022-01586-0</external_references>
+                    <external_references type="ISSN">1548-7105</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7q2r</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Tobacco mosaic virus</name>
+        <supramolecule_list>
+            <virus_supramolecule supramolecule_id="1">
+                <name>Tobacco mosaic virus</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <sci_species_name ncbi="12242">Tobacco mosaic virus</sci_species_name>
+                <natural_host database="NCBI">
+                    <organism ncbi="12242">Tobacco mosaic virus</organism>
+                </natural_host>
+                <molecular_weight>
+                    <theoretical units="kDa/nm">131</theoretical>
+                </molecular_weight>
+                <virus_type>VIRUS-LIKE PARTICLE</virus_type>
+                <virus_isolate>STRAIN</virus_isolate>
+                <virus_enveloped>false</virus_enveloped>
+                <virus_empty>false</virus_empty>
+            </virus_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Capsid protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="12243">Tobacco mosaic virus (vulgare)</organism>
+                    <strain>vulgare</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.017091997999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVRFPDSDFKVYRYNAVLDPLV
+TALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVWT</string>
+                    <external_references type="UNIPROTKB">P69687</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <rna macromolecule_id="2">
+                <name>RNA (5'-R(P*GP*AP*A)-3')</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="12243">Tobacco mosaic virus (vulgare)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00095866</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>GAA</string>
+                </sequence>
+            </rna>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>helicalArray</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <concentration units="mg/mL">90</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>blot force of +10 and a duration for blotting of 10 seconds. </details>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>OTHER</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">0.0</nominal_defocus_max>
+                    <details>iDPC-STEM</details>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>OTHER</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">35.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>iDPC-STEM</details>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">1.408</delta_z>
+                            <delta_phi units="deg">22.03</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.5</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>2224</number_images_used>
+                </final_reconstruction>
+                <startup_model type_of_model="NONE"/>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="150001">
+        <file>emd_13781.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>500</col>
+            <row>500</row>
+            <sec>150</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>176</sec>
+        </origin>
+        <spacing>
+            <x>500</x>
+            <y>500</y>
+            <z>150</z>
+        </spacing>
+        <cell>
+            <a units="Å">490.0</a>
+            <b units="Å">490.0</b>
+            <c units="Å">147.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.044910975</minimum>
+            <maximum>0.061708406</maximum>
+            <average>0.00034799258</average>
+            <std>0.0029184807</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.98</x>
+            <y units="Å">0.98</y>
+            <z units="Å">0.98</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.014</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-13781::::</label>
+        <annotation_details>cryo iDPC-STEM mao recorded with CSA 4.0</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>4UDV</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_13781_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="500001">
+                <file>emd_13781_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>500</col>
+                    <row>500</row>
+                    <sec>500</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>500</x>
+                    <y>500</y>
+                    <z>500</z>
+                </spacing>
+                <cell>
+                    <a units="Å">490.0</a>
+                    <b units="Å">490.0</b>
+                    <c units="Å">490.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.011647791</minimum>
+                    <maximum>0.017380532</maximum>
+                    <average>0.00006959851</average>
+                    <std>0.0018706308</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.98</x>
+                    <y units="Å">0.98</y>
+                    <z units="Å">0.98</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13781::::</label>
+                <annotation_details>half-map1</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="500001">
+                <file>emd_13781_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>500</col>
+                    <row>500</row>
+                    <sec>500</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>500</x>
+                    <y>500</y>
+                    <z>500</z>
+                </spacing>
+                <cell>
+                    <a units="Å">490.0</a>
+                    <b units="Å">490.0</b>
+                    <c units="Å">490.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.012604748</minimum>
+                    <maximum>0.018551769</maximum>
+                    <average>0.00008672984</average>
+                    <std>0.0018674071</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.98</x>
+                    <y units="Å">0.98</y>
+                    <z units="Å">0.98</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13781::::</label>
+                <annotation_details>half-map2</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

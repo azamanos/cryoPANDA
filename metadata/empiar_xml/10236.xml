@@ -1,0 +1,148 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10236" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-10-04</depositionDate>
+            <releaseDate>2019-04-18</releaseDate>
+            <updateDate>2019-06-07</updateDate>
+        </keyDates>
+        <title>CryoET of cis-mutated mouse protocadherin gamma B6 on membranes</title>
+        <correspondingAuthor private="true">
+            <firstName>Lawrence</firstName>
+            <lastName>Shapiro</lastName>
+            <organization type="academic">Zuckerman Mind, Brain and Behavior Institute, Columbia University</organization>
+            <street>3227 Broadway</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Lawrence</firstName>
+            <lastName>Shapiro</lastName>
+            <organization type="academic">Zuckerman Mind, Brain and Behavior Institute, Columbia University</organization>
+            <street>3227 Broadway</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Brasch J</author>
+            <author>Bepler T</author>
+            <author authorORCID="0000-0002-2724-7228">Berger B</author>
+            <author>Maniatis T</author>
+            <author>Potter CS</author>
+            <author authorORCID="0000-0002-0624-5020">Carragher B</author>
+            <author authorORCID="0000-0002-1835-1031">Honig B</author>
+            <author authorORCID="0000-0001-9943-8819">Shapiro L</author>
+        </authorsList>
+        <datasetSize units="GB">379.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10236</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-9200</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Brasch J</author>
+                    <author authorORCID="0000-0003-2063-5823" order="2">Goodman KM</author>
+                    <author authorORCID="0000-0001-8634-2279" order="3">Noble AJ</author>
+                    <author order="4">Mannepalli S</author>
+                    <author order="5">Bahna F</author>
+                    <author order="6">Rapp M</author>
+                    <author order="7">Dandey VP</author>
+                    <author order="8">Bepler T</author>
+                    <author authorORCID="0000-0002-2724-7228" order="9">Berger B</author>
+                    <author order="10">Maniatis T</author>
+                    <author order="11">Potter CS</author>
+                    <author authorORCID="0000-0002-0624-5020" order="12">Carragher B</author>
+                    <author authorORCID="0000-0002-1835-1031" order="13">Honig B</author>
+                    <author authorORCID="0000-0001-9943-8819" order="14">Shapiro L</author>
+                    <title>Visualization of clustered protocadherin neuronal self-recognition complexes</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>7755</issue>
+                    <volume>569</volume>
+                    <firstPage>280</firstPage>
+                    <lastPage>283</lastPage>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41586-019-1089-3</externalReferences>
+                    <externalReferences type="pubmed">30971825</externalReferences>
+                    <details>Includes raw frames, aligned micrographs using MotionCor2, naively summed micrographs, tilt-series for exemplar areas, aligned tilt-series for exemplar areas, and tomograms.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>K2 tilt-series frames</name>
+        <directory>/data/frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>58</numImagesOrTiltSeries>
+        <framesPerImage>7</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.84</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.84</pixelHeight>
+        </dimensions>
+        <details>~8 e-/px/s dose rate on the camera
+Gain and dark references included</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Whole-frame aligned tilt images along with all other magnification images from the collection</name>
+        <directory>/data/leginon</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>58</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.84</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.84</pixelHeight>
+        </dimensions>
+        <details>Whole-frame aligned tilt images using Motioncor2.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Appion-Protomo tilt-series alignments</name>
+        <directory>/data/protomo_alignments</directory>
+        <category>tilt series</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.84</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.84</pixelHeight>
+        </dimensions>
+        <details>Includes a full tilt-series alignment run for each tilt-series.
+To view properly, navigate to the protomo_alignments folder in Appion-Protomo.
+The export/ directory contains SerialEM-formatted unaligned tilt-series stacks, mdoc files, and tilt files. This allows for easy upload to Appion-Protomo.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

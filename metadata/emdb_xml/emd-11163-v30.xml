@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-11163">
+    <admin>
+        <current_status>
+            <date>2024-05-01</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-06-11</deposition>
+            <header_release>2021-02-17</header_release>
+            <map_release>2021-02-17</map_release>
+            <update>2024-05-01</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>German Research Foundation (DFG)</funding_body>
+                <code>DFG SCHM 3276/1</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>German Research Foundation (DFG)</funding_body>
+                <code>DFG FA 456/15</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>German Research Foundation (DFG)</funding_body>
+                <code>DFG FA 456/23</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>German Research Foundation (DFG)</funding_body>
+                <code>DFG FA 456/27</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>German Research Foundation (DFG)</funding_body>
+                <code>DFG HA 7138/3</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>German Research Foundation (DFG)</funding_body>
+                <code>DFG HA 7138/2</code>
+                <country>Germany</country>
+            </grant_reference>
+        </grant_support>
+        <title>Amyloid fibril morphology ii (in vitro) from murine SAA1.1 protein</title>
+        <authors_list>
+            <author>Bansal A</author>
+            <author>Schmidt M</author>
+        </authors_list>
+        <keywords>systemic amyloidosis, misfolding disease, inflammation, prion, PROTEIN FIBRIL</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Bansal A</author>
+                    <author order="2">Schmidt M</author>
+                    <author order="3">Rennegarbe M</author>
+                    <author order="4">Haupt C</author>
+                    <author order="5">Liberta F</author>
+                    <author order="6">Stecher S</author>
+                    <author order="7">Puscalau-Girtu I</author>
+                    <author order="8">Biedermann A</author>
+                    <author order="9">Fandrich M</author>
+                    <title>AA amyloid fibrils from diseased tissue are structurally different from in vitro formed SAA fibrils.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>12</volume>
+                    <first_page>1013</first_page>
+                    <last_page>1013</last_page>
+                    <year>2021</year>
+                    <external_references type="PUBMED">33579941</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-021-21129-z</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6zcg</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Serum amyloid A1 (SAA1) amyloid fibril</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Serum amyloid A1 (SAA1) amyloid fibril</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>in vitro murine SAA amyloid fibril morphology ii</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Serum amyloid A-2 protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011622629</theoretical>
+                </molecular_weight>
+                <number_of_copies>24</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GFFSFIGEAFQGAGDMWRAYTDMKEAGWKDGDKYFHARGNYDAAQRGPGGVWAAEKISDARESFQEFFGRGHEDTMADQE
+ANRHGRSGKDPNYYRPPGLPAKY</string>
+                    <external_references type="UNIPROTKB">P05367</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>helicalArray</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.2</concentration>
+                    <buffer>
+                        <ph>8.5</ph>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <formula>(HOCH2)3CNH2</formula>
+                            <name>Tris(hydroxymethyl)aminomethane</name>
+                        </component>
+                        <details>10mM Tris(hydroxymethyl)aminomethane (Tris)</details>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">96</chamber_humidity>
+                        <instrument>FEI VITROBOT MARK III</instrument>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details/>
+                            <average_exposure_time units="s">12.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">4.74874</delta_z>
+                            <delta_phi units="deg">-1.6</delta_phi>
+                            <axial_symmetry>C2</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.95</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>21355</number_images_used>
+                </final_reconstruction>
+                <segment_selection>
+                    <number_selected>80724</number_selected>
+                </segment_selection>
+                <startup_model type_of_model="NONE"/>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="13501">
+        <file>emd_11163.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>150</col>
+            <row>150</row>
+            <sec>150</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>150</x>
+            <y>150</y>
+            <z>150</z>
+        </spacing>
+        <cell>
+            <a units="Å">156.0</a>
+            <b units="Å">156.0</b>
+            <c units="Å">156.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>Y</fast>
+            <medium>X</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-10.5840645</minimum>
+            <maximum>23.201730000000001</maximum>
+            <average>0.43162733</average>
+            <std>1.6857903</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.04</x>
+            <y units="Å">1.04</y>
+            <z units="Å">1.04</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>9.0</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-11163::::</label>
+        <annotation_details>in vitro mSAA amyloid fibril morphology ii</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>BACKBONE TRACE</refinement_protocol>
+                <target_criteria>Correlation coefficient</target_criteria>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="32001">
+                <file>emd_11163_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>200</col>
+                    <row>200</row>
+                    <sec>200</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>200</x>
+                    <y>200</y>
+                    <z>200</z>
+                </spacing>
+                <cell>
+                    <a units="Å">208.0</a>
+                    <b units="Å">208.0</b>
+                    <c units="Å">208.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.026822617</minimum>
+                    <maximum>0.07761488</maximum>
+                    <average>0.004867696</average>
+                    <std>0.007762277</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.04</x>
+                    <y units="Å">1.04</y>
+                    <z units="Å">1.04</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-11163::::</label>
+                <annotation_details>in vitro mSAA amyloid fibril morphology ii
+half map 2</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="32001">
+                <file>emd_11163_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>200</col>
+                    <row>200</row>
+                    <sec>200</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>200</x>
+                    <y>200</y>
+                    <z>200</z>
+                </spacing>
+                <cell>
+                    <a units="Å">208.0</a>
+                    <b units="Å">208.0</b>
+                    <c units="Å">208.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.02549581</minimum>
+                    <maximum>0.07859481</maximum>
+                    <average>0.0057034683</average>
+                    <std>0.0077958554</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.04</x>
+                    <y units="Å">1.04</y>
+                    <z units="Å">1.04</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-11163::::</label>
+                <annotation_details>in vitro mSAA amyloid fibril morphology ii
+half map 1</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

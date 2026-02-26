@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_1/emdb.xsd" version="3.0.9.1" emdb_id="EMD-25790">
+    <admin>
+        <current_status>
+            <date>2024-01-17</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-12-21</deposition>
+            <header_release>2022-07-06</header_release>
+            <map_release>2022-07-06</map_release>
+            <update>2024-01-17</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R35GM142495</code>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R00GM121856</code>
+            </grant_reference>
+        </grant_support>
+        <title>C1-symmetric single-particle cryo-EM map of T. vaginalis FDPF3</title>
+        <authors_list>
+            <author ORCID="0000-0002-3668-8412">Bell TA</author>
+            <author ORCID="0000-0002-4849-4148">Chao LH</author>
+        </authors_list>
+        <keywords>oxygen scavenging, fmn, nadh, flavodiiron protein, OXIDOREDUCTASE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Abdulaziz EN</author>
+                    <author order="2">Bell TA</author>
+                    <author order="3">Rashid B</author>
+                    <author order="4">Heacock ML</author>
+                    <author order="5">Begic T</author>
+                    <author order="6">Skinner OS</author>
+                    <author order="7">Yaseen MA</author>
+                    <author order="8">Chao LH</author>
+                    <author order="9">Mootha VK</author>
+                    <author order="10">Pierik AJ</author>
+                    <author order="11">Cracan V</author>
+                    <title>A natural fusion of flavodiiron, rubredoxin, and rubredoxin oxidoreductase domains is a self-sufficient water-forming oxidase of Trichomonas vaginalis.</title>
+                    <journal_abbreviation>J.Biol.Chem.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>298</volume>
+                    <first_page>102210</first_page>
+                    <last_page>102210</last_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">35780837</external_references>
+                    <external_references type="DOI">doi:10.1016/j.jbc.2022.102210</external_references>
+                    <external_references type="ISSN">1083-351X</external_references>
+                    <external_references type="CSD">0071</external_references>
+                    <external_references type="ASTM">JBCHA3</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-25787</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>C2-symmetric map from same input particle set</details>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Dimeric assembly of TvFDPF3 N-terminal FDP-like domains</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Dimeric assembly of TvFDPF3 N-terminal FDP-like domains</name>
+                <parent>0</parent>
+                <details>Resolved portion of full-lengh TvFDPF3</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="5722">Trichomonas vaginalis</organism>
+                    <strain>C-1:NIH</strain>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.8</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>Sodium Chloride</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>200</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                            <film_thickness>12.0</film_thickness>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">30</time>
+                            <atmosphere>AIR</atmosphere>
+                            <pressure units="kPa">3.9</pressure>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">295</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>Blotting condition: 5 s at +15 blotting force.. </details>
+                    </vitrification>
+                    <details>Monodisperse sample</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>OTHER</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">1.3</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.5</nominal_defocus_max>
+                    <nominal_magnification>105000.0</nominal_magnification>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>7398</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">54.5</average_electron_dose_per_image>
+                            <details>Images were collected as 51-frame movies.</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>1511632</number_selected>
+                    <details>All micrographs were imported into CryoSPARC and preprocessed using the CryoSPARC internal Patch Motion Correction and Patch CTF Estimation jobs. An initial particle set was generated by blob picking particles between 80 and 180 angstroms in diameter from all micrographs. These particles were twice sequentially subjected to 2D classification, and the best classes selected. The micrographs were then manually curated to remove images with minimum CTF fits of 9 angstrom or greater. After curation, 6,938 of the original 7,398 movies remained under consideration. The 2D classes selected from blob picking were used to train a Topaz model, and the model was used to pick particles from the curated micrographs. Duplicate particles were removed by excluding particles with a center within 125 angstrom of another particle.</details>
+                </particle_selection>
+                <startup_model type_of_model="NONE">
+                    <details>Model generated ab initio in RELION</details>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>2</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">6.6</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1.3</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>101628</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1.3</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1.3</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>6</number_classes>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1.3</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_25790.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">211.2</a>
+            <b units="Å">211.2</b>
+            <c units="Å">211.2</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.042410154</minimum>
+            <maximum>0.06062507</maximum>
+            <average>0.00012107029</average>
+            <std>0.0018237053</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.825</x>
+            <y units="Å">0.825</y>
+            <z units="Å">0.825</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.013</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-25790::::</label>
+        <annotation_details>Sharpened and masked C1-symmetric single-particle cryo-EM map of T. vaginalis FDPF3.  This map has not had handedness inverted, as is shown in publication.</annotation_details>
+    </map>
+    <interpretation>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_25790_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">211.2</a>
+                    <b units="Å">211.2</b>
+                    <c units="Å">211.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.042410154</minimum>
+                    <maximum>0.06062507</maximum>
+                    <average>0.000029343139</average>
+                    <std>0.0027877993</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.825</x>
+                    <y units="Å">0.825</y>
+                    <z units="Å">0.825</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-25790::::</label>
+                <annotation_details>Sharpened, unmasked C1-symmetric single-particle cryo-EM map of T. vaginalis FDPF3.  This map has not had handedness inverted, as is shown in publication.</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_25790_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">211.2</a>
+                    <b units="Å">211.2</b>
+                    <c units="Å">211.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.012502142</minimum>
+                    <maximum>0.021946121</maximum>
+                    <average>0.000032095286</average>
+                    <std>0.0012046377</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.825</x>
+                    <y units="Å">0.825</y>
+                    <z units="Å">0.825</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-25790::::</label>
+                <annotation_details>Half-class 1 from refinement prior to sharpening.  This map has not had handedness inverted, as is shown in publication.</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_25790_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">211.2</a>
+                    <b units="Å">211.2</b>
+                    <c units="Å">211.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.010743526</minimum>
+                    <maximum>0.02327341</maximum>
+                    <average>0.000026590968</average>
+                    <std>0.0011970793</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.825</x>
+                    <y units="Å">0.825</y>
+                    <z units="Å">0.825</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-25790::::</label>
+                <annotation_details>Half-class 2 from refinement prior to sharpening.  This map has not had handedness inverted, as is shown in publication.</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

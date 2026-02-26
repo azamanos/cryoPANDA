@@ -1,0 +1,117 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10006" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2013-12-05</depositionDate>
+            <releaseDate>2014-01-03</releaseDate>
+            <updateDate>2020-05-21</updateDate>
+        </keyDates>
+        <title>2D crystal images of the potassium channel MloK1 with and without cAMP ligand</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-1185-4592</authorORCID>
+            <firstName>Henning</firstName>
+            <lastName>Stahlberg</lastName>
+            <organization type="academic">C-CINA, Biozentrum, University Basel</organization>
+            <street>Mattenstrasse 26</street>
+            <townOrCity>Basel</townOrCity>
+            <country>Switzerland</country>
+            <postOrZipCode>CH-4058</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-1185-4592</authorORCID>
+            <firstName>Henning</firstName>
+            <lastName>Stahlberg</lastName>
+            <organization type="academic">C-CINA, Biozentrum, University Basel</organization>
+            <street>Mattenstrasse 26</street>
+            <townOrCity>Basel</townOrCity>
+            <country>Switzerland</country>
+            <postOrZipCode>CH-4058</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Kowal J</author>
+            <author>Chami M</author>
+            <author>Baumgartner P</author>
+            <author>Arheit M</author>
+            <author>Chiu P-L</author>
+            <author>Rangl M</author>
+            <author>Scheuring S</author>
+            <author>Schroeder GF</author>
+            <author>Nimigean CM</author>
+            <author authorORCID="0000-0002-1185-4592">Stahlberg H</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2015-10-27</date>
+                <statusCode>REL</statusCode>
+                <details>Restructured the entry directory to have "data" and ".private".</details>
+            </version>
+        </versionHistory>
+        <datasetSize units="GB">11.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10006</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-2526</emdbEntry>
+            <emdbEntry>EMD-2527</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>Potassium channel MloK1 with cAMP ligand</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>78</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>5600</imageWidth>
+            <pixelWidth>1.0</pixelWidth>
+            <imageHeight>5600</imageHeight>
+            <pixelHeight>1.0</pixelHeight>
+        </dimensions>
+        <details>Some micrographs have pixel width: 0.83A. In a recent work, Julia Kowal and others from our lab studied the MloK1 bacterial potassium channel, which has putative voltage sensors and cAMP ligand binding sites, in the presence and absence of the ligand, by electron crystallography.
+
+For the two configurations, we recorded a total of 78 respectively 67 images of 2D crystals tilted up to 45 degrees on photographic film and digitized them with a film scanner. Image processing in 2dx of the real-space images led to 3D maps of the protein in the two configurations at 7A resolution in plane, and 12A vertical resolution. We  have deposited the used 145 raw micrographs (TIFF format) with the corresponding 2dx processing file structure, including 2dx_image.cfg parameter files, merged APH files, phase origins, tilt angles, lattice line data, and final volumes, in short the entire 2dx image processing project, in one 12 GB ZIP file. This file contains an entire 2dx processing file structure.
+
+To open, extract the file structure onto your harddrive. 
+
+Then launch 2dx_merge, direct it to the base of either the cAMP-free or cAMP-bound dataset.
+
+In 2dx_merge, run the script "repair project links" to re-create the symbolic links for your local directory structure.
+
+Now you should be able to directly "merge" the included APH (Amplitude and Phase) files into a 2D or 3D structure, or you can open individual entries by double-clicking on the corresponding image line in 2dx_merge, so that you can re-process or insepct them with 2dx_image.  If questions, please contact Henning.Stahlberg@unibas.ch. 2dx is available under the GPL at http://2dx.org</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Potassium channel MloK1 without cAMP ligand</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>67</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>5600</imageWidth>
+            <pixelWidth>1.0</pixelWidth>
+            <imageHeight>5600</imageHeight>
+            <pixelHeight>1.0</pixelHeight>
+        </dimensions>
+        <details>Some micrographs have pixel width: 0.83A. In a recent work, Julia Kowal and others from our lab studied the MloK1 bacterial potassium channel, which has putative voltage sensors and cAMP ligand binding sites, in the presence and absence of the ligand, by electron crystallography.
+
+For the two configurations, we recorded a total of 78 respectively 67 images of 2D crystals tilted up to 45 degrees on photographic film and digitized them with a film scanner. Image processing in 2dx of the real-space images led to 3D maps of the protein in the two configurations at 7A resolution in plane, and 12A vertical resolution. We  have deposited the used 145 raw micrographs (TIFF format) with the corresponding 2dx processing file structure, including 2dx_image.cfg parameter files, merged APH files, phase origins, tilt angles, lattice line data, and final volumes, in short the entire 2dx image processing project, in one 12 GB ZIP file. This file contains an entire 2dx processing file structure.
+
+To open, extract the file structure onto your harddrive. 
+
+Then launch 2dx_merge, direct it to the base of either the cAMP-free or cAMP-bound dataset.
+
+In 2dx_merge, run the script "repair project links" to re-create the symbolic links for your local directory structure.
+
+Now you should be able to directly "merge" the included APH (Amplitude and Phase) files into a 2D or 3D structure, or you can open individual entries by double-clicking on the corresponding image line in 2dx_merge, so that you can re-process or insepct them with 2dx_image.  If questions, please contact Henning.Stahlberg@unibas.ch. 2dx is available under the GPL at http://2dx.org</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

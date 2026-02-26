@@ -1,0 +1,145 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10333" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-10-21</depositionDate>
+            <releaseDate>2019-12-20</releaseDate>
+            <updateDate>2021-11-08</updateDate>
+        </keyDates>
+        <title>Single Particle Cryo-EM Reconstructions of Human FACT in Complex with Partially Assembled Sub-nucleosomes</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-6656-6320</authorORCID>
+            <firstName>Yong Zi</firstName>
+            <lastName>Tan</lastName>
+            <organization type="academic">New York Structural Biology Center/Columbia University</organization>
+            <street>89 Convent Ave</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-5136-5331</authorORCID>
+            <firstName>Karolin</firstName>
+            <lastName>Luger</lastName>
+            <organization type="academic">Department of Biochemistry, University of Colorado at Boulder</organization>
+            <street>596 UCB</street>
+            <townOrCity>Boulder</townOrCity>
+            <stateOrProvince>Colorado</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>80305</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-7187-9196">Liu YL</author>
+            <author authorORCID="0000-0003-0258-1489">Zhou KZ</author>
+            <author authorORCID="0000-0003-1324-7099">Zhang NZ</author>
+            <author authorORCID="0000-0001-6777-1772">Wei HW</author>
+            <author authorORCID="0000-0001-6656-6320">Tan YZT</author>
+            <author authorORCID="0000-0001-5104-4220">Zhang ZZ</author>
+            <author authorORCID="0000-0002-0624-5020">Carragher BC</author>
+            <author authorORCID="0000-0003-2394-0831">Potter CSP</author>
+            <author authorORCID="0000-0001-5055-988X">D'Arcy SD</author>
+            <author authorORCID="0000-0001-5136-5331">Luger KL</author>
+        </authorsList>
+        <datasetSize units="TB">2.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10333</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-20840</emdbEntry>
+            <emdbEntry>EMD-20841</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-7187-9196" order="1">Liu YL</author>
+                    <author authorORCID="0000-0003-0258-1489" order="2">Zhou KZ</author>
+                    <author authorORCID="0000-0003-1324-7099" order="3">Zhang NZ</author>
+                    <author authorORCID="0000-0001-6777-1772" order="4">Wei HW</author>
+                    <author authorORCID="0000-0001-6656-6320" order="5">Tan YZT</author>
+                    <author authorORCID="0000-0001-5104-4220" order="6">Zhang ZZ</author>
+                    <author authorORCID="0000-0002-0624-5020" order="7">Carragher BC</author>
+                    <author authorORCID="0000-0003-2394-0831" order="8">Potter CSP</author>
+                    <author authorORCID="0000-0001-5055-988X" order="9">D'Arcy SD</author>
+                    <author authorORCID="0000-0001-5136-5331" order="10">Luger KL</author>
+                    <title>FACT caught in the act of manipulating the nucleosome</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country>United Kingdom</country>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41586-019-1820-0</externalReferences>
+                    <externalReferences type="pubmed">31775157</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs</name>
+        <directory>/data/01_Raw_Frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>8319</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>50</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.0961</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.0961</pixelHeight>
+        </dimensions>
+        <details>Unaligned movies saved in TIF format. The first data collection (19feb16b) was performed using a dose of ~66.37 e-/Å2 across 50 frames (200 msec per frame) at a dose rate of ~8.0 e–/pix/sec, using a set defocus range of -1.9 μm to -2.0 μm. The second data collection (19may31e) was performed using a dose of ~ 63.61 e-/Å2 across 50 frames (200 msec per frame) at a dose rate of ~7.6 e–/pix/sec, using a set defocus range of -1.5 μm to -2.5 μm. The gain reference images for each data collection are in the respective references folder.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned and dose-weighted micrographs</name>
+        <directory>/data/02_Aligned_Micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6934</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.0961</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.0961</pixelHeight>
+        </dimensions>
+        <details>Aligned and dose-weighted micrographs. Motion correction was performed using Relion 3.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/02_Aligned_Micrographs/MotionCorr/job0*/Movies/*mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/03_Particle_Stacks/Class*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/03_Particle_Stacks</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final Particle Stacks for Class 1 and 2 with Euler Angles and Shifts</name>
+        <directory>/data/03_Particle_Stacks</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>2</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>200</imageWidth>
+            <pixelWidth>1.403008</pixelWidth>
+            <imageHeight>200</imageHeight>
+            <pixelHeight>1.403008</pixelHeight>
+        </dimensions>
+        <details>Final particle stacks for both class 1 and 2 maps with corresponding Relion .star file containing the refined Euler angles and shifts.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/02_Aligned_Micrographs/MotionCorr/job0*/Movies/*mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/03_Particle_Stacks/Class*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/03_Particle_Stacks</pickedParticlesDirectory>
+    </imageSet>
+</entry>

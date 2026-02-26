@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_9/emdb.xsd" emdb_id="EMD-6802" version="3.0.1.9">
+    <admin>
+        <current_status>
+            <date>2020-08-05</date>
+            <code>REL</code>
+            <processing_site>PDBj</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBj</deposition>
+            <last_processing>PDBj</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2017-07-21</deposition>
+            <header_release>2017-11-22</header_release>
+            <map_release>2017-11-22</map_release>
+            <update>2020-08-05</update>
+        </key_dates>
+        <title>Near-atomic resolution reconstruction of mixed over-/under-focused apoferritin</title>
+        <authors_list>
+            <author>Fan X</author>
+            <author>Zhao LY</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Fan X</author>
+                    <author order="2">Zhao L</author>
+                    <author order="3">Liu C</author>
+                    <author order="4">Zhang JC</author>
+                    <author order="5">Fan K</author>
+                    <author order="6">Yan X</author>
+                    <author order="7">Peng HL</author>
+                    <author order="8">Lei J</author>
+                    <author order="9">Wang HW</author>
+                    <title>Near-Atomic Resolution Structure Determination in Over-Focus with Volta Phase Plate by Cs-Corrected Cryo-EM</title>
+                    <journal_abbreviation>Structure</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>25</volume>
+                    <first_page>1623</first_page>
+                    <last_page>1630.e3</last_page>
+                    <year>2017</year>
+                    <external_references type="PUBMED">28943337</external_references>
+                    <external_references type="DOI">doi:10.1016/j.str.2017.08.008</external_references>
+                    <external_references type="ISSN">1878-4186</external_references>
+                    <external_references type="CSD">2005</external_references>
+                    <external_references type="ASTM">STRUE6</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-6802</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Near-atomic resolution reconstruction of over-focused apoferritin</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Near-atomic resolution reconstruction of over-focused apoferritin</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil</model>
+                        <material>GOLD</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>GRAPHENE</film_material>
+                            <film_topology>CONTINUOUS</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">283</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details></details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">0.001</nominal_cs>
+                    <specialist_optics>
+                        <phase_plate>VOLTA PHASE PLATE</phase_plate>
+                        <sph_aberration_corrector>Microscope was modified with a Cs corrector with two hexapole elements.</sph_aberration_corrector>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON II (4k x 4k)</film_or_detector_model>
+                            <detector_mode>INTEGRATING</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">4096</width>
+                                    <height units="pixel">4096</height>
+                                </dimensions>
+                                <sampling_interval units="µm">14.0</sampling_interval>
+                                <frames_per_image>1-33</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <average_exposure_time units="s">4.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">25.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>1FHA</pdb_id>
+                    </pdb_model>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.0</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>63015</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="55297">
+        <file>emd_6802.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>240</col>
+            <row>240</row>
+            <sec>240</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>240</x>
+            <y>240</y>
+            <z>240</z>
+        </spacing>
+        <cell>
+            <a units="Å">211.2</a>
+            <b units="Å">211.2</b>
+            <c units="Å">211.2</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.14438719</minimum>
+            <maximum>0.29314175</maximum>
+            <average>0.00074269285</average>
+            <std>0.020843051</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.88</x>
+            <y units="Å">0.88</y>
+            <z units="Å">0.88</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.08</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-6802::::</label>
+    </map>
+</emd>

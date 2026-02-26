@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_9/emdb.xsd" emdb_id="EMD-21492" version="3.0.1.9">
+    <admin>
+        <current_status>
+            <date>2020-07-22</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-02-28</deposition>
+            <header_release>2020-03-11</header_release>
+            <map_release>2020-03-11</map_release>
+            <update>2020-07-22</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Science Foundation (NSF, United States)</funding_body>
+                <code>NSF-DBI-ABI 1759826</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Heart, Lung, and Blood Institute (NIH/NHLBI)</funding_body>
+                <code>R01-CA-221289</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Rabbit muscle aldolase cryo-EM structure using automatic preprocessing workflow</title>
+        <authors_list>
+            <author>Cianfrocco MA</author>
+            <author>Li Y</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Li Y</author>
+                    <author order="2">Cash JN</author>
+                    <author order="3">Tesmer JJG</author>
+                    <author order="4">Cianfrocco MA</author>
+                    <title>High-Throughput Cryo-EM Enabled by User-Free Preprocessing Routines.</title>
+                    <journal_abbreviation>Structure</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>28</volume>
+                    <first_page>858</first_page>
+                    <last_page>869.e3</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32294468</external_references>
+                    <external_references type="DOI">doi:10.1016/j.str.2020.03.008</external_references>
+                    <external_references type="ISSN">0969-2126</external_references>
+                    <external_references type="CSD">2005</external_references>
+                    <external_references type="ASTM">STRUE6</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-21492</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Rabbit muscle aldolase</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Rabbit muscle aldolase</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="9986">Oryctolagus cuniculus</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <details></details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TALOS ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">44.13</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="EMDB MAP">
+                    <emdb_id>EMD-8743</emdb_id>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>D2</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.2</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>425087</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="43765">
+        <file>emd_21492.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>222</col>
+            <row>222</row>
+            <sec>222</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>222</x>
+            <y>222</y>
+            <z>222</z>
+        </spacing>
+        <cell>
+            <a units="Å">270.84</a>
+            <b units="Å">270.84</b>
+            <c units="Å">270.84</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.12054832</minimum>
+            <maximum>0.26648912</maximum>
+            <average>-0.0000379410</average>
+            <std>0.005837753</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.22</x>
+            <y units="Å">1.22</y>
+            <z units="Å">1.22</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0346</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-21492::::</label>
+        <annotation_details>Cryo-EM structure of rabbit muscle aldolase using automatic preprocessing workflow</annotation_details>
+    </map>
+</emd>

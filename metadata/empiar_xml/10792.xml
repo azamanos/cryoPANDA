@@ -1,0 +1,165 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10792" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-08-23</depositionDate>
+            <releaseDate>2021-11-10</releaseDate>
+            <updateDate>2021-11-10</updateDate>
+        </keyDates>
+        <title>Structural mechanism of GTPase-powered ribosome-tRNA movement</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-4609-4052</authorORCID>
+            <firstName>Niels</firstName>
+            <lastName>Fischer</lastName>
+            <organization type="academic">Department of Structural Dynamics, Max Planck Institute for Biophysical Chemistry</organization>
+            <street>Am Fassberg 11</street>
+            <townOrCity>Göttingen</townOrCity>
+            <stateOrProvince>Lower Saxony</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>37077</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-4609-4052</authorORCID>
+            <firstName>Niels</firstName>
+            <lastName>Fischer</lastName>
+            <organization type="academic">Department of Structural Dynamics, Max Planck Institute for Biophysical Chemistry</organization>
+            <street>Am Fassberg 11</street>
+            <townOrCity>Göttingen</townOrCity>
+            <stateOrProvince>Lower Saxony</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>37077</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator>
+            <authorORCID>0000-0003-0105-3879</authorORCID>
+            <firstName>Marina</firstName>
+            <middleName>V.</middleName>
+            <lastName>Rodnina</lastName>
+            <organization type="academic">Department of Physical Biochemistry, Max Planck Institute for Biophysical Chemistry</organization>
+            <street>Am Fassberg 11</street>
+            <townOrCity>Göttingen</townOrCity>
+            <stateOrProvince>Lower Saxony</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>37077</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-9867-9493">Petrychenko V</author>
+            <author authorORCID="0000-0002-9832-8447">Peng B-Z</author>
+            <author authorORCID="0000-0001-6071-9584">Schwarzer AP</author>
+            <author authorORCID="0000-0003-3076-0409">Peske F</author>
+            <author authorORCID="0000-0003-0105-3879">Rodnina MV</author>
+            <author authorORCID="0000-0002-4609-4052">Fischer N</author>
+        </authorsList>
+        <datasetSize>987.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10792</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-13458</emdbEntry>
+            <emdbEntry>EMD-13459</emdbEntry>
+            <emdbEntry>EMD-13460</emdbEntry>
+            <emdbEntry>EMD-13461</emdbEntry>
+            <emdbEntry>EMD-13462</emdbEntry>
+            <emdbEntry>EMD-13463</emdbEntry>
+            <emdbEntry>EMD-13464</emdbEntry>
+            <emdbEntry>EMD-13465</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-9867-9493" order="1">Petrychenko V</author>
+                    <author authorORCID="0000-0002-9832-8447" order="2">Peng BZ</author>
+                    <author authorORCID="0000-0001-6071-9584" order="3">de A P Schwarzer AC</author>
+                    <author authorORCID="0000-0003-3076-0409" order="4">Peske F</author>
+                    <author authorORCID="0000-0003-0105-3879" order="5">Rodnina MV</author>
+                    <author authorORCID="0000-0002-4609-4052" order="6">Fischer N</author>
+                    <title>Structural mechanism of GTPase-powered ribosome-tRNA movement</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>12</volume>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-021-26133-x</externalReferences>
+                    <externalReferences type="pubmed">34635670</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion-corrected, dose-weighted micrographs</name>
+        <directory>/data/data/corrected_micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>9300</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.16</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.16</pixelHeight>
+        </dimensions>
+        <details>Note: Micrographs were obtained from movie-stacks of 20 frames à 1.5 e/A^2 by global motion-correction and dose-weighting using MotionCor2 in Relion.
+- Micrographs .star-file: "corrected_micrographs.star"</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/data/corrected_micrographs/FoilHole_*_Data_*_Fractions.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Shiny particles of non-rotated ribosome particles (C state), obtained by Bayesian polishing in Relion 3.1</name>
+        <directory>/data/data/shiny_Cstate</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>1176423</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>288</imageWidth>
+            <pixelWidth>1.16</pixelWidth>
+            <imageHeight>288</imageHeight>
+            <pixelHeight>1.16</pixelHeight>
+        </dimensions>
+        <details>Shiny particles .star-file &amp; 3D mask for final 3D refinement of C state (EMD-13458): "shiny_Cstate.star" &amp; "mask_Cstate.mrc"</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/data/corrected_micrographs/FoilHole_*_Data_*_Fractions.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/data/shiny_Cstate/FoilHole_*_Data_*_Fractions_shiny.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/data/shiny_Cstate</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Shiny particles of rotated ribosome particles, obtained by Bayesian polishing in Relion 3.1</name>
+        <directory>/data/data/shiny</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>103222</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>288</imageWidth>
+            <pixelWidth>1.16</pixelWidth>
+            <imageHeight>288</imageHeight>
+            <pixelHeight>1.16</pixelHeight>
+        </dimensions>
+        <details>Star-files of shiny particles &amp; 3D masks used for final 3D refinements:
+- H1 (EMD-13459): "shiny_H1.star" &amp; "mask_H1.mrc"
+- H2 (EMD-13460): "shiny_H2.star" &amp; "mask_H2.mrc"
+- H1-EF-G-GDP-Pi (EMD-13461): "shiny_H1-EF-G-GDP-Pi.star" &amp; "mask_H1-EF-G-GDP-Pi.mrc"
+- H2-EF-G-GDP-Pi (EMD-13462): "shiny_H2-EF-G-GDP-Pi.star" &amp; "mask_H2-EF-G-GDP-Pi.mrc"
+- H1-EF-G-GDP (EMD-13463): "shiny_H1-EF-G-GDP.star" &amp; "mask_H1-EF-G-GDP.mrc"
+- CHI1-EF-G-GDP (EMD-13464): "shiny_CHI1-EF-G-GDP.star" &amp; "mask_CHI1-EF-G-GDP.mrc"
+- CHI2-EF-G-GDP (EMD-13465): "shiny_CHI2-EF-G-GDP.star" &amp; "mask_CHI2-EF-G-GDP.mrc"
+Star-files of shiny particles for substates 1-3 of EF-G domain 4 in H1-EF-G-GDP-Pi state (EMD-13461):
+- "shiny_H1-EF-G-GDP-Pi_D4_substate1.star"
+- "shiny_H1-EF-G-GDP-Pi_D4_substate2.star"
+- "shiny_H1-EF-G-GDP-Pi_D4_substate3.star"</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/data/corrected_micrographs/FoilHole_*_Data_*_Fractions.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/data/shiny/FoilHole_*_Data_*_Fractions_shiny.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/data/shiny</pickedParticlesDirectory>
+    </imageSet>
+</entry>

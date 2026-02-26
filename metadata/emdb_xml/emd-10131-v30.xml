@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_0/emdb.xsd" emdb_id="EMD-10131" version="3.0.2.0">
+    <admin>
+        <current_status>
+            <date>2020-11-25</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-07-18</deposition>
+            <header_release>2019-10-23</header_release>
+            <map_release>2019-10-23</map_release>
+            <update>2020-11-25</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Medical Research Council (United Kingdom)</funding_body>
+                <code>MR/R000352/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Wellcome Trust</funding_body>
+                <code>079605/Z/06/Z</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Medical Research Council (United Kingdom)</funding_body>
+                <code>MR/J003867/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council</funding_body>
+                <code>BB/L014211/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Wellcome Trust</funding_body>
+                <code>101488/Z/13/Z</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>MKLP2-decocrated 13 protofilament microtubule (ADP.Al.Fx state) processed with MiRP (Microtubule Relion-based Pipeline)</title>
+        <authors_list>
+            <author>Cook AC</author>
+            <author>Manka SW</author>
+            <author>Wang S</author>
+            <author>Moores CA</author>
+            <author>Atherton J</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Cook AD</author>
+                    <author order="2">Manka SW</author>
+                    <author order="3">Wang S</author>
+                    <author order="4">Moores CA</author>
+                    <author order="5">Atherton J</author>
+                    <title>A microtubule RELION-based pipeline for cryo-EM image processing.</title>
+                    <journal_abbreviation>J.Struct.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>209</volume>
+                    <first_page>107402</first_page>
+                    <last_page>107402</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">31610239</external_references>
+                    <external_references type="DOI">doi:10.1016/j.jsb.2019.10.004</external_references>
+                    <external_references type="ISSN">1095-8657</external_references>
+                    <external_references type="CSD">0803</external_references>
+                    <external_references type="ASTM">JSBIEM</external_references>
+                </journal_citation>
+            </primary_citation>
+            <secondary_citation>
+                <journal_citation published="true">
+                    <author order="6">Atherton J</author>
+                    <author order="7">Yu IM</author>
+                    <author order="8">Cook A</author>
+                    <author order="9">Muretta JM</author>
+                    <author order="10">Joseph A</author>
+                    <author order="11">Major J</author>
+                    <author order="12">Sourigues Y</author>
+                    <author order="13">Clause J</author>
+                    <author order="14">Topf M</author>
+                    <author order="15">Rosenfeld SS</author>
+                    <author order="16">Houdusse A</author>
+                    <author order="17">Moores CA</author>
+                    <title>The divergent mitotic kinesin MKLP2 exhibits atypical structure and mechanochemistry.</title>
+                    <journal_abbreviation>Elife</journal_abbreviation>
+                    <country>US</country>
+                    <external_references type="PUBMED">28826477</external_references>
+                    <external_references type="ISSN">2050-084X</external_references>
+                </journal_citation>
+            </secondary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-3622</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>Data originally processed with Spider and Frealign</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-10131</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Complex of 13pf microtubule with bound MKLP2 motor domain in the presence of ADP.AlFx</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Complex of 13pf microtubule with bound MKLP2 motor domain in the presence of ADP.AlFx</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Microtubule bound to taxol</details>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>Tubulin alpha and beta chains</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Microtubule bound to taxol</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="9913">Bos taurus</organism>
+                </natural_source>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>Kinesin-like protein KIF20A</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Microtubule bound to taxol</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>6.8</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <details></details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI POLARA 300</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>DIRECT ELECTRON DE-20 (5k x 3k)</film_or_detector_model>
+                            <detector_mode>INTEGRATING</detector_mode>
+                            <average_electron_dose_per_image units="e/Å^2">25.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>Gctf</name>
+                        </software>
+                    </software_list>
+                    <details>RELION</details>
+                </ctf_correction>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">4.2</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                    <details>Following the MiRP pipeline</details>
+                    <number_images_used>14411</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                    <details>Following the MiRP pipeline</details>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                    <details>Following the MiRP pipeline</details>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                    <details>Following the MiRP pipeline</details>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="3593">
+        <file>emd_10131.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>80</col>
+            <row>103</row>
+            <sec>109</sec>
+        </dimensions>
+        <origin>
+            <col>192</col>
+            <row>83</row>
+            <sec>157</sec>
+        </origin>
+        <spacing>
+            <x>80</x>
+            <y>103</y>
+            <z>109</z>
+        </spacing>
+        <cell>
+            <a units="Å">122.72</a>
+            <b units="Å">158.002</b>
+            <c units="Å">167.20601</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.15499362</minimum>
+            <maximum>0.29427066</maximum>
+            <average>0.001958117</average>
+            <std>0.01719634</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.534</x>
+            <y units="Å">1.534</y>
+            <z units="Å">1.534</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.035</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-10131::::</label>
+        <annotation_details>MKLP2 (ADPAlFx state) decorated 13PF microtubule: symmetrised asymmetric unit density from MiRP processing</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>5ND4</access_code>
+                </initial_model>
+            </modelling>
+        </modelling_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="3593">
+                <file>emd_10131_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>432</col>
+                    <row>432</row>
+                    <sec>432</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>432</x>
+                    <y>432</y>
+                    <z>432</z>
+                </spacing>
+                <cell>
+                    <a units="Å">662.688</a>
+                    <b units="Å">662.688</b>
+                    <c units="Å">662.688</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-5.131995</minimum>
+                    <maximum>10.125138</maximum>
+                    <average>0.013429667</average>
+                    <std>0.72275335</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.534</x>
+                    <y units="Å">1.534</y>
+                    <z units="Å">1.534</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-10131::::</label>
+                <annotation_details>MKLP2 (ADPAlFx state) decorated 13PF microtubule: C1 whole microtubule density from MiRP processing</annotation_details>
+            </additional_map>
+        </additional_map_list>
+    </interpretation>
+</emd>

@@ -1,0 +1,87 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11406" schemaVersion="0.63" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-01-30</depositionDate>
+            <releaseDate>2023-06-23</releaseDate>
+            <updateDate>2023-06-23</updateDate>
+        </keyDates>
+        <title>Hexameric human IgG3 Fc complex</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-1990-2333</authorORCID>
+            <firstName>Thomas</firstName>
+            <middleName>H.</middleName>
+            <lastName>Sharp</lastName>
+            <organization type="academic">Department of Cell and Chemical Biology, Leiden University Medical Centre</organization>
+            <street>Einthovenweg 20</street>
+            <townOrCity>Leiden</townOrCity>
+            <stateOrProvince>Zuid Holland</stateOrProvince>
+            <country>Netherlands</country>
+            <postOrZipCode>2333 ZC</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-1990-2333</authorORCID>
+            <firstName>Thomas</firstName>
+            <middleName>H.</middleName>
+            <lastName>Sharp</lastName>
+            <organization type="academic">Department of Cell and Chemical Biology, Leiden University Medical Centre</organization>
+            <street>Einthovenweg 20</street>
+            <townOrCity>Leiden</townOrCity>
+            <stateOrProvince>Zuid Holland</stateOrProvince>
+            <country>Netherlands</country>
+            <postOrZipCode>2333 ZC</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-7634-5353">Abendstein LA</author>
+            <author authorORCID="0000-0002-1990-2333">Sharp THS</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">25.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11406</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-16227</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0001-7634-5353" order="1">Abendstein LA</author>
+                    <title>Complement is activated by elevated IgG3 hexameric platforms and deposits C4b onto distinct antibody domains</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>extracted particles - IgG3 bound to DNP representing liposomes</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1193</numImagesOrTiltSeries>
+        <framesPerImage>10</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>180</imageWidth>
+            <pixelWidth>3.48</pixelWidth>
+            <imageHeight>180</imageHeight>
+            <pixelHeight>3.48</pixelHeight>
+        </dimensions>
+        <details>Tilt series were collected on a Talos Arctica (200kV) microscope with a K3 direct electron detector and a Bioquantum energy filter (slit width=20 eV; Gatan). Tomograms were reconstructed using weighed back-projection in IMOD4.11.Particles were manually picked in EMAN2 (version 2.91) using 2spt_boxer_old.py. 1,193 particles were extracted from 55 tomograms with a box size of 180 pixels and a final pixel size of 3.48 Å/pixel.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data</pickedParticlesDirectory>
+    </imageSet>
+</entry>

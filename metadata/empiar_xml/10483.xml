@@ -1,0 +1,97 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10483" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-08-03</depositionDate>
+            <releaseDate>2020-09-02</releaseDate>
+            <updateDate>2020-09-02</updateDate>
+        </keyDates>
+        <title>ISWI-NCP complex in the ADP-bound state</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-8684-0339</authorORCID>
+            <firstName>Zhucheng</firstName>
+            <lastName>Chen</lastName>
+            <organization type="academic">Tsinghua University</organization>
+            <street>Zhongguancun North Street</street>
+            <townOrCity>Beijing</townOrCity>
+            <stateOrProvince>Beijing</stateOrProvince>
+            <country>China</country>
+            <postOrZipCode>100084</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8684-0339</authorORCID>
+            <firstName>Zhucheng</firstName>
+            <lastName>Chen</lastName>
+            <organization type="academic">Tsinghua University</organization>
+            <street>Zhongguancun North Street</street>
+            <townOrCity>Beijing</townOrCity>
+            <stateOrProvince>Beijing</stateOrProvince>
+            <country>China</country>
+            <postOrZipCode>100084</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Yan L</author>
+            <author>Wu H</author>
+            <author>Li X</author>
+            <author authorORCID="0000-0003-3067-9993">Gao N</author>
+            <author authorORCID="0000-0002-8684-0339">Chen Z</author>
+        </authorsList>
+        <datasetSize units="GB">36.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10483</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-0720</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Yan L</author>
+                    <author order="2">Wu H</author>
+                    <author order="3">Li X</author>
+                    <author authorORCID="0000-0003-3067-9993" order="4">Gao N</author>
+                    <author authorORCID="0000-0002-8684-0339" order="5">Chen Z</author>
+                    <title>Structures of the ISWI-nucleosome complex reveal a conserved mechanism of chromatin remodeling</title>
+                    <journal>Nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>Nat. Struct. Mol. Biol.</journalAbbreviation>
+                    <country></country>
+                    <issue>4</issue>
+                    <volume>26</volume>
+                    <firstPage>258</firstPage>
+                    <lastPage>266</lastPage>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41594-019-0199-9</externalReferences>
+                    <externalReferences type="pubmed">30872815</externalReferences>
+                    <details>The micrographs are the raw particles stacks.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>The ISWI-NCP complex in the ADP-bound state</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>168430</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>240</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>240</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/ADP/ADP.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/ADP/Extract</pickedParticlesDirectory>
+    </imageSet>
+</entry>

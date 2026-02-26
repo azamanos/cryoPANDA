@@ -1,0 +1,118 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10455" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-06-26</depositionDate>
+            <releaseDate>2020-07-06</releaseDate>
+            <updateDate>2020-07-06</updateDate>
+        </keyDates>
+        <title>Single particle cryo-EM dataset of human adenovirus HAdV-D26</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0348-7323</authorORCID>
+            <firstName>Juha</firstName>
+            <middleName>T</middleName>
+            <lastName>Huiskonen</lastName>
+            <organization type="academic">Helsinki Institute of Life Science HiLIFE, University of Helsinki</organization>
+            <street>Viikinkaari 1, Biocenter 3</street>
+            <townOrCity>Helsinki</townOrCity>
+            <stateOrProvince>Helsinki</stateOrProvince>
+            <country>Finland</country>
+            <postOrZipCode>00014</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0348-7323</authorORCID>
+            <firstName>Juha</firstName>
+            <middleName>T</middleName>
+            <lastName>Huiskonen</lastName>
+            <organization type="academic">Helsinki Institute of Life Science HiLIFE, University of Helsinki</organization>
+            <street>Viikinkaari 1, Biocenter 3</street>
+            <townOrCity>Helsinki</townOrCity>
+            <stateOrProvince>Helsinki</stateOrProvince>
+            <country>Finland</country>
+            <postOrZipCode>00014</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-3772-7663">Abrishami V</author>
+            <author>Reddy VS</author>
+            <author authorORCID="0000-0002-0348-7323">Huiskonen JT</author>
+        </authorsList>
+        <datasetSize units="GB">46.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10455</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-11008</emdbEntry>
+            <emdbEntry>EMD-11009</emdbEntry>
+            <emdbEntry>EMD-11010</emdbEntry>
+            <emdbEntry>EMD-11011</emdbEntry>
+            <emdbEntry>EMD-11012</emdbEntry>
+            <emdbEntry>EMD-11013</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-3772-7663" order="1">Abrishami V</author>
+                    <author authorORCID="0000-0003-1192-5917" order="2">Ilca SL</author>
+                    <author authorORCID="0000-0002-6168-3859" order="3">Gomez-Blanco J</author>
+                    <author authorORCID="0000-0003-4937-1825" order="4">Rissanen I</author>
+                    <author authorORCID="0000-0002-3320-1269" order="5">De la Rosa-Trevín JM</author>
+                    <author order="6">Reddy VS</author>
+                    <author authorORCID="0000-0003-0788-8447" order="7">Carazo JM</author>
+                    <author authorORCID="0000-0002-0348-7323" order="8">Huiskonen JT</author>
+                    <title>Localized reconstruction in Scipion expedites the analysis of symmetry mismatches in cryo-EM data</title>
+                    <journal>Progress in biophysics and molecular biology</journal>
+                    <journalAbbreviation>Prog. Biophys. Mol. Biol.</journalAbbreviation>
+                    <country></country>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.pbiomolbio.2020.05.004</externalReferences>
+                    <externalReferences type="pubmed">32470354</externalReferences>
+                </journalCitation>
+            </universalCitation>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Yu X</author>
+                    <author order="2">Veesler D</author>
+                    <author order="3">Campbell MG</author>
+                    <author order="4">Barry ME</author>
+                    <author order="5">Asturias FJ</author>
+                    <author order="6">Barry MA</author>
+                    <title>Cryo-EM structure of human adenovirus D26 reveals the conservation of structural organization among human adenoviruses</title>
+                    <journal>Science advances</journal>
+                    <journalAbbreviation>Sci Adv</journalAbbreviation>
+                    <country></country>
+                    <issue>5</issue>
+                    <volume>3</volume>
+                    <year>2017</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/sciadv.1602670</externalReferences>
+                    <externalReferences type="pubmed">28508067</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Particle stacks of human adenovirus HAdV-D26</name>
+        <directory>/data</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>8684</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>1200</imageWidth>
+            <pixelWidth>1.31</pixelWidth>
+            <imageHeight>1200</imageHeight>
+            <pixelHeight>1.31</pixelHeight>
+        </dimensions>
+        <details>Particle images of human adenovirus D26 with alignment parameters and CTF information. Four Chimera marker files (hexon[1-4].cmm) are provided to be used for the localized reconstruction of the hexons 1-4.
+
+MRCS files have variable numbers of images. Images are based on 38 frames of which frames 7 - 38 were used.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/14oct18a_*.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/input_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data</pickedParticlesDirectory>
+    </imageSet>
+</entry>

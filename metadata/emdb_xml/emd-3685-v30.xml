@@ -1,0 +1,355 @@
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" emdb_id="EMD-3685" version="3.0.0.0" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_0_0/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2017-08-30</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2017-04-24</deposition>
+            <header_release>2017-05-31</header_release>
+            <map_release>2017-05-31</map_release>
+            <update>2017-08-30</update>
+        </key_dates>
+        <title>Structure of a pre-catalytic spliceosome (B4 map)</title>
+        <authors_list>
+            <author>Plaschka C</author>
+            <author>Lin P-C</author>
+            <author>Nagai K</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Plaschka C</author>
+                    <author order="2">Lin PC</author>
+                    <author order="3">Nagai K</author>
+                    <title>Structure of a pre-catalytic spliceosome.</title>
+                    <journal_abbreviation>Nature</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>546</volume>
+                    <first_page>617</first_page>
+                    <last_page>621</last_page>
+                    <year>2017</year>
+                    <external_references type="PUBMED">28530653</external_references>
+                    <external_references type="DOI">doi:10.1038/nature22799</external_references>
+                    <external_references type="ISSN">1476-4687</external_references>
+                    <external_references type="CSD">0006</external_references>
+                    <external_references type="ASTM">NATUAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-3685</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+                <details>Structure of a pre-catalytic spliceosome</details>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Pre-catalytic B complex Spliceosome</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Pre-catalytic B complex Spliceosome</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                    <strain>BCY123</strain>
+                </natural_source>
+                <molecular_weight>
+                    <experimental units="MDa">2.5</experimental>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1.5</concentration>
+                    <buffer>
+                        <ph>7.9</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>HEPES</formula>
+                        </component>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <formula>KCl</formula>
+                        </component>
+                        <component>
+                            <concentration units="mM">0.2</concentration>
+                            <formula>EDTA</formula>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.0</concentration>
+                            <formula>DTT</formula>
+                        </component>
+                        <component>
+                            <concentration units="mM">2.5</concentration>
+                            <formula>Desthiobiotin</formula>
+                        </component>
+                        <details>Buffer pH: HEPES, 7.9; EDTA, 8.0</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <atmosphere>AIR</atmosphere>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277.15</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK III</instrument>
+                        <details>Grids were glow-discharged for 15 s before deposition of 3 microliter sample (~1.5 mg mL-1), and subsequently incubated for 2-3.5 s before blotting and vitrification by plunging into liquid ethane with a Vitrobot Mark III (FEI) operated at 4 degrees Celsius and 100% humidity.. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <calibrated_defocus_min units="&#181;m">0.35</calibrated_defocus_min>
+                    <calibrated_defocus_max units="&#181;m">5.3</calibrated_defocus_max>
+                    <nominal_magnification>81000.</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Quantum</name>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>SUPER-RESOLUTION</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">3710</width>
+                                    <height units="pixel">3838</height>
+                                </dimensions>
+                                <sampling_interval units="&#181;m">5.0</sampling_interval>
+                                <frames_per_image>1-20</frames_per_image>
+                            </digitization_details>
+                            <number_real_images>5115</number_real_images>
+                            <average_exposure_time units="s">16.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/&#8491;^2">56.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>Movies were binned once and aligned using MOTIONCORR.</details>
+                <particle_selection>
+                    <number_selected>496581</number_selected>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>CTFFIND</name>
+                            <version>4.1</version>
+                            <processing_details>CTF determination</processing_details>
+                        </software>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                            <processing_details>CTF correction</processing_details>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <startup_model type_of_model="OTHER">
+                    <details>The negative stain map of human B-delta-U1 (EMD-1066) was used as an initial reference for three-dimensional refinement of a 12229 particle negative stain data set of the yeast B complex. A single round of 3D classification revealed a B complex density from 3707 particles that was refined to an estimated resolution of 50 A. This density was low-pass filtered to 60 A and used for processing of cryo-EM data.</details>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">3.6</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                    <details>A temperature factor of -105 A2 was applied (sharpened B4 map).</details>
+                    <number_images_used>327490</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing />
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing />
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="442369">
+        <file>emd_3685.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>480</col>
+            <row>480</row>
+            <sec>480</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>480</x>
+            <y>480</y>
+            <z>480</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">686.39996</a>
+            <b units="&#8491;">686.39996</b>
+            <c units="&#8491;">686.39996</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.086611055</minimum>
+            <maximum>0.20904666</maximum>
+            <average>-0.00009729648</average>
+            <std>0.0042947275</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">1.43</x>
+            <y units="&#8491;">1.43</y>
+            <z units="&#8491;">1.43</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0435</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-3685::::</label>
+        <annotation_details>sharpened B4 map</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>105.</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="442369">
+                <file>emd_3685_additional.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>480</col>
+                    <row>480</row>
+                    <sec>480</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>480</x>
+                    <y>480</y>
+                    <z>480</z>
+                </spacing>
+                <cell>
+                    <a units="&#8491;">686.39996</a>
+                    <b units="&#8491;">686.39996</b>
+                    <c units="&#8491;">686.39996</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.026277898</minimum>
+                    <maximum>0.11365172</maximum>
+                    <average>-0.00009729648</average>
+                    <std>0.0026447119</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="&#8491;">1.43</x>
+                    <y units="&#8491;">1.43</y>
+                    <z units="&#8491;">1.43</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <level>0.0435</level>
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-3685::::</label>
+                <annotation_details>unsharpened B4 map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+    </interpretation>
+</emd>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_0/emdb.xsd" emdb_id="EMD-0123" version="3.0.2.0">
+    <admin>
+        <current_status>
+            <date>2020-11-25</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2018-07-10</deposition>
+            <header_release>2018-08-22</header_release>
+            <map_release>2019-10-02</map_release>
+            <update>2020-11-25</update>
+        </key_dates>
+        <title>Cryo-EM structure of the hub of the 36 triskelia D6 barrel clathrin coat complex</title>
+        <authors_list>
+            <author>Morris KL</author>
+            <author>Smith CJ</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Morris KL</author>
+                    <author order="2">Jones JR</author>
+                    <author order="3">Halebian M</author>
+                    <author order="4">Wu S</author>
+                    <author order="5">Baker M</author>
+                    <author order="6">Armache JP</author>
+                    <author order="7">Avila Ibarra A</author>
+                    <author order="8">Sessions RB</author>
+                    <author order="9">Cameron AD</author>
+                    <author order="10">Cheng Y</author>
+                    <author order="11">Smith CJ</author>
+                    <title>Cryo-EM of multiple cage architectures reveals a universal mode of clathrin self-assembly.</title>
+                    <journal_abbreviation>Nat.Struct.Mol.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>26</volume>
+                    <first_page>890</first_page>
+                    <last_page>898</last_page>
+                    <year>2019</year>
+                    <external_references type="PUBMED">31582853</external_references>
+                    <external_references type="DOI">doi:10.1038/s41594-019-0292-0</external_references>
+                    <external_references type="ISSN">1545-9985</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-0123</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Assembly of clathrin heavy and light chain into coat complexes</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Assembly of clathrin heavy and light chain into coat complexes</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9823">Sus scrofa</organism>
+                    <organ>BRAIN</organ>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.54</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">6.32</concentration>
+                    <buffer>
+                        <ph>6.4</ph>
+                        <component>
+                            <concentration units="mM">100.0</concentration>
+                            <formula>C6H13NO4S</formula>
+                            <name>MES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.5</concentration>
+                            <formula>MgCl2</formula>
+                            <name>Magnesium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">0.2</concentration>
+                            <formula>C14H24N2O10</formula>
+                            <name>EGTA</name>
+                        </component>
+                        <component>
+                            <concentration units="w/v">0.02</concentration>
+                            <formula>NaN3</formula>
+                            <name>Sodium azide</name>
+                        </component>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                        <instrument>HOMEMADE PLUNGER</instrument>
+                        <details>3 uL applied to a grid at room temperature and humidity. 3 second hand blot and plunge.. </details>
+                    </vitrification>
+                    <details>Clathrin coat complexes, end point assembly exhibiting architectural heterogeneity</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">70.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.0014</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">0.0032</nominal_defocus_max>
+                    <calibrated_magnification>82111.0</calibrated_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON II (4k x 4k)</film_or_detector_model>
+                            <detector_mode>INTEGRATING</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">4096</width>
+                                    <height units="pixel">4096</height>
+                                </dimensions>
+                            </digitization_details>
+                            <average_exposure_time units="s">3.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">53.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>12785</number_selected>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>Gctf</name>
+                            <version>1.06</version>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <startup_model type_of_model="OTHER">
+                    <details>Initial model and angles come from localised reconstruction of the hub (Ilca 2015)</details>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C3</point_group>
+                    </applied_symmetry>
+                    <algorithm>BACK PROJECTION</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">7.66</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>41760</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                    <details>Initial model and angles come from localised reconstruction of the hub (Ilca 2015)</details>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_0123.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">436.48</a>
+            <b units="Å">436.48</b>
+            <c units="Å">436.48</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.09207556</minimum>
+            <maximum>0.24805005</maximum>
+            <average>0.0021100098</average>
+            <std>0.013930415</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.705</x>
+            <y units="Å">1.705</y>
+            <z units="Å">1.705</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.139</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-0123::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+                <target_criteria>Cross-correlation coefficient</target_criteria>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_0123_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_0123_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">436.48</a>
+                    <b units="Å">436.48</b>
+                    <c units="Å">436.48</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.042394046</minimum>
+                    <maximum>0.12262303</maximum>
+                    <average>0.0005889693</average>
+                    <std>0.006398692</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.705</x>
+                    <y units="Å">1.705</y>
+                    <z units="Å">1.705</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-0123::::</label>
+                <annotation_details>Post processed map from resolution measurement.</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_0123_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">436.48</a>
+                    <b units="Å">436.48</b>
+                    <c units="Å">436.48</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.023856236</minimum>
+                    <maximum>0.06933428</maximum>
+                    <average>0.00015039407</average>
+                    <std>0.005413201</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.705</x>
+                    <y units="Å">1.705</y>
+                    <z units="Å">1.705</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-0123::::</label>
+                <annotation_details>Soft spherical masked (diameter 320A) applied to remove artifactual density prior to resolution measurement.</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_0123_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">436.48</a>
+                    <b units="Å">436.48</b>
+                    <c units="Å">436.48</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.023947021</minimum>
+                    <maximum>0.072915554</maximum>
+                    <average>0.00016809598</average>
+                    <std>0.0054304847</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.705</x>
+                    <y units="Å">1.705</y>
+                    <z units="Å">1.705</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-0123::::</label>
+                <annotation_details>Soft spherical masked (diameter 320A) applied to remove artifactual density prior to resolution measurement.</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

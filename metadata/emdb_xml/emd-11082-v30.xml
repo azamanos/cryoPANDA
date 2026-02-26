@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-11082">
+    <admin>
+        <current_status>
+            <date>2024-05-22</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-05-27</deposition>
+            <header_release>2021-05-05</header_release>
+            <map_release>2021-05-05</map_release>
+            <update>2024-05-22</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council (BBSRC)</funding_body>
+                <code>BB/R019061/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of the A. baumannii MlaBDEF complex bound to APPNHP</title>
+        <authors_list>
+            <author>Mann D</author>
+            <author>Bergeron JRC</author>
+        </authors_list>
+        <keywords>lipid transport, antibiotic resistance, ABC transporter, MEMBRANE PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-9106-9358" order="1">Mann D</author>
+                    <author order="2">Fan J</author>
+                    <author order="3">Somboon K</author>
+                    <author ORCID="0000-0001-7024-7998" order="4">Farrell DP</author>
+                    <author order="5">Muenks A</author>
+                    <author ORCID="0000-0001-7256-5279" order="6">Tzokov SB</author>
+                    <author order="7">DiMaio F</author>
+                    <author order="8">Khalid S</author>
+                    <author ORCID="0000-0003-1638-2181" order="9">Miller SI</author>
+                    <author ORCID="0000-0002-2841-9511" order="10">Bergeron JRC</author>
+                    <title>Structure and lipid dynamics in the maintenance of lipid asymmetry inner membrane complex of A. baumannii.</title>
+                    <journal_abbreviation>Commun Biol</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>4</volume>
+                    <first_page>817</first_page>
+                    <last_page>817</last_page>
+                    <year>2021</year>
+                    <external_references type="PUBMED">34188171</external_references>
+                    <external_references type="DOI">doi:10.1038/s42003-021-02318-4</external_references>
+                    <external_references type="ISSN">2399-3642</external_references>
+                </journal_citation>
+            </primary_citation>
+            <secondary_citation>
+                <journal_citation published="true">
+                    <author order="11">Mann D</author>
+                    <author order="12">Fan J</author>
+                    <author order="13">Farrell DP</author>
+                    <author order="14">Somboon K</author>
+                    <author order="15">Muenks A</author>
+                    <author order="16">Tzokov SB</author>
+                    <author order="17">Khalid S</author>
+                    <author order="18">Dimaio F</author>
+                    <author order="19">Miller SI</author>
+                    <author order="20">Bergeron JRC</author>
+                    <title>Structure and lipid dynamics in the A. baumannii maintenance of lipid asymmetry (MLA) inner membrane complex</title>
+                    <journal_abbreviation>Biorxiv</journal_abbreviation>
+                    <country>US</country>
+                    <year>2020</year>
+                    <external_references type="DOI">doi:10.1101/2020.05.30.125013</external_references>
+                    <external_references type="ISSN">2692-8205</external_references>
+                </journal_citation>
+            </secondary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6z5u</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>MlaBDEF complex</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>MlaBDEF complex</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="470">Acinetobacter baumannii</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>ABC transporter permease</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="470">Acinetobacter baumannii</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.027322443</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MNTIAWLGRLVIERIRGIGVAALMLLQIIFSLPSAGGFGRFVYQMHRVGVMSLLIITVSGLFIGLVLGLQGYSILVNVGS
+ESMLGTMVSLTLLRELAPVVAALLFAGRAGSALTAEIGSMKQSEQLASMEMIGVDPLKQIVSPRLWAGIVSLPMLTVIFA
+AIGIVGGKLVGVDFLGVDEGSFWSGMQNNVQFGHDVVNGIIKSIVFALLCTWIAVFQGYACDPTPEGIATAMTRTVVYSS
+LCVLGFDFVLTAVMFGGI</string>
+                    <external_references type="UNIPROTKB">V5V9F4</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Anti-sigma factor antagonist</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="470">Acinetobacter baumannii</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.010874672</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MVQYLNQELVVSGKIDFENAEQQYQAGLAIIKKQTSFPLIVDLKQLEHGNTLALAVLVQWLRQTPQKSGLHFKNVPEKML
+KIIQACHLQEDLHLV</string>
+                    <external_references type="UNIPROTKB">V5V9K5</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>MCE family protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="470">Acinetobacter baumannii</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024135322</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKSRTSELAVGIFVIIFGIALFFLAMKVSGLVGTNLSDGYTMKAQFDNVNGLKPRAKVTMSGVTIGRVDSITLDPVTRLA
+TVTFDLDGKLTSFNAEQLKEVQKNALDELRYSSDYTQATPAQQKTMEQQLISNMNSITSIDEDAYIMVATNGLLGEKYLK
+IVPGGGLNYLKRGDTISNTQGTMDLEDLISKFITGGGAGKVAAGSSSAEEKAPASTDSSAQPSFVE</string>
+                    <external_references type="UNIPROTKB">V5V921</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>ABC transporter ATP-binding protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="470">Acinetobacter baumannii</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.030367848</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MIAIMNNKTPLSTQSLIEVKNLSFNRGERVIYDNISLNIRRGQITAIMGPSGTGKTTLLRLIGGQLVPDQGEVLLDGKDI
+AQMSRQELFAARARMGMLFQSGALFTDMSVYENVAFPIRAHTKLSENLIAELVALKLESVGLRGTEQLMPTELSGGMNRR
+VALARAIALDPDLIMYDEPFAGQDPIVKGVLTRLIRSLREALDLTTIIVSHDVPETLSIADYIYVVAEGKIQGEGTPEEL
+QAYASPFVKQFLTGSAEGPVEYQFSHQAYLDNEVRP</string>
+                    <external_references type="UNIPROTKB">A0A4P2WWN2</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="5">
+                <name>PHOSPHOAMINOPHOSPHONIC ACID-ADENYLATE ESTER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000506196</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>ANP</formula>
+            </ligand>
+            <ligand macromolecule_id="6">
+                <name>MAGNESIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">2.4305e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>MG</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.0</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>SPOT SCAN</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">47.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.9</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>93295</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_11082.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">273.92</a>
+            <b units="Å">273.92</b>
+            <c units="Å">273.92</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-2.039904</minimum>
+            <maximum>3.099986</maximum>
+            <average>0.0065899994</average>
+            <std>0.0891228</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.07</x>
+            <y units="Å">1.07</y>
+            <z units="Å">1.07</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.458</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-11082::::</label>
+        <annotation_details>Map of the A. baumannii MlaBDEF complex, bound to APPNHP, at 3.9A resolution.</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_11082_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+    </interpretation>
+</emd>

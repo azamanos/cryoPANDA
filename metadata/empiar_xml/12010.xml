@@ -1,0 +1,115 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12010" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-03-24</depositionDate>
+            <releaseDate>2024-05-03</releaseDate>
+            <updateDate>2024-05-03</updateDate>
+        </keyDates>
+        <title>Initiation factor 3 bound to the 30S ribosomal subunit in an initial step of translation</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-4735-2380</authorORCID>
+            <firstName>Tanweer</firstName>
+            <lastName>Hussain</lastName>
+            <organization type="academic">Department of Developmental Biology and Genetics, Indian Institute of Science</organization>
+            <townOrCity>Bangalore</townOrCity>
+            <stateOrProvince>Karnataka</stateOrProvince>
+            <country>India</country>
+            <postOrZipCode>560012</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-4735-2380</authorORCID>
+            <firstName>Tanweer</firstName>
+            <lastName>Hussain</lastName>
+            <organization type="academic">Department of Developmental Biology and Genetics, Indian Institute of Science</organization>
+            <townOrCity>Bangalore</townOrCity>
+            <country>India</country>
+            <postOrZipCode>560012</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0009-0005-1524-6307">Uday AB</author>
+            <author authorORCID="0000-0002-8309-1619">Mishra RK</author>
+            <author authorORCID="0000-0003-4735-2380">Hussain T</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">4.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12010</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-36619</emdbEntry>
+            <emdbEntry>EMD-36620</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0009-0005-1524-6307" order="1">Uday AB</author>
+                    <author authorORCID="0000-0002-8309-1619" order="2">Mishra RK</author>
+                    <author authorORCID="0000-0003-4735-2380" order="3">Hussain T</author>
+                    <title>Initiation factor 3 bound to the 30S ribosomal subunit in an initial step of translation</title>
+                    <journal>Proteins</journal>
+                    <journalAbbreviation>Proteins</journalAbbreviation>
+                    <country></country>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1002/prot.26655</externalReferences>
+                    <externalReferences type="pubmed">38148682</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame movies of the 30S-IF3 complex</name>
+        <directory>/data/Raw_movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4564</numImagesOrTiltSeries>
+        <framesPerImage>20</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>20</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.2</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.2</pixelHeight>
+        </dimensions>
+        <details>The set consists of unaligned multi-frame movies. The two sub-directories corresponds to two sets of movies, each processed seperately and then combined at the end for the final reconstruction.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Raw_movies/Movies1/20220419_1706_A006_G000_H019_D001.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Particles/Particles1/20220419_1706_A006_G000_H019_D001_shiny.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Polished particles of 30S-IF3 complex</name>
+        <directory>/data/Particles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>145664</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>16 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>320</imageWidth>
+            <pixelWidth>1.2</pixelWidth>
+            <imageHeight>320</imageHeight>
+            <pixelHeight>1.2</pixelHeight>
+        </dimensions>
+        <details>Particles used for the final reconstruction of 30S-IF3 map. The two subdirectories correspond to two sets of particles picked from the corresponding two sets of movies. Each set was processed seperately and combined at the end for final reconstruction.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Raw_movies/Movies1/20220419_1706_A006_G000_H019_D001.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Particles/Particles1/20220419_1706_A006_G000_H019_D001_shiny.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Particles</pickedParticlesDirectory>
+    </imageSet>
+</entry>

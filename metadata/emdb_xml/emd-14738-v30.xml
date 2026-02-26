@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_0/emdb.xsd" version="3.0.9.0" emdb_id="EMD-14738">
+    <admin>
+        <current_status>
+            <date>2023-12-13</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-04-08</deposition>
+            <header_release>2022-12-28</header_release>
+            <map_release>2022-12-28</map_release>
+            <update>2023-12-13</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Ministerio de Ciencia e Innovacion (MCIN)</funding_body>
+                <code>IJC2019-041039-I</code>
+                <country>Spain</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Ministerio de Ciencia e Innovacion (MCIN)</funding_body>
+                <code>PID2019-105017RB-I00</code>
+                <country>Spain</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Generalitat de Catalunya</funding_body>
+                <code>ICREA-Academia 2020</code>
+                <country>Spain</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of hnRNPDL amyloid fibrils</title>
+        <authors_list>
+            <author ORCID="0000-0003-3287-9024">Chaves-Sanjuan A</author>
+            <author ORCID="0000-0001-9179-6371">Garcia-Pardo J</author>
+            <author ORCID="0000-0003-3114-1415">Bartolome-Nafria A</author>
+            <author ORCID="0000-0002-7457-7860">Gil-Garcia M</author>
+            <author ORCID="0000-0003-2705-1417">Visentin C</author>
+            <author ORCID="0000-0002-9253-5170">Bolognesi M</author>
+            <author ORCID="0000-0001-6678-5873">Ricagno S</author>
+            <author ORCID="0000-0002-9652-6351">Ventura S</author>
+        </authors_list>
+        <keywords>Amyloid, Protein aggregation, Alternative splicing, Exon, Prion-like, LGMD1G, cryoEM structure, RNA BINDING PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-9179-6371" order="1">Garcia-Pardo J</author>
+                    <author ORCID="0000-0003-3114-1415" order="2">Bartolome-Nafria A</author>
+                    <author ORCID="0000-0003-3287-9024" order="3">Chaves-Sanjuan A</author>
+                    <author ORCID="0000-0002-7457-7860" order="4">Gil-Garcia M</author>
+                    <author order="5">Visentin C</author>
+                    <author ORCID="0000-0002-9253-5170" order="6">Bolognesi M</author>
+                    <author ORCID="0000-0001-6678-5873" order="7">Ricagno S</author>
+                    <author ORCID="0000-0002-9652-6351" order="8">Ventura S</author>
+                    <title>Cryo-EM structure of hnRNPDL-2 fibrils, a functional amyloid associated with limb-girdle muscular dystrophy D3.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>14</volume>
+                    <first_page>239</first_page>
+                    <last_page>239</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">36646699</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-023-35854-0</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7zir</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>hnRNPDL-2 amyloid fibrils</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>hnRNPDL-2 amyloid fibrils</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Fibril structure of the recombinantly produced full-lenght Heterogeneous ribonucleoprotein D-like (hnRNPDL) isoform 2</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Heterogeneous nuclear ribonucleoprotein D-like</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.045804266</theoretical>
+                </molecular_weight>
+                <number_of_copies>5</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="511693">Escherichia coli BL21</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MHHHHHHGSLQDSEVNQEAKPEVKPEVKPETHINLKVSDGSSEIFFKIKKTTPLRRLMEAFAKRQGKEMDSLTFLYDGIE
+IQADQTPEDLDMEDNDIIEAHREQIGGEDMNEYSNIEEFAEGSKINASKNQQDDGKMFIGGLSWDTSKKDLTEYLSRFGE
+VVDCTIKTDPVTGRSRGFGFVLFKDAASVDKVLELKEHKLDGKLIDPKRAKALKGKEPPKKVFVGGLSPDTSEEQIKEYF
+GAFGEIENIELPMDTKTNERRGFCFITYTDEEPVKKLLESRYHQIGSGKCEIKVAQPKEVYRQQQQQQKGGRGAAAGGRG
+GTRGRGRGQGQNWNQGFNNYYDQGYGNYNSAYGGDQNYSGYGGYDYTGYNYGNYGYGQGYADYSGQQSTYGKASRGGGNH
+QNNYQPY</string>
+                    <external_references type="UNIPROTKB">O14979</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>50</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.23</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <name>NaCl</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>C-flat-1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">30</time>
+                            <atmosphere>AIR</atmosphere>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                    <details>Diluted sample of hnRNPDL2 amyloid fibrils formed under native conditions.</details>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TALOS ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.2</nominal_defocus_max>
+                    <nominal_magnification>120000.0</nominal_magnification>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>1114</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">4.8</delta_z>
+                            <delta_phi units="deg">-4.8</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.5</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>54490</number_images_used>
+                </final_reconstruction>
+                <segment_selection>
+                    <number_selected>158493</number_selected>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </segment_selection>
+                <startup_model type_of_model="NONE"/>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="219489">
+        <file>emd_14738.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>380</col>
+            <row>380</row>
+            <sec>380</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>380</x>
+            <y>380</y>
+            <z>380</z>
+        </spacing>
+        <cell>
+            <a units="Å">337.82</a>
+            <b units="Å">337.82</b>
+            <c units="Å">337.82</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.15189321</minimum>
+            <maximum>0.31168008</maximum>
+            <average>0.00025083244</average>
+            <std>0.0051423223</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.889</x>
+            <y units="Å">0.889</y>
+            <z units="Å">0.889</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.05</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-14738::::</label>
+        <annotation_details>sharped</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>BACKBONE TRACE</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="219489">
+                <file>emd_14738_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>380</col>
+                    <row>380</row>
+                    <sec>380</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>380</x>
+                    <y>380</y>
+                    <z>380</z>
+                </spacing>
+                <cell>
+                    <a units="Å">337.82</a>
+                    <b units="Å">337.82</b>
+                    <c units="Å">337.82</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.034539316</minimum>
+                    <maximum>0.11073511</maximum>
+                    <average>-0.00021217737</average>
+                    <std>0.0059811077</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.889</x>
+                    <y units="Å">0.889</y>
+                    <z units="Å">0.889</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14738::::</label>
+                <annotation_details>unsharped</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="219489">
+                <file>emd_14738_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>380</col>
+                    <row>380</row>
+                    <sec>380</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>380</x>
+                    <y>380</y>
+                    <z>380</z>
+                </spacing>
+                <cell>
+                    <a units="Å">337.82</a>
+                    <b units="Å">337.82</b>
+                    <c units="Å">337.82</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.03784055</minimum>
+                    <maximum>0.11512236</maximum>
+                    <average>0.0005758522</average>
+                    <std>0.005688491</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.889</x>
+                    <y units="Å">0.889</y>
+                    <z units="Å">0.889</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14738::::</label>
+                <annotation_details>half 1</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="219489">
+                <file>emd_14738_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>380</col>
+                    <row>380</row>
+                    <sec>380</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>380</x>
+                    <y>380</y>
+                    <z>380</z>
+                </spacing>
+                <cell>
+                    <a units="Å">337.82</a>
+                    <b units="Å">337.82</b>
+                    <c units="Å">337.82</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.034214288</minimum>
+                    <maximum>0.11536176</maximum>
+                    <average>0.0005753581</average>
+                    <std>0.0057259304</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.889</x>
+                    <y units="Å">0.889</y>
+                    <z units="Å">0.889</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14738::::</label>
+                <annotation_details>half 2</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

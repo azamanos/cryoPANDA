@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-23786">
+    <admin>
+        <current_status>
+            <date>2024-05-29</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-04-06</deposition>
+            <header_release>2021-04-14</header_release>
+            <map_release>2021-04-14</map_release>
+            <update>2024-05-29</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Sao Paulo Research Foundation (FAPESP)</funding_body>
+                <code>2013/07600-3</code>
+                <country>Brazil</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of SARS-CoV-2 NSP15 NendoU at pH 6.0</title>
+        <authors_list>
+            <author>Godoy AS</author>
+            <author>Song Y</author>
+        </authors_list>
+        <keywords>nsp15, sars-cov-2, nendoU, coronavirus, covid-19, VIRAL PROTEIN, HYDROLASE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-0613-9164" order="1">Godoy AS</author>
+                    <author order="2">Nakamura AM</author>
+                    <author order="3">Douangamath A</author>
+                    <author order="4">Song Y</author>
+                    <author order="5">Noske GD</author>
+                    <author order="6">Gawriljuk VO</author>
+                    <author order="7">Fernandes RS</author>
+                    <author order="8">Pereira HDM</author>
+                    <author order="9">Oliveira KIZ</author>
+                    <author order="10">Fearon D</author>
+                    <author order="11">Dias A</author>
+                    <author order="12">Krojer T</author>
+                    <author order="13">Fairhead M</author>
+                    <author order="14">Powell A</author>
+                    <author order="15">Dunnet L</author>
+                    <author order="16">Brandao-Neto J</author>
+                    <author order="17">Skyner R</author>
+                    <author order="18">Chalk R</author>
+                    <author ORCID="0000-0003-4277-9481" order="19">Bajusz D</author>
+                    <author order="20">Bege M</author>
+                    <author order="21">Borbas A</author>
+                    <author order="22">Keseru GM</author>
+                    <author ORCID="0000-0003-0378-0017" order="23">von Delft F</author>
+                    <author order="24">Oliva G</author>
+                    <title>Allosteric regulation and crystallographic fragment screening of SARS-CoV-2 NSP15 endoribonuclease.</title>
+                    <journal_abbreviation>Nucleic Acids Res.</journal_abbreviation>
+                    <country>UK</country>
+                    <year>2023</year>
+                    <external_references type="PUBMED">37115000</external_references>
+                    <external_references type="DOI">doi:10.1093/nar/gkad314</external_references>
+                    <external_references type="ISSN">1362-4962</external_references>
+                    <external_references type="CSD">0389</external_references>
+                    <external_references type="ASTM">NARHAD</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7me0</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Structure of SARS-CoV-2 NSP15</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Structure of SARS-CoV-2 NSP15</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="2697049">Severe acute respiratory syndrome coronavirus 2</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Uridylate-specific endoribonuclease</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2697049">Severe acute respiratory syndrome coronavirus 2</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.042117843999999995</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKHHHHHHPMSDYDIPTTENLYFQGAMSLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNV
+AFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHISTIGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDL
+FRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQSRNLQEFKPRSQMEIDF
+LELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCS
+VIDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ</string>
+                    <external_references type="UNIPROTKB">P0DTD1</external_references>
+                </sequence>
+                <ec_number>3.1.-.-</ec_number>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.5</concentration>
+                    <buffer>
+                        <ph>6.0</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">41.70522228</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>7KEG</pdb_id>
+                    </pdb_model>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">2.48</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>712742</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>RANDOM ASSIGNMENT</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>100</number_classes>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_23786.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">212.736</a>
+            <b units="Å">212.736</b>
+            <c units="Å">212.736</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>Z</fast>
+            <medium>Y</medium>
+            <slow>X</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-10.027505</minimum>
+            <maximum>22.832151</maximum>
+            <average>0.000000000001574</average>
+            <std>1.0</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.831</x>
+            <y units="Å">0.831</y>
+            <z units="Å">0.831</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>4.55</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-23786::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>7KEG</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_23786_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_23786_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">212.736</a>
+                    <b units="Å">212.736</b>
+                    <c units="Å">212.736</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.22039403</minimum>
+                    <maximum>0.67028654</maximum>
+                    <average>0.0016834154</average>
+                    <std>0.036676075</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.831</x>
+                    <y units="Å">0.831</y>
+                    <z units="Å">0.831</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-23786::::</label>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_23786_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">212.736</a>
+                    <b units="Å">212.736</b>
+                    <c units="Å">212.736</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.23201483</minimum>
+                    <maximum>0.68872076</maximum>
+                    <average>0.0022903408</average>
+                    <std>0.04029876</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.831</x>
+                    <y units="Å">0.831</y>
+                    <z units="Å">0.831</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-23786::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_23786_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">212.736</a>
+                    <b units="Å">212.736</b>
+                    <c units="Å">212.736</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.23648024</minimum>
+                    <maximum>0.6782447</maximum>
+                    <average>0.0022773093</average>
+                    <std>0.040289704</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.831</x>
+                    <y units="Å">0.831</y>
+                    <z units="Å">0.831</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-23786::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

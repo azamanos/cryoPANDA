@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_2/emdb.xsd" version="3.0.9.2" emdb_id="EMD-7133">
+    <admin>
+        <current_status>
+            <date>2024-03-13</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2017-11-28</deposition>
+            <header_release>2017-12-20</header_release>
+            <map_release>2017-12-20</map_release>
+            <update>2024-03-13</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01GM098672</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/Office of the Director</funding_body>
+                <code>S10OD020054</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/Office of the Director</funding_body>
+                <code>S10OD021741</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Neurological Disorders and Stroke (NIH/NINDS)</funding_body>
+                <code>R01NS047723</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Danish Council of Independent Research</funding_body>
+                <code>DFF-5051-00085</code>
+                <country>Denmark</country>
+            </grant_reference>
+        </grant_support>
+        <title>Human TRPM4 ion channel in lipid nanodiscs in a calcium-bound state</title>
+        <authors_list>
+            <author>Autzen HE</author>
+            <author>Myasnikov AG</author>
+        </authors_list>
+        <keywords>TRPM4, TRPM channel, TRP channel, MEMBRANE PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Autzen HE</author>
+                    <author order="2">Myasnikov AG</author>
+                    <author order="3">Campbell MG</author>
+                    <author order="4">Asarnow D</author>
+                    <author order="5">Julius D</author>
+                    <author order="6">Cheng Y</author>
+                    <title>Structure of the human TRPM4 ion channel in a lipid nanodisc.</title>
+                    <journal_abbreviation>Science</journal_abbreviation>
+                    <country>US</country>
+                    <volume>359</volume>
+                    <first_page>228</first_page>
+                    <last_page>232</last_page>
+                    <year>2018</year>
+                    <external_references type="PUBMED">29217581</external_references>
+                    <external_references type="DOI">doi:10.1126/science.aar4510</external_references>
+                    <external_references type="ISSN">1095-9203</external_references>
+                    <external_references type="CSD">0038</external_references>
+                    <external_references type="ASTM">SCIEAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-7132</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>Human TRPM4 ion channel in lipid nanodiscs in a calcium-free state</details>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6bqv</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Human TRPM4 ion channel</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Human TRPM4 ion channel</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Human TRPM4 ion channel in lipid nanodiscs in a calcium-bound state</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.1346</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Transient receptor potential cation channel subfamily M member 4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.134770734</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SGRSGVVPEKEQSWIPKIFKKKTCTTFIVDSTDPGGTLCQCGRPRTAHPAVAMEDAFGAAVVTVWDSDAHTTEKPTDAYG
+ELDFTGAGRKHSNFLRLSDRTDPAAVYSLVTRTWGFRAPNLVVSVLGGSGGPVLQTWLQDLLRRGLVRAAQSTGAWIVTG
+GLHTGIGRHVGVAVRDHQMASTGGTKVVAMGVAPWGVVRNRDTLINPKGSFPARYRWRGDPEDGVQFPLDYNYSAFFLVD
+DGTHGCLGGENRFRLRLESYISQQKTGVGGTGIDIPVLLLLIDGDEKMLTRIENATQAQLPCLLVAGSGGAADCLAETLE
+DTLAPGSGGARQGEARDRIRRFFPKGDLEVLQAQVERIMTRKELLTVYSSEDGSEEFETIVLKALVKACGSSEASAYLDE
+LRLAVAWNRVDIAQSELFRGDIQWRSFHLEASLMDALLNDRPEFVRLLISHGLSLGHFLTPMRLAQLYSAAPSNSLIRNL
+LDQASHSAGTKAPALKGGAAELRPPDVGHVLRMLLGKMCAPRYPSGGAWDPHPGQGFGESMYLLSDKATSPLSLDAGLGQ
+APWSDLLLWALLLNRAQMAMYFWEMGSNAVSSALGACLLLRVMARLEPDAEEAARRKDLAFKFEGMGVDLFGECYRSSEV
+RAARLLLRRCPLWGDATCLQLAMQADARAFFAQDGVQSLLTQKWWGDMASTTPIWALVLAFFCPPLIYTRLITFRKSEEE
+PTREELEFDMDSVINGEGPVGTADPAEKTPLGVPRQSGRPGCCGGRCGGRRCLRRWFHFWGAPVTIFMGNVVSYLLFLLL
+FSRVLLVDFQPAPPGSLELLLYFWAFTLLCEELRQGLSGGGGSLASGGPGPGHASLSQRLRLYLADSWNQCDLVALTCFL
+LGVGCRLTPGLYHLGRTVLCIDFMVFTVRLLHIFTVNKQLGPKIVIVSKMMKDVFFFLFFLGVWLVAYGVATEGLLRPRD
+SDFPSILRRVFYRPYLQIFGQIPQEDMDVALMEHSNCSSEPGFWAHPPGAQAGTCVSQYANWLVVLLLVIFLLVANILLV
+NLLIAMFSYTFGKVQGNSDLYWKAQRYRLIREFHSRPALAPPFIVISHLRLLLRQLCRRPRSPQPSSPALEHFRVYLSKE
+AERKLLTWESVHKENFLLARARDKRESDSERLKRTSQKVDLALKQLGHIREYEQRLKVLEREVQQCSRVLGWVAEALSRS
+ALLPPGGPPPPDLPGSKD</string>
+                    <external_references type="UNIPROTKB">Q8TD43</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>CALCIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">4.0078e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <formula>CA</formula>
+            </ligand>
+            <ligand macromolecule_id="3">
+                <name>CHOLESTEROL HEMISUCCINATE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000486726</theoretical>
+                </molecular_weight>
+                <number_of_copies>12</number_of_copies>
+                <formula>Y01</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">2.2</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <formula>C8H18N2O4S</formula>
+                            <name>4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid (HEPES), pH 7.4</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">5.0</concentration>
+                            <formula>CaCl2</formula>
+                            <name>calcium chloride</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>200</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">283</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">1.5</nominal_defocus_max>
+                    <nominal_magnification>22500.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>SUPER-RESOLUTION</detector_mode>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>2954</number_real_images>
+                            <average_exposure_time units="s">12.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">62.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>K2 camera operating in super-resolution counting mode</details>
+                <particle_selection>
+                    <number_selected>829078</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="OTHER">
+                    <details>cryoSPARC ab initio model</details>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C4</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">3.1</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>45346</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>COMMON LINE</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="131073">
+        <file>emd_7133.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>320</col>
+            <row>320</row>
+            <sec>320</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>320</x>
+            <y>320</y>
+            <z>320</z>
+        </spacing>
+        <cell>
+            <a units="Å">334.72</a>
+            <b units="Å">334.72</b>
+            <c units="Å">334.72</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-30.481424000000001</minimum>
+            <maximum>47.155777</maximum>
+            <average>0.000000009518469</average>
+            <std>1.0000075</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.046</x>
+            <y units="Å">1.046</y>
+            <z units="Å">1.046</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>4.0</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-7133::::</label>
+        <annotation_details>Sharpened map of human TRPM4 ion channel in lipid nanodisc with 5 mM CaCl2. This reconstruction is of the entire molecule with C4 symmetry.</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+            </modelling>
+        </modelling_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="131073">
+                <file>emd_7133_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">334.72</a>
+                    <b units="Å">334.72</b>
+                    <c units="Å">334.72</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-20.1968</minimum>
+                    <maximum>29.592476000000001</maximum>
+                    <average>0.000000003415528</average>
+                    <std>0.9999999</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.046</x>
+                    <y units="Å">1.046</y>
+                    <z units="Å">1.046</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-7133::::</label>
+                <annotation_details>Unsharpened map of human TRPM4 ion channel in lipid nanodisc with 5 mM CaCl2. This reconstruction is of the entire molecule with C4 symmetry.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="131073">
+                <file>emd_7133_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">334.72</a>
+                    <b units="Å">334.72</b>
+                    <c units="Å">334.72</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-30.734755</minimum>
+                    <maximum>50.628418000000003</maximum>
+                    <average>-0.000000001460627</average>
+                    <std>1.0000206</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.046</x>
+                    <y units="Å">1.046</y>
+                    <z units="Å">1.046</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-7133::::</label>
+                <annotation_details>Sharpened map of human TRPM4 ion channel in lipid nanodisc with 5 mM CaCl2. This reconstruction is focused on transmembrane domain, central coiled-coil domain, and MHR4 domain. C4 symmetry is applied.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="131073">
+                <file>emd_7133_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">334.72</a>
+                    <b units="Å">334.72</b>
+                    <c units="Å">334.72</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-55.638012000000003</minimum>
+                    <maximum>88.990844999999993</maximum>
+                    <average>0.0005665439</average>
+                    <std>0.876846</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.046</x>
+                    <y units="Å">1.046</y>
+                    <z units="Å">1.046</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-7133::::</label>
+                <annotation_details>Sharpened map of human TRPM4 ion channel in lipid nanodisc with 5 mM CaCl2. This reconstruction is focused on monomeric soluble domain without symmetry.</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="131073">
+                <file>emd_7133_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">334.72</a>
+                    <b units="Å">334.72</b>
+                    <c units="Å">334.72</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-17.839458</minimum>
+                    <maximum>23.238689999999998</maximum>
+                    <average>-0.000000017344265</average>
+                    <std>1.0000001</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.046</x>
+                    <y units="Å">1.046</y>
+                    <z units="Å">1.046</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-7133::::</label>
+                <annotation_details>Human TRPM4 ion channel in lipid nanodiscs in a calcium-bound state, half map #1</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="131073">
+                <file>emd_7133_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">334.72</a>
+                    <b units="Å">334.72</b>
+                    <c units="Å">334.72</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-14.758763999999999</minimum>
+                    <maximum>23.408080000000002</maximum>
+                    <average>-0.000000009875878</average>
+                    <std>1.0000001</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.046</x>
+                    <y units="Å">1.046</y>
+                    <z units="Å">1.046</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-7133::::</label>
+                <annotation_details>Half map #2 of human TRPM4 ion channel in lipid nanodisc with 5 mM CaCl2. This reconstruction is of the entire molecule with C4 symmetry.</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

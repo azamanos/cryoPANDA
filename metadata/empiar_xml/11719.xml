@@ -1,0 +1,118 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11719" schemaVersion="0.63" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-10-09</depositionDate>
+            <releaseDate>2023-10-23</releaseDate>
+            <updateDate>2023-10-23</updateDate>
+        </keyDates>
+        <title>Cryogenic electron microscopy spa datset of a membrane-bound menaquinol:organohalide oxidoreductase</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-3193-6077</authorORCID>
+            <firstName>Dongchun</firstName>
+            <lastName>Ni</lastName>
+            <organization type="academic">EPFL/UNIL SB IPHYS LBEM</organization>
+            <townOrCity>Lausanne</townOrCity>
+            <country>Switzerland</country>
+            <postOrZipCode>1015</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Henning</firstName>
+            <lastName>Stahlberg</lastName>
+            <organization type="academic">EPFL/UNIL SB IPHYS LBEM</organization>
+            <townOrCity>lausanne</townOrCity>
+            <country>Switzerland</country>
+            <postOrZipCode>1015</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-0928-4682">Ekundayo BE</author>
+            <author authorORCID="0000-0002-3193-6077">Ni DC</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Swiss National Science Foundation</fundingBody>
+                <code>CRSII5_177195, IZLCZ0_206089 and 310030_188548</code>
+                <country>Switzerland</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Swiss National Science Foundation</fundingBody>
+                <code>IZLCZ0_206089, 310030_188548</code>
+                <country>Switzerland</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">861.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11719</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-18148</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author authorORCID="0000-0002-0928-4682" order="1">Ekundayo BE</author>
+                    <author authorORCID="0000-0002-3193-6077" order="2">Ni DC</author>
+                    <author authorORCID="0000-0002-1185-4592" order="3">Stahlberg H</author>
+                    <title>Structure of a membrane-bound menaquinol:organohalide oxidoreductase</title>
+                    <journal>nature communications</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <year>2023</year>
+                    <externalReferences type="doi">10.1101/2023.07.04.547610</externalReferences>
+                </journalCitation>
+            </universalCitation>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author order="1">Cimmino L</author>
+                    <author order="2">Duarte AG</author>
+                    <author authorORCID="0000-0002-3193-6077" order="3">Ni DC</author>
+                    <author authorORCID="0000-0002-0928-4682" order="4">Ekundayo BE</author>
+                    <author order="5">Pereira IA</author>
+                    <author authorORCID="0000-0002-1185-4592" order="6">Stahlberg H</author>
+                    <author authorORCID="0000-0002-9645-3834" order="7">Holliger C</author>
+                    <author authorORCID="0000-0002-7498-7202" order="8">Maillard J</author>
+                    <title>Structure of a membrane-bound menaquinol:organohalide oxidoreductase</title>
+                    <journal>bioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <year>2023</year>
+                    <externalReferences type="doi">10.1101/2023.07.04.547610</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned DW micrographs of a membrane-bound menaquinol:organohalide oxidoreductase RDH complex (cryoEM SPA)</name>
+        <directory>/data/RDH-TITAN</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>13783</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.51</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.51</pixelHeight>
+        </dimensions>
+        <details>Titan Krios
+Pixel size (A)
+0.51
+
+Accelerating Voltage (kV)
+300
+
+Spherical Aberration (mm)
+2.7
+
+Total exposure dose (e/A^2)
+60</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

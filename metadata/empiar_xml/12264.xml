@@ -1,0 +1,130 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12264" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-08-22</depositionDate>
+            <releaseDate>2025-02-03</releaseDate>
+            <updateDate>2025-02-03</updateDate>
+        </keyDates>
+        <title>ShCas12k in complex with a sgRNA and a dsDNA target</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-7601-210X</authorORCID>
+            <firstName>Martin</firstName>
+            <lastName>Jinek</lastName>
+            <organization type="academic">Department of Biochemistry, University of Zurich</organization>
+            <street>Winterthurerstrasse 190</street>
+            <townOrCity>Zurich</townOrCity>
+            <stateOrProvince>ZH</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>8057</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-7601-210X</authorORCID>
+            <firstName>Martin</firstName>
+            <lastName>Jinek</lastName>
+            <organization type="academic">Department of Biochemistry, University of Zurich</organization>
+            <street>Winterthurerstrasse 190</street>
+            <townOrCity>Zurich</townOrCity>
+            <stateOrProvince>ZH</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>8057</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-3216-7350">Schmitz M</author>
+            <author authorORCID="0000-0003-1113-2773">Querques I</author>
+            <author authorORCID="0000-0002-3568-7637">Oberli S</author>
+            <author authorORCID="0000-0002-3432-4375">Chanez C</author>
+            <author authorORCID="0000-0002-7601-210X">Jinek M</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Swiss National Science Foundation</fundingBody>
+                <code>31003A_182567</code>
+                <country>Switzerland</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>European Research Council (ERC)</fundingBody>
+                <code>ERC-CoG-820152</code>
+                <country>Switzerland</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">1.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12264</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-13486</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-1113-2773" order="1">Querques I</author>
+                    <author authorORCID="0000-0003-3216-7350" order="2">Schmitz M</author>
+                    <author authorORCID="0000-0002-3568-7637" order="3">Oberli S</author>
+                    <author authorORCID="0000-0002-3432-4375" order="4">Chanez C</author>
+                    <author authorORCID="0000-0002-7601-210X" order="5">Jinek M</author>
+                    <title>Target site selection and remodelling by type V CRISPR-transposon systems</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <issue>7885</issue>
+                    <volume>599</volume>
+                    <firstPage>497</firstPage>
+                    <lastPage>502</lastPage>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41586-021-04030-z</externalReferences>
+                    <externalReferences type="pubmed">34759315</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of the ShCas12k in complex with a sgRNA and a dsDNA target</name>
+        <directory>/data/transfer</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>10952</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.64</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.64</pixelHeight>
+        </dimensions>
+        <details>The micrographs are the 40 raw movie frames (accumulating 51.81 electrons per squared Angstrom in a 1.0 second exposure).</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/transfer/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Gain reference</name>
+        <directory>/data/transfer</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.64</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.64</pixelHeight>
+        </dimensions>
+        <details>Gain reference</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/transfer/CountRef_103-2_001.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-32768">
+    <admin>
+        <current_status>
+            <date>2024-10-16</date>
+            <code>REL</code>
+            <processing_site>PDBj</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBj</deposition>
+            <last_processing>PDBj</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-02-01</deposition>
+            <header_release>2022-02-16</header_release>
+            <map_release>2022-02-16</map_release>
+            <update>2024-10-16</update>
+        </key_dates>
+        <obsolete_list>
+            <entry>
+                <date>2022-02-16</date>
+                <entry>EMD-31492</entry>
+            </entry>
+        </obsolete_list>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Japan Agency for Medical Research and Development (AMED)</funding_body>
+                <code>JP20ae0101051</code>
+                <country>Japan</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Ministry of Education, Culture, Sports, Science and Technology (Japan)</funding_body>
+                <code>JP20H03165</code>
+                <country>Japan</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>New Energy and Industrial Technology Development Organization (NEDO)</funding_body>
+                <code>JP20am0101118</code>
+                <country>Japan</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of the N-terminal deletion mutant of human pannexin-1 in a nanodisc</title>
+        <authors_list>
+            <author>Kuzuya M</author>
+            <author>Hirano H</author>
+        </authors_list>
+        <keywords>ATP release channel, vertebrate innexin homolog, MEMBRANE PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-4345-8543" order="1">Kuzuya M</author>
+                    <author order="2">Hirano H</author>
+                    <author order="3">Hayashida K</author>
+                    <author ORCID="0000-0002-5744-197X" order="4">Watanabe M</author>
+                    <author order="5">Kobayashi K</author>
+                    <author ORCID="0000-0002-7091-0646" order="6">Terada T</author>
+                    <author ORCID="0000-0002-5762-9075" order="7">Mahmood MI</author>
+                    <author ORCID="0000-0003-2021-5618" order="8">Tama F</author>
+                    <author ORCID="0000-0003-4835-154X" order="9">Tani K</author>
+                    <author ORCID="0000-0002-8070-1493" order="10">Fujiyoshi Y</author>
+                    <author ORCID="0000-0003-1174-1368" order="11">Oshima A</author>
+                    <title>Structures of human pannexin-1 in nanodiscs reveal gating mediated by dynamic movement of the N terminus and phospholipids.</title>
+                    <journal_abbreviation>Sci.Signal.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>15</volume>
+                    <first_page>eabg6941</first_page>
+                    <last_page>eabg6941</last_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">35133866</external_references>
+                    <external_references type="DOI">doi:10.1126/scisignal.abg6941</external_references>
+                    <external_references type="ISSN">1937-9145</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7wsv</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Heptamar of N-terminal deleted human pannexin-1 in a nanodisc</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Heptamar of N-terminal deleted human pannexin-1 in a nanodisc</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Pannexin-1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.045955438</theoretical>
+                </molecular_weight>
+                <number_of_copies>7</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTEPKFKGLRLELAVDKMVTCIAVGLPLLLISLAFAQEISIGTQISCFSPSSFSWRQAAFVDSYCWAAVQQKNSLQSESG
+NLPLWLHKFFPYILLLFAILLYLPPLFWRFAAAPHICSDLKFIMEELDKVYNRAIKAAKSARDLDMRDGACSVPGVTENL
+GQSLWEVSESHFKYPIVEQYLKTKKNSNNLIIKYISCRLLTLIIILLACIYLGYYFSLSSLSDEFVCSIKSGILRNDSTV
+PDQFQCKLIAVGIFQLLSVINLVVYVLLAPVVVYTLFVPFRQKTDVLKVYEILPTFDVLHFKSEGYNDLSLYNLFLEENI
+SEVKSYKCLKVLENIKSSGQGIDPMLLLTNLGMIKMDVVDGKTPMSAEMREEQGNQTAELQGMNIDSETKANNGEKNARQ
+RLLDSSC</string>
+                    <external_references type="UNIPROTKB">Q96RD7</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">3.1</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <formula>HEPES</formula>
+                            <name>2-[4-(2-Hydroxyethyl)-1-piperazinyl]ethanesulfonic acid</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">300.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                        <details>pH 7.5 was used.</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/2</model>
+                        <material>MOLYBDENUM</material>
+                        <mesh>200</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <instrument>LEICA KF80</instrument>
+                        <details>Blot for 10 seconds at room temperature followed by plunge freezing.
+Humidity and temperature are not controlled.. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>JEOL 3000SFF</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">1.6</nominal_cs>
+                    <nominal_defocus_min units="µm">1.4000000000000001</nominal_defocus_min>
+                    <calibrated_defocus_min units="µm">1.4000000000000001</calibrated_defocus_min>
+                    <nominal_defocus_max units="µm">3.5</nominal_defocus_max>
+                    <calibrated_defocus_max units="µm">3.5</calibrated_defocus_max>
+                    <nominal_magnification>30000.0</nominal_magnification>
+                    <calibrated_magnification>40600.0</calibrated_magnification>
+                    <specimen_holder_model>JEOL</specimen_holder_model>
+                    <cooling_holder_cryogen>HELIUM</cooling_holder_cryogen>
+                    <temperature>
+                        <temperature_min units="K">80.0</temperature_min>
+                        <temperature_max units="K">100.0</temperature_max>
+                    </temperature>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">3710</width>
+                                    <height units="pixel">3838</height>
+                                </dimensions>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>3587</number_real_images>
+                            <average_exposure_time units="s">8.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">56.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>3005895</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">4.5</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>98796</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="16385">
+        <file>emd_32768.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>160</col>
+            <row>160</row>
+            <sec>160</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>160</x>
+            <y>160</y>
+            <z>160</z>
+        </spacing>
+        <cell>
+            <a units="Å">197.12</a>
+            <b units="Å">197.12</b>
+            <c units="Å">197.12</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.10664548</minimum>
+            <maximum>0.14792345</maximum>
+            <average>0.000029632942</average>
+            <std>0.008361217</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.232</x>
+            <y units="Å">1.232</y>
+            <z units="Å">1.232</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.02</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-32768::::</label>
+        <annotation_details>3D map of the N-terminal deletion mutant of human pannexin-1</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>344.600000000000023</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_32768_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="16385">
+                <file>emd_32768_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>160</col>
+                    <row>160</row>
+                    <sec>160</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>160</x>
+                    <y>160</y>
+                    <z>160</z>
+                </spacing>
+                <cell>
+                    <a units="Å">197.12</a>
+                    <b units="Å">197.12</b>
+                    <c units="Å">197.12</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.018181076</minimum>
+                    <maximum>0.0330249</maximum>
+                    <average>0.000030248495</average>
+                    <std>0.0024336262</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.232</x>
+                    <y units="Å">1.232</y>
+                    <z units="Å">1.232</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-32768::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="16385">
+                <file>emd_32768_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>160</col>
+                    <row>160</row>
+                    <sec>160</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>160</x>
+                    <y>160</y>
+                    <z>160</z>
+                </spacing>
+                <cell>
+                    <a units="Å">197.12</a>
+                    <b units="Å">197.12</b>
+                    <c units="Å">197.12</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.018502014</minimum>
+                    <maximum>0.032600954</maximum>
+                    <average>0.000029017387</average>
+                    <std>0.0024291899</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.232</x>
+                    <y units="Å">1.232</y>
+                    <z units="Å">1.232</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-32768::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

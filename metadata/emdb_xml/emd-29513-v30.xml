@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_1/emdb.xsd" version="3.0.9.1" emdb_id="EMD-29513">
+    <admin>
+        <current_status>
+            <date>2024-01-17</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-01-23</deposition>
+            <header_release>2023-03-08</header_release>
+            <map_release>2023-03-08</map_release>
+            <update>2024-01-17</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Simons Foundation</funding_body>
+                <code>SF349247</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>GM103310</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Mouse apoferritin from data collected on Titan Krios with K3 camera in counting mode with a 20 eV energy filter slit, in 150-200 nm ice thickness</title>
+        <authors_list>
+            <author ORCID="0000-0002-6908-9037">Neselu K</author>
+            <author ORCID="0000-0002-9038-9878">Wang B</author>
+            <author ORCID="0000-0002-5187-255X">Rice WJ</author>
+            <author ORCID="0000-0003-2394-0831">Potter CS</author>
+            <author ORCID="0000-0002-0624-5020">Carragher B</author>
+            <author ORCID="0000-0003-1224-2157">Chua EYD</author>
+        </authors_list>
+        <keywords>Mouse apoferritin, Titan Krios, K3 camera, counting mode, 150-200 nm ice thickness, METAL BINDING PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Neselu K</author>
+                    <author order="2">Wang B</author>
+                    <author order="3">Rice WJ</author>
+                    <author order="4">Potter CS</author>
+                    <author order="5">Carragher B</author>
+                    <author order="6">Chua EYD</author>
+                    <title>Measuring the effects of ice thickness on resolution in single particle cryo-EM.</title>
+                    <journal_abbreviation>J Struct Biol X</journal_abbreviation>
+                    <country>NE</country>
+                    <volume>7</volume>
+                    <first_page>100085</first_page>
+                    <last_page>100085</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">36742017</external_references>
+                    <external_references type="DOI">doi:10.1016/j.yjsbx.2023.100085</external_references>
+                    <external_references type="ISSN">2590-1524</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+    </crossreferences>
+    <sample>
+        <name>Mouse apoferritin</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Mouse apoferritin</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="10088">mouse</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.45</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">8</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">30.0</concentration>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>Sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.0</concentration>
+                            <name>Dithiothreitol</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>UltrAuFoil R1.2/1.3</model>
+                        <support_film film_type_id="1">
+                            <film_material>GOLD</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">295.15</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">100.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.0</nominal_defocus_max>
+                    <nominal_magnification>81000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <alignment_procedure>
+                        <zemlin_tableau/>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Bioquantum</name>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <average_exposure_time units="s">2.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">51.22</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="INSILICO MODEL"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">2.76</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.0.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>14000</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_29513.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">277.248</a>
+            <b units="Å">277.248</b>
+            <c units="Å">277.248</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-1.3470855</minimum>
+            <maximum>2.6612997</maximum>
+            <average>-0.0019603749</average>
+            <std>0.14626606</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.083</x>
+            <y units="Å">1.083</y>
+            <z units="Å">1.083</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.6</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-29513::::</label>
+        <annotation_details>Mouse apoferritin from data collected on Titan Krios with K3 camera in counting mode with a 20 eV energy filter slit, in 150-200 nm ice thickness</annotation_details>
+    </map>
+    <interpretation>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_29513_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">277.248</a>
+                    <b units="Å">277.248</b>
+                    <c units="Å">277.248</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.80533767</minimum>
+                    <maximum>0.94494176</maximum>
+                    <average>0.00050651486</average>
+                    <std>0.07358323</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.083</x>
+                    <y units="Å">1.083</y>
+                    <z units="Å">1.083</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-29513::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_29513_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">277.248</a>
+                    <b units="Å">277.248</b>
+                    <c units="Å">277.248</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.4282911</minimum>
+                    <maximum>0.96370006</maximum>
+                    <average>0.00066959986</average>
+                    <std>0.07345743</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.083</x>
+                    <y units="Å">1.083</y>
+                    <z units="Å">1.083</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-29513::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

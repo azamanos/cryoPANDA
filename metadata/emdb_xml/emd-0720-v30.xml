@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_2/emdb.xsd" version="3.0.9.2" emdb_id="EMD-0720">
+    <admin>
+        <current_status>
+            <date>2024-03-27</date>
+            <code>REL</code>
+            <processing_site>PDBj</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBj</deposition>
+            <last_processing>PDBj</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-07-30</deposition>
+            <header_release>2020-01-15</header_release>
+            <map_release>2020-01-15</map_release>
+            <update>2024-03-27</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Japan Society for the Promotion of Science</funding_body>
+                <code>18K06170</code>
+                <country>Japan</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Japan Society for the Promotion of Science</funding_body>
+                <code>17K15095</code>
+                <country>Japan</country>
+            </grant_reference>
+        </grant_support>
+        <title>Complex structure of Iota toxin enzymatic component (Ia) and binding component (Ib) pore with long stem</title>
+        <authors_list>
+            <author>Yoshida T</author>
+            <author>Yamada T</author>
+        </authors_list>
+        <keywords>Bacterial binary toxin, Protein translocation channel, ADP-ribosylation, TOXIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Yamada T</author>
+                    <author order="2">Yoshida T</author>
+                    <author order="3">Kawamoto A</author>
+                    <author order="4">Mitsuoka K</author>
+                    <author order="5">Iwasaki K</author>
+                    <author order="6">Tsuge H</author>
+                    <title>Cryo-EM structures reveal translocational unfolding in the clostridial binary iota toxin complex.</title>
+                    <journal_abbreviation>Nat.Struct.Mol.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>27</volume>
+                    <first_page>288</first_page>
+                    <last_page>296</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32123390</external_references>
+                    <external_references type="DOI">doi:10.1038/s41594-020-0388-6</external_references>
+                    <external_references type="ISSN">1545-9985</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6klw</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Complex structure of Iota toxin enzymatic component (Ia) and binding component (Ib) pore with long stem</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Complex structure of Iota toxin enzymatic component (Ia) and binding component (Ib) pore with long stem</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="1502">Clostridium perfringens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.57</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Iota toxin component Ib</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1502">Clostridium perfringens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.07437882</theoretical>
+                </molecular_weight>
+                <number_of_copies>7</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SAAWEDEDLDTDNDNIPDAYEKNGYTIKDSIAVKWNDSFAEQGYKKYVSSYLESNTAGDPYTDYQKASGSIDKAIKLEAR
+DPLVAAYPVVGVGMENLIISTNEHASSDQGKTVSRATTNSKTDANTVGVSISAGYQNGFTGNITTSYSHTTDNSTAVQDS
+NGESWNTGLSINKGESAYINANVRYYNTGTAPMYKVTPTTNLVLDGETLATIKAQDNQIGNNLSPNETYPKKGLSPLALN
+TMDQFNARLIPINYDQLKKLDSGKQIKLETTQVSGNYGTKNSQGQIITEGNSWSNYISQIDSVSASIILDTGSQTFERRV
+AAKEQGNPEDKTPEITIGEAIKKAFSATKNGELLYFNGIPIDESCVELIFDDNTSEIIKEQLKYLDDKKIYNVKLERGMN
+ILIKVPSYFTNFDEYNNFPASWSNIDTKNQDGLQSVANKLSGETKIIIPMSKLKPYKRYVFSGYSKDPSTSNSITVNIKS
+KEQKTDYLVPEKDYTKFSYEFETTGKDSSDIEITLTSSGVIFLDNLSITELNSTPEILKEPEIKVPSDQEILDAHNKYYA
+DIKLDTNTGNTYIDGIYFEPTQTNKEALDYIQKYRVEATLQYSGFKDIGTKDKEIRNYLGDQNQPKTNYINFRSYFTSGE
+NVMTYKKLRIYAVTPDNRELLVLSVN</string>
+                    <external_references type="UNIPROTKB">Q46221</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Iota toxin component Ia</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1502">Clostridium perfringens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.04806198799999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="469008">Escherichia coli BL21(DE3)</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GSHMAFIERPEDFLKDKENAIQWEKKEAERVEKNLDTLEKEALELYKKDSEQISNYSQTRQYFYDYQIESNPREKEYKNL
+RNAISKNKIDKPINVYYFESPEKFAFNKEIRTENQNEISLEKFNELKETIQDKLFKQDGFKDVSLYEPGNGDEKPTPLLI
+HLKLPKNTGMLPYINSNDVKTLIEQDYSIKIDKIVRIVIEGKQYIKAEASIVNSLDFKDDVSKGDLWGKENYSDWSNKLT
+PNELADVNDYMRGGYTAINNYLISNGPLNNPNPELDSKVNNIENALKLTPIPSNLIVYRRSGPQEFGLTLTSPEYDFNKI
+ENIDAFKEKWEGKVITYPNFISTSIGSVNMSAFAKRKIILRINIPKDSPGAYLSAIPGYAGEYEVLLNHGSKFKINKVDS
+YKDGTVTKLILDATLIN</string>
+                    <external_references type="UNIPROTKB">Q46220</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="3">
+                <name>CALCIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">4.0078e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>14</number_of_copies>
+                <formula>CA</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.48</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.0</concentration>
+                            <formula>CaCl2</formula>
+                            <name>calcium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="%">0.003</concentration>
+                            <name>LMNG</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>200</mesh>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">30</time>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.5</nominal_defocus_max>
+                    <nominal_magnification>59000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <temperature>
+                        <temperature_min units="K">78.9</temperature_min>
+                        <temperature_max units="K">78.9</temperature_max>
+                    </temperature>
+                    <specialist_optics>
+                        <sph_aberration_corrector>Microscope was modified with a Cs corrector</sph_aberration_corrector>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">4096</width>
+                                    <height units="pixel">4096</height>
+                                </dimensions>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>2151</number_real_images>
+                            <average_exposure_time units="s">84.09</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">50.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>871264</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="INSILICO MODEL"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.9</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>62940</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="131073">
+        <file>emd_0720.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>320</col>
+            <row>320</row>
+            <sec>320</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>320</x>
+            <y>320</y>
+            <z>320</z>
+        </spacing>
+        <cell>
+            <a units="Å">361.6</a>
+            <b units="Å">361.6</b>
+            <c units="Å">361.6</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.19180897</minimum>
+            <maximum>0.30363742</maximum>
+            <average>0.00031036005</average>
+            <std>0.0064007794</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.13</x>
+            <y units="Å">1.13</y>
+            <z units="Å">1.13</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.035</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-0720::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>3J9C</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>29.0</overall_bvalue>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

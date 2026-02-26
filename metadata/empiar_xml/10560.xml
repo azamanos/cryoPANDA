@@ -1,0 +1,134 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10560" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-11-17</depositionDate>
+            <releaseDate>2022-02-04</releaseDate>
+            <updateDate>2022-02-04</updateDate>
+        </keyDates>
+        <title>Nudaurelia capensis omega virus capsid: virus-like particles expressed in Nicotiana benthamiana</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-7637-4303</authorORCID>
+            <firstName>David</firstName>
+            <middleName>Mark</middleName>
+            <lastName>Lawson</lastName>
+            <organization type="academic">John Innes Centre</organization>
+            <street>Colney Lane</street>
+            <townOrCity>Norwich</townOrCity>
+            <stateOrProvince>Norfolk</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>NR4 7UH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-0700-906X</authorORCID>
+            <firstName>George</firstName>
+            <middleName>Peter</middleName>
+            <lastName>Lomonossoff</lastName>
+            <organization type="academic">John Innes Centre</organization>
+            <street>Colney Lane</street>
+            <townOrCity>Norwich</townOrCity>
+            <stateOrProvince>Norfolk</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>NR4 7UH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-3985-6194">Castells-Graells R</author>
+            <author>Ribeiro JRS</author>
+            <author authorORCID="0000-0001-9196-9412">Domitrovic T</author>
+            <author authorORCID="0000-0002-4522-0061">Hesketh EL</author>
+            <author authorORCID="0000-0001-6168-0060">Scarff CA</author>
+            <author authorORCID="0000-0001-9782-3721">Johnson JE</author>
+            <author authorORCID="0000-0002-3640-5275">Ranson NA</author>
+            <author authorORCID="0000-0002-7637-4303">Lawson DM</author>
+            <author authorORCID="0000-0003-0700-906X">Lomonossoff GP</author>
+        </authorsList>
+        <datasetSize units="TB">5.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10560</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-11830</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-3985-6194" order="1">Castells-Graells R</author>
+                    <author order="2">Ribeiro JRS</author>
+                    <author authorORCID="0000-0001-9196-9412" order="3">Domitrovic T</author>
+                    <author authorORCID="0000-0002-4522-0061" order="4">Hesketh EL</author>
+                    <author authorORCID="0000-0001-6168-0060" order="5">Scarff CA</author>
+                    <author authorORCID="0000-0001-9782-3721" order="6">Johnson JE</author>
+                    <author authorORCID="0000-0002-3640-5275" order="7">Ranson NA</author>
+                    <author authorORCID="0000-0002-7637-4303" order="8">Lawson DM</author>
+                    <author authorORCID="0000-0003-0700-906X" order="9">Lomonossoff GP</author>
+                    <title>Plant-expressed virus-like particles reveal the intricate maturation process of a eukaryotic virus</title>
+                    <journal>Communications biology</journal>
+                    <journalAbbreviation>Commun Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>4</volume>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s42003-021-02134-w</externalReferences>
+                    <externalReferences type="pubmed">34031522</externalReferences>
+                    <details>Data were collected on an FEI Titan Krios at 300 kV and recorded using the EPU automated acquisition software on a FEI Falcon III direct electron detector. Movies were acquired at a rate of 1.5 sec per movie with a dose of 79.5 e-/Å2 across 59 frames (1.35 e-/Å2 dose per frame), using a defocus range of -0.8 μm to -3.0 μm and a magnified pixel size of 1.0651 Å. Movie frames were aligned using MotionCor2 with 5 by 5 patches and B-factor of 150 Å2.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>unaligned movies</name>
+        <directory>/data/Images-Disc1</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2788</numImagesOrTiltSeries>
+        <framesPerImage>59</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>59</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.097</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.097</pixelHeight>
+        </dimensions>
+        <details>Micrographs are unaligned movies comprised of 59 frames each
+
+data/motion_corrected_data/shift_eps_files - EPS files showing motion correction trajectories for each movie in the dataset.
+
+data/motion_corrected_data/star_files - Star files from motion correction job.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Images-Disc1/GridSquare_*/Data/FoilHole_*_Fractions.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>aligned and dose-weighted micrographs</name>
+        <directory>/data/motion_corrected_data/aligned_and_dose_weighted_micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2788</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.0651</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.0651</pixelHeight>
+        </dimensions>
+        <details>Micrographs are averages of aligned and dose-weighted movies comprised of 59 frames
+
+data/motion_corrected_data/shift_eps_files - EPS files showing motion correction trajectories for each movie in the dataset.
+
+data/motion_corrected_data/star_files - Star files from motion correction job.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/motion_corrected_data/aligned_and_dose_weighted_micrographs/FoilHole_*_Fractions.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-9971">
+    <admin>
+        <current_status>
+            <date>2024-10-16</date>
+            <code>REL</code>
+            <processing_site>PDBj</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBj</deposition>
+            <last_processing>PDBj</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-07-07</deposition>
+            <header_release>2020-02-12</header_release>
+            <map_release>2020-02-12</map_release>
+            <update>2024-10-16</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Japan Agency for Medical Research and Development (AMED)</funding_body>
+                <country>Japan</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Ministry of Education, Culture, Sports, Science and Technology (Japan)</funding_body>
+                <country>Japan</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>New Energy and Industrial Technology Development Organization (NEDO)</funding_body>
+                <country>Japan</country>
+            </grant_reference>
+        </grant_support>
+        <title>Undocked INX-6 hemichannel in a nanodisc</title>
+        <authors_list>
+            <author>Burendei B</author>
+            <author>Shinozaki R</author>
+        </authors_list>
+        <keywords>Gap junctions, Innexin, TRANSPORT PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-6846-2135" order="1">Burendei B</author>
+                    <author order="2">Shinozaki R</author>
+                    <author ORCID="0000-0002-5744-197X" order="3">Watanabe M</author>
+                    <author ORCID="0000-0002-7091-0646" order="4">Terada T</author>
+                    <author ORCID="0000-0003-4835-154X" order="5">Tani K</author>
+                    <author ORCID="0000-0002-8070-1493" order="6">Fujiyoshi Y</author>
+                    <author ORCID="0000-0003-1174-1368" order="7">Oshima A</author>
+                    <title>Cryo-EM structures of undocked innexin-6 hemichannels in phospholipids.</title>
+                    <journal_abbreviation>Sci Adv</journal_abbreviation>
+                    <country>US</country>
+                    <volume>6</volume>
+                    <first_page>eaax3157</first_page>
+                    <last_page>eaax3157</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32095518</external_references>
+                    <external_references type="DOI">doi:10.1126/sciadv.aax3157</external_references>
+                    <external_references type="ISSN">2375-2548</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6kff</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>octameric complex of innexin-6</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>octameric complex of innexin-6</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="6239">Caenorhabditis elegans</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Innexin-6</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="6239">Caenorhabditis elegans</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.045173766000000004</theoretical>
+                </molecular_weight>
+                <number_of_copies>8</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MASQVGAINSVNALISRVFVQPKGDLADRLNSRVTVVILAVSSALLLSSHFIGDPITCWTPAQFNAQWVNFVNQYCFVHG
+TYFVPLDQQLAFEEEERTKVSIQYYQWVPYVFALQAFLFYIPRFIWKAMIAYSGYDLAAAVKYVDRFWSENRDKDDKFKT
+RLAAFEGRPSVYIWDGIRLARKKRSRNMALFYTLSTVWQAVNAWIQFYILTQLLDSSIYTLWGPSILGDLLQGNDWQTTG
+HFPRIVHCDFNRRRPASVQLDTVLCVLTLNIYYEKLFIFLWFWLVFVAVVSTVNCFKWIYYLCNKTKAQKTIKNYLSTAP
+IKSTISDDQFFSALGEDGLFIMDQMALNLGDIPASYLTISMRNICQDFIESEDYIDEERTPFVKSIKHT</string>
+                    <external_references type="UNIPROTKB">Q9U3N4</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>JEOL 3000SFF</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">35.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C8</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.8</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>40359</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>COMMON LINE</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="23329">
+        <file>emd_9971.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>180</col>
+            <row>180</row>
+            <sec>180</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>180</x>
+            <y>180</y>
+            <z>180</z>
+        </spacing>
+        <cell>
+            <a units="Å">221.76</a>
+            <b units="Å">221.76</b>
+            <c units="Å">221.76</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.12349102</minimum>
+            <maximum>0.19798118</maximum>
+            <average>0.00006129815</average>
+            <std>0.010557175</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.232</x>
+            <y units="Å">1.232</y>
+            <z units="Å">1.232</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.03</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-9971::::</label>
+        <annotation_details>hemichannel INX-6 in a nanodisc</annotation_details>
+    </map>
+</emd>

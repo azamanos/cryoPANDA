@@ -1,0 +1,101 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10280" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-05-27</depositionDate>
+            <releaseDate>2019-11-07</releaseDate>
+            <updateDate>2019-11-07</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of calcium-bound TMEM16F in nanodisc with supplement of PIP2</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-9141-1865</authorORCID>
+            <firstName>Shangyu</firstName>
+            <lastName>Dang</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, University of California San Francisco</organization>
+            <street>600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-9535-0369</authorORCID>
+            <firstName>Yifan</firstName>
+            <lastName>Cheng</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, University of California San Francisco</organization>
+            <street>600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-2655-7726">Feng S</author>
+            <author authorORCID="0000-0003-3938-8498">Jan LY</author>
+            <author authorORCID="0000-0001-9535-0369">Cheng Y</author>
+        </authorsList>
+        <datasetSize units="GB">576.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10280</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-20246</emdbEntry>
+            <emdbEntry>EMD-20247</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Feng S</author>
+                    <author authorORCID="0000-0001-9141-1865" order="2">Dang S</author>
+                    <author order="3">Han TW</author>
+                    <author order="4">Ye W</author>
+                    <author order="5">Jin P</author>
+                    <author order="6">Cheng T</author>
+                    <author order="7">Li J</author>
+                    <author order="8">Jan YN</author>
+                    <author authorORCID="0000-0003-3938-8498" order="9">Jan LY</author>
+                    <author authorORCID="0000-0001-9535-0369" order="10">Cheng Y</author>
+                    <title>Cryo-EM Studies of TMEM16F Calcium-Activated Ion Channel Suggest Features Important for Lipid Scrambling</title>
+                    <journal>Cell reports</journal>
+                    <journalAbbreviation>Cell Rep</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>2</issue>
+                    <volume>28</volume>
+                    <firstPage>567</firstPage>
+                    <lastPage>579.e4</lastPage>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.celrep.2019.06.023</externalReferences>
+                    <externalReferences type="pubmed">31291589</externalReferences>
+                    <details>Automatically picked particles from motion corrected images.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Automated picked particle stack of calcium-bound TMEM16F in nanodisc with supplement of PIP2</name>
+        <directory>/data</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>3823</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.059</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.059</pixelHeight>
+        </dimensions>
+        <details>All.star includes all automatically picked particles. Cl1.star and Cl2.star includes particles for final reconstruction of Cl1 and Cl2 respectively.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Micrographs/*.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data</pickedParticlesDirectory>
+    </imageSet>
+</entry>

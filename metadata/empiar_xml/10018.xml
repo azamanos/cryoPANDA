@@ -1,0 +1,86 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10018" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2014-11-17</depositionDate>
+            <releaseDate>2015-10-09</releaseDate>
+            <obsoleteDate>2022-10-27</obsoleteDate>
+            <updateDate>2015-10-09</updateDate>
+        </keyDates>
+        <title>GroEL dataset - NRAMM (06jul12a)</title>
+        <correspondingAuthor private="true">
+            <firstName>Sargis</firstName>
+            <lastName>Dallakyan</lastName>
+            <organization type="academic">National Resource for Automated Molecular Microscopy, The Scripps Research Institute</organization>
+            <street>10550 North Torrey Pines Road, TRY 31</street>
+            <townOrCity>La Jolla</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>92037</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0624-5020</authorORCID>
+            <firstName>Bridget</firstName>
+            <lastName>Carragher</lastName>
+            <organization type="academic">National Resource for Automated Molecular Microscopy, The Scripps Research Institute</organization>
+            <street>10550 North Torrey Pines Road, TRY 31</street>
+            <townOrCity>La Jolla</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>92037</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Stagg SM</author>
+            <author>Lander GC</author>
+            <author>Pulokas J</author>
+            <author>Fellmann D</author>
+            <author>Cheng A</author>
+            <author>Quispe JD</author>
+            <author>Mallick SP</author>
+            <author>Avila RM</author>
+            <author authorORCID="0000-0002-0624-5020">Carragher B</author>
+            <author>Potter CS</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2015-10-09</date>
+                <statusCode>REL</statusCode>
+                <details>Changed the associated EMD entry from 5336 to 1200</details>
+            </version>
+            <version>
+                <versionNumber>2</versionNumber>
+                <date>2015-10-28</date>
+                <statusCode>REL</statusCode>
+                <details>Restructured the entry directory to have "data" and ".private".</details>
+            </version>
+        </versionHistory>
+        <datasetSize units="GB">7.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10018</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-1200</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>Groel micrographs</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>186</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.63</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.63</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+</entry>

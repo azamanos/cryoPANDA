@@ -1,0 +1,127 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11898" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-01-12</depositionDate>
+            <releaseDate>2024-03-26</releaseDate>
+            <updateDate>2024-03-26</updateDate>
+        </keyDates>
+        <title>Cryo-EM micrographs of engineered encapsulin P3P4</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-2780-1572</authorORCID>
+            <firstName>Tadej</firstName>
+            <lastName>Satler</lastName>
+            <organization type="academic">National Institute of Chemistry</organization>
+            <street>Hajdrihova ulica 19</street>
+            <townOrCity>Ljubljana</townOrCity>
+            <country>Slovenia</country>
+            <postOrZipCode>1000</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-6337-5251</authorORCID>
+            <firstName>Roman</firstName>
+            <lastName>Jerala</lastName>
+            <organization type="academic">National Institute of Chemistry</organization>
+            <street>Hajdrihova ulica 19</street>
+            <townOrCity>Ljubljana</townOrCity>
+            <country>Slovenia</country>
+            <postOrZipCode>1000</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-2780-1572">Satler T</author>
+            <author authorORCID="0000-0002-6337-5251">Jerala R</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Slovenian Research Agency</fundingBody>
+                <code>P4-0176</code>
+                <country>Slovenia</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">69.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11898</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-19521</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <nonJournalCitation published="true">
+                    <author authorORCID="0000-0003-2780-1572" order="1">Satler T</author>
+                    <author authorORCID="0000-0002-6337-5251" order="2">Jerala R</author>
+                    <bookTitle>Structure of engineered encapsulin P3P4</bookTitle>
+                    <publisher></publisher>
+                    <publicationLocation></publicationLocation>
+                    <country></country>
+                    <details>Published at 10.5281/zenodo.10606158</details>
+                </nonJournalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of engineered Encapsulin P3P4</name>
+        <directory>/data/raw_mics</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>50</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>1.2</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>1.2</pixelHeight>
+        </dimensions>
+        <details>Raw movies of engineered encapsulin P3P4, collected on Galcios 200kV (Cs 2.7), with pixel size 1.2 and total dose 24.37.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/raw_mics/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned multi-frame micrographs of engineered Encapsulin P3P4</name>
+        <directory>/data/motioncorr</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>50</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>1.2</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>1.2</pixelHeight>
+        </dimensions>
+        <details>Aligned multi-frame micrographs of engineered Encapsulin P3P4 and picked particles of box size 540 px.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/motioncorr/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Picked particles of engineered Encapsulin P3P4</name>
+        <directory>/data/particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>3082</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>540</imageWidth>
+            <pixelWidth>1.2</pixelWidth>
+            <imageHeight>540</imageHeight>
+            <pixelHeight>1.2</pixelHeight>
+        </dimensions>
+        <details>3082 particles extracted from 50 micrographs.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles</pickedParticlesDirectory>
+    </imageSet>
+</entry>

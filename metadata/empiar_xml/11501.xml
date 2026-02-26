@@ -1,0 +1,181 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11501" schemaVersion="0.64" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-03-28</depositionDate>
+            <releaseDate>2024-02-13</releaseDate>
+            <updateDate>2024-02-13</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of the chain-elongating E3 ubiquitin ligase UBR5</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-2599-0333</authorORCID>
+            <firstName>Zuzana</firstName>
+            <lastName>Hodáková</lastName>
+            <organization type="academic">Research Institute of Molecular Pathology</organization>
+            <street>Campus-Vienna-Biocenter 1</street>
+            <townOrCity>Vienna</townOrCity>
+            <country>Austria</country>
+            <postOrZipCode>1030</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-5276-5633</authorORCID>
+            <firstName>David</firstName>
+            <lastName>Haselbach</lastName>
+            <organization type="academic">Research Institute of Molecular Pathology</organization>
+            <street>Campus-Vienna-Biocenter 1</street>
+            <townOrCity>Vienna</townOrCity>
+            <stateOrProvince>Vienna</stateOrProvince>
+            <country>Austria</country>
+            <postOrZipCode>1030</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-2599-0333">Hodáková Z</author>
+            <author authorORCID="0000-0003-0164-9373">Grishkovskaya I</author>
+            <author authorORCID="0000-0002-5276-5633">Haselbach D</author>
+            <author authorORCID="0000-0003-1684-5211">Kotisch H</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>H2020 Marie Curie Actions of the European Commission</fundingBody>
+                <code>847548</code>
+                <country>Austria</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">2.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11501</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-16087</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author authorORCID="0000-0002-2599-0333" order="1">Hodáková Z</author>
+                    <author authorORCID="0000-0003-0164-9373" order="2">Grishkovskaya I</author>
+                    <author authorORCID="0000-0002-3446-3738" order="3">Brunner HL</author>
+                    <author authorORCID="0000-0002-9062-9739" order="4">Bolhuis DL</author>
+                    <author authorORCID="0000-0002-4024-5497" order="5">Belačić K</author>
+                    <author order="6">Schleiffer A</author>
+                    <author authorORCID="0000-0003-1684-5211" order="7">Kotisch H</author>
+                    <author authorORCID="0000-0002-6141-0164" order="8">Brown NG</author>
+                    <author authorORCID="0000-0002-5276-5633" order="9">Haselbach D</author>
+                    <title>Cryo-EM structure of the chain-elongating E3 ligase UBR5</title>
+                    <journal>bioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1101/2022.11.03.515015</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion-corrected and dose-weighted micrographs of UBR5-CHAPSO dataset</name>
+        <directory>/data/20220525-p36</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>8283</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.7445</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.7445</pixelHeight>
+        </dimensions>
+        <details>CHAPSO dataset</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/20220525-p36/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Model1-FinalParticles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Motion-corrected and dose-weighted micrographs of UBR5-fOM dataset</name>
+        <directory>/data/20220810-p44z</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3972</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.7445</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.7445</pixelHeight>
+        </dimensions>
+        <details>fOM dataset 1</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/20220810-p44z/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Model1-FinalParticles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Motion-corrected and dose-weighted micrographs of UBR5-fOM dataset with no tilt</name>
+        <directory>/data/p61-notilt</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4368</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.7445</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.7445</pixelHeight>
+        </dimensions>
+        <details>fOM dataset2, untilted</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/p61-notilt/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Model1-FinalParticles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Motion-corrected and dose-weighted micrographs of UBR5-fOM dataset with 30degree tilt</name>
+        <directory>/data/p62-tilt</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3094</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.7445</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.7445</pixelHeight>
+        </dimensions>
+        <details>fOM dataset2, tilted</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/p62-tilt/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Model1-FinalParticles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Motion-corrected and dose-weighted micrographs of UBR5-fOM dataset 3</name>
+        <directory>/data/20221007-p78</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>14264</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.951</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.951</pixelHeight>
+        </dimensions>
+        <details>Large fOM dataset 3</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/20221007-p78/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Model2-ParticleStack</pickedParticlesDirectory>
+    </imageSet>
+</entry>

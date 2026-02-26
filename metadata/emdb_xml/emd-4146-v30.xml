@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_10_1/emdb.xsd" version="3.0.10.1" emdb_id="EMD-4146">
+    <admin>
+        <current_status>
+            <date>2025-04-09</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <revision_history>
+            <revision version="1.0" date="2017-07-05">
+                <change_list>
+                    <image>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </image>
+                    <primary_map>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </primary_map>
+                </change_list>
+            </revision>
+            <revision version="1.1" date="2025-04-09">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>database_2</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_database_2.pdbx_DOI</item>
+                            <item>_database_2.pdbx_database_accession</item>
+                            <item>_em_admin.last_update</item>
+                            <item>_em_admin.title</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="1.2" date="2019-10-09">
+                <change_list>
+                    <model>
+                        <revision_group>OTHER</revision_group>
+                        <categories>
+                            <category>pdbx_database_status</category>
+                            <category>pdbx_unobs_or_zero_occ_atoms</category>
+                            <category>pdbx_validate_close_contact</category>
+                            <category>struct_conn</category>
+                        </categories>
+                        <items>
+                            <item>_pdbx_database_status.process_site</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+            <revision version="1.3" date="2019-12-11">
+                <change_list>
+                    <model>
+                        <revision_group>OTHER</revision_group>
+                        <categories>
+                            <category>atom_sites</category>
+                            <category>cell</category>
+                        </categories>
+                        <items>
+                            <item>_atom_sites.fract_transf_matrix[1][1]</item>
+                            <item>_atom_sites.fract_transf_matrix[2][2]</item>
+                            <item>_atom_sites.fract_transf_matrix[3][3]</item>
+                            <item>_cell.Z_PDB</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+            <revision version="2.0" date="2025-04-09">
+                <change_list>
+                    <model>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>atom_site</category>
+                            <category>chem_comp_atom</category>
+                            <category>chem_comp_bond</category>
+                            <category>database_2</category>
+                            <category>em_admin</category>
+                            <category>pdbx_entry_details</category>
+                            <category>pdbx_modification_feature</category>
+                            <category>struct_conn</category>
+                        </categories>
+                        <items>
+                            <item>_atom_site.auth_atom_id</item>
+                            <item>_atom_site.label_atom_id</item>
+                            <item>_database_2.pdbx_DOI</item>
+                            <item>_database_2.pdbx_database_accession</item>
+                            <item>_em_admin.last_update</item>
+                            <item>_em_admin.title</item>
+                            <item>_struct_conn.pdbx_leaving_atom_flag</item>
+                            <item>_struct_conn.ptnr1_label_atom_id</item>
+                            <item>_struct_conn.ptnr2_label_atom_id</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+        </revision_history>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2016-10-14</deposition>
+            <header_release>2017-07-05</header_release>
+            <map_release>2017-07-05</map_release>
+            <update>2025-04-09</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>German Research Foundation</funding_body>
+                <code>CH1098-1/1</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>German Research Foundation</funding_body>
+                <code>SFB860-TP A5</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>ESFRI</funding_body>
+                <country>Germany</country>
+            </grant_reference>
+        </grant_support>
+        <title>Human 26S proteasome in complex with Oprozomib</title>
+        <authors_list>
+            <author>Haselbach D</author>
+            <author>Schrader J</author>
+        </authors_list>
+        <keywords>proteasome, oprozomib, ups, drug-binding, Hydrolase</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Haselbach D</author>
+                    <author order="2">Schrader J</author>
+                    <author order="3">Lambrecht F</author>
+                    <author order="4">Henneberg F</author>
+                    <author order="5">Chari A</author>
+                    <author order="6">Stark H</author>
+                    <title>Long-range allosteric regulation of the human 26S proteasome by 20S proteasome-targeting cancer drugs.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>8</volume>
+                    <first_page>15578</first_page>
+                    <last_page>15578</last_page>
+                    <year>2017</year>
+                    <external_references type="PUBMED">28541292</external_references>
+                    <external_references type="DOI">doi:10.1038/ncomms15578</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>5m32</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>human 26S proteasome in complex with oprozomib</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>human 26S proteasome in complex with oprozomib</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>8</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>9</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>10</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>11</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>12</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>13</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>14</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>15</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>16</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>17</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>18</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>19</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>20</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>21</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>22</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>23</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>24</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>25</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>26</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>27</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>28</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>29</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>30</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>31</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>32</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>33</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>34</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>35</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <molecular_weight>
+                    <theoretical units="MDa">1.5</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>human 26S proteasome</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>8</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>9</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>10</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>11</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>12</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>13</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>14</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>15</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>16</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>17</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>18</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>19</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>20</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>21</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>22</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>23</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>24</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>25</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>26</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>27</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>28</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>29</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>30</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>31</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>32</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>33</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>35</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                    <strain>HeLa</strain>
+                </natural_source>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>bound oprozomib</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>34</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="32630">Synthetic construct</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Proteasome subunit alpha type-2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.025927534999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAERGYSFSLTTFSPSGKLVQIEYALAAVAGGAPSVGIKAANGVVLATEKKQKSILYDERSVHKVEPITKHIGLVYSGMG
+PDYRVLVHRARKLAQQYYLVYQEPIPTAQLVQRVASVMQEYTQSGGVRPFGVSLLICGWNEGRPYLFQSDPSGAYFAWKA
+TAMGKNYVNGKTFLEKRYNEDLELEDAIHTAILTLKESFEGQMTEDNIEVGICNEAGFRRLTPTEVKDYLAAIA</string>
+                    <external_references type="UNIPROTKB">P25787</external_references>
+                </sequence>
+                <ec_number>3.4.25.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Proteasome subunit alpha type-4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.029525842</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSRRYDSRTTIFSPEGRLYQVEYAMEAIGHAGTCLGILANDGVLLAAERRNIHKLLDEVFFSEKIYKLNEDMACSVAGIT
+SDANVLTNELRLIAQRYLLQYQEPIPCEQLVTALCDIKQAYTQFGGKRPFGVSLLYIGWDKHYGFQLYQSDPSGNYGGWK
+ATCIGNNSAAAVSMLKQDYKEGEMTLKSALALAIKVLNKTMDVSKLSAEKVEIATLTRENGKTVIRVLKQKEVEQLIKKH
+EEEEAKAEREKKEKEQKEKDK</string>
+                    <external_references type="UNIPROTKB">P25789</external_references>
+                </sequence>
+                <ec_number>3.4.25.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Proteasome subunit alpha type-7</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.026164741999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SYDRAITVFSPDGHLFQVEYAQEAVKKGSTAVGVRGRDIVVLGVEKASVAKLQDERTVRKICALDDNVCMAFAGLTADAR
+IVINRARVECQSHRLTVEDPVTVEYITRYIASLKQRYTQSNGRRPFGISALIVGFDFDGTPRLYQTDPSGTYHAWKANAI
+GRGAKSVREFLEKNYTDDAIETDDLTIKLVIKALLEVVESGGKNIELAVMRRDQSLKILNPEEIEKYVAEIEKE</string>
+                    <external_references type="UNIPROTKB">O14818</external_references>
+                </sequence>
+                <ec_number>3.4.25.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Proteasome subunit alpha type-5</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.026435977</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MFLTRSEYDRGVNTFSPEGRLFQVEYAIEAIKLGSTAIGIQTSEGVCLAVEKRITSPLMEPSSIEKIVEIDAHIGCAMSG
+LIADAKTLIDKARVETQNHWFTYNETMTVESVTQAVSNLALQFGEEDADPGAMSRPFGVALLFGGVDEKGPQLFHMDPSG
+TFVQCDARAIGSASEGAQSSLQEVYHKSMTLKEAIKSSLIILKQVMEEKLNATNIELATVQPGQNFHMFTKEELEEVIKD
+I</string>
+                    <external_references type="UNIPROTKB">P28066</external_references>
+                </sequence>
+                <ec_number>3.4.25.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>Proteasome subunit alpha type-1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.026203835999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>NQYDNDVTVWSPQGRIHQIEYAMEAVKQGSATVGLKSKTHAVLVALKRAQSELAAHQKKILHVDNHIGISIAGLTADARL
+LCNFMRQECLDSRFVFDRPLPVSRLVSLIGSKTQIPTQRYGRRPYGVGLLIAGYDDMGPHIFQTCPSANYFDCRAMSIGA
+RSQSARTYLERHMSEFMECNLDELVKHGLRALRETLPAEQDLTTKNVSIGIVGKDLEFTIYDDDDVSPFLDGLE</string>
+                    <external_references type="UNIPROTKB">P25786</external_references>
+                </sequence>
+                <ec_number>3.4.25.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="6">
+                <name>Proteasome subunit alpha type-3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.028469252</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSSIGTGYDLSASTFSPDGRVFQVEYAMKAVENSSTAIGIRCKDGVVFGVEKLVLSKLYEEGSNKRLFNVDRHVGMAVAG
+LLADARSLADIAREEASNFRSNFGYNIPLKHLADRVAMYVHAYTLYSAVRPFGCSFMLGSYSVNDGAQLYMIDPSGVSYG
+YWGCAIGKARQAAKTEIEKLQMKEMTCRDIVKEVAKIIYIVHDEVKDKAFELELSWVGELTNGRHEIVPKDIREEAEKYA
+KESLKEEDESDDDNM</string>
+                    <external_references type="UNIPROTKB">P25788</external_references>
+                </sequence>
+                <ec_number>3.4.25.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="7">
+                <name>Proteasome subunit alpha type-6</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.027432459</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSRGSSAGFDRHITIFSPEGRLYQVEYAFKAINQGGLTSVAVRGKDCAVIVTQKKVPDKLLDSSTVTHLFKITENIGCVM
+TGMTADSRSQVQRARYEAANWKYKYGYEIPVDMLCKRIADISQVYTQNAEMRPLGCCMILIGIDEEQGPQVYKCDPAGYY
+CGFKATAAGVKQTESTSFLEKKVKKKFDWTFEQTVETAITCLSTVLSIDFKPSEIEVGVVTVENPKFRILTEAEIDAHLV
+ALAERD</string>
+                    <external_references type="UNIPROTKB">P60900</external_references>
+                </sequence>
+                <ec_number>3.4.25.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="8">
+                <name>Proteasome subunit beta type-7</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.030000418</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAAVSVYAPPVGGFSFDNCRRNAVLEADFAKRGYKLPKVRKTGTTIAGVVYKDGIVLGADTRATEGMVVADKNCSKIHFI
+SPNIYCCGAGTAADTDMTTQLISSNLELHSLSTGRLPRVVTANRMLKQMLFRYQGYIGAALVLGGVDVTGPHLYSIYPHG
+STDKLPYVTMGSGSLAAMAVFEDKFRPDMEEEEAKNLVSEAIAAGIFNDLGSGSNIDLCVISKNKLDFLRPYTVPNKKGT
+RLGRYRCEKGTTAVLTEKITPLEIEVLEETVQTMDTS</string>
+                    <external_references type="UNIPROTKB">Q99436</external_references>
+                </sequence>
+                <ec_number>3.4.25.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="9">
+                <name>Proteasome subunit beta type-3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022972896</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSIMSYNGGAVMAMKGKNCVAIAADRRFGIQAQMVTTDFQKIFPMGDRLYIGLAGLATDVQTVAQRLKFRLNLYELKEGR
+QIKPYTLMSMVANLLYEKRFGPYYTEPVIAGLDPKTFKPFICSLDLIGCPMVTDDFVVSGTCAEQMYGMCESLWEPNMDP
+DHLFETISQAMLNAVDRDAVSGMGVIVHIIEKDKITTRTLKARMD</string>
+                    <external_references type="UNIPROTKB">P49720</external_references>
+                </sequence>
+                <ec_number>3.4.25.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="10">
+                <name>Proteasome subunit beta type-2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022349719</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MEYLIGIQGPDYVLVASDRVAASNIVQMKDDHDKMFKMSEKILLLCVGEAGDTVQFAEYIQKNVQLYKMRNGYELSPTAA
+ANFTRRNLADCLRSRTPYHVNLLLAGYDEHEGPALYYMDYLAALAKAPFAAHGYGAFLTLSILDRYYTPTISRERAVELL
+RKCLEELQKRFILNLPTFSVRVIDKDGIHNLENIAF</string>
+                    <external_references type="UNIPROTKB">P49721</external_references>
+                </sequence>
+                <ec_number>3.4.25.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="11">
+                <name>Proteasome subunit beta type-5</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022484368999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>TTTLAFKFRHGVIVAADSRATAGAYIASQTVKKVIEINPYLLGTMAGGAADCSFWERLLARQCRIYELRNKERISVAAAS
+KLLANMVYQYKGMGLSMGTMICGWDKRGPGLYYVDSEGNRISGATFSVGSGSVYAYGVMDRGYSYDLEVEQAYDLARRAI
+YQATYRDAYSGGAVNLYHVREDGWIRVSSDNVADLHEKYSGSTP</string>
+                    <external_references type="UNIPROTKB">P28074</external_references>
+                </sequence>
+                <ec_number>3.4.25.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="12">
+                <name>Proteasome subunit beta type-1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.026522396</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLSSTAMYSAPGRDLGMEPHRAAGPLQLRFSPYVFNGGTILAIAGEDFAIVASDTRLSEGFSIHTRDSPKCYKLTDKTVI
+GCSGFHGDCLTLTKIIEARLKMYKHSNNKAMTTGAIAAMLSTILYSRRFFPYYVYNIIGGLDEEGKGAVYSFDPVGSYQR
+DSFKAGGSASAMLQPLLDNQVGFKNMQNVEHVPLSLDRAMRLVKDVFISAAERDVYTGDALRICIVTKEGIREETVSLRK
+D</string>
+                    <external_references type="UNIPROTKB">P20618</external_references>
+                </sequence>
+                <ec_number>3.4.25.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="13">
+                <name>Proteasome subunit beta type-4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.029231178</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MEAFLGSRSGLWAGGPAPGQFYRIPSTPDSFMDPASALYRGPITRTQNPMVTGTSVLGVKFEGGVVIAADMLGSYGSLAR
+FRNISRIMRVNNSTMLGASGDYADFQYLKQVLGQMVIDEELLGDGHSYSPRAIHSWLTRAMYSRRSKMNPLWNTMVIGGY
+ADGESFLGYVDMLGVAYEAPSLATGYGAYLAQPLLREVLEKQPVLSQTEARDLVERCMRVLYYRDARSYNRFQIATVTEK
+GVEIEGPLSTETNWDIAHMISGFE</string>
+                    <external_references type="UNIPROTKB">P28070</external_references>
+                </sequence>
+                <ec_number>3.4.25.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="14">
+                <name>Proteasome subunit beta type-6</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.025377651999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAATLLAARGAGPAPAWGPEAFTPDWESREVSTGTTIMAVQFDGGVVLGADSRTTTGSYIANRVTDKLTPIHDRIFCCRS
+GSAADTQAVADAVTYQLGFHSIELNEPPLVHTAASLFKEMCYRYREDLMAGIIIAGWDPQEGGQVYSVPMGGMMVRQSFA
+IGGSGSSYIYGYVDATYREGMTKEECLQFTANALALAMERDGSSGGVIRLAAIAESGVERQVLLGDQIPKFAVATLPPA</string>
+                    <external_references type="UNIPROTKB">P28072</external_references>
+                </sequence>
+                <ec_number>3.4.25.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="15">
+                <name>Proteasome subunit alpha type-7</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.026351039</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SYDRAITVFSPDGHLFQVEYAQEAVKKGSTAVGVRGRDIVVLGVEKKSVAKLQDERTVRKICALDDNVCMAFAGLTADAR
+IVINRARVECQSHRLTVEDPVTVEYITRYIASLKQRYTQSNGRRPFGISALIVGFDFDGTPRLYQTDPSGTYHAWKANAI
+GRGAKSVREFLEKNYTDDAIETDDLTIKLVIKALLEVVQSGGKNIELAVMRRDQSLKILNPEEIEKYVAEIEKEK</string>
+                    <external_references type="UNIPROTKB">O14818</external_references>
+                </sequence>
+                <ec_number>3.4.25.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="16">
+                <name>Proteasome subunit alpha type-1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.026632298999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>AANQYDNDVTVWSPQGRIHQIEYAMEAVKQGSATVGLKSKTHAVLVALKRAQSELAAHQKKILHVDNHIGISIAGLTADA
+RLLCNFMRQECLDSRFVFDRPLPVSRLVSLIGSKTQIPTQRYGRRPYGVGLLIAGYDDMGPHIFQTCPSANYFDCRAMSI
+GARSQSARTYLERHMSEFMECNLDELVKHGLRALRETLPAEQDLTTKNVSIGIVGKDLEFTIYDDDDVSPFLDGLEER</string>
+                    <external_references type="UNIPROTKB">P25786</external_references>
+                </sequence>
+                <ec_number>3.4.25.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="17">
+                <name>26S protease regulatory subunit 7</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.048700805</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPDYLGADQRKTKEDEKDDKPIRALDEGDIALLKTYGQSTYSRQIKQVEDDIQQLLKKINELTGIKESDTGLAPPALWDL
+AADKQTLQSEQPLQVARCTKIINADSEDPKYIINVKQFAKFVVDLSDQVAPTDIEEGMRVGVDRNKYQIHIPLPPKIDPT
+VTMMQVEEKPDVTYSDVGGCKEQIEKLREVVETPLLHPERFVNLGIEPPKGVLLFGPPGTGKTLCARAVANRTDACFIRV
+IGSELVQKYVGEGARMVRELFEMARTKKACLIFFDEIDAIGGARFDDGAGGDNEVQRTMLELINQLDGFDPRGNIKVLMA
+TNRPDTLDPALMRPGRLDRKIEFSLPDLEGRTHIFKIHARSMSVERDIRFELLARLCPNSTGAEIRSVCTEAGMFAIRAR
+RKIATEKDFLEAVNKVIKSYAKFSATPRYMTYN</string>
+                    <external_references type="UNIPROTKB">P35998</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="18">
+                <name>26S protease regulatory subunit 4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.04791398</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGQSQSGGHGPGGGKKDDKDKKKKYEPPVPTRVGKKKKKTKGPDAASKLPLVTPHTQCRLKLLKLERIKDYLLMEEEFIR
+NQEQMKPLEEKQEEERSKVDDLRGTPMSVGTLEEIIDDNHAIVSTSVGSEHYVSILSFVDKDLLEPGCSVLLNHKVHAVI
+GVLMDDTDPLVTVMKVEKAPQETYADIGGLDNQIQEIKESVELPLTHPEYYEEMGIKPPKGVILYGPPGTGKTLLAKAVA
+NQTSATFLRVVGSELIQKYLGDGPKLVRELFRVAEEHAPSIVFIDEIDAIGTKRYDSNSGGEREIQRTMLELLNQLDGFD
+SRGDVKVIMATNRIETLDPALIRPGRIDRKIEFPLPDEKTKKRIFQIHTSRMTLADDVTLDDLIMAKDDLSGADIKAICT
+EAGLMALRERRMKVTNEDFKKSKENVLY</string>
+                    <external_references type="UNIPROTKB">P62191</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="19">
+                <name>26S protease regulatory subunit 6B</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.047426141</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MEEIGILVEKAQDEIPALSVSRPQTGLSFLGPEPEDLEDLYSRYKKLQQELEFLEVQEEYIKDEQKNLKKEFLHAQEEVK
+RIQSIPLVIGQFLEAVDQNTAIVGSTTGSNYYVRILSTIDRELLKPNASVALHKHSNALVDVLPPEADSSIMMLTSDQKP
+DVMYADIGGMDIQKQEVREAVELPLTHFELYKQIGIDPPRGVLMYGPPGCGKTMLAKAVAHHTTAAFIRVVGSEFVQKYL
+GEGPRMVRDVFRLAKENAPAIIFIDEIDAIATKRFDAQTGADREVQRILLELLNQMDGFDQNVNVKVIMATNRADTLDPA
+LLRPGRLDRKIEFPLPDRRQKRLIFSTITSKMNLSEEVDLEDYVARPDKISGADINSICQESGMLAVRENRYIVLAKDFE
+KAYKTVIKKDEQEHEFYK</string>
+                    <external_references type="UNIPROTKB">P43686</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="20">
+                <name>26S protease regulatory subunit 10B</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.043065641</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MADPRDKALQDYRKKLLEHKEIDGRLKELREQLKELTKQYEKSENDLKALQSVGQIVGEVLKQLTEEKFIVKATNGPRYV
+VGCRRQLDKSKLKPGTRVALDMTTLTIMRYLPREVDPLVYNMSHEDPGNVSYSEIGGLSEQIRELREVIELPLTNPELFQ
+RVGIIPPKGCLLYGPPGTGKTLLARAVASQLDCNFLKVVSSSIVDKYIGESARLIREMFNYARDHQPCIIFMDEIDAIGG
+RRFSEGTSADREIQRTLMELLNQMDGFDTLHRVKMIMATNRPDTLDPALLRPGRLDRKIHIDLPNEQARLDILKIHAGPI
+TKHGEIDYEAIVKLSDGFNGADLRNVCTEAGMFAIRADHDFVVQEDFMKAVRKVADSKK</string>
+                    <external_references type="UNIPROTKB">P62333</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="21">
+                <name>26S protease regulatory subunit 6A</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.049266457</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MNLLPNIESPVTRQEKMATVWDEAEQDGIGEEVLKMSTEEIIQRTRLLDSEIKIMKSEVLRVTHELQAMKDKIKENSEKI
+KVNKTLPYLVSNVIELLDVDPNDQEEDGANIDLDSQRKGKCAVIKTSTRQTYFLPVIGLVDAEKLKPGDLVGVNKDSYLI
+LETLPTEYDSRVKAMEVDERPTEQYSDIGGLDKQIQELVEAIVLPMNHKEKFENLGIQPPKGVLMYGPPGTGKTLLARAC
+AAQTKATFLKLAGPQLVQMFIGDGAKLVRDAFALAKEKAPSIIFIDELDAIGTKRFDSEKAGDREVQRTMLELLNQLDGF
+QPNTQVKVIAATNRVDILDPALLRSGRLDRKIEFPMPNEEARARIMQIHSRKMNVSPDVNYEELARCTDDFNGAQCKAVC
+VEAGMIALRRGATELTHEDYMEGILEVQAKKKANLQYYA</string>
+                    <external_references type="UNIPROTKB">P17980</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="22">
+                <name>26S protease regulatory subunit 8</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.039818308999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>KSQNLRRLQAQRNELNAKVRLLREELQLLQEQGSYVGEVVRAMDKKKVLVKVHPEGKFVVDVDKNIDINDVTPNCRVALR
+NDSYTLHKILPNKVDPLVSLMMVEKVPDSTYEMIGGLDKQIKEIKEVIELPVKHPELFEALGIAQPKGVLLYGPPGTGKT
+LLARAVAHHTDCTFIRVSGSELVQKFIGEGARMVRELFVMAREHAPSIIFMDEIDSIGSSRLEGGSGGDSEVQRTMLELL
+NQLDGFEATKNIKVIMATNRIDILDSALLRPGRIDRKIEFPPPNEEARLDILKIHSRKMNLTRGINLRKIAELMPGASGA
+EVKGVCTEAGMYALRERRVHVTQEDFEMAVAKVMQ</string>
+                    <external_references type="UNIPROTKB">P62195</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="23">
+                <name>26S proteasome non-ATPase regulatory subunit 1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.105958234</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MITSAAGIISLLDEDEPQLKEFALHKLNAVVNDFWAEISESVDKIEVLYEDEGFRSRQFAALVASKVFYHLGAFEESLNY
+ALGAGDLFNVNDNSEYVETIIAKCIDHYTKQCVENADLPEGEKKPIDQRLEGIVNKMFQRCLDDHKYKQAIGIALETRRL
+DVFEKTILESNDVPGMLAYSLKLCMSLMQNKQFRNKVLRVLVKIYMNLEKPDFINVCQCLIFLDDPQAVSDILEKLVKED
+NLLMAYQICFDLYESASQQFLSSVIQNLRTVGTPIASVPGSTNTGTVPGSEKDSDSMETEEKTSSAFVGKTPEASPEPKD
+QTLKMIKILSGEMAIELHLQFLIRNNNTDLMILKNTKDAVRNSVCHTATVIANSFMHCGTTSDQFLRDNLEWLARATNWA
+KFTATASLGVIHKGHEKEALQLMATYLPKDTSPGSAYQEGGGLYALGLIHANHGGDIIDYLLNQLKNASNDIVRHGGSLG
+LGLAAMGTARQDVYDLLKTNLYQDDAVTGEAAGLALGLVMLGSKNAQAIEDMVGYAQETQHEKILRGLAVGIALVMYGRM
+EEADALIESLCRDKDPILRRSGMYTVAMAYCGSGNNKAIRRLLHVAVSDVNDDVRRAAVESLGFILFRTPEQCPSVVSLL
+SESYNPHVRYGAAMALGICCAGTGNKEAINLLEPMTNDPVNYVRQGALIASALIMIQQTEITCPKVNQFRQLYSKVINDK
+HDDVMAKFGAILAQGILDAGGHNVTISLQSRTGHTHMPSVVGVLVFTQFWFWFPLSHFLSLAYTPTCVIGLNKDLKMPKV
+QYKSNCKPSTFAYPAPLEVPKEKEKEKVSTAVLSITAKAKKKEKEKEKKEEEKMEVDEAEKKEEKEKKKEPEPNFQLLDN
+PARVMPAQLKVLTMPETCRYQPFKPLSIGGIIILKDTSEDIEELVEPVAAHGPKIEEEEQEPEPPEPFEYIDD</string>
+                    <external_references type="UNIPROTKB">Q99460</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="24">
+                <name>26S proteasome non-ATPase regulatory subunit 3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.061066499999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKQEGSARRRGADKAKPPPGGGEQEPPPPPAPQDVEMKEEAATGGGSTGEADGKTAAAAAEHSQRELDTVTLEDIKEHVK
+QLEKAVSGKEPRFVLRALRMLPSTSRRLNHYVLYKAVQGFFTSNNATRDFLLPFLEEPMDTEADLQFRPRTGKAASTPLL
+PEVEAYLQLLVVIFMMNSKRYKEAQKISDDLMQKISTQNRRALDLVAAKCYYYHARVYEFLDKLDVVRSFLHARLRTATL
+RHDADGQATLLNLLLRNYLHYSLYDQAEKLVSKSVFPEQANNNEWARYLYYTGRIKAIQLEYSEARRTMTNALRKAPQHT
+AVGFKQTVHKLLIVVELLLGEIPDRLQFRQPSLKRSLMPYFLLTQAVRTGNLAKFNQVLDQFGEKFQADGTYTLIIRLRH
+NVIKTGVRMISLSYSRISLADIAQKLQLDSPEDAEFIVAKAIRDGVIEASINHEKGYVQSKEMIDIYSTREPQLAFHQRI
+SFCLDIHNMSVKAMRFPPKSYNKDLESAEERREREQQDLEFAKEMAEDDDDSFP</string>
+                    <external_references type="UNIPROTKB">O43242</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="25">
+                <name>26S proteasome non-ATPase regulatory subunit 12</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.052979359</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MADGGSERADGRIVKMEVDYSATVDQRLPECAKLAKEGRLQEVIETLLSLEKQTRTASDMVSTSRILVAVVKMCYEAKEW
+DLLNENIMLLSKRRSQLKQAVAKMVQQCCTYVEEITDLPIKLRLIDTLRMVTEGKIYVEIERARLTKTLATIKEQNGDVK
+EAASILQELQVETYGSMEKKERVEFILEQMRLCLAVKDYIRTQIISKKINTKFFQEENTEKLKLKYYNLMIQLDQHEGSY
+LSICKHYRAIYDTPCIQAESEKWQQALKSVVLYVILAPFDNEQSDLVHRISGDKKLEEIPKYKDLLKLFTTMELMRWSTL
+VEDYGMELRKGSLESPATDVFGSTEEGEKRWKDLKNRVVEHNIRIMAKYYTRITMKRMAQLLDLSVDESEAFLSNLVVNK
+TIFAKVDRLAGIINFQRPKDPNNLLNDWSQKLNSLMSLVNKTTHLIAKEEMIHNLQ</string>
+                    <external_references type="UNIPROTKB">O00232</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="26">
+                <name>26S proteasome non-ATPase regulatory subunit 11</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.047526688</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAAAAVVEFQRAQSLLSTDREASIDILHSIVKRDIQENDEEAVQVKEQSILELGSLLAKTGQAAELGGLLKYVRPFLNSI
+SKAKAARLVRSLLDLFLDMEAATGQEVELCLECIEWAKSEKRTFLRQALEARLVSLYFDTKRYQEALHLGSQLLRELKKM
+DDKALLVEVQLLESKTYHALSNLPKARAALTSARTTANAIYCPPKLQATLDMQSGIIHAAEEKDWKTAYSYFYEAFEGYD
+SIDSPKAITSLKYMLLCKIMLNTPEDVQALVSGKLALRYAGRQTEALKCVAQASKNRSLADFEKALTDYRAELRDDPIIS
+THLAKLYDNLLEQNLIRVIEPFSRVQIEHISSLIKLSKADVERKLSQMILDKKFHGILDQGEGVLIIFDEPPVDKTYEAA
+LETIQNMSKVVDSLYNKAKKLT</string>
+                    <external_references type="UNIPROTKB">O00231</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="27">
+                <name>26S proteasome non-ATPase regulatory subunit 6</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.045592285</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPLENLEEEGLPKNPDLRIAQLRFLLSLPEHRGDAAVRDELMAAVRDNNMAPYYEALCKSLDWQIDVDLLNKMKKANEDE
+LKRLDEELEDAEKNLGESEIRDAMMAKAEYLCRIGDKEGALTAFRKTYDKTVALGHRLDIVFYLLRIGLFYMDNDLITRN
+TEKAKSLIEEGGDWDRRNRLKVYQGLYCVAIRDFKQAAELFLDTVSTFTSYELMDYKTFVTYTVYVSMIALERPDLREKV
+IKGAEILEVLHSLPAVRQYLFSLYECRYSVFFQSLAVVEQEMKKDWLFAPHYRYYVREMRIHAYSQLLESYRSLTLGYMA
+EAFGVGVEFIDQELSRFIAAGRLHCKIDKVNEIVETNRPDSKNWQYQETIKKGDLLLNRVQKLSRVINM</string>
+                    <external_references type="UNIPROTKB">Q15008</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="28">
+                <name>26S proteasome non-ATPase regulatory subunit 7</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.037086441</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPELAVQKVVVHPLVLLSVVDHFNRIGKVGNQKRVVGVLLGSWQKKVLDVSNSFAVPFDEDDKDDSVWFLDHDYLENMYG
+MFKKVNARERIVGWYHTGPKLHKNDIAINELMKRYCPNSVLVIIDVKPKDLGLPTEAYISVEEVHDDGTPTSKTFEHVTS
+EIGAEEAEEVGVEHLLRDIKDTTVGTLSQRITNQVHGLKGLNSKLLDIRSYLEKVATGKLPINHQIIYQLQDVFNLLPDV
+SLQEFVKAFYLKTNDQMVVVYLASLIRSVVALHNLINNKIANRDAEKKEGQEKEESKKDRKEDKEKDKDKEKSDVKKEEK
+KEKK</string>
+                    <external_references type="UNIPROTKB">P51665</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="29">
+                <name>26S proteasome non-ATPase regulatory subunit 13</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.042995359</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKDVPGFLQQSQNSGPGQPAVWHRLEELYTKKLWHQLTLQVLDFVQDPCFAQGDGLIKLYENFISEFEHRVNPLSLVEII
+LHVVRQMTDPNVALTFLEKTREKVKSSDEAVILCKTAIGALKLNIGDLQVTKETIEDVEEMLNNLPGVTSVHSRFYDLSS
+KYYQTIGNHASYYKDALRFLGCVDIKDLPVSEQQERAFTLGLAGLLGEGVFNFGELLMHPVLESLRNTDRQWLIDTLYAF
+NSGNVERFQTLKTAWGQQPDLAANEAQLLRKIQLLCLMEMTFTRPANHRQLTFEEIAKSAKITVNEVELLVMKALSVGLV
+KGSIDEVDKRVHMTWVQPRVLDLQQIKGMKDRLEFWCTDVKSMEMLVEHQAHDILT</string>
+                    <external_references type="UNIPROTKB">Q9UNM6</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="30">
+                <name>26S proteasome non-ATPase regulatory subunit 4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.04078158999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MVLESTMVCVDNSEYMRNGDFLPTRLQAQQDAVNIVCHSKTRSNPENNVGLITLANDCEVLTTLTPDTGRILSKLHTVQP
+KGKITFCTGIRVAHLALKHRQGKNHKMRIIAFVGSPVEDNEKDLVKLAKRLKKEKVNVDIINFGEEEVNTEKLTAFVNTL
+NGKDGTGSHLVTVPPGPSLADALISSPILAGEGGAMLGLGASDFEFGVDPSADPELALALRVSMEEQRQRQEEEARRAAA
+ASAAEAGIATTGTEDSDDALLKMTISQQEFGRTGLPDLSSMTEEEQIAYAMQMSLQGAEFGQAESADIDASSAMDTSEPA
+KEEDDYDVMQDPEFLQSVLENLPGVDPNNEAIRNAMGSLASQATKDGKKDKKEEDKK</string>
+                    <external_references type="UNIPROTKB">P55036</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="31">
+                <name>26S proteasome non-ATPase regulatory subunit 14</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.034620023</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDRLLRLGGGMPGLGQGPPTDAPAVDTAEQVYISSLALLKMLKHGRAGVPMEVMGLMLGEFVDDYTVRVIDVFAMPQSGT
+GVSVEAVDPVFQAKMLDMLKQTGRPEMVVGWYHSHPGFGCWLSGVDINTQQSFEALSERAVAVVVDPIQSVKGKVVIDAF
+RLINANMMVLGHEPRQTTSNLGHLNKPSIQALIHGLNRHYYSITINYRKNELEQKMLLNLHKKSWMEGLTLQDYSEHCKH
+NESVVKEMLELAKNYNKAVEEEDKMTPEQLAIKNVGKQDPKRHLEEHVDVLMTSNIVQCLAAMLDTVVFK</string>
+                    <external_references type="UNIPROTKB">O00487</external_references>
+                </sequence>
+                <ec_number>3.4.19.-</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="32">
+                <name>26S proteasome non-ATPase regulatory subunit 8</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.039667871</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MFIKGRAPRAPPRERRRATRGGLRQVVAPPRALGSTSRPHFRRASVCRRRCRKSGGLLAASRKMAAAAVNGAAGFSSSGP
+AATSGAVLQAATGMYEQLKGEWNRKSPNLSKCGEELGRLKLVLLELNFLPTTGTKLTKQQLILARDILEIGAQWSILRKD
+IPSFERYMAQLKCYYFDYKEQLPESAYMHQLLGLNLLFLLSQNRVAEFHTELERLPAKDIQTNVYIKHPVSLEQYLMEGS
+YNKVFLAKGNIPAESYTFFIDILLDTIRDEIAGCIEKAYEKILFTEATRILFFNTPKKMTDYAKKRGWVLGPNNYYSFAS
+QQQKPEDTTIPSTELAKQVIEYARQLEMIV</string>
+                    <external_references type="UNIPROTKB">P48556</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="33">
+                <name>26S proteasome complex subunit SEM1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008284611</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSEKKQPVDLGLLEEDDEFEEFPAEDWAGLDEDEDAHVWEDNWDDDNVEDDFSNQLRAELEKHGYKMETS</string>
+                    <external_references type="UNIPROTKB">P60896</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="34">
+                <name>bound Oprozomib</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="32630">Synthetic construct</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0005366409999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>(6V9)(7C9)(7C9)(6VA)</string>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="35">
+                <name>ADENOSINE-5'-DIPHOSPHATE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000427201</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>ADP</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>6.5</ph>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <name>BisTris</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <formula>KCl</formula>
+                            <name>potassium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <formula>MgSO4</formula>
+                            <name>magnesium sulphate</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">2.0</concentration>
+                            <name>ATP</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">5.0</concentration>
+                            <name>DTT</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil</model>
+                        <material>COPPER</material>
+                        <mesh>200</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <support_film film_type_id="2">
+                            <film_material>CARBON</film_material>
+                            <film_topology>CONTINUOUS</film_topology>
+                        </support_film>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">72</chamber_humidity>
+                        <chamber_temperature units="K">4</chamber_temperature>
+                        <instrument>LEICA EM GP</instrument>
+                        <details>blot with sensor. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>SPOT SCAN</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">70.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">0.0001</nominal_cs>
+                    <nominal_defocus_min units="µm">0.3</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">8.4</nominal_defocus_max>
+                    <nominal_magnification>59000.0</nominal_magnification>
+                    <calibrated_magnification>110236.0</calibrated_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <other/>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <sph_aberration_corrector>Microscope is equipped with Cs corrector</sph_aberration_corrector>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON II (4k x 4k)</film_or_detector_model>
+                            <detector_mode>OTHER</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">4096</width>
+                                    <height units="pixel">4096</height>
+                                </dimensions>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <average_exposure_time units="s">1.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">2.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">3.8</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2</version>
+                            <processing_details>beta</processing_details>
+                        </software>
+                    </software_list>
+                    <number_images_used>233000</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                    <software_list>
+                        <software>
+                            <name>SIMPLE</name>
+                            <version>2</version>
+                            <processing_details>PRIME</processing_details>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2</version>
+                            <processing_details>beta</processing_details>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>1.4</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="151733">
+        <file>emd_4146.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>336</col>
+            <row>336</row>
+            <sec>336</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>336</x>
+            <y>336</y>
+            <z>336</z>
+        </spacing>
+        <cell>
+            <a units="Å">426.72</a>
+            <b units="Å">426.72</b>
+            <c units="Å">426.72</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.13073525</minimum>
+            <maximum>0.27538812</maximum>
+            <average>0.0013361698</average>
+            <std>0.009985619</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.27</x>
+            <y units="Å">1.27</y>
+            <z units="Å">1.27</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.05</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-4146::::</label>
+    </map>
+</emd>

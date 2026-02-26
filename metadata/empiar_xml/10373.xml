@@ -1,0 +1,105 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10373" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-02-23</depositionDate>
+            <releaseDate>2020-04-03</releaseDate>
+            <updateDate>2020-02-25</updateDate>
+        </keyDates>
+        <title>BurrH bound to DNA Origami Goniometer</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-8477-557X</authorORCID>
+            <firstName>Tural</firstName>
+            <lastName>Aksel</lastName>
+            <organization type="academic">Department of Cellular and Molecular Pharmacology, University of California, San Francisco</organization>
+            <street>600 16th St</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94143</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-5398-9041</authorORCID>
+            <firstName>Shawn</firstName>
+            <lastName>Douglas</lastName>
+            <organization type="academic">Department of Cellular and Molecular Pharmacology, University of California, San Francisco</organization>
+            <street>600 16th St</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94143</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-8477-557X">Aksel T</author>
+            <author authorORCID="0000-0001-8381-8788">Yu Z</author>
+            <author authorORCID="0000-0001-9535-0369">Cheng Y</author>
+            <author>Douglas SM</author>
+        </authorsList>
+        <datasetSize units="TB">1.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10373</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-21443</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-8477-557X" order="1">Aksel T</author>
+                    <author authorORCID="0000-0001-8381-8788" order="2">Yu Z</author>
+                    <author authorORCID="0000-0001-9535-0369" order="3">Cheng Y</author>
+                    <author order="4">Douglas SM</author>
+                    <title>Molecular goniometers for single-particle cryo-EM of DNA-binding proteins</title>
+                    <journal>bioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <year>2020</year>
+                    <externalReferences type="doi">10.1101/2020.02.27.968883</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>DNA Origami Goniometers in complex with BurrH DNA binding protein</name>
+        <directory>/data/Micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>15658</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.82</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.82</pixelHeight>
+        </dimensions>
+        <details>Micrographs are motion-corrected and dose weighted. CTF parameters are available in micrographs.star file.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Micrographs/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMStack_em_061/stack.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMStack_em_061</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>BurrH particle set used for the final refinement</name>
+        <directory>/data/EMStack_em_061</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>68482</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>128</imageWidth>
+            <pixelWidth>1.82</pixelWidth>
+            <imageHeight>128</imageHeight>
+            <pixelHeight>1.82</pixelHeight>
+        </dimensions>
+        <details>Final particle stack used for BurrH refinement. Reconstruction parameters are in stack.star.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Micrographs/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMStack_em_061/stack.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMStack_em_061</pickedParticlesDirectory>
+    </imageSet>
+</entry>

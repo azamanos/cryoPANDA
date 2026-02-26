@@ -1,0 +1,116 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10308" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-07-01</depositionDate>
+            <releaseDate>2019-10-07</releaseDate>
+            <updateDate>2019-10-07</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of the serotonin 5-HT1B receptor coupled to heterotrimeric Go</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-2008-9183</authorORCID>
+            <firstName>Christopher</firstName>
+            <lastName>Tate</lastName>
+            <organization type="academic">MRC laboratory of molecular biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-2008-9183</authorORCID>
+            <firstName>Christopher</firstName>
+            <lastName>Tate</lastName>
+            <organization type="academic">MRC laboratory of molecular biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-4254-3148">Garcia-Nafria J</author>
+            <author>Nehme R</author>
+            <author>Edwards PC</author>
+            <author authorORCID="0000-0002-2008-9183">Tate CG</author>
+        </authorsList>
+        <datasetSize units="TB">8.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10308</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-4358</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-4254-3148" order="1">García-Nafría J</author>
+                    <author order="2">Nehmé R</author>
+                    <author order="3">Edwards PC</author>
+                    <author authorORCID="0000-0002-2008-9183" order="4">Tate CG</author>
+                    <title>Cryo-EM structure of the serotonin 5-HT1B receptor coupled to heterotrimeric Go</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <issue>7711</issue>
+                    <volume>558</volume>
+                    <firstPage>620</firstPage>
+                    <lastPage>623</lastPage>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41586-018-0241-9</externalReferences>
+                    <externalReferences type="pubmed">29925951</externalReferences>
+                    <details>Unaligned movies.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned movies</name>
+        <directory>/data/Movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>5953</numImagesOrTiltSeries>
+        <framesPerImage>75</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>75</frameRangeMax>
+        </frameRange>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.06</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.06</pixelHeight>
+        </dimensions>
+        <details>Unaligned movies from Falcon3 in the counting mode. The files from EPU were compressed into the TIFF format by mrc2tif command in IMOD. During this process, the pixel size in the header was reset to 1.0 A/px. The true pixel size is 1.06 A/px.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Extracted particles</name>
+        <directory>/data/Particles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>730118</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>150</imageWidth>
+            <pixelWidth>1.06</pixelWidth>
+            <imageHeight>150</imageHeight>
+            <pixelHeight>1.06</pixelHeight>
+        </dimensions>
+        <details>Extracted particles.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

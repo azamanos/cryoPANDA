@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_1/emdb.xsd" version="3.0.9.1" emdb_id="EMD-28785">
+    <admin>
+        <current_status>
+            <date>2024-01-17</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-11-04</deposition>
+            <header_release>2023-04-05</header_release>
+            <map_release>2023-04-05</map_release>
+            <update>2024-01-17</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R35 GM118130</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>EsN-dhsU36mm2 composite map</title>
+        <authors_list>
+            <author ORCID="0000-0003-3002-3695">Mueller AU</author>
+            <author ORCID="0000-0002-2311-003X">Chen J</author>
+            <author ORCID="0000-0002-8241-3153">Darst SA</author>
+        </authors_list>
+        <keywords>promoter-bound, initiation, TRANSCRIPTION, TRANSCRIPTION-DNA complex</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0003-3002-3695" order="1">Mueller AU</author>
+                    <author ORCID="0000-0002-2311-003X" order="2">Chen J</author>
+                    <author ORCID="0000-0002-2248-9383" order="3">Wu M</author>
+                    <author order="4">Chiu C</author>
+                    <author ORCID="0000-0002-3568-5703" order="5">Nixon BT</author>
+                    <author ORCID="0000-0002-1332-128X" order="6">Campbell EA</author>
+                    <author ORCID="0000-0002-8241-3153" order="7">Darst SA</author>
+                    <title>A general mechanism for transcription bubble nucleation in bacteria.</title>
+                    <journal_abbreviation>Proc.Natl.Acad.Sci.USA</journal_abbreviation>
+                    <country>US</country>
+                    <volume>120</volume>
+                    <first_page>e2220874120</first_page>
+                    <last_page>e2220874120</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">36972428</external_references>
+                    <external_references type="DOI">doi:10.1073/pnas.2220874120</external_references>
+                    <external_references type="ISSN">1091-6490</external_references>
+                    <external_references type="CSD">0040</external_references>
+                    <external_references type="ASTM">PNASA6</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-28783</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>full map</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-28784</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>local map</details>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8f1j</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>EsN-dhsU36mm2</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>EsN-dhsU36mm2</name>
+                <parent>0</parent>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>RNA polymerase complex</name>
+                <parent>1</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>DNA</name>
+                <parent>1</parent>
+                <natural_source database="NCBI" synthetically_produced="true">
+                    <organism ncbi="63363">Aquifex aeolicus</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>8.0</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">100.0</concentration>
+                            <formula>KCH3COO</formula>
+                            <name>potassium acetate</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <formula>MgCl2</formula>
+                            <name>magnesium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">2.0</concentration>
+                            <name>dithiothreitol</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>C-flat-1.2/1.3</model>
+                        <material>GOLD</material>
+                        <mesh>400</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">295</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>Octyl beta-D-glucopyranoside (beta-OG) was added to the sample to 0.1%w/v final concentration (from 10x stock) just prior to plunge vitrification. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.5</nominal_defocus_max>
+                    <specialist_optics>
+                        <sph_aberration_corrector>Cs corrector installed</sph_aberration_corrector>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <number_real_images>7101</number_real_images>
+                            <average_exposure_time units="s">2.5</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">64.3</average_electron_dose_per_image>
+                            <details>dose-fractionation with 0.05 seconds per frame (=50 frames)</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="OTHER">
+                    <details>ab initio generated map</details>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">2.6</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>PHENIX</name>
+                            <processing_details>phenix.combine_focused_maps</processing_details>
+                        </software>
+                    </software_list>
+                    <details>Particle numbers and FSC resolution estimate for the full map provided</details>
+                    <number_images_used>802772</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_28785.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">276.48</a>
+            <b units="Å">276.48</b>
+            <c units="Å">276.48</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-9.734247999999999</minimum>
+            <maximum>28.521034</maximum>
+            <average>0.01712148</average>
+            <std>1.1309236</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.08</x>
+            <y units="Å">1.08</y>
+            <z units="Å">1.08</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>6.7</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-28785::::</label>
+        <annotation_details>Composite of full and local raw maps</annotation_details>
+    </map>
+    <interpretation>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_28785_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">276.48</a>
+                    <b units="Å">276.48</b>
+                    <c units="Å">276.48</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-22.891431999999998</minimum>
+                    <maximum>34.413679999999999</maximum>
+                    <average>0.0053806617</average>
+                    <std>1.049316</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.08</x>
+                    <y units="Å">1.08</y>
+                    <z units="Å">1.08</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-28785::::</label>
+                <annotation_details>Composite of B-factor sharpened full and local maps</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_28785_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">276.48</a>
+                    <b units="Å">276.48</b>
+                    <c units="Å">276.48</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-23.30527</minimum>
+                    <maximum>33.513205999999997</maximum>
+                    <average>0.0071669514</average>
+                    <std>0.89434385</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.08</x>
+                    <y units="Å">1.08</y>
+                    <z units="Å">1.08</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-28785::::</label>
+                <annotation_details>Locally filtered composite map (blocfilt)</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_28785_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">276.48</a>
+                    <b units="Å">276.48</b>
+                    <c units="Å">276.48</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0.0</minimum>
+                    <maximum>64.799999999999997</maximum>
+                    <average>6.7005825</average>
+                    <std>3.9536662</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.08</x>
+                    <y units="Å">1.08</y>
+                    <z units="Å">1.08</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-28785::::</label>
+                <annotation_details>Local resolution composite map (blocres)</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_28785_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">276.48</a>
+                    <b units="Å">276.48</b>
+                    <c units="Å">276.48</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-8.103877000000001</minimum>
+                    <maximum>22.507296</maximum>
+                    <average>-0.0064408663</average>
+                    <std>0.9775511</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.08</x>
+                    <y units="Å">1.08</y>
+                    <z units="Å">1.08</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-28785::::</label>
+                <annotation_details>Composite of half A full and local maps</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_28785_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">276.48</a>
+                    <b units="Å">276.48</b>
+                    <c units="Å">276.48</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-7.9418755</minimum>
+                    <maximum>22.621873999999998</maximum>
+                    <average>-0.006439602</average>
+                    <std>0.977686</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.08</x>
+                    <y units="Å">1.08</y>
+                    <z units="Å">1.08</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-28785::::</label>
+                <annotation_details>Composite of half B full and local maps</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

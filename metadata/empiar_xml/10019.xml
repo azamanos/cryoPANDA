@@ -1,0 +1,76 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10019" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2014-12-24</depositionDate>
+            <releaseDate>2015-02-26</releaseDate>
+            <updateDate>2015-02-26</updateDate>
+        </keyDates>
+        <title>VipA/VipB, sheath of the bacterial type IV secretion system, micrographs for helical reconstruction taken on a K2 detector</title>
+        <correspondingAuthor private="true">
+            <firstName>Mikhail</firstName>
+            <lastName>Kudryashev</lastName>
+            <organization type="academic">Biozentrum, University of Basel</organization>
+            <street>Klingenbergstrasse 50/70</street>
+            <townOrCity>Basel</townOrCity>
+            <country>Switzerland</country>
+            <postOrZipCode>4056</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Marek</firstName>
+            <lastName>Basler</lastName>
+            <organization type="academic">Biozentrum, University of Basel</organization>
+            <street>Klingenbergstrasse 50/70</street>
+            <townOrCity>Basel</townOrCity>
+            <country>Switzerland</country>
+            <postOrZipCode>4056</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Kudryashev M</author>
+            <author>Wang R</author>
+            <author>Brackmann M</author>
+            <author>Scherer S</author>
+            <author>Maier T</author>
+            <author>DiMaio F</author>
+            <author>Baker D</author>
+            <author authorORCID="0000-0002-1185-4592">Stahlberg H</author>
+            <author>Egelman EH</author>
+            <author>Basler M</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2015-10-28</date>
+                <statusCode>REL</statusCode>
+                <details>Restructured the entry directory to have "data" and ".private".</details>
+            </version>
+        </versionHistory>
+        <datasetSize units="GB">4.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10019</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-2699</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>Frame-averaged micrographs</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>77</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.0</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.0</pixelHeight>
+        </dimensions>
+        <details>Raw images after alignment of dose fractionation series</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

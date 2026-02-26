@@ -1,0 +1,103 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10217" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-10-13</depositionDate>
+            <releaseDate>2018-10-23</releaseDate>
+            <updateDate>2018-10-24</updateDate>
+        </keyDates>
+        <title>bovine liver glutamate dehydrogenase</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-8014-7269</authorORCID>
+            <firstName>Edward</firstName>
+            <middleName>T</middleName>
+            <lastName>Eng</lastName>
+            <organization type="academic">New York Structural Biology Center</organization>
+            <street>89 Convent Ave</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0624-5020</authorORCID>
+            <firstName>Bridget</firstName>
+            <middleName>O</middleName>
+            <lastName>Carragher</lastName>
+            <organization type="academic">New York Structural Biology Center</organization>
+            <street>89 Convent Ave</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8014-7269</authorORCID>
+            <firstName>Clint</firstName>
+            <middleName>S</middleName>
+            <lastName>Potter</lastName>
+            <organization type="academic">New York Structural Biology Center</organization>
+            <street>89 Convent Ave</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-8014-7269">Eng ET</author>
+            <author>Kelley K</author>
+            <author>Jordan KJ</author>
+            <author>Kopylov M</author>
+            <author authorORCID="0000-0002-0624-5020">Carragher BO</author>
+            <author authorORCID="0000-0003-2394-0831">Potter CS</author>
+        </authorsList>
+        <datasetSize units="GB">264.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10217</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-9203</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0002-8014-7269" order="1">Eng ET</author>
+                    <author order="2">Kopylov M</author>
+                    <author order="3">Negro CJ</author>
+                    <author order="4">Dallaykan S</author>
+                    <author order="5">Rice WJ</author>
+                    <author order="6">Jordan KJ</author>
+                    <author order="7">Kelley K</author>
+                    <author authorORCID="0000-0002-0624-5020" order="8">Carragher BO</author>
+                    <author authorORCID="0000-0003-2394-0831" order="9">Potter CS</author>
+                    <title>bovine liver glutamate dehydrogenase (18apr21a)</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>aligned micrographs of bovine liver glutamate dehydrogenase (18apr21a)</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4982</numImagesOrTiltSeries>
+        <framesPerImage>60</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>0.6616</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>0.6616</pixelHeight>
+        </dimensions>
+        <details>Images are included for each exposure area: enn-a (aligned frame sum) and enn-a-DW (aligned frame sum with dose weighting)</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/*mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/boxes/*box</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/boxes</pickedParticlesDirectory>
+    </imageSet>
+</entry>

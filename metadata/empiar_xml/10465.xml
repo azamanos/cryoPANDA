@@ -1,0 +1,221 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10465" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-06-26</depositionDate>
+            <releaseDate>2021-01-29</releaseDate>
+            <updateDate>2021-01-29</updateDate>
+        </keyDates>
+        <title>Single-particle cryo-EM dataset of the complex between a nucleosome and the regulatory linker of ALC1</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-3405-6021</authorORCID>
+            <firstName>Guillaume</firstName>
+            <lastName>Gaullier</lastName>
+            <organization type="academic">Uppsala University</organization>
+            <street>Husargatan 3, Box 596</street>
+            <townOrCity>Uppsala</townOrCity>
+            <country>Sweden</country>
+            <postOrZipCode>751 24</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-6807-8654</authorORCID>
+            <firstName>Sebastian</firstName>
+            <lastName>Deindl</lastName>
+            <organization type="academic">Uppsala University</organization>
+            <townOrCity>Uppsala</townOrCity>
+            <country>Sweden</country>
+            <postOrZipCode>751 24</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-6896-3506">Bacic L</author>
+            <author authorORCID="0000-0003-3405-6021">Gaullier G</author>
+            <author authorORCID="0000-0001-6807-8654">Deindl S</author>
+        </authorsList>
+        <datasetSize units="TB">6.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10465</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-11220</emdbEntry>
+            <emdbEntry>EMD-11221</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-2518-5606" order="1">Lehman LC</author>
+                    <author authorORCID="0000-0001-6896-3506" order="2">Bacic L</author>
+                    <author authorORCID="0000-0003-2614-6932" order="3">Hewitt G</author>
+                    <author authorORCID="0000-0003-0928-6845" order="4">Brackmann K</author>
+                    <author authorORCID="0000-0002-8559-8894" order="5">Sabantsev A</author>
+                    <author authorORCID="0000-0003-3405-6021" order="6">Gaullier G</author>
+                    <author order="7">Pytharopoulou S</author>
+                    <author order="8">Degliesposti G</author>
+                    <author order="9">Okkenhaug H</author>
+                    <author authorORCID="0000-0002-6698-8475" order="10">Tan S</author>
+                    <author order="11">Costa A</author>
+                    <author order="12">Skehel JM</author>
+                    <author authorORCID="0000-0001-6936-6834" order="13">Boulton SJ</author>
+                    <author authorORCID="0000-0001-6807-8654" order="14">Deindl S</author>
+                    <title>Mechanistic Insights into Regulation of the ALC1 Remodeler by the Nucleosome Acidic Patch</title>
+                    <journal>Cell reports</journal>
+                    <journalAbbreviation>Cell Rep</journalAbbreviation>
+                    <country></country>
+                    <issue>12</issue>
+                    <volume>33</volume>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.celrep.2020.108529</externalReferences>
+                    <externalReferences type="pubmed">33357431</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned movies of the nucleosome - ALC1-linker complex - session_1_disk_1</name>
+        <directory>/data/disk_1</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>2852</numImagesOrTiltSeries>
+        <framesPerImage>60</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.654</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.654</pixelHeight>
+        </dimensions>
+        <details>60 gain-corrected frames per movie, collected on Titan Krios with K3 in counting mode.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/disk_1/*.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/*_final_particles/*_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/*_final_particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of the nucleosome - ALC1-linker complex - session_1_disk_2</name>
+        <directory>/data/disk_2</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>5984</numImagesOrTiltSeries>
+        <framesPerImage>60</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.654</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.654</pixelHeight>
+        </dimensions>
+        <details>60 gain-corrected frames per movie, collected on Titan Krios with K3 in counting mode.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/disk_2/*.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/*_final_particles/*_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/*_final_particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of the nucleosome - ALC1-linker complex - session_1_disk_3</name>
+        <directory>/data/disk_3</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>2287</numImagesOrTiltSeries>
+        <framesPerImage>60</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.654</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.654</pixelHeight>
+        </dimensions>
+        <details>60 gain-corrected frames per movie, collected on Titan Krios with K3 in counting mode.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/disk_3/*.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/*_final_particles/*_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/*_final_particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of the nucleosome - ALC1-linker complex - session_2_grid_1</name>
+        <directory>/data/session_2_grid_1</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>6155</numImagesOrTiltSeries>
+        <framesPerImage>60</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.654</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.654</pixelHeight>
+        </dimensions>
+        <details>60 gain-corrected frames per movie, collected on Titan Krios with K3 in counting mode.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/session_2_grid_1/*.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/*_final_particles/*_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/*_final_particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of the nucleosome - ALC1-linker complex - session_2_grid_2</name>
+        <directory>/data/session_2_grid_2</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>2619</numImagesOrTiltSeries>
+        <framesPerImage>60</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.654</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.654</pixelHeight>
+        </dimensions>
+        <details>60 gain-corrected frames per movie, collected on Titan Krios with K3 in counting mode.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/session_2_grid_2/*.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/*_final_particles/*_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/*_final_particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particles of the high-resolution nucleosome class</name>
+        <directory>/data/highres_nuc_final_particles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>636505</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>300</imageWidth>
+            <pixelWidth>0.654</pixelWidth>
+            <imageHeight>300</imageHeight>
+            <pixelHeight>0.654</pixelHeight>
+        </dimensions>
+        <details>Particles from final Refine3D job in RELION-3.1-5857e1 for the high-resolution nucleosome class.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/*/*.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/highres_nuc_final_particles/highres_nuc_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/highres_nuc_final_particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particles of the hexasome class</name>
+        <directory>/data/hexasome_final_particles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>414605</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>300</imageWidth>
+            <pixelWidth>0.654</pixelWidth>
+            <imageHeight>300</imageHeight>
+            <pixelHeight>0.654</pixelHeight>
+        </dimensions>
+        <details>Particles from final Refine3D job in RELION-3.1-5857e1 for the hexasome class.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/*/*.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/hexasome_final_particles/hexasome_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/hexasome_final_particles</pickedParticlesDirectory>
+    </imageSet>
+</entry>

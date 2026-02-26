@@ -1,0 +1,134 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11681" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-09-05</depositionDate>
+            <releaseDate>2024-06-06</releaseDate>
+            <updateDate>2024-06-06</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of yeast SWR1C subunit Swc5 bound to the nucleosome</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-0702-9466</authorORCID>
+            <firstName>Priit</firstName>
+            <lastName>Eek</lastName>
+            <organization type="academic">Department of Chemistry and Biotechnology, Tallinn University of Technology</organization>
+            <street>Akadeemia tee 15</street>
+            <townOrCity>Tallinn</townOrCity>
+            <stateOrProvince>Harjumaa</stateOrProvince>
+            <country>Estonia</country>
+            <postOrZipCode>12618</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-6698-8475</authorORCID>
+            <firstName>Song</firstName>
+            <lastName>Tan</lastName>
+            <organization type="academic">Department of Biochemistry and Molecular Biology, The Pennsylvania State University</organization>
+            <street>469 North Frear Lab</street>
+            <townOrCity>University Park</townOrCity>
+            <stateOrProvince>Pennsylvania</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>16802</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-0702-9466">Eek P</author>
+            <author authorORCID="0000-0002-6698-8475">Song T</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</fundingBody>
+                <code>R35GM122519</code>
+                <country>United States</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</fundingBody>
+                <code>R35GM127034</code>
+                <country>United States</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Estonian Research Council</fundingBody>
+                <code>PUTJD906</code>
+                <country>Estonia</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</fundingBody>
+                <code>U24GM129547</code>
+                <country>United States</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">5.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11681</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-41839</emdbEntry>
+            <emdbEntry>EMD-41851</emdbEntry>
+            <emdbEntry>EMD-41852</emdbEntry>
+            <emdbEntry>EMD-41853</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0003-1647-9477" order="1">Baier AS</author>
+                    <author authorORCID="0000-0003-3810-393X" order="2">Gioacchini N</author>
+                    <author authorORCID="0000-0003-0702-9466" order="3">Eek P</author>
+                    <author order="4">Leith EM</author>
+                    <author authorORCID="0000-0002-6698-8475" order="5">Song T</author>
+                    <author authorORCID="0000-0002-9448-555X" order="6">Peterson CL</author>
+                    <title>Dual engagement of the nucleosomal acidic patches is essential for deposition of histone H2A.Z by SWR1C</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <externalReferences type="doi">10.7554/eLife.94869.2</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of Swc5/nucleosome complex</name>
+        <directory>/data/movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>13855</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>50</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.394</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.394</pixelHeight>
+        </dimensions>
+        <details>Voltage 300 keV, Cs 2.7 mm, total dose 50 e-/Å^2, super-resolution pixel size 0.394 Å/px. The TIFF movies are not gain-corrected, the gain-reference image for the dataset is SuperRef_stack_00000_X+0Y-1-1.dm4 and gain.mrc.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/movies/stack_*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>High-resolution particles obtained after filtering with random-phase 3D classification</name>
+        <directory>/data/particles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>974026</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>216</imageWidth>
+            <pixelWidth>1.182</pixelWidth>
+            <imageHeight>216</imageHeight>
+            <pixelHeight>1.182</pixelHeight>
+        </dimensions>
+        <details>Selected particles obtained after multiple rounds of heterogenous refinement against a low-pass filtered reconstruction. Particles were extracted from motion-corrected micrographs that were f-cropped by factor of 1/2. Extraction box size 324 px Fourier cropped to 216 px. These were used for final 3D classification and refinement. The 3D classes are listed as star-files in data/classes.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/classes/*_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

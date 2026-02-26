@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-10616">
+    <admin>
+        <current_status>
+            <date>2024-05-22</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-01-15</deposition>
+            <header_release>2020-08-19</header_release>
+            <map_release>2020-08-19</map_release>
+            <update>2024-05-22</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Spanish Ministry of Science, Innovation, and Universities</funding_body>
+                <country>Spain</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Swiss National Science Foundation</funding_body>
+                <country>Switzerland</country>
+            </grant_reference>
+        </grant_support>
+        <title>FAK structure with AMP-PNP from single particle analysis of 2D crystals</title>
+        <authors_list>
+            <author>Acebron I</author>
+            <author>Righetto R</author>
+        </authors_list>
+        <keywords>Kinase, Focal Adhesion, Membrane, CELL ADHESION</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Acebron I</author>
+                    <author ORCID="0000-0003-4247-4303" order="2">Righetto RD</author>
+                    <author order="3">Schoenherr C</author>
+                    <author order="4">de Buhr S</author>
+                    <author order="5">Redondo P</author>
+                    <author order="6">Culley J</author>
+                    <author ORCID="0000-0001-9166-0132" order="7">Rodriguez CF</author>
+                    <author order="8">Daday C</author>
+                    <author order="9">Biyani N</author>
+                    <author ORCID="0000-0001-5705-0699" order="10">Llorca O</author>
+                    <author ORCID="0000-0002-5939-9883" order="11">Byron A</author>
+                    <author order="12">Chami M</author>
+                    <author order="13">Grater F</author>
+                    <author order="14">Boskovic J</author>
+                    <author ORCID="0000-0001-5882-1942" order="15">Frame MC</author>
+                    <author ORCID="0000-0002-1185-4592" order="16">Stahlberg H</author>
+                    <author ORCID="0000-0002-6133-6486" order="17">Lietha D</author>
+                    <title>Structural basis of Focal Adhesion Kinase activation on lipid membranes.</title>
+                    <journal_abbreviation>Embo J.</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>39</volume>
+                    <first_page>e104743</first_page>
+                    <last_page>e104743</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32779739</external_references>
+                    <external_references type="DOI">doi:10.15252/embj.2020104743</external_references>
+                    <external_references type="ISSN">1460-2075</external_references>
+                    <external_references type="CSD">0897</external_references>
+                    <external_references type="ASTM">EMJODG</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6ty4</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Focal adhesion kinase</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Focal adhesion kinase</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9031">Gallus gallus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.15</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Focal adhesion kinase 1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9031">Gallus gallus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.075476445</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GPGAMERVLKVFHYFENSSEPTTWASIIRHGDATDVRGIIQKIVDCHKVKNVACYGLRLSHLQSEEVHWLHLDMGVSNVR
+EKFELAHPPEEWKYELRIRYLPKGFLNQFTEDKPTLNFFYQQVKNDYMLEIADQVDQEIALKLGCLEIRRSYGEMRGNAL
+EKKSNYEVLEKDVGLRRFFPKSLLDSVKAKTLRKLIQQTFRQFANLNREESILKFFEILSPVYRFDKECFKCALGSSWII
+SVELAIGPEEGISYLTDKGANPTHLADFNQVQTIQYSNSEDKDRKGMLQLKIAGAPEPLTVTAPSLTIAENMADLIDGYC
+RLVNGATQSFIIRPQKEGERALPSIPKLANNEKQGVRSHTVSVSETDDYAEIIDEEDTYTMPSTRDYEIQRERIELGRCI
+GEGQFGDVHQGIYMSPENPAMAVAIKTCKNCTSDSVREKFLQEALTMRQFDHPHIVKLIGVITENPVWIIMELCTLGELR
+SFLQVRKFSLDLASLILYAYQLSTALAYLESKRFVHRDIAARNVLVSATDCVKLGDFGLSRYMEDSTYYKASKGKLPIKW
+MAPESINFRRFTSASDVWMFGVCMWEILMHGVKPFQGVKNNDVIGRIENGERLPMPPNCPPTLYSLMTKCWAYDPSRRPR
+FTELKAQLSTILEEEKLQ</string>
+                    <external_references type="UNIPROTKB">Q00944</external_references>
+                </sequence>
+                <ec_number>2.7.10.2</ec_number>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>MAGNESIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">2.4305e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>MG</formula>
+            </ligand>
+            <ligand macromolecule_id="3">
+                <name>PHOSPHOAMINOPHOSPHONIC ACID-ADENYLATE ESTER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000506196</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>ANP</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>twoDArray</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>5.5</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">100.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="INSILICO MODEL"/>
+                <final_reconstruction>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">5.96</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <processing_details>Single-particle reconstruction carried out in cryoSPARC with final CTF refinement carried out in cisTEM.</processing_details>
+                        </software>
+                    </software_list>
+                    <number_images_used>548394</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="32001">
+        <file>emd_10616.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>200</col>
+            <row>200</row>
+            <sec>200</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>200</x>
+            <y>200</y>
+            <z>200</z>
+        </spacing>
+        <cell>
+            <a units="Å">423.19998</a>
+            <b units="Å">423.19998</b>
+            <c units="Å">423.19998</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.14260831</minimum>
+            <maximum>0.19360244</maximum>
+            <average>-0.00007271803</average>
+            <std>0.0098076295</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">2.116</x>
+            <y units="Å">2.116</y>
+            <z units="Å">2.116</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.035</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-10616::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>2AEH</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <residue_range>33-363</residue_range>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>1MP8</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <residue_range>414-686</residue_range>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>2J0J</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <residue_range>1260-1260</residue_range>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_10616_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="32001">
+                <file>emd_10616_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>200</col>
+                    <row>200</row>
+                    <sec>200</sec>
+                </dimensions>
+                <origin>
+                    <col>-100</col>
+                    <row>-100</row>
+                    <sec>-100</sec>
+                </origin>
+                <spacing>
+                    <x>200</x>
+                    <y>200</y>
+                    <z>200</z>
+                </spacing>
+                <cell>
+                    <a units="Å">423.19998</a>
+                    <b units="Å">423.19998</b>
+                    <c units="Å">423.19998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.02349871</minimum>
+                    <maximum>0.064977795</maximum>
+                    <average>-0.00006480409</average>
+                    <std>0.004186067</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">2.116</x>
+                    <y units="Å">2.116</y>
+                    <z units="Å">2.116</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-10616::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="32001">
+                <file>emd_10616_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>200</col>
+                    <row>200</row>
+                    <sec>200</sec>
+                </dimensions>
+                <origin>
+                    <col>-100</col>
+                    <row>-100</row>
+                    <sec>-100</sec>
+                </origin>
+                <spacing>
+                    <x>200</x>
+                    <y>200</y>
+                    <z>200</z>
+                </spacing>
+                <cell>
+                    <a units="Å">423.19998</a>
+                    <b units="Å">423.19998</b>
+                    <c units="Å">423.19998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.020814268</minimum>
+                    <maximum>0.068040304</maximum>
+                    <average>-0.00007846695</average>
+                    <std>0.004656547</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">2.116</x>
+                    <y units="Å">2.116</y>
+                    <z units="Å">2.116</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-10616::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

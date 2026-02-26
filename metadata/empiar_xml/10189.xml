@@ -1,0 +1,90 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10189" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-05-23</depositionDate>
+            <releaseDate>2018-07-06</releaseDate>
+            <updateDate>2018-07-06</updateDate>
+        </keyDates>
+        <title>Structure of the herpes-simplex virus portal-vertex</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-2096-8310</authorORCID>
+            <firstName>David</firstName>
+            <lastName>Bhella</lastName>
+            <organization type="academic">MRC-University of Glasgow Centre for Virus Research</organization>
+            <street>464 Bearsden Road</street>
+            <townOrCity>Glasgow</townOrCity>
+            <stateOrProvince>Glasgow</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>G61 1QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-2096-8310</authorORCID>
+            <firstName>David</firstName>
+            <lastName>Bhella</lastName>
+            <organization type="academic">MRC-University of Glasgow Centre for Virus Research</organization>
+            <street>464 Bearsden Road</street>
+            <townOrCity>Glasgow</townOrCity>
+            <stateOrProvince>Glasgow</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>G61 1QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>McElwee M</author>
+            <author>Vijayakrishnan S</author>
+            <author>Rixon FJ</author>
+            <author authorORCID="0000-0003-2096-8310">Bhella D</author>
+        </authorsList>
+        <datasetSize units="GB">238.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10189</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-4347</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">McElwee M</author>
+                    <author order="2">Vijayakrishnan S</author>
+                    <author order="3">Rixon FJ</author>
+                    <author authorORCID="0000-0003-2096-8310" order="4">Bhella D</author>
+                    <title>Structure of the herpes simplex virus portal-vertex</title>
+                    <journal>PLoS biology</journal>
+                    <journalAbbreviation>PLoS Biol.</journalAbbreviation>
+                    <country></country>
+                    <issue>6</issue>
+                    <volume>16</volume>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1371/journal.pbio.2006191</externalReferences>
+                    <externalReferences type="pubmed">29924793</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion corrected micrographs of herpes simplex virus type 1 virions</name>
+        <directory>/data/HSV_portal_micrographs_for_EMPIAR</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3818</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.78</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.78</pixelHeight>
+        </dimensions>
+        <details>Data recorded on a Thermo Fisher Titan Krios at eBIC (Diamond Light Source), using a Falcon III camera.
+Nominal magnification: 81000X
+Exposure time: 12 seconds
+Total number of detector frames: 480, combined into 40 fractions (300 ms fraction integration time)
+Dose rate 1.95 e/angstrom/fraction
+Motion correction performed using motioncor2 with dose weighting.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

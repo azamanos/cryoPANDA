@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-42405">
+    <admin>
+        <current_status>
+            <date>2024-07-24</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-10-19</deposition>
+            <header_release>2023-11-01</header_release>
+            <map_release>2023-11-01</map_release>
+            <update>2024-07-24</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Heart, Lung, and Blood Institute (NIH/NHLBI)</funding_body>
+                <code>HL049413</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Heart, Lung, and Blood Institute (NIH/NHLBI)</funding_body>
+                <code>HL139554</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Heart, Lung, and Blood Institute (NIH/NHLBI)</funding_body>
+                <code>HL147821</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Childrens Discovery Institute of Washington University and St. Louis Childrens Hospital</funding_body>
+                <code>CDI-CORE-2015-505</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Childrens Discovery Institute of Washington University and St. Louis Childrens Hospital</funding_body>
+                <code>CDI-CORE-2019-813</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Foundation for Barnes-Jewish Hospital</funding_body>
+                <code>3770</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Other private</funding_body>
+                <code>Washington University Diabetes Research Center DK020579</code>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Other private</funding_body>
+                <code>The Alvin J. Siteman Cancer Center at Barnes-Jewish Hospital and Washington University School of Medicine CA091842</code>
+            </grant_reference>
+        </grant_support>
+        <title>Preliminary map of the Prothrombin-prothrombinase complex on nano discs</title>
+        <authors_list>
+            <author ORCID="0000-0002-2016-5369">Stojanovski BM</author>
+            <author ORCID="0000-0001-7227-3663">Mohammed BM</author>
+            <author ORCID="0000-0003-2300-4891">Di Cera E</author>
+        </authors_list>
+        <keywords>Coagulation, Prothrombin, Prothrombinase, nanodisc, complex, BLOOD CLOTTING</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Stojanovski BM</author>
+                    <author order="2">Mohammed BM</author>
+                    <author order="3">Di Cera E</author>
+                    <title>The Prothrombin-Prothrombinase Interaction.</title>
+                    <journal_abbreviation>Subcell Biochem.</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>104</volume>
+                    <first_page>409</first_page>
+                    <last_page>423</last_page>
+                    <year>2024</year>
+                    <external_references type="PUBMED">38963494</external_references>
+                    <external_references type="DOI">doi:10.1007/978-3-031-58843-3_15</external_references>
+                    <external_references type="ISSN">0306-0225</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-26061</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>EMD-26061 has two of the three components shown in the current submission. The current submission is generated from further analysis of the same dataset.</details>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Prothrombin_Prothrombinase complex on lipid nanodiscs.</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Prothrombin_Prothrombinase complex on lipid nanodiscs.</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>The complex is made of coagulation factor Va (derived from human plasma), coagulation factor Xa (Recombinantly expressed in BHK cells) and Prothrombin (Recombinantly expressed in BHK cells). The nanodisc component of the complex is made of the scaffold protein MSP1E3D1 (Recombinantly expressed in bacteria) and the phospholipid component was Porcine Brain phosphatidylserine.</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                    <tissue>Blood</tissue>
+                </natural_source>
+            </complex_supramolecule>
+            <organelle_or_cellular_component_supramolecule supramolecule_id="2">
+                <name>Coagulation Factor Va</name>
+                <parent>1</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                    <tissue>Blood</tissue>
+                </natural_source>
+            </organelle_or_cellular_component_supramolecule>
+            <organelle_or_cellular_component_supramolecule supramolecule_id="3">
+                <name>Coagulation Factor Xa</name>
+                <parent>1</parent>
+                <details>Catalytically inactive full length mutant S379A with C-terminus HPC4 tag.</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                    <tissue>Blood</tissue>
+                </natural_source>
+            </organelle_or_cellular_component_supramolecule>
+            <organelle_or_cellular_component_supramolecule supramolecule_id="4">
+                <name>Prothrombin</name>
+                <parent>1</parent>
+                <details>Catalytically inactive full length mutant S525A with C-terminus HPC4 tag</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                    <tissue>Blood</tissue>
+                </natural_source>
+            </organelle_or_cellular_component_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.01</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                        <details>20 mM HEPES, 150 mM NaCl, and 5 mM CaCl2</details>
+                    </buffer>
+                    <grid>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                    <details>Prothrombin:FVa:FXa were mixed in 2:1:2 ratio. 0.01 mg/mL total protein was used for freezing.</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS GLACIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.4</nominal_defocus_max>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <number_real_images>2390</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">51.28</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">6.47</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.3.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>4988</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>3</number_classes>
+                    <average_number_members_per_class>3000.0</average_number_members_per_class>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.3.1</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="536871">
+        <file>emd_42405.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>512</col>
+            <row>512</row>
+            <sec>512</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>512</x>
+            <y>512</y>
+            <z>512</z>
+        </spacing>
+        <cell>
+            <a units="Å">481.28</a>
+            <b units="Å">481.28</b>
+            <c units="Å">481.28</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.19871338</minimum>
+            <maximum>0.76784295</maximum>
+            <average>0.0016278322</average>
+            <std>0.028282389</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.94</x>
+            <y units="Å">0.94</y>
+            <z units="Å">0.94</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0839</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-42405::::</label>
+        <annotation_details>Unsharpened map</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_42405_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="536871">
+                <file>emd_42405_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>512</col>
+                    <row>512</row>
+                    <sec>512</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>512</x>
+                    <y>512</y>
+                    <z>512</z>
+                </spacing>
+                <cell>
+                    <a units="Å">481.28</a>
+                    <b units="Å">481.28</b>
+                    <c units="Å">481.28</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-2.06891</minimum>
+                    <maximum>2.1349719</maximum>
+                    <average>0.0015165644</average>
+                    <std>0.25067633</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.94</x>
+                    <y units="Å">0.94</y>
+                    <z units="Å">0.94</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-42405::::</label>
+                <annotation_details>original half-map A</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="536871">
+                <file>emd_42405_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>512</col>
+                    <row>512</row>
+                    <sec>512</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>512</x>
+                    <y>512</y>
+                    <z>512</z>
+                </spacing>
+                <cell>
+                    <a units="Å">481.28</a>
+                    <b units="Å">481.28</b>
+                    <c units="Å">481.28</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-2.0767283</minimum>
+                    <maximum>2.1635144</maximum>
+                    <average>0.0015525362</average>
+                    <std>0.25189933</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.94</x>
+                    <y units="Å">0.94</y>
+                    <z units="Å">0.94</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-42405::::</label>
+                <annotation_details>original half-map B</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="536871">
+                <file>emd_42405_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>512</col>
+                    <row>512</row>
+                    <sec>512</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>512</x>
+                    <y>512</y>
+                    <z>512</z>
+                </spacing>
+                <cell>
+                    <a units="Å">481.28</a>
+                    <b units="Å">481.28</b>
+                    <c units="Å">481.28</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.37364835</minimum>
+                    <maximum>1.0389054</maximum>
+                    <average>0.0015525362</average>
+                    <std>0.053301025</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.94</x>
+                    <y units="Å">0.94</y>
+                    <z units="Å">0.94</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-42405::::</label>
+                <annotation_details>half map B filtered to resolution (6.5A)</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="536871">
+                <file>emd_42405_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>512</col>
+                    <row>512</row>
+                    <sec>512</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>512</x>
+                    <y>512</y>
+                    <z>512</z>
+                </spacing>
+                <cell>
+                    <a units="Å">481.28</a>
+                    <b units="Å">481.28</b>
+                    <c units="Å">481.28</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.37423933</minimum>
+                    <maximum>1.0213237</maximum>
+                    <average>0.0015165644</average>
+                    <std>0.053390957</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.94</x>
+                    <y units="Å">0.94</y>
+                    <z units="Å">0.94</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-42405::::</label>
+                <annotation_details>half map A filtered to resolution (6.5A)</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

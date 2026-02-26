@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-27645">
+    <admin>
+        <current_status>
+            <date>2024-06-12</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-07-18</deposition>
+            <header_release>2022-12-07</header_release>
+            <map_release>2022-12-07</map_release>
+            <update>2024-06-12</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>1R01GM14436101</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R35GM136258</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Cystic Fibrosis Foundation</funding_body>
+                <code>PACZKO21G0</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Science Foundation (NSF, United States)</funding_body>
+                <code>DMR-1719875</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Quorum-sensing receptor RhlR bound to PqsE</title>
+        <authors_list>
+            <author>Paczkowski JE</author>
+            <author>Fromme JC</author>
+            <author>Feathers JR</author>
+        </authors_list>
+        <keywords>transcriptional regulators, quorum sensing, DNA binding, TRANSCRIPTION</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Feathers JR</author>
+                    <author order="2">Richael EK</author>
+                    <author order="3">Simanek KA</author>
+                    <author order="4">Fromme JC</author>
+                    <author order="5">Paczkowski JE</author>
+                    <title>Structure of the RhlR-PqsE complex from Pseudomonas aeruginosa reveals mechanistic insights into quorum-sensing gene regulation.</title>
+                    <journal_abbreviation>Structure</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>30</volume>
+                    <first_page>1626</first_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">36379213</external_references>
+                    <external_references type="DOI">doi:10.1016/j.str.2022.10.008</external_references>
+                    <external_references type="ISSN">0969-2126</external_references>
+                    <external_references type="CSD">2005</external_references>
+                    <external_references type="ASTM">STRUE6</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8dq0</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Tetrameric complex of RhlR:mBTL bound to PqsE</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Tetrameric complex of RhlR:mBTL bound to PqsE</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="287">Pseudomonas aeruginosa</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">.123</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>RhlR protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="287">Pseudomonas aeruginosa</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.027611596</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="866768">Escherichia coli 'BL21-Gold(DE3)pLysS AG'</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MRNDGGFLLWWDGLRSEMQPIHDSQGVFAVLEKEVRRLGFDYYAYGVRHTIPFTRPKTEVHGTYPKAWLERYQMQNYGAV
+DPAILNGLRSSEMVVWSDSLFDQSRMLWNEARDWGLCVGATLPIRAPNNLLSVLSVARDQQNISSFEREEIRLRLRCMIE
+LLTQKLTDLEHPMLMSNPVCLSHREREILQWTADGKSSGEIAIILSISESTVNFHHKNIQKKFDAPNKTLAAAYAAALGL
+I</string>
+                    <external_references type="UNIPROTKB">A9JPX4</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>2-aminobenzoylacetyl-CoA thioesterase</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="287">Pseudomonas aeruginosa</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.034350296999999995</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="866768">Escherichia coli 'BL21-Gold(DE3)pLysS AG'</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLRLSAPGQLDDDLCLLGDVQVPVFLLRLGEASWALVEGGISRDAELVWADLCRWVADPSQVHYWLITHKHYDHCGLLPY
+LCPRLPNVQVLASERTCQAWKSESAVRVVERLNRQLLRAEQRLPEACAWDALPVRAVADGEWLELGPRHRLQVIEAHGHS
+DDHVVFYDVRRRRLFCGDALGEFDEAEGVWRPLVFDDMEAYLESLERLQRLPTLLQLIPGHGGLLRGRLAADGAESAYTE
+CLRLCRRLLWRQSMGESLDELSEELHRAWGGQSVDFLPGELHLGSMRRMLEILSRQALPLD</string>
+                    <external_references type="UNIPROTKB">P20581</external_references>
+                </sequence>
+                <ec_number>3.1.2.32</ec_number>
+            </protein_or_peptide>
+            <ligand macromolecule_id="3">
+                <name>4-(3-bromophenoxy)-N-[(3S)-2-oxothiolan-3-yl]butanamide</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00035825099999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>K5G</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">5.0</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TALOS ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">1.5</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">50.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE">
+                    <details>Ab initio SGD</details>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.74</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>40761</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>4.0-beta</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="18967">
+        <file>emd_27645.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>168</col>
+            <row>168</row>
+            <sec>168</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>168</x>
+            <y>168</y>
+            <z>168</z>
+        </spacing>
+        <cell>
+            <a units="Å">216.72</a>
+            <b units="Å">216.72</b>
+            <c units="Å">216.72</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>Z</fast>
+            <medium>Y</medium>
+            <slow>X</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-2.2165813</minimum>
+            <maximum>3.0564587</maximum>
+            <average>0.000037640722</average>
+            <std>0.08236931</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.29</x>
+            <y units="Å">1.29</y>
+            <z units="Å">1.29</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.35</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-27645::::</label>
+        <annotation_details>Density modified full map</annotation_details>
+    </map>
+    <interpretation>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="18967">
+                <file>emd_27645_additional_4.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>168</col>
+                    <row>168</row>
+                    <sec>168</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>168</x>
+                    <y>168</y>
+                    <z>168</z>
+                </spacing>
+                <cell>
+                    <a units="Å">216.72</a>
+                    <b units="Å">216.72</b>
+                    <c units="Å">216.72</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.19279434</minimum>
+                    <maximum>0.26679772</maximum>
+                    <average>0.00037438332</average>
+                    <std>0.0074787075</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.29</x>
+                    <y units="Å">1.29</y>
+                    <z units="Å">1.29</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-27645::::</label>
+                <annotation_details>Sharpened refinement map</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="18967">
+                <file>emd_27645_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>168</col>
+                    <row>168</row>
+                    <sec>168</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>168</x>
+                    <y>168</y>
+                    <z>168</z>
+                </spacing>
+                <cell>
+                    <a units="Å">216.72</a>
+                    <b units="Å">216.72</b>
+                    <c units="Å">216.72</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.07482722</minimum>
+                    <maximum>0.13343489</maximum>
+                    <average>0.00031340547</average>
+                    <std>0.008059696</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.29</x>
+                    <y units="Å">1.29</y>
+                    <z units="Å">1.29</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-27645::::</label>
+                <annotation_details>Density modified half map 1</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="18967">
+                <file>emd_27645_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>168</col>
+                    <row>168</row>
+                    <sec>168</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>168</x>
+                    <y>168</y>
+                    <z>168</z>
+                </spacing>
+                <cell>
+                    <a units="Å">216.72</a>
+                    <b units="Å">216.72</b>
+                    <c units="Å">216.72</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.055868443</minimum>
+                    <maximum>0.11322625</maximum>
+                    <average>0.00031468002</average>
+                    <std>0.004537587</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.29</x>
+                    <y units="Å">1.29</y>
+                    <z units="Å">1.29</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-27645::::</label>
+                <annotation_details>Refinement full map</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="18967">
+                <file>emd_27645_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>168</col>
+                    <row>168</row>
+                    <sec>168</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>168</x>
+                    <y>168</y>
+                    <z>168</z>
+                </spacing>
+                <cell>
+                    <a units="Å">216.72</a>
+                    <b units="Å">216.72</b>
+                    <c units="Å">216.72</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.07613109</minimum>
+                    <maximum>0.13292088</maximum>
+                    <average>0.00031604953</average>
+                    <std>0.008043098</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.29</x>
+                    <y units="Å">1.29</y>
+                    <z units="Å">1.29</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-27645::::</label>
+                <annotation_details>Density modified half map 2</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="18967">
+                <file>emd_27645_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>168</col>
+                    <row>168</row>
+                    <sec>168</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>168</x>
+                    <y>168</y>
+                    <z>168</z>
+                </spacing>
+                <cell>
+                    <a units="Å">216.72</a>
+                    <b units="Å">216.72</b>
+                    <c units="Å">216.72</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>Z</fast>
+                    <medium>Y</medium>
+                    <slow>X</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-2.1876726</minimum>
+                    <maximum>2.933044</maximum>
+                    <average>0.000037640468</average>
+                    <std>0.08191423</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.29</x>
+                    <y units="Å">1.29</y>
+                    <z units="Å">1.29</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-27645::::</label>
+                <annotation_details>Refinement unfiltered half map 1</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="18967">
+                <file>emd_27645_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>168</col>
+                    <row>168</row>
+                    <sec>168</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>168</x>
+                    <y>168</y>
+                    <z>168</z>
+                </spacing>
+                <cell>
+                    <a units="Å">216.72</a>
+                    <b units="Å">216.72</b>
+                    <c units="Å">216.72</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>Z</fast>
+                    <medium>Y</medium>
+                    <slow>X</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-2.1435976</minimum>
+                    <maximum>2.8272908</maximum>
+                    <average>0.000037414597</average>
+                    <std>0.08196401</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.29</x>
+                    <y units="Å">1.29</y>
+                    <z units="Å">1.29</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-27645::::</label>
+                <annotation_details>Refinement unfiltered half map 2</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

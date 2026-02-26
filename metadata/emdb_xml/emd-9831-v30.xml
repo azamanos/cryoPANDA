@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_2/emdb.xsd" version="3.0.9.2" emdb_id="EMD-9831">
+    <admin>
+        <current_status>
+            <date>2024-03-27</date>
+            <code>REL</code>
+            <processing_site>PDBj</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBj</deposition>
+            <last_processing>PDBj</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-02-19</deposition>
+            <header_release>2019-07-17</header_release>
+            <map_release>2019-07-17</map_release>
+            <update>2024-03-27</update>
+        </key_dates>
+        <title>Structure of RyR2 (F/A/C/Ca2+ dataset)</title>
+        <authors_list>
+            <author>Gong DS</author>
+            <author>Chi XM</author>
+        </authors_list>
+        <keywords>cryo-EM, MEMBRANE PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Gong D</author>
+                    <author order="2">Chi X</author>
+                    <author order="3">Wei J</author>
+                    <author order="4">Zhou G</author>
+                    <author order="5">Huang G</author>
+                    <author order="6">Zhang L</author>
+                    <author order="7">Wang R</author>
+                    <author order="8">Lei J</author>
+                    <author order="9">Chen SRW</author>
+                    <author order="10">Yan N</author>
+                    <title>Modulation of cardiac ryanodine receptor 2 by calmodulin.</title>
+                    <journal_abbreviation>Nature</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>572</volume>
+                    <first_page>347</first_page>
+                    <last_page>351</last_page>
+                    <year>2019</year>
+                    <external_references type="PUBMED">31278385</external_references>
+                    <external_references type="DOI">doi:10.1038/s41586-019-1377-y</external_references>
+                    <external_references type="ISSN">1476-4687</external_references>
+                    <external_references type="CSD">0006</external_references>
+                    <external_references type="ASTM">NATUAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6ji0</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>RyR2 in complex with FKBP12.6</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>RyR2 in complex with FKBP12.6</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9823">Sus scrofa</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>RyR2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9823">Sus scrofa</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.564905625</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MADGGEGEDEIQFLRTDDEVVLQCTATIHKEQQKLCLAAEGFGNRLCFLESTSNSKNVPPDLSICTFVLEQSLSVRALQE
+MLANTVEKSEGQVDVEKWKFMMKTAQGGGHRTLLYGHAILLRHSYSGMYLCCLSTSRSSTDKLAFDVGLQEDTTGEACWW
+TIHPASKQRSEGEKVRVGDDLILVSVSSERYLHLSYGNVSLHVDAAFQQTLWSVAPISSGSEAAQGYLIGGDVLRLLHGH
+MDECLTVPSGEHGEEQRRTVHYEGGAVSVHARSLWRLETLRVAWSGSHIRWGQPFRLRHVTTGKYLSLMEDKSLLLMDKE
+KADVKSTAFTFRSSKEKLDVGVRKEVDGMGTSEIKYGDSVCFIQHIGTGLWLTYQSVDVKSVRMGSIQRKAIMHHEGHMD
+DGLNLSRSQHEESRTARVIRSTVFLFNRFIRGLDALSKKAKASTVDLPIESVSLSLQDLIGYFHPPDEHLEHEDKQNRLR
+ALKNRQNLFQEEGMINLVLECIDRLHVYSSAAHFADVAGREAGESWKSILNSLYELLAALIRGNRKNCAQFSGSLDWLIS
+RLERLEASSGILEVLHCVLVESPEALNIIKEGHIKSIISLLDKHGRNHKVLDVLCSLCVCHGVAVRSNQHLICDNLLPGR
+DLLLQTRLVNHVSSMRPNIFLGVSEGSAQYKKWYYELMVDHTEPFVTAEATHLRVGWASTEGYSPYPGGGEEWGGNGVGD
+DLFSYGFDGLHLWSGCIARTVSSPNQHLLRTDDVISCCLDLSAPSISFRINGQPVQGMFENFNIDGLFFPVVSFSAGIKV
+RFLLGGRHGEFKFLPPPGYAPCYEAVLPKEKLKVEHSREYKQERTYTRDLLGPTVSLTQAAFTPIPVDTSQIVLPPHLER
+IREKLAENIHELWVMNKIELGWQYGPVRDDNKRQHPCLVEFSKLPEQERNYNLQMSLETLKTLLALGCHVGISDEHAEEK
+VKKMKLPKNYQLTSGYKPAPMDLSFIKLTPSQEAMVDKLAENAHNVWARDRIRQGWTYGIQQDVKNRRNPRLVPYALLDD
+RTKKSNKDSLREAVRTLLGYGYNLEAPDQDHAARAEVCSGTGERFRIFRAEKTYAVKAGRWYFEFEAVTAGDMRVGWSRP
+GCQPDQELGSDERAFAFDGFKAQRWHQGNEHYGRSWQAGDVVGCMVDMTEHTMMFTLNGEILLDDSGSELAFKDFDVGDG
+FIPVCSLGVAQVGRMNFGKDVSTLKYFTICGLQEGYEPFAVNTNRDITMWLSKRLPQFLQVPSSHEHIEVTRIDGTIDSS
+PCLKVTQKSFGSQNSSTDIMFYRLSMPIECAEVFSKTSAGGIPGASLFGPKNDLEDYDADSDFEVLMKTAHGHLVPDRVD
+KDKEATKPEFNNHKDYAQEKPSRLKQRFLLRRTKPDYSTSHSARLTEDVLADDRDDYDYLMQTSTYYYSVRIFPGQEPAN
+VWVGWITSDFHQYDTAFDLDRVRTVTVTLGDEKGKVHESIKRSNCYMVCAGESMSPGQGRNNNGLEIGCVVDAASGLLTF
+TANGKDLSTYYQVEPSTKLFPAVFAQATSPNVFQFELGRIKNVMPLSAGLFKSEHKNPVPQCPPRLHVQFLSHVLWSRMP
+NQFLKVDVSRISERQGWLVQCLEPLQFMSLHIPEENRSVDILELTEQEELLKFHYHTLRLYSAVCALGNHRVAHALCSHV
+DEPQLLYAIENKYMPGLLRAGYYDLLIDIHLSSYATARLMMNNEFIVPMTEETKSITLFPDENKKHGLPGIGLSTSLRPR
+MQFSSPSFVSINNECYQYSPEFPLDILKAKTIQMLTEAVQEGSLHARDPVGGTTEFLFVPLIKLFYTLLIMGIFHNEDLK
+HILQLIEPSVFKEAAGPEEESDTLEKEPCASEDSRLEGPAEEESKGGKRPKEGLLQMKLPEPVKLQMCLLLQYLCDCQVR
+HRIEAIVAFSDDFVAKLQDNQRFRYNEVMQALNMSAALTARKTKEFRSPPQEQINMLLNFKDDKSECPCPEEIRDQLLDF
+HEDLMTHCGIELDEDGSLDGNSDLTIRGRLLSLVEKVTYLKKKQAEKLVESDSKKSSTLQQLISETMVRWAQESVIEDPE
+LVRAMFVLLHRQYDGIGGLVRALPKTYTINGVSVEDTINLLASLGQIRSLLSVRMGKEEEKLMIRGLGDIMNNKVFYQHP
+NLMRALGMHETVMEVMVNVLGGGESKEITFPKMVANCCRFLCYFCRISRQNQKAMFDHLSYLLENSSVGLASPAMRGSTP
+LDVAAASVMDNNELALALREPDLEKVVRYLAGCGLQSCQMLVSKGYPDIGWNPVEGERYLDFLRFAVFCNGESVEENANV
+VVRLLIRRPECFGPALRGEGGNGLLAAMEEAIKIAEDPSRDGPSPTSGSSKMPDTEGEEDDTIHMGNAIMTFYAALIDLL
+GRCAPEMHLIHAAKGEAIRIRSILRSLIPLGDLVGVISIAFQMPTIAKDGNVVEPDMSAGFCPDHKAAMVLFLDRVYGIE
+VQDFLLHLLEVGFLPDLRAAASLDTAALSATDMALALNRYLCTAVLPLLTRCAPLFAGTEHHASLIDSLLHTVYRLSKGC
+SLTKAQRDSIEVCLLSICGQLRPSMMQHLLRRLVFDVPLLNEHAKMPLKLLTNHYERCWKYYCLPGGWGNFGAASEEELH
+LSRKLFWGIFDALSQKKYEQELFKLALPCLSAVAGALPPDYMESNYVSMMEKQSSMDSEGNFNPQPVDTSNITIPEKLEY
+FINKYAEHSHDKWSMDKLANGWIYGEIYSDSSKVQPLMKPYKLLSEKEKEIYRWPIKESLKTMLAWGWRIERTREGDSMA
+LYNRTRRISQTSQVSVDAAHGYSPRAIDMSNVTLSRDLHAMAEMMAENYHNIWAKKKKLELESKGGGNHPLLVPYDTLTA
+KEKAKDREKAQDILKFLQINGYAVSRGFKDLELDTPSIEKRFAYSFLQQLIRYVDEAHQYILEFDGGSRSKGEHFPYEQE
+IKFFAKVVLPLIDQYFKNHRLYFLSAASRPLCSGGHASNKEKEMVTSLFCKLGVLVRHRISLFGNDATSIVNCLHILGQT
+LDARTVMKTGLESVKSALRAFLDNAAEDLEKTMENLKQGQFTHTRNQPKGVTQIINYTTVALLPMLSSLFEHIGQHQFGE
+DLILEDVQVSCYRILTSLYALGTSKSIYVERQRSALGECLAAFAGAFPVAFLETHLDKHNIYSIYNTKSSRERAALNLPT
+NVEDVCPNIPSLEKLMEEIVDLAESGIRYTQMPHVMEVVLPMLCSYMSRWWEHGPENNPGRAEMCCTALNSEHMNTLLGN
+ILKIIYNNLGIDEGAWMKRLAVFSQPIINKVKPQLLKTHFLPLMEKLKKKAAMVVSEEDHLKSEVRGDMSEAELLILDEF
+TTLARDLYAFYPLLIRFVDYNRAKWLKEPNPEAEDLFRMVAEVFIYWSKSHNFKREEQNFVVQNEINNMSFLITDTKSKM
+SKAAVSDQERKKMKRKGDRYSMQTSLIVAALKRLLPIGLNICAPGDQELIALAKNRFSLKDTEDEVRDIIRSNIHLQGKL
+EDPAIRWQMALYKDLPNRTEDTSDPEKTVERVLDIANVLFHLEQKSTCMRRRYYSLVEHPQRSKKAVWHKLLSKQRKRAV
+VACFRMAPLYNLPRHRAVNLFLQGYEKSWIETEEHYFEDKLIEDLAKPGAVPPEEDEGTKRVDPLHQLILLFSRTALTEK
+CKLEEDFLYMAYADIMAKSCHDEEDDDGEEEVKSFEEKEMEKQKLLYQQARLHDRGAAEMVLQTISASKGETGPMVAATL
+KLGIAILNGGNSTVQQKMLEYLKEKKDVGFFQSLAGLMQSCSVLDLNAFERQNKAEGLGMVTEEGSGEKVLQDDEFTCDL
+FRFLQLLCEGHNSDFQNYLRTQTGNNTTVNIIISTVDYLLRVQESISDFYWYYSGKDVIDEQGQRNFSKAIQVAKQVFNT
+LTEYIQGPCTGNQQSLAHSRLWDAVVGFLHVFAHMQMKLSQDSSQIELLKELMDLQKDMVVMLLSMLEGNVVNGTIGKQM
+VDMLVESSNNVEMILKFFDMFLKLKDLTSSDTFKEYDPDGKGVISKRDFHKAMESHKHYTQSETEFLLSCAETDENETLD
+YEEFVKRFHEPAKDIGFNVAVLLTNLSEHMPNDTRLQTFLELAESVLNYFQPFLGRIEIMGSAKRIERVYFEISESSRTQ
+WEKPQVKESKRQFIFDVVNEGGEKEKMELFVNFCEDTIFEMQLAAQISESDLNERSANKEESEKEKPEEQGPRMGFFSLV
+TVRSALLALRYNVLTLMRMLSLKSLKKQMKKVKKMTVRDMVTAFFTSYWSVFMTLLHFAASVSRGFSRIIGGLLLGGSLV
+EGAKKIKVAELLANMPDPTQDEVRGDGDEGERKVLEGTLPSEDLTDLKELTEESDLLSDIFGLDLKREGGQYKLIPHNPN
+AGLSDLMSSPAPIPEVQEKFQEQKAKEEEKEEKEENKSEPEKAEGEDGEKEEKAKEDKGKQKLRQLHTHRYGEPEVPESA
+FWKKIIAYQQKLLNYFARNFYNMRMLALFVAFAINFILLFYKVSTSSVVEGKELPTRSSSENANFGSLDSSSPRIIAVHY
+VLEESSGYMEPTLRILAILHTVISFFCIIGYYCLKVPLVIFKREKEVARKLEFDGLYITEQPSEDDIKGQWDRLVINTQS
+FPNNYWDKFVKRKVMDKYGEFYGRDRISELLGMDKAALDFSDAREKKKPKKDSSLSAVLNSIDVKYQMWKLGVVFTDNSF
+LYLAWYMTMSVLGHYNNFFFAAHLLDIAMGFKTLRTILSSVTHNGKQLVLTVGLLAVVVYLYTVVAFNFFRKFYNKSEDG
+DTPDMKCDDMLTCYMFHMYVGVRAGGGIGDEIEDPAGDEYEIYRIIFDITFFFFVIVILLAIIQGLIIDAFGELRDQQEQ
+VKEDMETKCFICGIGNDYFDTVPHGFETHTLQEHNLANYLFFLMYLINKDETEHTGQESYVWKMYQERCWEFFPAGDCFR
+KQYEDQLN</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Peptidyl-prolyl cis-trans isomerase FKBP1B</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011798501</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGVEIETISPGDGRTFPKKGQTCVVHYTGMLQNGKKFDSSRDRNKPFKFRIGKQEVIKGFEEGAAQMSLGQRAKLTCTPD
+VAYGATGHPGVIPPNATLIFDVELLNLE</string>
+                    <external_references type="UNIPROTKB">P68106</external_references>
+                </sequence>
+                <ec_number>5.2.1.8</ec_number>
+            </protein_or_peptide>
+            <ligand macromolecule_id="3">
+                <name>ZINC ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">6.5409e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <formula>ZN</formula>
+            </ligand>
+            <ligand macromolecule_id="4">
+                <name>ADENOSINE-5'-TRIPHOSPHATE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000507181</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <formula>ATP</formula>
+            </ligand>
+            <ligand macromolecule_id="5">
+                <name>CALCIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">4.0078e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <formula>CA</formula>
+            </ligand>
+            <ligand macromolecule_id="6">
+                <name>CAFFEINE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000194191</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <formula>CFF</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">50.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="EMDB MAP"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C4</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">4.2</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>78841</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="256001">
+        <file>emd_9831.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>400</col>
+            <row>400</row>
+            <sec>400</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>400</x>
+            <y>400</y>
+            <z>400</z>
+        </spacing>
+        <cell>
+            <a units="Å">436.4</a>
+            <b units="Å">436.4</b>
+            <c units="Å">436.4</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.044959474</minimum>
+            <maximum>0.08933185</maximum>
+            <average>0.00088587205</average>
+            <std>0.0046933373</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.091</x>
+            <y units="Å">1.091</y>
+            <z units="Å">1.091</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.022</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-9831::::</label>
+    </map>
+</emd>

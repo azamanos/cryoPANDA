@@ -1,0 +1,119 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10882" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-11-22</depositionDate>
+            <releaseDate>2022-06-17</releaseDate>
+            <updateDate>2022-06-17</updateDate>
+        </keyDates>
+        <title>Cryo electron micrographs of Tetrahymena thermophila solubilized mitochondrial membrane complexes - Glacios data</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-9864-3586</authorORCID>
+            <firstName>James</firstName>
+            <middleName>Anthony</middleName>
+            <lastName>Letts</lastName>
+            <organization type="academic">Department of Cellular and Molecular Biology, University of California, Davis</organization>
+            <street>1 Shields Ave</street>
+            <townOrCity>Davis</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>95616</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-9864-3586</authorORCID>
+            <firstName>James</firstName>
+            <middleName>Anthony</middleName>
+            <lastName>Letts</lastName>
+            <organization type="academic">UC Davis, MCB</organization>
+            <street>One Shields Ave, MCB Department, Briggs Hall</street>
+            <townOrCity>Davis</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>95616</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-9864-3586">Letts JA</author>
+            <author authorORCID="0000-0002-1864-8951">Zhou L</author>
+            <author authorORCID="0000-0003-4991-114X">Guo F</author>
+        </authorsList>
+        <datasetSize units="TB">9.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10882</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-32325</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-1864-8951" order="1">Zhou L</author>
+                    <author authorORCID="0000-0002-3428-1053" order="2">Maldonado M</author>
+                    <author authorORCID="0000-0002-9949-6776" order="3">Padavannil A</author>
+                    <author authorORCID="0000-0003-4991-114X" order="4">Guo F</author>
+                    <author authorORCID="0000-0002-9864-3586" order="5">Letts JA</author>
+                    <editor order="1"> </editor>
+                    <title>Structures of &lt;i&gt;Tetrahymena&lt;/i&gt;'s respiratory chain reveal the diversity of eukaryotic core metabolism</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country></country>
+                    <issue>6595</issue>
+                    <volume>376</volume>
+                    <firstPage>831</firstPage>
+                    <lastPage>839</lastPage>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.abn7747</externalReferences>
+                    <externalReferences type="pubmed">35357889</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multiframe micrographs of Tetrahymena respiratory chain complexes</name>
+        <directory>/data/47483876</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>10728</numImagesOrTiltSeries>
+        <framesPerImage>75</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>75</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.44</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.44</pixelHeight>
+        </dimensions>
+        <details>These images correspond to the unprocessed multi-frame micrographs of three data collections on independent biological and protein isolation replicates of partially purified Tetrahymena mitochondrial respiratory chain complexes. The data were collected on a 200 kV TFS Glacios microscope using a Gatan K3 detector in super-resolution mode. The gain references are also included: SuperRef_lz_tt_bottom_001_Sep18.dm4/mrc corresponds to the data collected on September18-19 (Sep18/19 in image name) and gain.mrc corresponds to the data collected on October02-04 (Oct02/03/04 in image name).</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned motion corrected micrographs of Tetrahymena respiratory chain complexes</name>
+        <directory>/data/47483876/MotionCorrectedMicrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>10728</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.88</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.88</pixelHeight>
+        </dimensions>
+        <details>These are the motion corrected dose weighted and non-dose weighted micrographs. The unprocessed micrograph stacks were gain corrected, downsamples 2-times and motion corrected using MotionCorr2.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

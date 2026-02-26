@@ -1,0 +1,90 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10122" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2017-08-25</depositionDate>
+            <releaseDate>2017-10-23</releaseDate>
+            <updateDate>2017-10-23</updateDate>
+        </keyDates>
+        <title>Mixed under-/over-focused data collected  by VPP-Cs-corrector coupled EM.</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-9494-8780</authorORCID>
+            <firstName>Hong-Wei</firstName>
+            <lastName>Wang</lastName>
+            <organization type="academic">School of Life Sciences, Tsinghua University</organization>
+            <street>Tsinghua University</street>
+            <townOrCity>Beijing</townOrCity>
+            <stateOrProvince>Beijing</stateOrProvince>
+            <country>China</country>
+            <postOrZipCode>100084</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-9494-8780</authorORCID>
+            <firstName>Hong-Wei</firstName>
+            <lastName>Wang</lastName>
+            <organization type="academic">School of Life Sciences, Tsinghua University</organization>
+            <street>Tsinghua University</street>
+            <townOrCity>Beijing</townOrCity>
+            <stateOrProvince>Beijing</stateOrProvince>
+            <country>China</country>
+            <postOrZipCode>100084</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Fan X</author>
+            <author authorORCID="0000-0001-9494-8780">Wang HW</author>
+        </authorsList>
+        <datasetSize units="GB">34.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10122</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-6802</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Zhao L</author>
+                    <author order="2">Liu C</author>
+                    <author order="3">Zhang JC</author>
+                    <author order="4">Fan K</author>
+                    <author order="5">Yan X</author>
+                    <author order="6">Peng HL</author>
+                    <author order="7">Lei J</author>
+                    <author authorORCID="0000-0001-9494-8780" order="8">Wang HW</author>
+                    <title>Near-Atomic Resolution Structure Determination in Over-Focus with Volta Phase Plate by Cs-Corrected Cryo-EM</title>
+                    <journal>Structure (London, England : 1993)</journal>
+                    <journalAbbreviation>Structure</journalAbbreviation>
+                    <country></country>
+                    <issue>10</issue>
+                    <volume>25</volume>
+                    <firstPage>1623</firstPage>
+                    <lastPage>1630.e3</lastPage>
+                    <year>2017</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.str.2017.08.008</externalReferences>
+                    <externalReferences type="pubmed">28943337</externalReferences>
+                    <details>Dose-weighted image from MotionCor2</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Dose-weighted image from MotionCor2 for Mixed under-/over-focused data</name>
+        <directory>/data/apoferritin</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.88</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>Micrographs are corrected, summed and dose-weighted by MotionCor2 (from a 33-frame movie with 24 electron per squared Angstrom total dose). run_data.star contains the refine parameters in Relion-2.0. particle coordinates are in the 1st and 2nd column respectively.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

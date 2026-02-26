@@ -1,0 +1,190 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10411" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-05-05</depositionDate>
+            <releaseDate>2021-02-19</releaseDate>
+            <updateDate>2021-02-19</updateDate>
+        </keyDates>
+        <title>Single Particle Cryo-EM Reconstructions of NCP-CHD4 complexes</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-5454-7755</authorORCID>
+            <firstName>Patrick</firstName>
+            <lastName>Cramer</lastName>
+            <organization type="academic">Department of Molecular Biology, Max Planck Institute for Biophysical Chemistry</organization>
+            <street>Am Faßberg 11</street>
+            <townOrCity>Göttingen</townOrCity>
+            <stateOrProvince>Lower Saxony</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>37077</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-5454-7755</authorORCID>
+            <firstName>Patrick</firstName>
+            <lastName>Cramer</lastName>
+            <organization type="academic">Department of Molecular Biology, Max Planck Institute for Biophysical Chemistry</organization>
+            <street>Am Faßberg 11</street>
+            <townOrCity>Göttingen</townOrCity>
+            <stateOrProvince>Lower Saxony</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>37077</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-8200-2493">Farnung L</author>
+            <author authorORCID="0000-0001-5454-7755">Cramer P</author>
+        </authorsList>
+        <datasetSize units="GB">721.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10411</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-10058</emdbEntry>
+            <emdbEntry>EMD-10059</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-8200-2493" order="1">Farnung L</author>
+                    <author order="2">Ochmann M</author>
+                    <author authorORCID="0000-0001-5454-7755" order="3">Cramer P</author>
+                    <title>Nucleosome-CHD4 chromatin remodeler structure maps human disease mutations</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation>Elife</journalAbbreviation>
+                    <country></country>
+                    <volume>9</volume>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.7554/elife.56178</externalReferences>
+                    <externalReferences type="pubmed">32543371</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of NCP-CHD4 Dataset 1</name>
+        <directory>/data/180903</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1221</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.05</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.05</pixelHeight>
+        </dimensions>
+        <details>Information on dose, pixel size etc. can be found in previous.settings. Gain reference is "GainRef.mrc".</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/180903/FoilHole_*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/180903/goodparticles_BoxNet2Mask_20180531.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/180903/particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Averaged and aligned micrographs Dataset 1</name>
+        <directory>/data/180903/average</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1221</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.05</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.05</pixelHeight>
+        </dimensions>
+        <details>Information on dose, pixel size etc. can be found in previous.settings.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/180903/average/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/180903/goodparticles_BoxNet2Mask_20180531.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/180903/particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of NCP-CHD4 Dataset 2</name>
+        <directory>/data/180910</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>958</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.05</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.05</pixelHeight>
+        </dimensions>
+        <details>Information on dose, pixel size etc. can be found in previous.settings. Gain reference is "GainRef.mrc".</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/180910/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/180910/goodparticles_BoxNet2Mask_20180531.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/180910/particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Averaged and aligned micrographs NCP-CHD4  Dataset 2</name>
+        <directory>/data/180910/average</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>958</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.05</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.05</pixelHeight>
+        </dimensions>
+        <details>Information on dose, pixel size etc. can be found in previous.settings</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/180910/average/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/180910/goodparticles_BoxNet2Mask_20180531.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/180910/particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of NCP-CHD4 Dataset 3</name>
+        <directory>/data/181001</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>652</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.05</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.05</pixelHeight>
+        </dimensions>
+        <details>Information on dose, pixel size etc. can be found in previous.settings. Gain reference is "GainRef.mrc".</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/181001/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/181001/goodparticles_BoxNet2Mask_20180531.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/181001/particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Averaged and aligned micrographs Dataset 3</name>
+        <directory>/data/181001/average</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>652</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.05</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.05</pixelHeight>
+        </dimensions>
+        <details>Information on dose, pixel size etc. can be found in previous.settings.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/181001/average/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/181001/goodparticles_BoxNet2Mask_20180531.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/181001/particles</pickedParticlesDirectory>
+    </imageSet>
+</entry>

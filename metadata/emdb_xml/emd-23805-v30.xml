@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-23805">
+    <admin>
+        <current_status>
+            <date>2024-05-29</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-04-08</deposition>
+            <header_release>2021-10-06</header_release>
+            <map_release>2021-10-06</map_release>
+            <update>2024-05-29</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>E. coli MsbA in complex with G247</title>
+        <authors_list>
+            <author>Thelot F</author>
+            <author>Liao M</author>
+        </authors_list>
+        <keywords>Membrane protein</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Thelot FA</author>
+                    <author order="2">Zhang W</author>
+                    <author order="3">Song K</author>
+                    <author order="4">Xu C</author>
+                    <author order="5">Huang J</author>
+                    <author order="6">Liao M</author>
+                    <title>Distinct allosteric mechanisms of first-generation MsbA inhibitors.</title>
+                    <journal_abbreviation>Science</journal_abbreviation>
+                    <country>US</country>
+                    <volume>374</volume>
+                    <first_page>580</first_page>
+                    <last_page>585</last_page>
+                    <year>2021</year>
+                    <external_references type="PUBMED">34554829</external_references>
+                    <external_references type="DOI">doi:10.1126/science.abi9009</external_references>
+                    <external_references type="ISSN">1095-9203</external_references>
+                    <external_references type="CSD">0038</external_references>
+                    <external_references type="ASTM">SCIEAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7mew</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>E. coli MsbA in complex with G247</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>E. coli MsbA in complex with G247</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.13</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>ATP-dependent lipid A-core flippase</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli (strain B / BL21-DE3)</organism>
+                    <strain>B / BL21-DE3</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.06731044500000001</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGHHHHHHHHHHSSGHIDDDDKHMHNDKDLSTWQTFRRLWPTIAPFKAGLIVAGVALILNAASDTFMLSLLKPLLDDGFG
+KTDRSVLVWMPLVVIGLMILRGITSYVSSYCISWVSGKVVMTMRRRLFGHMMGMPVSFFDKQSTGTLLSRITYDSEQVAS
+SSSGALITVVREGASIIGLFIMMFYYSWQLSIILIVLAPIVSIAIRVVSKRFRNISKNMQNTMGQVTTSAEQMLKGHKEV
+LIFGGQEVETKRFDKVSNRMRLQGMKMVSASSISDPIIQLIASLALAFVLYAASFPSVMDSLTAGTITVVFSSMIALMRP
+LKSLTNVNAQFQRGMAACQTLFTILDSEQEKDEGKRVIERATGDVEFRNVTFTYPGRDVPALRNINLKIPAGKTVALVGR
+SGSGKSTIASLITRFYDIDEGEILMDGHDLREYTLASLRNQVALVSQNVHLFNDTVANNIAYARTEQYSREQIEEAARMA
+YAMDFINKMDNGLDTVIGENGVLLSGGQRQRIAIARALLRDSPILILDEATSALDTESERAIQAALDELQKNRTSLVIAH
+RLSTIEKADEIVVVEDGVIVERGTHNDLLEHRGVYAQLHKMQFGQ</string>
+                    <external_references type="UNIPROTKB">A0A140NBS6</external_references>
+                </sequence>
+                <ec_number>7.5.2.6</ec_number>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>(2E)-3-{1-cyclopropyl-7-[(1S)-1-(3,6-dichloro-2-fluorophenyl)ethoxy]naphthalen-2-yl}prop-2-enoic acid</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00044531</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>Z5Y</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>8.0</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>OTHER</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">63.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="EMDB MAP"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.9</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>349674</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="4586">
+        <file>emd_23805.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>117</col>
+            <row>101</row>
+            <sec>97</sec>
+        </dimensions>
+        <origin>
+            <col>47</col>
+            <row>46</row>
+            <sec>48</sec>
+        </origin>
+        <spacing>
+            <x>97</x>
+            <y>101</y>
+            <z>117</z>
+        </spacing>
+        <cell>
+            <a units="Å">119.310005</a>
+            <b units="Å">124.23</b>
+            <c units="Å">143.91</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>Z</fast>
+            <medium>Y</medium>
+            <slow>X</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-11.923443000000001</minimum>
+            <maximum>19.254110000000001</maximum>
+            <average>0.000000000001659</average>
+            <std>1.0</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.23</x>
+            <y units="Å">1.23</y>
+            <z units="Å">1.23</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>1.2</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-23805::::</label>
+        <annotation_details>E. coli MsbA in nanodisc in complex with G247</annotation_details>
+    </map>
+    <interpretation>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="28312">
+                <file>emd_23805_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>192</col>
+                    <row>192</row>
+                    <sec>192</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>192</x>
+                    <y>192</y>
+                    <z>192</z>
+                </spacing>
+                <cell>
+                    <a units="Å">236.16</a>
+                    <b units="Å">236.16</b>
+                    <c units="Å">236.16</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.019833997</minimum>
+                    <maximum>0.09172026</maximum>
+                    <average>0.00006482711</average>
+                    <std>0.005356998</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.23</x>
+                    <y units="Å">1.23</y>
+                    <z units="Å">1.23</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-23805::::</label>
+                <annotation_details>unfiltered, unsharpened map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+    </interpretation>
+</emd>

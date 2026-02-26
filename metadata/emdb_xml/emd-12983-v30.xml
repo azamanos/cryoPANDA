@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='utf-8'?>
+<emd emdb_id="EMD-12983" version="3.0.2.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_6/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2021-10-13</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-05-21</deposition>
+            <header_release>2021-08-11</header_release>
+            <map_release>2021-08-11</map_release>
+            <update>2021-10-13</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council (BBSRC)</funding_body>
+                <code>BB/N008391/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of the 28 triskelia mini clathrin coat complex</title>
+        <authors_list>
+            <author>Smith SM</author>
+            <author>Smith CJ</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Smith SM</author>
+                    <author order="2">Larocque G</author>
+                    <author order="3">Wood KM</author>
+                    <author order="4">Morris KL</author>
+                    <author order="5">Roseman AM</author>
+                    <author order="6">Sessions RB</author>
+                    <author order="7">Royle SJ</author>
+                    <author order="8">Smith CJ</author>
+                    <title>Multi-modal adaptor-clathrin contacts drive coated vesicle assembly.</title>
+                    <journal_abbreviation>Embo J.</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>40</volume>
+                    <first_page>e108795</first_page>
+                    <last_page>e108795</last_page>
+                    <year>2021</year>
+                    <external_references type="PUBMED">34487371</external_references>
+                    <external_references type="DOI">doi:10.15252/embj.2021108795</external_references>
+                    <external_references type="ISSN">1460-2075</external_references>
+                    <external_references type="CSD">0897</external_references>
+                    <external_references type="ASTM">EMJODG</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-12983</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Cryo-EM structure of 28 triskelia mini clathrin coat complex</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Cryo-EM structure of 28 triskelia mini clathrin coat complex</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="9823">Sus scrofa</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>6.4</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                        <chamber_humidity units="percentage">90</chamber_humidity>
+                        <chamber_temperature units="K">277.15</chamber_temperature>
+                        <instrument>LEICA EM GP</instrument>
+                        <details>3 uL of sample applied to a grid and blotted for 4.5 s before plunging. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">1.1</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.0</nominal_defocus_max>
+                    <nominal_magnification>59000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">64.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.5</version>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>T</point_group>
+                    </applied_symmetry>
+                    <resolution res_type="BY AUTHOR" units="Å">9.1</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>13983</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing />
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing />
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="500001">
+        <file>emd_12983.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>500</col>
+            <row>500</row>
+            <sec>500</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>500</x>
+            <y>500</y>
+            <z>500</z>
+        </spacing>
+        <cell>
+            <a units="Å">1390.0</a>
+            <b units="Å">1390.0</b>
+            <c units="Å">1390.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.022284511</minimum>
+            <maximum>0.06326209</maximum>
+            <average>-0.00022370285</average>
+            <std>0.003838379</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">2.78</x>
+            <y units="Å">2.78</y>
+            <z units="Å">2.78</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0115</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-12983::::</label>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_12983_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="500001">
+                <file>emd_12983_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>500</col>
+                    <row>500</row>
+                    <sec>500</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>500</x>
+                    <y>500</y>
+                    <z>500</z>
+                </spacing>
+                <cell>
+                    <a units="Å">1390.0</a>
+                    <b units="Å">1390.0</b>
+                    <c units="Å">1390.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.025863178</minimum>
+                    <maximum>0.067984335</maximum>
+                    <average>-0.00047136616</average>
+                    <std>0.0039592376</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">2.78</x>
+                    <y units="Å">2.78</y>
+                    <z units="Å">2.78</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-12983::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="500001">
+                <file>emd_12983_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>500</col>
+                    <row>500</row>
+                    <sec>500</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>500</x>
+                    <y>500</y>
+                    <z>500</z>
+                </spacing>
+                <cell>
+                    <a units="Å">1390.0</a>
+                    <b units="Å">1390.0</b>
+                    <c units="Å">1390.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.024539435</minimum>
+                    <maximum>0.06599674</maximum>
+                    <average>-0.00047149038</average>
+                    <std>0.0039703273</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">2.78</x>
+                    <y units="Å">2.78</y>
+                    <z units="Å">2.78</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-12983::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

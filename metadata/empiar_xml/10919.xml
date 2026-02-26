@@ -1,0 +1,140 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10919" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-01-07</depositionDate>
+            <releaseDate>2022-06-17</releaseDate>
+            <updateDate>2022-06-17</updateDate>
+        </keyDates>
+        <title>Single particle cryogenic electron micrographs of tetrahymena mitochondrial electron transport chain complexes</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-9864-3586</authorORCID>
+            <firstName>James</firstName>
+            <middleName>Anthony</middleName>
+            <lastName>Letts</lastName>
+            <organization type="academic">Department of Molecular and Cellular Biology, University of California, Davis</organization>
+            <street>1 Shields Ave.</street>
+            <townOrCity>Davis</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>95616</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-9864-3586</authorORCID>
+            <firstName>James</firstName>
+            <middleName>Anthony</middleName>
+            <lastName>Letts</lastName>
+            <organization type="academic">Department of Molecular and Cellular Biology, University of California, Davis</organization>
+            <street>1 Shields Ave.</street>
+            <townOrCity>Davis</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>95616</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-1864-8951">Zhou L</author>
+            <author authorORCID="0000-0003-4991-114X">Guo F</author>
+            <author authorORCID="0000-0002-9864-3586">Letts JA</author>
+        </authorsList>
+        <datasetSize units="TB">7.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10919</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-25882</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-1864-8951" order="1">Zhou L</author>
+                    <author authorORCID="0000-0002-3428-1053" order="2">Maldonado M</author>
+                    <author authorORCID="0000-0002-9949-6776" order="3">Padavannil A</author>
+                    <author authorORCID="0000-0003-4991-114X" order="4">Guo F</author>
+                    <author authorORCID="0000-0002-9864-3586" order="5">Letts JA</author>
+                    <editor order="1"> </editor>
+                    <title>Structures of &lt;i&gt;Tetrahymena&lt;/i&gt;'s respiratory chain reveal the diversity of eukaryotic core metabolism</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country></country>
+                    <issue>6595</issue>
+                    <volume>376</volume>
+                    <firstPage>831</firstPage>
+                    <lastPage>839</lastPage>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.abn7747</externalReferences>
+                    <externalReferences type="pubmed">35357889</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multiframe micrographs of Tetrahymena respiratory chain complexes - Krios data</name>
+        <directory>/data/raw</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>7895</numImagesOrTiltSeries>
+        <framesPerImage>117</framesPerImage>
+        <frameRange>
+            <frameRangeMin>0</frameRangeMin>
+            <frameRangeMax>117</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.4175</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.4175</pixelHeight>
+        </dimensions>
+        <details>Raw single particle cryoEM micrograph frames of  Tetrahymena thermophila solubilized mitochondrial membrane complexes collected on a Titan Krios at UCSF in super-resolution mode. The gain reference is also included in .dm4 and .mrc format (SuperCDSRef_feiguo_20201102_192-1_0001.dm4).</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Non-dose weighted motion corrected micrographs of Tetrahymena respiratory chain complexes - Krios data</name>
+        <directory>/data/Micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>7895</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.835</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.835</pixelHeight>
+        </dimensions>
+        <details>Motion corrected non-dose weighted two-fold binned single particle cryoEM micrograph frames of  Tetrahymena thermophila solubilized mitochondrial membrane complexes. Motion correction was done with the MotionCorr2 program.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dose-weighted motion corrected micrographs of Tetrahymena respiratory chain complexes - Krios data</name>
+        <directory>/data/Micrographs_DW</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>7895</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.835</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.835</pixelHeight>
+        </dimensions>
+        <details>Motion corrected dose weighted two-fold binned single particle cryoEM micrograph frames of  Tetrahymena thermophila solubilized mitochondrial membrane complexes. Motion correction was done with the MotionCorr2 program.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

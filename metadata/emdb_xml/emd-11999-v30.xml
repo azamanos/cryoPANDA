@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='utf-8'?>
+<emd emdb_id="EMD-11999" version="3.0.2.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_3/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2021-02-24</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-12-02</deposition>
+            <header_release>2020-12-16</header_release>
+            <map_release>2020-12-16</map_release>
+            <update>2021-02-24</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>German Research Foundation (DFG)</funding_body>
+                <code>SFB860</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>German Research Foundation (DFG)</funding_body>
+                <code>SPP1935</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>693023</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>760067</code>
+                <country>Germany</country>
+            </grant_reference>
+        </grant_support>
+        <title>M. pneumoniae 70S ribosome in complex with chloramphenicol obtained from in situ data using M, focused refinement of 50S sub-unit</title>
+        <authors_list>
+            <author>Tegunov D</author>
+            <author>Xue L</author>
+            <author>Dienemann C</author>
+            <author>Cramer P</author>
+            <author>Mahamid J</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Tegunov D</author>
+                    <author order="2">Xue L</author>
+                    <author order="3">Dienemann C</author>
+                    <author order="4">Cramer P</author>
+                    <author order="5">Mahamid J</author>
+                    <title>Multi-particle cryo-EM refinement with M visualizes ribosome-antibiotic complex at 3.5 angstrom in cells.</title>
+                    <journal_abbreviation>Nat.Methods</journal_abbreviation>
+                    <country>US</country>
+                    <volume>18</volume>
+                    <first_page>186</first_page>
+                    <last_page>193</last_page>
+                    <year>2021</year>
+                    <external_references type="PUBMED">33542511</external_references>
+                    <external_references type="DOI">doi:10.1038/s41592-020-01054-7</external_references>
+                    <external_references type="ISSN">1548-7105</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-11650</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>focused refinement</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-11999</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>70S ribosome with chloramphenicol</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>70S ribosome with chloramphenicol</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="2104">Mycoplasma pneumoniae</organism>
+                </natural_source>
+                <molecular_weight>
+                    <experimental units="MDa">2.7</experimental>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>subtomogramAveraging</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <subtomogram_averaging_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.0</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </subtomogram_averaging_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <subtomogram_averaging_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">120.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </subtomogram_averaging_microscopy>
+            </microscopy_list>
+            <subtomogram_averaging_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution res_type="BY AUTHOR" units="Å">3.4</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_subtomograms_used>17890</number_subtomograms_used>
+                </final_reconstruction>
+                <extraction>
+                    <number_tomograms>65</number_tomograms>
+                    <number_images_used>24202</number_images_used>
+                </extraction>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing />
+                </final_angle_assignment>
+            </subtomogram_averaging_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="219489">
+        <file>emd_11999.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>380</col>
+            <row>380</row>
+            <sec>380</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>380</x>
+            <y>380</y>
+            <z>380</z>
+        </spacing>
+        <cell>
+            <a units="Å">323.076</a>
+            <b units="Å">323.076</b>
+            <c units="Å">323.076</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.010228985</minimum>
+            <maximum>0.022404509</maximum>
+            <average>8.61037e-05</average>
+            <std>0.0008895205</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.8502</x>
+            <y units="Å">0.8502</y>
+            <z units="Å">0.8502</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0023</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-11999::::</label>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_11999_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="174457">
+                <file>emd_11999_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>352</col>
+                    <row>352</row>
+                    <sec>352</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>352</x>
+                    <y>352</y>
+                    <z>352</z>
+                </spacing>
+                <cell>
+                    <a units="Å">598.576</a>
+                    <b units="Å">598.576</b>
+                    <c units="Å">598.576</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.023345863</minimum>
+                    <maximum>0.027047925</maximum>
+                    <average>1.4866334e-05</average>
+                    <std>0.0028081676</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.7005</x>
+                    <y units="Å">1.7005</y>
+                    <z units="Å">1.7005</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-11999::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="174457">
+                <file>emd_11999_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>352</col>
+                    <row>352</row>
+                    <sec>352</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>352</x>
+                    <y>352</y>
+                    <z>352</z>
+                </spacing>
+                <cell>
+                    <a units="Å">598.576</a>
+                    <b units="Å">598.576</b>
+                    <c units="Å">598.576</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.022539692</minimum>
+                    <maximum>0.026405023</maximum>
+                    <average>1.4621439e-05</average>
+                    <std>0.0027492796</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.7005</x>
+                    <y units="Å">1.7005</y>
+                    <z units="Å">1.7005</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-11999::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-0014">
+    <admin>
+        <current_status>
+            <date>2024-10-23</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2018-05-18</deposition>
+            <header_release>2018-06-20</header_release>
+            <map_release>2018-11-14</map_release>
+            <update>2024-10-23</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>European Research Council</funding_body>
+                <code>322408</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>EB-002026</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>AG-058504</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Wellcome Trust</funding_body>
+                <code>092896MA</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Wellcome Trust</funding_body>
+                <code>204963</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>Two protofilament beta-2-microglobulin amyloid fibril</title>
+        <authors_list>
+            <author>Iadanza MG</author>
+            <author>Ranson NA</author>
+        </authors_list>
+        <keywords>amyloid, b2m, PROTEIN FIBRIL</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-6152-1844" order="1">Iadanza MG</author>
+                    <author ORCID="0000-0003-0197-3878" order="2">Silvers R</author>
+                    <author order="3">Boardman J</author>
+                    <author order="4">Smith HI</author>
+                    <author order="5">Karamanos TK</author>
+                    <author ORCID="0000-0001-6775-9415" order="6">Debelouchina GT</author>
+                    <author ORCID="0000-0001-5063-3218" order="7">Su Y</author>
+                    <author ORCID="0000-0003-1589-832X" order="8">Griffin RG</author>
+                    <author ORCID="0000-0002-3640-5275" order="9">Ranson NA</author>
+                    <author ORCID="0000-0002-3079-8039" order="10">Radford SE</author>
+                    <title>The structure of a beta2-microglobulin fibril suggests a molecular basis for its amyloid polymorphism.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>9</volume>
+                    <first_page>4517</first_page>
+                    <last_page>4517</last_page>
+                    <year>2018</year>
+                    <external_references type="PUBMED">30375379</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-018-06761-6</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6gk3</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>two protofilament beta-2-microglobulin amyloid fibril</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>two protofilament beta-2-microglobulin amyloid fibril</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="kDa/nm">53.3</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Beta-2-microglobulin</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007635446</theoretical>
+                </molecular_weight>
+                <number_of_copies>8</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>FLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHV</string>
+                    <external_references type="UNIPROTKB">P61769</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.025</concentration>
+                    <buffer>
+                        <ph>2.5</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>CH3COONa</formula>
+                            <name>Sodium Acetate</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>Na3PO4</formula>
+                            <name>Sodium phosphate</name>
+                        </component>
+                        <component>
+                            <concentration units="%">0.01</concentration>
+                            <formula>NaN3</formula>
+                            <name>Sodium Azide</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R3.5/1</model>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>PLASMA CLEANING</type>
+                            <time units="s">60</time>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">80</chamber_humidity>
+                        <chamber_temperature units="K">281.15</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK II</instrument>
+                    </vitrification>
+                    <details>Quiescent growth at 0.25 mg/ml for 5 weeks, diluted 10x with buffer</details>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">100.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.00175</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">0.0032500000000000003</nominal_defocus_max>
+                    <nominal_magnification>130000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <frames_per_image>3-40</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>5549</number_real_images>
+                            <average_exposure_time units="s">10.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">38.5</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">4.83</delta_z>
+                            <delta_phi units="deg">-0.608</delta_phi>
+                            <axial_symmetry>C2</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">3.975</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>11035</number_images_used>
+                </final_reconstruction>
+                <segment_selection>
+                    <number_selected>99000</number_selected>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                    <details>300 x 300 pixel Overlapping segments 90% overlap</details>
+                </segment_selection>
+                <startup_model type_of_model="EMDB MAP">
+                    <emdb_id>EMD-1613</emdb_id>
+                    <details>Filtered to 60 Angstrom resolution</details>
+                </startup_model>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="108001">
+        <file>emd_0014.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>300</col>
+            <row>300</row>
+            <sec>300</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>300</x>
+            <y>300</y>
+            <z>300</z>
+        </spacing>
+        <cell>
+            <a units="Å">317.99997</a>
+            <b units="Å">317.99997</b>
+            <c units="Å">317.99997</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.08127573</minimum>
+            <maximum>0.13223831</maximum>
+            <average>0.000266917</average>
+            <std>0.0030406867</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.06</x>
+            <y units="Å">1.06</y>
+            <z units="Å">1.06</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0398</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-0014::::</label>
+        <annotation_details>Beta-2-microglobulin amyloid fibril - two protofilamets</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>OTHER</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

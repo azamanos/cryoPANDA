@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_2/emdb.xsd" version="3.0.9.2" emdb_id="EMD-0497">
+    <admin>
+        <current_status>
+            <date>2024-03-20</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-01-24</deposition>
+            <header_release>2019-02-06</header_release>
+            <map_release>2019-09-11</map_release>
+            <update>2024-03-20</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R35GM122510</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM reconstruction of CFA/I pili</title>
+        <authors_list>
+            <author>Zheng W</author>
+            <author>Andersson M</author>
+        </authors_list>
+        <keywords>Enterotoxigenic Escherichia coli (ETEC), CFA/I pili, helical reconstruction, PROTEIN FIBRIL</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Zheng W</author>
+                    <author order="2">Andersson M</author>
+                    <author order="3">Mortezaei N</author>
+                    <author ORCID="0000-0003-2447-6209" order="4">Bullitt E</author>
+                    <author ORCID="0000-0003-4844-5212" order="5">Egelman E</author>
+                    <title>Cryo-EM structure of the CFA/I pilus rod.</title>
+                    <journal_abbreviation>Iucrj</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>6</volume>
+                    <first_page>815</first_page>
+                    <last_page>821</last_page>
+                    <year>2019</year>
+                    <external_references type="PUBMED">31576215</external_references>
+                    <external_references type="DOI">doi:10.1107/S2052252519007966</external_references>
+                    <external_references type="ISSN">2052-2525</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6nrv</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Enterotoxigenic Escherichia coli (ETEC) CFA/I pili</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Enterotoxigenic Escherichia coli (ETEC) CFA/I pili</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="316401">Escherichia coli ETEC H10407</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>CFA/I fimbrial subunit B</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">ESCHERICHIA COLI ETEC O78:H12</organism>
+                    <strain>E7473</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014968839</theoretical>
+                </molecular_weight>
+                <number_of_copies>13</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>VEKNITVTASVDPAIDLLQADGNALPSAVKLAYSPASKTFESYRVMTQVHTNDATKKVIVKLADTPQLTDVLNSTVQMPI
+SVSWGGQVLSTTAKEFEAAALGYSASGVNGVSSSQELVISAAPKTAGTAPTAGNYSGVVSLVMTLG</string>
+                    <external_references type="UNIPROTKB">P0CK93</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON II (4k x 4k)</film_or_detector_model>
+                            <detector_mode>INTEGRATING</detector_mode>
+                            <average_electron_dose_per_image units="e/Å^2">20.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">8.6</delta_z>
+                            <delta_phi units="deg">113.3</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">4.0</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>SPIDER</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>97295</number_images_used>
+                </final_reconstruction>
+                <segment_selection>
+                    <number_selected>117011</number_selected>
+                    <software_list>
+                        <software>
+                            <name>EMAN2</name>
+                        </software>
+                    </software_list>
+                </segment_selection>
+                <startup_model type_of_model="NONE">
+                    <details>Featureless cylinder</details>
+                </startup_model>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="8389">
+        <file>emd_0497.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>128</col>
+            <row>128</row>
+            <sec>128</sec>
+        </dimensions>
+        <origin>
+            <col>-64</col>
+            <row>-64</row>
+            <sec>-64</sec>
+        </origin>
+        <spacing>
+            <x>128</x>
+            <y>128</y>
+            <z>128</z>
+        </spacing>
+        <cell>
+            <a units="Å">139.52</a>
+            <b units="Å">139.52</b>
+            <c units="Å">139.52</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.28369403</minimum>
+            <maximum>0.80672854</maximum>
+            <average>0.03286557</average>
+            <std>0.10784097</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.09</x>
+            <y units="Å">1.09</y>
+            <z units="Å">1.09</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.367</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-0497::::</label>
+        <annotation_details>em-volume_P1</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>3F85</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

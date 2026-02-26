@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd emdb_id="EMD-27717">
+    <admin>
+        <current_status>
+            <date>2023-07-05</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-07-27</deposition>
+            <header_release>2023-07-05</header_release>
+            <map_release>2023-07-05</map_release>
+            <update>2023-07-05</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Science Foundation (NSF, United States)</funding_body>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryogenic electron microscopy 3D map of human full-length monomeric alpha-catenin</title>
+        <authors_list>
+            <author>Rangarajan ES</author>
+            <author>Izard T</author>
+        </authors_list>
+        <keywords>F-actin, cell-cell junction, CELL ADHESION</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Rangarajan ES</author>
+                    <author order="2">Smith EW</author>
+                    <author ORCID="0000-0002-2895-483X" order="3">Izard T</author>
+                    <title>Distinct inter-domain interactions of dimeric versus monomeric alpha-catenin link cell junctions to filaments.</title>
+                    <journal_abbreviation>Commun Biol</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>6</volume>
+                    <first_page>276</first_page>
+                    <last_page>276</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">36928388</external_references>
+                    <external_references type="DOI">doi:10.1038/s42003-023-04610-x</external_references>
+                    <external_references type="ISSN">2399-3642</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-26860</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-26772</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-27717</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Monomeric alpha-catenin (residues 1-906)</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Monomeric alpha-catenin (residues 1-906)</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.1003</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>alpha-catenin</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GPLGSMTAVHAGNINFKWDPKSLEIRTLAVERLLEPLVTQVTTLVNTNSKGPSNKKRGRSKKAHVLAASVEQATENFLEKGDKIAKESQFLKEELVAAVEDVRKQGDLMKAAAGEFADDPCSSVKRGNMVRAARALLSAVTRLLILADMADVYKLLVQLKVVEDGILKLRNAGNEQDLGIQYKALKPEVDKLNIMAAKRQQELKDVGHRDQMAAARGILQKNVPILYTASQACLQHPDVAAYKANRDLIYKQLQQAVTGISNAAQATASDDASQHQGGGGGELAYALNNFDKQIIVDPLSFSEERFRPSLEERLESIISGAALMADSSCTRDDRRERIVAECNAVRQALQDLLSEYMGNAGRKERSDALNSAIDKMTKKTRDLRRQLRKAVMDHVSDSFLETNVPLLVLIEAAKNGNEKEVKEYAQVFREHANKLIEVANLACSISNNEEGVKLVRMSASQLEALCPQVINAALALAAKPQSKLAQENMDLFKEQWEKQVRVLTDAVDDITSIDDFLAVSENHILEDVNKCVIALQEKDVDGLDRTAGAIRGRAARVIHVVTSEMDNYEPGVYTEKVLEATKLLSNTVMPRFTEQVEAAVEALSSDPAQPMDENEFIDASRLVYDGIRDIRKAVLMIRTPEELDDSDFETEDFDVRSRTSVQTEDDQLIAGQSARAIMAQLPQEQKAKIAEQVASFQEEKSKLDAEVSKWDDSGNDIIVLAKQMCMIMMEMTDFTRGKGPLKNTSDVISAAKKIAEAGSRMDKLGRTIADHCPDSACKQDLLAYLQRIALYCHQLNICSKVKAEVQNLGGELVVSGVDSAMSLIQAAKNLMNAVVQTVKASYVASTKYQKSQGMASLNLPAVSWKMKAPEKKPLVKREKQDETQTKIKRASQKKHVNPVQALSEFKAMDSI</string>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.25</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>Sodium Chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>Tris</formula>
+                            <name>Tris</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">0.2</concentration>
+                            <formula>TCEP</formula>
+                            <name>tris(2-carboxyethyl)phosphine</name>
+                        </component>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">95</chamber_humidity>
+                        <chamber_temperature units="K">294.15</chamber_temperature>
+                        <instrument>LEICA EM GP</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>JEOL CRYO ARM 300</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">3.0</nominal_defocus_max>
+                    <nominal_magnification>60000.0</nominal_magnification>
+                    <specimen_holder_model>JEOL CRYOSPECPORTER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <phase_plate>OTHER</phase_plate>
+                        <energy_filter>
+                            <name>In-column Omega Filter</name>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <average_exposure_time units="s">0.1</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">48.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="OTHER">
+                    <details>M-domain and F-actin binding domain of AlphaFold model.</details>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">6.9</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.3.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>154710</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.3.1</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="23329">
+        <file>emd_27717.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>180</col>
+            <row>180</row>
+            <sec>180</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>180</x>
+            <y>180</y>
+            <z>180</z>
+        </spacing>
+        <cell>
+            <a units="Å">266.4</a>
+            <b units="Å">266.4</b>
+            <c units="Å">266.4</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-1.5094465</minimum>
+            <maximum>2.311435</maximum>
+            <average>0.0003541947</average>
+            <std>0.033544786</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.48</x>
+            <y units="Å">1.48</y>
+            <z units="Å">1.48</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.15</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-27717::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="23329">
+                <file>emd_27717_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>180</col>
+                    <row>180</row>
+                    <sec>180</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>180</x>
+                    <y>180</y>
+                    <z>180</z>
+                </spacing>
+                <cell>
+                    <a units="Å">266.4</a>
+                    <b units="Å">266.4</b>
+                    <c units="Å">266.4</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.2154477</minimum>
+                    <maximum>0.51892793</maximum>
+                    <average>0.0006675462</average>
+                    <std>0.014430622</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.48</x>
+                    <y units="Å">1.48</y>
+                    <z units="Å">1.48</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-27717::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="23329">
+                <file>emd_27717_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>180</col>
+                    <row>180</row>
+                    <sec>180</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>180</x>
+                    <y>180</y>
+                    <z>180</z>
+                </spacing>
+                <cell>
+                    <a units="Å">266.4</a>
+                    <b units="Å">266.4</b>
+                    <c units="Å">266.4</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.23641053</minimum>
+                    <maximum>0.48120078</maximum>
+                    <average>0.0006658658</average>
+                    <std>0.014398883</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.48</x>
+                    <y units="Å">1.48</y>
+                    <z units="Å">1.48</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-27717::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

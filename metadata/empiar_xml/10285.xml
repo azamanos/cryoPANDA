@@ -1,0 +1,154 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10285" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-06-18</depositionDate>
+            <releaseDate>2019-11-19</releaseDate>
+            <updateDate>2019-11-19</updateDate>
+        </keyDates>
+        <title>Cryo-electron microscopy structure of the P-Rex1–G-beta-gamma signaling scaffold</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-2067-4999</authorORCID>
+            <firstName>Michael</firstName>
+            <lastName>Cianfrocco</lastName>
+            <organization type="academic">Department of Biological Chemistry, Life Sciences Institute, University of Michigan</organization>
+            <street>210 Washtenaw Ave</street>
+            <townOrCity>Ann Arbor</townOrCity>
+            <stateOrProvince>MI</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>48109</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-2067-4999</authorORCID>
+            <firstName>Michael</firstName>
+            <lastName>Cianfrocco</lastName>
+            <organization type="academic">Department of Biological Chemistry, Life Sciences Institute, University of Michigan</organization>
+            <street>210 Washtenaw Ave</street>
+            <townOrCity>Ann Arbor</townOrCity>
+            <stateOrProvince>MI</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>48109</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-0277-7652">Cash JN</author>
+            <author authorORCID="0000-0001-7512-4081">Urata S</author>
+            <author authorORCID="0000-0002-9073-6809">Li S</author>
+            <author>Ravala SK</author>
+            <author>Avramova LV</author>
+            <author authorORCID="0000-0003-1833-0342">Shost MD</author>
+            <author authorORCID="0000-0002-5150-4482">Gutkind JS</author>
+            <author authorORCID="0000-0003-1125-3727">Tesmer JJG</author>
+            <author authorORCID="0000-0002-2067-4999">Cianfrocco MA</author>
+        </authorsList>
+        <datasetSize units="TB">3.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10285</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-20308</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-0277-7652" order="1">Cash JN</author>
+                    <author authorORCID="0000-0001-7512-4081" order="2">Urata S</author>
+                    <author authorORCID="0000-0002-9073-6809" order="3">Li S</author>
+                    <author order="4">Ravala SK</author>
+                    <author order="5">Avramova LV</author>
+                    <author authorORCID="0000-0003-1833-0342" order="6">Shost MD</author>
+                    <author authorORCID="0000-0002-5150-4482" order="7">Gutkind JS</author>
+                    <author authorORCID="0000-0003-1125-3727" order="8">Tesmer JJG</author>
+                    <author authorORCID="0000-0002-2067-4999" order="9">Cianfrocco MA</author>
+                    <title>Cryo-electron microscopy structure and analysis of the P-Rex1-Gβγ signaling scaffold</title>
+                    <journal>Science advances</journal>
+                    <journalAbbreviation>Sci Adv</journalAbbreviation>
+                    <country></country>
+                    <issue>10</issue>
+                    <volume>5</volume>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/sciadv.aax8855</externalReferences>
+                    <externalReferences type="pubmed">31663027</externalReferences>
+                    <details>Raw movies (*.tif), micrographs (averages/*.mrc), particle coordinates (matching/*.star), and extracted stack (particles/*.mrcs) for P-Rex-Gbg cryo-EM structure. All data with prefix "18jan18c" were collected on an untilted grid whereas data with the prefix "18aug03b" were collected on a grid with a tilt angle of 30 degrees. Uploaded data were preprocessed using Warp-1.0.5.
+
+Original particle stack (905,464 particles): merge_18aug03b_18jan18c_goodparticles_Retrain1_BoxNet2Mask_20180531_2.star
+Selected stack after 2D classification (611,231 particles): cryosparc_exp001001_202.star 
+Final stack after 3D heterogeneous refinement (205,599 particles): cryosparc_exp001054_009.star
+Warp re-trained model: Retrain1_BoxNet2Mask_20180531_2/
+Gain reference for 18jan18c: 18jan18c_gain_reference_17133354_01_7420x7676_norm_0.mrc
+Gain reference for 18aug03b: 18aug03b_gain_reference_02131216_05_3710x3838_norm_0.mrc
+
+Kev=300
+Cs=2.7
+Pixel size=1A/pix
+Untilted (18jan18c) total dose: 49.5 e/A2 (30 frames)
+Tilted (18aug03b) total dose: 45 e/A2 (100 frames)</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Movie files (.tif) for P-Rex1-Gbg</name>
+        <directory>/data/movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>6746</numImagesOrTiltSeries>
+        <framesPerImage>30</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Micrograph files (.mrc) &amp; CTF log files for P-Rex1-Gbg</name>
+        <directory>/data/average</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6736</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Extracted particles from Warp for P-Rex1-Gbg</name>
+        <directory>/data/particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>6360</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>Particle coordinate files (*.star) for P-Rex1-Gbg can be found in the directory data/matching</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/movies/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/particles/*.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles</pickedParticlesDirectory>
+    </imageSet>
+</entry>

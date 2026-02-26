@@ -1,0 +1,161 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11083" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-06-27</depositionDate>
+            <releaseDate>2023-02-13</releaseDate>
+            <updateDate>2023-02-13</updateDate>
+        </keyDates>
+        <title>Nudaurelia capensis omega virus maturation intermediates captured at pH5.6 (insect cell expressed VLPs)</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-7637-4303</authorORCID>
+            <firstName>David</firstName>
+            <middleName>Mark</middleName>
+            <lastName>Lawson</lastName>
+            <organization type="academic">John Innes Centre</organization>
+            <street>Colney Lane</street>
+            <townOrCity>Norwich</townOrCity>
+            <stateOrProvince>Norfolk</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>NR4 7UH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0003-0700-906X</authorORCID>
+            <firstName>George</firstName>
+            <middleName>Peter</middleName>
+            <lastName>Lomonossoff</lastName>
+            <organization type="academic">John Innes Centre</organization>
+            <street>Colney Lane</street>
+            <townOrCity>Norwich</townOrCity>
+            <stateOrProvince>Norfolk</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>NR4 7UH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-3985-6194">Castells-Graells R</author>
+            <author authorORCID="0000-0002-4522-0061">Hesketh EL</author>
+            <author authorORCID="0000-0001-9782-3721">Johnson JE</author>
+            <author authorORCID="0000-0002-3640-5275">Ranson NA</author>
+            <author authorORCID="0000-0002-7637-4303">Lawson DM</author>
+            <author authorORCID="0000-0003-0700-906X">Lomonossoff GP</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">21.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11083</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-15209</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0002-3985-6194" order="1">Castells-Graells R</author>
+                    <author authorORCID="0000-0002-4522-0061" order="2">Hesketh EL</author>
+                    <author authorORCID="0000-0001-9782-3721" order="3">Johnson JE</author>
+                    <author authorORCID="0000-0002-3640-5275" order="4">Ranson NA</author>
+                    <author authorORCID="0000-0002-7637-4303" order="5">Lawson DM</author>
+                    <author authorORCID="0000-0003-0700-906X" order="6">Lomonossoff GP</author>
+                    <title>Decoding virus maturation with cryo-EM structures of intermediates</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <language>English</language>
+                    <details>Data were acquired at a rate of 1.0 sec per movie using an average dose of 49.1 e-/Å2 across 39 frames, with a defocus range of -0.8 μm to -2.5 μm. Movie frames were aligned using MotionCor2 with 5 by 5 patches and B-factor of 150.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>unaligned movies</name>
+        <directory>/data/set1_Raw_data</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6952</numImagesOrTiltSeries>
+        <framesPerImage>39</framesPerImage>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.065</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.065</pixelHeight>
+        </dimensions>
+        <details>Micrographs are unaligned movies comprised of 39 frames each (accumulating 48.7 electron per squared Angstrom in a 1.0 second exposure)</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>unaligned movies</name>
+        <directory>/data/set2_Raw_data</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>9526</numImagesOrTiltSeries>
+        <framesPerImage>39</framesPerImage>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.065</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.065</pixelHeight>
+        </dimensions>
+        <details>Micrographs are unaligned movies comprised of 39 frames each (accumulating 50.4 electron per squared Angstrom in a 1.0 second exposure)</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>aligned and dose-weighted micrographs</name>
+        <directory>/data/set1_motion_corrected_data/aligned_and_dose_weighted_micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6952</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.065</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.065</pixelHeight>
+        </dimensions>
+        <details>Micrographs are averages of aligned and dose-weighted movies</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>aligned and dose-weighted micrographs</name>
+        <directory>/data/set2_motion_corrected_data/aligned_and_dose_weighted_micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>9526</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.065</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.065</pixelHeight>
+        </dimensions>
+        <details>Micrographs are averages of aligned and dose-weighted movies</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-19981">
+    <admin composite_map="true">
+        <current_status>
+            <date>2024-11-20</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2024-03-28</deposition>
+            <header_release>2024-09-04</header_release>
+            <map_release>2024-09-04</map_release>
+            <update>2024-11-20</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Swedish Research Council</funding_body>
+                <country>Sweden</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of the full-length Pseudomonas aeruginosa bacteriophytochrome in its Pr state</title>
+        <authors_list>
+            <author>Bodizs S</author>
+            <author>Westenhoff S</author>
+        </authors_list>
+        <keywords>Photosensor, Photoreceptor, Phytochrome, Bacterial protein, CYTOSOLIC PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Bodizs S</author>
+                    <author order="2">Meszaros P</author>
+                    <author order="3">Grunewald L</author>
+                    <author order="4">Takala H</author>
+                    <author order="5">Westenhoff S</author>
+                    <title>Cryo-EM structures of a bathy phytochrome histidine kinase reveal a unique light-dependent activation mechanism.</title>
+                    <journal_abbreviation>Structure</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>32</volume>
+                    <first_page>1952</first_page>
+                    <last_page>1962.e3</last_page>
+                    <year>2024</year>
+                    <external_references type="PUBMED">39216473</external_references>
+                    <external_references type="DOI">doi:10.1016/j.str.2024.08.008</external_references>
+                    <external_references type="ISSN">0969-2126</external_references>
+                    <external_references type="CSD">2005</external_references>
+                    <external_references type="ASTM">STRUE6</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-50007</emdb_id>
+                <relationship>
+                    <other>consensus EM volume</other>
+                </relationship>
+                <details>Consensus refinement for this entry</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-50008</emdb_id>
+                <relationship>
+                    <other>focused EM volume</other>
+                </relationship>
+                <details>Local refinement</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-50009</emdb_id>
+                <relationship>
+                    <other>focused EM volume</other>
+                </relationship>
+                <details>Local refinement</details>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>9eut</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Homodimeric complex of the protein bacteriophytochrome containing its cofactor biliverdin</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Homodimeric complex of the protein bacteriophytochrome containing its cofactor biliverdin</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="287">Pseudomonas aeruginosa</organism>
+                    <cellular_location>cytoplasm</cellular_location>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.16</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Bacteriophytochrome</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="287">Pseudomonas aeruginosa</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.08209486699999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTSITPVTLANCEDEPIHVPGAIQPHGALVTLRADGMVLAASENIQALLGFVASPGSYLTQEQVGPEVLRMLEEGLTGNG
+PWSNSVETRIGEHLFDVIGHSYKEVFYLEFEIRTADTLSITSFTLNAQRIIAQVQLHNDTASLLSNVTDELRRMTGYDRV
+MAYRFRHDDSGEVVAESRREDLESYLGQRYPASDIPAQARRLYIQNPIRLIADVAYTPMRVFPALNPETNESFDLSYSVL
+RSVSPIHCEYLTNMGVRASMSISIVVGGKLWGLFSCHHMSPKLIPYPVRMSFQIFSQVCSAIVERLEQGRIAELLRVSTE
+RRLALARRARDADDLFGALAHPDDGIAALIPCDGALVMLGGRTLSIRGDFERQAGNVLQRLQRDPERDIYHTDNWPQPSE
+DSPDGGDCCGVLAIRFHRQESGWIFWFRHEEVHRIRWGGKPEKLLTIGPSGPRLTPRGSFEAWEEVVRGHSTPWSETDLA
+IAEKLRLDLMELCLNHAAEVDRMRQRLIAVLGHDLRNPLQSISMAAALLSSSDTRTTELRQHISASSSRMERLVSQILDM
+SRLQSGIGLTVNPVDTDVSQLVRQIVCETDVAYPGLVIEIAIDPQVRAVVDPDRYAQVAANLLSNARHHGLPGRPVLVTL
+TRQGDEVCLSVLNETSGLSEAQLANLFEPFKRESADNQRNRNGLGIGLYISQAIAQAHQGRIDVDCRDDVITFCLRLPVR
+QAETGSSSLEHHHHHH</string>
+                    <external_references type="UNIPROTKB">Q9HWR3</external_references>
+                </sequence>
+                <ec_number>2.7.13.3</ec_number>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>3-[2-[(Z)-[3-(2-carboxyethyl)-5-[(Z)-(4-ethenyl-3-methyl-5-oxidanylidene-pyrrol-2-ylidene)methyl]-4-methyl-pyrrol-1-ium -2-ylidene]methyl]-5-[(Z)-[(3E)-3-ethylidene-4-methyl-5-oxidanylidene-pyrrolidin-2-ylidene]methyl]-4-methyl-1H-pyrrol-3- yl]propanoic acid</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0005856699999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>LBV</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1.5</concentration>
+                    <buffer>
+                        <ph>7.8</ph>
+                        <component>
+                            <concentration units="mM">80.0</concentration>
+                            <formula>C4H11NO3</formula>
+                            <name>Tris</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <formula>MgCl2</formula>
+                            <name>Magnesium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>CH3CO2K</formula>
+                            <name>Potassium acetate</name>
+                        </component>
+                        <details>80 mM Tris, 10 mM MgCl2, 150 mM CH3CO2K, pH 7.8</details>
+                    </buffer>
+                    <grid>
+                        <model>UltrAuFoil R1.2/1.3</model>
+                        <material>GOLD</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>GOLD</film_material>
+                            <film_topology>HOLEY</film_topology>
+                            <film_thickness>50.0</film_thickness>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">60</time>
+                            <atmosphere>OTHER</atmosphere>
+                            <pressure units="kPa">0.04</pressure>
+                        </pretreatment>
+                        <details>Current: 20 mA</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>Blotting for 5 s from both sides. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">2.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.0</nominal_defocus_max>
+                    <nominal_magnification>105000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Bioquantum</name>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">5760</width>
+                                    <height units="pixel">4092</height>
+                                </dimensions>
+                            </digitization_details>
+                            <number_grids_imaged>2</number_grids_imaged>
+                            <number_real_images>30336</number_real_images>
+                            <average_exposure_time units="s">1.7</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">50.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.95</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>v4.2.1</version>
+                        </software>
+                    </software_list>
+                    <details>Final map is a composite, input map 1 has a reported resolution of 2.95 A, map 2 has a reported resolution of 4.31 A</details>
+                    <number_images_used>889461</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>v4.2.1</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="256001">
+        <file>emd_19981.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>400</col>
+            <row>400</row>
+            <sec>400</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>400</x>
+            <y>400</y>
+            <z>400</z>
+        </spacing>
+        <cell>
+            <a units="Å">331.2</a>
+            <b units="Å">331.2</b>
+            <c units="Å">331.2</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-56.351813999999997</minimum>
+            <maximum>83.353874000000005</maximum>
+            <average>0.015432564</average>
+            <std>1.0491204</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.828</x>
+            <y units="Å">0.828</y>
+            <z units="Å">0.828</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>10.0</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-19981::::</label>
+        <annotation_details>Composite map generated with phenix combine maps.</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <chain>
+                        <source_name>AlphaFold</source_name>
+                        <initial_model_type>in silico model</initial_model_type>
+                    </chain>
+                </initial_model>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

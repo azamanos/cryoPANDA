@@ -1,0 +1,64 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10029" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2015-05-26</depositionDate>
+            <releaseDate>2015-06-18</releaseDate>
+            <updateDate>2023-01-25</updateDate>
+        </keyDates>
+        <title>A simulated cryoEM data set of GroEL particles</title>
+        <correspondingAuthor>
+            <firstName>Yuchen</firstName>
+            <lastName>Deng</lastName>
+            <organization type="academic">Institute of Biophysics, Chinese Academy of Sciences</organization>
+            <street>Room 8212, Datun Road 15, Chaoyang District</street>
+            <townOrCity>Beijing</townOrCity>
+            <country>China</country>
+            <postOrZipCode>100101</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <firstName>Fei</firstName>
+            <lastName>Sun</lastName>
+            <organization type="academic">Institute of Biophysics, Chinese Academy of Sciences</organization>
+            <street>Room 8212, Datun Road 15, Chaoyang District</street>
+            <townOrCity>Beijing</townOrCity>
+            <country>China</country>
+            <postOrZipCode>100101</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Deng Y</author>
+            <author>Sun F</author>
+        </authorsList>
+        <grantSupport/>
+        <datasetSize>1.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10029</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>In-silico-generated particle stack</name>
+        <directory>/data/mrcs</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>10000</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>200</imageWidth>
+            <pixelWidth>1.42</pixelWidth>
+            <imageHeight>200</imageHeight>
+            <pixelHeight>1.42</pixelHeight>
+        </dimensions>
+        <details>10000 particles in 50 mrcs image stacks: micrograph_001.mrcs -&gt; micrograph_050.mrcs
+Please see the README.md file in the /data directory.
+/data/micrograph_param.emx contains information about particle defoci and transformation in EMX format
+/data/params contains text files with the defoci and transformation of individual particle images (micrograph_001.params -&gt; micrograph_050.params)
+
+
+</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

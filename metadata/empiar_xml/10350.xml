@@ -1,0 +1,282 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10350" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-01-29</depositionDate>
+            <releaseDate>2020-05-29</releaseDate>
+            <updateDate>2020-05-29</updateDate>
+        </keyDates>
+        <title>Single particle cryo-EM dataset for LetB from E.coli</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-6050-2219</authorORCID>
+            <firstName>Nicolas</firstName>
+            <lastName>Coudray</lastName>
+            <organization type="academic">NYU</organization>
+            <street>540 1st Avenue, 2nd Floor Lab 14-17</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10016</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-0624-6178</authorORCID>
+            <firstName>Gira</firstName>
+            <lastName>Bhabha</lastName>
+            <organization type="academic">NYU</organization>
+            <street>540 1st Avenue, 2nd Floor Lab 14-17</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10016</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-2570-0404</authorORCID>
+            <firstName>Damian</firstName>
+            <middleName>C.</middleName>
+            <lastName>Ekiert</lastName>
+            <organization type="academic">NYU</organization>
+            <street>540 1st Avenue, 2nd Floor Lab 14-17</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10016</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-9023-705X">Isom GL</author>
+            <author authorORCID="0000-0002-6050-2219">Coudray N</author>
+            <author authorORCID="0000-0003-4941-9526">MacRae MR</author>
+            <author>McManus CT</author>
+            <author authorORCID="0000-0002-2570-0404">Ekiert DC</author>
+            <author authorORCID="0000-0003-0624-6178">Bhabha G</author>
+        </authorsList>
+        <datasetSize units="GB">928.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10350</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-20993</emdbEntry>
+            <emdbEntry>EMD-20994</emdbEntry>
+            <emdbEntry>EMD-20995</emdbEntry>
+            <emdbEntry>EMD-20996</emdbEntry>
+            <emdbEntry>EMD-20997</emdbEntry>
+            <emdbEntry>EMD-20998</emdbEntry>
+            <emdbEntry>EMD-20999</emdbEntry>
+            <emdbEntry>EMD-21000</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-9023-705X" order="1">Isom GL</author>
+                    <author authorORCID="0000-0002-6050-2219" order="2">Coudray N</author>
+                    <author authorORCID="0000-0003-4941-9526" order="3">MacRae MR</author>
+                    <author order="4">McManus CT</author>
+                    <author authorORCID="0000-0002-2570-0404" order="5">Ekiert DC</author>
+                    <author authorORCID="0000-0003-0624-6178" order="6">Bhabha G</author>
+                    <title>LetB Structure Reveals a Tunnel for Lipid Transport across the Bacterial Envelope</title>
+                    <journal>Cell</journal>
+                    <journalAbbreviation>Cell</journalAbbreviation>
+                    <country></country>
+                    <issue>3</issue>
+                    <volume>181</volume>
+                    <firstPage>653</firstPage>
+                    <lastPage>664.e19</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.cell.2020.03.030</externalReferences>
+                    <externalReferences type="pubmed">32359438</externalReferences>
+                    <details>The 4905 micrographs were motion corrected with MotionCor2 (Zheng et al. 2017).</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned, dose-weighted and non-dose-weighted micrographs</name>
+        <directory>/data/aligned_micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4905</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.31</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.31</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/aligned_micrographs/*DW.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/picked_particles/group1/*star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/picked_particles/group1/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particle stacks for Model 1 (EMD-20993)</name>
+        <directory>/data/Particles_Stacks_Model_1</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>61618</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>280</imageWidth>
+            <pixelWidth>1.31</pixelWidth>
+            <imageHeight>280</imageHeight>
+            <pixelHeight>1.31</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particle stacks for Model 2 (EMD-20994)</name>
+        <directory>/data/Particles_Stacks_Model_2</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>57157</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>280</imageWidth>
+            <pixelWidth>1.31</pixelWidth>
+            <imageHeight>280</imageHeight>
+            <pixelHeight>1.31</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particle stacks for Model 3 (EMD-20995)</name>
+        <directory>/data/Particles_Stacks_Model_3</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>101464</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>280</imageWidth>
+            <pixelWidth>1.31</pixelWidth>
+            <imageHeight>280</imageHeight>
+            <pixelHeight>1.31</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particle stacks for Model 4 (EMD-20996)</name>
+        <directory>/data/Particles_Stacks_Model_4</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>144219</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>280</imageWidth>
+            <pixelWidth>1.31</pixelWidth>
+            <imageHeight>280</imageHeight>
+            <pixelHeight>1.31</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particle stacks for Model 5 (EMD-20997)</name>
+        <directory>/data/Particles_Stacks_Model_5</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>147415</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>280</imageWidth>
+            <pixelWidth>1.31</pixelWidth>
+            <imageHeight>280</imageHeight>
+            <pixelHeight>1.31</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particle stacks for Model 6 (EMD-20998)</name>
+        <directory>/data/Particles_Stacks_Model_6</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>71235</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>280</imageWidth>
+            <pixelWidth>1.31</pixelWidth>
+            <imageHeight>280</imageHeight>
+            <pixelHeight>1.31</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particle stacks for Model 7 (EMD-20999)</name>
+        <directory>/data/Particles_Stacks_Model_7</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>59687</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>280</imageWidth>
+            <pixelWidth>1.31</pixelWidth>
+            <imageHeight>280</imageHeight>
+            <pixelHeight>1.31</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particle stacks for Model 8 (EMD-21000)</name>
+        <directory>/data/Particles_Stacks_Model_8</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>21149</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>280</imageWidth>
+            <pixelWidth>1.31</pixelWidth>
+            <imageHeight>280</imageHeight>
+            <pixelHeight>1.31</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

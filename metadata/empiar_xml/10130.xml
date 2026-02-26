@@ -1,0 +1,178 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10130" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2017-12-05</depositionDate>
+            <releaseDate>2017-12-15</releaseDate>
+            <updateDate>2022-07-14</updateDate>
+        </keyDates>
+        <title>CryoET of rabbit muscle aldolase single particle super-res</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0624-5020</authorORCID>
+            <firstName>Bridget</firstName>
+            <lastName>Carragher</lastName>
+            <organization type="academic">New York Structural Biology Center</organization>
+            <street>89 Convent Avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0624-5020</authorORCID>
+            <firstName>Bridget</firstName>
+            <lastName>Carragher</lastName>
+            <organization type="academic">New York Structural Biology Center</organization>
+            <street>89 Convent Avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-8634-2279">Noble AJ</author>
+            <author>Dandey VP</author>
+            <author>Wei H</author>
+            <author>Brasch J</author>
+            <author>Chase J</author>
+            <author>Acharya P</author>
+            <author authorORCID="0000-0001-6656-6320">Tan YZ</author>
+            <author>Zhang Z</author>
+            <author>Kim LY</author>
+            <author>Scapin G</author>
+            <author>Rapp M</author>
+            <author authorORCID="0000-0002-8014-7269">Eng ET</author>
+            <author>Rice WJ</author>
+            <author>Cheng A</author>
+            <author>Negro CJ</author>
+            <author>Shapiro L</author>
+            <author>Kwong PD</author>
+            <author>Jeruzalmi D</author>
+            <author>des Georges A</author>
+            <author>Potter CS</author>
+            <author authorORCID="0000-0002-0624-5020">Carragher B</author>
+        </authorsList>
+        <datasetSize units="GB">998.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10130</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-7138</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-8634-2279" order="1">Noble AJ</author>
+                    <author order="2">Dandey VP</author>
+                    <author order="3">Wei H</author>
+                    <author order="4">Brasch J</author>
+                    <author order="5">Chase J</author>
+                    <author order="6">Acharya P</author>
+                    <author authorORCID="0000-0001-6656-6320" order="7">Tan YZ</author>
+                    <author order="8">Zhang Z</author>
+                    <author order="9">Kim LY</author>
+                    <author order="10">Scapin G</author>
+                    <author order="11">Rapp M</author>
+                    <author authorORCID="0000-0002-8014-7269" order="12">Eng ET</author>
+                    <author order="13">Rice WJ</author>
+                    <author order="14">Cheng A</author>
+                    <author order="15">Negro CJ</author>
+                    <author order="16">Shapiro L</author>
+                    <author order="17">Kwong PD</author>
+                    <author authorORCID="0000-0001-5886-1370" order="18">Jeruzalmi D</author>
+                    <author order="19">des Georges A</author>
+                    <author authorORCID="0000-0003-2394-0831" order="20">Potter CS</author>
+                    <author authorORCID="0000-0002-0624-5020" order="21">Carragher B</author>
+                    <title>Routine single particle CryoEM sample and grid characterization by tomography</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation>Elife</journalAbbreviation>
+                    <country></country>
+                    <volume>7</volume>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.7554/elife.34257</externalReferences>
+                    <externalReferences type="pubmed">29809143</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Super-resolution K2 tilt-series frames</name>
+        <directory>/data/frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>60</numImagesOrTiltSeries>
+        <framesPerImage>5</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>7420</imageWidth>
+            <pixelWidth>0.5595</pixelWidth>
+            <imageHeight>7676</imageHeight>
+            <pixelHeight>0.5595</pixelHeight>
+        </dimensions>
+        <details>- 1 mg/ml rabbit muscle aldolase on a gold Spotiton nanowire grid,
+- Collected bi-directionally from [-12:45] then [-12:-45] with 3 degree tilt increment,
+- Collected ~50 nm away from the edge of 1-2 micron diameter holes because farther out there are no particles,
+- Ice is about 15-25 nm thin,
+- Collected with a random defocus range between 1.2 and 2.2 microns,
+- Collected at 105kx mag = 1.119 angstrom pixelsize, 0.5595 angstrom pixelsize at super-res (calibrated: 0.530245),
+- 15-20 eV slit at ZLP (I think most was 15 eV, I don't remember), re-aligned automatically every 1.25 hours,
+- ~8 e-/px/s dose rate on the camera,
+- 1.54 e-/A^2 for tilt angles up to 24 degrees, 1.84 e-/A^2 for 27 to 39 degrees, 2.15 e-/A^2 for 42 and 45 degrees,
+- 100 ms frames,
+- 5-7 frames per tilt image, depending on tilt (cosine increase in dose),
+- ~&lt; 1 angstrom per-image drift at all tilt angles,
+- tiltseries0003 and tiltseries0004 were collected without the objective aperture in.
+- Gain and dark references included.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Whole-frame aligned tilt images along with all other magnification images from the collection</name>
+        <directory>/data/leginon</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>60</numImagesOrTiltSeries>
+        <framesPerImage>5</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>7420</imageWidth>
+            <pixelWidth>0.5595</pixelWidth>
+            <imageHeight>7676</imageHeight>
+            <pixelHeight>0.5595</pixelHeight>
+        </dimensions>
+        <details>Whole-frame aligned tilt images using Motioncor2.
+Calibrated pixelsize: 0.530245</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Appion-Protomo tilt-series alignments</name>
+        <directory>/data/protomo_alignments</directory>
+        <category>tilt series</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>30</numImagesOrTiltSeries>
+        <framesPerImage>5</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>7420</imageWidth>
+            <pixelWidth>0.5595</pixelWidth>
+            <imageHeight>7676</imageHeight>
+            <pixelHeight>0.5595</pixelHeight>
+        </dimensions>
+        <details>Includes a full tilt-series alignment run for 30 of the ~50 good tilt-series. To view properly, navigate to the protomo_alignments folder in Appion-Protomo.
+Calibrated pixelsize: 0.530245</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

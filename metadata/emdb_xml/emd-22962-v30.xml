@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-22962">
+    <admin>
+        <current_status>
+            <date>2024-11-06</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-11-06</deposition>
+            <header_release>2021-02-24</header_release>
+            <map_release>2021-02-24</map_release>
+            <update>2024-11-06</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Health and Medical Research Council (NHMRC, Australia)</funding_body>
+                <code>1061044</code>
+                <country>Australia</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Health and Medical Research Council (NHMRC, Australia)</funding_body>
+                <code>1065410</code>
+                <country>Australia</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Health and Medical Research Council (NHMRC, Australia)</funding_body>
+                <code>1126857</code>
+                <country>Australia</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Health and Medical Research Council (NHMRC, Australia)</funding_body>
+                <code>1055134</code>
+                <country>Australia</country>
+            </grant_reference>
+        </grant_support>
+        <title>CryoEM structure of the apo-CGRP receptor in a detergent micelle</title>
+        <authors_list>
+            <author>Belousoff MJ</author>
+            <author>Danev R</author>
+        </authors_list>
+        <keywords>GPCR, CGRP receptor, apo receptor, MEMBRANE PROTEIN, SIGNALING PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Josephs TM</author>
+                    <author order="2">Belousoff MJ</author>
+                    <author order="3">Liang YL</author>
+                    <author order="4">Piper SJ</author>
+                    <author order="5">Cao J</author>
+                    <author order="6">Garama DJ</author>
+                    <author order="7">Leach K</author>
+                    <author order="8">Gregory KJ</author>
+                    <author order="9">Christopoulos A</author>
+                    <author order="10">Hay DL</author>
+                    <author order="11">Danev R</author>
+                    <author order="12">Wootten D</author>
+                    <author order="13">Sexton PM</author>
+                    <title>Structure and dynamics of the CGRP receptor in apo and peptide-bound forms.</title>
+                    <journal_abbreviation>Science</journal_abbreviation>
+                    <country>US</country>
+                    <volume>372</volume>
+                    <year>2021</year>
+                    <external_references type="PUBMED">33602864</external_references>
+                    <external_references type="DOI">doi:10.1126/science.abf7258</external_references>
+                    <external_references type="ISSN">1095-9203</external_references>
+                    <external_references type="CSD">0038</external_references>
+                    <external_references type="ASTM">SCIEAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7knt</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>apo CGRP receptor</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>apo CGRP receptor</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Receptor activity-modifying protein 1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.017066701</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7111">Trichoplusia ni</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKTIIALSYIFCLVFADYKDDDDKHGSCQEANYGALLRELCLTQFQVDMEAVGETLWCDWGRTIRSYRELADCTWHMAEK
+LGCFWPNAEVDRFFLAVHGRYFRSCPISGRAVRDPPGSILYPFIVVPITVTLLVTALVVWQSKRTEGIV</string>
+                    <external_references type="UNIPROTKB">O60894</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Calcitonin gene-related peptide type 1 receptor</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.056274519999999995</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7111">Trichoplusia ni</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKTIIALSYIFCLVFADYKDDDDLEVLFQGPAELEESPEDSIQLGVTRNKIMTAQYECYQKIMQDPIQQAEGVYCNRTWD
+GWLCWNDVAAGTESMQLCPDYFQDFDPSEKVTKICDQDGNWFRHPASNRTWTNYTQCNVNTHEKVKTALNLFYLTIIGHG
+LSIASLLISLGIFFYFKSLSCQRITLHKNLFFSFVCNSVVTIIHLTAVANNQALVATNPVSCKVSQFIHLYLMGCNYFWM
+LCEGIYLHTLIVVAVFAEKQHLMWYYFLGWGFPLIPACIHAIARSLYYNDNCWISSDTHLLYIIHGPICAALLVNLFFLL
+NIVRVLITKLKVTHQAESNLYMKAVRATLILVPLLGIEFVLIPWRPEGKIAEEVYDYIMHILMHFQGLLVSTIFCFFNGE
+VQAILRRNWNQYKIQFGNSFSNSEALRSASYTVSTISDGPGYSHDCPSEHLNGKSIHDIENVLLKPENLYNPAGLEVLFQ
+GPHHHHHHHH</string>
+                    <external_references type="UNIPROTKB">Q16602</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">57.3</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="INSILICO MODEL"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.15</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>542650</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="55297">
+        <file>emd_22962.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>240</col>
+            <row>240</row>
+            <sec>240</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>240</x>
+            <y>240</y>
+            <z>240</z>
+        </spacing>
+        <cell>
+            <a units="Å">199.2</a>
+            <b units="Å">199.2</b>
+            <c units="Å">199.2</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.7466571</minimum>
+            <maximum>1.1903777</maximum>
+            <average>-0.0004136011</average>
+            <std>0.03664197</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.83</x>
+            <y units="Å">0.83</y>
+            <z units="Å">0.83</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.277</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-22962::::</label>
+        <annotation_details>Main map output from cryoSPARC, non-uniform refinement</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_22962_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="55297">
+                <file>emd_22962_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>240</col>
+                    <row>240</row>
+                    <sec>240</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>240</x>
+                    <y>240</y>
+                    <z>240</z>
+                </spacing>
+                <cell>
+                    <a units="Å">199.2</a>
+                    <b units="Å">199.2</b>
+                    <c units="Å">199.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.12042312</minimum>
+                    <maximum>0.16768274</maximum>
+                    <average>0.00008756904</average>
+                    <std>0.0021449358</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.83</x>
+                    <y units="Å">0.83</y>
+                    <z units="Å">0.83</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-22962::::</label>
+                <annotation_details>Map refined using the SIDESPLITTER reconstruction in combination with RELION 3.1</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="55297">
+                <file>emd_22962_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>240</col>
+                    <row>240</row>
+                    <sec>240</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>240</x>
+                    <y>240</y>
+                    <z>240</z>
+                </spacing>
+                <cell>
+                    <a units="Å">199.2</a>
+                    <b units="Å">199.2</b>
+                    <c units="Å">199.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.0412786</minimum>
+                    <maximum>1.5959673</maximum>
+                    <average>0.0017201272</average>
+                    <std>0.12644564</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.83</x>
+                    <y units="Å">0.83</y>
+                    <z units="Å">0.83</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-22962::::</label>
+                <annotation_details>Half map1</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="55297">
+                <file>emd_22962_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>240</col>
+                    <row>240</row>
+                    <sec>240</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>240</x>
+                    <y>240</y>
+                    <z>240</z>
+                </spacing>
+                <cell>
+                    <a units="Å">199.2</a>
+                    <b units="Å">199.2</b>
+                    <c units="Å">199.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.0612981</minimum>
+                    <maximum>1.6744595</maximum>
+                    <average>0.001716359</average>
+                    <std>0.12652552</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.83</x>
+                    <y units="Å">0.83</y>
+                    <z units="Å">0.83</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-22962::::</label>
+                <annotation_details>Half map2</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

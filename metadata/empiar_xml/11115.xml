@@ -1,0 +1,115 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11115" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-05-16</depositionDate>
+            <releaseDate>2022-10-31</releaseDate>
+            <updateDate>2022-10-31</updateDate>
+        </keyDates>
+        <title>Cryo-EM dataset of P.berghei kinesin-8B motor domains in no nucleotide state bound to tubulin dimer</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0001-5686-6290</authorORCID>
+            <firstName>Carolyn</firstName>
+            <lastName>Moores</lastName>
+            <organization type="academic">Institute of Structural and Molecular Biology,Birkbeck College,London</organization>
+            <townOrCity>London</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>WC1E 7HX</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0001-5686-6290</authorORCID>
+            <firstName>Carolyn</firstName>
+            <lastName>Moores</lastName>
+            <organization type="academic">Institute of Structural and Molecular Biology, Birkbeck College</organization>
+            <street>()</street>
+            <townOrCity>London</townOrCity>
+            <stateOrProvince>()</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>WC1E 7HX</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-2598-8572">Liu T</author>
+            <author authorORCID="0000-0002-9275-0604">Shilliday F</author>
+            <author authorORCID="0000-0003-1283-1541">Cook AD</author>
+            <author authorORCID="0000-0001-5686-6290">Moores CA</author>
+        </authorsList>
+        <datasetSize>890.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11115</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-14459</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author authorORCID="0000-0003-2598-8572" order="1">Liu T</author>
+                    <author authorORCID="0000-0002-9275-0604" order="2">Shilliday F</author>
+                    <author authorORCID="0000-0003-1283-1541" order="3">Cook AD</author>
+                    <author order="4">Tewari R</author>
+                    <author authorORCID="0000-0003-1592-6407" order="5">Sutherland CJ</author>
+                    <author order="6">Roberts AJ</author>
+                    <author authorORCID="0000-0001-5686-6290" order="7">Moores CA</author>
+                    <title>Mechanochemical tuning of a kinesin motor essential for malaria parasite transmission</title>
+                    <journal>bioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <year>2022</year>
+                    <externalReferences type="doi">10.1101/2022.02.11.480087</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion corrected micrographs of P.berghei kinesin-8B motor domain in no nucleotide state bound to tubulin dimer</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>329</numImagesOrTiltSeries>
+        <framesPerImage>24</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>24</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.35</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.35</pixelHeight>
+        </dimensions>
+        <details>Dataset was collected on a Tecnai G2 Polara with K2 camera operating in counting mode with a GIF Quantum LS imaging Filter and motion corrected using MotionCor2.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of P.berghei kinesin-8B motor domain in no nucleotide state bound to tubulin dimer.</name>
+        <directory>/data/rawdata</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>329</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>50</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.35</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.35</pixelHeight>
+        </dimensions>
+        <details>Dataset was collected on a Tecnai G2 Polara with K2 camera operating in counting mode with a GIF Quantum LS imaging Filter and motion corrected using MotionCor2.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

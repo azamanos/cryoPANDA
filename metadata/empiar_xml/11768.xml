@@ -1,0 +1,90 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11768" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-11-08</depositionDate>
+            <releaseDate>2025-04-07</releaseDate>
+            <updateDate>2025-04-07</updateDate>
+        </keyDates>
+        <title>Cryo-EM Structure of an Enterobacter GH43 Beta-Xylosidase</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0613-9164</authorORCID>
+            <firstName>Andre</firstName>
+            <middleName>Schutzer</middleName>
+            <lastName>Godoy</lastName>
+            <organization type="academic">Instituto de Fisica de Sao Carlos, Universidade de Sao Paulo, Sao Carlos, SP, Brazil</organization>
+            <street>Av. João Dagnone, 1100</street>
+            <townOrCity>Sao Carlos</townOrCity>
+            <stateOrProvince>SP</stateOrProvince>
+            <country>Brazil</country>
+            <postOrZipCode>13563-120</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Igor</firstName>
+            <lastName>Polikarpov</lastName>
+            <organization type="academic">Instituto de Fisica de Sao Carlos, Universidade de Sao Paulo, Sao Carlos, SP, Brazil</organization>
+            <townOrCity>Sao Carlos</townOrCity>
+            <country>Brazil</country>
+            <postOrZipCode>13563-120</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Godoy AS</author>
+            <author>Briganti L</author>
+            <author>Polikarpov I</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Sao Paulo Research Foundation (FAPESP)</fundingBody>
+                <code>NA</code>
+                <country>Brazil</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">1.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11768</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-42680</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author order="1">Godoy AS</author>
+                    <author order="2">Briganti L</author>
+                    <author order="3">Polikarpov I</author>
+                    <title>Cryo-EM Structure of an Enterobacter GH43 Beta-Xylosidase</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country>Brazil</country>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned multiframe micrographs</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>10176</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>15</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.67</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.67</pixelHeight>
+        </dimensions>
+        <details>Aligned micrographs on cryosparc</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/motioncorrected/*_Fractions_patch_aligned_doseweighted.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

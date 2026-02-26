@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_7/emdb.xsd" emdb_id="EMD-9718" version="3.0.1.7">
+    <admin>
+        <current_status>
+            <date>2020-02-12</date>
+            <code>REL</code>
+            <processing_site>PDBj</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBj</deposition>
+            <last_processing>PDBj</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2018-11-13</deposition>
+            <header_release>2019-04-10</header_release>
+            <map_release>2019-04-10</map_release>
+            <update>2020-02-12</update>
+        </key_dates>
+        <title>The crosslinked complex of ISWI-nucleosome in the ADP.BeF-bound state</title>
+        <authors_list>
+            <author>Yan LJ</author>
+            <author>Wu H</author>
+            <author>Li XM</author>
+            <author>Gao N</author>
+            <author>Chen ZC</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Yan L</author>
+                    <author order="2">Wu H</author>
+                    <author order="3">Li X</author>
+                    <author order="4">Gao N</author>
+                    <author order="5">Chen Z</author>
+                    <title>Structures of the ISWI-nucleosome complex reveal a conserved mechanism of chromatin remodeling.</title>
+                    <journal_abbreviation>Nat. Struct. Mol. Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>26</volume>
+                    <first_page>258</first_page>
+                    <last_page>266</last_page>
+                    <year>2019</year>
+                    <external_references type="PUBMED">30872815</external_references>
+                    <external_references type="DOI">doi:10.1038/s41594-019-0199-9</external_references>
+                    <external_references type="ISSN">1545-9985</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-9719</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>the complex of ISWI-nucleosome in the ADP.BeF-bound state</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-9718</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+                <details>the crosslinked complex of ISWI-nucleosome in the ADP.BeF-bound state</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-9720</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>n the ADP-bound state</details>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6jyl</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>ISWI-nucleosome-crosslinked</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>ISWI-nucleosome-crosslinked</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <molecular_weight>
+                    <theoretical units="MDa">0.3</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>ISWI</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="559292">Saccharomyces cerevisiae (strain ATCC 204508 / S288c)</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="83333">Escherichia coli K-12</recombinant_organism>
+                </recombinant_expression>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>nucleosome</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="8355">Xenopus laevis</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="83333">Escherichia coli K-12</recombinant_organism>
+                </recombinant_expression>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="4">
+                <name>DNA</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli K-12</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="83333">Escherichia coli K-12</recombinant_organism>
+                </recombinant_expression>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Histone H3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="8355">Xenopus laevis</organism>
+                    <organ>no</organ>
+                    <tissue>no</tissue>
+                    <cell>no</cell>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.01530393</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="83333">Escherichia coli K-12</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>ARTKQTARKSTGGKAPRKQLATKAARKSAPATGGVKKPHRYRPGTVALREIRRYQKSTELLIRKLPFQRLVREIAQDFKT
+DLRFQSSAVMALQEASEAYLVALFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Histone H4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="8355">Xenopus laevis</organism>
+                    <organ>no</organ>
+                    <tissue>no</tissue>
+                    <cell>no</cell>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011263231</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="83333">Escherichia coli K-12</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SGRGKGGKGLGKGGAKRHRKVLRDNIQGITKPAIRRLARRGGVKRISGLIYEETRGVLKVFLENVIRDAVTYTEHAKRKT
+VTAMDVVYALKRQGRTLYGFGG</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Histone H2A</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="8355">Xenopus laevis</organism>
+                    <organ>no</organ>
+                    <tissue>no</tissue>
+                    <cell>no</cell>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013978241</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="83333">Escherichia coli K-12</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SGRGKQGGKTRAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLTAEILELAGNAARDNKKTRIIP
+RHLQLAVRNDEELNKLLGRVTIAQGGVLPNIQSVLLPKKTESSKSAKSK</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Histone H2B 1.1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="8355">Xenopus laevis</organism>
+                    <organ>no</organ>
+                    <tissue>no</tissue>
+                    <cell>no</cell>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013524752</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="83333">Escherichia coli K-12</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>AKSAPAPKKGSKKAVTKTQKKDGKKRRKTRKESYAIYVYKVLKQVHPDTGISSKAMSIMNSFVNDVFERIAGEASRLAHY
+NKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSAK</string>
+                </sequence>
+            </protein_or_peptide>
+            <dna macromolecule_id="5">
+                <name>DNA (167-MER)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli K-12</organism>
+                    <organ>no</organ>
+                    <tissue>no</tissue>
+                    <cell>no</cell>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.051357734</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>(DC)(DT)(DC)(DG)(DA)(DG)(DA)(DA)(DT)(DC)(DC)(DC)(DG)(DG)(DT)(DG)(DC)(DC)(DG)(DA)
+(DG)(DG)(DC)(DC)(DG)(DC)(DT)(DC)(DA)(DA)(DT)(DT)(DG)(DG)(DT)(DC)(DG)(DT)(DA)(DG)
+(DA)(DC)(DA)(DG)(DC)(DT)(DC)(DT)(DA)(DG)(DC)(DA)(DC)(DC)(DG)(DC)(DT)(DT)(DA)(DA)
+(DA)(DC)(DG)(DC)(DA)(DC)(DG)(DT)(DA)(DC)(DG)(DC)(DG)(DC)(DT)(DG)(DT)(DC)(DC)(DC)
+(DC)(DC)(DG)(DC)(DG)(DT)(DT)(DT)(DT)(DA)(DA)(DC)(DC)(DG)(DC)(DC)(DA)(DA)(DG)(DG)
+(DG)(DG)(DA)(DT)(DT)(DA)(DC)(DT)(DC)(DC)(DC)(DT)(DA)(DG)(DT)(DC)(DT)(DC)(DC)(DA)
+(DG)(DG)(DC)(DA)(DC)(DG)(DT)(DG)(DT)(DC)(DA)(DG)(DA)(DT)(DA)(DT)(DA)(DT)(DA)(DC)
+(DA)(DT)(DC)(DC)(DG)(DA)(DT)(DA)(DG)(DC)(DT)(DT)(DG)(DT)(DC)(DG)(DA)(DG)(DA)(DA)
+(DG)(DT)(DA)(DC)(DT)(DA)(DG)</string>
+                </sequence>
+                <classification>DNA</classification>
+            </dna>
+            <protein_or_peptide macromolecule_id="6">
+                <name>DNA (167-MER)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli K-12</organism>
+                    <organ>no</organ>
+                    <tissue>no</tissue>
+                    <cell>no</cell>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.051811938</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="83333">Escherichia coli K-12</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>(DC)(DT)(DA)(DG)(DT)(DA)(DC)(DT)(DT)(DC)(DT)(DC)(DG)(DA)(DC)(DA)(DA)(DG)(DC)(DT)
+(DA)(DT)(DC)(DG)(DG)(DA)(DT)(DG)(DT)(DA)(DT)(DA)(DT)(DA)(DT)(DC)(DT)(DG)(DA)(DC)
+(DA)(DC)(DG)(DT)(DG)(DC)(DC)(DT)(DG)(DG)(DA)(DG)(DA)(DC)(DT)(DA)(DG)(DG)(DG)(DA)
+(DG)(DT)(DA)(DA)(DT)(DC)(DC)(DC)(DC)(DT)(DT)(DG)(DG)(DC)(DG)(DG)(DT)(DT)(DA)(DA)
+(DA)(DA)(DC)(DG)(DC)(DG)(DG)(DG)(DG)(DG)(DA)(DC)(DA)(DG)(DC)(DG)(DC)(DG)(DT)(DA)
+(DC)(DG)(DT)(DG)(DC)(DG)(DT)(DT)(DT)(DA)(DA)(DG)(DC)(DG)(DG)(DT)(DG)(DC)(DT)(DA)
+(DG)(DA)(DG)(DC)(DT)(DG)(DT)(DC)(DT)(DA)(DC)(DG)(DA)(DC)(DC)(DA)(DA)(DT)(DT)(DG)
+(DA)(DG)(DC)(DG)(DG)(DC)(DC)(DT)(DC)(DG)(DG)(DC)(DA)(DC)(DC)(DG)(DG)(DG)(DA)(DT)
+(DT)(DC)(DT)(DC)(DG)(DA)(DG)</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="7">
+                <name>ISWI chromatin-remodeling complex ATPase ISW1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="559292">Saccharomyces cerevisiae (strain ATCC 204508 / S288c)</organism>
+                    <strain>ATCC 204508 / S288c</strain>
+                    <organ>no</organ>
+                    <tissue>no</tissue>
+                    <cell>no</cell>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.123170516</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="83333">Escherichia coli K-12</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>ENLKPFQVGLPPHDPESNKKRYLLKDANGKKFDLEGTTKRFEHLLSLSGLFKHFIESKAAKDPKFRQVLDVLEENKANGK
+GKGKHQDVRRRKTEHEEDAELLKEEDSDDDESIEFQFRESPAYVNGQLRPYQIQGVNWLVSLHKNKIAGILADEMGLGKT
+LQTISFLGYLRYIEKIPGPFLVIAPKSTLNNWLREINRWTPDVNAFILQGDKEERAELIQKKLLGCDFDVVIASYEIIIR
+EKSPLKKINWEYIIIDEAHRIKNEESMLSQVLREFTSRNRLLITGTPLQNNLHELWALLNFLLPDIFSDAQDFDDWFSSE
+STEEDQDKIVKQLHTVLQPFLLRRIKSDVETSLLPKKELNLYVGMSSMQKKWYKKILEKDLDAVNGSNGSKESKTRLLNI
+MMQLRKCCNHPYLFDGAEPGPPYTTDEHLVYNAAKLQVLDKLLKKLKEEGSRVLIFSQMSRLLDILEDYCYFRNYEYCRI
+DGSTAHEDRIQAIDDYNAPDSKKFVFLLTTRAGGLGINLTSADVVVLYDSDWNPQADLQAMDRAHRIGQKKQVKVFRLVT
+DNSVEEKILERATQKLRLDQLVIQQNRTSLKKKENKADSKDALLSMIQHGAADVFKSGTSTGSAGTPEPGSGEKGDDIDL
+DELLLKSENKTKSLNAKYETLGLDDLQKFNQDSAYEWNGQDFKKKIQRDIISPLLLNPTKRERKENYSIDNYYKDVLNTG
+RSSTPSHPRMPKPHVFHSHQLQPPQLKVLYEKERMWTAKKTGYVPTMDDVKAAYGDISDEEEKKQKLELLKLSVNNSQPL
+TEEEEKMKADWESEGFTNWNKLEFRKFITVSGKYGRNSIQAIARELAPGKTLEEVRAYAKAFWSNIERIEDYEKYLKIIE
+NEEEKIKRVKMQQEALRRKLSEYKNPFFDLKLKHPPSSNNKRTYSEEEDRFILLMLFKYGLDRDDVYELVRDEIRDCPLF
+ELDFYFRSRTPVELARRGNTLLQCLEKEFNAGIVLDDATKDRMKKEDENGKRIREEFADQTANEKENVDGVESKKAKIED
+TSNVGTEQLVAEKIPENETTH</string>
+                </sequence>
+                <ec_number>3.6.4.-</ec_number>
+            </protein_or_peptide>
+            <ligand macromolecule_id="8">
+                <name>ADENOSINE-5'-DIPHOSPHATE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000427201</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>ADP</formula>
+            </ligand>
+            <ligand macromolecule_id="9">
+                <name>BERYLLIUM TRIFLUORIDE ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">6.6007e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>BEF</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>threeDArray</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>8.5</ph>
+                        <component>
+                            <concentration units="mg/ml">1.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                            <film_thickness units="nm">20.0</film_thickness>
+                        </support_film>
+                        <pretreatment>
+                            <type>PLASMA CLEANING</type>
+                            <atmosphere>AIR</atmosphere>
+                            <pressure units="kPa">101.325</pressure>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>blot 1.5s. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN</microscope>
+                    <illumination_mode>SPOT SCAN</illumination_mode>
+                    <imaging_mode>DIFFRACTION</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">70.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">1.2</nominal_defocus_min>
+                    <calibrated_defocus_min units="µm">1.2</calibrated_defocus_min>
+                    <nominal_defocus_max units="µm">5.0</nominal_defocus_max>
+                    <calibrated_defocus_max units="µm">5.0</calibrated_defocus_max>
+                    <nominal_magnification>130000.0</nominal_magnification>
+                    <calibrated_magnification>29000.0</calibrated_magnification>
+                    <specimen_holder_model>GATAN ULTST ULTRA LOW TEMPERATURE SINGLE TILT HELIUM COOLING HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <temperature>
+                        <temperature_min units="K">70.0</temperature_min>
+                        <temperature_max units="K">80.0</temperature_max>
+                    </temperature>
+                    <alignment_procedure>
+                        <coma_free>
+                            <residual_tilt units="mrad">0.1</residual_tilt>
+                        </coma_free>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF 2000</name>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <details>no</details>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 QUANTUM (4k x 4k)</film_or_detector_model>
+                            <detector_mode>SUPER-RESOLUTION</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">1034</width>
+                                    <height units="pixel">1034</height>
+                                </dimensions>
+                                <sampling_interval units="µm">10.0</sampling_interval>
+                                <frames_per_image>3-39</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>2</number_grids_imaged>
+                            <number_real_images>5000</number_real_images>
+                            <average_exposure_time units="s">12.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">1.5</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                            <processing_details>no</processing_details>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>5X0Y</pdb_id>
+                    </pdb_model>
+                    <details>snf2</details>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>5</number_classes_used>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">3.37</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                            <processing_details>no</processing_details>
+                        </software>
+                    </software_list>
+                    <number_images_used>316230</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                            <processing_details>no</processing_details>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                            <processing_details>no</processing_details>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>5</number_classes>
+                    <average_number_members_per_class>50</average_number_members_per_class>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                            <processing_details>no</processing_details>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="55297">
+        <file>emd_9718.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>240</col>
+            <row>240</row>
+            <sec>240</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>240</x>
+            <y>240</y>
+            <z>240</z>
+        </spacing>
+        <cell>
+            <a units="Å">256.80002</a>
+            <b units="Å">256.80002</b>
+            <c units="Å">256.80002</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.04924471</minimum>
+            <maximum>0.12015387</maximum>
+            <average>0.00028049358</average>
+            <std>0.005162766</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.07</x>
+            <y units="Å">1.07</y>
+            <z units="Å">1.07</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0216</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-9718::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>5X0Y</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <residue_range>1-1000</residue_range>
+                    </chain>
+                </initial_model>
+                <target_criteria>correlation coefficient</target_criteria>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>200</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="55297">
+                <file>emd_9718_additional.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>240</col>
+                    <row>240</row>
+                    <sec>240</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>240</x>
+                    <y>240</y>
+                    <z>240</z>
+                </spacing>
+                <cell>
+                    <a units="Å">256.80002</a>
+                    <b units="Å">256.80002</b>
+                    <c units="Å">256.80002</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.100009866</minimum>
+                    <maximum>0.22176865</maximum>
+                    <average>0.00052543246</average>
+                    <std>0.0057862806</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.07</x>
+                    <y units="Å">1.07</y>
+                    <z units="Å">1.07</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-9718::::</label>
+            </additional_map>
+        </additional_map_list>
+    </interpretation>
+</emd>

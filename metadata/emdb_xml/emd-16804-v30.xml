@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd emdb_id="EMD-16804">
+    <admin>
+        <current_status>
+            <date>2023-07-19</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-03-07</deposition>
+            <header_release>2023-07-12</header_release>
+            <map_release>2023-07-12</map_release>
+            <update>2023-07-19</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Not funded</funding_body>
+            </grant_reference>
+        </grant_support>
+        <title>AP2 bound to MSP1E3D1 nanodisc with Tgn38 cargo peptide</title>
+        <authors_list>
+            <author ORCID="0000-0003-1136-6000">Baker RW</author>
+            <author ORCID="0000-0003-3816-2470">Sarsam R</author>
+            <author ORCID="0000-0002-6648-3442">Cannon KS</author>
+        </authors_list>
+        <keywords>Clathrin-mediated endocytosis; peripheral membrane protein, ENDOCYTOSIS</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">S Cannon K</author>
+                    <author order="2">Sarsam RD</author>
+                    <author order="3">Tedamrongwanish T</author>
+                    <author order="4">Zhang K</author>
+                    <author order="5">Baker RW</author>
+                    <title>Lipid nanodiscs as a template for high-resolution cryo-EM structures of peripheral membrane proteins.</title>
+                    <journal_abbreviation>J.Struct.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>215</volume>
+                    <first_page>107989</first_page>
+                    <last_page>107989</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">37364761</external_references>
+                    <external_references type="DOI">doi:10.1016/j.jsb.2023.107989</external_references>
+                    <external_references type="ISSN">1095-8657</external_references>
+                    <external_references type="CSD">0803</external_references>
+                    <external_references type="ASTM">JSBIEM</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+    </crossreferences>
+    <sample>
+        <name>AP2 bound to MSP1E3D1 nanodisc and Tgn38 cargo peptide</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>AP2 bound to MSP1E3D1 nanodisc and Tgn38 cargo peptide</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Nanodiscs were assembled with a lipid mixture containing 73 mol% DOPC, 15 mol% DOPS, 10 mol% PIP2, 2 mol% Tgn38 cargo peptide. Complex was formed by co-elution via gel filtration chromatography.</details>
+                <molecular_weight>
+                    <theoretical units="MDa">0.2</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>AP-2 complex</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>AP-2 complex</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>Tgn38 cargo peptide</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Tgn38 cargo peptide</details>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>AP-2 complex subunit alpha-2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPAVSKGDGMRGLAVFISDIRNCKSKEAEIKRINKELANIRSKFKGDKALDGYSKKKYVCKLLFIFLLGHDIDFGHMEAVNLLSSNRYTEKQIGYLFISVLVNSNSELIRLINNAIKNDLASRNPTFMGLALHCIANVGSREMAEAFAGEIPKILVAGDTMDSVKQSAALCLLRLYRTSPDLVPMGDWTSRVVHLLNDQHLGVVTAATSLITTLAQKNPEEFKTSVSLAVSRLSRIVTSASTDLQDYTYYFVPAPWLSVKLLRLLQCYPPPEDPAVRGRLTECLETILNKAQEPPKSKKVQHSNAKNAVLFEAISLIIHHDSEPNLLVRACNQLGQFLQHRETNLRYLALESMCTLASSEFSHEAVKTHIETVINALKTERDVSVRQRAVDLLYAMCDRSNAQQIVAEMLSYLETADYSIREEIVLKVAILAEKYAVDYTWYVDTILNLIRIAGDYVSEEVWYRVIQIVINRDDVQGYAAKTVFEALQAPACHENLVKVGGYILGEFGNLIAGDPRSSPLIQFNLLHSKFHLCSVPTRALLLSTYIKFVNLFPEVKATIQDVLRSDSQLKNADVELQQRAVEYLRLSTVASTDILATVLEEMPPFPERESSILAKLKKKKGGSGLEVLFQ</string>
+                    <external_references type="UNIPROTKB">P17427</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>AP-2 complex subunit beta</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTDSKYFTTNKKGEIFELKAELNNEKKEKRKEAVKKVIAAMTVGKDVSSLFPDVVNCMQTDNLELKKLVYLYLMNYAKSQPDMAIMAVNSFVKDCEDPNPLIRALAVRTMGCIRVDKITEYLCEPLRKCLKDEDPYVRKTAAVCVAKLHDINAQMVEDQGFLDSLRDLIADSNPMVVANAVAALSEISESHPNSNLLDLNPQNINKLLTALNECTEWGQIFILDCLSNYNPKDDREAQSICERVTPRLSHANSAVVLSAVKVLMKFLELLPKDSDYYNMLLKKLAPPLVTLLSGEPEVQYVALRNINLIVQKRPEILKQEIKVFFVKYNDPIYVKLEKLDIMIRLASQANIAQVLAELKEYATEVDVDFVRKAVRAIGRCAIKVEQSAERCVSTLLDLIQTKVNYVVQEAIVVIRDIFRKYPNKYESIIATLCENLDSLDEPDARAAMIWIVGEYAERIDNADELLESFLEGFHDESTQVQLTLLTAIVKLFLKKPSETQELVQQVLSLATQDSDNPDLRDRGYIYWRLLSTDPVTAKEVVLSEKPLISEETDLIEPTLLDELICHIGSLASVYHKPPNAFVEGSHGIHRK</string>
+                    <external_references type="UNIPROTKB">Q9DBG3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>AP-2 complex subunit mu</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MIGGLFIYNHKGEVLISRVYRDDIGRNAVDAFRVNVIHARQQVRSPVTNIARTSFFHVKRSNIWLAAVTKQNVNAAMVFEFLYKMCDVMAAYFGKISEENIKNNFVLIYELLDEILDFGYPQNSETGALKTFITQQGIKSQHQTKEEQSQITSQVTGQIGWRREGIKYRRNELFLDVLESVNLLMSPQGQVLSAHVSGRVVMKSYLSGMPECKFGMNDKIVIEKQGKGTADETSKS
+GKQSIAIDDCTFHQCVRLSKFDSERSISFIPPDGEFELMRYRTTKDIILPFRVIPLVREVGRTKLEVKVVIKSNFKPSLL
+AQKIEVRIPTPLNTSGVQVICMKGKAKYKASENAIVWKIKRMAGMKESQISAEIELLPTNDKKKWARPPISMNFEVPFAP
+SGLKVRYLKVFEPKLNYSDHDVIKWVRYIGRSGIYETRC</string>
+                    <external_references type="UNIPROTKB">P84091</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>AP-2 complex subunit sigma</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MIRFILIQNRAGKTRLAKWYMQFDDDEKQKLIEEVHAVVTVRDAKHTNFVEFRNFKIIYRRYAGLYFCICVDVNDNNLAY
+LEAIHNFVEVLNEYFHNVCELDLVFNFYKVYTVVDEMFLAGEIRETSQTKVLKQLLMLQSLE</string>
+                    <external_references type="UNIPROTKB">P62744</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>Tgn38</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10116">Rattus norvegicus</organism>
+                </natural_source>
+                <details>N-terminal oleic acid and FITC moieties</details>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>KVTRRPKASDYQRL</string>
+                    <external_references type="UNIPROTKB">P19814</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                        <details>20 mM HEPES pH 7.4, 100 mM NaCl</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <pretreatment>
+                            <type>PLASMA CLEANING</type>
+                            <time units="s">60</time>
+                            <atmosphere>OTHER</atmosphere>
+                        </pretreatment>
+                        <details>Tergeo EM plasma cleaner</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>Two sample applications.. </details>
+                    </vitrification>
+                    <details>Nanodiscs were assembled with a lipid mixture containing 73 mol% DOPC, 15 mol% DOPS, 10 mol% PIP2, 2 mol% Tgn38 cargo peptide. Complex was formed by co-elution via gel filtration chromatography.</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TALOS ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">100.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.5</nominal_defocus_max>
+                    <nominal_magnification>45000.0</nominal_magnification>
+                    <calibrated_magnification>45000.0</calibrated_magnification>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">55.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>Data collected in counting mode.</details>
+                <particle_selection>
+                    <number_selected>2800000</number_selected>
+                    <details>General model gmodel_phosnet_202005_N63_c17.h5 used for crYOLO picking.</details>
+                </particle_selection>
+                <startup_model type_of_model="OTHER">
+                    <details>Ab inition model generation in cryoSPARC v3.2.</details>
+                </startup_model>
+                <final_reconstruction>
+                    <algorithm>BACK PROJECTION</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">6.8</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.2</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>62324</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>OTHER</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="28312">
+        <file>emd_16804.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>192</col>
+            <row>192</row>
+            <sec>192</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>192</x>
+            <y>192</y>
+            <z>192</z>
+        </spacing>
+        <cell>
+            <a units="Å">337.91998</a>
+            <b units="Å">337.91998</b>
+            <c units="Å">337.91998</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.6114211</minimum>
+            <maximum>1.5467027</maximum>
+            <average>0.000641149</average>
+            <std>0.03712365</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.7599999</x>
+            <y units="Å">1.7599999</y>
+            <z units="Å">1.7599999</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.2</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-16804::::</label>
+        <annotation_details>full map</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_16804_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="28312">
+                <file>emd_16804_additional_4.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>192</col>
+                    <row>192</row>
+                    <sec>192</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>192</x>
+                    <y>192</y>
+                    <z>192</z>
+                </spacing>
+                <cell>
+                    <a units="Å">337.91998</a>
+                    <b units="Å">337.91998</b>
+                    <c units="Å">337.91998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.0016113148</minimum>
+                    <maximum>1.6650933</maximum>
+                    <average>0.00073465914</average>
+                    <std>0.016652154</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.7599999</x>
+                    <y units="Å">1.7599999</y>
+                    <z units="Å">1.7599999</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16804::::</label>
+                <annotation_details>deepEMhancer sharpened map</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="28312">
+                <file>emd_16804_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>192</col>
+                    <row>192</row>
+                    <sec>192</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>192</x>
+                    <y>192</y>
+                    <z>192</z>
+                </spacing>
+                <cell>
+                    <a units="Å">337.91998</a>
+                    <b units="Å">337.91998</b>
+                    <c units="Å">337.91998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-6.930239</minimum>
+                    <maximum>9.793218</maximum>
+                    <average>0.002890185</average>
+                    <std>0.08653929</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.7599999</x>
+                    <y units="Å">1.7599999</y>
+                    <z units="Å">1.7599999</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16804::::</label>
+                <annotation_details>locally filtered map</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="28312">
+                <file>emd_16804_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>192</col>
+                    <row>192</row>
+                    <sec>192</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>192</x>
+                    <y>192</y>
+                    <z>192</z>
+                </spacing>
+                <cell>
+                    <a units="Å">337.91998</a>
+                    <b units="Å">337.91998</b>
+                    <c units="Å">337.91998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0.0</minimum>
+                    <maximum>13.140356000000001</maximum>
+                    <average>0.08282155</average>
+                    <std>0.7812107</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.7599999</x>
+                    <y units="Å">1.7599999</y>
+                    <z units="Å">1.7599999</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16804::::</label>
+                <annotation_details>map for coloring my local resolution</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="28312">
+                <file>emd_16804_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>192</col>
+                    <row>192</row>
+                    <sec>192</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>192</x>
+                    <y>192</y>
+                    <z>192</z>
+                </spacing>
+                <cell>
+                    <a units="Å">337.91998</a>
+                    <b units="Å">337.91998</b>
+                    <c units="Å">337.91998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-5.8047247</minimum>
+                    <maximum>8.40992</maximum>
+                    <average>0.000641149</average>
+                    <std>0.12676573</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.7599999</x>
+                    <y units="Å">1.7599999</y>
+                    <z units="Å">1.7599999</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16804::::</label>
+                <annotation_details>cryoSPARC sharpened map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="28312">
+                <file>emd_16804_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>192</col>
+                    <row>192</row>
+                    <sec>192</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>192</x>
+                    <y>192</y>
+                    <z>192</z>
+                </spacing>
+                <cell>
+                    <a units="Å">337.91998</a>
+                    <b units="Å">337.91998</b>
+                    <c units="Å">337.91998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.85839105</minimum>
+                    <maximum>1.8478909</maximum>
+                    <average>0.001837901</average>
+                    <std>0.10595161</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.7599999</x>
+                    <y units="Å">1.7599999</y>
+                    <z units="Å">1.7599999</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16804::::</label>
+                <annotation_details>half map 2</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="28312">
+                <file>emd_16804_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>192</col>
+                    <row>192</row>
+                    <sec>192</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>192</x>
+                    <y>192</y>
+                    <z>192</z>
+                </spacing>
+                <cell>
+                    <a units="Å">337.91998</a>
+                    <b units="Å">337.91998</b>
+                    <c units="Å">337.91998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.7902371</minimum>
+                    <maximum>1.889534</maximum>
+                    <average>0.0018089982</average>
+                    <std>0.10594599</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.7599999</x>
+                    <y units="Å">1.7599999</y>
+                    <z units="Å">1.7599999</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16804::::</label>
+                <annotation_details>half map 2</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

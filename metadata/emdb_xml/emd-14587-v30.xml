@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-14587">
+    <admin>
+        <current_status>
+            <date>2024-11-20</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-03-23</deposition>
+            <header_release>2022-06-22</header_release>
+            <map_release>2022-06-22</map_release>
+            <update>2024-11-20</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>UK Research and Innovation (UKRI)</funding_body>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of the human GS-GN complex in the inhibited state</title>
+        <authors_list>
+            <author>Marr L</author>
+            <author>Zeqiraj E</author>
+        </authors_list>
+        <keywords>Glycosyltransferase, TRANSFERASE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-8588-7648" order="1">Marr L</author>
+                    <author ORCID="0000-0003-0990-9678" order="2">Biswas D</author>
+                    <author ORCID="0000-0001-9712-9676" order="3">Daly LA</author>
+                    <author order="4">Browning C</author>
+                    <author order="5">Vial SCM</author>
+                    <author ORCID="0000-0003-3305-258X" order="6">Maskell DP</author>
+                    <author order="7">Hudson C</author>
+                    <author order="8">Bertrand JA</author>
+                    <author order="9">Pollard J</author>
+                    <author ORCID="0000-0002-3640-5275" order="10">Ranson NA</author>
+                    <author order="11">Khatter H</author>
+                    <author order="12">Eyers CE</author>
+                    <author ORCID="0000-0001-8839-5980" order="13">Sakamoto K</author>
+                    <author ORCID="0000-0003-0239-5926" order="14">Zeqiraj E</author>
+                    <title>Mechanism of glycogen synthase inactivation and interaction with glycogenin.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>13</volume>
+                    <first_page>3372</first_page>
+                    <last_page>3372</last_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">35690592</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-022-31109-6</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7zbn</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Glycogen synthase-Glycogenin complex</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Glycogen synthase-Glycogenin complex</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.485</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Glycogen [starch] synthase, muscle</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.08388542999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7111">Trichoplusia ni</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPLNRTLSMSSLPGLEDWEDEFDLENAVLFEVAWEVANKVGGIYTVLQTKAKVTGDEWGDNYFLVGPYTEQGVRTQVELL
+EAPTPALKRTLDSMNSKGCKVYFGRWLIEGGPLVVLLDVGASAWALERWKGELWDTCNIGVPWYDREANDAVLFGFLTTW
+FLGEFLAQSEEKPHVVAHFHEWLAGVGLCLCRARRLPVATIFTTHATLLGRYLCAGAVDFYNNLENFNVDKEAGERQIYH
+RYCMERAAAHCAHVFTTVSQITAIEAQHLLKRKPDIVTPNGLNVKKFSAMHEFQNLHAQSKARIQEFVRGHFYGHLDFNL
+DKTLYFFIAGRYEFSNKGADVFLEALARLNYLLRVNGSEQTVVAFFIMPARTNNFNVETLKGQAVRKQLWDTANTVKEKF
+GRKLYESLLVGSLPDMNKMLDKEDFTMMKRAIFATQRQSFPPVCTHNMLDDSSDPILTTIRRIGLFNSSADRVKVIFHPE
+FLSSTSPLLPVDYEEFVRGCHLGVFPSYYEPWGYTPAECTVMGIPSISTNLSGFGCFMEEHIADPSAYGIYILDRRFRSL
+DDSCSQLTSFLYSFCQQSRRQRIIQRNRTERLSDLLDWKYLGRYYMSARHMALSKAFPEHFTYEPNEADAAQGYRYPRPA
+SVPPSPSLSRHSSPHQSEDEEDPRNGPLEEDGERYDEDEEAAKDRRNIRAPEWPRRASCTSSTSGSKRNSVDTATSSSLS
+TPSEPLSPTSSLGEERN</string>
+                    <external_references type="UNIPROTKB">P13807</external_references>
+                </sequence>
+                <ec_number>2.4.1.11</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Glycogen [starch] synthase, muscle</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.08396540599999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7111">Trichoplusia ni</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPLNRTLSMSSLPGLEDWEDEFDLENAVLFEVAWEVANKVGGIYTVLQTKAKVTGDEWGDNYFLVGPYTEQGVRTQVELL
+EAPTPALKRTLDSMNSKGCKVYFGRWLIEGGPLVVLLDVGASAWALERWKGELWDTCNIGVPWYDREANDAVLFGFLTTW
+FLGEFLAQSEEKPHVVAHFHEWLAGVGLCLCRARRLPVATIFTTHATLLGRYLCAGAVDFYNNLENFNVDKEAGERQIYH
+RYCMERAAAHCAHVFTTVSQITAIEAQHLLKRKPDIVTPNGLNVKKFSAMHEFQNLHAQSKARIQEFVRGHFYGHLDFNL
+DKTLYFFIAGRYEFSNKGADVFLEALARLNYLLRVNGSEQTVVAFFIMPARTNNFNVETLKGQAVRKQLWDTANTVKEKF
+GRKLYESLLVGSLPDMNKMLDKEDFTMMKRAIFATQRQSFPPVCTHNMLDDSSDPILTTIRRIGLFNSSADRVKVIFHPE
+FLSSTSPLLPVDYEEFVRGCHLGVFPSYYEPWGYTPAECTVMGIPSISTNLSGFGCFMEEHIADPSAYGIYILDRRFRSL
+DDSCSQLTSFLYSFCQQSRRQRIIQRNRTERLSDLLDWKYLGRYYMSARHMALSKAFPEHFTYEPNEADAAQGYRYPRPA
+(SEP)VPPSPSLSRHSSPHQSEDEEDPRNGPLEEDGERYDEDEEAAKDRRNIRAPEWPRRASCTSSTSGSKRNSVDTATS
+SSLSTPSEPLSPTSSLGEERN</string>
+                    <external_references type="UNIPROTKB">P13807</external_references>
+                </sequence>
+                <ec_number>2.4.1.11</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Isoform GN-1 of Glycogenin-1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.037469348</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7111">Trichoplusia ni</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MADQAFVTLTTNDAYAKGALVLGSSLKQHRTTRRLVVLATPQVSDSMRKVLETVFDEVIMVDVLDSGDSAHLTLMKRPEL
+GVTLTKLHCWSLTQYSKCVFMDADTLVLANIDDLFDREELSAAPDPGWPDCFNSGVFVYQPSVETYNQLLHLASEQGSFD
+GGDQGILNTFFSSWATTDIRKHLPFIYNLSSISIFSYLPAFKVFGASAKVVHFLGRVKPWNYTYDPKTKSVKSEAHDPNM
+THPEFLILWWNIFTTNVLPLLQQFGLVKDTCSYVNVEDVSGAISHLSLGEIPAMAQPFVSSEERKERWEQGQADYMGADS
+FDNIKRKLDTYLQ</string>
+                    <external_references type="UNIPROTKB">P46976</external_references>
+                </sequence>
+                <ec_number>2.4.1.186</ec_number>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.8</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>Sodium Chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">25.0</concentration>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.0</concentration>
+                            <name>TCEP</name>
+                        </component>
+                        <component>
+                            <concentration units="%">1.5</concentration>
+                            <name>Glycerol</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/2</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">30</time>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.2</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">34.8</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>Model generated in RELION using SGD from particles from 2D classification.</insilico_model>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">2.62</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>739232</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="95552">
+        <file>emd_14587.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>288</col>
+            <row>288</row>
+            <sec>288</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>288</x>
+            <y>288</y>
+            <z>288</z>
+        </spacing>
+        <cell>
+            <a units="Å">204.48</a>
+            <b units="Å">204.48</b>
+            <c units="Å">204.48</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.1610524</minimum>
+            <maximum>0.31264323</maximum>
+            <average>0.000501294</average>
+            <std>0.008719949</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.71</x>
+            <y units="Å">0.71</y>
+            <z units="Å">0.71</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.025</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-14587::::</label>
+        <annotation_details>D2</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_14587_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="95552">
+                <file>emd_14587_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>288</col>
+                    <row>288</row>
+                    <sec>288</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>288</x>
+                    <y>288</y>
+                    <z>288</z>
+                </spacing>
+                <cell>
+                    <a units="Å">204.48</a>
+                    <b units="Å">204.48</b>
+                    <c units="Å">204.48</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.14910014</minimum>
+                    <maximum>0.24584195</maximum>
+                    <average>0.0005096058</average>
+                    <std>0.006828084</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.71</x>
+                    <y units="Å">0.71</y>
+                    <z units="Å">0.71</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14587::::</label>
+                <annotation_details>C1</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="95552">
+                <file>emd_14587_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>288</col>
+                    <row>288</row>
+                    <sec>288</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>288</x>
+                    <y>288</y>
+                    <z>288</z>
+                </spacing>
+                <cell>
+                    <a units="Å">204.48</a>
+                    <b units="Å">204.48</b>
+                    <c units="Å">204.48</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.007246452</minimum>
+                    <maximum>0.030427195</maximum>
+                    <average>0.00020668</average>
+                    <std>0.0015497219</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.71</x>
+                    <y units="Å">0.71</y>
+                    <z units="Å">0.71</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14587::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="95552">
+                <file>emd_14587_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>288</col>
+                    <row>288</row>
+                    <sec>288</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>288</x>
+                    <y>288</y>
+                    <z>288</z>
+                </spacing>
+                <cell>
+                    <a units="Å">204.48</a>
+                    <b units="Å">204.48</b>
+                    <c units="Å">204.48</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.0074851946</minimum>
+                    <maximum>0.030659948</maximum>
+                    <average>0.00020740161</average>
+                    <std>0.0015508286</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.71</x>
+                    <y units="Å">0.71</y>
+                    <z units="Å">0.71</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14587::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

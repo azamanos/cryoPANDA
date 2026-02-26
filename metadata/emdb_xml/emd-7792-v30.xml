@@ -1,0 +1,359 @@
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" emdb_id="EMD-7792" version="3.0.0.1" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_0_1/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2018-10-17</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2018-04-15</deposition>
+            <header_release>2018-07-11</header_release>
+            <map_release>2018-07-11</map_release>
+            <update>2018-10-17</update>
+        </key_dates>
+        <title>Influenza hemagglutinin trimer plunged with a spot-to-plunge time of 100 ms</title>
+        <authors_list>
+            <author>Noble AJ</author>
+            <author>Wei H</author>
+            <author>Dandey VP</author>
+            <author>Zhang Z</author>
+            <author>Potter CS</author>
+            <author>Carragher B</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Noble AJ</author>
+                    <author order="2">Wei H</author>
+                    <author order="3">Dandey VP</author>
+                    <author order="4">Zhang Z</author>
+                    <author order="5">Tan YZ</author>
+                    <author order="6">Potter CS</author>
+                    <author order="7">Carragher B</author>
+                    <title>Reducing effects of particle adsorption to the air-water interface in cryo-EM.</title>
+                    <journal_abbreviation>Nat. Methods</journal_abbreviation>
+                    <country>US</country>
+                    <volume>15</volume>
+                    <first_page>793</first_page>
+                    <last_page>795</last_page>
+                    <year>2018</year>
+                    <external_references type="PUBMED">30250056</external_references>
+                    <external_references type="DOI">doi:10.1038/s41592-018-0139-3</external_references>
+                    <external_references type="ISSN">1548-7105</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-7792</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Influenza hemagglutinin trimer</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Influenza hemagglutinin trimer</name>
+                <parent>0</parent>
+                <details>A/Hong Kong/1/1968 (H3N2), obtained commercially from MyBioSource, catalog MBS434205</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="351264">Influenza A virus (A/Hong Kong/26/1983(H3N2))</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="32644">unidentified</recombinant_organism>
+                </recombinant_expression>
+                <molecular_weight>
+                    <experimental units="MDa">0.15</experimental>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <grid>
+                        <model>Homemade</model>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <instrument>OTHER</instrument>
+                        <details>100 ms spot-to-plunge time. The value given for _emd_vitrification.instrument is SPOTITON. This is not in a list of allowed values set(['LEICA EM CPC', 'GATAN CRYOPLUNGE 3', 'LEICA PLUNGER', 'FEI VITROBOT MARK II', 'HOMEMADE PLUNGER', 'REICHERT-JUNG PLUNGER', 'FEI VITROBOT MARK I', 'LEICA KF80', 'FEI VITROBOT MARK III', 'LEICA EM GP', 'OTHER', 'FEI VITROBOT MARK IV']) so OTHER is written into the XML file.</details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">0.01</nominal_cs>
+                    <nominal_defocus_min units="&#181;m">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="&#181;m">2.1</nominal_defocus_max>
+                    <nominal_magnification>130000.</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <specialist_optics>
+                        <sph_aberration_corrector>Corrected so that Cs is as close to 0 as possible.</sph_aberration_corrector>
+                        <energy_filter>
+                            <name>GIF Bioquantum</name>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 QUANTUM (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details />
+                            <average_exposure_time units="s">10.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/&#8491;^2">73.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>Gctf</name>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>CryoSPARC ab-initio</insilico_model>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C3</point_group>
+                    </applied_symmetry>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">3.77</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>0.6.5</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>104365</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>0.6.5</version>
+                        </software>
+                    </software_list>
+                    <details>CryoSPARC SGD</details>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>OTHER</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>0.6.5</version>
+                        </software>
+                    </software_list>
+                    <details>CryoSPARC SGD</details>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>0.6.5</version>
+                        </software>
+                    </software_list>
+                    <details>Used to remove false positives.</details>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_7792.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">218.8544</a>
+            <b units="&#8491;">218.8544</b>
+            <c units="&#8491;">218.8544</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.4929238</minimum>
+            <maximum>1.254305</maximum>
+            <average>0.006110061</average>
+            <std>0.06405962</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">0.8549</x>
+            <y units="&#8491;">0.8549</y>
+            <z units="&#8491;">0.8549</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.311</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-7792::::</label>
+        <annotation_details>CryoSPARC auto-generated full map from the last refinement iteration.</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_7792_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_7792_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="&#8491;">218.8544</a>
+                    <b units="&#8491;">218.8544</b>
+                    <c units="&#8491;">218.8544</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.0142825</minimum>
+                    <maximum>1.0039054</maximum>
+                    <average>0.0044352408</average>
+                    <std>0.120494895</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="&#8491;">0.8549</x>
+                    <y units="&#8491;">0.8549</y>
+                    <z units="&#8491;">0.8549</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <level>0.311</level>
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-7792::::</label>
+                <annotation_details>CryoSPARC auto-generated half map from the last refinement iteration.</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_7792_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="&#8491;">218.8544</a>
+                    <b units="&#8491;">218.8544</b>
+                    <c units="&#8491;">218.8544</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.89320314</minimum>
+                    <maximum>1.0173192</maximum>
+                    <average>0.0043066246</average>
+                    <std>0.12067573</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="&#8491;">0.8549</x>
+                    <y units="&#8491;">0.8549</y>
+                    <z units="&#8491;">0.8549</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <level>0.311</level>
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-7792::::</label>
+                <annotation_details>CryoSPARC auto-generated mask from the last refinement iteration.</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

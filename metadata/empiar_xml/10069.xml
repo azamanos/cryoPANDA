@@ -1,0 +1,168 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ftp://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10069" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2016-07-06</depositionDate>
+            <releaseDate>2016-07-06</releaseDate>
+            <updateDate>2017-01-03</updateDate>
+        </keyDates>
+        <title>Unsupervised single-particle deep classification via statistical manifold learning</title>
+        <correspondingAuthor>
+            <firstName>Youdong </firstName>
+            <lastName>Mao</lastName>
+            <organization type="academic">Dana-Farber Cancer Institute</organization>
+            <street>46 S Huntington Ave, Apt #12</street>
+            <townOrCity>Jamaica Plain</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02130-4751</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <firstName>Youdong </firstName>
+            <lastName>Mao</lastName>
+            <organization type="academic">Dana-Farber Cancer Institute</organization>
+            <street>450 Brookline Ave</street>
+            <townOrCity>Boston </townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02215</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator>
+            <firstName>Youdong </firstName>
+            <lastName>Mao</lastName>
+            <organization type="academic">Dana-Farber Cancer Institute</organization>
+            <street>46 S Huntington Ave, Apt #12</street>
+            <townOrCity>Jamaica Plain</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02130-4751</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Wu J</author>
+            <author>Ma YB</author>
+            <author>Congdon C</author>
+            <author>Brett B</author>
+            <author>Chen S</author>
+            <author>Xu Y</author>
+            <author>Ouyang Q</author>
+            <author>Mao Y</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2016-07-07</date>
+                <statusCode>REL</statusCode>
+                <details>Restructured the data into four dataset directories.</details>
+            </version>
+            <version>
+                <versionNumber>2</versionNumber>
+                <date>2016-07-20</date>
+                <statusCode>REL</statusCode>
+                <details>Added pixel sizes information.</details>
+            </version>
+            <version>
+                <versionNumber>3</versionNumber>
+                <date>2017-01-03</date>
+                <statusCode>REL</statusCode>
+                <details>The data has been re-uploaded due to reports of damaged/corrupted files. Added the citation information.</details>
+            </version>
+        </versionHistory>
+        <datasetSize>28.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10069</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false">
+                    <author order="1">Wu J</author>
+                    <author order="2">Ma YB</author>
+                    <author order="3">Congdon C</author>
+                    <author order="4">Brett B</author>
+                    <author order="5">Chen S</author>
+                    <author order="6">Ouyang Q</author>
+                    <author order="7">Mao Y</author>
+                    <title>Unsupervised single-particle deep classification via statistical manifold learning</title>
+                    <journal>arXiv</journal>
+                    <journalAbbreviation>arXiv</journalAbbreviation>
+                    <country>United States</country>
+                    <year>2016</year>
+                    <language>English</language>
+                    <details>https://arxiv.org/abs/1604.04539</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned particle stacks from sub-frame drift-corrected micrographs. Set 1</name>
+        <directory>/data/set1</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>16306</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>250</imageWidth>
+            <pixelWidth>0.86</pixelWidth>
+            <imageHeight>250</imageHeight>
+            <pixelHeight>0.86</pixelHeight>
+        </dimensions>
+        <details>Dataset1: 250 x 250 box size, 16306-particle dataset of inflammasome. These datasets were used for benchmarking the relevant algorithms for image classification.</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned particle stacks from sub-frame drift-corrected micrographs. Set 2</name>
+        <directory>/data/set2</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>35407</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>160</imageWidth>
+            <pixelWidth>0.98</pixelWidth>
+            <imageHeight>160</imageHeight>
+            <pixelHeight>0.98</pixelHeight>
+        </dimensions>
+        <details>Dataset2: 160 x 160 box size, 35407-particle dataset of free RP complex. These datasets were used for benchmarking the relevant algorithms for image classification.</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned particle stacks from sub-frame drift-corrected micrographs. Set 3</name>
+        <directory>/data/set3</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>96488</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>180</imageWidth>
+            <pixelWidth>0.86</pixelWidth>
+            <imageHeight>180</imageHeight>
+            <pixelHeight>0.86</pixelHeight>
+        </dimensions>
+        <details>Dataset3: 180 x 180 box size, 96488-particle dataset of RP-CP complex. These datasets were used for benchmarking the relevant algorithms for image classification.</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned particle stacks from sub-frame drift-corrected micrographs. Set 4</name>
+        <directory>/data/set4</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>57001</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>160</imageWidth>
+            <pixelWidth>0.98</pixelWidth>
+            <imageHeight>160</imageHeight>
+            <pixelHeight>0.98</pixelHeight>
+        </dimensions>
+        <details>Dataset4 denotes the 160 x 160 box size, 57001-particle dataset of free RP complex. These datasets were used for benchmarking the relevant algorithms for image classification.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

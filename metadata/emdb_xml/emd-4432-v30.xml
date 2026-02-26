@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-4432">
+    <admin>
+        <current_status>
+            <date>2024-05-15</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2018-11-23</deposition>
+            <header_release>2018-12-05</header_release>
+            <map_release>2019-04-24</map_release>
+            <update>2024-05-15</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Swiss National Science Foundation</funding_body>
+                <code>205320_166164</code>
+                <country>Switzerland</country>
+            </grant_reference>
+        </grant_support>
+        <title>MloK1 consensus map from single particle analysis of 2D crystals</title>
+        <authors_list>
+            <author>Righetto R</author>
+            <author>Biyani N</author>
+        </authors_list>
+        <keywords>Voltage-gated potassium channel, Cyclic nucleotide-binding domain, ion channel, ion transport, MEMBRANE PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Righetto RD</author>
+                    <author order="2">Biyani N</author>
+                    <author order="3">Kowal J</author>
+                    <author order="4">Chami M</author>
+                    <author ORCID="0000-0002-1185-4592" order="5">Stahlberg H</author>
+                    <title>Retrieving high-resolution information from disordered 2D crystals by single-particle cryo-EM.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>10</volume>
+                    <first_page>1722</first_page>
+                    <last_page>1722</last_page>
+                    <year>2019</year>
+                    <external_references type="PUBMED">30979902</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-019-09661-5</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-4439</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6i9d</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>MloK1 potassium channel in lipidic bilayer of 2D crystals</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>MloK1 potassium channel in lipidic bilayer of 2D crystals</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="266835">Mesorhizobium loti MAFF303099</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.16</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Cyclic nucleotide-gated potassium channel mll3241</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="266835">Mesorhizobium japonicum (strain LMG 29417 / CECT 9101 / MAFF 303099)</organism>
+                    <strain>LMG 29417 / CECT 9101 / MAFF 303099</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.037766297</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="469008">Escherichia coli BL21(DE3)</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSVLPFLRIYAPLNAVLAAPGLLAVAALTIPDMSGRSRLALAALLAVIWGAYLLQLAATLLKRRAGVVRDRTPKIAIDVL
+AVLVPLAAFLLDGSPDWSLYCAVWLLKPLRDSTFFPVLGRVLANEARNLIGVTTLFGVVLFAVALAAYVIERDIQPEKFG
+SIPQAMWWAVVTLSTTGYGDTIPQSFAGRVLAGAVMMSGIGIFGLWAGILATGFYQEVRRGDFVRNWQLVAAVPLFQKLG
+PAVLVEIVRALRARTVPAGAVICRIGEPGDRMFFVVEGSVSVATPNPVELGPGAFFGEMALISGEPRSATVSAATTVSLL
+SLHSADFQMLCSSSPEIAEIFRKTALERRGAAASA</string>
+                    <external_references type="UNIPROTKB">Q98GN8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>POTASSIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">3.9098e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>K</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>twoDArray</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.6</ph>
+                        <details>20 mM KCl, 20 mM Tris-HCl pH 7.6, 1 mM BaCl2, 1 mM EDTA, 0.2 mM cAMP</details>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.75</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">4.3</nominal_defocus_max>
+                    <nominal_magnification>50000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <number_real_images>270</number_real_images>
+                            <average_exposure_time units="s">16.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">45.0</average_electron_dose_per_image>
+                            <details>The dataset of 346 movies recorded and processed for Kowal et al. (2018) 2 was employed. As reported, the data were collected on an FEI Titan Krios TEM equipped with a Gatan K2 DED. Total dose: 40 e-/A^2 distributed over 40 movie frames. Pixel size: 1.3 A on the sample level (counting mode). Nominal tilt range: -55 to +55 degrees.</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>231688</number_selected>
+                    <details>The particle positions were given by the cross-correlation profile generated by the classical unbending algorithm.</details>
+                </particle_selection>
+                <startup_model type_of_model="OTHER">
+                    <details>An initial model was generated using the tilt geometry determined by the classical 2D electron crystallography approach.</details>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C4</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">4.0</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>FREALIGN</name>
+                            <version>9.11</version>
+                        </software>
+                    </software_list>
+                    <details>Angular assignments and x,y shifts were refined using a custom auto-refinement script written for FREALIGN v9.11. Maximum resolution used for refinement was 7.52 A.</details>
+                    <number_images_used>231688</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                    <software_list>
+                        <software>
+                            <name>FOCUS</name>
+                        </software>
+                    </software_list>
+                    <details>An initial model was generated using the tilt geometry determined by the classical 2D electron crystallography approach.</details>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>OTHER</type>
+                    <software_list>
+                        <software>
+                            <name>FREALIGN</name>
+                            <version>9.11</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="4500">
+        <file>emd_4432.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>104</col>
+            <row>104</row>
+            <sec>104</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>104</x>
+            <y>104</y>
+            <z>104</z>
+        </spacing>
+        <cell>
+            <a units="Å">135.2</a>
+            <b units="Å">135.2</b>
+            <c units="Å">135.2</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-6.5437675</minimum>
+            <maximum>9.505122999999999</maximum>
+            <average>-0.000000000007465</average>
+            <std>1.0</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.3</x>
+            <y units="Å">1.3</y>
+            <z units="Å">1.3</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>1.89</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-4432::::</label>
+        <annotation_details>MloK1 consensus map obtained from single particle analysis of 2D crystals.</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>6EO1</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <residue_range>1-6</residue_range>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>3BEH</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <residue_range>7-219</residue_range>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>3CL1</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <residue_range>220-349</residue_range>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>6EO1</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <residue_range>350-355</residue_range>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_4432_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="4500">
+                <file>emd_4432_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>104</col>
+                    <row>104</row>
+                    <sec>104</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>104</x>
+                    <y>104</y>
+                    <z>104</z>
+                </spacing>
+                <cell>
+                    <a units="Å">135.2</a>
+                    <b units="Å">135.2</b>
+                    <c units="Å">135.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.06799096</minimum>
+                    <maximum>0.10562821</maximum>
+                    <average>-0.0002985069</average>
+                    <std>0.017686442</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.3</x>
+                    <y units="Å">1.3</y>
+                    <z units="Å">1.3</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-4432::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="4500">
+                <file>emd_4432_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>104</col>
+                    <row>104</row>
+                    <sec>104</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>104</x>
+                    <y>104</y>
+                    <z>104</z>
+                </spacing>
+                <cell>
+                    <a units="Å">104.0</a>
+                    <b units="Å">104.0</b>
+                    <c units="Å">104.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.06677489</minimum>
+                    <maximum>0.10291724</maximum>
+                    <average>-0.00034973823</average>
+                    <std>0.01768145</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.0</x>
+                    <y units="Å">1.0</y>
+                    <z units="Å">1.0</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-4432::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

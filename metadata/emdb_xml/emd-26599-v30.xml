@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-26599">
+    <admin>
+        <current_status>
+            <date>2024-10-23</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-04-06</deposition>
+            <header_release>2022-07-20</header_release>
+            <map_release>2022-07-20</map_release>
+            <update>2024-10-23</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Mental Health (NIH/NIMH)</funding_body>
+                <code>RO1MH112205</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Diabetes and Digestive and Kidney Disease (NIH/NIDDK)</funding_body>
+                <code>U24DK1169195</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>CryoEM structure of Go-coupled 5-HT5AR in complex with Methylergometrine</title>
+        <authors_list>
+            <author>Zhang S</author>
+            <author>Fay JF</author>
+            <author>Roth BL</author>
+        </authors_list>
+        <keywords>GPCR, Methylergometrine, active state, MEMBRANE PROTEIN, 5-HT5AR, HTR5A, Go</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Zhang S</author>
+                    <author order="2">Chen H</author>
+                    <author order="3">Zhang C</author>
+                    <author order="4">Yang Y</author>
+                    <author order="5">Popov P</author>
+                    <author order="6">Liu J</author>
+                    <author order="7">Krumm BE</author>
+                    <author order="8">Cao C</author>
+                    <author order="9">Kim K</author>
+                    <author order="10">Xiong Y</author>
+                    <author order="11">Katritch V</author>
+                    <author order="12">Shoichet BK</author>
+                    <author order="13">Jin J</author>
+                    <author order="14">Fay JF</author>
+                    <author order="15">Roth BL</author>
+                    <title>Inactive and active state structures template selective tools for the human 5-HT 5A receptor.</title>
+                    <journal_abbreviation>Nat.Struct.Mol.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>29</volume>
+                    <first_page>677</first_page>
+                    <last_page>687</last_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">35835867</external_references>
+                    <external_references type="DOI">doi:10.1038/s41594-022-00796-6</external_references>
+                    <external_references type="ISSN">1545-9985</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7um7</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Go-coupled 5-HT5AR complex</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Go-coupled 5-HT5AR complex</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>5-hydroxytryptamine receptor 5A, miniGo protein, Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1, Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>Single-chain variable fragment scFv16</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>5-hydroxytryptamine receptor 5A</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.036884167999999995</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SSPLLSVFGVLILTLLGFLVAATFAWNLLVLATILRVRTFHRVPHNLVASMAVSDVLVAALVMPLSLVHELSGRRWQLGR
+RLCQLWIACDVLCCTASIWNVTAIALDRYWSITRPMEYTLRTRKCVSNVMIALTWALSAVISLAPLLFGWGETYSEGSEE
+CQVSREPSYAVFSTVGAFYLPLCVVLFVYWKIYKAAKFRVGSRKTNSVSPISEAVEVKDSAKQPQMVFTVRHATVTFQPE
+GDTWREQKEQRAALMVGILIGVFVLCWIPFFLTELISPLCSCDIPAIWKSIFLWLGYSNSFFNPLIYTAFNKNYNSAFKN
+FFSRQH</string>
+                    <external_references type="UNIPROTKB">P47898</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>miniGo protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.025159776999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>TLSAEDKAAVERSKMIEKNLKEDGISAAKDVKLLLLGADNSGKSTIVKQMKIIHGGSGGSGGTTGIVETHFTFKNLHFRL
+FDVGGQRSERKKWIHCFEDVTAIIFCVDLSDYNRMHESLMLFDSICNNKFFIDTSIILFLNKKDLFGEKIKKSPLTICFP
+EYTGPNTYEDAAAYIQAQFESKNRSPNKEIYCHMTCATDTNNAQVIFDAVTDIIIANNLRGCGLY</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.037285733999999994</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SELDQLRQEAEQLKNQIRDARKACADATLSQITNNIDPVGRIQMRTRRTLRGHLAKIYAMHWGTDSRLLVSASQDGKLII
+WDSYTTNKVHAIPLRSSWVMTCAYAPSGNYVACGGLDNICSIYNLKTREGNVRVSRELAGHTGYLSCCRFLDDNQIVTSS
+GDTTCALWDIETGQQTTTFTGHTGDVMSLSLAPDTRLFVSGACDASAKLWDVREGMCRQTFTGHESDINAICFFPNGNAF
+ATGSDDATCRLFDLRADQELMTYSHDNIICGITSVSFSKSGRLLLAGYDDFNCNVWDALKADRAGVLAGHDNRVSCLGVT
+DDGMAVATGSWDSFLKIWN</string>
+                    <external_references type="UNIPROTKB">P62873</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007861143</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MASNNTASIAQARKLVEQLKMEANIDRIKVSKAAADLMAYCEAHAKEDPLLTPVPASENPFREKKFFCAIL</string>
+                    <external_references type="UNIPROTKB">P59768</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>Single-chain variable fragment scFv16</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.026679721</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>DVQLVESGGGLVQPGGSRKLSCSASGFAFSSFGMHWVRQAPEKGLEWVAYISSGSGTIYYADTVKGRFTISRDDPKNTLF
+LQMTSLRSEDTAMYYCVRSIYYYGSSPFDFWGQGTTLTVSSGGGGSGGGGSGGGGSDIVMTQATSSVPVTPGESVSISCR
+SSKSLLHSNGNTYLYWFLQRPGQSPQLLIYRMSNLASGVPDRFSGSGSGTAFTLTISRLEAEDVGVYYCMQHLEYPLTFG
+AGTKLELKAAA</string>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="6">
+                <name>(8beta)-N-[(2S)-1-hydroxybutan-2-yl]-6-methyl-9,10-didehydroergoline-8-carboxamide</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00033943099999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>H8D</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TALOS ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.137</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.942</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">47.4</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">2.75</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>634138</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_26599.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">232.96</a>
+            <b units="Å">232.96</b>
+            <c units="Å">232.96</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.02783466</minimum>
+            <maximum>2.0696225</maximum>
+            <average>0.0015615651</average>
+            <std>0.026551489</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.91</x>
+            <y units="Å">0.91</y>
+            <z units="Å">0.91</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.125</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-26599::::</label>
+        <annotation_details>DEEP sharp map</annotation_details>
+    </map>
+    <interpretation>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_26599_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">232.96</a>
+                    <b units="Å">232.96</b>
+                    <c units="Å">232.96</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-4.134414</minimum>
+                    <maximum>6.7462325</maximum>
+                    <average>-0.0039456193</average>
+                    <std>0.1320252</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.91</x>
+                    <y units="Å">0.91</y>
+                    <z units="Å">0.91</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-26599::::</label>
+                <annotation_details>Bfactor sharp map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_26599_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">232.96</a>
+                    <b units="Å">232.96</b>
+                    <c units="Å">232.96</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.8430879</minimum>
+                    <maximum>1.8331491</maximum>
+                    <average>-0.003233562</average>
+                    <std>0.061056674</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.91</x>
+                    <y units="Å">0.91</y>
+                    <z units="Å">0.91</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-26599::::</label>
+                <annotation_details>other half map</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_26599_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">232.96</a>
+                    <b units="Å">232.96</b>
+                    <c units="Å">232.96</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.8299007</minimum>
+                    <maximum>1.8911177</maximum>
+                    <average>-0.0032370384</average>
+                    <std>0.061181396</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.91</x>
+                    <y units="Å">0.91</y>
+                    <z units="Å">0.91</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-26599::::</label>
+                <annotation_details>half map A</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

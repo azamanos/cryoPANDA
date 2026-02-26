@@ -1,0 +1,110 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11113" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-06-09</depositionDate>
+            <releaseDate>2023-01-30</releaseDate>
+            <updateDate>2023-02-01</updateDate>
+        </keyDates>
+        <title>Integration of an event-driven Timepix3 hydrid pixel detector into a cryo-EM workflow</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0001-6591-4637</authorORCID>
+            <firstName>J. Paul</firstName>
+            <lastName>van Schayck</lastName>
+            <organization type="academic">Division of Nanoscopy, Maastricht MultiModal Molecular Imaging Institute (M4I), FHML, Maastricht University</organization>
+            <street>Universiteitssingel 50</street>
+            <townOrCity>Maastricht</townOrCity>
+            <stateOrProvince>Limburg</stateOrProvince>
+            <country>Netherlands</country>
+            <postOrZipCode>6229ER</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0001-6056-5888</authorORCID>
+            <firstName>Raimond B. G.</firstName>
+            <lastName>Ravelli</lastName>
+            <organization type="academic">Division of Nanoscopy, Maastricht MultiModal Molecular Imaging Institute (M4I), FHML, Maastricht University</organization>
+            <street>Universiteitssingel 50</street>
+            <townOrCity>Maastricht</townOrCity>
+            <stateOrProvince>Limburg</stateOrProvince>
+            <country>Netherlands</country>
+            <postOrZipCode>6229 ER</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-6591-4637">van Schayck JP</author>
+            <author authorORCID="0000-0003-4482-1866">Zhang Y</author>
+            <author authorORCID="0000-0002-7539-1160">Knoops K</author>
+            <author authorORCID="0000-0002-2964-5684">Peters PJ</author>
+            <author authorORCID="0000-0001-6056-5888">Ravelli RBG</author>
+        </authorsList>
+        <datasetSize units="TB">2.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11113</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-15389</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0001-6591-4637" order="1">van Schayck JP</author>
+                    <author authorORCID="0000-0003-4482-1866" order="2">Zhang Y</author>
+                    <author authorORCID="0000-0002-7539-1160" order="3">Knoops K</author>
+                    <author authorORCID="0000-0002-2964-5684" order="4">Peters PJ</author>
+                    <author authorORCID="0000-0001-6056-5888" order="5">Ravelli RBG</author>
+                    <title>Integration of an event-driven Timepix3 hydrid pixel detector into a cryo-EM workflow</title>
+                    <journal>Microscopy &amp; Microanalysis</journal>
+                    <journalAbbreviation>MAM</journalAbbreviation>
+                    <country>Netherlands</country>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Processed but unaligned Timepix3 data. Processed with CNN-ToT event localisation, chip edge correction, deterministic blur (sigma=0.5) and stored at two times super resolution and gain corrected.</name>
+        <directory>/data/mrc</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>2980</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>50</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>1032</imageWidth>
+            <pixelWidth>0.6</pixelWidth>
+            <imageHeight>1032</imageHeight>
+            <pixelHeight>0.6</pixelHeight>
+        </dimensions>
+        <details>Processed Timepix3 data. Processed with CNN-ToT event localisation, chip edge correction, deterministic blur (sigma=0.5) and stored at two times super resolution. Split into 50 frames. Frames have a fluence of ~1.0 e-/A^2. Frames have been gain corrected.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/mrc/frame_*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Raw, unprocessed Timepix3 data.</name>
+        <directory>/data/timepix3</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>TPX3</headerFormat>
+        <dataFormat>TPX3</dataFormat>
+        <numImagesOrTiltSeries>2978</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>512</imageWidth>
+            <pixelWidth>1.2</pixelWidth>
+            <imageHeight>512</imageHeight>
+            <pixelHeight>1.2</pixelHeight>
+        </dimensions>
+        <details>These are raw, unprocessed Timepix3 data. Recorded 1.5 s at a flux of 29 e/A^2/s with a 1.2 A pixelsize. Processing can be done using tpx3HitParser (https://doi.org/10.5281/zenodo.3641237) and generation of image frames using tpx3EventViewer (https://doi.org/10.5281/zenodo.3693989).</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

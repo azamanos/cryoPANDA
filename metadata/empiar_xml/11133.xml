@@ -1,0 +1,186 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11133" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-06-30</depositionDate>
+            <releaseDate>2022-09-12</releaseDate>
+            <updateDate>2022-09-12</updateDate>
+        </keyDates>
+        <title>Structures of the Cyanobacterial Phycobilisome in the Light-harvesting and Photoprotected States</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0001-7204-5863</authorORCID>
+            <firstName>Paul</firstName>
+            <middleName>Victor</middleName>
+            <lastName>Sauer</lastName>
+            <organization type="academic">QB3 Institute, University of California, Berkeley, CA, USA</organization>
+            <street>742 Stanley Hall</street>
+            <townOrCity>Berkeley</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94720</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-9977-8482</authorORCID>
+            <firstName>Cheryl</firstName>
+            <middleName>A</middleName>
+            <lastName>Kerfeld</lastName>
+            <organization type="academic">MSU-DOE Plant Research Laboratory, Michigan State University, East Lansing, MI 48824, USA</organization>
+            <townOrCity>East Lansing</townOrCity>
+            <stateOrProvince>MI</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>48824</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-7204-5863">Sauer PV</author>
+            <author authorORCID="0000-0002-3500-2052">Dominguez-Martin MA</author>
+            <author authorORCID="0000-0002-9977-8482">Kerfeld CA</author>
+        </authorsList>
+        <datasetSize units="TB">16.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11133</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-25029</emdbEntry>
+            <emdbEntry>EMD-25028</emdbEntry>
+            <emdbEntry>EMD-25069</emdbEntry>
+            <emdbEntry>EMD-25070</emdbEntry>
+            <emdbEntry>EMD-25071</emdbEntry>
+            <emdbEntry>EMD-25030</emdbEntry>
+            <emdbEntry>EMD-25031</emdbEntry>
+            <emdbEntry>EMD-25032</emdbEntry>
+            <emdbEntry>EMD-25033</emdbEntry>
+            <emdbEntry>EMD-25068</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-3500-2052" order="1">Domínguez-Martín MA</author>
+                    <author authorORCID="0000-0001-7204-5863" order="2">Sauer PV</author>
+                    <author authorORCID="0000-0002-6982-4345" order="3">Kirst H</author>
+                    <author authorORCID="0000-0001-6290-4820" order="4">Sutter M</author>
+                    <author authorORCID="0000-0002-9259-4218" order="5">Bína D</author>
+                    <author authorORCID="0000-0001-9379-7159" order="6">Greber BJ</author>
+                    <author authorORCID="0000-0001-9816-3681" order="7">Nogales E</author>
+                    <author authorORCID="0000-0002-6176-0420" order="8">Polívka T</author>
+                    <author authorORCID="0000-0002-9977-8482" order="9">Kerfeld CA</author>
+                    <title>Structures of a phycobilisome in light-harvesting and photoprotected states</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41586-022-05156-4</externalReferences>
+                    <externalReferences type="pubmed">36045294</externalReferences>
+                    <details>Datasets 1(PBS-apo), 2 (PBS-apo) and 3 (OCP-PBS) from the paper; This entry contains the motion-corrected and lattice-subtracted micrographs and the raw movie files. This entry also contains Cryosparc particle files and passthrough files (.cs format) for each reconstruction from datasets 2 and 3.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Dataset 3: PBS-OCP micrographs motion corrected and streptavidin subtracted</name>
+        <directory>/data/Frames_sub_correctdose</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>13427</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.05</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.05</pixelHeight>
+        </dimensions>
+        <details>Data collected on 300kV Krios G3 with K3 detector. Micrographs are averaged from 50 frame movies with a total dose of 50e/A2. After motion correction in Relion3.1, streptavidin lattice signal was subtracted using custom Matlab scripts.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dataset 2: PBS-apo micrographs motion corrected and streptavidin subtracted</name>
+        <directory>/data/Frames_sub_20Dec21</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>12051</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.05</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.05</pixelHeight>
+        </dimensions>
+        <details>Data collected on 300kV Krios G3 with K3 detector. Micrographs are averaged from 50 frame movies with a total dose of 50e/A2. After motion correction in Relion3.1, streptavidin lattice signal was subtracted using custom Matlab scripts.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dataset 1: PBS-apo micrographs motion corrected and streptavidin subtracted</name>
+        <directory>/data/Frames_grid3_sub</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1954</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.115</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.115</pixelHeight>
+        </dimensions>
+        <details>Data collected on 200kV Arctica with K3 detector. Micrographs are averaged from 50 frame movies with a total dose of 50e/A2. After motion correction in Relion3.1, streptavidin lattice signal was subtracted using custom Matlab scripts.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dataset 3: PBS-OCP raw movies unaligned and unsubtracted</name>
+        <directory>/data/Frames_dataset1</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>13452</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.524</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.524</pixelHeight>
+        </dimensions>
+        <details>Data collected on 300kV Krios G3 with K3 detector. Total dose of 50e/A2. Contains streptavidin signal. Gain reference in .dm4 format.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dataset 2: PBS-apo raw movies unaligned and unsubtracted</name>
+        <directory>/data/Frames_dataset2</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>12387</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.524</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.524</pixelHeight>
+        </dimensions>
+        <details>Data collected on 300kV Krios G3 with K3 detector. Total dose of 50e/A2. Contains streptavidin signal. Gain reference in .dm4 format.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

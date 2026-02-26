@@ -1,0 +1,234 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11762" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-11-02</depositionDate>
+            <releaseDate>2024-02-28</releaseDate>
+            <updateDate>2024-02-28</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of human TFIIIC bound and unbound to tRNA gene</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-2176-8337</authorORCID>
+            <firstName>Christoph</firstName>
+            <middleName>W</middleName>
+            <lastName>Müller</lastName>
+            <organization type="academic">European Molecular Biology Laboratory</organization>
+            <street>Meyerhofstraße 1</street>
+            <townOrCity>Heidelberg</townOrCity>
+            <stateOrProvince>Baden-Württemberg</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>69117</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-2176-8337</authorORCID>
+            <firstName>Christoph</firstName>
+            <middleName>W</middleName>
+            <lastName>Müller</lastName>
+            <organization type="academic">European Molecular Biology Laboratory</organization>
+            <street>Meyerhofstraße 1</street>
+            <townOrCity>Heidelberg</townOrCity>
+            <stateOrProvince>Baden-Württemberg</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>69117</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-5366-624X">Seifert-Davila W</author>
+            <author authorORCID="0000-0003-3442-5448">Girbig M</author>
+            <author authorORCID="0000-0003-3561-4523">Hauptmann L</author>
+            <author authorORCID="0000-0002-2980-8324">Hoffmann T</author>
+            <author authorORCID="0000-0002-4439-7770">Eustermann S</author>
+            <author authorORCID="0000-0003-2176-8337">Müller CW</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">3.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11762</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-16713</emdbEntry>
+            <emdbEntry>EMD-16714</emdbEntry>
+            <emdbEntry>EMD-16715</emdbEntry>
+            <emdbEntry>EMD-16716</emdbEntry>
+            <emdbEntry>EMD-16717</emdbEntry>
+            <emdbEntry>EMD-17446</emdbEntry>
+            <emdbEntry>EMD-17447</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-5366-624X" order="1">Seifert-Davila W</author>
+                    <author authorORCID="0000-0003-3442-5448" order="2">Girbig M</author>
+                    <author authorORCID="0000-0003-3561-4523" order="3">Hauptmann L</author>
+                    <author authorORCID="0000-0002-2980-8324" order="4">Hoffmann T</author>
+                    <author authorORCID="0000-0002-4439-7770" order="5">Eustermann S</author>
+                    <author authorORCID="0000-0003-2176-8337" order="6">Müller CW</author>
+                    <title>Structural insights into human TFIIIC promoter recognition</title>
+                    <journal>Science advances</journal>
+                    <journalAbbreviation>Sci Adv</journalAbbreviation>
+                    <country></country>
+                    <issue>27</issue>
+                    <volume>9</volume>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/sciadv.adh2019</externalReferences>
+                    <externalReferences type="pubmed">37418517</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of human TFIIIC bound to tRNA gene</name>
+        <directory>/data/Dataset_1</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>11025</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.822</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.822</pixelHeight>
+        </dimensions>
+        <details>Unaligned multi-frame (40 frames) micrographs were collected in counting mode with a total electron dose of 42.8 electrons/Å2 at defocus range from 0.7 to 1.7 . Gain reference is in CountRef_211108_hTFIIIC_DNA_00001.mrc file.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Dataset_1/211108_hTFIIIC_DNA_*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final particles of TauA subcomplex</name>
+        <directory>/data/Dataset_1/TauA_final_particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>55079</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>352</imageWidth>
+            <pixelWidth>0.822</pixelWidth>
+            <imageHeight>352</imageHeight>
+            <pixelHeight>0.822</pixelHeight>
+        </dimensions>
+        <details>The directory "data/Dataset_1/TauA_final_particles" contains the ".mrcs" files of the final 3D reconstruction of TauA. These particles were also used for the "Cryo-EM mapping of particle pair distances at a single-molecule level" with TauB-dimer particles. The file "particles.star" contains the coordinates.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Dataset_1/TauA_final_particles/211108_hTFIIIC_DNA_*.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Dataset_1/TauA_final_particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final particles of TauB-dimer subcomplex</name>
+        <directory>/data/Dataset_1/TauB_dimer_final_particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>35379</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>480</imageWidth>
+            <pixelWidth>0.822</pixelWidth>
+            <imageHeight>480</imageHeight>
+            <pixelHeight>0.822</pixelHeight>
+        </dimensions>
+        <details>The directory "data/Dataset_1/TauB_dimer_final_particles" contains the ".mrcs" files of the final 3D reconstruction of TauB-dimer. The file "particles.star" contains the coordinates.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Dataset_1/TauB_dimer_final_particles/211108_hTFIIIC_DNA_*.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Dataset_1/TauB_dimer_final_particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Intermediate particles of TauB-dimer subcomplex for mapping pair distance</name>
+        <directory>/data/Dataset_1/TauB_dimer_pair_distances</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>99217</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>480</imageWidth>
+            <pixelWidth>0.822</pixelWidth>
+            <imageHeight>480</imageHeight>
+            <pixelHeight>0.822</pixelHeight>
+        </dimensions>
+        <details>The directory "data/Dataset_1/TauB_dimer_pair_distances" contains the ".mrcs" files of Non-Uniform refinement reconstruction of TauB-dimer. These particles were used for the "Cryo-EM mapping of particle pair distances at a single-molecule level" with TauA particles. The file "particles.star" contains the coordinates.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Dataset_1/TauB_dimer_pair_distances/211108_hTFIIIC_DNA_*.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Dataset_1/TauB_dimer_pair_distances</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of human TFIIIC (No DNA sample)</name>
+        <directory>/data/Dataset_2</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>11088</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.822</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.822</pixelHeight>
+        </dimensions>
+        <details>Unaligned multi-frame (40 frames) micrographs were collected in counting mode with a total electron dose of 39.6 electrons/Å2 at defocus range from 0.7 to 1.7 . Gain reference is in CountRef_hTFIIIC_OG_113-1_00001.mrc file.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Dataset_2/hTFIIIC_OG_*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final particles of TauA subcomplex (No DNA sample)</name>
+        <directory>/data/Dataset_2/TauA_noDNA_final_particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>94103</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>300</imageWidth>
+            <pixelWidth>0.822</pixelWidth>
+            <imageHeight>300</imageHeight>
+            <pixelHeight>0.822</pixelHeight>
+        </dimensions>
+        <details>The directory "data/Dataset_2/TauA_noDNA_final_particles" contains the ".mrcs" files of the final 3D reconstruction of TauA. The file "particles.star" contains the coordinates.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Dataset_2/TauA_noDNA_final_particles/hTFIIIC_OG_*.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Dataset_2/TauA_noDNA_final_particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final particles of TauB-dimer subcomplex (No DNA sample)</name>
+        <directory>/data/Dataset_2/TauB_dimer_noDNA_final_particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>125600</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>480</imageWidth>
+            <pixelWidth>0.822</pixelWidth>
+            <imageHeight>480</imageHeight>
+            <pixelHeight>0.822</pixelHeight>
+        </dimensions>
+        <details>The directory "data/Dataset_2/TauB_dimer_noDNA_final_particles" contains the ".mrcs" files of the final 3D reconstruction of TauA. The file "particles.star" contains the coordinates.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Dataset_2/TauB_dimer_noDNA_final_particles/hTFIIIC_OG_*.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Dataset_2/TauB_dimer_noDNA_final_particles</pickedParticlesDirectory>
+    </imageSet>
+</entry>

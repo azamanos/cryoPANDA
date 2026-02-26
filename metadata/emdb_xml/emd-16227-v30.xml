@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-16227">
+    <admin>
+        <current_status>
+            <date>2024-11-20</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-11-28</deposition>
+            <header_release>2023-06-21</header_release>
+            <map_release>2023-06-21</map_release>
+            <update>2024-11-20</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>759517</code>
+                <country>European Union</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Netherlands Organisation for Scientific Research (NWO)</funding_body>
+                <code>OCENW.KLEIN.291</code>
+                <country>Netherlands</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Netherlands Organisation for Scientific Research (NWO)</funding_body>
+                <code>VI.Vidi.193.014</code>
+                <country>Netherlands</country>
+            </grant_reference>
+        </grant_support>
+        <title>Hexameric human IgG3 Fc complex</title>
+        <authors_list>
+            <author>Abendstein L</author>
+            <author>Sharp TH</author>
+        </authors_list>
+        <keywords>IgG3, antibody, Fc hexamer, IMMUNE SYSTEM</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-7634-5353" order="1">Abendstein L</author>
+                    <author ORCID="0000-0002-2534-7575" order="2">Dijkstra DJ</author>
+                    <author order="3">Tjokrodirijo RTN</author>
+                    <author ORCID="0000-0002-7898-9408" order="4">van Veelen PA</author>
+                    <author ORCID="0000-0001-5186-2290" order="5">Trouw LA</author>
+                    <author ORCID="0000-0002-3193-5445" order="6">Hensbergen PJ</author>
+                    <author ORCID="0000-0002-1990-2333" order="7">Sharp TH</author>
+                    <title>Complement is activated by elevated IgG3 hexameric platforms and deposits C4b onto distinct antibody domains.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>14</volume>
+                    <first_page>4027</first_page>
+                    <last_page>4027</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">37419978</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-023-39788-5</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8btb</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Fc domain of human IgG3</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Fc domain of human IgG3</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>FLJ00385 protein (Fragment)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023768956999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>LGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVQFKWYVDGVEVHNAKTKPREEQFNSTFRVVSVLTVLHQDWL
+NGKEYKCKVSNKALPAPIEKTISKTKGQPREPQVYTLPPSREEMTKNQVSLTCLVKGFYPSDIAVEWESSGQPENNYNTT
+PPMLDSDGSFFLYSKLTVDKSRWQQGNIFSCSVMHEALHNRFTQKSLSL</string>
+                    <external_references type="UNIPROTKB">Q8NF17</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>FLJ00385 protein (Fragment)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023782942999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVQFKWYVDGVEVHNAKTKPREEQFNSTFRVVSVLTVLHQDWLNG
+KEYKCKVSNKALPAPIEKTISKTKGQPREPQVYTLPPSREEMTKNQVSLTCLVKGFYPSDIAVEWESSGQPENNYNTTPP
+MLDSDGSFFLYSKLTVDKSRWQQGNIFSCSVMHEALHNRFTQKSLSLSP</string>
+                    <external_references type="UNIPROTKB">Q8NF17</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>subtomogramAveraging</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <subtomogram_averaging_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                        <details>PBS</details>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </subtomogram_averaging_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <subtomogram_averaging_microscopy microscopy_id="1">
+                    <microscope>FEI TECNAI ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_defocus_min units="µm">3.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">6.0</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">1.5</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </subtomogram_averaging_microscopy>
+            </microscopy_list>
+            <subtomogram_averaging_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C6</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">14.0</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>Dynamo</name>
+                        </software>
+                    </software_list>
+                    <number_subtomograms_used>571</number_subtomograms_used>
+                </final_reconstruction>
+                <extraction>
+                    <number_tomograms>60</number_tomograms>
+                    <number_images_used>1193</number_images_used>
+                    <software_list>
+                        <software>
+                            <name>EMAN2</name>
+                        </software>
+                    </software_list>
+                </extraction>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>Dynamo</name>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <software_list>
+                        <software>
+                            <name>Dynamo</name>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </subtomogram_averaging_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="23329">
+        <file>emd_16227.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>180</col>
+            <row>180</row>
+            <sec>180</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>180</x>
+            <y>180</y>
+            <z>180</z>
+        </spacing>
+        <cell>
+            <a units="Å">626.4</a>
+            <b units="Å">626.4</b>
+            <c units="Å">626.4</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-1.2636707</minimum>
+            <maximum>3.343214</maximum>
+            <average>0.0044321297</average>
+            <std>0.09974515</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">3.48</x>
+            <y units="Å">3.48</y>
+            <z units="Å">3.48</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>1.25</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-16227::::</label>
+        <annotation_details>Subtomogram average of IgG3-Fc hexamer formed on lipid bilayers</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_16227_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="23329">
+                <file>emd_16227_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>180</col>
+                    <row>180</row>
+                    <sec>180</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>180</x>
+                    <y>180</y>
+                    <z>180</z>
+                </spacing>
+                <cell>
+                    <a units="Å">626.4</a>
+                    <b units="Å">626.4</b>
+                    <c units="Å">626.4</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-2.389303</minimum>
+                    <maximum>3.4889934</maximum>
+                    <average>0.0022365546</average>
+                    <std>0.28693634</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">3.48</x>
+                    <y units="Å">3.48</y>
+                    <z units="Å">3.48</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16227::::</label>
+                <annotation_details>Half map of subtomogram average of IgG3-Fc hexamer formed on lipid bilayers</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="23329">
+                <file>emd_16227_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>180</col>
+                    <row>180</row>
+                    <sec>180</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>180</x>
+                    <y>180</y>
+                    <z>180</z>
+                </spacing>
+                <cell>
+                    <a units="Å">626.4</a>
+                    <b units="Å">626.4</b>
+                    <c units="Å">626.4</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-2.099542</minimum>
+                    <maximum>3.438172</maximum>
+                    <average>0.0014533154</average>
+                    <std>0.24066399</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">3.48</x>
+                    <y units="Å">3.48</y>
+                    <z units="Å">3.48</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16227::::</label>
+                <annotation_details>Half map of subtomogram average of IgG3-Fc hexamer formed on lipid bilayers</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

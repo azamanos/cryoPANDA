@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-20247">
+    <admin>
+        <current_status>
+            <date>2024-10-09</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-05-26</deposition>
+            <header_release>2019-07-17</header_release>
+            <map_release>2019-07-24</map_release>
+            <update>2024-10-09</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01GM098672</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Neurological Disorders and Stroke (NIH/NINDS)</funding_body>
+                <code>R01NS069229</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Neurological Disorders and Stroke (NIH/NINDS)</funding_body>
+                <code>R01NS069229</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/Office of the Director</funding_body>
+                <code>S10OD0020054</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/Office of the Director</funding_body>
+                <code>S10OD021741</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Human Frontier Science Program (HFSP)</funding_body>
+                <country>France</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of calcium-bound TMEM16F in nanodisc with supplement of PIP2 in Cl2</title>
+        <authors_list>
+            <author>Feng S</author>
+            <author>Dang S</author>
+        </authors_list>
+        <keywords>TMEM16F, scramblase, MEMBRANE PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Feng S</author>
+                    <author order="2">Dang S</author>
+                    <author order="3">Han TW</author>
+                    <author order="4">Ye W</author>
+                    <author order="5">Jin P</author>
+                    <author order="6">Cheng T</author>
+                    <author order="7">Li J</author>
+                    <author order="8">Jan YN</author>
+                    <author order="9">Jan LY</author>
+                    <author order="10">Cheng Y</author>
+                    <title>Cryo-EM Studies of TMEM16F Calcium-Activated Ion Channel Suggest Features Important for Lipid Scrambling.</title>
+                    <journal_abbreviation>Cell Rep</journal_abbreviation>
+                    <country>US</country>
+                    <volume>28</volume>
+                    <first_page>567</first_page>
+                    <last_page>579.e4</last_page>
+                    <year>2019</year>
+                    <external_references type="PUBMED">31291589</external_references>
+                    <external_references type="DOI">doi:10.1016/j.celrep.2019.06.023</external_references>
+                    <external_references type="ISSN">2211-1247</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-20244</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-20245</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-20246</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6p49</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>TMEM16F with calcium bound</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>TMEM16F with calcium bound</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Anoctamin-6</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.106367727</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MQMMTRKVLLNMELEEDDDEDGDIVLENFDQTIVCPTFGSLENQQDFRTPEFEEFNGKPDSLFFTDGQRRIDFILVYEDE
+SKKENNKKGTNEKQKRKRQAYESNLICHGLQLEATRSVSDDKLVFVKVHAPWEVLCTYAEIMHIKLPLKPNDLKTRSPFG
+NLNWFTKVLRVNESVIKPEQEFFTAPFEKSRMNDFYILDRDSFFNPATRSRIVYFILSRVKYQVMNNVNKFGINRLVSSG
+IYKAAFPLHDCRFNYESEDISCPSERYLLYREWAHPRSIYKKQPLDLIRKYYGEKIGIYFAWLGYYTQMLLLAAVVGVAC
+FLYGYLDQDNCTWSKEVCDPDIGGQILMCPQCDRLCPFWRLNITCESSKKLCIFDSFGTLIFAVFMGVWVTLFLEFWKRR
+QAELEYEWDTVELQQEEQARPEYEAQCNHVVINEITQEEERIPFTTCGKCIRVTLCASAVFFWILLIIASVIGIIVYRLS
+VFIVFSTTLPKNPNGTDPIQKYLTPQMATSITASIISFIIIMILNTIYEKVAIMITNFELPRTQTDYENSLTMKMFLFQF
+VNYYSSCFYIAFFKGKFVGYPGDPVYLLGKYRSEECDPGGCLLELTTQLTIIMGGKAIWNNIQEVLLPWVMNLIGRYKRV
+SGSEKITPRWEQDYHLQPMGKLGLFYEYLEMIIQFGFVTLFVASFPLAPLLALVNNILEIRVDAWKLTTQFRRMVPEKAQ
+DIGAWQPIMQGIAILAVVTNAMIIAFTSDMIPRLVYYWSFSIPPYGDHTYYTMDGYINNTLSVFNITDFKNTDKENPYIG
+LGNYTLCRYRDFRNPPGHPQEYKHNIYYWHVIAAKLAFIIVMEHIIYSVKFFISYAIPDVSKITKSKIKREKYLTQKLLH
+ESHLKDLTKNMGIIAERIGGTVDNSVRPKLE</string>
+                    <external_references type="UNIPROTKB">Q6P9J9</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>CALCIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">4.0078e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>CA</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.0</concentration>
+                            <name>EGTA</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">2.0</concentration>
+                            <formula>CaCl2</formula>
+                            <name>calcium chloride</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">30</time>
+                            <atmosphere>AIR</atmosphere>
+                            <pressure units="kPa">101.325</pressure>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277.15</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">100.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <basic/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>SUPER-RESOLUTION</detector_mode>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>3823</number_real_images>
+                            <average_exposure_time units="s">8.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">56.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>2355541</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="EMDB MAP"/>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C2</point_group>
+                    </applied_symmetry>
+                    <algorithm>BACK PROJECTION</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">3.3</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>332176</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>3</number_classes>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_20247.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">271.104</a>
+            <b units="Å">271.104</b>
+            <c units="Å">271.104</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.10500743</minimum>
+            <maximum>0.11831159</maximum>
+            <average>-0.00012840134</average>
+            <std>0.0024216254</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.059</x>
+            <y units="Å">1.059</y>
+            <z units="Å">1.059</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.018</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-20247::::</label>
+        <annotation_details>sharpened map</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>6P46</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_20247_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">271.104</a>
+                    <b units="Å">271.104</b>
+                    <c units="Å">271.104</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.022726873</minimum>
+                    <maximum>0.042300746</maximum>
+                    <average>-0.00015134912</average>
+                    <std>0.0016846472</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.059</x>
+                    <y units="Å">1.059</y>
+                    <z units="Å">1.059</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-20247::::</label>
+                <annotation_details>unsharpened map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_20247_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">271.104</a>
+                    <b units="Å">271.104</b>
+                    <c units="Å">271.104</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.02582805</minimum>
+                    <maximum>0.048390217</maximum>
+                    <average>-0.00012718856</average>
+                    <std>0.0017645218</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.059</x>
+                    <y units="Å">1.059</y>
+                    <z units="Å">1.059</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-20247::::</label>
+                <annotation_details>half map 2</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_20247_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">271.104</a>
+                    <b units="Å">271.104</b>
+                    <c units="Å">271.104</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.025196493</minimum>
+                    <maximum>0.046352845</maximum>
+                    <average>-0.00012921276</average>
+                    <std>0.0017652037</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.059</x>
+                    <y units="Å">1.059</y>
+                    <z units="Å">1.059</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-20247::::</label>
+                <annotation_details>half map 1</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

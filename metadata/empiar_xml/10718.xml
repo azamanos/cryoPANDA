@@ -1,0 +1,137 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10718" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-05-17</depositionDate>
+            <releaseDate>2021-06-25</releaseDate>
+            <updateDate>2021-06-25</updateDate>
+        </keyDates>
+        <title>The structure of human CST reveals a decameric assembly bound to telomeric DNA</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0003-3327-1926</authorORCID>
+            <firstName>Ci Ji</firstName>
+            <lastName>Lim</lastName>
+            <organization type="academic">UW-Madison</organization>
+            <townOrCity>Madison</townOrCity>
+            <stateOrProvince>Wisconsin</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>53706</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0001-7338-3389</authorORCID>
+            <firstName>Thomas</firstName>
+            <lastName>Cech</lastName>
+            <organization type="academic">CU Boulder</organization>
+            <townOrCity>Boulder</townOrCity>
+            <stateOrProvince>Colorado</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>80303</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-3327-1926">Lim C</author>
+            <author authorORCID="0000-0003-0847-8546">Barbour AT</author>
+            <author authorORCID="0000-0001-7324-803X">Zaug AJ</author>
+            <author authorORCID="0000-0003-3301-7725">Goodrich KJ</author>
+            <author authorORCID="0000-0003-0288-9731">McKay AE</author>
+            <author authorORCID="0000-0002-8158-8795">Wuttke DS</author>
+            <author authorORCID="0000-0001-7338-3389">Cech TR</author>
+        </authorsList>
+        <datasetSize units="TB">14.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10718</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-21567</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-3327-1926" order="1">Lim C</author>
+                    <author authorORCID="0000-0003-0847-8546" order="2">Barbour AT</author>
+                    <author authorORCID="0000-0001-7324-803X" order="3">Zaug AJ</author>
+                    <author authorORCID="0000-0003-3301-7725" order="4">Goodrich KJ</author>
+                    <author authorORCID="0000-0003-0288-9731" order="5">McKay AE</author>
+                    <author authorORCID="0000-0002-8158-8795" order="6">Wuttke DS</author>
+                    <author authorORCID="0000-0001-7338-3389" order="7">Cech TR</author>
+                    <title>The structure of human CST reveals a decameric assembly bound to telomeric DNA</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country></country>
+                    <issue>6495</issue>
+                    <volume>368</volume>
+                    <firstPage>1081</firstPage>
+                    <lastPage>1085</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.aaz9649</externalReferences>
+                    <externalReferences type="pubmed">32499435</externalReferences>
+                    <details>N/A</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned movies of CST with 3xTEL DNA oligomer at 0 degrees stage tilt</name>
+        <directory>/data/CST_0tilt_movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>20808</numImagesOrTiltSeries>
+        <framesPerImage>60</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.539</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>This dataset was collected on a KRIOS with 3x3 beam tilt strategy using SerialEM. The optical groups are named just before the date. For example, W3_3_999_009_Aug02_00.49.32.tif is group 9. In addition, this dataset was collected at 0 degrees stage tilt with a pixel size of 0.539 Å/pixel, a defocus range of -1 to -2.5 µm, and a total dose of 60.0 e-/Å2 (60 frames) using a Gatan K3 direct electron detector in super-resolution CDS mode. Gain reference to be applied.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of CST with 3xTEL DNA oligomer at 30 degrees stage tilt</name>
+        <directory>/data/CST_30tilt_movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>7227</numImagesOrTiltSeries>
+        <framesPerImage>60</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.539</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>This dataset was collected on a KRIOS with 3x3 beam tilt strategy using SerialEM. The optical groups are named just before the date. For example,  W3_3_30tilt_3315_004_Aug08_10.16.04.tif is group 4. In addition, this dataset was collected at 30 degrees stage tilt with a pixel size of 0.539 Å/pixel, a defocus range of -1 to -2.5 µm, and a total dose of 60.0 e-/Å2 (60 frames) using a Gatan K3 direct electron detector in super-resolution CDS mode. Gain reference to be applied.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Gain reference for both datasets - gainref_20190729.mrc</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.539</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>Gain reference for the two datasets.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

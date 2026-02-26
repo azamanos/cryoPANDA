@@ -1,0 +1,97 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10893" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-12-22</depositionDate>
+            <releaseDate>2022-01-12</releaseDate>
+            <updateDate>2022-01-12</updateDate>
+        </keyDates>
+        <title>Motion corrected micrographs - purified Dot/Icm T4SS particles</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0003-1750-4793</authorORCID>
+            <firstName>Melanie</firstName>
+            <lastName>Ohi</lastName>
+            <organization type="academic">University of Michigan, Life Sciences Institute</organization>
+            <street>210 Washtenaw Ave</street>
+            <townOrCity>Ann Arbor</townOrCity>
+            <stateOrProvince>MI</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>48109</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0003-1750-4793</authorORCID>
+            <firstName>Melanie</firstName>
+            <lastName>Ohi</lastName>
+            <organization type="academic">University of Michigan, Life Sciences Institute</organization>
+            <street>210 Washtenaw Ave</street>
+            <townOrCity>Ann Arbor</townOrCity>
+            <stateOrProvince>MI</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>48109</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-4027-4386">Durie CL</author>
+            <author authorORCID="0000-0002-3185-1727">Sheedlo MJ</author>
+            <author authorORCID="0000-0002-4285-8764">Chung JM</author>
+            <author>Byrne BG</author>
+            <author>Su M</author>
+            <author>Knight T</author>
+            <author authorORCID="0000-0003-2542-0266">Swanson M</author>
+            <author authorORCID="0000-0003-2273-8121">Lacy DB</author>
+            <author authorORCID="0000-0003-1750-4793">Ohi MD</author>
+        </authorsList>
+        <datasetSize>190.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10893</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-22070</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-4027-4386" order="1">Durie CL</author>
+                    <author authorORCID="0000-0002-3185-1727" order="2">Sheedlo MJ</author>
+                    <author authorORCID="0000-0002-4285-8764" order="3">Chung JM</author>
+                    <author order="4">Byrne BG</author>
+                    <author order="5">Su M</author>
+                    <author order="6">Knight T</author>
+                    <author authorORCID="0000-0003-2542-0266" order="7">Swanson M</author>
+                    <author authorORCID="0000-0003-2273-8121" order="8">Lacy DB</author>
+                    <author authorORCID="0000-0003-1750-4793" order="9">Ohi MD</author>
+                    <title>Structural analysis of the Legionella pneumophila Dot/Icm type IV secretion system core complex</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation>Elife</journalAbbreviation>
+                    <country></country>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.7554/elife.59530</externalReferences>
+                    <externalReferences type="pubmed">32876045</externalReferences>
+                    <details>Images of the Dot/Icm T4SS complexes from wild-type Legionella pneumophila cells were collected on the Thermo Fisher 300 kV Titan Krios with Gatan K2 Summit Direct Electron Detector camera having a nominal pixel size of 1.64 Å. Micrographs were acquired using Leginon software. The total exposure time was 16 s, and frames were recorded every 0.2 s, resulting in a total accumulated dose of 58.1 e- Å−2 using a defocus range of −1 to −3 μm. The video frames were aligned using Motioncor2.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion corrected micrographs Legionella pneumophila Dot/Icm T4SS</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3590</numImagesOrTiltSeries>
+        <framesPerImage>80</framesPerImage>
+        <voxelType>SIGNED 32 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.64</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.64</pixelHeight>
+        </dimensions>
+        <details>The images of the T4SS complexes from wild-type cells were collected on the Thermo Fisher 300 kV Titan Krios with Gatan K2 Summit Direct Electron Detector (DED) camera having a nominal pixel size of 1.64 Å. Micrographs were acquired using Leginon software. The total exposure time was 16 s, and frames were recorded every 0.2 s, resulting in a total accumulated dose of 58.1 e- Å−2 using a defocus range of −1 to −3 μm. The video frames were aligned using Motioncor2.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

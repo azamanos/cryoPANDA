@@ -1,0 +1,132 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10387" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-03-26</depositionDate>
+            <releaseDate>2020-06-30</releaseDate>
+            <updateDate>2020-06-30</updateDate>
+        </keyDates>
+        <title>Structural basis for strand-transfer inhibitor binding to HIV intasomes</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-1333-9102</authorORCID>
+            <firstName>Dario</firstName>
+            <lastName>Oliveira Passos</lastName>
+            <organization type="academic">Salk Institute</organization>
+            <street>10010 N Torrey Pines</street>
+            <townOrCity>San Diego</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>92037</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8124-7472</authorORCID>
+            <firstName>Dmitry</firstName>
+            <lastName>Lyumkis</lastName>
+            <organization type="academic">Salk Institute</organization>
+            <street>10010 N Torrey Pines</street>
+            <townOrCity>San Diego</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>92037</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-1333-9102">Passos DO</author>
+            <author>Li M</author>
+            <author authorORCID="0000-0002-7150-5802">Jóźwik IK</author>
+            <author authorORCID="0000-0003-1006-6364">Zhao XZ</author>
+            <author authorORCID="0000-0003-4622-3747">Santos-Martins D</author>
+            <author authorORCID="0000-0001-9640-4189">Yang R</author>
+            <author>Smith SJ</author>
+            <author authorORCID="0000-0001-7563-4743">Jeon Y</author>
+            <author authorORCID="0000-0002-5964-7111">Forli S</author>
+            <author>Hughes SH</author>
+            <author authorORCID="0000-0001-9925-8586">Burke TR</author>
+            <author authorORCID="0000-0001-9516-6385">Craigie R</author>
+            <author authorORCID="0000-0002-8124-7472">Lyumkis D</author>
+        </authorsList>
+        <datasetSize units="TB">4.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10387</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-20484</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-1333-9102" order="1">Passos DO</author>
+                    <author order="2">Li M</author>
+                    <author authorORCID="0000-0002-7150-5802" order="3">Jóźwik IK</author>
+                    <author authorORCID="0000-0003-1006-6364" order="4">Zhao XZ</author>
+                    <author authorORCID="0000-0003-4622-3747" order="5">Santos-Martins D</author>
+                    <author authorORCID="0000-0001-9640-4189" order="6">Yang R</author>
+                    <author order="7">Smith SJ</author>
+                    <author authorORCID="0000-0001-7563-4743" order="8">Jeon Y</author>
+                    <author authorORCID="0000-0002-5964-7111" order="9">Forli S</author>
+                    <author order="10">Hughes SH</author>
+                    <author authorORCID="0000-0001-9925-8586" order="11">Burke TR</author>
+                    <author authorORCID="0000-0001-9516-6385" order="12">Craigie R</author>
+                    <author authorORCID="0000-0002-8124-7472" order="13">Lyumkis D</author>
+                    <title>Structural basis for strand-transfer inhibitor binding to HIV intasomes</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>6479</issue>
+                    <volume>367</volume>
+                    <firstPage>810</firstPage>
+                    <lastPage>814</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.aay8015</externalReferences>
+                    <externalReferences type="pubmed">32001521</externalReferences>
+                    <details>Compressed movies of HIV intasomes bound to the compound 4d. Movies contain 80 raw frames each, accumulating 45 electron per square Angstrom in an 8 second exposure. Pixel size is 0.79.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned, summed and exposure weighted micrographs of HIV-1 intasome bound to compound 4d.</name>
+        <directory>/data/Sums</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2022</numImagesOrTiltSeries>
+        <framesPerImage>77</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>0.79</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>0.79</pixelHeight>
+        </dimensions>
+        <details>Aligned, summed and exposure weighted micrographs of HIV-1 intasome bound to compound 4d. Micrographs were aligned and summed using MotionCor2, with 5 by 5 patch and exposure weighting. The first 3 frames, which had the most beam-induced movement, were discarded.
+
+Regarding particle stack of HIV-1 intasome bound to compound 4d. Particles were extracted from aligned, exposured weighted and summed micrographs. This stack contains 138,770 particles (384 x 384 pixels) and was processed in cisTEM. Both *mrc and *par files are included.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Sums/*DW.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Particle-Stack/18jul30a_4d_F3-77_vol180-1_2-88A.mrc</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Particle-Stack</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned raw movies of HIV-1 intasome bound to compound 4d</name>
+        <directory>/data/Rawdata</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2024</numImagesOrTiltSeries>
+        <framesPerImage>80</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>0.79</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>0.79</pixelHeight>
+        </dimensions>
+        <details>Unaligned raw multi-frame movies of HIV-1 intasome bound to compound 4d. Movies were collected with a stage tilt angle set to 20, 30, or 40 degrees. The gain normalization reference image (norm) is included for each of the 3 sessions.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

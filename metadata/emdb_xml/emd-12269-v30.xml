@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-12269">
+    <admin>
+        <current_status>
+            <date>2024-05-01</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-01-28</deposition>
+            <header_release>2021-02-24</header_release>
+            <map_release>2021-02-24</map_release>
+            <update>2024-05-01</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Medical Research Council (MRC, United Kingdom)</funding_body>
+                <code>MC-U105184291</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Medical Research Council (MRC, United Kingdom)</funding_body>
+                <code>MC_UP_A025_1013</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Japan Agency for Medical Research and Development (AMED)</funding_body>
+                <code>JP18ek0109391</code>
+                <country>Japan</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Japan Agency for Medical Research and Development (AMED)</funding_body>
+                <code>JP18dm020719</code>
+                <country>Japan</country>
+            </grant_reference>
+        </grant_support>
+        <title>Type 3 alpha-synuclein filament seeded in vitro by filaments purified from Multiple Systems Atrophy Case 5</title>
+        <authors_list>
+            <author>Lovestam SKA</author>
+            <author>Schweighauser M</author>
+        </authors_list>
+        <keywords>Amyloid, Multiple System Atrophy, Neurodegeneration, alpha-synuclein, filament, PROTEIN FIBRIL</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Lovestam S</author>
+                    <author order="2">Schweighauser M</author>
+                    <author order="3">Matsubara T</author>
+                    <author order="4">Murayama S</author>
+                    <author order="5">Tomita T</author>
+                    <author order="6">Ando T</author>
+                    <author order="7">Hasegawa K</author>
+                    <author order="8">Yoshida M</author>
+                    <author order="9">Tarutani A</author>
+                    <author order="10">Hasegawa M</author>
+                    <author order="11">Goedert M</author>
+                    <author order="12">Scheres SHW</author>
+                    <title>Seeded assembly in vitro does not replicate the structures of alpha-synuclein filaments from multiple system atrophy.</title>
+                    <journal_abbreviation>Febs Open Bio</journal_abbreviation>
+                    <country>NE</country>
+                    <volume>11</volume>
+                    <first_page>999</first_page>
+                    <last_page>1013</last_page>
+                    <year>2021</year>
+                    <external_references type="PUBMED">33548114</external_references>
+                    <external_references type="DOI">doi:10.1002/2211-5463.13110</external_references>
+                    <external_references type="ISSN">2211-5463</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7nck</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Alpha synuclein filament</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Alpha synuclein filament</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Alpha-synuclein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014476108</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQK
+TVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</string>
+                    <external_references type="UNIPROTKB">P37840</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>6.5</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>LMB vitrobot IV. </details>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">1.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">3.0</nominal_defocus_max>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <zemlin_tableau/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <average_electron_dose_per_image units="e/Å^2">32.6</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">4.75</delta_z>
+                            <delta_phi units="deg">-0.95</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.18</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                            <processing_details>The purple version :)</processing_details>
+                        </software>
+                    </software_list>
+                    <number_images_used>69490</number_images_used>
+                </final_reconstruction>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <details>Relion helix ini model tool</details>
+                </startup_model>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="42593">
+        <file>emd_12269.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>220</col>
+            <row>220</row>
+            <sec>220</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>220</x>
+            <y>220</y>
+            <z>220</z>
+        </spacing>
+        <cell>
+            <a units="Å">251.9</a>
+            <b units="Å">251.9</b>
+            <c units="Å">251.9</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.06852698</minimum>
+            <maximum>0.13963868</maximum>
+            <average>0.00044219627</average>
+            <std>0.005731743</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.145</x>
+            <y units="Å">1.145</y>
+            <z units="Å">1.145</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.02</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-12269::::</label>
+        <annotation_details>Type 3 alpha-synuclein filament seeded in vitro by filaments purified from Multiple Systems Atrophy Case 5</annotation_details>
+    </map>
+    <interpretation>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="42593">
+                <file>emd_12269_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>220</col>
+                    <row>220</row>
+                    <sec>220</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>220</x>
+                    <y>220</y>
+                    <z>220</z>
+                </spacing>
+                <cell>
+                    <a units="Å">251.9</a>
+                    <b units="Å">251.9</b>
+                    <c units="Å">251.9</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.039016165</minimum>
+                    <maximum>0.07899886</maximum>
+                    <average>0.00003708189</average>
+                    <std>0.0037830153</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.145</x>
+                    <y units="Å">1.145</y>
+                    <z units="Å">1.145</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-12269::::</label>
+                <annotation_details>Type 3 alpha-synuclein filament seeded in vitro by filaments purified from Multiple Systems Atrophy Case 5, half map 2</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="42593">
+                <file>emd_12269_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>220</col>
+                    <row>220</row>
+                    <sec>220</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>220</x>
+                    <y>220</y>
+                    <z>220</z>
+                </spacing>
+                <cell>
+                    <a units="Å">251.9</a>
+                    <b units="Å">251.9</b>
+                    <c units="Å">251.9</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.035776254</minimum>
+                    <maximum>0.081027</maximum>
+                    <average>0.000052151114</average>
+                    <std>0.0037353288</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.145</x>
+                    <y units="Å">1.145</y>
+                    <z units="Å">1.145</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-12269::::</label>
+                <annotation_details>Type 3 alpha-synuclein filament seeded in vitro by filaments purified from Multiple Systems Atrophy Case 5, half map 1</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

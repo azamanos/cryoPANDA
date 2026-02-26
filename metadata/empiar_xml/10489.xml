@@ -1,0 +1,96 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10489" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-07-04</depositionDate>
+            <releaseDate>2020-09-02</releaseDate>
+            <updateDate>2021-05-07</updateDate>
+        </keyDates>
+        <title>Native Pyruvate Dehydrogenase Complex from Neurospora crassa</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-6247-4063</authorORCID>
+            <firstName>Bjoern</firstName>
+            <middleName>O.</middleName>
+            <lastName>Forsberg</lastName>
+            <organization type="academic">Stockholm University, Science for Life Laboratory</organization>
+            <street>Tomtebodavägen 23A</street>
+            <townOrCity>SOLNA</townOrCity>
+            <country>Sweden</country>
+            <postOrZipCode>17165</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-2734-2794</authorORCID>
+            <firstName>Erik</firstName>
+            <lastName>Lindahl</lastName>
+            <organization type="academic">Stockholm University, Science for Life Laboratory</organization>
+            <street>Tomtebodavägen 23A</street>
+            <townOrCity>SOLNA</townOrCity>
+            <stateOrProvince>SOLNA</stateOrProvince>
+            <country>Sweden</country>
+            <postOrZipCode>17165</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-6247-4063">Forsberg BO</author>
+            <author authorORCID="0000-0003-2221-482X">Aibara S</author>
+            <author authorORCID="0000-0003-2049-3378">Howard RJ</author>
+            <author authorORCID="0000-0002-8473-118X">Mortezaei N</author>
+            <author authorORCID="0000-0002-2734-2794">Lindahl E</author>
+        </authorsList>
+        <datasetSize units="GB">305.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10489</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-11266</emdbEntry>
+            <emdbEntry>EMD-11267</emdbEntry>
+            <emdbEntry>EMD-11268</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-6247-4063" order="1">Forsberg BO</author>
+                    <author authorORCID="0000-0003-2221-482X" order="2">Aibara S</author>
+                    <author authorORCID="0000-0003-2049-3378" order="3">Howard RJ</author>
+                    <author authorORCID="0000-0002-8473-118X" order="4">Mortezaei N</author>
+                    <author authorORCID="0000-0002-2734-2794" order="5">Lindahl E</author>
+                    <title>Arrangement and symmetry of the fungal E3BP-containing core of the pyruvate dehydrogenase complex</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>11</volume>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-020-18401-z</externalReferences>
+                    <externalReferences type="pubmed">32938938</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned and dose-weighted micrographs of native N. crassa Pyruvate dehydrogenase</name>
+        <directory>/data/MG</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4887</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.25</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.25</pixelHeight>
+        </dimensions>
+        <details>All motion-corrected, dose-weighted and gain-corrected micrographs are contained in the directory "MG".
+
+No extracted particles are included. Instead, particles can be re-extracted using the .star files. Estimated CTF values per-micrograph is found in the file micrographs_ctf.star, which should be used to re-extract particles defined in any particles.star-file. The latter files contain refined positions and angle assignments.
+
+all_particles.star contain all particles considered to be non-junk, PDC-particles. Angle assignments are based on classification of these particles into class X, class Y, and class N, as denoted in the paper "Arrangement and symmetry of the fungal E3BP-containing core of the Pyruvate Dehydrogenase Complex". Two separate files contain the re-refined angles of class X and Yi respectively, based on gold-standard refinement using relion.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/MG/*mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/all_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

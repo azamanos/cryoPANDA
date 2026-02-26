@@ -1,0 +1,94 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11149" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-08-16</depositionDate>
+            <releaseDate>2022-09-20</releaseDate>
+            <updateDate>2022-09-20</updateDate>
+        </keyDates>
+        <title>Cryo-EM dataset of Candida albicans CIII, inhibitor free</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0003-0566-2209</authorORCID>
+            <firstName>John</firstName>
+            <middleName>L</middleName>
+            <lastName>Rubinstein</lastName>
+            <organization type="academic">SickKids Research Institute</organization>
+            <street>686 Bay St</street>
+            <townOrCity>Toronto</townOrCity>
+            <stateOrProvince>Ontario</stateOrProvince>
+            <country>Canada</country>
+            <postOrZipCode>M5G 0A4</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0003-0566-2209</authorORCID>
+            <firstName>John</firstName>
+            <middleName>L</middleName>
+            <lastName>Rubinstein</lastName>
+            <organization type="academic">SickKids Research Institute</organization>
+            <street>686 Bay St</street>
+            <townOrCity>Toronto</townOrCity>
+            <stateOrProvince>Ontario</stateOrProvince>
+            <country>Canada</country>
+            <postOrZipCode>M5G 0A4</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-4764-4009">Di Trani J</author>
+            <author authorORCID="0000-0003-0566-2209">Rubinstein JL</author>
+        </authorsList>
+        <datasetSize>227.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11149</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-24482</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-4764-4009" order="1">Di Trani J</author>
+                    <author order="2">Zhongle L</author>
+                    <author authorORCID="0000-0001-6445-5766" order="3">Whitesell L</author>
+                    <author authorORCID="0000-0003-3860-4988" order="4">Brzezinski P</author>
+                    <author authorORCID="0000-0001-5797-0110" order="5">Cowen L</author>
+                    <author authorORCID="0000-0003-0566-2209" order="6">Rubinstein JL</author>
+                    <title>Rieske head domain dynamics and indazole-derivative inhibition of Candida albicans complex III</title>
+                    <journal>Structure</journal>
+                    <journalAbbreviation>Structure</journalAbbreviation>
+                    <country>Canada</country>
+                    <issue>30</issue>
+                    <volume>1</volume>
+                    <firstPage>129</firstPage>
+                    <lastPage>138</lastPage>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.str.2021.08.006</externalReferences>
+                    <externalReferences type="pubmed">34525326</externalReferences>
+                    <details>Movies were collected at 300kV, with a pixel size of 1.03 Angstroms, a spherical aberration of 2.7mm, and a total exposure of 42e-/A^2. Micrographs were patch motion corrected in cryoSPARC.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned, dose weighted movies of Candida albicans Mitochondrial Complex III</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3634</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.03</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.03</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

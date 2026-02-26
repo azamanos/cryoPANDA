@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-15389">
+    <admin>
+        <current_status>
+            <date>2024-07-24</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-07-14</deposition>
+            <header_release>2023-01-18</header_release>
+            <map_release>2023-01-18</map_release>
+            <update>2024-07-24</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Netherlands Organisation for Scientific Research (NWO)</funding_body>
+                <code>31.014.248</code>
+                <country>Netherlands</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Union (EU)</funding_body>
+                <code>76697</code>
+                <country>European Union</country>
+            </grant_reference>
+        </grant_support>
+        <title>3 A CRYO-EM STRUCTURE OF MYCOBACTERIUM TUBERCULOSIS FERRITIN FROM TIMEPIX3 detector</title>
+        <authors_list>
+            <author>Zhang Y</author>
+            <author>van Schayck JP</author>
+            <author>Knoops K</author>
+            <author>Peters PJ</author>
+            <author>Ravelli RBG</author>
+        </authors_list>
+        <keywords>IRON STORAGE; FERROXIDASE; BACTERIAL FERRITIN; OCTAHEDRAL SYMMETRY., METAL TRANSPORT</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">van Schayck JP</author>
+                    <author order="2">Zhang Y</author>
+                    <author order="3">Knoops K</author>
+                    <author order="4">Peters PJ</author>
+                    <author order="5">Ravelli RBG</author>
+                    <title>Integration of an Event-driven Timepix3 Hybrid Pixel Detector into a Cryo-EM Workflow</title>
+                    <journal_abbreviation>Microsc Microanal</journal_abbreviation>
+                    <country>US</country>
+                    <year>2023</year>
+                    <external_references type="DOI">doi:10.1093/micmic/ozac009</external_references>
+                    <external_references type="ISSN">1435-8115</external_references>
+                </journal_citation>
+            </primary_citation>
+            <secondary_citation>
+                <journal_citation published="true">
+                    <author order="6">Zhang Y</author>
+                    <author order="7">van Schayck JP</author>
+                    <author order="8">Knoops K</author>
+                    <author order="9">Peters PJ</author>
+                    <author order="10">Ravelli RBG</author>
+                    <title>Mycobacterium Tuberculosis Ferritin: A Suitable Workhorse Protein For Cryo-Em Development.</title>
+                    <journal_abbreviation>Acta Crystallogr D Struct Biol</journal_abbreviation>
+                    <volume>77</volume>
+                    <first_page>1077</first_page>
+                    <year>2021</year>
+                    <external_references type="PUBMED">34342280</external_references>
+                    <external_references type="DOI">doi:10.1107/S2059798321007233</external_references>
+                    <external_references type="ISSN">2059-7983</external_references>
+                </journal_citation>
+            </secondary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8aey</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>MYCOBACTERIUM TUBERCULOSIS
+                                   FERRITIN</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>MYCOBACTERIUM TUBERCULOSIS
+                                   FERRITIN</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>MYCOBACTERIUM TUBERCULOSIS
+ FERRITIN</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="83332">Mycobacterium tuberculosis H37Rv</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Ferritin BfrB</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83332">Mycobacterium tuberculosis H37Rv</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.020463936000000002</theoretical>
+                </molecular_weight>
+                <number_of_copies>24</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="469008">Escherichia coli BL21(DE3)</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTEYEGPKTKFHALMQEQIHNEFTAAQQYVAIAVYFDSEDLPQLAKHFYSQAVEERNHAMMLVQHLLDRDLRVEIPGVDT
+VRNQFDRPREALALALDQERTVTDQVGRLTAVARDEGDFLGEQFMQWFLQEQIEEVALMATLVRVADRAGANLFELENFV
+AREVDVAPAASGAPHAAGGRL</string>
+                    <external_references type="UNIPROTKB">P9WNE5</external_references>
+                </sequence>
+                <ec_number>1.16.3.1</ec_number>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>240</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">40</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>GOLD</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>GOLD</film_material>
+                            <film_topology>HOLEY</film_topology>
+                            <film_thickness>50.0</film_thickness>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TECNAI ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">1.4000000000000001</nominal_defocus_max>
+                    <nominal_magnification>215000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <software_list>
+                        <software>
+                            <name>SerialEM</name>
+                            <version>4.0</version>
+                        </software>
+                    </software_list>
+                    <details>BASIC DIRECT ALIGNMENTS WERE DONE AS WELL AS ASTIGMATISM AND COMA ALIGNMENT USING AUTOCTF</details>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>OTHER</film_or_detector_model>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">512</width>
+                                    <height units="pixel">512</height>
+                                </dimensions>
+                            </digitization_details>
+                            <number_real_images>2977</number_real_images>
+                            <average_exposure_time units="s">1.5</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">50.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>Timepix3</details>
+                <particle_selection>
+                    <number_selected>14911</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>7O6E</pdb_id>
+                    </pdb_model>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>O</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">3.05</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>4.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>11422</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>4.0</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>4.0</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+            <singleparticle_processing image_processing_id="2">
+                <image_recording_id>1</image_recording_id>
+                <details>Timepix3</details>
+                <particle_selection>
+                    <number_selected>14911</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>7O6E</pdb_id>
+                    </pdb_model>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>O</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">3.05</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>4.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>11422</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>4.0</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>4.0</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="240946">
+        <file>emd_15389.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>392</col>
+            <row>392</row>
+            <sec>392</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>392</x>
+            <y>392</y>
+            <z>392</z>
+        </spacing>
+        <cell>
+            <a units="Å">235.20001</a>
+            <b units="Å">235.20001</b>
+            <c units="Å">235.20001</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>0.0</minimum>
+            <maximum>19.51117</maximum>
+            <average>0.33478373</average>
+            <std>1.1990533</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.6</x>
+            <y units="Å">0.6</y>
+            <z units="Å">0.6</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>6.5</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-15389::::</label>
+        <annotation_details>The map is sharpened by Locspiral.</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>7O6E</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>OTHER</refinement_protocol>
+                <target_criteria>CORRELATION COEFFICIENT</target_criteria>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>79.700000000000003</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_15389_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="240946">
+                <file>emd_15389_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>392</col>
+                    <row>392</row>
+                    <sec>392</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>392</x>
+                    <y>392</y>
+                    <z>392</z>
+                </spacing>
+                <cell>
+                    <a units="Å">235.20001</a>
+                    <b units="Å">235.20001</b>
+                    <c units="Å">235.20001</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.044318046</minimum>
+                    <maximum>0.110549666</maximum>
+                    <average>0.00008588816</average>
+                    <std>0.0069237626</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.6</x>
+                    <y units="Å">0.6</y>
+                    <z units="Å">0.6</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-15389::::</label>
+                <annotation_details>The map is sharpened by Relion postprocessing.</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="240946">
+                <file>emd_15389_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>392</col>
+                    <row>392</row>
+                    <sec>392</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>392</x>
+                    <y>392</y>
+                    <z>392</z>
+                </spacing>
+                <cell>
+                    <a units="Å">235.20001</a>
+                    <b units="Å">235.20001</b>
+                    <c units="Å">235.20001</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.016662816</minimum>
+                    <maximum>0.03883905</maximum>
+                    <average>0.00009340929</average>
+                    <std>0.003648034</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.6</x>
+                    <y units="Å">0.6</y>
+                    <z units="Å">0.6</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-15389::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="240946">
+                <file>emd_15389_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>392</col>
+                    <row>392</row>
+                    <sec>392</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>392</x>
+                    <y>392</y>
+                    <z>392</z>
+                </spacing>
+                <cell>
+                    <a units="Å">235.20001</a>
+                    <b units="Å">235.20001</b>
+                    <c units="Å">235.20001</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.011154978</minimum>
+                    <maximum>0.03964113</maximum>
+                    <average>0.000078367026</average>
+                    <std>0.0036703898</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.6</x>
+                    <y units="Å">0.6</y>
+                    <z units="Å">0.6</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-15389::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

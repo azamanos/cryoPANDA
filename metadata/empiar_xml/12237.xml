@@ -1,0 +1,110 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12237" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-07-26</depositionDate>
+            <releaseDate>2025-04-07</releaseDate>
+            <updateDate>2025-04-07</updateDate>
+        </keyDates>
+        <title>Micrographs of S.cerevisiae pre-60S particles (Nsa1-Tap) of usnic acid treated and untreated cells.</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0365-5913</authorORCID>
+            <firstName>Lorenz</firstName>
+            <lastName>Grundmann</lastName>
+            <organization type="academic">Institute of molecular pathology (Haselbach Lab)</organization>
+            <street>Campus-Vienna-Biocenter 1</street>
+            <townOrCity>Wien, 03. Bezirk</townOrCity>
+            <stateOrProvince>Vienna</stateOrProvince>
+            <country>Austria</country>
+            <postOrZipCode>1030</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-5276-5633</authorORCID>
+            <firstName>David</firstName>
+            <lastName>Haselbach</lastName>
+            <organization type="academic">Institute of molecular pathology (Haselbach Lab)</organization>
+            <street>Campus-Vienna-Biocenter 1</street>
+            <townOrCity>Wien, 03. Bezirk</townOrCity>
+            <stateOrProvince>Vienna</stateOrProvince>
+            <country>Austria</country>
+            <postOrZipCode>1030</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-7724-309X">Bergler H</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Austrian Science Fund</fundingBody>
+                <code>DOI:10.55776/P32977</code>
+                <country>Austria</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">667.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12237</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-51122</emdbEntry>
+            <emdbEntry>EMD-51126</emdbEntry>
+            <emdbEntry>EMD-51128</emdbEntry>
+            <emdbEntry>EMD-51129</emdbEntry>
+            <emdbEntry>EMD-51164</emdbEntry>
+            <emdbEntry>EMD-51165</emdbEntry>
+            <emdbEntry>EMD-51166</emdbEntry>
+            <emdbEntry>EMD-51167</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-0365-5913" order="1">Grundmann L</author>
+                    <author order="2">Kofler L</author>
+                    <author order="3">Gerhalter M</author>
+                    <author authorORCID="0000-0002-2526-9896" order="4">Prattes M</author>
+                    <author authorORCID="0000-0002-3422-4083" order="5">Merl-Pham J</author>
+                    <author order="6">Zisser G</author>
+                    <author authorORCID="0000-0003-0164-9373" order="7">Grishkovskaya I</author>
+                    <author authorORCID="0000-0003-3904-947X" order="8">Hodirnau VV</author>
+                    <author order="9">Vareka M</author>
+                    <author authorORCID="0000-0001-6009-7359" order="10">Breinbauer R</author>
+                    <author authorORCID="0000-0002-1630-6827" order="11">Hauck SM</author>
+                    <author authorORCID="0000-0002-5276-5633" order="12">Haselbach D</author>
+                    <author authorORCID="0000-0002-7724-309X" order="13">Bergler H</author>
+                    <editor authorORCID="0000-0002-5276-5633" order="1">Haselbach D</editor>
+                    <title>The novel ribosome biogenesis inhibitor usnic acid blocks nucleolar pre-60S maturation</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country>Austria</country>
+                    <issue>1</issue>
+                    <volume>15</volume>
+                    <year>2024</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-024-51754-3</externalReferences>
+                    <externalReferences type="pubmed">39209816</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Patch motion corrected</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>7595</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.07</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.07</pixelHeight>
+        </dimensions>
+        <details>Particle coordinates are provided both as star (*.star) and cs (*.cs) file. Each cluster has its own coordinate file. Information on how to seperate particles from the usnic acid treated or untreated dataset can be found in the particles/README.txt file</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/motioncorrected/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/particles/*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

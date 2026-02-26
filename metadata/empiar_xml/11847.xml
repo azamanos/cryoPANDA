@@ -1,0 +1,86 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11847" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-01-10</depositionDate>
+            <releaseDate>2024-12-01</releaseDate>
+            <updateDate>2024-12-01</updateDate>
+        </keyDates>
+        <title>cryo-EM structure of a non-neutralizing antibody V5-4 in complex with SARS-CoV-2 spike</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-0480-4324</authorORCID>
+            <firstName>Goran</firstName>
+            <lastName>Bajic</lastName>
+            <organization type="academic">Icahn School of Medicine at Mount Sinai</organization>
+            <street>One Gustave L Levy Place, #1124</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10029</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-0480-4324</authorORCID>
+            <firstName>Goran</firstName>
+            <lastName>Bajic</lastName>
+            <organization type="academic">Icahn School of Medicine at Mount Sinai</organization>
+            <street>One Gustave L Levy Place, #1124</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10029</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-0480-4324">Bajic G</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>National Institutes of Health (NIH)</fundingBody>
+                <code>AI168178</code>
+                <country>United States</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">517.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11847</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-43255</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0003-0480-4324" order="1">Bajic G</author>
+                    <title>Protective effect of human non-neutralizing cross-reactive spike antibodies elicited by SARS-CoV-2 mRNA vaccination</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <externalReferences type="doi">10.1016/j.celrep.2024.114922</externalReferences>
+                    <externalReferences type="pubmed">39504245</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>aligned micrographs of the PVI.V5-4 antibody in complex with SARS-CoV-2 spike</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5895</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <voxelType>UNSIGNED 32 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.069</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.069</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/n22feb14f_gr2*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,262 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10307" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-04-12</depositionDate>
+            <releaseDate>2019-09-30</releaseDate>
+            <updateDate>2019-09-30</updateDate>
+        </keyDates>
+        <title>Human pre-B spliceosome and U4/U6.U5 tri-snRNP</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-4738-9503</authorORCID>
+            <firstName>Max</firstName>
+            <lastName>Wilkinson</lastName>
+            <organization type="academic">MRC Laboratory of Molecular Biology; University of Cambridge</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-1785-6510</authorORCID>
+            <firstName>Kiyoshi</firstName>
+            <lastName>Nagai</lastName>
+            <organization type="academic">MRC Laboratory of Molecular Biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-8959-7012">Charenton C</author>
+            <author authorORCID="0000-0003-4738-9503">Wilkinson ME</author>
+            <author authorORCID="0000-0003-1785-6510">Nagai K</author>
+        </authorsList>
+        <datasetSize units="TB">2.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10307</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-4658</emdbEntry>
+            <emdbEntry>EMD-4673</emdbEntry>
+            <emdbEntry>EMD-4672</emdbEntry>
+            <emdbEntry>EMD-4674</emdbEntry>
+            <emdbEntry>EMD-4675</emdbEntry>
+            <emdbEntry>EMD-4676</emdbEntry>
+            <emdbEntry>EMD-4686</emdbEntry>
+            <emdbEntry>EMD-4665</emdbEntry>
+            <emdbEntry>EMD-4687</emdbEntry>
+            <emdbEntry>EMD-4688</emdbEntry>
+            <emdbEntry>EMD-4689</emdbEntry>
+            <emdbEntry>EMD-4690</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-8959-7012" order="1">Charenton C</author>
+                    <author authorORCID="0000-0003-4738-9503" order="2">Wilkinson ME</author>
+                    <author authorORCID="0000-0003-1785-6510" order="3">Nagai K</author>
+                    <title>Mechanism of 5' splice site transfer for human spliceosome activation</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country></country>
+                    <issue>6438</issue>
+                    <volume>364</volume>
+                    <firstPage>362</firstPage>
+                    <lastPage>367</lastPage>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.aax3289</externalReferences>
+                    <externalReferences type="pubmed">30975767</externalReferences>
+                    <details>5 datasets containing collectively 28,705 multi-frame micrographs after motion correction and dose-weighting.
+Also contains particle coordinates, polished particles for the human tri-snRNP, unpolished particles for pre-B complex, and metadata star files from various refinements in Relion.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Dataset 1 of human pre-B spliceosome; motion-corrected micrographs</name>
+        <directory>/data/MotionCorr/job007</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4627</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.025</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.025</pixelHeight>
+        </dimensions>
+        <details>Micrographs were averaged using RELION 3.0 implementation of MotionCor2 with 5x5 patches and dose-weighting. Original movies were 40 frames with a total dose of 57 electrons per squared Angstrom over 8 seconds.
+Data collected on Titan Krios 2 at the Astbury Biostructure Laboratory, University of Leeds, on a K2 detector operated in counting mode.
+dataset1_CRYOLOpicking.star contains particle coordinates picked by CRYOLO (X and Y in 1st and 2nd columns; remainder of .star file is output of RELION particle extraction job, extracted particles not deposited here)</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/MotionCorr/job007/Raw_data/FoilHole_*_Data_*_*_201810*_*-*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/dataset1_CRYOLOpicking.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dataset 2 of human pre-B spliceosome; motion-corrected micrographs</name>
+        <directory>/data/MotionCorr/job593</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6869</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.022</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.022</pixelHeight>
+        </dimensions>
+        <details>Micrographs were averaged using RELION 3.0 implementation of MotionCor2 with 5x5 patches and dose-weighting. Original movies were 40 frames with a total dose of 50 electrons per squared Angstrom over 6 seconds.
+Data collected on Titan Krios 3 at the MRC Laboratory of Molecular Biology on a K2 detector operated in counting mode.
+dataset2_CRYOLOpicking.star contains particle coordinates picked by CRYOLO (X and Y in 1st and 2nd columns; remainder of .star file is output of RELION particle extraction job, extracted particles not deposited here)</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/MotionCorr/job593/Movies_2Nov/FoilHole_*_Data_*_*_201811*_*-*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/dataset2_CRYOLOpicking.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dataset 3 of human pre-B spliceosome; motion-corrected micrographs</name>
+        <directory>/data/MotionCorr/job843/Movies_20Dec</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>7303</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.02</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.02</pixelHeight>
+        </dimensions>
+        <details>Micrographs were averaged using RELION 3.0 implementation of MotionCor2 with 5x5 patches and dose-weighting. Original movies were 40 frames with a total dose of 55.4 electrons per squared Angstrom over 12 seconds.
+Data collected on a Titan Krios at the University of Cambridge biochemistry department on a K2 detector operated in counting mode.
+dataset3_CRYOLOpicking.star contains particle coordinates picked by CRYOLO (X and Y in 1st and 2nd columns; remainder of .star file is output of RELION particle extraction job, extracted particles not deposited here)</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/MotionCorr/job843/Movies_20Dec/FoilHole_*_Data_*_*_201812*_*-*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/dataset3_CRYOLOpicking.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dataset 4 of human pre-B spliceosome; motion-corrected micrographs</name>
+        <directory>/data/MotionCorr/job890/Movies_11Jan</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6672</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.022</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.022</pixelHeight>
+        </dimensions>
+        <details>Micrographs were averaged using RELION 3.0 implementation of MotionCor2 with 5x5 patches and dose-weighting. Original movies were 40 frames with a total dose of 48.6 electrons per squared Angstrom over 6 seconds.
+Data collected on Titan Krios 3 at the MRC Laboratory of Molecular Biology on a K2 detector operated in counting mode.
+dataset4_CRYOLOpicking.star contains particle coordinates picked by CRYOLO (X and Y in 1st and 2nd columns; remainder of .star file is output of RELION particle extraction job, extracted particles not deposited here)</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/MotionCorr/job890/Movies_11Jan/FoilHole_*_Data_*_*_201901*_*-*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/dataset4_CRYOLOpicking.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dataset 5 of human pre-B spliceosome; motion-corrected micrographs</name>
+        <directory>/data/MotionCorr/job1163/Movies_9Feb</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3234</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.022</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.022</pixelHeight>
+        </dimensions>
+        <details>Micrographs were averaged using RELION 3.0 implementation of MotionCor2 with 5x5 patches and dose-weighting. Original movies were 40 frames with a total dose of 44 electrons per squared Angstrom over 6 seconds.
+Data collected on Titan Krios 3 at the MRC Laboratory of Molecular Biology on a K2 detector operated in counting mode.
+dataset5_gautomatchpicking.star contains particle coordinates picked by Gautomatch using templates from pre-B complex 2D averages from the other 4 datasets (X and Y in 1st and 2nd columns; remainder of .star file is output of RELION particle extraction job, extracted particles not deposited here)</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/MotionCorr/job1163/Movies_9Feb/FoilHole_*_Data_*_*_201902*_*-*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/dataset5_gautomatchpicking.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Selected U4/U6.U5 tri-snRNP particles after Bayesian polishing</name>
+        <directory>/data/Polish</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>20537</numImagesOrTiltSeries>
+        <framesPerImage>585488</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>420</imageWidth>
+            <pixelWidth>1.022</pixelWidth>
+            <imageHeight>420</imageHeight>
+            <pixelHeight>1.022</pixelHeight>
+        </dimensions>
+        <details>Particles from datasets 2, 3, and 4 were picked with CRYOLO (see dataset*_CRYOLOpicking.star) and 3D classified. Tri-snRNP and pre-B particles were selected, CTF-refined and subjected to Bayesian polishing in RELION 3.0, giving the particle stacks in Polish/
+A further round of CTF refinement produced the reconstruction deposited in the EMDB as EMD-4658, with the resultant run_data.star file deposited here as "trisnRNP_EMD4658_refine_data.star"
+
+Further classification of these particles yielded various other deposited maps, metadata for which are deposited here. In summary:
+
+"preB_unshiftedbox_EMD4665_refine_data.star"
+The subset of these polished tri-snRNP particles that correspond to pre-B complex, corresponds to EMD-4665
+
+"trisnRNP_prp28class_EMD4686_refine_data.star"
+Subset of tri-snRNP with strong Prp28, corresponds to EMD-4686
+
+"trisnRNP_U540Kclass_refine_data.star"
+Subset of tri-snRNP with strong U5-40K
+
+For full details see Charenton et al Science 2019.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Crude shifted preB particles</name>
+        <directory>/data/Extract</directory>
+        <category>picked particles - single frame - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>873597</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>360</imageWidth>
+            <pixelWidth>1.7033</pixelWidth>
+            <imageHeight>360</imageHeight>
+            <pixelHeight>1.7033</pixelHeight>
+        </dimensions>
+        <details>Particles from all datasets were picked (see dataset*_*picking.star) and 3D classified using a tri-snRNP reference. Tri-snRNP and pre-B particles were selected and re-extracted with a "shifted box" such that the box would encompass the full pre-B complex. Particles were also scaled down to 1.7033 Ångstrom per pixel.
+Further rounds of 3D classification produced a crude set of 117,284 pre-B particles, metadata in the deposited preB_allparticles_shiftedbox_refine_data.star
+Further classification of these particles yielded various deposited maps, metadata for which are deposited here. In summary:
+
+"preB_prp4kclass_EMD4688_refine_data.star"
+The subset of pre-B particles with strong density for Prp4 kinase, corresponds to EMD-4688
+
+"preB_U1class_EMD4687_refine_data.star"
+The subset of pre-B particles with strong density for U1 snRNP, corresponds to EMD-4687
+
+"preB_U2class_EMD4690_refine_data.star"
+The subset of pre-B particles with strong density for U2 snRNP, corresponds to EMD4690</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-10652">
+    <admin>
+        <current_status>
+            <date>2024-05-22</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-01-30</deposition>
+            <header_release>2020-02-12</header_release>
+            <map_release>2020-02-12</map_release>
+            <update>2024-05-22</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Medical Research Council (MRC, United Kingdom)</funding_body>
+                <code>MC_UP_A025_1013</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Medical Research Council (MRC, United Kingdom)</funding_body>
+                <code>MC_U105184291</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Innovative Medicines Initiative</funding_body>
+                <code>116060</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Japan Agency for Medical Research and Development (AMED)</funding_body>
+                <code>JP18ek0109391</code>
+                <country>Japan</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Japan Agency for Medical Research and Development (AMED)</funding_body>
+                <code>JP18dm020719</code>
+                <country>Japan</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute on Aging (NIH/NIA)</funding_body>
+                <code>P30AG010133</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Neurological Disorders and Stroke (NIH/NINDS)</funding_body>
+                <code>U01NS110437</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Multiple system atrophy Type II-2 alpha-synuclein filament</title>
+        <authors_list>
+            <author>Schweighauser M</author>
+            <author>Shi Y</author>
+        </authors_list>
+        <keywords>multiple system atrophy, alpha-synuclein filament, PROTEIN FIBRIL</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Schweighauser M</author>
+                    <author order="2">Shi Y</author>
+                    <author order="3">Tarutani A</author>
+                    <author order="4">Kametani F</author>
+                    <author order="5">Murzin AG</author>
+                    <author order="6">Ghetti B</author>
+                    <author order="7">Matsubara T</author>
+                    <author order="8">Tomita T</author>
+                    <author order="9">Ando T</author>
+                    <author order="10">Hasegawa K</author>
+                    <author order="11">Murayama S</author>
+                    <author order="12">Yoshida M</author>
+                    <author order="13">Hasegawa M</author>
+                    <author order="14">Scheres SHW</author>
+                    <author order="15">Goedert M</author>
+                    <title>Structures of alpha-synuclein filaments from multiple system atrophy.</title>
+                    <journal_abbreviation>Nature</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>585</volume>
+                    <first_page>464</first_page>
+                    <last_page>469</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32461689</external_references>
+                    <external_references type="DOI">doi:10.1038/s41586-020-2317-6</external_references>
+                    <external_references type="ISSN">1476-4687</external_references>
+                    <external_references type="CSD">0006</external_references>
+                    <external_references type="ASTM">NATUAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6xyq</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Sarkosyl-insoluble fractions from the putamen of multiple system atrophy brain</name>
+        <supramolecule_list>
+            <tissue_supramolecule supramolecule_id="1">
+                <name>Sarkosyl-insoluble fractions from the putamen of multiple system atrophy brain</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </tissue_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Alpha-synuclein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014476108</theoretical>
+                </molecular_weight>
+                <number_of_copies>10</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQK
+TVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</string>
+                    <external_references type="UNIPROTKB">P37840</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <average_electron_dose_per_image units="e/Å^2">47.5</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">4.72</delta_z>
+                            <delta_phi units="deg">-1.34</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.09</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <details>Helical reconstruction in RELION3. The initial model was reconstructed from reference-free 2-D class averages and the resolution of the cryo-EM map was good enough to do de-novo modelling.</details>
+                    <number_images_used>93137</number_images_used>
+                </final_reconstruction>
+                <startup_model type_of_model="INSILICO MODEL"/>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="42593">
+        <file>emd_10652.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>220</col>
+            <row>220</row>
+            <sec>220</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>220</x>
+            <y>220</y>
+            <z>220</z>
+        </spacing>
+        <cell>
+            <a units="Å">253.0</a>
+            <b units="Å">253.0</b>
+            <c units="Å">253.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.065219104</minimum>
+            <maximum>0.13315769</maximum>
+            <average>0.00087757973</average>
+            <std>0.007240183</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.15</x>
+            <y units="Å">1.15</y>
+            <z units="Å">1.15</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.025</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-10652::::</label>
+        <annotation_details>Helical symmetry imposed relion post-processed map.</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_10652_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="42593">
+                <file>emd_10652_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>220</col>
+                    <row>220</row>
+                    <sec>220</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>220</x>
+                    <y>220</y>
+                    <z>220</z>
+                </spacing>
+                <cell>
+                    <a units="Å">253.0</a>
+                    <b units="Å">253.0</b>
+                    <c units="Å">253.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.085260965</minimum>
+                    <maximum>0.1544216</maximum>
+                    <average>0.00013395275</average>
+                    <std>0.00765654</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.15</x>
+                    <y units="Å">1.15</y>
+                    <z units="Å">1.15</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-10652::::</label>
+                <annotation_details>Relion post-processed map.</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="42593">
+                <file>emd_10652_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>220</col>
+                    <row>220</row>
+                    <sec>220</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>220</x>
+                    <y>220</y>
+                    <z>220</z>
+                </spacing>
+                <cell>
+                    <a units="Å">253.0</a>
+                    <b units="Å">253.0</b>
+                    <c units="Å">253.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.0301993</minimum>
+                    <maximum>0.066960655</maximum>
+                    <average>0.00013443436</average>
+                    <std>0.004255458</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.15</x>
+                    <y units="Å">1.15</y>
+                    <z units="Å">1.15</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-10652::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="42593">
+                <file>emd_10652_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>220</col>
+                    <row>220</row>
+                    <sec>220</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>220</x>
+                    <y>220</y>
+                    <z>220</z>
+                </spacing>
+                <cell>
+                    <a units="Å">253.0</a>
+                    <b units="Å">253.0</b>
+                    <c units="Å">253.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.03185207</minimum>
+                    <maximum>0.06878101</maximum>
+                    <average>0.00013347114</average>
+                    <std>0.004260858</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.15</x>
+                    <y units="Å">1.15</y>
+                    <z units="Å">1.15</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-10652::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

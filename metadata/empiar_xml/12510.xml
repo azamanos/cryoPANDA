@@ -1,0 +1,156 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12510" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-12-03</depositionDate>
+            <releaseDate>2025-01-21</releaseDate>
+            <updateDate>2025-01-21</updateDate>
+        </keyDates>
+        <title>Mouse LRRC8A(BRIL):D in GDN</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-6204-7029</authorORCID>
+            <firstName>Antony</firstName>
+            <lastName>Lurie</lastName>
+            <organization type="academic">Department of Molecular and Cell Biology, University of California, Berkeley, CA, USA</organization>
+            <street>Weill Hall, University of California</street>
+            <townOrCity>Berkeley</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94720</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-6768-3406</authorORCID>
+            <firstName>Stephen</firstName>
+            <middleName>G</middleName>
+            <lastName>Brohawn</lastName>
+            <organization type="academic">Department of Molecular and Cell Biology, University of California, Berkeley, CA, USA</organization>
+            <street>Weill Hall, University of California</street>
+            <townOrCity>Berkeley</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94720</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-6204-7029">Lurie A</author>
+            <author authorORCID="0000-0001-6768-3406">Brohawn SG</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">3.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12510</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-47282</emdbEntry>
+            <emdbEntry>EMD-47283</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author authorORCID="0000-0002-6204-7029" order="1">Lurie A</author>
+                    <author authorORCID="0000-0001-8529-9045" order="2">Kern DM</author>
+                    <author order="3">Henn K</author>
+                    <author authorORCID="0000-0001-6768-3406" order="4">Brohawn SG</author>
+                    <title>Assembly and lipid-gating of LRRC8A:D volume-regulated anion channels</title>
+                    <journal>bioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country>United States</country>
+                    <year>2024</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1101/2024.11.24.625074</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned tif movies for LRRC8A(BRIL):D</name>
+        <directory>/data/Frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>9730</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.048</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.048</pixelHeight>
+        </dimensions>
+        <details>Gain reference in .mrc form is included in the folder with the movies (data/Frames/). In RELION, the gain must be flipped upside down (1).</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Complete polished particles stack for LRRC8A(BRIL):D</name>
+        <directory>/data/PolishedParticles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>8105</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>416</imageWidth>
+            <pixelWidth>1.048</pixelWidth>
+            <imageHeight>416</imageHeight>
+            <pixelHeight>1.048</pixelHeight>
+        </dimensions>
+        <details>Contains all polished particles (220,293) as 8,105 .mrcs files. The particle information is in the main data folder in RELION .star format (data/AllPolishedParticles.star). The particles can also be imported into cryoSPARC for processing. Note that this is the full polished particles stack, which was processed further in cryoSPARC to clean the stack and to separate the two conformations.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/AllPolishedParticles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particles stack for LRRC8A(BRIL):D conformation 1</name>
+        <directory>/data/Conformation1Particles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>43907</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>416</imageWidth>
+            <pixelWidth>1.048</pixelWidth>
+            <imageHeight>416</imageHeight>
+            <pixelHeight>1.048</pixelHeight>
+        </dimensions>
+        <details>Final particles stack for LRRC8A(BRIL):D conformation 1, restacked from cryoSPARC.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particles stack for LRRC8A(BRIL):D conformation 2</name>
+        <directory>/data/Conformation2Particles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>46893</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>416</imageWidth>
+            <pixelWidth>1.048</pixelWidth>
+            <imageHeight>416</imageHeight>
+            <pixelHeight>1.048</pixelHeight>
+        </dimensions>
+        <details>Final particles stack for LRRC8A(BRIL):D conformation 2, restacked from cryoSPARC.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,166 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10264" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-03-24</depositionDate>
+            <releaseDate>2019-07-25</releaseDate>
+            <updateDate>2019-08-16</updateDate>
+        </keyDates>
+        <title>LAT1-CD98hc bound to MEM-108 Fab</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-1813-7008</authorORCID>
+            <firstName>Osamu</firstName>
+            <lastName>Nureki</lastName>
+            <organization type="academic">Department of Biological Sciences, Graduate School of Science, The University of Tokyo</organization>
+            <street>7-3-1 Hongo, Bunkyo-ku</street>
+            <townOrCity>Tokyo</townOrCity>
+            <country>Japan</country>
+            <postOrZipCode>113-0033</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-1813-7008</authorORCID>
+            <firstName>Osamu</firstName>
+            <lastName>Nureki</lastName>
+            <organization type="academic">Department of Biological Sciences, Graduate School of Science, The University of Tokyo</organization>
+            <street>7-3-1 Hongo, Bunkyo-ku</street>
+            <townOrCity>Tokyo</townOrCity>
+            <country>Japan</country>
+            <postOrZipCode>113-0033</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-1507-805X">Lee Y</author>
+            <author>Wiriyasermkul P</author>
+            <author>Jin C</author>
+            <author>Quan L</author>
+            <author>Ohgaki R</author>
+            <author>Okuda S</author>
+            <author>Kusakizako T</author>
+            <author authorORCID="0000-0001-7463-8398">Nishizawa T</author>
+            <author>Oda K</author>
+            <author>Ishitani R</author>
+            <author>Yokoyama T</author>
+            <author authorORCID="0000-0003-2697-2767">Nakane T</author>
+            <author>Shirouzu M</author>
+            <author>Endou H</author>
+            <author>Nagamori S</author>
+            <author>Kanai Y</author>
+            <author authorORCID="0000-0003-1813-7008">Nureki O</author>
+        </authorsList>
+        <datasetSize units="TB">4.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10264</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-9849</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-1507-805X" order="1">Lee Y</author>
+                    <author order="2">Wiriyasermkul P</author>
+                    <author order="3">Jin C</author>
+                    <author order="4">Quan L</author>
+                    <author order="5">Ohgaki R</author>
+                    <author order="6">Okuda S</author>
+                    <author order="7">Kusakizako T</author>
+                    <author authorORCID="0000-0001-7463-8398" order="8">Nishizawa T</author>
+                    <author order="9">Oda K</author>
+                    <author order="10">Ishitani R</author>
+                    <author order="11">Yokoyama T</author>
+                    <author authorORCID="0000-0003-2697-2767" order="12">Nakane T</author>
+                    <author order="13">Shirouzu M</author>
+                    <author order="14">Endou H</author>
+                    <author order="15">Nagamori S</author>
+                    <author order="16">Kanai Y</author>
+                    <author authorORCID="0000-0003-1813-7008" order="17">Nureki O</author>
+                    <editor order="1">Quan L</editor>
+                    <title>Cryo-EM structure of the human L-type amino acid transporter 1 in complex with glycoprotein CD98hc</title>
+                    <journal>Nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>Nat. Struct. Mol. Biol.</journalAbbreviation>
+                    <country></country>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41594-019-0237-7</externalReferences>
+                    <externalReferences type="pubmed">31160781</externalReferences>
+                    <details>Non-gain-corrected micrograph movies in tiff format. Gain references must be rotated and flipped. In MotionCor2, this is "-RotGain 1 -FlipGain 2".
+Exposure time: 15.6 seconds
+Frame: 46 frames
+Accumulated exposure: 50.2 e−/A2
+Electron flux rate: 7.14 e−/pix/s</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs, Dataset1</name>
+        <directory>/data/Dataset1</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1582</numImagesOrTiltSeries>
+        <framesPerImage>60</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>60</frameRangeMax>
+        </frameRange>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.8346</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.8346</pixelHeight>
+        </dimensions>
+        <details>Unaligned, gain corrected movies from Falcon 3 in the counting mode. The MRC files from EPU were converted to the TIFF format by mrc2tif in IMOD. During this process, the pixel size in the image header became 1.0. The calibrated pixel size is 0.8346. The total exposure is 46.0 electrons per squared Angstom in a 46.5 second exposure. The data contain a few dozen micrographs that were excluded during the processing due to poor maximal CTF resolution.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs, Dataset2</name>
+        <directory>/data/Dataset2</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1900</numImagesOrTiltSeries>
+        <framesPerImage>60</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>60</frameRangeMax>
+        </frameRange>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.8346</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.8346</pixelHeight>
+        </dimensions>
+        <details>Unaligned, gain corrected movies from Falcon 3 in the counting mode. The MRC files from EPU were converted to the TIFF format by mrc2tif in IMOD. During this process, the pixel size in the image header became 1.0. The calibrated pixel size is 0.8346. The total exposure is 46.0 electrons per squared Angstom in a 46.5 second exposure. The data contain a few dozen micrographs that were excluded during the processing due to poor maximal CTF resolution.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Micelle subtracted particles used for final reconstruction</name>
+        <directory>/data/Particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>361967</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>288</imageWidth>
+            <pixelWidth>1.333</pixelWidth>
+            <imageHeight>288</imageHeight>
+            <pixelHeight>1.333</pixelHeight>
+        </dimensions>
+        <details>Micelle subtracted particles used for final reconstruction. The MRCS file contains 361,967 particles but some were rejected during classification. The final set of particles and the orientations are stored in the associated STAR file. The image header contains a wrong pixel size information (1.375 A) because of the assumed nominal pixel size (0.861 A). The actual calibrated pixel size is 1.333 A (0.8346 A x 460 pix / 288 pix due to down-sampling), which is used for the final reconstruction in the associated publication.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

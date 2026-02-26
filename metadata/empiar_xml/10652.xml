@@ -1,0 +1,150 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10652" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-01-22</depositionDate>
+            <releaseDate>2021-04-14</releaseDate>
+            <updateDate>2021-06-30</updateDate>
+        </keyDates>
+        <title>Identification of a conserved virion-stabilizing network inside the interprotomer pocket of enteroviruses</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0001-7060-5871</authorORCID>
+            <firstName>Sarah</firstName>
+            <middleName>Jane</middleName>
+            <lastName>Butcher</lastName>
+            <organization type="academic">Faculty of Biological and Environmental Sciences, Molecular and Integrative Bioscience Research Programme, University of Helsinki, Helsinki, Finland</organization>
+            <townOrCity>Helsinki</townOrCity>
+            <country>Finland</country>
+            <postOrZipCode>00014</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0001-7060-5871</authorORCID>
+            <firstName>Sarah</firstName>
+            <middleName>Jane</middleName>
+            <lastName>Butcher</lastName>
+            <organization type="academic">Faculty of Biological and Environmental Sciences, Molecular and Integrative Bioscience Research Programme, University of Helsinki, Helsinki, Finland</organization>
+            <townOrCity>Helsinki</townOrCity>
+            <country>Finland</country>
+            <postOrZipCode>00014</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-5406-8156">Flatt JW</author>
+            <author authorORCID="0000-0002-3772-6003">Domanska A</author>
+            <author authorORCID="0000-0002-0534-246X">Seppälä AL</author>
+            <author authorORCID="0000-0001-7060-5871">Butcher SJ</author>
+        </authorsList>
+        <datasetSize units="TB">7.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10652</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-11165</emdbEntry>
+            <emdbEntry>EMD-11300</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-5406-8156" order="1">Flatt JW</author>
+                    <author authorORCID="0000-0002-3772-6003" order="2">Domanska A</author>
+                    <author authorORCID="0000-0002-0534-246X" order="3">Seppälä AL</author>
+                    <author authorORCID="0000-0001-7060-5871" order="4">Butcher SJ</author>
+                    <title>Identification of a conserved virion-stabilizing network inside the interprotomer pocket of enteroviruses</title>
+                    <journal>Communications biology</journal>
+                    <journalAbbreviation>Commun Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>4</volume>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s42003-021-01779-x</externalReferences>
+                    <externalReferences type="pubmed">33637854</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multiframe micrographs of CVB4 in complex with CP48</name>
+        <directory>/data/CVB4-CP48_movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4379</numImagesOrTiltSeries>
+        <framesPerImage>30</framesPerImage>
+        <voxelType>SIGNED 32 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.06</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.06</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned multi-frame micrographs dose weighted</name>
+        <directory>/data/CVB4-CP48_Aligned_DW</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4379</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>SIGNED 32 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.06</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.06</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned non dose weighted micrographs</name>
+        <directory>/data/CVB4-CP48_nonDW</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4379</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>SIGNED 32 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.06</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.06</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Un-aligned multiframe micrographs of CVB4 control</name>
+        <directory>/data/extra/extra</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>8860</numImagesOrTiltSeries>
+        <framesPerImage>30</framesPerImage>
+        <voxelType>SIGNED 32 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.21</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.21</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

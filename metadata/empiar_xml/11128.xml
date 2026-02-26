@@ -1,0 +1,182 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11128" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-07-25</depositionDate>
+            <releaseDate>2022-09-13</releaseDate>
+            <updateDate>2022-11-11</updateDate>
+        </keyDates>
+        <title>Cryo-EM of ADP-F-actin</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0001-7250-4484</authorORCID>
+            <firstName>Gregory</firstName>
+            <middleName>M.</middleName>
+            <lastName>Alushin</lastName>
+            <organization type="academic">Laboratory of Structural Biophysics and Mechanobiology, The Rockefeller University</organization>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10065</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0001-7250-4484</authorORCID>
+            <firstName>Gregory</firstName>
+            <middleName>M.</middleName>
+            <lastName>Alushin</lastName>
+            <organization type="academic">Laboratory of Structural Biophysics and Mechanobiology, The Rockefeller University</organization>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10065</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-2501-9280">Reynolds MJ</author>
+            <author>Hachicho C</author>
+            <author>Carl AG</author>
+            <author authorORCID="0000-0001-7270-2974">Gong R</author>
+            <author authorORCID="0000-0001-7250-4484">Alushin GM</author>
+        </authorsList>
+        <datasetSize>938.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11128</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-27114</emdbEntry>
+            <emdbEntry>EMD-27116</emdbEntry>
+            <emdbEntry>EMD-27118</emdbEntry>
+            <emdbEntry>EMD-27119</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-2501-9280" order="1">Reynolds MJ</author>
+                    <author order="2">Hachicho C</author>
+                    <author order="3">Carl AG</author>
+                    <author authorORCID="0000-0001-7270-2974" order="4">Gong R</author>
+                    <author authorORCID="0000-0001-7250-4484" order="5">Alushin GM</author>
+                    <title>Bending forces and nucleotide state jointly regulate F-actin structure</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <issue>7935</issue>
+                    <volume>611</volume>
+                    <firstPage>380</firstPage>
+                    <lastPage>386</lastPage>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41586-022-05366-w</externalReferences>
+                    <externalReferences type="pubmed">36289330</externalReferences>
+                    <details>This dataset was used to generate reconstructions of helically-symmetric ADP-F-actin, bent ADP-F-actin, and straight asymmetrically reconstructed ADP-F-actin.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of ADP-F-actin</name>
+        <directory>/data/raw_micrographs</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1548</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>7420</imageWidth>
+            <pixelWidth>0.515</pixelWidth>
+            <imageHeight>7676</imageHeight>
+            <pixelHeight>0.515</pixelHeight>
+        </dimensions>
+        <details>This directory also contains motion-correction that was done on-the-fly. Re-running motion-correction locally is recommended.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Polished single-frame particles of bent ADP-F-actin segments</name>
+        <directory>/data/ADP_asymmetric_particle_stacks/bent</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>10753</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>512</imageWidth>
+            <pixelWidth>1.03</pixelWidth>
+            <imageHeight>512</imageHeight>
+            <pixelHeight>1.03</pixelHeight>
+        </dimensions>
+        <details>This stack of particles was generated from the final Refine3D of the asymmetric, bent ADP-F-actin at EMD-27116 and PDB: 8D15 using the relion_stack_create command.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Polished single-frame particles of straight ADP-F-actin segments, Subset 1</name>
+        <directory>/data/ADP_asymmetric_particle_stacks/str1</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>7833</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>512</imageWidth>
+            <pixelWidth>1.03</pixelWidth>
+            <imageHeight>512</imageHeight>
+            <pixelHeight>1.03</pixelHeight>
+        </dimensions>
+        <details>This stack of particles was generated from the final Refine3D of the asymmetric, straight ADP-F-actin at EMD-27118 and PDB: 8D17 using the relion_stack_create command.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Polished single-frame particles of straight ADP-F-actin segments, Subset 2</name>
+        <directory>/data/ADP_asymmetric_particle_stacks/str2</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>7833</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>512</imageWidth>
+            <pixelWidth>1.03</pixelWidth>
+            <imageHeight>512</imageHeight>
+            <pixelHeight>1.03</pixelHeight>
+        </dimensions>
+        <details>This stack of particles was generated from the final Refine3D of the asymmetric, straight ADP-F-actin at EMD-27119 and PDB: 8D18 using the relion_stack_create command.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Polished single-frame particles of helical ADP-F-actin segments, for high-resolution</name>
+        <directory>/data/helical_polished_stack</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>219569</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>512</imageWidth>
+            <pixelWidth>1.03</pixelWidth>
+            <imageHeight>512</imageHeight>
+            <pixelHeight>1.03</pixelHeight>
+        </dimensions>
+        <details>This set of particles was used for the final Refine3D of the helically-symmetric ADP-F-actin at EMD-27114 and PDB: 8D13
+The run_data.star file corresponds to the final Refine3D that was run using the polished particle stacks in the Polish directory.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

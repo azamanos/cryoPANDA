@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_0/emdb.xsd" version="3.0.9.0" emdb_id="EMD-14776">
+    <admin>
+        <current_status>
+            <date>2023-11-15</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-04-13</deposition>
+            <header_release>2023-03-22</header_release>
+            <map_release>2023-03-22</map_release>
+            <update>2023-11-15</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Academy of Finland</funding_body>
+                <code>314672</code>
+                <country>Finland</country>
+            </grant_reference>
+        </grant_support>
+        <title>Signal peptide mimicry primes Sec61 for client-selective inhibition</title>
+        <authors_list>
+            <author>Rehan S</author>
+            <author>Paavilainen O V</author>
+        </authors_list>
+        <keywords>Sec61 Translocon, cryoEM, Membrane Protein, Protein biogenesis</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Rehan S</author>
+                    <author order="2">Tranter D</author>
+                    <author order="3">Sharp PP</author>
+                    <author order="4">Craven GB</author>
+                    <author order="5">Lowe E</author>
+                    <author order="6">Anderl JL</author>
+                    <author order="7">Muchamuel T</author>
+                    <author order="8">Abrishami V</author>
+                    <author order="9">Kuivanen S</author>
+                    <author order="10">Wenzell NA</author>
+                    <author order="11">Jennings A</author>
+                    <author order="12">Kalyanaraman C</author>
+                    <author order="13">Strandin T</author>
+                    <author order="14">Javanainen M</author>
+                    <author order="15">Vapalahti O</author>
+                    <author order="16">Jacobson MP</author>
+                    <author order="17">McMinn D</author>
+                    <author order="18">Kirk CJ</author>
+                    <author order="19">Huiskonen JT</author>
+                    <author order="20">Taunton J</author>
+                    <author order="21">Paavilainen VO</author>
+                    <title>Signal peptide mimicry primes Sec61 for client-selective inhibition.</title>
+                    <journal_abbreviation>Nat.Chem.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>19</volume>
+                    <first_page>1054</first_page>
+                    <last_page>1062</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">37169961</external_references>
+                    <external_references type="DOI">doi:10.1038/s41589-023-01326-1</external_references>
+                    <external_references type="ISSN">1552-4469</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-3068</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>Mammalian Ribosome-Sec61</details>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7zl3</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Protein conducting Sec61 translocon complex</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Protein conducting Sec61 translocon complex</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <molecular_weight>
+                    <theoretical units="MDa">3.4</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>Protein conducting Sec61 translocon complex</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9940">Ovis aries</organism>
+                </natural_source>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>Signal peptide mimic</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="32630">synthetic construct</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Protein transport protein Sec61 subunit alpha</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9940">Ovis aries</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.052034062</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGIKFLEVIKPFCVILPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADPYWMRVILASNRGTLMALGI
+SPIVTSGLIMQLLAGAKIIEVGDTPKDRALFNGAQKLFGMTITIGQSIVYVMTGMYGDPSEMGAGVCLLITIQLFVAGLI
+VLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNLPN
+LMNLIATIFVFAVVIYFQGFRVDLPIKSARYRGQYNTYPIKLFYTSNIPIILQSALVSNLYVISQMLSARFSGNLLVSLL
+GTWSDTSSGGPARAYPVGGLCHYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDVAKQLKEQQMVM
+RGHRETSMVHELNRYIPTAAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFEIFVKEQSEVGSMGALLF</string>
+                    <external_references type="UNIPROTKB">A0A6P3YN15</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Protein transport protein Sec61 subunit gamma</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9940">Ovis aries</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007752324999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDQVMQFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPINNIIVGG</string>
+                    <external_references type="UNIPROTKB">W5PP18</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Protein transport protein Sec61 subunit beta</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9940">Ovis aries</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.002486056</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)
+(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Cyclic depsipeptide signal peptide mimic</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="32630">synthetic construct</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0011019659999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>(JMO)(3EG)(MLE)(3EG)(JMX)L</string>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <formula>HEPS</formula>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">300.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>Sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">200.0</concentration>
+                            <formula>KoAc</formula>
+                            <name>Potassium acetate</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <formula>MgAc</formula>
+                            <name>Magnesium acetate</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.0</concentration>
+                            <formula>DDT</formula>
+                            <name>Dithiothritol</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                            <film_thickness>0.2</film_thickness>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">45</time>
+                            <atmosphere>AIR</atmosphere>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">90</chamber_humidity>
+                        <chamber_temperature units="K">283</chamber_temperature>
+                        <instrument>LEICA EM GP</instrument>
+                    </vitrification>
+                    <details>Purified Ribosome-Sec61 complex</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>OTHER</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.6</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">1.2</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <number_real_images>30294</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">47.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>30294 movies</details>
+                <particle_selection>
+                    <number_selected>1089031</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="EMDB MAP">
+                    <emdb_id>EMD-3245</emdb_id>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.2</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>136000</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="2048001">
+        <file>emd_14776.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>800</col>
+            <row>800</row>
+            <sec>800</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>800</x>
+            <y>800</y>
+            <z>800</z>
+        </spacing>
+        <cell>
+            <a units="Å">664.0</a>
+            <b units="Å">664.0</b>
+            <c units="Å">664.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>Y</fast>
+            <medium>X</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.010949552</minimum>
+            <maximum>0.033659477</maximum>
+            <average>0.00001483572</average>
+            <std>0.00089833565</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.83</x>
+            <y units="Å">0.83</y>
+            <z units="Å">0.83</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.00275</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-14776::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>3JC2</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+            </modelling>
+        </modelling_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="2048001">
+                <file>emd_14776_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>800</col>
+                    <row>800</row>
+                    <sec>800</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>800</x>
+                    <y>800</y>
+                    <z>800</z>
+                </spacing>
+                <cell>
+                    <a units="Å">664.0</a>
+                    <b units="Å">664.0</b>
+                    <c units="Å">664.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>Y</fast>
+                    <medium>X</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.020561952</minimum>
+                    <maximum>0.062781796</maximum>
+                    <average>0.000017163244</average>
+                    <std>0.0024988267</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.83</x>
+                    <y units="Å">0.83</y>
+                    <z units="Å">0.83</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14776::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="2048001">
+                <file>emd_14776_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>800</col>
+                    <row>800</row>
+                    <sec>800</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>800</x>
+                    <y>800</y>
+                    <z>800</z>
+                </spacing>
+                <cell>
+                    <a units="Å">664.0</a>
+                    <b units="Å">664.0</b>
+                    <c units="Å">664.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>Y</fast>
+                    <medium>X</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.021131504</minimum>
+                    <maximum>0.062655196</maximum>
+                    <average>0.000013495276</average>
+                    <std>0.0025070582</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.83</x>
+                    <y units="Å">0.83</y>
+                    <z units="Å">0.83</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14776::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

@@ -1,0 +1,379 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10437" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-06-08</depositionDate>
+            <releaseDate>2021-11-08</releaseDate>
+            <updateDate>2021-11-08</updateDate>
+        </keyDates>
+        <title>Single-particle cryo-EM of the full-length merozoite surface protein 1 from Plasmodium falciparum</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-3550-6274</authorORCID>
+            <firstName>Mikhail</firstName>
+            <lastName>Kudryashev</lastName>
+            <organization type="academic">Max Planck Institute of Biophysics</organization>
+            <street>Max-von-Laue-Strasse 3</street>
+            <townOrCity>Frankfurt am Main</townOrCity>
+            <stateOrProvince>Hesse</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>60438</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-3550-6274</authorORCID>
+            <firstName>Mikhail</firstName>
+            <lastName>Kudryashev</lastName>
+            <organization type="academic">Max Planck Institute of Biophysics</organization>
+            <street>Max-von-Laue-Strasse 3</street>
+            <townOrCity>Frankfurt am Main</townOrCity>
+            <stateOrProvince>Hesse</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>60438</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-6799-2399">Dijkman PM</author>
+            <author>Marzluf T</author>
+            <author authorORCID="0000-0002-6478-476X">Zhang Y</author>
+            <author>Chang SYS</author>
+            <author authorORCID="0000-0001-9321-2069">Helm D</author>
+            <author authorORCID="0000-0002-0220-6526">Lanzer M</author>
+            <author>Bujard H</author>
+            <author authorORCID="0000-0003-3550-6274">Kudryashev M</author>
+        </authorsList>
+        <datasetSize units="TB">34.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10437</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-11150</emdbEntry>
+            <emdbEntry>EMD-11151</emdbEntry>
+            <emdbEntry>EMD-11152</emdbEntry>
+            <emdbEntry>EMD-11153</emdbEntry>
+            <emdbEntry>EMD-11154</emdbEntry>
+            <emdbEntry>EMD-11155</emdbEntry>
+            <emdbEntry>EMD-11156</emdbEntry>
+            <emdbEntry>EMD-11157</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-6799-2399" order="1">Dijkman PM</author>
+                    <author order="2">Marzluf T</author>
+                    <author authorORCID="0000-0002-6478-476X" order="3">Zhang Y</author>
+                    <author order="4">Chang SYS</author>
+                    <author authorORCID="0000-0001-9321-2069" order="5">Helm D</author>
+                    <author authorORCID="0000-0002-0220-6526" order="6">Lanzer M</author>
+                    <author order="7">Bujard H</author>
+                    <author authorORCID="0000-0003-3550-6274" order="8">Kudryashev M</author>
+                    <title>Structure of the merozoite surface protein 1 from Plasmodium falciparum</title>
+                    <journal>Science advances</journal>
+                    <journalAbbreviation>Sci Adv</journalAbbreviation>
+                    <country></country>
+                    <issue>23</issue>
+                    <volume>7</volume>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/sciadv.abg0465</externalReferences>
+                    <externalReferences type="pubmed">34078606</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned movies of MSP-1</name>
+        <directory>/data/micrographs/MSP1</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3734</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.073</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.073</pixelHeight>
+        </dimensions>
+        <details>Unaligned, gain-corrected, 40-frame movies, recorded automatically with EPU, using K2 camera in counting mode on a Titan Krios microscope operated at 300 kV at a nominal magnification of 130 000, corresponding to a pixel size of 1.073 Å. The total electron dose per micrograph: ~64 e-/Å^2.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of hdMSP-1 (dataset 1)</name>
+        <directory>/data/micrographs/hdMSP1-dataset1</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1685</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.077</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.077</pixelHeight>
+        </dimensions>
+        <details>Unaligned, gain-corrected, 40-frame movies, recorded automatically with EPU, using K2 camera in counting mode on a Titan Krios microscope operated at 300 kV at a nominal magnification of 130 000, corresponding to a pixel size of 1.077 Å. The total electron dose per micrograph: ~60 e-/Å^2.
+Datasets 1-4 were combined for reconstruction of hdMSP-1.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of hdMSP-1 (dataset 2)</name>
+        <directory>/data/micrographs/hdMSP1-dataset2</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3560</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.077</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.077</pixelHeight>
+        </dimensions>
+        <details>Unaligned, gain-corrected, 40-frame movies, recorded automatically with EPU, using K2 camera in counting mode on a Titan Krios microscope operated at 300 kV at a nominal magnification of 130 000, corresponding to a pixel size of 1.077 Å. The total electron dose per micrograph: ~60 e-/Å^2.
+Datasets 1-4 were combined for reconstruction of hdMSP-1.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of hdMSP-1 (dataset 3)</name>
+        <directory>/data/micrographs/hdMSP1-dataset3</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5864</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.077</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.077</pixelHeight>
+        </dimensions>
+        <details>Unaligned, gain-corrected, 40-frame movies, recorded automatically with EPU, using K2 camera in counting mode on a Titan Krios microscope operated at 300 kV at a nominal magnification of 130 000, corresponding to a pixel size of 1.077 Å. The total electron dose per micrograph: ~60 e-/Å^2.
+Datasets 1-4 were combined for reconstruction of hdMSP-1.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of hdMSP-1 (dataset 4)</name>
+        <directory>/data/micrographs/hdMSP1-dataset4</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1393</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.077</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.077</pixelHeight>
+        </dimensions>
+        <details>Unaligned, gain-corrected, 40-frame movies, recorded automatically with EPU, using K2 camera in counting mode on a Titan Krios microscope operated at 300 kV at a nominal magnification of 130 000, corresponding to a pixel size of 1.077 Å. The total electron dose per micrograph: ~60 e-/Å^2.
+Datasets 1-4 were combined for reconstruction of hdMSP-1. Dataset 4 was collected at 15 degrees tilt.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final particle stack for hdMSP-1 conformation 1</name>
+        <directory>/data/particles/hdMSP1_conf1</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>271763</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>288</imageWidth>
+            <pixelWidth>1.077</pixelWidth>
+            <imageHeight>288</imageHeight>
+            <pixelHeight>1.077</pixelHeight>
+        </dimensions>
+        <details>Final 271,763 particle stack and corresponding starfile (converted from cryoSPARC particle file using USCF pyem) for hdMSP-1 (conformation 1); box size 288 pixels, 1.077 Å/pixel.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final particle stack for hdMSP-1 conformation 2</name>
+        <directory>/data/particles/hdMSP1_conf2</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>182515</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>288</imageWidth>
+            <pixelWidth>1.077</pixelWidth>
+            <imageHeight>288</imageHeight>
+            <pixelHeight>1.077</pixelHeight>
+        </dimensions>
+        <details>Final 182,515 particle stack and corresponding starfile (converted from cryoSPARC particle file using USCF pyem) for hdMSP-1 (conformation 2); box size 288 pixels, 1.077 Å/pixel.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final particle stack for MSP-1 main conformation</name>
+        <directory>/data/particles/MSP1_mainfonf</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>141838</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>288</imageWidth>
+            <pixelWidth>1.073</pixelWidth>
+            <imageHeight>288</imageHeight>
+            <pixelHeight>1.073</pixelHeight>
+        </dimensions>
+        <details>Final 141,838 particle stack and corresponding starfile (converted from cryoSPARC particle file using USCF pyem) for MSP-1 (main conformation); box size 288 pixels, 1.073 Å/pixel.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final particle stack for MSP-1 alternative conformation 1</name>
+        <directory>/data/particles/MSP1_altconf1</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>112939</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>288</imageWidth>
+            <pixelWidth>1.073</pixelWidth>
+            <imageHeight>288</imageHeight>
+            <pixelHeight>1.073</pixelHeight>
+        </dimensions>
+        <details>Final 112,939 particle stack and corresponding starfile (converted from cryoSPARC particle file using USCF pyem) for MSP-1 (alternative conformation 1); box size 288 pixels, 1.073 Å/pixel.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final particle stack for MSP-1 alternative conformation 2</name>
+        <directory>/data/particles/MSP1_altconf2</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>118878</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>288</imageWidth>
+            <pixelWidth>1.073</pixelWidth>
+            <imageHeight>288</imageHeight>
+            <pixelHeight>1.073</pixelHeight>
+        </dimensions>
+        <details>Final 118,878 particle stack and corresponding starfile (converted from cryoSPARC particle file using USCF pyem) for MSP-1 (alternative conformation 2); box size 288 pixels, 1.073 Å/pixel.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final particle stack for MSP-1 alternative conformation 3</name>
+        <directory>/data/particles/MSP1_altconf3</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>124774</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>288</imageWidth>
+            <pixelWidth>1.073</pixelWidth>
+            <imageHeight>288</imageHeight>
+            <pixelHeight>1.073</pixelHeight>
+        </dimensions>
+        <details>Final 124,774 particle stack and corresponding starfile (converted from cryoSPARC particle file using USCF pyem) for MSP-1 (alternative conformation 3); box size 288 pixels, 1.073 Å/pixel.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final particle stack for MSP-1 alternative conformation 4</name>
+        <directory>/data/particles/MSP1_altconf4</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>116037</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>288</imageWidth>
+            <pixelWidth>1.073</pixelWidth>
+            <imageHeight>288</imageHeight>
+            <pixelHeight>1.073</pixelHeight>
+        </dimensions>
+        <details>Final 116,037 particle stack and corresponding starfile (converted from cryoSPARC particle file using USCF pyem) for MSP-1 (alternative conformation 4); box size 288 pixels, 1.073 Å/pixel.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final particle stack for MSP-1 alternative conformation 5</name>
+        <directory>/data/particles/MSP1_altconf5</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>75620</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>288</imageWidth>
+            <pixelWidth>1.073</pixelWidth>
+            <imageHeight>288</imageHeight>
+            <pixelHeight>1.073</pixelHeight>
+        </dimensions>
+        <details>Final 75,620 particle stack and corresponding starfile (converted from cryoSPARC particle file using USCF pyem) for MSP-1 (alternative conformation 5); box size 288 pixels, 1.073 Å/pixel.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

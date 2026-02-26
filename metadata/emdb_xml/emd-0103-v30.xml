@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-0103">
+    <admin>
+        <current_status>
+            <date>2024-05-15</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2018-07-05</deposition>
+            <header_release>2018-10-24</header_release>
+            <map_release>2019-06-05</map_release>
+            <update>2024-05-15</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>European Union</funding_body>
+                <code>612308</code>
+                <country>Finland</country>
+            </grant_reference>
+        </grant_support>
+        <title>Identification of a druggable VP1-VP3 interprotomer pocket in the capsid of enteroviruses</title>
+        <authors_list>
+            <author>Geraets JA</author>
+            <author>Flatt JW</author>
+        </authors_list>
+        <keywords>Inhibitor, complex, virus</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-9771-7312" order="1">Abdelnabi R</author>
+                    <author ORCID="0000-0003-3378-0683" order="2">Geraets JA</author>
+                    <author order="3">Ma Y</author>
+                    <author ORCID="0000-0002-4785-5482" order="4">Mirabelli C</author>
+                    <author ORCID="0000-0001-5406-8156" order="5">Flatt JW</author>
+                    <author ORCID="0000-0002-3772-6003" order="6">Domanska A</author>
+                    <author ORCID="0000-0002-8874-675X" order="7">Delang L</author>
+                    <author ORCID="0000-0002-9265-6028" order="8">Jochmans D</author>
+                    <author order="9">Kumar TA</author>
+                    <author ORCID="0000-0002-9724-4153" order="10">Jayaprakash V</author>
+                    <author ORCID="0000-0002-6558-3572" order="11">Sinha BN</author>
+                    <author ORCID="0000-0002-7537-1688" order="12">Leyssen P</author>
+                    <author ORCID="0000-0001-7060-5871" order="13">Butcher SJ</author>
+                    <author ORCID="0000-0002-0033-7514" order="14">Neyts J</author>
+                    <title>A novel druggable interprotomer pocket in the capsid of rhino- and enteroviruses.</title>
+                    <journal_abbreviation>Plos Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>17</volume>
+                    <first_page>e3000281</first_page>
+                    <last_page>e3000281</last_page>
+                    <year>2019</year>
+                    <external_references type="PUBMED">31185007</external_references>
+                    <external_references type="DOI">doi:10.1371/journal.pbio.3000281</external_references>
+                    <external_references type="ISSN">1545-7885</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6gzv</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Coxsackievirus B3 (strain Nancy)</name>
+        <supramolecule_list>
+            <virus_supramolecule supramolecule_id="1">
+                <name>Coxsackievirus B3 (strain Nancy)</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Coxsackievirus B3 (strain Nancy)
+NCBI Taxonomy ID: 103903
+Full, non-enveloped virion from natural source
+Diameter: ~314A
+Triangulation: 1 (pT3)
+
+Benzene sulfonamide derivative
+Molecular weight: 422Da
+Binding sites on capsid: 60</details>
+                <sci_species_name ncbi="103903">Coxsackievirus B3 (strain Nancy)</sci_species_name>
+                <natural_host database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_host>
+                <virus_shell shell_id="1">
+                    <diameter units="Å">314.0</diameter>
+                    <triangulation>1</triangulation>
+                </virus_shell>
+                <virus_type>VIRION</virus_type>
+                <virus_isolate>STRAIN</virus_isolate>
+                <virus_enveloped>false</virus_enveloped>
+                <virus_empty>false</virus_empty>
+            </virus_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Capsid protein VP1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="103903">Coxsackievirus B3 (strain Nancy)</organism>
+                    <strain>Nancy</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.031639438</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GPVEDAITAAIGRVADTVGTGPTNSEAIPALTAAETGHTSQVVPGDTMQTRHVKNYHSRSESTIENFLCRSACVYFTEYK
+NSGAKRYAEWVLTPRQAAQLRRKLEFFTYVRFDLELTFVITSTQQPSTTQNQDAQILTHQIMYVPPGGPVPDKVDSYVWQ
+TSTNPSVFWTEGNAPPRMSIPFLSIGNAYSNFYDGWSEFSRNGVYGINTLNNMGTLYARHVNAGSTGPIKSTIRIYFKPK
+HVKAWIPRPPRLCQYEKAKNVNFQPSGVTTTRQSITTMTNTGAF</string>
+                    <external_references type="UNIPROTKB">P03313</external_references>
+                </sequence>
+                <ec_number>3.4.22.29</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Capsid protein VP2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="103903">Coxsackievirus B3 (strain Nancy)</organism>
+                    <strain>Nancy</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.028836502</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SPTVEECGYSDRARSITLGNSTITTQECANVVVGYGVWPDYLKDSEATAEDQPTQPDVATCRFYTLDSVQWQKTSPGWWW
+KLPDALSNLGLFGQNMQYHYLGRTGYTVHVQCNASKFHQGCLLVVCVPEAEMGCATLDNTPSSAELLGGDTAKEFADKPV
+ASGSNKLVQRVVYNAGMGVGVGNLTIFPHQWINLRTNNSATIVMPYTNSVPMDNMFRHNNVTLMVIPFVPLDYCPGSTTY
+VPITVTIAPMCAEYNGLRLAGHQ</string>
+                    <external_references type="UNIPROTKB">P03313</external_references>
+                </sequence>
+                <ec_number>3.4.22.29</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Capsid protein VP3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="103903">Coxsackievirus B3 (strain Nancy)</organism>
+                    <strain>Nancy</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.026195727</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GLPTMNTPGSCQFLTSDDFQSPSAMPQYDVTPEMRIPGEVKNLMEIAEVDSVVPVQNVGEKVNSMEAYQIPVRSNEGSGT
+QVFGFPLQPGYSSVFSRTLLGEILNYYTHWSGSIKLTFMFCGSAMATGKFLLAYSPPGAGAPTKRVDAMLGTHVIWDVGL
+QSSCVLCIPWISQTHYRFVASDEYTAGGFITCWYQTNIVVPADAQSSCYIMCFVSACNDFSVRLLKDTPFISQQNFFQ</string>
+                    <external_references type="UNIPROTKB">P03313</external_references>
+                </sequence>
+                <ec_number>3.4.22.29</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Capsid protein VP4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="103903">Coxsackievirus B3 (strain Nancy)</organism>
+                    <strain>Nancy</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007580377</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGAQVSTQKTGAHETRLNASGNSIIHYTNINYYKDAASNSANRQDFTQDPGKFTEPVKDIMIKSLPALN</string>
+                    <external_references type="UNIPROTKB">P03313</external_references>
+                </sequence>
+                <ec_number>3.4.22.29</ec_number>
+            </protein_or_peptide>
+            <ligand macromolecule_id="5">
+                <name>4-[[4-[1,3-bis(oxidanylidene)isoindol-2-yl]phenyl]sulfonylamino]benzoic acid</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000422411</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>FHK</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="M">0.1</concentration>
+                            <formula>MgCl2</formula>
+                            <name>Magnesium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="M">0.01</concentration>
+                            <formula>C8H18N2O4S</formula>
+                            <name>HEPES</name>
+                        </component>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <instrument>HOMEMADE PLUNGER</instrument>
+                    </vitrification>
+                    <details>Inhibitor was added at 2500:1 molar ratio to purified CVB3 and incubated for 1h at 37C</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details/>
+                            <average_electron_dose_per_image units="e/Å^2">47.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>1COV</pdb_id>
+                    </pdb_model>
+                    <details>Fourier filtered to 40A</details>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>I</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">4.0</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1.beta</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>4891</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0.4</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1.beta</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1.beta</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="171501">
+        <file>emd_0103.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>350</col>
+            <row>350</row>
+            <sec>350</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>350</x>
+            <y>350</y>
+            <z>350</z>
+        </spacing>
+        <cell>
+            <a units="Å">366.8</a>
+            <b units="Å">366.8</b>
+            <c units="Å">366.8</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.051150657</minimum>
+            <maximum>0.1611951</maximum>
+            <average>0.0032831568</average>
+            <std>0.009124994</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.048</x>
+            <y units="Å">1.048</y>
+            <z units="Å">1.048</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.018</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-0103::::</label>
+        <annotation_details>Coxsackievirus B3 Nancy in complex with a small-molecule inhibitor</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="171501">
+                <file>emd_0103_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>350</col>
+                    <row>350</row>
+                    <sec>350</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>350</x>
+                    <y>350</y>
+                    <z>350</z>
+                </spacing>
+                <cell>
+                    <a units="Å">366.8</a>
+                    <b units="Å">366.8</b>
+                    <c units="Å">366.8</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.008531959</minimum>
+                    <maximum>0.019782504</maximum>
+                    <average>0.0012989277</average>
+                    <std>0.0031851635</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.048</x>
+                    <y units="Å">1.048</y>
+                    <z units="Å">1.048</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-0103::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="171501">
+                <file>emd_0103_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>350</col>
+                    <row>350</row>
+                    <sec>350</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>350</x>
+                    <y>350</y>
+                    <z>350</z>
+                </spacing>
+                <cell>
+                    <a units="Å">366.8</a>
+                    <b units="Å">366.8</b>
+                    <c units="Å">366.8</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.01216333</minimum>
+                    <maximum>0.025003208</maximum>
+                    <average>0.0013197983</average>
+                    <std>0.0031793518</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.048</x>
+                    <y units="Å">1.048</y>
+                    <z units="Å">1.048</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-0103::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

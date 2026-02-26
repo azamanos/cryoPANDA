@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_1/emdb.xsd" version="3.0.9.1" emdb_id="EMD-26346">
+    <admin>
+        <current_status>
+            <date>2024-02-14</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-03-02</deposition>
+            <header_release>2022-05-18</header_release>
+            <map_release>2022-05-18</map_release>
+            <update>2024-02-14</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Cancer Institute (NIH/NCI)</funding_body>
+                <code>5 R35 CA210036</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Breast Cancer Research Foundation</funding_body>
+                <code>BCRF-19-036</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of human CST bound to DNA polymerase alpha-primase in a recruitment state</title>
+        <authors_list>
+            <author>Cai SW</author>
+            <author>Zinder JC</author>
+            <author>Svetlov V</author>
+            <author>Bush MW</author>
+            <author>Nudler E</author>
+            <author>Walz T</author>
+            <author>de Lange T</author>
+        </authors_list>
+        <keywords>Fill-in, Telomere, Replication, DNA BINDING PROTEIN, DNA BINDING PROTEIN-DNA complex</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Cai SW</author>
+                    <author order="2">Zinder JC</author>
+                    <author order="3">Svetlov V</author>
+                    <author order="4">Bush MW</author>
+                    <author order="5">Nudler E</author>
+                    <author order="6">Walz T</author>
+                    <author order="7">de Lange T</author>
+                    <title>Cryo-EM structure of the human CST-Pol alpha /primase complex in a recruitment state.</title>
+                    <journal_abbreviation>Nat.Struct.Mol.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>29</volume>
+                    <first_page>813</first_page>
+                    <last_page>819</last_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">35578024</external_references>
+                    <external_references type="DOI">doi:10.1038/s41594-022-00766-y</external_references>
+                    <external_references type="ISSN">1545-9985</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7u5c</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Human CST bound to DNA polymerase alpha(POLA1 delta N)-primase in a recruitment state</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Human CST bound to DNA polymerase alpha(POLA1 delta N)-primase in a recruitment state</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>8</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Sample was GraFix cross-linked with glutaraldehyde.</details>
+                <molecular_weight>
+                    <theoretical units="MDa">0.5</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>DNA primase small subunit</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.049981012</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7111">Trichoplusia ni</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>METFDPTELPELLKLYYRRLFPYSQYYRWLNYGGVIKNYFQHREFSFTLKDDIYIRYQSFNNQSDLEKEMQKMNPYKIDI
+GAVYSHRPNQHNTVKLGAFQAQEKELVFDIDMTDYDDVRRCCSSADICPKCWTLMTMAIRIIDRALKEDFGFKHRLWVYS
+GRRGVHCWVCDESVRKLSSAVRSGIVEYLSLVKGGQDVKKKVHLSEKIHPFIRKSINIIKKYFEEYALVNQDILENKESW
+DKILALVPETIHDELQQSFQKSHNSLQRWEHLKKVASRYQNNIKNDKYGPWLEWEIMLQYCFPRLDINVSKGINHLLKSP
+FSVHPKTGRISVPIDLQKVDQFDPFTVPTISFICRELDAISTNEEEKEENEAESDVKHRTRDYKKTSLAPYVKVFEHFLE
+NLDKSRKGELLKKSDLQKDF</string>
+                    <external_references type="UNIPROTKB">P49642</external_references>
+                </sequence>
+                <ec_number>2.7.7.-</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>DNA primase large subunit</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.059092101999999994</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7111">Trichoplusia ni</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GGSMEFSGRKWRKLRLAGDQRNASYPHCLQFYLQPPSENISLIEFENLAIDRVKLLKSVENLGVSYVKGTEQYQSKLESE
+LRKLKFSYRENLEDEYEPRRRDHISHFILRLAYCQSEELRRWFIQQEMDLLRFRFSILPKDKIQDFLKDSQLQFEAISDE
+EKTLREQEIVASSPSLSGLKLGFESIYKIPFADALDLFRGRKVYLEDGFAYVPLKDIVAIILNEFRAKLSKALALTARSL
+PAVQSDERLQPLLNHLSHSYTGQDYSTQGNVGKISLDQIDLLSTKSFPPCMRQLHKALRENHHLRHGGRMQYGLFLKGIG
+LTLEQALQFWKQEFIKGKMDPDKFDKGYSYNIRHSFGKEGKRTDYTPFSCLKIILSNPPSQGDYHGCPFRHSDPELLKQK
+LQSYKISPGGISQILDLVKGTHYQVACQKYFEMIHNVDDCGFSLNHPNQFFCESQRILNGGKDIKKEPIQPETPQPKPSV
+QKTKDASSALASLNSSLEMDMEGLEDYFSEDS</string>
+                    <external_references type="UNIPROTKB">P49643</external_references>
+                </sequence>
+                <ec_number>2.7.7.-</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>DNA polymerase alpha catalytic subunit</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.129635125</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7111">Trichoplusia ni</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GPGSADEEQVFHFYWLDAYEDQYNQPGVVFLFGKVWIESAETHVSCCVMVKNIERTLYFLPREMKIDLNTGKETGTPISM
+KDVYEEFDEKIATKYKIMKFKSKPVEKNYAFEIPDVPEKSEYLEVKYSAEMPQLPQDLKGETFSHVFGTNTSSLELFLMN
+RKIKGPCWLEVKSPQLLNQPVSWCKVEAMALKPDLVNVIKDVSPPPLVVMAFSMKTMQNAKNHQNEIIAMAALVHHSFAL
+DKAAPKPPFQSHFCVVSKPKDCIFPYAFKEVIEKKNVKVEVAATERTLLGFFLAKVHKIDPDIIVGHNIYGFELEVLLQR
+INVCKAPHWSKIGRLKRSNMPKLGGRSGFGERNATCGRMICDVEISAKELIRCKSYHLSELVQQILKTERVVIPMENIQN
+MYSESSQLLYLLEHTWKDAKFILQIMCELNVLPLALQITNIAGNIMSRTLMGGRSERNEFLLLHAFYENNYIVPDKQIFR
+KPQQKLGDEDEEIDGDTNKYKKGRKKAAYAGGLVLDPKVGFYDKFILLLDFNSLYPSIIQEFNICFTTVQRVASEAQKVT
+EDGEQEQIPELPDPSLEMGILPREIRKLVERRKQVKQLMKQQDLNPDLILQYDIRQKALKLTANSMYGCLGFSYSRFYAK
+PLAALVTYKGREILMHTKEMVQKMNLEVIYGDTDSIMINTNSTNLEEVFKLGNKVKSEVNKLYKLLEIDIDGVFKSLLLL
+KKKKYAALVVEPTSDGNYVTKQELKGLDIVRRDWCDLAKDTGNFVIGQILSDQSRDTIVENIQKRLIEIGENVLNGSVPV
+SQFEINKALTKDPQDYPDKKSLPHVHVALWINSQGGRKVKAGDTVSYVICQDGSNLTASQRAYAPEQLQKQDNLTIDTQY
+YLAQQIHPVVARICEPIDGIDAVLIATWLGLDPTQFRVHHYHKDEENDALLGGPAQLTDEEKYRDCERFKCPCPTCGTEN
+IYDNVFDGSGTDMEPSLYRCSNIDCKASPLTFTVQLSNKLIMDIRRFIKKYYDGWLICEEPTCRNRTRHLPLQFSRTGPL
+CPACMKATLQPEYSDKSLYTQLCFYRYIFDAECALEKLTTDHEKDKLKKQFFTPKVLQDYRKLKNTAEQFLSRSGYSEVN
+LSKLFAGCAVKS</string>
+                    <external_references type="UNIPROTKB">P09884</external_references>
+                </sequence>
+                <ec_number>2.7.7.7</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>DNA polymerase alpha subunit B</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.066015539</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7111">Trichoplusia ni</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSASAQQLAEELQIFGLDCEEALIEKLVELCVQYGQNEEGMVGELIAFCTSTHKVGLTSEILNSFEHEFLSKRLSKARHS
+TCKDSGHAGARDIVSIQELIEVEEEEEILLNSYTTPSKGSQKRAISTPETPLTKRSVSTRSPHQLLSPSSFSPSATPSQK
+YNSRSNRGEVVTSFGLAQGVSWSGRGGAGNISLKVLGCPEALTGSYKSMFQKLPDIREVLTCKIEELGSELKEHYKIEAF
+TPLLAPAQEPVTLLGQIGCDSNGKLNNKSVILEGDREHSSGAQIPVDLSELKEYSLFPGQVVIMEGINTTGRKLVATKLY
+EGVPLPFYQPTEEDADFEQSMVLVACGPYTTSDSITYDPLLDLIAVINHDRPDVCILFGPFLDAKHEQVENCLLTSPFED
+IFKQCLRTIIEGTRSSGSHLVFVPSLRDVHHEPVYPQPPFSYSDLSREDKKQVQFVSEPCSLSINGVIFGLTSTDLLFHL
+GAEEISSSSGTSDRFSRILKHILTQRSYYPLYPPQEDMAIDYESFYVYAQLPVTPDVLIIPSELRYFVKDVLGCVCVNPG
+RLTKGQVGGTFARLYLRRPAADGAERQSPCIAVQVVRI</string>
+                    <external_references type="UNIPROTKB">Q14181</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>CST complex subunit CTC1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.135050328</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7111">Trichoplusia ni</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GPGSMAAGRAQVPSSEQAWLEDAQVFIQKTLCPAVKEPNVQLTPLVIDCVKTVWLSQGRNQGSTLPLSYSFVSVQDLKTH
+QRLPCCSHLSWSSSAYQAWAQEAGPNGNPLPREQLLLLGTLTDLSADLEQECRNGSLYVRDNTGVLSCELIDLDLSWLGH
+LFLFPRWSYLPPARWNSSGEGHLELWDAPVPVFPLTISPGPVTPIPVLYPESASCLLRLRNKLRGVQRNLAGSLVRLSAL
+VKSKQKAYFILSLGRSHPAVTHVSIIVQVPAQLVWHRALRPGTAYVLTELRVSKIRGQRQHVWMTSQSSRLLLLKPECVQ
+ELELELEGPLLEADPKPLPMPSNSEDKKDPESLVRYSRLLSYSGAVTGVLNEPAGLYELDGQLGLCLAYQQFRGLRRVMR
+PGVCLQLQDVHLLQSVGGGTRRPVLAPCLRGAVLLQSFSRQKPGAHSSRQAYGASLYEQLVWERQLGLPLYLWATKALEE
+LACKLCPHVLRHHQFLQHSSPGSPSLGLQLLAPTLDLLAPPGSPVRNAHNEILEEPHHCPLQKYTRLQTPSSFPTLATLK
+EEGQRKAWASFDPKALLPLPEASYLPSCQLNRRLAWSWLCLLPSAFCPAQVLLGVLVASSHKGCLQLRDQSGSLPCLLLA
+KHSQPLSDPRLIGCLVRAERFQLIVERDVRSSFPSWKELSMPGFIQKQQARVYVQFFLADALILPVPRPCLHSATPSTPQ
+TDPTGPEGPHLGQSRLFLLCHKEALMKRNFCVPPGASPEVPKPALSFYVLGSWLGGTQRKEGTGWGLPEPQGNDDNDQKV
+HLIFFGSSVRWFEFLHPGQVYRLIAPGPATPMLFEKDGSSCISRRPLELAGCASCLTVQDNWTLELESSQDIQDVLDANK
+SLPESSLTDLLSDNFTDSLVSFSAEILSRTLCEPLVASLWMKLGNTGAMRRCVKLTVALETAECEFPPHLDVYIEDPHLP
+PSLGLLPGARVHFSQLEKRVSRSHNVYCCFRSSTYVQVLSFPPETTISIPLPHIYLAELLQGGQSPFQATASCHIVSVFS
+LQLFWVCAYCTSICRQGKCTRLGSTCPTQTAISQAIIRLLVEDGTAEAVVTCRNHHVAAALGLCPREWASLLDFVQVPGR
+VVLQFAGPGAQLESSARVDEPMTMFLWTLCTSPSVLRPIVLSFELERKPSKIVPLEPPRLQRFQCGELPFLTHVNPRLRL
+SCLSIRESEYSSSLGILASSC</string>
+                    <external_references type="UNIPROTKB">Q2NKJ3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="6">
+                <name>CST complex subunit STN1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.042172949</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7111">Trichoplusia ni</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MQPGSSRCEEETPSLLWGLDPVFLAFAKLYIRDILDMKESRQVPGVFLYNGHPIKQVDVLGTVIGVRERDAFYSYGVDDS
+TGVINCICWKKLNTESVSAAPSAARELSLTSQLKKLQETIEQKTKIEIGDTIRVRGSIRTYREEREIHATTYYKVDDPVW
+NIQIARMLELPTIYRKVYDQPFHSSALEKEEALSNPGALDLPSLTSLLSEKAKEFLMENRVQSFYQQELEMVESLLSLAN
+QPVIHSASSDQVNFKKDTTSKAIHSIFKNAIQLLQEKGLVFQKDDGFDNLYYVTREDKDLHRKIHRIIQQDCQKPNHMEK
+GCHFLHILACARLSIRPGLSEAVLQQVLELLEDQSDIVSTMEHYYTAF</string>
+                    <external_references type="UNIPROTKB">Q9H668</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="7">
+                <name>CST complex subunit TEN1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013872013</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7111">Trichoplusia ni</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MMLPKPGTYYLPWEVSAGQVPDGSTLRTFGRLCLYDMIQSRVTLMAQHGSDQHQVLVCTKLVEPFHAQVGSLYIVLGELQ
+HQQDRGSVVKARVLTCVEGMNLPLLEQAIREQRLYKQERGGSQ</string>
+                    <external_references type="UNIPROTKB">Q86WV5</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <dna macromolecule_id="8">
+                <name>canonical telomeric DNA sequence</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.005682672</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>(DG)(DG)(DT)(DT)(DA)(DG)(DG)(DG)(DT)(DT)(DA)(DG)(DG)(DG)(DT)(DT)(DA)(DG)</string>
+                </sequence>
+                <classification>DNA</classification>
+            </dna>
+            <ligand macromolecule_id="9">
+                <name>ZINC ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">6.5409e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <formula>ZN</formula>
+            </ligand>
+            <ligand macromolecule_id="10">
+                <name>IRON/SULFUR CLUSTER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00035163999999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>SF4</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.075</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>GOLD</material>
+                        <support_film film_type_id="1">
+                            <film_material>GRAPHENE OXIDE</film_material>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">278</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                    <details>The sample was cross-linked with glutaraldehyde (GraFix)</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.2</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">52.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">4.6</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>131850</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="108001">
+        <file>emd_26346.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>300</col>
+            <row>300</row>
+            <sec>300</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>300</x>
+            <y>300</y>
+            <z>300</z>
+        </spacing>
+        <cell>
+            <a units="Å">324.0</a>
+            <b units="Å">324.0</b>
+            <c units="Å">324.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.041180167</minimum>
+            <maximum>0.084259294</maximum>
+            <average>0.000015990241</average>
+            <std>0.0018551061</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.08</x>
+            <y units="Å">1.08</y>
+            <z units="Å">1.08</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.01</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-26346::::</label>
+        <annotation_details>Human CST-Pol alpha/Primase bound to ssDNA in a recruitment state.</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>5EXR</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>6W6W</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+            </modelling>
+        </modelling_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="108001">
+                <file>emd_26346_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">324.0</a>
+                    <b units="Å">324.0</b>
+                    <c units="Å">324.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.01724738</minimum>
+                    <maximum>0.04116153</maximum>
+                    <average>0.000019555626</average>
+                    <std>0.0017466298</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.08</x>
+                    <y units="Å">1.08</y>
+                    <z units="Å">1.08</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-26346::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="108001">
+                <file>emd_26346_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">324.0</a>
+                    <b units="Å">324.0</b>
+                    <c units="Å">324.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.015641138</minimum>
+                    <maximum>0.045607746</maximum>
+                    <average>0.0000124248445</average>
+                    <std>0.0017484888</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.08</x>
+                    <y units="Å">1.08</y>
+                    <z units="Å">1.08</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-26346::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

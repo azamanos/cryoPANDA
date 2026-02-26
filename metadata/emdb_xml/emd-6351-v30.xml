@@ -1,0 +1,272 @@
+<emd emdb_id="EMD-6351" version="3.0.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+    <admin>
+        <current_status>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2015-06-15</deposition>
+            <header_release>2015-08-12</header_release>
+            <map_release>2015-08-12</map_release>
+            <update>2015-10-07</update>
+        </key_dates>
+        <title>Cryo-EM structure of GDP-microtubule co-polymerized with EB3</title>
+        <authors_list>
+            <author>Zhang R</author>
+            <author>Alushin GM</author>
+            <author>Brown A</author>
+            <author>Nogales E</author>
+        </authors_list>
+        <keywords>microtubule, EB3, dynamic</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Zhang R</author>
+                    <author order="2">Alushin GM</author>
+                    <author order="3">Brown A</author>
+                    <author order="4">Nogales E</author>
+                    <title>Mechanistic Origin of Microtubule Dynamic Instability and Its Modulation by EB Proteins</title>
+                    <journal>CELL(CAMBRIDGE,MASS.)</journal>
+                    <volume>162</volume>
+                    <first_page>849</first_page>
+                    <last_page>859</last_page>
+                    <year>2015</year>
+                    <external_references type="PUBMED">26234155</external_references>
+                    <external_references type="DOI">doi:10.1016/j.cell.2015.07.012</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>3jar</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+        <auxiliary_link_list>
+            <auxiliary_link>
+                <link>http://dx.doi.org/10.6019/EMPIAR-10030</link>
+            </auxiliary_link>
+        </auxiliary_link_list>
+    </crossreferences>
+    <sample>
+        <name>EB3-bound GDP microtubule</name>
+        <supramolecule_list>
+            <sample_supramolecule supramolecule_id="1000">
+                <name>EB3-bound GDP microtubule</name>
+                <details>Dynamic GDP microtubules were polymerized in the presence of excess EB3.</details>
+                <oligomeric_state>helical assembly</oligomeric_state>
+                <number_unique_components>3</number_unique_components>
+            </sample_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Alpha tubulin</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9823">Sus scrofa</organism>
+                    <synonym_organism>Porcine</synonym_organism>
+                    <tissue>Brain</tissue>
+                    <organelle>Cytoplasm</organelle>
+                    <cellular_location>Cytoskeleton</cellular_location>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.055</theoretical>
+                </molecular_weight>
+                <details>Porcine tubulin powder was purchased from Cytoskeleton Inc.</details>
+                <oligomeric_state>Helical assembly</oligomeric_state>
+                <recombinant_exp_flag>false</recombinant_exp_flag>
+                <recombinant_expression database="NCBI" />
+                <sequence>
+                    <external_references type="UNIPROTKB">Q2XVP4</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Beta tubulin</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9823">Sus scrofa</organism>
+                    <synonym_organism>Porcine</synonym_organism>
+                    <tissue>Brain</tissue>
+                    <organelle>Cytoplasm</organelle>
+                    <cellular_location>Cytoskeleton</cellular_location>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.055</theoretical>
+                </molecular_weight>
+                <details>Porcine tubulin powder was purchased from Cytoskeleton Inc.</details>
+                <oligomeric_state>Helical assembly</oligomeric_state>
+                <recombinant_exp_flag>false</recombinant_exp_flag>
+                <recombinant_expression database="NCBI" />
+                <sequence>
+                    <external_references type="UNIPROTKB">P02554</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name synonym="MAPRE3">EB3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                    <synonym_organism>Human</synonym_organism>
+                    <organelle>Cytoplasm</organelle>
+                    <cellular_location>Cytoskeleton</cellular_location>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023</theoretical>
+                </molecular_weight>
+                <details>A monomeric construct containing residues 1-200, which lacks the C-terminal dimerization domain</details>
+                <oligomeric_state>Dimer</oligomeric_state>
+                <recombinant_exp_flag>true</recombinant_exp_flag>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                    <recombinant_strain>BL21-CodonPlus-(DE3)-RIL</recombinant_strain>
+                    <recombinant_plasmid>2BT</recombinant_plasmid>
+                </recombinant_expression>
+                <sequence>
+                    <external_references type="UNIPROTKB">Q9UPY8</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>helicalArray</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <concentration units="mg/mL">1.5</concentration>
+                    <buffer>
+                        <ph>6.8</ph>
+                        <details>80 mM PIPES, 1 mM EGTA, 1 mM MgCl2, 1 mM DTT, 0.05% Nonidet P-40</details>
+                    </buffer>
+                    <grid>
+                        <details>400 mesh C-flat 1.2/1.3 EM grid, glow discharged in Ar/O2 gas (Solarus, Gatan Inc)</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">95</chamber_humidity>
+                        <chamber_temperature units="K">90.4</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK II</instrument>
+                        <method>Blot once for 4 seconds before plunging.</method>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="&#181;m">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="&#181;m">3.5</nominal_defocus_max>
+                    <nominal_magnification>27500.0</nominal_magnification>
+                    <calibrated_magnification>27500.0</calibrated_magnification>
+                    <specimen_holder_model>GATAN LIQUID NITROGEN</specimen_holder_model>
+                    <temperature>
+                        <temperature_average units="K">90</temperature_average>
+                    </temperature>
+                    <alignment_procedure>
+                        <legacy>
+                            <astigmatism>Objective lens astigmatism was corrected at 27,500 times magnification.</astigmatism>
+                        </legacy>
+                    </alignment_procedure>
+                    <details>The camera was operated in counting mode, with a dose rate of ~8 electrons/pixel/s on the camera. A total exposure time of 6 s was fractionated into 20 movie frames.</details>
+                    <date>2014-04-09</date>
+                    <image_recording_list>
+                        <image_recording>
+                            <film_or_detector_model category="CCD">GATAN K2 (4k x 4k)</film_or_detector_model>
+                            <number_real_images>383</number_real_images>
+                            <average_electron_dose_per_image units="e/&#8491;^2">27.6</average_electron_dose_per_image>
+                            <details>The camera was operated in counting mode, with a dose rate of ~8 electrons/pixel/s on the camera. A total exposure time of 6 s was fractionated into 20 movie frames.</details>
+                        </image_recording>
+                    </image_recording_list>
+                    <specimen_holder>Gatan 626 holder</specimen_holder>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <details>IHRSR algorithm with microtubule-specific pseudo-helical symmetry applied</details>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="&#8491;">9.42</delta_z>
+                            <delta_phi units="deg">27.71</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <algorithm>OTHER</algorithm>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">3.4</resolution>
+                    <resolution_method>OTHER</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>EMAN1, FREALIGN</name>
+                        </software>
+                    </software_list>
+                    <details>Pseudo-helical symmetry was applied during the reconstruction step.</details>
+                </final_reconstruction>
+                <ctf_correction>
+                    <details>CTFFIND4, each particle</details>
+                </ctf_correction>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="524289">
+        <file>emd_6351.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>512</col>
+            <row>512</row>
+            <sec>512</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>512</x>
+            <y>512</y>
+            <z>512</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">675.84</a>
+            <b units="&#8491;">675.84</b>
+            <c units="&#8491;">675.84</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-9.91263008</minimum>
+            <maximum>22.185600279999999</maximum>
+            <average>-0.00806109</average>
+            <std>0.92117834</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">1.32</x>
+            <y units="&#8491;">1.32</y>
+            <z units="&#8491;">1.32</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>4.0</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <annotation_details>Reconstruction of EB3-bound GDP microtubule with pseudo-helical symmetry applied</annotation_details>
+        <details>::::EMDATABANK.org::::EMD-6351::::</details>
+    </map>
+</emd>

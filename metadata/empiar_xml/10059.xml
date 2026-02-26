@@ -1,0 +1,114 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10059" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2016-06-07</depositionDate>
+            <releaseDate>2016-06-07</releaseDate>
+            <updateDate>2016-06-07</updateDate>
+        </keyDates>
+        <title>Structure of TRPV1 in complex with DkTx and RTX, determined in lipid nanodisc</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-1248-1828</authorORCID>
+            <firstName>Yuan</firstName>
+            <lastName>Gao</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, University of California, San Francisco</organization>
+            <street>600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-9535-0369</authorORCID>
+            <firstName>Yifan</firstName>
+            <lastName>Cheng</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, University of California, San Francisco</organization>
+            <street>600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-6365-4867</authorORCID>
+            <firstName>David</firstName>
+            <lastName>Julius</lastName>
+            <organization type="academic">Department of Physiology, University of California, San Francisco</organization>
+            <street>600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-1248-1828">Gao Y</author>
+        </authorsList>
+        <datasetSize units="GB">93.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10059</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-8117</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Gao Y</author>
+                    <author order="2">Cao E</author>
+                    <author order="3">Julius D</author>
+                    <author order="4">Cheng Y</author>
+                    <title>TRPV1 structures in nanodiscs reveal mechanisms of ligand and lipid action</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <issue>7607</issue>
+                    <volume>534</volume>
+                    <firstPage>347</firstPage>
+                    <lastPage>351</lastPage>
+                    <year>2016</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/nature17964</externalReferences>
+                    <externalReferences type="pubmed">27281200</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion corrected, dose-weighted sum of micrographs of TRPV1-DkTx/RTX embedded in lipid nanodisc</name>
+        <directory>/data/micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1200</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.2156</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.2156</pixelHeight>
+        </dimensions>
+        <details>All image stacks (accumulating 41 electrons per squared Angstrom exposure in 30 frames / 6 second exposure) were drift-corrected using software UcsfDfCorr. '5 X 5' patch option was used. Dose rate was set to 1.4 electrons to perform the exposure filtering procedure implemented in  the program. Deposited data is the sum of all corrected frames.  </details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Raw particle image stack of TRPV1-DkTx/RTX embedded in lipid nanodisc</name>
+        <directory>/data/particles</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>218805</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>192</imageWidth>
+            <pixelWidth>1.2156</pixelWidth>
+            <imageHeight>192</imageHeight>
+            <pixelHeight>1.2156</pixelHeight>
+        </dimensions>
+        <details>Particle image stacks extracted from individual micrographs, without further processing. 
+'particles.star' list all relevant information for every particle in all image stacks (coordinate, defocus etc.)</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

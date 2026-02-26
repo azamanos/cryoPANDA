@@ -1,0 +1,142 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10215" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-10-03</depositionDate>
+            <releaseDate>2019-04-05</releaseDate>
+            <updateDate>2020-02-24</updateDate>
+        </keyDates>
+        <title>Rabbit muscle aldolase single particle cryoEM</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-8634-2279</authorORCID>
+            <firstName>Alex</firstName>
+            <lastName>Noble</lastName>
+            <organization type="academic">New York Structural Biology Center</organization>
+            <street>89 Convent Avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Bepler</firstName>
+            <lastName>Tristan</lastName>
+            <organization type="academic">Computational and Systems Biology, Massachusetts Institute of Technology</organization>
+            <street>32 Vassar St</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Massachusetts</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02139</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Bepler T</author>
+            <author>Morin A</author>
+            <author>Rapp M</author>
+            <author>Brasch J</author>
+            <author authorORCID="0000-0001-9943-8819">Shapiro L</author>
+            <author authorORCID="0000-0001-8634-2279">Noble AJ</author>
+            <author authorORCID="0000-0002-2724-7228">Berger B</author>
+        </authorsList>
+        <datasetSize units="TB">1.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10215</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-20529</emdbEntry>
+            <emdbEntry>EMD-20531</emdbEntry>
+            <emdbEntry>EMD-20532</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Bepler T</author>
+                    <author order="2">Morin A</author>
+                    <author order="3">Rapp M</author>
+                    <author order="4">Brasch J</author>
+                    <author authorORCID="0000-0001-9943-8819" order="5">Shapiro L</author>
+                    <author authorORCID="0000-0001-8634-2279" order="6">Noble AJ</author>
+                    <author authorORCID="0000-0002-2724-7228" order="7">Berger B</author>
+                    <title>Positive-unlabeled convolutional neural networks for particle picking in cryo-electron micrographs</title>
+                    <journal>Nature methods</journal>
+                    <journalAbbreviation>Nat. Methods</journalAbbreviation>
+                    <country></country>
+                    <issue>11</issue>
+                    <volume>16</volume>
+                    <firstPage>1153</firstPage>
+                    <lastPage>1160</lastPage>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41592-019-0575-8</externalReferences>
+                    <externalReferences type="pubmed">31591578</externalReferences>
+                    <details>Raw frames, micrographs aligned with MotionCor2, particle picks, and particle stacks are included.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Micrographs along with all other magnification images from the collection</name>
+        <directory>/data/leginon</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1061</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>0.832</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>0.832</pixelHeight>
+        </dimensions>
+        <details>Frame aligned with MotionCor2.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Micrograph frames</name>
+        <directory>/data/frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1061</numImagesOrTiltSeries>
+        <framesPerImage>30</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>7420</imageWidth>
+            <pixelWidth>0.416</pixelWidth>
+            <imageHeight>7676</imageHeight>
+            <pixelHeight>0.416</pixelHeight>
+        </dimensions>
+        <details>Super-res frames and references. Includes picks for Topaz and Topaz-published.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/frames/rawdata/*.mrc.*</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/particle picks/</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particle picks/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>CryoEM structures in the paper</name>
+        <directory>/data/all_structures_in_paper</directory>
+        <category>picked particles - single frame - unprocessed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>9</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>All structures for EMPIAR-10025, EMPIAR-10028, NYSBC-aldo with Topaz, published, and Topaz-published picks as described in the manuscript titled: Positive-unlabeled convolutional neural networks for particle picking in cryo-electron micrographs
+
+Includes most Topaz particle picks and stacks for EMPIAR-10025, EMPIAR-10028, NYSBC-aldo with Topaz, published, and Topaz-published picks as described in the manuscript titled: Positive-unlabeled convolutional neural networks for particle picking in cryo-electron micrographs</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/all_particle_stacks_in_paper</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/all_particle_stacks_in_paper/</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/all_particle_stacks_in_paper/</pickedParticlesDirectory>
+    </imageSet>
+</entry>

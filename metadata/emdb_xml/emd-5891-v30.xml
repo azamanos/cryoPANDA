@@ -1,0 +1,244 @@
+<emd emdb_id="EMD-5891" version="3.0.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+    <admin>
+        <current_status>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2014-01-23</deposition>
+            <header_release>2014-02-19</header_release>
+            <map_release>2014-03-05</map_release>
+            <update>2015-10-07</update>
+        </key_dates>
+        <title>Cryo-EM structure of MAVSdeltaProTM filament</title>
+        <authors_list>
+            <author>Xu H</author>
+            <author>He X</author>
+            <author>Zheng H</author>
+            <author>Huang LJ</author>
+            <author>Hou F</author>
+            <author>Yu Z</author>
+            <author>de la Cruz MJ</author>
+            <author>Borkowski B</author>
+            <author>Zhang X</author>
+            <author>Chen ZJ</author>
+            <author>Jiang Q-X</author>
+        </authors_list>
+        <keywords>Innate immunity, helical filament, cryoEM, helical reconstruction</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Xu H</author>
+                    <author order="2">He X</author>
+                    <author order="3">Zheng H</author>
+                    <author order="4">Huang LJ</author>
+                    <author order="5">Hou F</author>
+                    <author order="6">Yu Z</author>
+                    <author order="7">de la Cruz MJ</author>
+                    <author order="8">Borkowski B</author>
+                    <author order="9">Zhang X</author>
+                    <author order="10">Chen ZJ</author>
+                    <author order="11">Jiang QX</author>
+                    <title>Structural basis for the prion-like MAVS filaments in antiviral innate immunity.</title>
+                    <journal>eLife</journal>
+                    <volume>3</volume>
+                    <first_page>e01489</first_page>
+                    <last_page>e01489</last_page>
+                    <year>2014</year>
+                    <external_references type="PUBMED">24569476</external_references>
+                    <external_references type="DOI">doi:10.7554/eLife.01489</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <auxiliary_link_list>
+            <auxiliary_link>
+                <link>http://dx.doi.org/10.6019/EMPIAR-10014</link>
+            </auxiliary_link>
+        </auxiliary_link_list>
+    </crossreferences>
+    <sample>
+        <name>Filaments formed by a truncated MAVS lacking part of the proline-rich region and the C-terminal transmembrane domain</name>
+        <supramolecule_list>
+            <sample_supramolecule supramolecule_id="1000">
+                <name>Filaments formed by a truncated MAVS lacking part of the proline-rich region and the C-terminal transmembrane domain</name>
+                <oligomeric_state>polymer</oligomeric_state>
+                <number_unique_components>1</number_unique_components>
+                <molecular_weight>
+                    <theoretical units="MDa">1.396</theoretical>
+                </molecular_weight>
+            </sample_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name synonym="IPS1, KIAA1271, VISA">Mitochondrial antiviral-signaling protein (MAVS)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                    <synonym_organism>Human</synonym_organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0423</theoretical>
+                </molecular_weight>
+                <oligomeric_state>polymer</oligomeric_state>
+                <recombinant_exp_flag>true</recombinant_exp_flag>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                    <recombinant_strain>BL21</recombinant_strain>
+                    <recombinant_plasmid>pET28a</recombinant_plasmid>
+                </recombinant_expression>
+                <sequence>
+                    <external_references type="UNIPROTKB">Q7Z434</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <buffer>
+                        <ph>8.0</ph>
+                        <details>10mM Tris-HCl, 150mM NaCl, 1mM DTT</details>
+                    </buffer>
+                    <grid>
+                        <details>Quantifoil grids coated with thin carbon on top</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <instrument>FEI VITROBOT MARK III</instrument>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>JEOL 2200FS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_cs units="mm">2.0</nominal_cs>
+                    <nominal_defocus_min units="&#181;m">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="&#181;m">2.0</nominal_defocus_max>
+                    <nominal_magnification>60000.0</nominal_magnification>
+                    <calibrated_magnification>61950.0</calibrated_magnification>
+                    <specimen_holder_model>GATAN LIQUID NITROGEN</specimen_holder_model>
+                    <alignment_procedure>
+                        <legacy>
+                            <astigmatism>Objective lens astigmatism was corrected at 100,000 x magnification</astigmatism>
+                        </legacy>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>JEOL omega filter</name>
+                            <lower_energy_threshold units="eV">0.0</lower_energy_threshold>
+                            <upper_energy_threshold units="eV">35.0</upper_energy_threshold>
+                        </energy_filter>
+                    </specialist_optics>
+                    <date>2011-11-30</date>
+                    <image_recording_list>
+                        <image_recording>
+                            <film_or_detector_model category="FILM">KODAK SO-163 FILM</film_or_detector_model>
+                            <digitization_details>
+                                <scanner>ZEISS SCAI</scanner>
+                                <sampling_interval units="&#181;m">7</sampling_interval>
+                            </digitization_details>
+                            <average_electron_dose_per_image units="e/&#8491;^2">20</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <details>IHRSR. Due to the smaller size of the dataset, we did not sort the data based on variations in symmetry parameters.</details>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="&#8491;">16.9</delta_z>
+                            <delta_phi units="deg">52.9</delta_phi>
+                            <axial_symmetry>C3</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <algorithm>OTHER</algorithm>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">16.4</resolution>
+                    <resolution_method>OTHER</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>Spider, MRC, EMAN, IMAGIC4D</name>
+                        </software>
+                    </software_list>
+                </final_reconstruction>
+                <ctf_correction>
+                    <details>Each filament segment</details>
+                </ctf_correction>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="1126">
+        <file>emd_5891.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>60</col>
+            <row>60</row>
+            <sec>80</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>60</x>
+            <y>60</y>
+            <z>80</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">139.98</a>
+            <b units="&#8491;">139.98</b>
+            <c units="&#8491;">186.64</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.25457004</minimum>
+            <maximum>1.00864923</maximum>
+            <average>0.02374649</average>
+            <std>0.13765344</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">2.333</x>
+            <y units="&#8491;">2.333</y>
+            <z units="&#8491;">2.333</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0339</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <annotation_details>Cryo-EM map of filaments formed by a truncated MAVS lacking part of the proline-rich region and the C-terminal transmembrane domain</annotation_details>
+        <details>::::EMDATABANK.org::::EMD-5891::::</details>
+    </map>
+    <interpretation>
+        <figure_list>
+            <figure>
+                <file>emd_5891.tif</file>
+            </figure>
+        </figure_list>
+    </interpretation>
+</emd>

@@ -1,0 +1,127 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10317" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-08-26</depositionDate>
+            <releaseDate>2019-11-06</releaseDate>
+            <updateDate>2019-11-19</updateDate>
+        </keyDates>
+        <title>Cryo-EM dataset, containing multiple conformations of a heterodimeric ABC exporter TmrAB (EQ-mutant), incubated with a mixture of ATP and ADP</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-1101-5366</authorORCID>
+            <firstName>Arne</firstName>
+            <lastName>Moeller</lastName>
+            <organization type="academic">Max Planck Institute of Biophysics</organization>
+            <street>Max-von-Laue-Straße 3</street>
+            <townOrCity>Frankfurt am Main</townOrCity>
+            <stateOrProvince>Hessen</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>60438</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-1101-5366</authorORCID>
+            <firstName>Arne</firstName>
+            <lastName>Moeller</lastName>
+            <organization type="academic">Max Planck Institute of Biophysics</organization>
+            <street>Max-von-Laue-Straße 3</street>
+            <townOrCity>Frankfurt am Main</townOrCity>
+            <stateOrProvince>Hessen</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>60438</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-3279-7590">Januliene D</author>
+            <author>Hofmann S</author>
+            <author authorORCID="0000-0002-0193-3334">Mehdipour AR</author>
+            <author authorORCID="0000-0001-7441-1089">Thomas C</author>
+            <author authorORCID="0000-0001-7768-746X">Hummer G</author>
+            <author authorORCID="0000-0002-0403-2160">Tampé R</author>
+            <author authorORCID="0000-0003-1101-5366">Moeller A</author>
+        </authorsList>
+        <datasetSize units="TB">7.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10317</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-4775</emdbEntry>
+            <emdbEntry>EMD-4776</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Hofmann S</author>
+                    <author authorORCID="0000-0002-3279-7590" order="2">Januliene D</author>
+                    <author authorORCID="0000-0002-0193-3334" order="3">Mehdipour AR</author>
+                    <author authorORCID="0000-0001-7441-1089" order="4">Thomas C</author>
+                    <author order="5">Stefan E</author>
+                    <author order="6">Brüchert S</author>
+                    <author order="7">Kuhn BT</author>
+                    <author authorORCID="0000-0002-2789-5444" order="8">Geertsma ER</author>
+                    <author authorORCID="0000-0001-7768-746X" order="9">Hummer G</author>
+                    <author authorORCID="0000-0002-0403-2160" order="10">Tampé R</author>
+                    <author authorORCID="0000-0003-1101-5366" order="11">Moeller A</author>
+                    <title>Conformation space of a heterodimeric ABC exporter under turnover conditions</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <issue>7766</issue>
+                    <volume>571</volume>
+                    <firstPage>580</firstPage>
+                    <lastPage>583</lastPage>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41586-019-1391-0</externalReferences>
+                    <externalReferences type="pubmed">31316210</externalReferences>
+                    <details>Unaligned, gain-corrected, multi-frame movies together with picked particles, pre-cleaned in a single step of 3D-classification</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of a heterodimeric ABC exporter TmrAB (EQ-mutant) in multiple ATP/ADP bound conformations</name>
+        <directory>/data/Micrographs</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3263</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.077</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.077</pixelHeight>
+        </dimensions>
+        <details>Unaligned, gain-corrected, 40-frame movies, recorded automatically with EPU, using K2 camera in counting mode on a Titan Krios microscope operated at 300 kV at a nominal magnification of 130 000, corresponding to a pixel size of 1.077 Å. The total electron dose per micrograph - approximately 62 electrons per squared Angstrom.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Micrographs/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Particles/1p5mln-TmrAB-stack.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>TmrAB(EQ) particles in multiple conformations after one round of cleaning in 3D</name>
+        <directory>/data/Particles</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>1547017</numImagesOrTiltSeries>
+        <framesPerImage>1547017</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.077</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.077</pixelHeight>
+        </dimensions>
+        <details>1.5 mln particle stack (box size - 256 pixels, 1.077 Å/pixel) of TmrAB(EQ) in multiple conformations after a single round of cleaning in 3D (particles picked and extracted in Relion-3).</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Micrographs/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Particles/1p5mln-TmrAB-stack.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Particles</pickedParticlesDirectory>
+    </imageSet>
+</entry>

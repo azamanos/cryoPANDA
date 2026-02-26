@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-22689">
+    <admin>
+        <current_status>
+            <date>2024-11-20</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-09-18</deposition>
+            <header_release>2021-03-17</header_release>
+            <map_release>2021-03-17</map_release>
+            <update>2024-11-20</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01GM102498</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01GM098672</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/Office of the Director</funding_body>
+                <code>DP5OD023048</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Hedgehog receptor Patched (PTCH1) in complex with conformation selective nanobody TI23</title>
+        <authors_list>
+            <author>Zhang Y</author>
+            <author>Bulkley DP</author>
+        </authors_list>
+        <keywords>MEMBRANE PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0003-2145-4151" order="1">Zhang Y</author>
+                    <author ORCID="0000-0002-2186-9800" order="2">Lu WJ</author>
+                    <author order="3">Bulkley DP</author>
+                    <author order="4">Liang J</author>
+                    <author order="5">Ralko A</author>
+                    <author order="6">Han S</author>
+                    <author order="7">Roberts KJ</author>
+                    <author order="8">Li A</author>
+                    <author order="9">Cho W</author>
+                    <author order="10">Cheng Y</author>
+                    <author ORCID="0000-0002-7173-3741" order="11">Manglik A</author>
+                    <author order="12">Beachy PA</author>
+                    <title>Hedgehog pathway activation through nanobody-mediated conformational blockade of the Patched sterol conduit.</title>
+                    <journal_abbreviation>Proc.Natl.Acad.Sci.USA</journal_abbreviation>
+                    <country>US</country>
+                    <volume>117</volume>
+                    <first_page>28838</first_page>
+                    <last_page>28846</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">33139559</external_references>
+                    <external_references type="DOI">doi:10.1073/pnas.2011560117</external_references>
+                    <external_references type="ISSN">1091-6490</external_references>
+                    <external_references type="CSD">0040</external_references>
+                    <external_references type="ASTM">PNASA6</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7k65</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Complex between Hedgehog receptor PTCH1 and nanobody TI23</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Complex between Hedgehog receptor PTCH1 and nanobody TI23</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>Hedgehog receptor Patched PTCH1</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>nanobody TI23</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9844">Lama glama</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Protein patched homolog 1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.142619938</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MASAGNAAGALGRQAGGGRRRRTGGPHRAAPDRDYLHRPSYCDAAFALEQISKGKATGRKAPLWLRAKFQRLLFKLGCYI
+QKNCGKFLVVGLLIFGAFAVGLKAANLETNVEELWVEVGGRVSRELNYTRQKIGEEAMFNPQLMIQTPKEEGANVLTTEA
+LLQHLDSALQASRVHVYMYNRQWKLEHLCYKSGELITETGYMDQIIEYLYPCLIITPLDCFWEGAKLQSGTAYLLGKPPL
+RWTNFDPLEFLEELKKINYQVDSWEEMLNKAEVGHGYMDRPCLNPADPDCPATAPNKNSTKPLDVALVLNGGCQGLSRKY
+MHWQEELIVGGTVKNATGKLVSAHALQTMFQLMTPKQMYEHFRGYDYVSHINWNEDRAAAILEAWQRTYVEVVHQSVAPN
+STQKVLPFTTTTLDDILKSFSDVSVIRVASGYLLMLAYACLTMLRWDCSKSQGAVGLAGVLLVALSVAAGLGLCSLIGIS
+FNAATTQVLPFLALGVGVDDVFLLAHAFSETGQNKRIPFEDRTGECLKRTGASVALTSISNVTAFFMAALIPIPALRAFS
+LQAAVVVVFNFAMVLLIFPAILSMDLYRREDRRLDIFCCFTSPCVSRVIQVEPQAYTEPMQSTVQLRTEYDPHTHVYYTT
+AEPRSEISVQPVTVTQDNLSCQSPESTSSTRDLLSQFSDSSLHCLEPPCTKWTLSSFAEKHYAPFLLKPKAKVVVILLFL
+GLLGVSLYGTTRVRDGLDLTDIVPRETREYDFIAAQFKYFSFYNMYIVTQKADYPNIQHLLYDLHKSFSNVKYVMLEENK
+QLPQMWLHYFRDWLQGLQDAFDSDWETGRIMPNNYKNGSDDGVLAYKLLVQTGSRDKPIDISQLTKQRLVDADGIINPSA
+FYIYLTAWVSNDPVAYAASQANIRPHRPEWVHDKADYMPETRLRIPAAEPIEYAQFPFYLNGLRDTSDFVEAIEKVRVIC
+NNYTSLGLSSYPNGYPFLFWEQYISLRHWLLLSISVVLACTFLVCAVFLLNPWTAGIIVMVLALMTVELFGMMGLIGIKL
+SAVPVVILIASVGIGVEFTVHVALAFLTAIGDKNHRAMLALEHMFAPVLDGAVSTLLGVLMLAGSEFDFIVRYFFAVLAI
+LTVLGVLNGLVLLPVLLSFFGPCPEVSPANGLNRLPTPSPEPPPSVVRFAVPPGHTNNGSDSSDSEYSSQTTVSGISEEL
+RQYEAQQGAGGPAHQVIVEATENPVFARSTVVHPDSRHQPPLTPRQQPHLDSGSLSPGRQGQQPRRDMDEKTTGWRGGHV
+V</string>
+                    <external_references type="UNIPROTKB">Q61115</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>nanobody TI23</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9844">Lama glama</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013821416999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="866768">Escherichia coli 'BL21-Gold(DE3)pLysS AG'</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>QVQLQESGGGLVQAGGSLRLSCAASGNIFAYYIMGWYRQAPGKERELVATIDIGGNTNYADSVKGRFTISRDNAKNNVYL
+QMNSLKPEDTAVYYCAVQAVPIRYRRYWGQGTQVTVSSHHHHHH</string>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="4">
+                <name>2-acetamido-2-deoxy-beta-D-glucopyranose</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000221208</theoretical>
+                </molecular_weight>
+                <number_of_copies>5</number_of_copies>
+                <formula>NAG</formula>
+            </ligand>
+            <ligand macromolecule_id="5">
+                <name>2-{[(4-O-alpha-D-glucopyranosyl-alpha-D-glucopyranosyl)oxy]methyl}-4-{[(3beta,9beta,14beta,17beta,25R)-spirost-5-en-3-yl]oxy}butyl 4-O-alpha-D-glucopyranosyl-alpha-D-glucopyranoside</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.001165315</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <formula>Q7G</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">4.5</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>HEPES</formula>
+                            <name>4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid</name>
+                        </component>
+                        <component>
+                            <concentration units="%">0.02</concentration>
+                            <formula>GDN</formula>
+                            <name>glycol-diosgenin</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil</model>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">298</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK III</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>SUPER-RESOLUTION</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">3838</width>
+                                    <height units="pixel">3710</height>
+                                </dimensions>
+                            </digitization_details>
+                            <number_real_images>7046</number_real_images>
+                            <average_exposure_time units="s">12.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">85.6</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>3621265</number_selected>
+                    <details>Particles were picked first using a Gaussian blob as the template and then were re-picked using the 2D classes generated from the first round.</details>
+                </particle_selection>
+                <startup_model type_of_model="OTHER"/>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <algorithm>BACK PROJECTION</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">3.4</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cisTEM</name>
+                            <version>1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>307652</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>2</number_classes>
+                    <average_number_members_per_class>307652.0</average_number_members_per_class>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_22689.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">271.104</a>
+            <b units="Å">271.104</b>
+            <c units="Å">271.104</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-14.967468</minimum>
+            <maximum>25.975850999999999</maximum>
+            <average>-0.021284537</average>
+            <std>0.87775165</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.059</x>
+            <y units="Å">1.059</y>
+            <z units="Å">1.059</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>4.8</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-22689::::</label>
+        <annotation_details>Sharpened map of Patched in complex with nanobody TI23</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>6MG8</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_22689_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">271.104</a>
+                    <b units="Å">271.104</b>
+                    <c units="Å">271.104</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-6.6187353</minimum>
+                    <maximum>11.269095</maximum>
+                    <average>0.015032658</average>
+                    <std>0.27109534</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.059</x>
+                    <y units="Å">1.059</y>
+                    <z units="Å">1.059</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-22689::::</label>
+                <annotation_details>Half map 2</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_22689_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">271.104</a>
+                    <b units="Å">271.104</b>
+                    <c units="Å">271.104</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-6.7661343</minimum>
+                    <maximum>11.112724</maximum>
+                    <average>-0.036731556</average>
+                    <std>0.4281229</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.059</x>
+                    <y units="Å">1.059</y>
+                    <z units="Å">1.059</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-22689::::</label>
+                <annotation_details>half map 1</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

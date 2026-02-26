@@ -1,0 +1,96 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10770" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-07-19</depositionDate>
+            <releaseDate>2022-01-21</releaseDate>
+            <updateDate>2022-01-24</updateDate>
+        </keyDates>
+        <title>Cryo-EM reveals the stochastic nature of individual ATP binding events  in a group II chaperonin</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-8910-3078</authorORCID>
+            <firstName>Wah</firstName>
+            <lastName>Chiu</lastName>
+            <organization type="academic">Stanford University</organization>
+            <street>318 Campus Drive</street>
+            <townOrCity>Palo alto</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94305</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-8910-3078</authorORCID>
+            <firstName>Wah</firstName>
+            <lastName>Chiu</lastName>
+            <organization type="academic">Stanford University</organization>
+            <street>318 Campus Drive</street>
+            <townOrCity>Palo alto</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94305</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-2302-1763">Zhao Y</author>
+            <author authorORCID="0000-0003-1077-5750">Schmid MF</author>
+            <author authorORCID="0000-0003-2302-6943">Frydman J</author>
+            <author authorORCID="0000-0002-8910-3078">Chiu W</author>
+        </authorsList>
+        <datasetSize>48.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10770</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-24324</emdbEntry>
+            <emdbEntry>EMD-24325</emdbEntry>
+            <emdbEntry>EMD-24326</emdbEntry>
+            <emdbEntry>EMD-24327</emdbEntry>
+            <emdbEntry>EMD-24328</emdbEntry>
+            <emdbEntry>EMD-24329</emdbEntry>
+            <emdbEntry>EMD-24330</emdbEntry>
+            <emdbEntry>EMD-24331</emdbEntry>
+            <emdbEntry>EMD-24363</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-2302-1763" order="1">Zhao Y</author>
+                    <author authorORCID="0000-0003-1077-5750" order="2">Schmid MF</author>
+                    <author authorORCID="0000-0003-2302-6943" order="3">Frydman J</author>
+                    <author authorORCID="0000-0002-8910-3078" order="4">Chiu W</author>
+                    <title>CryoEM reveals the stochastic nature of individual ATP binding events in a group II chaperonin</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>12</volume>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-021-25099-0</externalReferences>
+                    <externalReferences type="pubmed">34362932</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>aligned particle image</name>
+        <directory>/data/job202</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>165212</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>280</imageWidth>
+            <pixelWidth>1.08</pixelWidth>
+            <imageHeight>280</imageHeight>
+            <pixelHeight>1.08</pixelHeight>
+        </dimensions>
+        <details>The extracted particle image stacks are in the Micrographs folder. And the particle information is summarized in particle.star.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/job202/Micrographs/*.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/job202/particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/job202/Micrographs</pickedParticlesDirectory>
+    </imageSet>
+</entry>

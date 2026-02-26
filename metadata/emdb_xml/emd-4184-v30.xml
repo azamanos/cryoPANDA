@@ -1,0 +1,213 @@
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" emdb_id="EMD-4184" version="3.0.0.0" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_0_0/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2018-01-31</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2017-11-29</deposition>
+            <header_release>2018-01-17</header_release>
+            <map_release>2018-01-31</map_release>
+            <update>2018-01-31</update>
+        </key_dates>
+        <title>RNA Polymerase III pre-initiation complex</title>
+        <authors_list>
+            <author>Vorlaender MK</author>
+            <author>Khatter H</author>
+            <author>Wetzel R</author>
+            <author>Hagen WJ</author>
+            <author>Mueller CW</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Vorlander MK</author>
+                    <author order="2">Khatter H</author>
+                    <author order="3">Wetzel R</author>
+                    <author order="4">Hagen WJH</author>
+                    <author order="5">Muller CW</author>
+                    <title>Molecular mechanism of promoter opening by RNA polymerase III.</title>
+                    <journal_abbreviation>Nature</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>553</volume>
+                    <first_page>295</first_page>
+                    <last_page>300</last_page>
+                    <year>2018</year>
+                    <external_references type="PUBMED">29345638</external_references>
+                    <external_references type="DOI">doi:10.1038/nature25440</external_references>
+                    <external_references type="ISSN">1476-4687</external_references>
+                    <external_references type="CSD">0006</external_references>
+                    <external_references type="ASTM">NATUAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-4184</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+                <details>RNA Polymerase III open complex</details>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>RNA Polymerase III pre-initiation complex</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>RNA Polymerase III pre-initiation complex</name>
+                <parent>0</parent>
+                <details>Map obtained before seperation into open DNA complex (OC) and closed DNA complex (CC)</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.893</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.02</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/1</model>
+                        <material>COPPER</material>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details />
+                    </vitrification>
+                    <details>Crosslinked with glutaraldehyde</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>SUPER-RESOLUTION</detector_mode>
+                            <average_electron_dose_per_image units="e/&#8491;^2">60.9</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>5FJ8</pdb_id>
+                    </pdb_model>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">3.7</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>62751</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing />
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing />
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="55297">
+        <file>emd_4184.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>240</col>
+            <row>240</row>
+            <sec>240</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>240</x>
+            <y>240</y>
+            <z>240</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">324.0</a>
+            <b units="&#8491;">324.0</b>
+            <c units="&#8491;">324.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>Z</fast>
+            <medium>X</medium>
+            <slow>Y</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-11.47481</minimum>
+            <maximum>18.611363999999998</maximum>
+            <average>0.018354587</average>
+            <std>0.7109673</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">1.35</x>
+            <y units="&#8491;">1.35</y>
+            <z units="&#8491;">1.35</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>3.</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-4184::::</label>
+        <annotation_details>Map of the RNA Pol III pre-initiation complex</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+                <target_criteria>Cross-correlation coefficient</target_criteria>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>110.</overall_bvalue>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

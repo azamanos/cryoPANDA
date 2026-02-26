@@ -1,0 +1,175 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12518" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2025-01-06</depositionDate>
+            <releaseDate>2025-02-10</releaseDate>
+            <updateDate>2025-02-10</updateDate>
+        </keyDates>
+        <title>Single particle analysis datasets of in vitro grown aSyn filaments</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-8828-835X</authorORCID>
+            <firstName>Kevin</firstName>
+            <lastName>Sicking</lastName>
+            <organization type="academic">Institute of Neuropathology, University Medical Center Goettingen</organization>
+            <townOrCity>Goettingen</townOrCity>
+            <country>Germany</country>
+            <postOrZipCode>37075</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8366-7622</authorORCID>
+            <firstName>Ruben</firstName>
+            <lastName>Fernandez-Busnadiego</lastName>
+            <organization type="academic">Institute of Neuropathology, University Medical Center Goettingen</organization>
+            <townOrCity>Goettingen</townOrCity>
+            <country>Germany</country>
+            <postOrZipCode>37075</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-1679-1727</authorORCID>
+            <firstName>Tiago</firstName>
+            <lastName>Outeiro</lastName>
+            <organization type="academic">Experimental Neurodegeneration, University Medical Center Goettingen</organization>
+            <townOrCity>Goettingen</townOrCity>
+            <country>Germany</country>
+            <postOrZipCode>37075</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Sicking K</author>
+            <author>Al-Azzani M</author>
+            <author>Outeiro TF</author>
+            <author>Fernandez-Busnadiego R</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>German Research Foundation (DFG)</fundingBody>
+                <code>EXC 2067/1-390729940</code>
+                <country>Germany</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>German Research Foundation (DFG)</fundingBody>
+                <code>SFB1286 (B8)</code>
+                <country>Germany</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>German Research Foundation (DFG)</fundingBody>
+                <code>SFB1286 (A12)</code>
+                <country>Germany</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>German Research Foundation (DFG)</fundingBody>
+                <code>448415290</code>
+                <country>Germany</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Michael J. Fox Foundation</fundingBody>
+                <code>ASAP-000282</code>
+                <country>United States</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">1023.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12518</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-52165</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author order="1">Brücke C</author>
+                    <author order="2">Al-Azzani M</author>
+                    <author order="3">Ramalingam N</author>
+                    <author order="4">Ramón M</author>
+                    <author order="5">Sousa RL</author>
+                    <author order="6">Buratti F</author>
+                    <author order="7">Zech M</author>
+                    <author order="8">Sicking K</author>
+                    <author order="9">Amaral L</author>
+                    <author order="10">Gelpi E</author>
+                    <author order="11">Chandran A</author>
+                    <author order="12">Agarwal A</author>
+                    <author order="13">Chaves S</author>
+                    <author order="14">Fernández CO</author>
+                    <author order="15">Dettmer U</author>
+                    <author order="16">Lautenschläger J</author>
+                    <author order="17">Zweckstetter M</author>
+                    <author order="18">Fernandez-Busnadiego R</author>
+                    <author order="19">Zimprich A</author>
+                    <author order="20">Outeiro TF</author>
+                    <title>A novel alpha-synuclein G14R missense variant is associated with atypical neuropathological features.</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <externalReferences type="doi">10.1101/2024.09.23.24313864.</externalReferences>
+                    <externalReferences type="pubmed">39399048</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Dataset containing WT aSyn TEM micrographs</name>
+        <directory>/data/aSyn_micrographs_unpacked/WT_mrcs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4093</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.92</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.92</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dataset containing aSyn G14R TEM micrographs</name>
+        <directory>/data/aSyn_micrographs_unpacked/G14R_mrcs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6475</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.92</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.92</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dataset containing aSyn K58N TEM micrographs</name>
+        <directory>/data/aSyn_micrographs_unpacked/K58N_mrcs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5811</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.92</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.92</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

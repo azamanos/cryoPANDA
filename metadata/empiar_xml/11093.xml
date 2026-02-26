@@ -1,0 +1,94 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11093" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-09-11</depositionDate>
+            <releaseDate>2022-07-27</releaseDate>
+            <updateDate>2022-07-27</updateDate>
+        </keyDates>
+        <title>Micrographs of IAPP (amylin) amyloid fibrils</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0003-1803-5431</authorORCID>
+            <firstName>Gunnar</firstName>
+            <middleName>F</middleName>
+            <lastName>Schröder</lastName>
+            <organization type="academic">Forschungszentrum Jülich</organization>
+            <townOrCity>Jülich</townOrCity>
+            <country>Germany</country>
+            <postOrZipCode>52425</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0003-1803-5431</authorORCID>
+            <firstName>Gunnar</firstName>
+            <middleName>F</middleName>
+            <lastName>Schröder</lastName>
+            <organization type="academic">Forschungszentrum Jülich</organization>
+            <townOrCity>Jülich</townOrCity>
+            <country>Germany</country>
+            <postOrZipCode>52425</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-2600-8636">Röder C</author>
+            <author authorORCID="0000-0003-1803-5431">Schröder GF</author>
+        </authorsList>
+        <datasetSize>83.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11093</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-10669</emdbEntry>
+            <emdbEntry>EMD-10670</emdbEntry>
+            <emdbEntry>EMD-10671</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-2600-8636" order="1">Röder C</author>
+                    <author authorORCID="0000-0002-5151-6424" order="2">Kupreichyk T</author>
+                    <author authorORCID="0000-0001-7065-5027" order="3">Gremer L</author>
+                    <author authorORCID="0000-0002-8481-6298" order="4">Schäfer LU</author>
+                    <author authorORCID="0000-0003-0073-2511" order="5">Pothula KR</author>
+                    <author authorORCID="0000-0001-6056-5888" order="6">Ravelli RBG</author>
+                    <author authorORCID="0000-0002-0065-7366" order="7">Willbold D</author>
+                    <author authorORCID="0000-0003-4301-5416" order="8">Hoyer W</author>
+                    <author authorORCID="0000-0003-1803-5431" order="9">Schröder GF</author>
+                    <title>Cryo-EM structure of islet amyloid polypeptide fibrils reveals similarities with amyloid-β fibrils</title>
+                    <journal>Nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>Nat. Struct. Mol. Biol.</journalAbbreviation>
+                    <country>United Kingdom</country>
+                    <issue>7</issue>
+                    <volume>27</volume>
+                    <firstPage>660</firstPage>
+                    <lastPage>667</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41594-020-0442-4</externalReferences>
+                    <externalReferences type="pubmed">32541895</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>MotionCor2-aligned single frame of islet amyloid polypeptide fibrils</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1330</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.935</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.935</pixelHeight>
+        </dimensions>
+        <details>These data are aligned average micrographs collected on a Technai Arctica at 200kV with a Falcon III detector operating in electron counting mode. Applied defocus values ranged from −1 to −2.2 µm. MotionCor2 was used to align 50 dose fractions that were taken with a total electron dose of ~42e-/Å².</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,452 @@
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" emdb_id="EMD-9203" version="3.0.0.1" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_0_1/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2018-10-24</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2018-10-13</deposition>
+            <header_release>2018-10-24</header_release>
+            <map_release>2018-10-24</map_release>
+            <update>2018-10-24</update>
+        </key_dates>
+        <title>bovine glutamate dehydrogenase (18apr21a)</title>
+        <authors_list>
+            <author>Eng ET</author>
+            <author>Kopylov M</author>
+            <author>Negro CJ</author>
+            <author>Dallaykan S</author>
+            <author>Jordan KJ</author>
+            <author>Kelley K</author>
+            <author>Rice WJ</author>
+            <author>Carragher BO</author>
+            <author>Potter CS</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="false">
+                    <author order="1">Eng ET</author>
+                    <author order="2">Kopylov M</author>
+                    <author order="3">Negro CJ</author>
+                    <author order="4">Dallaykan S</author>
+                    <author order="5">Jordan KJ</author>
+                    <author order="6">Kelley K</author>
+                    <author order="7">Rice WJ</author>
+                    <author order="8">Carragher BO</author>
+                    <author order="9">Potter CS</author>
+                    <title>bovine glutamate dehydrogenase (18apr21a)</title>
+                    <journal_abbreviation>To Be Published</journal_abbreviation>
+                    <external_references type="CSD">0353</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-9203</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>bovine liver glutamate dehydrogenase</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>bovine liver glutamate dehydrogenase</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="9913">Bos taurus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.347</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">4</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>C8H18N2O4S</formula>
+                            <name>HEPES</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil, UltrAuFoil, R1.2/1.3</model>
+                        <material>GOLD</material>
+                        <mesh>400</mesh>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <atmosphere>OTHER</atmosphere>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">75</chamber_humidity>
+                        <chamber_temperature units="K">298</chamber_temperature>
+                        <instrument>GATAN CRYOPLUNGE 3</instrument>
+                        <details>Blotted for 2.5 s after a 30 s wait time. </details>
+                    </vitrification>
+                    <details>This sample was monodisperse.</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="&#181;m">70.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="&#181;m">1.0</nominal_defocus_min>
+                    <calibrated_defocus_min units="&#181;m">0.2</calibrated_defocus_min>
+                    <nominal_defocus_max units="&#181;m">3.0</nominal_defocus_max>
+                    <calibrated_defocus_max units="&#181;m">3.02</calibrated_defocus_max>
+                    <nominal_magnification>37000.</nominal_magnification>
+                    <calibrated_magnification>75574.</calibrated_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <temperature>
+                        <temperature_min units="K">70.0</temperature_min>
+                        <temperature_max units="K">70.0</temperature_max>
+                    </temperature>
+                    <alignment_procedure>
+                        <zemlin_tableau />
+                    </alignment_procedure>
+                    <details>Leginon</details>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">3710</width>
+                                    <height units="pixel">3838</height>
+                                </dimensions>
+                                <sampling_interval units="&#181;m">5.0</sampling_interval>
+                                <frames_per_image>1-60</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>2491</number_real_images>
+                            <average_exposure_time units="s">10.2083</average_exposure_time>
+                            <average_electron_dose_per_image units="e/&#8491;^2">61.25</average_electron_dose_per_image>
+                            <details>Images were collected in movie mode at 10 frames per second.</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>Images were automatically run through MotionCor2 by Appion on-the-fly with the aligned sum and aligned dose-weighted sum saved.</details>
+                <particle_selection>
+                    <number_selected>583375</number_selected>
+                    <details>Template picking by FindEM. Templates were created by Appion DoG picks from the first 50 images, which were subjected to 2D classification in RELION.</details>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>CTFFIND</name>
+                            <version>4</version>
+                        </software>
+                    </software_list>
+                    <details>CTF amplitude correction was performed following 3D reconstruction.</details>
+                </ctf_correction>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>ab initio model created by cryoSPARC</insilico_model>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>D3</point_group>
+                    </applied_symmetry>
+                    <algorithm>BACK PROJECTION</algorithm>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">2.1</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>285518</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>3</number_classes>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3</version>
+                        </software>
+                    </software_list>
+                    <details>3D classification used K=3 and 1 out of the 3 classes were chosen for the final refinement.</details>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="174457">
+        <file>emd_9203.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>352</col>
+            <row>352</row>
+            <sec>352</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>352</x>
+            <y>352</y>
+            <z>352</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">232.8832</a>
+            <b units="&#8491;">232.8832</b>
+            <c units="&#8491;">232.8832</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.07137104</minimum>
+            <maximum>0.14005539</maximum>
+            <average>0.00017214128</average>
+            <std>0.0037602698</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">0.6616</x>
+            <y units="&#8491;">0.6616</y>
+            <z units="&#8491;">0.6616</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.02</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-9203::::</label>
+        <annotation_details>bovine glutamate dehydrogenase map (18apr21a)</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_9203_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="174457">
+                <file>emd_9203_additional.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>352</col>
+                    <row>352</row>
+                    <sec>352</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>352</x>
+                    <y>352</y>
+                    <z>352</z>
+                </spacing>
+                <cell>
+                    <a units="&#8491;">232.8832</a>
+                    <b units="&#8491;">232.8832</b>
+                    <c units="&#8491;">232.8832</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.008419046</minimum>
+                    <maximum>0.027642064</maximum>
+                    <average>-0.00016411001</average>
+                    <std>0.0014705472</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="&#8491;">0.6616</x>
+                    <y units="&#8491;">0.6616</y>
+                    <z units="&#8491;">0.6616</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <level>0.00652</level>
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-9203::::</label>
+                <annotation_details>unsharpened map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="174457">
+                <file>emd_9203_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>352</col>
+                    <row>352</row>
+                    <sec>352</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>352</x>
+                    <y>352</y>
+                    <z>352</z>
+                </spacing>
+                <cell>
+                    <a units="&#8491;">232.8832</a>
+                    <b units="&#8491;">232.8832</b>
+                    <c units="&#8491;">232.8832</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.009176768</minimum>
+                    <maximum>0.030142717</maximum>
+                    <average>-0.00013908537</average>
+                    <std>0.0015300662</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="&#8491;">0.6616</x>
+                    <y units="&#8491;">0.6616</y>
+                    <z units="&#8491;">0.6616</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <level>0.00665</level>
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-9203::::</label>
+                <annotation_details>odd half map</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="174457">
+                <file>emd_9203_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>352</col>
+                    <row>352</row>
+                    <sec>352</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>352</x>
+                    <y>352</y>
+                    <z>352</z>
+                </spacing>
+                <cell>
+                    <a units="&#8491;">232.8832</a>
+                    <b units="&#8491;">232.8832</b>
+                    <c units="&#8491;">232.8832</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.008948755</minimum>
+                    <maximum>0.02840571</maximum>
+                    <average>-0.00014889086</average>
+                    <std>0.0015313787</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="&#8491;">0.6616</x>
+                    <y units="&#8491;">0.6616</y>
+                    <z units="&#8491;">0.6616</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <level>0.00665</level>
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-9203::::</label>
+                <annotation_details>even half map</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

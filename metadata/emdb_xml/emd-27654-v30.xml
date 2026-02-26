@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_1/emdb.xsd" version="3.0.9.1" emdb_id="EMD-27654">
+    <admin>
+        <current_status>
+            <date>2024-01-17</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-07-19</deposition>
+            <header_release>2022-08-03</header_release>
+            <map_release>2022-08-03</map_release>
+            <update>2024-01-17</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>1F32GM135994-01</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute Of Allergy and Infectious Diseases (NIH/NIAID)</funding_body>
+                <code>R01AI127401</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01GM129241</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>A subtomogram average of H. neapolitanus Rubisco within alpha-carboxysomes</title>
+        <authors_list>
+            <author ORCID="0000-0002-8073-6960">Metskas LA</author>
+            <author ORCID="0000-0001-5740-926X">Blikstad C</author>
+            <author ORCID="0000-0001-8943-1330">Laughlin T</author>
+            <author ORCID="0000-0003-0042-2257">Savage DF</author>
+            <author ORCID="0000-0003-1556-4864">Jensen GJ</author>
+        </authors_list>
+        <keywords>Carbon fixation, alpha-carboxysome, enzyme, LYASE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-8073-6960" order="1">Metskas LA</author>
+                    <author order="2">Ortega D</author>
+                    <author ORCID="0000-0001-5716-9980" order="3">Oltrogge LM</author>
+                    <author ORCID="0000-0001-5740-926X" order="4">Blikstad C</author>
+                    <author order="5">Lovejoy DR</author>
+                    <author ORCID="0000-0001-8943-1330" order="6">Laughlin TG</author>
+                    <author ORCID="0000-0003-0042-2257" order="7">Savage DF</author>
+                    <author ORCID="0000-0003-1556-4864" order="8">Jensen GJ</author>
+                    <title>Rubisco forms a lattice inside alpha-carboxysomes.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>13</volume>
+                    <first_page>4863</first_page>
+                    <last_page>4863</last_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">35982043</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-022-32584-7</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+    </crossreferences>
+    <sample>
+        <name>Rubisco within the alpha-carboxysome</name>
+        <supramolecule_list>
+            <organelle_or_cellular_component_supramolecule supramolecule_id="1">
+                <name>Rubisco within the alpha-carboxysome</name>
+                <parent>0</parent>
+                <details>Subtomogram average of Rubisco within carboxysomes purified from H. neapolitanus</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="927">Halothiobacillus neapolitanus</organism>
+                    <cellular_location>Alpha-carboxysome</cellular_location>
+                </natural_source>
+            </organelle_or_cellular_component_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>subtomogramAveraging</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <subtomogram_averaging_preparation preparation_id="1">
+                    <buffer>
+                        <ph>8.0</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                    <details>Purified alpha-carboxysome</details>
+                </subtomogram_averaging_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <subtomogram_averaging_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">5.5</nominal_defocus_max>
+                    <nominal_magnification>81000.0</nominal_magnification>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <average_electron_dose_per_image units="e/Å^2">2.9</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </subtomogram_averaging_microscopy>
+            </microscopy_list>
+            <subtomogram_averaging_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C4</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">4.5</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>Dynamo</name>
+                            <version>1.1.333</version>
+                            <processing_details>Final subtomogram average</processing_details>
+                        </software>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                            <processing_details>Final post-processed map</processing_details>
+                        </software>
+                    </software_list>
+                    <number_subtomograms_used>24698</number_subtomograms_used>
+                </final_reconstruction>
+                <extraction>
+                    <number_tomograms>62</number_tomograms>
+                    <number_images_used>32930</number_images_used>
+                </extraction>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <details>weighted back projection</details>
+                </final_angle_assignment>
+            </subtomogram_averaging_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="16385">
+        <file>emd_27654.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>160</col>
+            <row>160</row>
+            <sec>160</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>160</x>
+            <y>160</y>
+            <z>160</z>
+        </spacing>
+        <cell>
+            <a units="Å">176.64</a>
+            <b units="Å">176.64</b>
+            <c units="Å">176.64</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-6.1842604</minimum>
+            <maximum>5.3301263</maximum>
+            <average>0.048541438</average>
+            <std>0.7444289</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.104</x>
+            <y units="Å">1.104</y>
+            <z units="Å">1.104</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.588</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-27654::::</label>
+        <annotation_details>Subtomogram average of Rubisco within H. neapolitanus alpha-carboxysome. Contour level for best display of interior.</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_27654_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="16385">
+                <file>emd_27654_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>160</col>
+                    <row>160</row>
+                    <sec>160</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>160</x>
+                    <y>160</y>
+                    <z>160</z>
+                </spacing>
+                <cell>
+                    <a units="Å">176.64</a>
+                    <b units="Å">176.64</b>
+                    <c units="Å">176.64</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-3.6661422</minimum>
+                    <maximum>3.7122073</maximum>
+                    <average>-0.010680272</average>
+                    <std>0.69544315</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.104</x>
+                    <y units="Å">1.104</y>
+                    <z units="Å">1.104</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-27654::::</label>
+                <annotation_details>Half-map 2, unfiltered</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="16385">
+                <file>emd_27654_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>160</col>
+                    <row>160</row>
+                    <sec>160</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>160</x>
+                    <y>160</y>
+                    <z>160</z>
+                </spacing>
+                <cell>
+                    <a units="Å">176.64</a>
+                    <b units="Å">176.64</b>
+                    <c units="Å">176.64</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-10.246238999999999</minimum>
+                    <maximum>7.4523773</maximum>
+                    <average>-0.14129764</average>
+                    <std>0.76762444</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.104</x>
+                    <y units="Å">1.104</y>
+                    <z units="Å">1.104</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-27654::::</label>
+                <annotation_details>Half-map 1, unfiltered</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

@@ -1,0 +1,314 @@
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" emdb_id="EMD-4239" version="3.0.0.0" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_0_0/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2018-02-07</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2017-12-22</deposition>
+            <header_release>2018-02-07</header_release>
+            <map_release>2018-02-07</map_release>
+            <update>2018-02-07</update>
+        </key_dates>
+        <title>Human Bact spliceosome state 7 unmasked</title>
+        <authors_list>
+            <author>Haselbach D</author>
+            <author>Komarov I</author>
+            <author>Agafonov D</author>
+            <author>Kastner B</author>
+            <author>Luehrmann R</author>
+            <author>Stark H</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Haselbach D</author>
+                    <author order="2">Komarov I</author>
+                    <author order="3">Agafonov DE</author>
+                    <author order="4">Hartmuth K</author>
+                    <author order="5">Graf B</author>
+                    <author order="6">Dybkov O</author>
+                    <author order="7">Urlaub H</author>
+                    <author order="8">Kastner B</author>
+                    <author order="9">Luhrmann R</author>
+                    <author order="10">Stark H</author>
+                    <title>Structure and Conformational Dynamics of the Human Spliceosomal Bact Complex.</title>
+                    <journal_abbreviation>Cell</journal_abbreviation>
+                    <volume>172</volume>
+                    <first_page>454</first_page>
+                    <last_page>464.e11</last_page>
+                    <year>2018</year>
+                    <external_references type="PUBMED">29361316</external_references>
+                    <external_references type="DOI">doi:10.1016/j.cell.2018.01.010</external_references>
+                    <external_references type="ISSN">1097-4172</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-4233</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-4234</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-4235</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-4236</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-4237</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-4238</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-4239</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>human Bact spliceosome state 1 unmasked</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>human Bact spliceosome state 1 unmasked</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                    <strain>HELA</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">4.5</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.05</concentration>
+                    <buffer>
+                        <ph>7.9</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>NaCl</formula>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.5</concentration>
+                            <formula>MgCl2</formula>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R3.5/1</model>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <support_film film_type_id="2">
+                            <film_material>CARBON</film_material>
+                            <film_topology>CONTINUOUS</film_topology>
+                        </support_film>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">75</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>LEICA EM GP</instrument>
+                        <details>blot with blotting sensor. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>SPOT SCAN</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="&#181;m">70.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">0.001</nominal_cs>
+                    <nominal_defocus_min units="&#181;m">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="&#181;m">4.5</nominal_defocus_max>
+                    <nominal_magnification>59000.</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free>
+                            <residual_tilt units="mrad">14.0</residual_tilt>
+                        </coma_free>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <sph_aberration_corrector>Microscope was modified with a Cs corrector with two hexapoles elements</sph_aberration_corrector>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <detector_mode>INTEGRATING</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">4096</width>
+                                    <height units="pixel">4096</height>
+                                </dimensions>
+                                <sampling_interval units="&#181;m">14.0</sampling_interval>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>32000</number_real_images>
+                            <average_exposure_time units="s">1.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/&#8491;^2">40.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>3300000</number_selected>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>Gctf</name>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">10.8</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>30793</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                    <software_list>
+                        <software>
+                            <name>EMAN2</name>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing />
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>220</number_classes>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="296353">
+        <file>emd_4239.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>420</col>
+            <row>420</row>
+            <sec>420</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>420</x>
+            <y>420</y>
+            <z>420</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">487.19998</a>
+            <b units="&#8491;">487.19998</b>
+            <c units="&#8491;">487.19998</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.015936788</minimum>
+            <maximum>0.04450854</maximum>
+            <average>0.0009194111</average>
+            <std>0.003920947</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">1.16</x>
+            <y units="&#8491;">1.16</y>
+            <z units="&#8491;">1.16</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0122</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-4239::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

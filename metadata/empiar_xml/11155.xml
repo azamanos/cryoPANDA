@@ -1,0 +1,77 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11155" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-08-16</depositionDate>
+            <releaseDate>2023-02-01</releaseDate>
+            <updateDate>2023-02-01</updateDate>
+        </keyDates>
+        <title>Cryo-EM data of alpha-synuclein A53T fibril</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-1525-6004</authorORCID>
+            <firstName>Kuen-Phon</firstName>
+            <lastName>Wu</lastName>
+            <organization type="academic">Institute of Biological Chemistry, Academia Sinica</organization>
+            <street>128 Academia Road, Section 2, Nankang District</street>
+            <townOrCity>Taipei</townOrCity>
+            <country>Taiwan</country>
+            <postOrZipCode>15</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-1525-6004</authorORCID>
+            <firstName>Kuen-Phon</firstName>
+            <lastName>Wu</lastName>
+            <organization type="academic">Institute of Biological Chemistry, Academia Sinica</organization>
+            <street>128 Academia Road, Section 2, Nankang District</street>
+            <townOrCity>Taipei</townOrCity>
+            <country>Taiwan</country>
+            <postOrZipCode>115</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-1525-6004">Wu KP</author>
+            <author>Huang JYC</author>
+        </authorsList>
+        <datasetSize>233.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11155</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-32636</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0002-1525-6004" order="1">Wu KP</author>
+                    <author order="2">Huang JYC</author>
+                    <title>Cryo-EM studies of alpha-synuclein A53T amyloid fibril</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country>Taiwan</country>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>motion corrected micrographs</name>
+        <directory>/data/cor</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2663</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.83</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.83</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

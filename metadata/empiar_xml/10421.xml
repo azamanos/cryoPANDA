@@ -1,0 +1,149 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10421" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-05-13</depositionDate>
+            <releaseDate>2021-05-17</releaseDate>
+            <updateDate>2021-05-17</updateDate>
+        </keyDates>
+        <title>Single-Particle CryoEM of Human Apoferritin Light Chain Vitrified Using Back-it-up</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-6656-6320</authorORCID>
+            <firstName>Yong Zi</firstName>
+            <lastName>Tan</lastName>
+            <organization type="academic">The Hospital for Sick Children</organization>
+            <street>686 Bay Street</street>
+            <townOrCity>Toronto</townOrCity>
+            <stateOrProvince>Ontario</stateOrProvince>
+            <country>Canada</country>
+            <postOrZipCode>M5G0A4</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-0566-2209</authorORCID>
+            <firstName>John</firstName>
+            <middleName>L</middleName>
+            <lastName>Rubinstein</lastName>
+            <organization type="academic">The Hospital for Sick Children</organization>
+            <street>686 Bay Street</street>
+            <townOrCity>Toronto</townOrCity>
+            <stateOrProvince>Ontario</stateOrProvince>
+            <country>Canada</country>
+            <postOrZipCode>M5G0A4</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-6656-6320">Tan YZ</author>
+            <author authorORCID="0000-0003-0566-2209">Rubinstein JL</author>
+        </authorsList>
+        <datasetSize units="TB">2.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10421</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-21951</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author authorORCID="0000-0001-6656-6320" order="1">Tan YZ</author>
+                    <author authorORCID="0000-0003-0566-2209" order="2">Rubinstein JL</author>
+                    <title>Through-grid wicking enables high-speed cryoEM specimen preparation</title>
+                    <journal>bioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <year>2020</year>
+                    <externalReferences type="doi">10.1101/2020.05.03.075366</externalReferences>
+                </journalCitation>
+            </universalCitation>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-6656-6320" order="1">Tan YZ</author>
+                    <author authorORCID="0000-0003-0566-2209" order="2">Rubinstein JL</author>
+                    <title>Through-grid wicking enables high-speed cryoEM specimen preparation</title>
+                    <journal>Acta crystallographica. Section D, Structural biology</journal>
+                    <journalAbbreviation>Acta Crystallogr D Struct Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>Pt 11</issue>
+                    <volume>76</volume>
+                    <firstPage>1092</firstPage>
+                    <lastPage>1103</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1107/s2059798320012474</externalReferences>
+                    <externalReferences type="pubmed">33135680</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned Falcon IV movie frames</name>
+        <directory>/data/01_Raw_Frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>3168</numImagesOrTiltSeries>
+        <framesPerImage>30</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>30</frameRangeMax>
+        </frameRange>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.816</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.816</pixelHeight>
+        </dimensions>
+        <details>3,168 movies were acquired from two grids of apoferritin prepared with BIU. The pixel size was calibrated at 0.816 Å/pixel by fitting a crystal structure of human ferritin L chain (PDB ID: 2FFX) into a preliminary 3D map. Movies were collected for 9 sec with 29 exposure fractions, a camera exposure rate of ~3 e-/pix/sec, and total specimen exposure of ~40 e-/Å^2. Note: Due to software issues, the last frames in these raw movies have errors. Please exclude the last frame (frame 30) when doing any alignments.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/02_Aligned_Micrographs/*mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/03_Final_Particle_Stack/BIU_HuApo_Final.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/03_Final_Particle_Stack</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned Dose-Weighted Micrographs</name>
+        <directory>/data/02_Aligned_Micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3168</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.816</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.816</pixelHeight>
+        </dimensions>
+        <details>Exposure fractions were aligned with MotionCor2 within Relion, using 7x7 patches and a B factor of 500 pixel^2 for global alignment and 150 pixel^2 for local alignment. There is a micrographs_ctf.star file with CTF estimation from CTFFind4. Note: Due to software issues, the last frames in these raw movies have errors. Please exclude the last frame (frame 30) when doing any alignments.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/02_Aligned_Micrographs/*mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/03_Final_Particle_Stack/BIU_HuApo_Final.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/03_Final_Particle_Stack</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final Particle Stack with Final Euler Angles and Shifts</name>
+        <directory>/data/03_Final_Particle_Stack</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>594259</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>594259</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>288</imageWidth>
+            <pixelWidth>0.816</pixelWidth>
+            <imageHeight>288</imageHeight>
+            <pixelHeight>0.816</pixelHeight>
+        </dimensions>
+        <details>Final polished particle stack with Euler angles and shifts. Higher order CTF aberration corrections were done within CryoSPARC 2 but the resulting parameters were not able to be exported to .star format here. When using this particle stack, it is recommended to do higher order CTF aberration corrections again in CryoSPARC/Relion to obtain the best resolution.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/02_Aligned_Micrographs/*mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/03_Final_Particle_Stack/BIU_HuApo_Final.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/03_Final_Particle_Stack</pickedParticlesDirectory>
+    </imageSet>
+</entry>

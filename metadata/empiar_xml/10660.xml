@@ -1,0 +1,147 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10660" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-03-03</depositionDate>
+            <releaseDate>2021-03-26</releaseDate>
+            <updateDate>2021-05-26</updateDate>
+        </keyDates>
+        <title>GluK2/K5 with L-Glu</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-6127-0093</authorORCID>
+            <firstName>Joel</firstName>
+            <lastName>Meyerson</lastName>
+            <organization type="academic">Weill Cornell Medical College</organization>
+            <townOrCity>New York</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>10065</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-6127-0093</authorORCID>
+            <firstName>Joel</firstName>
+            <lastName>Meyerson</lastName>
+            <organization type="academic">Weill Cornell Medical College</organization>
+            <townOrCity>New York</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>10065</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-4217-1273">Khanra NK</author>
+            <author authorORCID="0000-0002-6127-0093">Meyerson JRM</author>
+        </authorsList>
+        <datasetSize units="TB">3.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10660</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-23015</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-4217-1273" order="1">Khanra N</author>
+                    <author authorORCID="0000-0001-8340-0330" order="2">Brown PM</author>
+                    <author authorORCID="0000-0001-9681-3548" order="3">Perozzo AM</author>
+                    <author authorORCID="0000-0001-9491-8768" order="4">Bowie D</author>
+                    <author authorORCID="0000-0002-6127-0093" order="5">Meyerson J</author>
+                    <title>Architecture and structural dynamics of the heteromeric GluK2/K5 kainate receptor</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation>Elife</journalAbbreviation>
+                    <country>United States</country>
+                    <volume>10</volume>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.7554/elife.66097</externalReferences>
+                    <externalReferences type="pubmed">33724189</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>GluK2/K5 with L-Glu</name>
+        <directory>/data/K2em2_K5em_1mM_L_Glu_NYU_Arctica_2020_02_06</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>2556</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.548</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.548</pixelHeight>
+        </dimensions>
+        <details>Dose per frame (e/A2) = 1.27
+
+The coordinate files for the deposited GluK2-K5-L-Glu-full-length, GluK2-K5-L-Glu-ATD, and GluK2-K5-L-Glu-LBD-TMD maps are provided in STAR and CS file format.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>GluK2/K5 with L-Glu</name>
+        <directory>/data/K2em2_K5em_1mM_L_Glu_NYU_Arctica_2020_02_24</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>2719</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.548</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.548</pixelHeight>
+        </dimensions>
+        <details>Dose per frame (e/A2) = 1.318</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>GluK2/K5 with L-Glu</name>
+        <directory>/data/GluK2-K5-L-Glu-ATD-subtracted-particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>424296</numImagesOrTiltSeries>
+        <framesPerImage>212148</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>320</imageWidth>
+            <pixelWidth>1.096</pixelWidth>
+            <imageHeight>320</imageHeight>
+            <pixelHeight>1.096</pixelHeight>
+        </dimensions>
+        <details>The subtracted particle stacks were provided as two .mrcs (half1 and half2) files. The coordinate files for the GluK2/K5-L-Glu-ATD map were provided with this deposition. The coordinate files contain the particles in the final map, which is the subset of total particle stacks deposited.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>GluK2/K5 with L-Glu</name>
+        <directory>/data/GluK2-K5-L-Glu-LBD-TMD-subtracted-particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>424296</numImagesOrTiltSeries>
+        <framesPerImage>212148</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>320</imageWidth>
+            <pixelWidth>1.096</pixelWidth>
+            <imageHeight>320</imageHeight>
+            <pixelHeight>1.096</pixelHeight>
+        </dimensions>
+        <details>The subtracted particle stacks were provided as two .mrcs (half1 and half2) files. The coordinate files for the GluK2/K5-L-Glu-LBD-TMD map were provided with this deposition. The coordinate files contain the particles in the final map, which is the subset of total particle stacks deposited.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

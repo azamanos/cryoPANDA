@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-13355">
+    <admin>
+        <current_status>
+            <date>2024-07-17</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-08-11</deposition>
+            <header_release>2021-12-01</header_release>
+            <map_release>2021-12-01</map_release>
+            <update>2024-07-17</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Wellcome Trust</funding_body>
+                <code>202231/Z/16/Z</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Leverhulme Trust</funding_body>
+                <code>Philip Leverhulme Prize</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>Structure of the Caulobacter crescentus S-layer protein RsaA N-terminal domain bound to LPS and soaked with Holmium</title>
+        <authors_list>
+            <author>von Kugelgen A</author>
+            <author>Bharat TAM</author>
+        </authors_list>
+        <keywords>S-layer protein RsaA bound to LPS and Holmium, STRUCTURAL PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Herdman M</author>
+                    <author order="2">von Kugelgen A</author>
+                    <author order="3">Kureisaite-Ciziene D</author>
+                    <author order="4">Duman R</author>
+                    <author order="5">El Omari K</author>
+                    <author order="6">Garman EF</author>
+                    <author order="7">Kjaer A</author>
+                    <author order="8">Kolokouris D</author>
+                    <author order="9">Lowe J</author>
+                    <author order="10">Wagner A</author>
+                    <author order="11">Stansfeld PJ</author>
+                    <author order="12">Bharat TAM</author>
+                    <title>High-resolution mapping of metal ions reveals principles of surface layer assembly in Caulobacter crescentus cells.</title>
+                    <journal_abbreviation>Structure</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>30</volume>
+                    <first_page>215</first_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">34800371</external_references>
+                    <external_references type="DOI">doi:10.1016/j.str.2021.10.012</external_references>
+                    <external_references type="ISSN">0969-2126</external_references>
+                    <external_references type="CSD">2005</external_references>
+                    <external_references type="ASTM">STRUE6</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-10389</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>Specimen with Calcium</details>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7peo</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Structure of the Caulobacter crescentus S-layer protein RsaA N-terminal domain bound to LPS and soaked with Holmium</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Structure of the Caulobacter crescentus S-layer protein RsaA N-terminal domain bound to LPS and soaked with Holmium</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Structure of the Caulobacter crescentus S-layer protein RsaA N-terminal domain bound to LPS and soaked with Holmium</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="155892">Caulobacter vibrioides</organism>
+                    <strain>YB1001</strain>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>S-layer protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="155892">Caulobacter vibrioides</organism>
+                    <strain>YB1001</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.025820353999999997</theoretical>
+                </molecular_weight>
+                <details>LPS O-antigen bound to the protein</details>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="190650">Caulobacter vibrioides CB15</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>AYTTAQLVTAYTNANLGKAPDAATTLTLDAYATQTQTGGLSDAAALTNTLKLVNSTTAVAIQTYQFFTGVAPSAAGLDFL
+VDSTTNTNDLNDAYYSKFAQENRFINFSINLATGAGAGATAFAAAYTGVSYAQTVATAYDKIIGNAVATAAGVDVAAAVA
+FLSRQANIDYLTAFVRANTPFTAAADIDLAVKAALIGTILNAATVSGIGGYATATAAMINDLSDGALSTDNAAGVNLFTA
+YPSSGVSGSENLYFQ</string>
+                    <external_references type="UNIPROTKB">P35828</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="3">
+                <name>CALCIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">4.0078e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>CA</formula>
+            </ligand>
+            <ligand macromolecule_id="4">
+                <name>HOLMIUM ATOM</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00016493</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>HO</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">2.25</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">25.0</concentration>
+                            <formula>C8H18N2O4S</formula>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">100.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.0</concentration>
+                            <formula>MgCl2</formula>
+                            <name>magnesium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.0</concentration>
+                            <formula>CaCl2</formula>
+                            <name>calcium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">5.0</concentration>
+                            <formula>HoCl3</formula>
+                            <name>holmium chloride</name>
+                        </component>
+                        <details>Buffer solutions were prepared fresh from sterile filtered concentrated stocksolutions. Solutions were filtered through a 0.22 um filter to avoid microbial contamination and degassed using a vacuum fold pump.
+The pH of the HEPES stock solution was adjusted with sodium hydroxide at 4 deg C.
+
+5 mM HoCl3 was added to the specimen 1.5 hours before vitrification.</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/2</model>
+                        <material>COPPER/RHODIUM</material>
+                        <mesh>200</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY ARRAY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">20</time>
+                            <atmosphere>AIR</atmosphere>
+                        </pretreatment>
+                        <details>20 seconds, 15 mA</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">283.15</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>Vitrobot options:
+Blot time 4 seconds,
+Blot force -13,1,
+Wait time 10 seconds,
+Drain time 0.5 seconds,. </details>
+                    </vitrification>
+                    <details>RsaA N-terminal domain with LPS soaked with 5 mM HoCl3 for 1.5 h on ice before vitrification</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">-1.0</nominal_defocus_min>
+                    <calibrated_defocus_min units="µm">-1.0</calibrated_defocus_min>
+                    <nominal_defocus_max units="µm">-4.0</nominal_defocus_max>
+                    <calibrated_defocus_max units="µm">-4.0</calibrated_defocus_max>
+                    <nominal_magnification>130000.0</nominal_magnification>
+                    <calibrated_magnification>130000.0</calibrated_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <temperature>
+                        <temperature_min units="K">70.0</temperature_min>
+                        <temperature_max units="K">70.0</temperature_max>
+                    </temperature>
+                    <alignment_procedure>
+                        <zemlin_tableau/>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Quantum LS</name>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <details>EPU software</details>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">3838</width>
+                                    <height units="pixel">3710</height>
+                                </dimensions>
+                                <frames_per_image>1-20</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>2</number_grids_imaged>
+                            <number_real_images>2038</number_real_images>
+                            <average_exposure_time units="s">8.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">44.8</average_electron_dose_per_image>
+                            <details>Two data collections:
+First: 0 degree stage tilt with 903 collected movies.
+Second: 30 degree stage tilt with 1135 collected movies</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>Movies were motion corrected and dose weighted with MotionCor2 (Zheng et al., 2017) implemented in Relion 3.0 (Zivanov et al., 2018).  Contrast transfer functions (CTFs) of the resulting motion corrected micrographs were estimated using CTFFIND4 (Rohou and Grigorieff, 2015).</details>
+                <particle_selection>
+                    <number_selected>545533</number_selected>
+                    <details>Initial Particles were extracted in a 2x down-sampled 150 pixel x 150 pixel box and classified using reference-free 2D-classification inside RELION 3.0.</details>
+                </particle_selection>
+                <startup_model type_of_model="EMDB MAP">
+                    <emdb_id>EMD-10389</emdb_id>
+                    <details>30 A lowpass filtered reference map of  EMD-10389 was used as starting model.</details>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">4.37</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                    <details>The final map was obtained from 158,430 particles and post-processed using a soft mask focused on the inner fourteen subunits yielding a resolution of 4.37 A according to the gold standard Fourier shell correlation criterion of 0.143 (Scheres, 2012) with some anisotropy in Z as judged by directional FSCs (Tan et al., 2017)</details>
+                    <number_images_used>158430</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                    <details>Angle assignment was performed within RELION 3.0.</details>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                    <details>Angle assignment was performed within RELION 3.0.</details>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>2</number_classes>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                    <details>Particles from classes showing high-resolution features from both datasets were merged, re-extracted in a 300 pixel x 300 pixel box and were subjected to 3D classification using a 30 A lowpass filtered reference map of EMD-10389 (von Kuegelgen et al., 2020).</details>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="108001">
+        <file>emd_13355.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>300</col>
+            <row>300</row>
+            <sec>300</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>300</x>
+            <y>300</y>
+            <z>300</z>
+        </spacing>
+        <cell>
+            <a units="Å">324.0</a>
+            <b units="Å">324.0</b>
+            <c units="Å">324.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.0063713784</minimum>
+            <maximum>0.030576872</maximum>
+            <average>0.000025826846</average>
+            <std>0.0015256229</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.08</x>
+            <y units="Å">1.08</y>
+            <z units="Å">1.08</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.00765</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-13355::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>6T72</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <details>The atomic coordinates (PDB ID 6T72) of our previous cryo-EM structure (von Kugelgen et al., 2020) of the RsaANTD oligomer bound to the O-antigen of lipopolysaccharide (LPS) were rigid body fitted into the final post-processed map from Relion 3.0 (Zivanov et al., 2018) using UCSF Chimera (Pettersen et al., 2004). The resulting fitted model was subjected to real-space refinement using Refmac5 (Murshudov  et al., 2011) inside the CCP-EM suite (Burnely  et al., 2017), as described previously (von Kugelgen et al., 2020), using reference restraints of the initial structure (PDB ID 6T72) generated with PROSMART (Nicholls et al. 2012).</details>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

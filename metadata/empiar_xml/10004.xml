@@ -1,0 +1,69 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10004" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2013-10-21</depositionDate>
+            <releaseDate>2013-10-30</releaseDate>
+            <updateDate>2020-05-21</updateDate>
+        </keyDates>
+        <title>Pre-fusion structure of trimeric HIV-1 envelope glycoprotein determined by cryo-electron microscopy</title>
+        <correspondingAuthor private="true">
+            <firstName>Alberto</firstName>
+            <lastName>Bartesaghi</lastName>
+            <organization type="academic">Center for Cancer Research, National Cancer Institute</organization>
+            <townOrCity>Bethesda</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>20892</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Sriram</firstName>
+            <lastName>Subramaniam</lastName>
+            <organization type="academic">Center for Cancer Research, National Cancer Institute</organization>
+            <townOrCity>Bethesda</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>20892</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Bartesaghi A</author>
+            <author>Merk A</author>
+            <author>Borgnia MJ</author>
+            <author>Milne JLS</author>
+            <author>Subramaniam S</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2015-10-27</date>
+                <statusCode>REL</statusCode>
+                <details>Restructured the entry directory to have "data" and ".private".</details>
+            </version>
+        </versionHistory>
+        <datasetSize units="GB">117.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10004</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-2484</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>HIV-1 envelope glycoprotein micrographs</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>3755</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.08</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.08</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+</entry>

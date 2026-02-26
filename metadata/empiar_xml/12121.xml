@@ -1,0 +1,156 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12121" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-06-06</depositionDate>
+            <releaseDate>2024-07-19</releaseDate>
+            <updateDate>2024-07-19</updateDate>
+        </keyDates>
+        <title>Particle stacks from heart-derived AL amyloid (AL59) cryo-EM data</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-3287-9024</authorORCID>
+            <firstName>Antonio</firstName>
+            <lastName>Chaves-Sanjuan</lastName>
+            <organization type="academic">Department of Biosciences, University of Milan</organization>
+            <townOrCity>Milan</townOrCity>
+            <country>Italy</country>
+            <postOrZipCode>20133</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-3287-9024</authorORCID>
+            <firstName>Antonio</firstName>
+            <lastName>Chaves-Sanjuan</lastName>
+            <organization type="academic">Department of Biosciences, University of Milan</organization>
+            <townOrCity>Milan</townOrCity>
+            <country>Italy</country>
+            <postOrZipCode>20133</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-7322-8933">Schulte T</author>
+            <author authorORCID="0000-0002-7219-3097">Speranzini V</author>
+            <author authorORCID="0000-0003-3287-9024">Chaves-Sanjuan A</author>
+            <author authorORCID="0009-0000-7726-8580">Milazzo M</author>
+            <author authorORCID="0000-0001-6678-5873">Ricagno S</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Ministero dell Universita e della Ricerca</fundingBody>
+                <code>PRIN 2020 (20207XLJB2)</code>
+                <country>Italy</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">130.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12121</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-50270</emdbEntry>
+            <emdbEntry>EMD-50271</emdbEntry>
+            <emdbEntry>EMD-50272</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0002-7322-8933" order="1">Schulte T</author>
+                    <author authorORCID="0000-0002-7219-3097" order="2">Speranzini V</author>
+                    <author authorORCID="0000-0003-3287-9024" order="3">Chaves-Sanjuan A</author>
+                    <author authorORCID="0009-0000-7726-8580" order="4">Milazzo M</author>
+                    <author authorORCID="0000-0001-6678-5873" order="5">Ricagno S</author>
+                    <title>Helical superstructures between amyloid and collagen VI in heart-derived fibrils from a patient with Light Chain Amyloidosis</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <details>Particle stacks of the initial and the final set of segments used in the deposited reconstructions. 
+The initial set of segments extracted from raw micrographs are the in the /initial_particles folder. Inside there is an initial_particle.star and the associated /particles folder.
+The segments used in the final reconstructions EMD-50270, EMD-50271 and EMD-50272 are deposited in the  /straight_particles /bent_particles /mixed_particles folders, respectively. Each contain a *.star file and the associated particles folder.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Initial set of segments of the AL59 reconstructions</name>
+        <directory>/data/initial_particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>240985</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED 32 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>340</imageWidth>
+            <pixelWidth>0.889</pixelWidth>
+            <imageHeight>340</imageHeight>
+            <pixelHeight>0.889</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Set of segments of the AL59 'straight' polymorph reconstruction (EMD-50270)</name>
+        <directory>/data/straight_particles</directory>
+        <category>picked particles - single frame - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>37904</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>340</imageWidth>
+            <pixelWidth>0.889</pixelWidth>
+            <imageHeight>340</imageHeight>
+            <pixelHeight>0.889</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Set of segments of the AL59 'bent' polymorph reconstruction (EMD-50271)</name>
+        <directory>/data/bent_particles</directory>
+        <category>picked particles - single frame - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>10521</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>340</imageWidth>
+            <pixelWidth>0.889</pixelWidth>
+            <imageHeight>340</imageHeight>
+            <pixelHeight>0.889</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Set of segments of the AL59 'mixed' polymorph reconstruction (EMD-50272)</name>
+        <directory>/data/mixed_particles</directory>
+        <category>picked particles - single frame - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>12355</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>340</imageWidth>
+            <pixelWidth>0.889</pixelWidth>
+            <imageHeight>340</imageHeight>
+            <pixelHeight>0.889</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

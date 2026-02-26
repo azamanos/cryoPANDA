@@ -1,0 +1,101 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10176" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-03-06</depositionDate>
+            <releaseDate>2018-07-27</releaseDate>
+            <updateDate>2018-07-27</updateDate>
+        </keyDates>
+        <title>Single particle cryo-EM dataset of the flexible and variable oligomeric state complex AP-1:Arf1:tetherin-HIV-Nef</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-1717-8134</authorORCID>
+            <firstName>Kyle</firstName>
+            <middleName>L</middleName>
+            <lastName>Morris</lastName>
+            <organization type="academic">University of California, Berkeley</organization>
+            <street>360 Stanley Hall</street>
+            <townOrCity>Berkeley</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94720</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-5054-5445</authorORCID>
+            <firstName>Jim</firstName>
+            <middleName>H</middleName>
+            <lastName>Hurley</lastName>
+            <organization type="academic">University of California, Berkeley</organization>
+            <street>374D Stanley Hall</street>
+            <townOrCity>Berkeley</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94720</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-1717-8134">Morris KL</author>
+            <author>Buffalo CZ</author>
+            <author authorORCID="0000-0001-5054-5445">Hurley JH</author>
+        </authorsList>
+        <datasetSize units="GB">115.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10176</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-7458</emdbEntry>
+            <emdbEntry>EMD-7457</emdbEntry>
+            <emdbEntry>EMD-7456</emdbEntry>
+            <emdbEntry>EMD-7455</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Morris KL</author>
+                    <author order="2">Buffalo CZ</author>
+                    <author order="3">Stürzel CM</author>
+                    <author order="4">Heusinger E</author>
+                    <author order="5">Kirchhoff F</author>
+                    <author order="6">Ren X</author>
+                    <author order="7">Hurley JH</author>
+                    <title>HIV-1 Nefs Are Cargo-Sensitive AP-1 Trimerization Switches in Tetherin Downregulation</title>
+                    <journal>Cell</journal>
+                    <journalAbbreviation>Cell</journalAbbreviation>
+                    <country></country>
+                    <issue>3</issue>
+                    <volume>174</volume>
+                    <firstPage>659</firstPage>
+                    <lastPage>671.e14</lastPage>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.cell.2018.07.004</externalReferences>
+                    <externalReferences type="pubmed">30053425</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Dose weighted particle stack of AP1:Arf1:tetherin-HIV-Nef</name>
+        <directory>/data/dataset_all_209816_ptcls</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>209816</numImagesOrTiltSeries>
+        <framesPerImage>38</framesPerImage>
+        <frameRange>
+            <frameRangeMin>3</frameRangeMin>
+            <frameRangeMax>38</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>384</imageWidth>
+            <pixelWidth>1.067</pixelWidth>
+            <imageHeight>384</imageHeight>
+            <pixelHeight>1.067</pixelHeight>
+        </dimensions>
+        <details>Picked particles after 2D class averaging in Relion to clean the dataset. 209,816 particles represent the AP1:Arf1:tetherin-Nef dataset before 3D classification of the multiple oligomeric and flexible states of the complex.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_1/emdb.xsd" version="3.0.9.1" emdb_id="EMD-19521">
+    <admin>
+        <current_status>
+            <date>2024-02-14</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2024-01-31</deposition>
+            <header_release>2024-02-14</header_release>
+            <map_release>2024-02-14</map_release>
+            <update>2024-02-14</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Slovenian Research Agency</funding_body>
+                <code>P4-0176</code>
+                <country>Slovenia</country>
+            </grant_reference>
+        </grant_support>
+        <title>Q. thermotolerans Engineered Encapsulin P3P4</title>
+        <authors_list>
+            <author ORCID="0000-0003-2780-1572">Satler T</author>
+            <author ORCID="0000-0002-6337-5251">Jerala R</author>
+        </authors_list>
+        <keywords>Encapsulin, Nanocage, Compartment, Storage, Complex, VIRUS LIKE PARTICLE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="false">
+                    <author ORCID="0000-0003-2780-1572" order="1">Satler T</author>
+                    <author ORCID="0000-0002-6337-5251" order="2">Jerala R</author>
+                    <title>Structure of engineered encapsulin P3P4</title>
+                    <journal_abbreviation>To Be Published</journal_abbreviation>
+                    <external_references type="CSD">0353</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+    </crossreferences>
+    <sample>
+        <name>Engineered Encapsulin P3P4</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Engineered Encapsulin P3P4</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="1221996">Bacillus thermotolerans</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.8</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <name>Tris-HCl</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>Sodium Chloride</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY ARRAY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">95</chamber_humidity>
+                        <chamber_temperature units="K">277.15</chamber_temperature>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS GLACIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.9</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.9</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>I</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.1</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.3</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>3082</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="629857">
+        <file>emd_19521.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>540</col>
+            <row>540</row>
+            <sec>540</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>540</x>
+            <y>540</y>
+            <z>540</z>
+        </spacing>
+        <cell>
+            <a units="Å">648.0</a>
+            <b units="Å">648.0</b>
+            <c units="Å">648.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-2.4978466</minimum>
+            <maximum>4.845316</maximum>
+            <average>0.0020438333</average>
+            <std>0.26494208</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.2</x>
+            <y units="Å">1.2</y>
+            <z units="Å">1.2</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>1.03</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-19521::::</label>
+        <annotation_details>Sharp map from CryoSPARC refinement.</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_19521_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="629857">
+                <file>emd_19521_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>540</col>
+                    <row>540</row>
+                    <sec>540</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>540</x>
+                    <y>540</y>
+                    <z>540</z>
+                </spacing>
+                <cell>
+                    <a units="Å">648.0</a>
+                    <b units="Å">648.0</b>
+                    <c units="Å">648.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.66377825</minimum>
+                    <maximum>1.9527289</maximum>
+                    <average>0.0020438333</average>
+                    <std>0.1353981</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.2</x>
+                    <y units="Å">1.2</y>
+                    <z units="Å">1.2</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-19521::::</label>
+                <annotation_details>Basic map from CryoSPARC refinement.</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="629857">
+                <file>emd_19521_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>540</col>
+                    <row>540</row>
+                    <sec>540</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>540</x>
+                    <y>540</y>
+                    <z>540</z>
+                </spacing>
+                <cell>
+                    <a units="Å">648.0</a>
+                    <b units="Å">648.0</b>
+                    <c units="Å">648.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-2.296692</minimum>
+                    <maximum>2.005854</maximum>
+                    <average>0.0004844488</average>
+                    <std>0.16206478</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.2</x>
+                    <y units="Å">1.2</y>
+                    <z units="Å">1.2</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-19521::::</label>
+                <annotation_details>Half map 2 from CryoSPARC reinement.</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="629857">
+                <file>emd_19521_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>540</col>
+                    <row>540</row>
+                    <sec>540</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>540</x>
+                    <y>540</y>
+                    <z>540</z>
+                </spacing>
+                <cell>
+                    <a units="Å">648.0</a>
+                    <b units="Å">648.0</b>
+                    <c units="Å">648.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.8329355</minimum>
+                    <maximum>2.0864477</maximum>
+                    <average>0.00049015885</average>
+                    <std>0.16206452</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.2</x>
+                    <y units="Å">1.2</y>
+                    <z units="Å">1.2</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-19521::::</label>
+                <annotation_details>Half map 1 from CryoSPARC reinement.</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

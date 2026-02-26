@@ -1,0 +1,81 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10011" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2014-09-08</depositionDate>
+            <releaseDate>2014-09-09</releaseDate>
+            <updateDate>2014-09-09</updateDate>
+        </keyDates>
+        <title>Full virus map of Brome Mosaic Virus (picked particles)</title>
+        <correspondingAuthor private="true">
+            <firstName>Zhao</firstName>
+            <lastName>Wang</lastName>
+            <organization type="academic">National Center for Macromolecular Imaging, Baylor College of Medicine</organization>
+            <townOrCity>Houston</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>77030</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Wah</firstName>
+            <lastName>Chiu</lastName>
+            <organization type="academic">National Center for Macromolecular Imaging, Baylor College of Medicine</organization>
+            <townOrCity>Houston</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>77030</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Wang Z</author>
+            <author>Hryc C</author>
+            <author>Bammes B</author>
+            <author>Afonine P</author>
+            <author>Jakana J</author>
+            <author>Chen DH</author>
+            <author>Liu XA</author>
+            <author>Baker M</author>
+            <author>Kao C</author>
+            <author>Ludtke S</author>
+            <author>Schmid M</author>
+            <author>Adams P</author>
+            <author>Chiu W</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2015-10-27</date>
+                <statusCode>REL</statusCode>
+                <details>Restructured the entry directory to have "data" and ".private".</details>
+            </version>
+        </versionHistory>
+        <datasetSize units="GB">23.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10011</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-6000</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>Brome Mosaic Virus boxed particles</name>
+        <directory>/data</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>IMAGIC</headerFormat>
+        <dataFormat>IMAGIC</dataFormat>
+        <numImagesOrTiltSeries>35142</numImagesOrTiltSeries>
+        <framesPerImage>37</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>37</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>420</imageWidth>
+            <pixelWidth>0.99</pixelWidth>
+            <imageHeight>420</imageHeight>
+            <pixelHeight>0.99</pixelHeight>
+        </dimensions>
+        <details>Each particle is a frame averaged image. Data-set is related to micrographs in EMPIAR-10010.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

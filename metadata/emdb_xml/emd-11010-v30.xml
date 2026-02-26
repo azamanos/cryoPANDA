@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='utf-8'?>
+<emd emdb_id="EMD-11010" version="3.0.2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_4/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2021-03-24</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-05-06</deposition>
+            <header_release>2020-06-10</header_release>
+            <map_release>2020-06-10</map_release>
+            <update>2021-03-24</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>649053</code>
+                <country>European Union</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Wellcome Trust</funding_body>
+                <code>109135/Z/15/A</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>Localized reconstruction of human adenovirus D26 hexon type 1</title>
+        <authors_list>
+            <author>Huiskonen JT</author>
+            <author>Abrishami V</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Abrishami V</author>
+                    <author order="2">Ilca SL</author>
+                    <author order="3">Gomez-Blanco J</author>
+                    <author order="4">Rissanen I</author>
+                    <author order="5">de la Rosa-Trevin JM</author>
+                    <author order="6">Reddy VS</author>
+                    <author order="7">Carazo JM</author>
+                    <author order="8">Huiskonen JT</author>
+                    <title>Localized reconstruction in Scipion expedites the analysis of symmetry mismatches in cryo-EM data.</title>
+                    <journal_abbreviation>Prog.Biophys.Mol.Biol.</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>160</volume>
+                    <first_page>43</first_page>
+                    <last_page>52</last_page>
+                    <year>2021</year>
+                    <external_references type="PUBMED">32470354</external_references>
+                    <external_references type="DOI">doi:10.1016/j.pbiomolbio.2020.05.004</external_references>
+                    <external_references type="ISSN">0079-6107</external_references>
+                    <external_references type="CSD">0918</external_references>
+                    <external_references type="ASTM">PBIMAC</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-11010</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Adenovirus hexon type 1</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Adenovirus hexon type 1</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                    <recombinant_cell>HEK293</recombinant_cell>
+                </recombinant_expression>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">6</concentration>
+                    <buffer>
+                        <ph>8.1</ph>
+                        <component>
+                            <concentration units="mM">40.0</concentration>
+                            <formula>Tris</formula>
+                            <name>trisaminomethane</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">300.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <formula>CaCl2</formula>
+                            <name>calcium chloride</name>
+                        </component>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <instrument>GATAN CRYOPLUNGE 3</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>OTHER</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">3.0</nominal_defocus_max>
+                    <nominal_magnification>22500.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <frames_per_image>7-38</frames_per_image>
+                            </digitization_details>
+                            <number_real_images>2000</number_real_images>
+                            <average_exposure_time units="s">7.6</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">53.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>521040</number_selected>
+                    <details>A total of 521040 sub-particle images were extracted from 8,684 particle images.</details>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>CTFFIND</name>
+                            <version>4.1.8</version>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <startup_model type_of_model="OTHER">
+                    <details>Localized reconstruction of the fibre</details>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution res_type="BY AUTHOR" units="Å">3.1</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>521040</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                    <software_list>
+                        <software>
+                            <name>Scipion</name>
+                            <processing_details>Localized reconstruction</processing_details>
+                        </software>
+                    </software_list>
+                    <details>Orientation parameters were calculated by localized reconstruction from the alignment of the capsid</details>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                            <processing_details>custom option was added to relax C5 symmetry</processing_details>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>3</number_classes>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_11010.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">335.36</a>
+            <b units="Å">335.36</b>
+            <c units="Å">335.36</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.09308683</minimum>
+            <maximum>0.15519081</maximum>
+            <average>0.0011608639</average>
+            <std>0.008868378</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.31</x>
+            <y units="Å">1.31</y>
+            <z units="Å">1.31</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.025</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-11010::::</label>
+        <annotation_details>Localized reconstruction of human adenovirus D26 hexon 1</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>5TX1</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>5TX1</access_code>
+                    <chain>
+                        <chain_id>B</chain_id>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>5TX1</access_code>
+                    <chain>
+                        <chain_id>C</chain_id>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <target_criteria>Correlation coefficient</target_criteria>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_11010_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_11010_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">335.36</a>
+                    <b units="Å">335.36</b>
+                    <c units="Å">335.36</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.015006497</minimum>
+                    <maximum>0.037321627</maximum>
+                    <average>-4.3401982e-05</average>
+                    <std>0.0044381698</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.31</x>
+                    <y units="Å">1.31</y>
+                    <z units="Å">1.31</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-11010::::</label>
+                <annotation_details>Half 1 of human adenovirus D26 hexon 1 map</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_11010_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">335.36</a>
+                    <b units="Å">335.36</b>
+                    <c units="Å">335.36</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.0142838415</minimum>
+                    <maximum>0.037509605</maximum>
+                    <average>-4.857576e-05</average>
+                    <std>0.004437645</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.31</x>
+                    <y units="Å">1.31</y>
+                    <z units="Å">1.31</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-11010::::</label>
+                <annotation_details>Half 2 of human adenovirus D26 hexon 1 map</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

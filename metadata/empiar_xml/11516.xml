@@ -1,0 +1,89 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11516" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-03-31</depositionDate>
+            <releaseDate>2024-07-16</releaseDate>
+            <updateDate>2024-07-16</updateDate>
+        </keyDates>
+        <title>cryo-EM structure of human tRNA(GlyCCC)</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-2815-7133</authorORCID>
+            <firstName>Sebastian</firstName>
+            <lastName>Glatt</lastName>
+            <organization type="academic">Jagiellonian University</organization>
+            <street>ul. Golebia 24</street>
+            <townOrCity>Krakow</townOrCity>
+            <country>Poland</country>
+            <postOrZipCode>31-007</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-2815-7133</authorORCID>
+            <firstName>Sebastian</firstName>
+            <lastName>Glatt</lastName>
+            <organization type="academic">Jagiellonian University</organization>
+            <street>ul. Golebia 24</street>
+            <townOrCity>Krakow</townOrCity>
+            <country>Poland</country>
+            <postOrZipCode>31-007</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-6733-242X">Biela AP</author>
+            <author authorORCID="0000-0003-2815-7133">Glatt S</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">528.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11516</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-16943</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0001-6142-6759" order="1">Biela AD</author>
+                    <author authorORCID="0000-0001-6733-242X" order="2">Biela AP</author>
+                    <author authorORCID="0000-0003-2815-7133" order="3">Glatt S</author>
+                    <title>Structures of human tRNAs by single particle cryo-EM</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>cryo-EM structure of human tRNA(GlyCCC) - averaged micrographs</name>
+        <directory>/data/average</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6016</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.86</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.86</pixelHeight>
+        </dimensions>
+        <details>Micrographs after Motion correction in WARP</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

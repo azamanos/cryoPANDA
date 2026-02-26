@@ -1,0 +1,112 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10090" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2017-04-09</depositionDate>
+            <releaseDate>2018-07-18</releaseDate>
+            <updateDate>2018-07-18</updateDate>
+        </keyDates>
+        <title>Nucleotide-Driven Triple-State Remodeling of the AAA-ATPase Channel in the Activated Human 26S Proteasome</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-9302-2257</authorORCID>
+            <firstName>Youdong</firstName>
+            <middleName>Jack</middleName>
+            <lastName>Mao</lastName>
+            <organization type="academic">Dana-Farber Cancer Institute</organization>
+            <street>450 Brookline Ave</street>
+            <townOrCity>Boston</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02215</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-9302-2257</authorORCID>
+            <firstName>Youdong</firstName>
+            <middleName>Jack</middleName>
+            <lastName>Mao</lastName>
+            <organization type="academic">Dana-Farber Cancer Institute</organization>
+            <street>450 Brookline Ave</street>
+            <townOrCity>Boston</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02215</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Zhu Y</author>
+            <author>Wang WL</author>
+            <author authorORCID="0000-0001-9302-2257">Mao Y</author>
+        </authorsList>
+        <datasetSize units="TB">2.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10090</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-8662</emdbEntry>
+            <emdbEntry>EMD-8663</emdbEntry>
+            <emdbEntry>EMD-8664</emdbEntry>
+            <emdbEntry>EMD-8665</emdbEntry>
+            <emdbEntry>EMD-8666</emdbEntry>
+            <emdbEntry>EMD-8667</emdbEntry>
+            <emdbEntry>EMD-8668</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Zhu Y</author>
+                    <author order="2">Wang WL</author>
+                    <author order="3">Yu D</author>
+                    <author order="4">Ouyang Q</author>
+                    <author order="5">Lu Y</author>
+                    <author authorORCID="0000-0001-9302-2257" order="6">Mao Y</author>
+                    <title>Structural mechanism for nucleotide-driven remodeling of the AAA-ATPase unfoldase in the activated human 26S proteasome</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>1</issue>
+                    <volume>9</volume>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-018-03785-w</externalReferences>
+                    <externalReferences type="pubmed">29636472</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion-corrected single frame micrographs of ATP-gS-bound human proteasome</name>
+        <directory>/data/micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>8463</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>7420</imageWidth>
+            <pixelWidth>0.75</pixelWidth>
+            <imageHeight>7676</imageHeight>
+            <pixelHeight>0.75</pixelHeight>
+        </dimensions>
+        <details>Each micrograph is averaged from drift-corrected 30 frames with an accumulated dose of 30 electrons/anstrom^2.</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Single-particle stacks of classified conformations</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>502384</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>560</imageWidth>
+            <pixelWidth>0.75</pixelWidth>
+            <imageHeight>560</imageHeight>
+            <pixelHeight>0.75</pixelHeight>
+        </dimensions>
+        <details>The single-particle datasets have been classified into six classes: SA, SB, SC, SD1, SD2, SD3. The SD20S is a combined data set of SD1, SD2 and SD3 to focus refinement on the 20S CP component of the human proteasome in an open-gate state.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

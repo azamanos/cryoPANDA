@@ -1,0 +1,241 @@
+<emd emdb_id="EMD-5995" version="3.0.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+    <admin>
+        <current_status>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2014-06-24</deposition>
+            <header_release>2014-07-30</header_release>
+            <map_release>2014-07-30</map_release>
+            <update>2015-10-07</update>
+        </key_dates>
+        <title>Structure of beta-galactosidase at 3.2-A resolution obtained by cryo-electron microscopy</title>
+        <authors_list>
+            <author>Bartesaghi A</author>
+            <author>Matthies D</author>
+            <author>Banerjee S</author>
+            <author>Merk A</author>
+            <author>Subramaniam S</author>
+        </authors_list>
+        <keywords>atomic resolution cryo-electron microscopy, single-particle EM, direct electron detectors, 3D reconstruction, frame alignment, CTF determination, structure refinement, radiation damage, protein complexes, enzyme active site structure</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Bartesaghi A</author>
+                    <author order="2">Matthies D</author>
+                    <author order="3">Banerjee S</author>
+                    <author order="4">Merk A</author>
+                    <author order="5">Subramaniam S</author>
+                    <title>Structure of beta-galactosidase at 3.2-A resolution obtained by cryo-electron microscopy</title>
+                    <journal>PROC.NAT.ACAD.SCI.USA</journal>
+                    <volume>111</volume>
+                    <first_page>11709</first_page>
+                    <last_page>11714</last_page>
+                    <year>2014</year>
+                    <external_references type="PUBMED">25071206</external_references>
+                    <external_references type="DOI">doi:10.1073/pnas.1402809111</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>3j7h</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+        <auxiliary_link_list>
+            <auxiliary_link>
+                <link>http://dx.doi.org/10.6019/EMPIAR-10013</link>
+            </auxiliary_link>
+        </auxiliary_link_list>
+    </crossreferences>
+    <sample>
+        <name>Escherichia coli beta-galactosidase</name>
+        <supramolecule_list>
+            <sample_supramolecule supramolecule_id="1000">
+                <name>Escherichia coli beta-galactosidase</name>
+                <details>The sample was monodisperse.</details>
+                <oligomeric_state>tetramer</oligomeric_state>
+                <number_unique_components>1</number_unique_components>
+                <molecular_weight>
+                    <theoretical units="MDa">0.465</theoretical>
+                    <method>ProtParam tool: Gasteiger E., Hoogland C., Gattiker A., Duvaud S., Wilkins M.R., Appel R.D., Bairoch A., Protein Identification and Analysis Tools on the ExPASy Server, (in) John M. Walker (ed): The Proteomics Protocols Handbook, Humana Press (2005), pp. 571-607</method>
+                </molecular_weight>
+            </sample_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name synonym="beta-gal, b-gal">beta-galactosidase</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli K-12</organism>
+                    <cellular_location>cytoplasm</cellular_location>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.465</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <oligomeric_state>tetramer</oligomeric_state>
+                <recombinant_exp_flag>false</recombinant_exp_flag>
+                <recombinant_expression database="NCBI" />
+                <sequence>
+                    <external_references type="UNIPROTKB">P00722</external_references>
+                    <external_references type="GO">GO:0004565</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">2.3</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                        <details>25 mM Tris, pH 8.0, 50 mM NaCl, 2 mM MgCl2, 0.5 mM TCEP</details>
+                    </buffer>
+                    <grid>
+                        <details>200 mesh Quantifoil R2/2 grids, plasma cleaned</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">90</chamber_humidity>
+                        <chamber_temperature units="K">90.15</chamber_temperature>
+                        <instrument>LEICA EM GP</instrument>
+                        <method>Blot for 2 seconds before plunging.</method>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="&#181;m">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="&#181;m">2.5</nominal_defocus_max>
+                    <nominal_magnification>105000.0</nominal_magnification>
+                    <calibrated_magnification>105000.0</calibrated_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <temperature>
+                        <temperature_min units="K">79.6</temperature_min>
+                        <temperature_max units="K">79.8</temperature_max>
+                        <temperature_average units="K">79.7</temperature_average>
+                    </temperature>
+                    <alignment_procedure>
+                        <legacy>
+                            <astigmatism>Objective lens astigmatism was corrected at 105,000 times magnification.</astigmatism>
+                            <electron_beam_tilt_params>5</electron_beam_tilt_params>
+                        </legacy>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>Gatan, Inc.</name>
+                            <lower_energy_threshold units="eV">0.0</lower_energy_threshold>
+                            <upper_energy_threshold units="eV">20.0</upper_energy_threshold>
+                        </energy_filter>
+                    </specialist_optics>
+                    <details>Parallel beam illumination</details>
+                    <date>2013-10-31</date>
+                    <image_recording_list>
+                        <image_recording>
+                            <film_or_detector_model category="CCD">GATAN K2 (4k x 4k)</film_or_detector_model>
+                            <number_real_images>509</number_real_images>
+                            <average_electron_dose_per_image units="e/&#8491;^2">45</average_electron_dose_per_image>
+                            <details>Every image is the average of 38 frames recorded by the direct electron detector. The complete set of electron micrographs used to obtain the density map presented here is available through the Electron Microscopy Pilot Image ARchive (EMPIAR).</details>
+                        </image_recording>
+                    </image_recording_list>
+                    <specimen_holder>Liquid nitrogen cooled</specimen_holder>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <details>Individual frames of each movie were aligned by cross-correlation using the cumulative average of previously aligned frames as a reference to align the remaining frames. Parameters of the contrast transfer function for each micrograph were estimated from power spectra obtained using periodogram averaging with tiles of size 512x512 pixels extracted from all frames of each movie. These power spectra were then radially averaged and used to estimate the defocus for each image using frequencies in the 15.0-3.0 Angstrom range. 24,750 particles were picked automatically from the best 509 micrographs by detecting the local maxima of correlation of each image with a Gaussian disk of 100 Angstrom in radius and extracted using a binning factor of 2 and a box size of 384x384 pixels. Particles were then subjected to reference-free 2D classification in EMAN2. 160 classes out of a total of 250 were used for de novo initial model determination using e2initialmodel.py and imposing D2 symmetry. A subset of 23,452 particles (corresponding to the 160 classes used for the initial model building) was then used for 3D refinement using a gold-standard approach. Two stacks of 11,726 particles each were independently subjected to eight rounds of iterative refinement in FREALIGN using a high-resolution frequency limit of 8 Angstrom and using the best 50% of particles from each stack according to phase residual values (equivalent to 5,863 particles) to calculate the reconstructions at each iteration. At this point particles were re-extracted from the original unbinned micrographs using a box size of 768x768 pixels and further refined in FREALIGN starting from the most recent set of alignments obtained with the binned data. The final map was obtained by averaging the two half-reconstructions in real space and corrected by a B-factor of -85 Angstrom^2 for the purpose of visualization.</details>
+                <ctf_correction>
+                    <details>each particle</details>
+                </ctf_correction>
+                <final_reconstruction>
+                    <algorithm>OTHER</algorithm>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">3.2</resolution>
+                    <resolution_method>OTHER</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>FREALIGN, EMAN2</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>11726</number_images_used>
+                </final_reconstruction>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="153533">
+        <file>emd_5995.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>340</col>
+            <row>340</row>
+            <sec>340</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>340</x>
+            <y>340</y>
+            <z>340</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">216.75</a>
+            <b units="&#8491;">216.75</b>
+            <c units="&#8491;">216.75</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.05132602</minimum>
+            <maximum>0.08781078</maximum>
+            <average>0.00028028</average>
+            <std>0.00593622</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">0.6375</x>
+            <y units="&#8491;">0.6375</y>
+            <z units="&#8491;">0.6375</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0224</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <annotation_details>Reconstruction of beta-galactosidase</annotation_details>
+        <details>::::EMDATABANK.org::::EMD-5995::::</details>
+    </map>
+    <validation>
+        <fsc_curve>
+            <file>emd_5995_fsc.xml</file>
+        </fsc_curve>
+    </validation>
+</emd>

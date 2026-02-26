@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_11_0/emdb.xsd" version="3.0.11.0" emdb_id="EMD-28692">
+    <admin>
+        <current_status>
+            <date>2025-05-21</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <revision_history>
+            <revision version="1.0" date="2023-09-06">
+                <change_list>
+                    <additional_map part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </additional_map>
+                    <additional_map part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </additional_map>
+                    <additional_map part="3">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </additional_map>
+                    <fsc>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </fsc>
+                    <half_map part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <half_map part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <image>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </image>
+                    <primary_map>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </primary_map>
+                </change_list>
+            </revision>
+            <revision version="1.1" date="2025-05-21">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                            <category>em_software</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                            <item>_em_software.name</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="1.2" date="2023-11-01">
+                <change_list>
+                    <model>
+                        <revision_group>DATABASE_REFERENCES</revision_group>
+                        <categories>
+                            <category>citation</category>
+                        </categories>
+                        <items>
+                            <item>_citation.journal_volume</item>
+                            <item>_citation.page_first</item>
+                            <item>_citation.page_last</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+            <revision version="1.3" date="2025-05-21">
+                <change_list>
+                    <model>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                            <category>em_software</category>
+                            <category>pdbx_entry_details</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                            <item>_em_software.name</item>
+                            <item>_pdbx_entry_details.has_protein_modification</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+        </revision_history>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-10-28</deposition>
+            <header_release>2023-09-06</header_release>
+            <map_release>2023-09-06</map_release>
+            <update>2025-05-21</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Canadian Institutes of Health Research (CIHR)</funding_body>
+                <code>CIHR PJT- 180305</code>
+                <country>Canada</country>
+            </grant_reference>
+        </grant_support>
+        <title>30S_delta_ksgA_h44_inactive_conformation</title>
+        <authors_list>
+            <author>Ortega J</author>
+            <author>Sun J</author>
+        </authors_list>
+        <keywords>Ribosome, KsgA</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Sun J</author>
+                    <author order="2">Kinman LF</author>
+                    <author order="3">Jahagirdar D</author>
+                    <author order="4">Ortega J</author>
+                    <author order="5">Davis JH</author>
+                    <title>KsgA facilitates ribosomal small subunit maturation by proofreading a key structural lesion.</title>
+                    <journal_abbreviation>Nat.Struct.Mol.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>30</volume>
+                    <first_page>1468</first_page>
+                    <last_page>1480</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">37653244</external_references>
+                    <external_references type="DOI">doi:10.1038/s41594-023-01078-5</external_references>
+                    <external_references type="ISSN">1545-9985</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8eyq</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Ribosome</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Ribosome</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>8</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>9</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>10</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>11</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>12</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>13</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>14</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>15</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>16</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>17</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>18</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>30S ribosomal protein S4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023514199</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARYLGPKLKLSRREGTDLFLKSGVRAIDTKCKIEQAPGQHGARKPRLSDYGVQLREKQKVRRIYGVLERQFRNYYKEAA
+RLKGNTGENLLALLEGRLDNVVYRMGFGATRAEARQLVSHKAIMVNGRVVNIASYQVSPNDVVSIREKAKKQSRVKAALE
+LAEQREKPTWLEVDAGKMEGTFKRKPERSDLSADINEHLIVELYSK</string>
+                    <external_references type="UNIPROTKB">P0A7V8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>30S ribosomal protein S5</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.017629398</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAHIEKQAGELQEKLIAVNRVSKTVKGGRIFSFTALTVVGDGNGRVGFGYGKAREVPAAIQKAMEKARRNMINVALNNGT
+LQHPVKGVHTGSRVFMQPASEGTGIIAGGAMRAVLEVAGVHNVLAKAYGSTNPINVVRATIDGLENMNSPEMVAAKRGKS
+VEEILGK</string>
+                    <external_references type="UNIPROTKB">P0A7W1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>30S ribosomal protein S6</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015727512</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MRHYEIVFMVHPDQSEQVPGMIERYTAAITGAEGKIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETTFRF
+NDAVIRSMVMRTKHAVTEASPMVKAKDERRERRDDFANETADDAEAGDSEEEEEE</string>
+                    <external_references type="UNIPROTKB">P02358</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>30S ribosomal protein S8</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014146557</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSMQDPIADMLTRIRNGQAANKAAVTMPSSKLKVAIANVLKEEGFIEDFKVEGDTKPELELTLKYFQGKAVVESIQRVSR
+PGLRIYKRKDELPKVMAGLGIAVVSTSKGVMTDRAARQAGLGGEIICYVA</string>
+                    <external_references type="UNIPROTKB">D7XKZ3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>30S ribosomal protein S11</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013870974999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKAPIRARKRVRKQVSDGVAHIHASFNNTIVTITDRQGNALGWATAGGSGFRGSRKSTPFAAQVAAERCADAVKEYGIK
+NLEVMVKGPGPGRESTIRALNAAGFRITNITDVTPIPHNGCRPPKKRRV</string>
+                    <external_references type="UNIPROTKB">B7MCR3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="6">
+                <name>30S ribosomal protein S12</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013768156999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MATVNQLVRKPRARKVAKSNVPALEACPQKRGVCTRVYTTTPKKPNSALRKVCRVRLTNGFEVTSYIGGEGHNLQEHSVI
+LIRGGRVKDLPGVRYHTVRGALDCSGVKDRKQARSKYGVKRPKA</string>
+                    <external_references type="UNIPROTKB">P0A7S3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="7">
+                <name>30S ribosomal protein S15</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.010290816</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSLSTEATAKIVSEFGRDANDTGSTEVQVALLTAQINHLQGHFAEHKKDHHSRRGLLRMVSQRRKLLDYLKRKDVARYTQ
+LIERLGLRR</string>
+                    <external_references type="UNIPROTKB">D8EB41</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="8">
+                <name>30S ribosomal protein S16</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009207571999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MVTIRLARHGAKKRPFYQVVVADSRNARNGRFIERVGFFNPIASEKEEGTRLDLDRIAHWVGQGATISDRVAALIKEVNK
+AA</string>
+                    <external_references type="UNIPROTKB">C3SYP2</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="9">
+                <name>30S ribosomal protein S17</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009724491</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTDKIRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIRECRPLSKTKSWTLVRVVE
+KAVL</string>
+                    <external_references type="UNIPROTKB">A0A829A8C6</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="10">
+                <name>30S ribosomal protein S18</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009005471999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARYFRRRKFCRFTAEGVQEIDYKDIATLKNYITESGKIVPSRITGTRAKYQRQLARAIKRARYLSLLPYTDRHQ</string>
+                    <external_references type="UNIPROTKB">A0A0E2KXL3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="11">
+                <name>30S ribosomal protein S20</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009708464</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MANIKSAKKRAIQSEKARKHNASRRSMMRTFIKKVYAAIEAGDKAAAQKAFNEMQPIVDRQAAKGLIHKNKAARHKANLT
+AQINKLA</string>
+                    <external_references type="UNIPROTKB">C3TRH7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <rna macromolecule_id="12">
+                <name>16S_rRNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.499068625</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>AAAUUGAAGAGUUUGAUCAUGGCUCAGAUUGAACGCUGGCGGCAGGCCUAACACAUGCAAGUCGAACGGUAACAGGAAGA
+AGCUUGCUUCUUUGCUGACGAGUGGCGGACGGGUGAGUAAUGUCUGGGAAACUGCCUGAUGGAGGGGGAUAACUACUGGA
+AACGGUAGCUAAUACCGCAUAACGUCGCAAGACCAAAGAGGGGGACCUUCGGGCCUCUUGCCAUCGGAUGUGCCCAGAUG
+GGAUUAGCUAGUAGGUGGGGUAACGGCUCACCUAGGCGACGAUCCCUAGCUGGUCUGAGAGGAUGACCAGCCACACUGGA
+ACUGAGACACGGUCCAGACUCCUACGGGAGGCAGCAGUGGGGAAUAUUGCACAAUGGGCGCAAGCCUGAUGCAGCCAUGC
+CGCGUGUAUGAAGAAGGCCUUCGGGUUGUAAAGUACUUUCAGCGGGGAGGAAGGGAGUAAAGUUAAUACCUUUGCUCAUU
+GACGUUACCCGCAGAAGAAGCACCGGCUAACUCCGUGCCAGCAGCCGCGGUAAUACGGAGGGUGCAAGCGUUAAUCGGAA
+UUACUGGGCGUAAAGCGCACGCAGGCGGUUUGUUAAGUCAGAUGUGAAAUCCCCGGGCUCAACCUGGGAACUGCAUCUGA
+UACUGGCAAGCUUGAGUCUCGUAGAGGGGGGUAGAAUUCCAGGUGUAGCGGUGAAAUGCGUAGAGAUCUGGAGGAAUACC
+GGUGGCGAAGGCGGCCCCCUGGACGAAGACUGACGCUCAGGUGCGAAAGCGUGGGGAGCAAACAGGAUUAGAUACCCUGG
+UAGUCCACGCCGUAAACGAUGUCGACUUGGAGGUUGUGCCCUUGAGGCGUGGCUUCCGGAGCUAACGCGUUAAGUCGACC
+GCCUGGGGAGUACGGCCGCAAGGUUAAAACUCAAAUGAAUUGACGGGGGCCCGCACAAGCGGUGGAGCAUGUGGUUUAAU
+UCGAUGCAACGCGAAGAACCUUACCUGGUCUUGACAUCCACGGAAGUUUUCAGAGAUGAGAAUGUGCCUUCGGGAACCGU
+GAGACAGGUGCUGCAUGGCUGUCGUCAGCUCGUGUUGUGAAAUGUUGGGUUAAGUCCCGCAACGAGCGCAACCCUUAUCC
+UUUGUUGCCAGCGGUCCGGCCGGGAACUCAAAGGAGACUGCCAGUGAUAAACUGGAGGAAGGUGGGGAUGACGUCAAGUC
+AUCAUG(2MG)CCCUUACGACCAGGGCUACACACGUGCUACAAUGGCGCAUACAAAGAGAAGCGACCUCGCGAGAGCAAG
+CGGACCUCAUAAAGUGCGUCGUAGUCCGGAUUGGAGUCUGCAACUCGACUCCAUGAAGUCGGAAUCGCUAGUAAUCGUGG
+AUCAGAAUGCCACGGUGAAUACGUUCCCGGGCCUUGUACACACCGCCCGUCACACCAUGGGAGUGGGUUGCAAAAGAAGU
+AGGUAGCUUAACCUUCGGGAGGGCGCUUACCACUUUGUGAUUCAUGACUGGGGUGAAGUCGUAACAAGGUAACCGUAGGG
+GAACCUGCGGUUGGAUCACCUCCU</string>
+                    <external_references type="GENBANK">CP032808.1</external_references>
+                </sequence>
+            </rna>
+            <protein_or_peptide macromolecule_id="13">
+                <name>30S ribosomal protein S3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.026031316</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGQKVHPNGIRLGIVKPWNSTWFANTKEFADNLDSDFKVRQYLTKELAKASVSRIVIERPAKSIRVTIHTARPGIVIGKK
+GEDVEKLRKVVADIAGVPAQINIAEVRKPELDAKLVADSITSQLERRVMFRRAMKRAVQNAMRLGAKGIKVEVSGRLGGA
+EIARTEWYREGRVPLHTLRADIDYNTSEAHTTYGVIGVKVWIFKGEILGGMAAVEQPEKPAAQPKKQQRKGRK</string>
+                    <external_references type="UNIPROTKB">B7MCS9</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="14">
+                <name>30S ribosomal protein S9</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.01488627</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAENQYYGTGRRKSSAARVFIKPGNGKIVINQRSLEQYFGRETARMVVRQPLELVDMVEKLDLYITVKGGGISGQAGAIR
+HGITRALMEYDESLRSELRKAGFVTRDARQVERKKVGLRKARRRPQFSKR</string>
+                    <external_references type="UNIPROTKB">A0A1X3LT86</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="15">
+                <name>30S ribosomal protein S10</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011755597</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MQNQRIRIRLKAFDHRLIDQATAEIVETAKRTGAQVRGPIPLPTRKERFTVLISPHVNKDARDQYEIRTHLRLVDIVEPT
+EKTVDALMRLDLAAGVDVQISLG</string>
+                    <external_references type="UNIPROTKB">V0ANK5</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="16">
+                <name>30S ribosomal protein S13</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013128467</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARIAGINIPDHKHAVIALTSIYGVGKTRSKAILAAAGIAEDVKISELSEGQIDTLRDEVAKFVVEGDLRREISMSIKRL
+MDLGCYRGLRHRRGLPVRGQRTKTNARTRKGPRKPIKK</string>
+                    <external_references type="UNIPROTKB">A0A7U9IV78</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="17">
+                <name>30S ribosomal protein S14</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011606559999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKQSMKAREVKRVALADKYFAKRAELKAIISDVNASDEDRWNAVLKLQTLPRDSSPSRQRNRCRQTGRPHGFLRKFGLS
+RIKVREAAMRGEIPGLKKASW</string>
+                    <external_references type="UNIPROTKB">U9Y6H3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="18">
+                <name>30S ribosomal protein S19</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.010455355</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPRSLKKGPFIDLHLLKKVEKAVESGDKKPLRTWSRRSTIFPNMIGLTIAVHNGRQHVPVFVTDEMVGHKLGEFAPTRTY
+RGHAADKKAKKK</string>
+                    <external_references type="UNIPROTKB">S1EA57</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">1.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.5</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">45.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <ctf_correction>
+                    <type>PHASE FLIPPING AND AMPLITUDE CORRECTION</type>
+                </ctf_correction>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>4V4Q</pdb_id>
+                    </pdb_model>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.3</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>316895</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="222972">
+        <file>emd_28692.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>382</col>
+            <row>382</row>
+            <sec>382</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>382</x>
+            <y>382</y>
+            <z>382</z>
+        </spacing>
+        <cell>
+            <a units="Å">326.61002</a>
+            <b units="Å">326.61002</b>
+            <c units="Å">326.61002</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.016230397</minimum>
+            <maximum>0.04300324</maximum>
+            <average>0.00019767726</average>
+            <std>0.0014331684</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.855</x>
+            <y units="Å">0.855</y>
+            <z units="Å">0.855</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0072</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-28692::::</label>
+    </map>
+    <interpretation>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="222972">
+                <file>emd_28692_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>382</col>
+                    <row>382</row>
+                    <sec>382</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>382</x>
+                    <y>382</y>
+                    <z>382</z>
+                </spacing>
+                <cell>
+                    <a units="Å">326.61002</a>
+                    <b units="Å">326.61002</b>
+                    <c units="Å">326.61002</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-11.794219999999999</minimum>
+                    <maximum>41.682181999999997</maximum>
+                    <average>0.0000044401513</average>
+                    <std>1.4856082</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.855</x>
+                    <y units="Å">0.855</y>
+                    <z units="Å">0.855</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-28692::::</label>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="222972">
+                <file>emd_28692_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>382</col>
+                    <row>382</row>
+                    <sec>382</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>382</x>
+                    <y>382</y>
+                    <z>382</z>
+                </spacing>
+                <cell>
+                    <a units="Å">326.61002</a>
+                    <b units="Å">326.61002</b>
+                    <c units="Å">326.61002</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>Z</fast>
+                    <medium>Y</medium>
+                    <slow>X</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-11.30733</minimum>
+                    <maximum>27.889787999999999</maximum>
+                    <average>-0.000000000004459</average>
+                    <std>1.0</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.855</x>
+                    <y units="Å">0.855</y>
+                    <z units="Å">0.855</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-28692::::</label>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="222972">
+                <file>emd_28692_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>382</col>
+                    <row>382</row>
+                    <sec>382</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>382</x>
+                    <y>382</y>
+                    <z>382</z>
+                </spacing>
+                <cell>
+                    <a units="Å">326.61002</a>
+                    <b units="Å">326.61002</b>
+                    <c units="Å">326.61002</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>Z</fast>
+                    <medium>Y</medium>
+                    <slow>X</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-12.268249000000001</minimum>
+                    <maximum>31.124034999999999</maximum>
+                    <average>0.000000000001279</average>
+                    <std>1.0</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.855</x>
+                    <y units="Å">0.855</y>
+                    <z units="Å">0.855</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-28692::::</label>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="222972">
+                <file>emd_28692_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>382</col>
+                    <row>382</row>
+                    <sec>382</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>382</x>
+                    <y>382</y>
+                    <z>382</z>
+                </spacing>
+                <cell>
+                    <a units="Å">326.61002</a>
+                    <b units="Å">326.61002</b>
+                    <c units="Å">326.61002</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.017333787</minimum>
+                    <maximum>0.03691118</maximum>
+                    <average>0.000006259658</average>
+                    <std>0.0019212776</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.855</x>
+                    <y units="Å">0.855</y>
+                    <z units="Å">0.855</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-28692::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="222972">
+                <file>emd_28692_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>382</col>
+                    <row>382</row>
+                    <sec>382</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>382</x>
+                    <y>382</y>
+                    <z>382</z>
+                </spacing>
+                <cell>
+                    <a units="Å">326.61002</a>
+                    <b units="Å">326.61002</b>
+                    <c units="Å">326.61002</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.017872674</minimum>
+                    <maximum>0.0359777</maximum>
+                    <average>0.000006737422</average>
+                    <std>0.0019208832</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.855</x>
+                    <y units="Å">0.855</y>
+                    <z units="Å">0.855</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-28692::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

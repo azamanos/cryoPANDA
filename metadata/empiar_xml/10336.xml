@@ -1,0 +1,117 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10336" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-11-11</depositionDate>
+            <releaseDate>2020-10-09</releaseDate>
+            <updateDate>2021-06-30</updateDate>
+        </keyDates>
+        <title>Structure of two nucleosomes bridged by human PARP2</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-3405-6021</authorORCID>
+            <firstName>Guillaume</firstName>
+            <lastName>Gaullier</lastName>
+            <organization type="academic">Department of Chemistry and Biochemistry, University of Colorado, Boulder</organization>
+            <street>3415 Colorado Avenue</street>
+            <townOrCity>Boulder</townOrCity>
+            <stateOrProvince>CO</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>80302</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-5136-5331</authorORCID>
+            <firstName>Karolin</firstName>
+            <lastName>Luger</lastName>
+            <organization type="academic">University of Colorado Boulder</organization>
+            <street>3415 Colorado Avenue</street>
+            <townOrCity>Boulder</townOrCity>
+            <stateOrProvince>CO</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>80302</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-3405-6021">Gaullier G</author>
+            <author>Morgan GP</author>
+            <author authorORCID="0000-0001-5136-5331">Luger K</author>
+        </authorsList>
+        <datasetSize units="GB">677.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10336</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-20864</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-3405-6021" order="1">Gaullier G</author>
+                    <author order="2">Roberts G</author>
+                    <author authorORCID="0000-0003-2596-5848" order="3">Muthurajan UM</author>
+                    <author authorORCID="0000-0003-0753-4294" order="4">Bowerman S</author>
+                    <author authorORCID="0000-0003-0230-3323" order="5">Rudolph J</author>
+                    <author authorORCID="0000-0002-4776-840X" order="6">Mahadevan J</author>
+                    <author authorORCID="0000-0002-2612-551X" order="7">Jha A</author>
+                    <author order="8">Rae PS</author>
+                    <author authorORCID="0000-0001-5136-5331" order="9">Luger K</author>
+                    <title>Bridging of nucleosome-proximal DNA double-strand breaks by PARP2 enhances its interaction with HPF1</title>
+                    <journal>PloS one</journal>
+                    <journalAbbreviation>PLoS One</journalAbbreviation>
+                    <country></country>
+                    <issue>11</issue>
+                    <volume>15</volume>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1371/journal.pone.0240932</externalReferences>
+                    <externalReferences type="pubmed">33141820</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Single-particle images of the PARP2-nucleosome complex</name>
+        <directory>/data/particles</directory>
+        <category>picked particles - single frame - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>27889</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.271</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.271</pixelHeight>
+        </dimensions>
+        <details>Particles used for 3D refinement and post-processing in RELION.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/GG7_2/GG7.2_31kx_df1-2.5_60eA_*.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/particles/GG7-2_refined-particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of the PARP2-nucleosome complex</name>
+        <directory>/data/GG7_2</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>632</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.271</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.271</pixelHeight>
+        </dimensions>
+        <details>Raw movies.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/GG7_2/GG7.2_31kx_df1-2.5_60eA_*.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/particles/GG7-2_refined-particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles</pickedParticlesDirectory>
+    </imageSet>
+</entry>

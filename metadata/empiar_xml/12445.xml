@@ -1,0 +1,181 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12445" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-09-17</depositionDate>
+            <releaseDate>2024-12-03</releaseDate>
+            <updateDate>2024-12-03</updateDate>
+        </keyDates>
+        <title>Cryo electron microscopy of Medusavirus medusae nucleosome-like particle</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-5136-5331</authorORCID>
+            <firstName>Karolin</firstName>
+            <lastName>Luger</lastName>
+            <organization type="academic">Department of Biochemistry, University of Colorado Boulder</organization>
+            <street>3415 Colorado Avenue</street>
+            <townOrCity>Boulder</townOrCity>
+            <stateOrProvince>Colorado</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>80303</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-5136-5331</authorORCID>
+            <firstName>Karolin</firstName>
+            <lastName>Luger</lastName>
+            <organization type="academic">Department of Biochemistry, University of Colorado Boulder</organization>
+            <street>3415 Colorado Avenue</street>
+            <townOrCity>Boulder</townOrCity>
+            <stateOrProvince>Colorado</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>80303</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-2409-5177">Toner CM</author>
+            <author authorORCID="0000-0003-1538-6367">Hoitsma NM</author>
+            <author authorORCID="0000-0001-9082-2005">Weerawarana S</author>
+            <author authorORCID="0000-0001-5136-5331">Luger K</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">6.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12445</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-42053</emdbEntry>
+            <emdbEntry>EMD-45981</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-2409-5177" order="1">Toner CM</author>
+                    <author authorORCID="0000-0003-1538-6367" order="2">Hoitsma NM</author>
+                    <author authorORCID="0000-0001-9082-2005" order="3">Weerawarana S</author>
+                    <author authorORCID="0000-0001-5136-5331" order="4">Luger K</author>
+                    <title>Characterization of Medusavirus encoded histones reveals nucleosome-like structures and a unique linker histone</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>15</volume>
+                    <year>2024</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-024-53364-5</externalReferences>
+                    <externalReferences type="pubmed">39443461</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of the medusavirus core particle in EER format</name>
+        <directory>/data/medusavirus_EMPIAR_submission/raw_micrographs_eer</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>EER</headerFormat>
+        <dataFormat>EER</dataFormat>
+        <numImagesOrTiltSeries>8534</numImagesOrTiltSeries>
+        <framesPerImage>1323</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>0.97</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>0.97</pixelHeight>
+        </dimensions>
+        <details>Raw EER files from Falcon 4 detector, acquired with EPU and a total dose of 50 e-/Å2</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/medusavirus_EMPIAR_submission/raw_micrographs_eer/*.eer</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Motion-corrected and dose-weighted micrographs</name>
+        <directory>/data/medusavirus_EMPIAR_submission/motion_corrected_micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>8534</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>0.97</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>0.97</pixelHeight>
+        </dimensions>
+        <details>Motion-corrected and dose-weighted micrographs</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/medusavirus_EMPIAR_submission/motion_corrected_micrographs/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final particles used for reconstruction</name>
+        <directory>/data/medusavirus_EMPIAR_submission/final_particles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>159734</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>16 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>0.97</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>0.97</pixelHeight>
+        </dimensions>
+        <details>Final particles used for reconstruction</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/medusavirus_EMPIAR_submission/final_particles/*.mrc</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>CryoSPARC job of the final 3D reconstruction</name>
+        <directory>/data/medusavirus_EMPIAR_submission/final_reconstruction_job/J444</directory>
+        <category>reconstructed volumes</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>159734</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>16 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>CryoSPARC job of the final 3D reconstruction</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Gain ref file</name>
+        <directory>/data/medusavirus_EMPIAR_submission/gain_ref</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>0.97</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>0.97</pixelHeight>
+        </dimensions>
+        <details>Gain ref file for motion correction</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

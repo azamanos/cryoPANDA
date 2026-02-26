@@ -1,0 +1,145 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11043" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-02-08</depositionDate>
+            <releaseDate>2022-08-08</releaseDate>
+            <updateDate>2022-09-09</updateDate>
+        </keyDates>
+        <title>Architecture of the human erythrocyte ankyrin-1 complex</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0003-1876-196X</authorORCID>
+            <firstName>Oliver</firstName>
+            <middleName>Biggs</middleName>
+            <lastName>Clarke</lastName>
+            <organization type="academic">Department of Anesthesiology, Columbia University</organization>
+            <townOrCity>New York</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>10032</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0003-1876-196X</authorORCID>
+            <firstName>Oliver</firstName>
+            <middleName>Biggs</middleName>
+            <lastName>Clarke</lastName>
+            <organization type="academic">Department of Anesthesiology, Columbia University</organization>
+            <townOrCity>New York</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>10032</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-4524-6605">Vallese F</author>
+            <author authorORCID="0000-0003-1876-196X">Clarke OB</author>
+        </authorsList>
+        <datasetSize units="TB">5.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11043</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-26943</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-4524-6605" order="1">Vallese F</author>
+                    <author authorORCID="0000-0001-9915-0145" order="2">Kim K</author>
+                    <author authorORCID="0000-0002-4086-0895" order="3">Yen LY</author>
+                    <author authorORCID="0000-0003-3060-7738" order="4">Johnston JD</author>
+                    <author authorORCID="0000-0001-8634-2279" order="5">Noble AJ</author>
+                    <author authorORCID="0000-0002-8901-1659" order="6">Calì T</author>
+                    <author authorORCID="0000-0003-1876-196X" order="7">Clarke OB</author>
+                    <title>Architecture of the human erythrocyte ankyrin-1 complex</title>
+                    <journal>Nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>Nat Struct Mol Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>7</issue>
+                    <volume>29</volume>
+                    <firstPage>706</firstPage>
+                    <lastPage>718</lastPage>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41594-022-00792-w</externalReferences>
+                    <externalReferences type="pubmed">35835865</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame movies of ankyrin-1 complex</name>
+        <directory>/data/movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>14926</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.83</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.83</pixelHeight>
+        </dimensions>
+        <details>The micrographs are of 50 raw movie frames accumulating 58.2 electrons per squared Angstrom in a 2.5 second exposure.
+Particle positions are in .star files with X and Y coordinates in 3rd and 4th column respectively.
+
+consensus_particles_stack.mrcs contains the particle images of the ankyrin-1 complex consensus particle set.
+
+Band3_GPA_particles.star contains the particle coordinates and CTF parameters of the band3-GPA partcle set.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/movies/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/consensus_particles/consensus_particles_stack.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/consensus_particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned micrographs of ankyrin-1 complex</name>
+        <directory>/data/motion_corrected</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>14926</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.83</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.83</pixelHeight>
+        </dimensions>
+        <details>The raw movie frames are aligned with patch motion correction in cryoSPARC. (50 frames, total dose: 58.2e-/A2, Cs=2.7)
+Particle positions are in .star files with X and Y coordinates in 3rd and 4th column respectively.
+consensus_particles_stack.mrcs contains the particle images of the ankyrin-1 complex consensus particle set.
+Band3_GPA_particles.star contains the particle coordinates and CTF parameters of the band3-GPA partcle set.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/motion_corrected/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/consensus_particles/consensus_particles_stack.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/consensus_particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Consensus particle stack for the ankyrin-1 complex</name>
+        <directory>/data/consensus_particles</directory>
+        <category>picked particles - single frame - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>710437</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>450</imageWidth>
+            <pixelWidth>0.83</pixelWidth>
+            <imageHeight>450</imageHeight>
+            <pixelHeight>0.83</pixelHeight>
+        </dimensions>
+        <details>710437 particle image stack is saved as consensus_particles_stack.mrcs
+
+Particle coordinates and CTF parameters are saved in consensus_particles_stack.star
+
+Pixel size: 0.83 Å/pix
+Box size: 450 pix</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/motion_corrected/*mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/consensus_particles/consensus_particles_stack.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/consensus_particles</pickedParticlesDirectory>
+    </imageSet>
+</entry>

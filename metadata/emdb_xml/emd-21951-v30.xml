@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_2/emdb.xsd" version="3.0.9.2" emdb_id="EMD-21951">
+    <admin>
+        <current_status>
+            <date>2024-03-06</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-05-09</deposition>
+            <header_release>2020-05-20</header_release>
+            <map_release>2020-05-20</map_release>
+            <update>2024-03-06</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Canadian Institutes of Health Research (CIHR)</funding_body>
+                <country>Canada</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Natural Sciences and Engineering Research Council (NSERC, Canada)</funding_body>
+                <country>Canada</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Canada Excellence Research Chair Award</funding_body>
+                <country>Canada</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM Structure of Human Apoferritin Light Chain Vitrified Using Back-it-up</title>
+        <authors_list>
+            <author>Tan YZ</author>
+            <author>Rubinstein JL</author>
+        </authors_list>
+        <keywords>Human, apoferritin, ferritin, light chain, back-it-up, through-grid wicking, METAL BINDING PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Tan YZ</author>
+                    <author order="2">Rubinstein JL</author>
+                    <title>Through-grid wicking enables high-speed cryoEM specimen preparation.</title>
+                    <journal_abbreviation>Acta Crystallogr D Struct Biol</journal_abbreviation>
+                    <volume>76</volume>
+                    <first_page>1092</first_page>
+                    <last_page>1103</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">33135680</external_references>
+                    <external_references type="DOI">doi:10.1107/S2059798320012474</external_references>
+                    <external_references type="ISSN">2059-7983</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6wx6</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Human apoferritin light chain</name>
+        <supramolecule_list>
+            <organelle_or_cellular_component_supramolecule supramolecule_id="1">
+                <name>Human apoferritin light chain</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.58</theoretical>
+                </molecular_weight>
+            </organelle_or_cellular_component_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Ferritin light chain</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024275898</theoretical>
+                </molecular_weight>
+                <number_of_copies>24</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>TGWSHPQFEKLKGGSSRGGGGGSGGSGGSGGSMSSQIRQNYSTDVEAAVNSLVNLYLQASYTYLSLGFYFDRDDVALEGV
+SHFFRELAEEKREGYERLLKMQNQRGGRALFQDIKKPAEDEWGKTPDAMKAAMALEKKLNQALLDLHALGSARTDPHLCD
+FLETHFLDEEVKLIKKMGDHLTNLHRLGGPEAGLGEYLFERLTLRHDGGSGGSGGSGGSGGGASGGS</string>
+                    <external_references type="UNIPROTKB">P02792</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>CALCIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">4.0078e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>8</number_of_copies>
+                <formula>CA</formula>
+            </ligand>
+            <ligand macromolecule_id="3">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>2420</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>8.0</ph>
+                    </buffer>
+                    <grid>
+                        <model>Homemade</model>
+                        <material>COPPER/RHODIUM</material>
+                        <support_film film_type_id="1">
+                            <film_material>GOLD</film_material>
+                            <film_topology>HOLEY ARRAY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">120</time>
+                            <atmosphere>AIR</atmosphere>
+                        </pretreatment>
+                        <details>Both sides of the grid were glow discharged for 120 seconds.</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                        <chamber_humidity units="percentage">50</chamber_humidity>
+                        <chamber_temperature units="K">298</chamber_temperature>
+                        <instrument>HOMEMADE PLUNGER</instrument>
+                        <details>Back-it-up (ultrasonic specimen application and through-grid wicking in a high-speed specimen preparation device) was used. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <zemlin_tableau/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">4096</width>
+                                    <height units="pixel">4096</height>
+                                </dimensions>
+                            </digitization_details>
+                            <number_grids_imaged>2</number_grids_imaged>
+                            <number_real_images>3168</number_real_images>
+                            <average_exposure_time units="s">9.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">27.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>673794</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>Made using cryoSPARC 2 ab initio refinement</insilico_model>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>O</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.0</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>594259</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="95552">
+        <file>emd_21951.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>288</col>
+            <row>288</row>
+            <sec>288</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>288</x>
+            <y>288</y>
+            <z>288</z>
+        </spacing>
+        <cell>
+            <a units="Å">235.008</a>
+            <b units="Å">235.008</b>
+            <c units="Å">235.008</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-3.960802</minimum>
+            <maximum>8.172722</maximum>
+            <average>-0.005302647</average>
+            <std>0.43088546</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.816</x>
+            <y units="Å">0.816</y>
+            <z units="Å">0.816</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>1.5</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-21951::::</label>
+        <annotation_details>Sharpened map</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>2FFX</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>14.91</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_21951_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="94560">
+                <file>emd_21951_additional_5.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>287</col>
+                    <row>287</row>
+                    <sec>287</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>287</x>
+                    <y>287</y>
+                    <z>287</z>
+                </spacing>
+                <cell>
+                    <a units="Å">234.192</a>
+                    <b units="Å">234.192</b>
+                    <c units="Å">234.192</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.72178644</minimum>
+                    <maximum>1.0000001</maximum>
+                    <average>0.20884217</average>
+                    <std>0.36407503</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.816</x>
+                    <y units="Å">0.816</y>
+                    <z units="Å">0.816</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-21951::::</label>
+                <annotation_details>3DFSC - Raw</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="94560">
+                <file>emd_21951_additional_4.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>287</col>
+                    <row>287</row>
+                    <sec>287</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>287</x>
+                    <y>287</y>
+                    <z>287</z>
+                </spacing>
+                <cell>
+                    <a units="Å">234.192</a>
+                    <b units="Å">234.192</b>
+                    <c units="Å">234.192</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0.0</minimum>
+                    <maximum>1.0000001</maximum>
+                    <average>0.2051593</average>
+                    <std>0.36563697</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.816</x>
+                    <y units="Å">0.816</y>
+                    <z units="Å">0.816</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-21951::::</label>
+                <annotation_details>3DFSC - Thresholded</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="94560">
+                <file>emd_21951_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>287</col>
+                    <row>287</row>
+                    <sec>287</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>287</x>
+                    <y>287</y>
+                    <z>287</z>
+                </spacing>
+                <cell>
+                    <a units="Å">234.192</a>
+                    <b units="Å">234.192</b>
+                    <c units="Å">234.192</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0.0</minimum>
+                    <maximum>1.0</maximum>
+                    <average>0.2113559</average>
+                    <std>0.40827024</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.816</x>
+                    <y units="Å">0.816</y>
+                    <z units="Å">0.816</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-21951::::</label>
+                <annotation_details>3DFSC - Thresholded and Binarized</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="95552">
+                <file>emd_21951_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>288</col>
+                    <row>288</row>
+                    <sec>288</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>288</x>
+                    <y>288</y>
+                    <z>288</z>
+                </spacing>
+                <cell>
+                    <a units="Å">235.008</a>
+                    <b units="Å">235.008</b>
+                    <c units="Å">235.008</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0.0</minimum>
+                    <maximum>5.510689</maximum>
+                    <average>0.28913087</average>
+                    <std>0.83639836</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.816</x>
+                    <y units="Å">0.816</y>
+                    <z units="Å">0.816</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-21951::::</label>
+                <annotation_details>Local resolution map</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="95552">
+                <file>emd_21951_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>288</col>
+                    <row>288</row>
+                    <sec>288</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>288</x>
+                    <y>288</y>
+                    <z>288</z>
+                </spacing>
+                <cell>
+                    <a units="Å">235.008</a>
+                    <b units="Å">235.008</b>
+                    <c units="Å">235.008</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.62555015</minimum>
+                    <maximum>1.8043114</maximum>
+                    <average>-0.005302647</average>
+                    <std>0.13252747</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.816</x>
+                    <y units="Å">0.816</y>
+                    <z units="Å">0.816</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-21951::::</label>
+                <annotation_details>Raw map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="95552">
+                <file>emd_21951_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>288</col>
+                    <row>288</row>
+                    <sec>288</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>288</x>
+                    <y>288</y>
+                    <z>288</z>
+                </spacing>
+                <cell>
+                    <a units="Å">235.008</a>
+                    <b units="Å">235.008</b>
+                    <c units="Å">235.008</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.6090761</minimum>
+                    <maximum>1.8192338</maximum>
+                    <average>0.0014134258</average>
+                    <std>0.13435005</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.816</x>
+                    <y units="Å">0.816</y>
+                    <z units="Å">0.816</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-21951::::</label>
+                <annotation_details>Half map 1</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="95552">
+                <file>emd_21951_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>288</col>
+                    <row>288</row>
+                    <sec>288</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>288</x>
+                    <y>288</y>
+                    <z>288</z>
+                </spacing>
+                <cell>
+                    <a units="Å">235.008</a>
+                    <b units="Å">235.008</b>
+                    <c units="Å">235.008</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.6523721</minimum>
+                    <maximum>1.8143703</maximum>
+                    <average>0.0014638186</average>
+                    <std>0.13434918</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.816</x>
+                    <y units="Å">0.816</y>
+                    <z units="Å">0.816</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-21951::::</label>
+                <annotation_details>Half map 2</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

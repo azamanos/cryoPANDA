@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_1/emdb.xsd" version="3.0.9.1" emdb_id="EMD-17806">
+    <admin>
+        <current_status>
+            <date>2024-01-24</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-07-07</deposition>
+            <header_release>2023-08-02</header_release>
+            <map_release>2023-08-02</map_release>
+            <update>2024-01-24</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Medical Research Council (MRC, United Kingdom)</funding_body>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>First Intermediate Amyloid (FIA) - Tau</title>
+        <authors_list>
+            <author>Lovestam S</author>
+            <author>Scheres SHW</author>
+            <author>Goedert M</author>
+            <author>Li D</author>
+        </authors_list>
+        <keywords>Amyloid, tau, PROTEIN FIBRIL</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Lovestam S</author>
+                    <author ORCID="0000-0002-8921-5168" order="2">Li D</author>
+                    <author order="3">Wagstaff JL</author>
+                    <author ORCID="0000-0002-4480-5439" order="4">Kotecha A</author>
+                    <author order="5">Kimanius D</author>
+                    <author ORCID="0000-0001-9135-6253" order="6">McLaughlin SH</author>
+                    <author order="7">Murzin AG</author>
+                    <author order="8">Freund SMV</author>
+                    <author ORCID="0000-0002-5214-7886" order="9">Goedert M</author>
+                    <author ORCID="0000-0002-0462-6540" order="10">Scheres SHW</author>
+                    <title>Disease-specific tau filaments assemble via polymorphic intermediates.</title>
+                    <journal_abbreviation>Nature</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>625</volume>
+                    <first_page>119</first_page>
+                    <last_page>125</last_page>
+                    <year>2024</year>
+                    <external_references type="PUBMED">38030728</external_references>
+                    <external_references type="DOI">doi:10.1038/s41586-023-06788-w</external_references>
+                    <external_references type="ISSN">1476-4687</external_references>
+                    <external_references type="CSD">0006</external_references>
+                    <external_references type="ASTM">NATUAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8ppo</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Amyloid</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Amyloid</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Microtubule-associated protein tau</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.045919870999999994</theoretical>
+                </molecular_weight>
+                <number_of_copies>16</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAEPRQEFEVMEDHAGTYGLGDRKDQGGYTMHQDQEGDTDAGLKESPLQTPTEDGSEEPGSETSDAKSTPTAEDVTAPLV
+DEGAPGKQAAAQPHTEIPEGTTAEEAGIGDTPSLEDEAAGHVTQARMVSKSKDGTGSDDKKAKGADGKTKIATPRGAAPP
+GQKGQANATRIPAKTPPAPKTPPSSGEPPKSGDRSGYSSPGSPGTPGSRSRTPSLPTPPTREPKKVAVVRTPPKSPSSAK
+SRLQTAPVPMPDLKNVKSKIGSTENLKHQPGGGKVQIINKKLDLSNVQSKCGSKDNIKHVPGGGSVQIVYKPVDLSKVTS
+KCGSLGNIHHKPGGGQVEVKSEKLDFKDRVQSKIGSLDNITHVPGGGNKKIETHKLTFRENAKAKTDHGAEIVYKSPVVS
+GDTSPRHLSNVSSTGSIDMVDSPQLATLADEVSASLAKQGL</string>
+                    <external_references type="UNIPROTKB">P10636</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.2</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.5</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">2.3667</delta_z>
+                            <delta_phi units="deg">176.886</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">2.0</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>58703</number_images_used>
+                </final_reconstruction>
+                <startup_model type_of_model="OTHER">
+                    <details>de novo</details>
+                </startup_model>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="500001">
+        <file>emd_17806.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>500</col>
+            <row>500</row>
+            <sec>500</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>500</x>
+            <y>500</y>
+            <z>500</z>
+        </spacing>
+        <cell>
+            <a units="Å">437.94998</a>
+            <b units="Å">437.94998</b>
+            <c units="Å">437.94998</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.022369554</minimum>
+            <maximum>0.071137466</maximum>
+            <average>0.00005858228</average>
+            <std>0.0010470249</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.8759</x>
+            <y units="Å">0.8759</y>
+            <z units="Å">0.8759</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0128</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-17806::::</label>
+        <annotation_details>Sharpened map</annotation_details>
+    </map>
+    <interpretation>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="500001">
+                <file>emd_17806_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>500</col>
+                    <row>500</row>
+                    <sec>500</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>500</x>
+                    <y>500</y>
+                    <z>500</z>
+                </spacing>
+                <cell>
+                    <a units="Å">437.94998</a>
+                    <b units="Å">437.94998</b>
+                    <c units="Å">437.94998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.015655309</minimum>
+                    <maximum>0.03672357</maximum>
+                    <average>-0.000028328002</average>
+                    <std>0.0005019699</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.8759</x>
+                    <y units="Å">0.8759</y>
+                    <z units="Å">0.8759</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-17806::::</label>
+                <annotation_details>Unsharpened map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="500001">
+                <file>emd_17806_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>500</col>
+                    <row>500</row>
+                    <sec>500</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>500</x>
+                    <y>500</y>
+                    <z>500</z>
+                </spacing>
+                <cell>
+                    <a units="Å">437.94998</a>
+                    <b units="Å">437.94998</b>
+                    <c units="Å">437.94998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.016743159</minimum>
+                    <maximum>0.047371022</maximum>
+                    <average>0.000004858601</average>
+                    <std>0.0008842075</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.8759</x>
+                    <y units="Å">0.8759</y>
+                    <z units="Å">0.8759</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-17806::::</label>
+                <annotation_details>Unsharpened half map 2</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="500001">
+                <file>emd_17806_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>500</col>
+                    <row>500</row>
+                    <sec>500</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>500</x>
+                    <y>500</y>
+                    <z>500</z>
+                </spacing>
+                <cell>
+                    <a units="Å">437.94998</a>
+                    <b units="Å">437.94998</b>
+                    <c units="Å">437.94998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.01642021</minimum>
+                    <maximum>0.046565603</maximum>
+                    <average>0.0000038889084</average>
+                    <std>0.0008838671</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.8759</x>
+                    <y units="Å">0.8759</y>
+                    <z units="Å">0.8759</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-17806::::</label>
+                <annotation_details>Unsharpened half map 1</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

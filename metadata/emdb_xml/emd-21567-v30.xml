@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-21567">
+    <admin>
+        <current_status>
+            <date>2024-10-23</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-03-17</deposition>
+            <header_release>2020-06-03</header_release>
+            <map_release>2020-06-03</map_release>
+            <update>2024-10-23</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Howard Hughes Medical Institute (HHMI)</funding_body>
+                <code>Tom Cech HHMI Investigator</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01GM099705</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01GM059414</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>K99GM131023</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Science Foundation (NSF, United States)</funding_body>
+                <code>MCB 1716425</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>T32GM008759</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of CST bound to telomeric single-stranded DNA</title>
+        <authors_list>
+            <author>Lim C</author>
+            <author>Barbour AT</author>
+            <author>Zaug AJ</author>
+            <author>Goodrich KJ</author>
+            <author>McKay AE</author>
+            <author>Wuttke DS</author>
+            <author>Cech TR</author>
+        </authors_list>
+        <keywords>Telomere homeostasis, telomere packaging, telomerase terminator, DNA replication, Double-stranded breaks repair, single-stranded DNA-binding proteins, higher-order protein assembly, DNA-induced oligomeriization, STRUCTURAL PROTEIN, STRUCTURAL PROTEIN-DNA complex</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Lim CJ</author>
+                    <author order="2">Barbour AT</author>
+                    <author order="3">Zaug AJ</author>
+                    <author order="4">Goodrich KJ</author>
+                    <author order="5">McKay AE</author>
+                    <author order="6">Wuttke DS</author>
+                    <author order="7">Cech TR</author>
+                    <title>The structure of human CST reveals a decameric assembly bound to telomeric DNA.</title>
+                    <journal_abbreviation>Science</journal_abbreviation>
+                    <country>US</country>
+                    <volume>368</volume>
+                    <first_page>1081</first_page>
+                    <last_page>1085</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32499435</external_references>
+                    <external_references type="DOI">doi:10.1126/science.aaz9649</external_references>
+                    <external_references type="ISSN">1095-9203</external_references>
+                    <external_references type="CSD">0038</external_references>
+                    <external_references type="ASTM">SCIEAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6w6w</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Human CST complex</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Human CST complex</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.2</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>CST complex subunit CTC1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.136745984</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7111">Trichoplusia ni</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDYKDDDDKDYKDDDDKAAGRAQVPSSEQAWLEDAQVFIQKTLCPAVKEPNVQLTPLVIDCVKTVWLSQGRNQGSTLPLS
+YSFVSVQDLKTHQRLPCCSHLSWSSSAYQAWAQEAGPNGNPLPREQLLLLGTLTDLSADLEQECRNGSLYVRDNTGVLSC
+ELIDLDLSWLGHLFLFPRWSYLPPARWNSSGEGHLELWDAPVPVFPLTISPGPVTPIPVLYPESASCLLRLRNKLRGVQR
+NLAGSLVRLSALVKSKQKAYFILSLGRSHPAVTHVSIIVQVPAQLVWHRALRPGTAYVLTELRVSKIRGQRQHVWMTSQS
+SRLLLLKPECVQELELELEGPLLEADPKPLPMPSNSEDKKDPESLVRYSRLLSYSGAVTGVLNEPAGLYELDGQLGLCLA
+YQQFRGLRRVMRPGVCLQLQDVHLLQSVGGGTRRPVLAPCLRGAVLLQSFSRQKPGAHSSRQAYGASLYEQLVWERQLGL
+PLYLWATKALEELACKLCPHVLRHHQFLQHSSPGSPSLGLQLLAPTLDLLAPPGSPVRNAHNEILEEPHHCPLQKYTRLQ
+TPSSFPTLATLKEEGQRKAWASFDPKALLPLPEASYLPSCQLNRRLAWSWLCLLPSAFCPAQVLLGVLVASSHKGCLQLR
+DQSGSLPCLLLAKHSQPLSDPRLIGCLVRAERFQLIVERDVRSSFPSWKELSMPGFIQKQQARVYVQFFLADALILPVPR
+PCLHSATPSTPQTDPTGPEGPHLGQSRLFLLCHKEALMKRNFCVPPGASPEVPKPALSFYVLGSWLGGTQRKEGTGWGLP
+EPQGNDDNDQKVHLIFFGSSVRWFEFLHPGQVYRLIAPGPATPMLFEKDGSSCISRRPLELAGCASCLTVQDNWTLELES
+SQDIQDVLDANKSLPESSLTDLLSDNFTDSLVSFSAEILSRTLCEPLVASLWMKLGNTGAMRRCVKLTVALETAECEFPP
+HLDVYIEDPHLPPSLGLLPGARVHFSQLEKRVSRSHNVYCCFRSSTYVQVLSFPPETTISIPLPHIYLAELLQGGQSPFQ
+ATASCHIVSVFSLQLFWVCAYCTSICRQGKCTRLGSTCPTQTAISQAIIRLLVEDGTAEAVVTCRNHHVAAALGLCPREW
+ASLLDFVQVPGRVVLQFAGPGAQLESSARVDEPMTMFLWTLCTSPSVLRPIVLSFELERKPSKIVPLEPPRLQRFQCGEL
+PFLTHVNPRLRLSCLSIRESEYSSSLGILASSC</string>
+                    <external_references type="UNIPROTKB">Q2NKJ3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <dna macromolecule_id="2">
+                <name>DNA (5'-D(P*TP*AP*GP*G)-3')</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.001230854</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>(DT)(DA)(DG)(DG)</string>
+                </sequence>
+                <classification>DNA</classification>
+            </dna>
+            <protein_or_peptide macromolecule_id="3">
+                <name>CST complex subunit STN1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.043001824</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7111">Trichoplusia ni</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MHHHHHHQPGSSRCEEETPSLLWGLDPVFLAFAKLYIRDILDMKESRQVPGVFLYNGHPIKQVDVLGTVIGVRERDAFYS
+YGVDDSTGVINCICWKKLNTESVSAAPSAARELSLTSQLKKLQETIEQKTKIEIGDTIRVRGSIRTYREEREIHATTYYK
+VDDPVWNIQIARMLELPTIYRKVYDQPFHSSALEKEEALSNPGALDLPSLTSLLSEKAKEFLMENRVQSFYQQELEMVES
+LLSLANQPVIHSASSDQVNFKKDTTSKAIHSIFKNAIQLLQEKGLVFQKDDGFDNLYYVTREDKDLHRKIHRIIQQDCQK
+PNHMEKGCHFLHILACARLSIRPGLSEAVLQQVLELLEDQSDIVSTMEHYYTAF</string>
+                    <external_references type="UNIPROTKB">Q9H668</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>CST complex subunit TEN1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.017285604</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7111">Trichoplusia ni</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSYYHHHHHHDYDIPTTENLYFQGAMGSGIQLPKPGTYYLPWEVSAGQVPDGSTLRTFGRLCLYDMIQSRVTLMAQHGSD
+QHQVLVCTKLVEPFHAQVGSLYIVLGELQHQQDRGSVVKARVLTCVEGMNLPLLEQAIREQRLYKQERGGSQ</string>
+                    <external_references type="UNIPROTKB">Q86WV5</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="5">
+                <name>ZINC ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">6.5409e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>ZN</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>SPOT SCAN</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">60.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="OTHER">
+                    <details>CryoSparc2 ab initio program</details>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.0</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>833627</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="256001">
+        <file>emd_21567.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>400</col>
+            <row>400</row>
+            <sec>400</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>400</x>
+            <y>400</y>
+            <z>400</z>
+        </spacing>
+        <cell>
+            <a units="Å">431.19998</a>
+            <b units="Å">431.19998</b>
+            <c units="Å">431.19998</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-1.8611768</minimum>
+            <maximum>4.007554</maximum>
+            <average>0.0059442953</average>
+            <std>0.07369073</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.078</x>
+            <y units="Å">1.078</y>
+            <z units="Å">1.078</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.451</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-21567::::</label>
+        <annotation_details>Monomer map sharpened and mapped on D5 symmetry</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>5W2L</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>4JOI</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>4JOI</access_code>
+                    <chain>
+                        <chain_id>C</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>4JQF</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_21567_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+    </interpretation>
+</emd>

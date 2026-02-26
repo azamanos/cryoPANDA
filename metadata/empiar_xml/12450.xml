@@ -1,0 +1,195 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12450" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-08-20</depositionDate>
+            <releaseDate>2025-04-07</releaseDate>
+            <updateDate>2025-04-07</updateDate>
+        </keyDates>
+        <title>Cryo-EM Structures of human LINE-1 ORF2p target-primed reverse transcription complex</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-2180-3430</authorORCID>
+            <firstName>Thi Hoang Duong</firstName>
+            <lastName>Nguyen</lastName>
+            <organization type="academic">MRC Laboratory of Molecular Biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-2180-3430</authorORCID>
+            <firstName>Thi Hoang Duong</firstName>
+            <lastName>Nguyen</lastName>
+            <organization type="academic">MRC Laboratory of Molecular Biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-3341-3122</authorORCID>
+            <firstName>George</firstName>
+            <middleName>E</middleName>
+            <lastName>Ghanim</lastName>
+            <organization type="academic">Princeton University</organization>
+            <street>N/A</street>
+            <townOrCity>Princeton</townOrCity>
+            <stateOrProvince>New Jersey</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>08544</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-3341-3122">Ghanim GEG</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>UK Research and Innovation (UKRI)</fundingBody>
+                <code>MC_UP_1201/19</code>
+                <country>United Kingdom</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Jane Coffin Childs (JCC) Fund</fundingBody>
+                <code>na</code>
+                <country>United States</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">5.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12450</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-52070</emdbEntry>
+            <emdbEntry>EMD-52071</emdbEntry>
+            <emdbEntry>EMD-52072</emdbEntry>
+            <emdbEntry>EMD-52073</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-3341-3122" order="1">Ghanim GE</author>
+                    <author authorORCID="0000-0002-3086-3072" order="2">Hu H</author>
+                    <author authorORCID="0000-0003-0237-3743" order="3">Boulanger J</author>
+                    <author authorORCID="0000-0002-2180-3430" order="4">Nguyen THD</author>
+                    <title>Structural mechanism of LINE-1 target-primed reverse transcription</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country></country>
+                    <year>2025</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.ads8412</externalReferences>
+                    <externalReferences type="pubmed">40048554</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of the human LINE-1 ORF2p TPRT complex</name>
+        <directory>/data/Micrographs</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>25374</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.955</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.955</pixelHeight>
+        </dimensions>
+        <details>These are movie files in TIFF format. Associated gain reference for the dataset is also included in TIFF format.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Polished particle stack of the ORF2p TPRT complex consensus reconstruction (EMD-52070)</name>
+        <directory>/data/ParticleStacks/EMD-52070</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>680273</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.955</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.955</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Polished particle stack of the ORF2p TPRT complex with the fingers domain in a closed conformation (EMD-52071)</name>
+        <directory>/data/ParticleStacks/EMD-52071</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>185228</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.955</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.955</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Polished particle stack of the ORF2p TPRT complex with the fingers domain in an open conformation (EMD-52072)</name>
+        <directory>/data/ParticleStacks/EMD-52072</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>183579</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.955</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.955</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Polished particle stack of the ORF2p TPRT complex with the EN domain resolved (EMD-52073)</name>
+        <directory>/data/ParticleStacks/EMD-52073</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>121941</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.955</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.955</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

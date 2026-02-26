@@ -1,0 +1,134 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10947" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-12-31</depositionDate>
+            <releaseDate>2022-10-07</releaseDate>
+            <updateDate>2023-02-22</updateDate>
+        </keyDates>
+        <title>SARS-CoV-2 S Omicron Spike B.1.1.529</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-1185-4592</authorORCID>
+            <firstName>Henning</firstName>
+            <lastName>Stahlberg</lastName>
+            <organization type="academic">EPFL</organization>
+            <street>N/A</street>
+            <townOrCity>Lausanne</townOrCity>
+            <stateOrProvince>Vaud</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>1015</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-1185-4592</authorORCID>
+            <firstName>Henning</firstName>
+            <lastName>Stahlberg</lastName>
+            <organization type="academic">EPFL</organization>
+            <street>N/A</street>
+            <townOrCity>Lausanne</townOrCity>
+            <stateOrProvince>Vaud</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>1015</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator>
+            <authorORCID>0000-0002-3383-0401</authorORCID>
+            <firstName>Didier</firstName>
+            <lastName>Trono</lastName>
+            <organization type="academic">EPFL</organization>
+            <townOrCity>Lausanne</townOrCity>
+            <stateOrProvince>Vaud</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>1015</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator>
+            <authorORCID>0000-0003-2607-7121</authorORCID>
+            <firstName>Alexander</firstName>
+            <lastName>Myasnikov</lastName>
+            <organization type="academic">DCI</organization>
+            <street>N/A</street>
+            <townOrCity>Lausanne</townOrCity>
+            <stateOrProvince>Vaud</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>1015</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-3193-6077">Ni D</author>
+            <author authorORCID="0000-0002-9040-7597">Lau K</author>
+            <author authorORCID="0000-0002-7302-9977">Turelli P</author>
+            <author authorORCID="0000-0002-9507-3127">Beckert B</author>
+            <author authorORCID="0000-0002-5240-5849">Nazarov S</author>
+            <author authorORCID="0000-0002-9183-7206">Pojer F</author>
+            <author authorORCID="0000-0003-2607-7121">Myasnikov A</author>
+            <author authorORCID="0000-0002-1185-4592">Stahlberg H</author>
+            <author authorORCID="0000-0002-3383-0401">Trono D</author>
+        </authorsList>
+        <datasetSize units="TB">8.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10947</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-14086</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author authorORCID="0000-0002-3193-6077" order="1">Ni D</author>
+                    <author authorORCID="0000-0002-9040-7597" order="2">Lau K</author>
+                    <author authorORCID="0000-0002-7302-9977" order="3">Turelli P</author>
+                    <author authorORCID="0000-0002-9507-3127" order="4">Beckert B</author>
+                    <author authorORCID="0000-0002-5240-5849" order="5">Nazarov S</author>
+                    <author authorORCID="0000-0002-9183-7206" order="6">Pojer F</author>
+                    <author authorORCID="0000-0003-2607-7121" order="7">Myasnikov A</author>
+                    <author authorORCID="0000-0002-1185-4592" order="8">Stahlberg H</author>
+                    <author authorORCID="0000-0002-3383-0401" order="9">Trono D</author>
+                    <title>Structural analysis of the Spike of the Omicron SARS-COV-2 variant by Cryo-EM and implications for immune evasion</title>
+                    <journal>Biorxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Omicron B.1.1.529 Spike doseweighted micrographs</name>
+        <directory>/data/patch-aligned-dose-weighted</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>8672</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.83</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.83</pixelHeight>
+        </dimensions>
+        <details>These are the patch-aligned dose-weighted micrographs</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Omicron B.1.1.529 Spike raw micrographs</name>
+        <directory>/data/rawdata</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>EER</headerFormat>
+        <dataFormat>EER</dataFormat>
+        <numImagesOrTiltSeries>8672</numImagesOrTiltSeries>
+        <framesPerImage>1974</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.83</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.83</pixelHeight>
+        </dimensions>
+        <details>These are the EER files from Falcon 4 detector - raw micrographs, not motion corrected</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

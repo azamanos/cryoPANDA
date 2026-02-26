@@ -1,0 +1,285 @@
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" emdb_id="EMD-2788" version="3.0.1.1" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+   <admin>
+      <current_status>
+         <code>REL</code>
+         <processing_site>PDBe</processing_site>
+      </current_status>
+      <sites>
+         <deposition>PDBe</deposition>
+         <last_processing>PDBe</last_processing>
+      </sites>
+      <key_dates>
+         <deposition>2014-10-01</deposition>
+         <header_release>2014-11-19</header_release>
+         <map_release>2014-12-10</map_release>
+         <update>2016-02-17</update>
+      </key_dates>
+      <title>3D structure of horse spleen apoferritin determined by electron cryomicroscopy</title>
+      <authors_list>
+         <author>Russo CJ</author>
+         <author>Passmore LA</author>
+      </authors_list>
+      <keywords>iron storage</keywords>
+   </admin>
+   <crossreferences>
+      <citation_list>
+         <primary_citation>
+            <journal_citation published="true">
+               <author order="1">Russo CJ</author>
+               <author order="2">Passmore LA</author>
+               <title>Electron microscopy: Ultrastable gold substrates for electron cryomicroscopy.</title>
+               <journal>SCIENCE</journal>
+               <volume>346</volume>
+               <first_page>1377</first_page>
+               <last_page>1380</last_page>
+               <year>2014</year>
+               <external_references type="PUBMED">25504723</external_references>
+               <external_references type="DOI">doi:10.1126/science.1259530</external_references>
+            </journal_citation>
+         </primary_citation>
+      </citation_list>
+      <pdb_list>
+         <pdb_reference>
+            <pdb_id>4v1w</pdb_id>
+            <relationship>
+               <in_frame>FULLOVERLAP</in_frame>
+            </relationship>
+         </pdb_reference>
+      </pdb_list>
+   </crossreferences>
+   <sample>
+      <name>Horse spleen apoferritin</name>
+      <supramolecule_list>
+         <sample_supramolecule supramolecule_id="1000">
+            <name>Horse spleen apoferritin</name>
+            <oligomeric_state>24 subunits combine to form one octahedral complex</oligomeric_state>
+            <number_unique_components>1</number_unique_components>
+            <molecular_weight>
+               <theoretical units="MDa">0.44</theoretical>
+            </molecular_weight>
+         </sample_supramolecule>
+      </supramolecule_list>
+      <macromolecule_list>
+         <protein_or_peptide macromolecule_id="1">
+            <name>FERRITIN LIGHT CHAIN</name>
+            <natural_source database="NCBI">
+               <organism ncbi="9796">Equus caballus</organism>
+               <synonym_organism>Horse</synonym_organism>
+               <tissue>Spleen</tissue>
+            </natural_source>
+            <molecular_weight>
+               <theoretical units="MDa">0.0185</theoretical>
+            </molecular_weight>
+            <number_of_copies>24</number_of_copies>
+            <oligomeric_state>24mer</oligomeric_state>
+            <recombinant_exp_flag>false</recombinant_exp_flag>
+            <recombinant_expression database="NCBI">
+               </recombinant_expression>
+            <sequence>
+               <external_references type="UNIPROTKB">P02791</external_references>
+            </sequence>
+         </protein_or_peptide>
+      </macromolecule_list>
+   </sample>
+   <structure_determination_list>
+      <structure_determination structure_determination_id="1">
+         <method>singleParticle</method>
+         <aggregation_state>particle</aggregation_state>
+         <specimen_preparation_list>
+            <single_particle_preparation preparation_id="1">
+               <concentration units="mg/mL">3.5</concentration>
+               <buffer>
+                  <ph>7.4</ph>
+                  <details>PBS</details>
+               </buffer>
+               <grid>
+                  <details>MRC-LMB all gold grid</details>
+               </grid>
+               <vitrification>
+                  <cryogen_name>ETHANE</cryogen_name>
+                  <chamber_humidity units="percentage">100</chamber_humidity>
+                  <instrument>FEI VITROBOT MARK III</instrument>
+               </vitrification>
+            </single_particle_preparation>
+         </specimen_preparation_list>
+         <microscopy_list>
+            <single_particle_microscopy microscopy_id="1">
+               <microscope>FEI POLARA 300</microscope>
+               <illumination_mode>FLOOD BEAM</illumination_mode>
+               <imaging_mode>BRIGHT FIELD</imaging_mode>
+               <electron_source>FIELD EMISSION GUN</electron_source>
+               <acceleration_voltage units="kV">300</acceleration_voltage>
+               <specimen_holder_model>OTHER</specimen_holder_model>
+               <date>2013-03-08</date>
+               <image_recording_list>
+                  <image_recording>
+                     <film_or_detector_model category="CCD">FEI FALCON II (4k x 4k)</film_or_detector_model>
+                  </image_recording>
+               </image_recording_list>
+            </single_particle_microscopy>
+         </microscopy_list>
+         <singleparticle_processing image_processing_id="1">
+            <final_reconstruction>
+               <applied_symmetry>
+                  <point_group>O</point_group>
+               </applied_symmetry>
+               <resolution res_type="BY AUTHOR" units="&#8491;">4.7</resolution>
+               <resolution_method>OTHER</resolution_method>
+               <software_list>
+                  <software>
+                     <name>RELION</name>
+                  </software>
+               </software_list>
+               <number_images_used>483</number_images_used>
+            </final_reconstruction>
+         </singleparticle_processing>
+      </structure_determination>
+   </structure_determination_list>
+   <map format="CCP4" size_kbytes="8986">
+      <file>emd_2788.map.gz</file>
+      <symmetry>
+         <space_group>1</space_group>
+      </symmetry>
+      <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+      <dimensions>
+         <col>132</col>
+         <row>132</row>
+         <sec>132</sec>
+      </dimensions>
+      <origin>
+         <col>0</col>
+         <row>0</row>
+         <sec>0</sec>
+      </origin>
+      <spacing>
+         <x>132</x>
+         <y>132</y>
+         <z>132</z>
+      </spacing>
+      <cell>
+         <a units="&#8491;">177.672</a>
+         <b units="&#8491;">177.672</b>
+         <c units="&#8491;">177.672</c>
+         <alpha units="deg">90.0</alpha>
+         <beta units="deg">90.0</beta>
+         <gamma units="deg">90.0</gamma>
+      </cell>
+      <axis_order>
+         <fast>X</fast>
+         <medium>Y</medium>
+         <slow>Z</slow>
+      </axis_order>
+      <statistics>
+         <minimum>-0.47435945</minimum>
+         <maximum>0.5409019</maximum>
+         <average>0.00880841</average>
+         <std>0.05253635</std>
+      </statistics>
+      <pixel_spacing>
+         <x units="&#8491;">1.346</x>
+         <y units="&#8491;">1.346</y>
+         <z units="&#8491;">1.346</z>
+      </pixel_spacing>
+      <contour_list>
+         <contour primary="true">
+            <level>0.16</level>
+            <source>AUTHOR</source>
+         </contour>
+      </contour_list>
+      <annotation_details>Reconstructed density map of horse spleen apoferritin</annotation_details>
+      <details>::::EMDATABANK.org::::EMD-2788::::</details>
+   </map>
+   <interpretation>
+      <modelling_list>
+         <modelling>
+            <initial_model>
+               <access_code>2W0O</access_code>
+               <chain>
+                  <chain_id>A</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>B</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>C</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>D</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>E</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>F</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>G</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>H</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>I</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>J</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>K</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>L</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>M</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>N</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>O</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>P</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>Q</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>R</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>S</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>T</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>U</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>V</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>W</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>X</chain_id>
+               </chain>
+            </initial_model>
+            <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+            <software_list>
+               <software>
+                  <name>RefMac</name>
+               </software>
+            </software_list>
+            <refinement_space>REAL</refinement_space>
+         </modelling>
+      </modelling_list>
+      <figure_list>
+         <figure>
+            <file>emd_2788.png</file>
+         </figure>
+      </figure_list>
+   </interpretation>
+</emd>

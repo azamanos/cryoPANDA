@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-0054">
+    <admin>
+        <current_status>
+            <date>2024-05-15</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2018-06-14</deposition>
+            <header_release>2018-08-22</header_release>
+            <map_release>2019-01-16</map_release>
+            <update>2024-05-15</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Medical Research Council (United Kingdom)</funding_body>
+                <code>MC_UU_12014/7</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council</funding_body>
+                <code>BB/J013854/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>Feline Calicivirus Strain F9</title>
+        <authors_list>
+            <author>Conley MJ</author>
+            <author>Bhella D</author>
+        </authors_list>
+        <keywords>Capsid, Calicivirus, Vesivirus, Vp1, VIRUS</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Conley MJ</author>
+                    <author order="2">McElwee M</author>
+                    <author order="3">Azmi L</author>
+                    <author order="4">Gabrielsen M</author>
+                    <author order="5">Byron O</author>
+                    <author order="6">Goodfellow IG</author>
+                    <author order="7">Bhella D</author>
+                    <title>Calicivirus VP2 forms a portal-like assembly following receptor engagement.</title>
+                    <journal_abbreviation>Nature</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>565</volume>
+                    <first_page>377</first_page>
+                    <last_page>381</last_page>
+                    <year>2019</year>
+                    <external_references type="PUBMED">30626974</external_references>
+                    <external_references type="DOI">doi:10.1038/s41586-018-0852-1</external_references>
+                    <external_references type="ISSN">1476-4687</external_references>
+                    <external_references type="CSD">0006</external_references>
+                    <external_references type="ASTM">NATUAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6gsh</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>T=3 Icosahedral Capsid.</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>T=3 Icosahedral Capsid.</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>T=3 Icosahedral Capsid</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="11978">Feline calicivirus</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>VP1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="11978">Feline calicivirus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.073346664</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9685">Felis catus</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MCSTCANVLKYYNWDPHFRLVIDPNKFLSVGFCDNPLMCCYPELLPEFGTVWDCDQSPLQIYLESILGDDEWASTYEAID
+PAVPPMHWDAAGKIFQPHPGVLMHHLIGEVAKAWDPNLPMFRLEADGDGSITAPEQGTPVGGVIAEPSAQMSAAADMATG
+KSVDSEWEAFFSFHTSVNWSTSETQGKILFKQSLGPLLNPYLEHLAKLYVAWSGSIDVRFSISGSGVFGGKLAAIVVPPG
+VDPVQSTSMLQYPHVLFDARQVEPVIFSIPDLRSTLYHLMSDTDTTSLVIMVYNDLINPYANDSNSSGCIVTVETKPGAD
+FKFHLLKPPGSMLTHGSVPSDLIPKSSSLWIGNRHWTDITDFVIRPFVFQANRHFDFNQETAGWSTPRYRPITITISEKN
+GAKLGIGVATDYIVPGIPDGWPDTTIPEKLTPAGDYAITNKSGNDITTAAGYDGADVIVNNTNFKGMYICGSLQRAWGDK
+KISNTAFITTATKVDNAIEPSNVIDMTKIAVYQDTHVGKEVQTSDDTLSLLGYTGIGEQAIGSDRDRVVRISVLPETGAR
+GGNHPIFYKNSIKLGYVIRSIDVFNSQILHTSRQLSLNHYLLPPDSFAVYRIIDSNGSWFDIGIDSDGFSFVGVSSIGKL
+EFPLTASYMGIQLAKIRLASNIRSSMTKL</string>
+                    <external_references type="UNIPROTKB">A2T4P8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>POTASSIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">3.9098e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <formula>K</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>7.2</ph>
+                        <details>Phosphate buffered saline</details>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                    <details>Purified enveloped virions</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_magnification>75000.0</nominal_magnification>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <detector_mode>INTEGRATING</detector_mode>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>5198</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">63.0</average_electron_dose_per_image>
+                            <details>Each micrograph was recorded as a movie of 50 individual fractions with a total dose of 63 e/angstrom squared</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>Images were motion-corrected using motioncor2
+Defocus estimation was performed using GCTF</details>
+                <particle_selection>
+                    <number_selected>59531</number_selected>
+                    <details>Autopicking in Relion</details>
+                </particle_selection>
+                <startup_model type_of_model="OTHER">
+                    <details>Previously published models calculated at lower resolution.</details>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>I</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.0</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>41436</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>10</number_classes>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                    <details>Origin and orientation values were determined by 3D auto refine in RELION, assuming full icosahedral symmetry (i.e. with full gold-standard methods).</details>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="536871">
+        <file>emd_0054.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>512</col>
+            <row>512</row>
+            <sec>512</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>512</x>
+            <y>512</y>
+            <z>512</z>
+        </spacing>
+        <cell>
+            <a units="Å">545.28</a>
+            <b units="Å">545.28</b>
+            <c units="Å">545.28</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.25493634</minimum>
+            <maximum>0.45862737</maximum>
+            <average>0.0027425927</average>
+            <std>0.027666343</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.065</x>
+            <y units="Å">1.065</y>
+            <z units="Å">1.065</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.05</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-0054::::</label>
+        <annotation_details>Icosahedral reconstruction of feline calicivirus strain F9</annotation_details>
+    </map>
+</emd>

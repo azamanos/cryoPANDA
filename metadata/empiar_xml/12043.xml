@@ -1,0 +1,106 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12043" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-04-09</depositionDate>
+            <releaseDate>2024-06-17</releaseDate>
+            <updateDate>2024-06-17</updateDate>
+        </keyDates>
+        <title>Bacterial selenocysteine synthase structure revealed by single-particle cryoEM</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-9398-2941</authorORCID>
+            <firstName>Vitor Hugo</firstName>
+            <lastName>Balasco Serrao</lastName>
+            <organization type="academic">Biomolecular Cryoelectron Microscopy Facility, University of California - Santa Cruz</organization>
+            <street>1156 High St</street>
+            <townOrCity>Santa Cruz</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>95064</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-9398-2941</authorORCID>
+            <firstName>Vitor Hugo</firstName>
+            <lastName>Serrão</lastName>
+            <organization type="academic">UCSC Biomolecular cryoEM facility</organization>
+            <street>1156 High St</street>
+            <townOrCity>Santa Cruz</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>95064</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-9398-2941">Balasco Serrao VH</author>
+            <author authorORCID="0000-0003-2729-2974">Minari K</author>
+            <author authorORCID="0000-0002-8652-6729">Pereira HM</author>
+            <author authorORCID="0000-0001-9971-5863">Thiemann OH</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>National Institutes of Health (NIH)</fundingBody>
+                <code>S10OD02509</code>
+                <country>United States</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Sao Paulo Research Foundation (FAPESP)</fundingBody>
+                <code>12/23730-1</code>
+                <country>Brazil</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Brazilian National Council for Scientific and Technological Development (CNPq)</fundingBody>
+                <code>232251/2014-2, 140636/2013-7 and 479595/2006-2</code>
+                <country>Brazil</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">24.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12043</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-42845</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-9398-2941" order="1">Balasco Serrão VH</author>
+                    <author authorORCID="0000-0003-2729-2974" order="2">Minari K</author>
+                    <author order="3">Pereira HD</author>
+                    <author authorORCID="0000-0001-9971-5863" order="4">Thiemann OH</author>
+                    <title>Bacterial selenocysteine synthase structure revealed by single-particle cryoEM</title>
+                    <journal>Current research in structural biology</journal>
+                    <journalAbbreviation>Curr Res Struct Biol</journalAbbreviation>
+                    <country>United States</country>
+                    <volume>7</volume>
+                    <year>2024</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.crstbi.2024.100143</externalReferences>
+                    <externalReferences type="pubmed">38681238</externalReferences>
+                    <details>Data collection was performed on a Titan Krios G3i at 300 kV equipped with a Gatan K3 direct detector coupled to a Bioquantum energy filter at 105,000X at a super-resolution counting mode with a physical pixel size of 0.826 Å/pix (super-res 0.413 Å/pix). A total of 4,592 movies were collected in a stack of 60 frames, and a total dose of 45.4 e−/Å2.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frames for apo-SelA</name>
+        <directory>/data/processing/processing/P555</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>4592</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/SelAC-1_21Aug2023/data</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

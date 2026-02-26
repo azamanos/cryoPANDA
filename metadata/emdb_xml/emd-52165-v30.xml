@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-52165">
+    <admin>
+        <current_status>
+            <date>2025-01-29</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2024-11-20</deposition>
+            <header_release>2025-01-29</header_release>
+            <map_release>2025-01-29</map_release>
+            <update>2025-01-29</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>German Research Foundation (DFG)</funding_body>
+                <code>EXC 2067/1-390729940</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>German Research Foundation (DFG)</funding_body>
+                <code>SFB1286 (B8)</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>German Research Foundation (DFG)</funding_body>
+                <code>SFB1286 (A12)</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>German Research Foundation (DFG)</funding_body>
+                <code>448415290</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Michael J. Fox Foundation</funding_body>
+                <code>ASAP-000282</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>In vitro grown WT Alpha-Synuclein Fibrils</title>
+        <authors_list>
+            <author>Sicking K</author>
+            <author>Al-Azzani M</author>
+            <author>Outeiro TF</author>
+            <author>Fernandez-Busnadiego R</author>
+        </authors_list>
+        <keywords>Alpha-Synuclein, G14R Mutation, Fibrils, Cryo-EM, Protein Aggregation, Amyloid Structure, PROTEIN FIBRIL</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Brucke C</author>
+                    <author ORCID="0000-0003-2864-0854" order="2">Al-Azzani M</author>
+                    <author order="3">Ramalingam N</author>
+                    <author order="4">Ramon M</author>
+                    <author order="5">Sousa RL</author>
+                    <author order="6">Buratti F</author>
+                    <author order="7">Zech M</author>
+                    <author order="8">Sicking K</author>
+                    <author order="9">Amaral L</author>
+                    <author order="10">Gelpi E</author>
+                    <author order="11">Chandran A</author>
+                    <author order="12">Agarwal A</author>
+                    <author ORCID="0000-0002-6004-9872" order="13">Chaves SR</author>
+                    <author order="14">Fernandez CO</author>
+                    <author order="15">Dettmer U</author>
+                    <author order="16">Lautenschlager J</author>
+                    <author order="17">Zweckstetter M</author>
+                    <author ORCID="0000-0002-8366-7622" order="18">Busnadiego RF</author>
+                    <author order="19">Zimprich A</author>
+                    <author order="20">Outeiro TF</author>
+                    <title>A novel alpha-synuclein G14R missense variant is associated with atypical neuropathological features.</title>
+                    <journal_abbreviation>Medrxiv</journal_abbreviation>
+                    <country>US</country>
+                    <year>2024</year>
+                    <external_references type="PUBMED">39399048</external_references>
+                    <external_references type="DOI">doi:10.1101/2024.09.23.24313864</external_references>
+                    <external_references type="ISSN">0000-0000</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>9hgr</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>WT Alpha-Synuclein</name>
+        <supramolecule_list>
+            <organelle_or_cellular_component_supramolecule supramolecule_id="1">
+                <name>WT Alpha-Synuclein</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="kDa/nm">14.46</theoretical>
+                </molecular_weight>
+            </organelle_or_cellular_component_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Alpha-synuclein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014476108</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQK
+TVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</string>
+                    <external_references type="UNIPROTKB">P37840</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.0</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>OTHER</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">1.2</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.4</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>Featureless cylinder</insilico_model>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">2.7</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>53142</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="226493">
+        <file>emd_52165.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>384</col>
+            <row>384</row>
+            <sec>384</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>384</x>
+            <y>384</y>
+            <z>384</z>
+        </spacing>
+        <cell>
+            <a units="Å">353.28</a>
+            <b units="Å">353.28</b>
+            <c units="Å">353.28</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.06183381</minimum>
+            <maximum>0.121076</maximum>
+            <average>0.000018935683</average>
+            <std>0.004490542</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.92</x>
+            <y units="Å">0.92</y>
+            <z units="Å">0.92</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.01</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-52165::::</label>
+    </map>
+    <interpretation>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="226493">
+                <file>emd_52165_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>384</col>
+                    <row>384</row>
+                    <sec>384</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>384</x>
+                    <y>384</y>
+                    <z>384</z>
+                </spacing>
+                <cell>
+                    <a units="Å">353.28</a>
+                    <b units="Å">353.28</b>
+                    <c units="Å">353.28</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.028763939</minimum>
+                    <maximum>0.05761012</maximum>
+                    <average>0.000019035333</average>
+                    <std>0.0022588742</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.92</x>
+                    <y units="Å">0.92</y>
+                    <z units="Å">0.92</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-52165::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="226493">
+                <file>emd_52165_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>384</col>
+                    <row>384</row>
+                    <sec>384</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>384</x>
+                    <y>384</y>
+                    <z>384</z>
+                </spacing>
+                <cell>
+                    <a units="Å">353.28</a>
+                    <b units="Å">353.28</b>
+                    <c units="Å">353.28</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.029271869</minimum>
+                    <maximum>0.05643066</maximum>
+                    <average>0.000018817762</average>
+                    <std>0.0022398955</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.92</x>
+                    <y units="Å">0.92</y>
+                    <z units="Å">0.92</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-52165::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

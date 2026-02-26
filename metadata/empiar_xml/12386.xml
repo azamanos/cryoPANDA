@@ -1,0 +1,136 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12386" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-10-29</depositionDate>
+            <releaseDate>2025-02-10</releaseDate>
+            <updateDate>2025-02-10</updateDate>
+        </keyDates>
+        <title>Vibrio cholerae DdmD-DdmE holo complex</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-7601-210X</authorORCID>
+            <firstName>Martin</firstName>
+            <lastName>Jinek</lastName>
+            <organization type="academic">Department of Biochemistry, University of Zurich</organization>
+            <street>Winterthurerstrasse 190</street>
+            <townOrCity>Zurich</townOrCity>
+            <stateOrProvince>ZH</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>8057</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-7601-210X</authorORCID>
+            <firstName>Martin</firstName>
+            <lastName>Jinek</lastName>
+            <organization type="academic">Department of Biochemistry, University of Zurich</organization>
+            <street>Winterthurerstrasse 190</street>
+            <townOrCity>Zurich</townOrCity>
+            <stateOrProvince>ZH</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>8057</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-1805-7844">Luuk L</author>
+            <author authorORCID="0000-0002-7601-210X">Jinek M</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>European Research Council (ERC)</fundingBody>
+                <code>820152</code>
+                <country>Switzerland</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>European Research Council (ERC)</fundingBody>
+                <code>724630</code>
+                <country>Switzerland</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>National Institutes of Health (NIH)</fundingBody>
+                <code>55008735</code>
+                <country>Switzerland</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>National Institutes of Health (NIH)</fundingBody>
+                <code>55008726</code>
+                <country>Switzerland</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">1.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12386</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-50091</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-1805-7844" order="1">Loeff L</author>
+                    <author authorORCID="0000-0002-9644-5607" order="2">Adams DW</author>
+                    <author authorORCID="0000-0002-3432-4375" order="3">Chanez C</author>
+                    <author order="4">Stutzmann S</author>
+                    <author order="5">Righi L</author>
+                    <author authorORCID="0000-0002-7024-1489" order="6">Blokesch M</author>
+                    <author authorORCID="0000-0002-7601-210X" order="7">Jinek M</author>
+                    <title>Molecular mechanism of plasmid elimination by the DdmDE defense system</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country></country>
+                    <issue>6705</issue>
+                    <volume>385</volume>
+                    <firstPage>188</firstPage>
+                    <lastPage>194</lastPage>
+                    <year>2024</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.adq0534</externalReferences>
+                    <externalReferences type="pubmed">38870273</externalReferences>
+                    <details>The micrographs are 42 raw movie frames (accumulating 62.102 electrons per squared Angstrom in a 1.26 second exposure)</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of Vibrio cholerae DdmD-DdmE holo complex</name>
+        <directory>/data/20231204_LL</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>9176</numImagesOrTiltSeries>
+        <framesPerImage>42</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.65</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.65</pixelHeight>
+        </dimensions>
+        <details>The micrographs are 42 raw movie frames (accumulating 62.102 electrons per squared Angstrom in a 1.26 second exposure).</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/20231204_LL/*_fractions.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Gain reference</name>
+        <directory>/data/20231204_LL</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.65</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.65</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/20231204_LL/20231204_bin2.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

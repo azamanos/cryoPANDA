@@ -1,0 +1,124 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10335" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-11-04</depositionDate>
+            <releaseDate>2019-12-20</releaseDate>
+            <updateDate>2020-02-28</updateDate>
+        </keyDates>
+        <title>Apo-state Streptavidin</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-4829-7416</authorORCID>
+            <firstName>Nieng</firstName>
+            <lastName>Yan</lastName>
+            <organization type="academic">Department of Molecular Biology,Princeton University</organization>
+            <street>Washington Rd.</street>
+            <townOrCity>Prinecton</townOrCity>
+            <stateOrProvince>NJ</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>08544</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-4829-7416</authorORCID>
+            <firstName>Nieng</firstName>
+            <lastName>Yan</lastName>
+            <organization type="academic">Department of Molecular Biology,Princeton University</organization>
+            <street>Washington Rd.</street>
+            <townOrCity>Prinecton</townOrCity>
+            <stateOrProvince>NJ</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>08544</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-0563-4611">Han Y</author>
+            <author authorORCID="0000-0001-9855-1641">Fan X</author>
+            <author authorORCID="0000-0001-5123-1077">Wang H</author>
+            <author>Zhao F</author>
+            <author authorORCID="0000-0001-6771-2174">Tully CG</author>
+            <author authorORCID="0000-0003-0551-1208">Kong J</author>
+            <author>Yao N</author>
+            <author authorORCID="0000-0003-4829-7416">Yan N</author>
+        </authorsList>
+        <datasetSize units="GB">922.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10335</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-20907</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-0563-4611" order="1">Han Y</author>
+                    <author authorORCID="0000-0001-9855-1641" order="2">Fan X</author>
+                    <author authorORCID="0000-0001-5123-1077" order="3">Wang H</author>
+                    <author order="4">Zhao F</author>
+                    <author authorORCID="0000-0001-6771-2174" order="5">Tully CG</author>
+                    <author authorORCID="0000-0003-0551-1208" order="6">Kong J</author>
+                    <author order="7">Yao N</author>
+                    <author authorORCID="0000-0003-4829-7416" order="8">Yan N</author>
+                    <title>High-yield monolayer graphene grids for near-atomic resolution cryoelectron microscopy</title>
+                    <journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+                    <journalAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</journalAbbreviation>
+                    <country></country>
+                    <issue>2</issue>
+                    <volume>117</volume>
+                    <firstPage>1009</firstPage>
+                    <lastPage>1014</lastPage>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1073/pnas.1919114117</externalReferences>
+                    <externalReferences type="pubmed">31879346</externalReferences>
+                    <details>The counted mode 32-frame movies of streptavidin (accumulating 49 electron per squared Angstrom in a 2.4 second exposure).</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned 32-frame micrographs of 2.6 angstrom apo-state streptavidin on graphene</name>
+        <directory>/data/movie</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>1086</numImagesOrTiltSeries>
+        <framesPerImage>32</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>32</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>0.536</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>0.536</pixelHeight>
+        </dimensions>
+        <details>The micrographs are raw movies without any realignment, (accumulating 49 electron per squared Angstrom in a 2.4 second exposure).</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/movie/stack_*.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/run_data.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Polish/job043/Micrographs</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Polished particle stacks of 2.6 angstrom apo-state streptavidin on graphene</name>
+        <directory>/data/Polish</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>405</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>128</imageWidth>
+            <pixelWidth>1.072</pixelWidth>
+            <imageHeight>128</imageHeight>
+            <pixelHeight>1.072</pixelHeight>
+        </dimensions>
+        <details>Particle stacks are generated from Relion-3.0.6 Bayesian Polishing.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/movie/stack_*.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/run_data.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Polish/job043/Micrographs</pickedParticlesDirectory>
+    </imageSet>
+</entry>

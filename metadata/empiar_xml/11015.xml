@@ -1,0 +1,101 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11015" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-04-14</depositionDate>
+            <releaseDate>2022-04-29</releaseDate>
+            <updateDate>2022-04-29</updateDate>
+        </keyDates>
+        <title>Raw data for "Structure of polymerized type V pilin reveals assembly mechanism involving protease-mediated strand exchange"</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0001-8480-0918</authorORCID>
+            <firstName>Matthias</firstName>
+            <lastName>Wolf</lastName>
+            <organization type="academic">Okinawa Institute of Science and Technology Graduate Univers</organization>
+            <street>1919-1 Tancha</street>
+            <townOrCity>Onna-son</townOrCity>
+            <stateOrProvince>Okinawa</stateOrProvince>
+            <country>Japan</country>
+            <postOrZipCode>904-0495</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0001-8480-0918</authorORCID>
+            <firstName>Matthias</firstName>
+            <lastName>Wolf</lastName>
+            <organization type="academic">Okinawa Institute of Science and Technology Graduate University</organization>
+            <street>1919-1 Tancha</street>
+            <townOrCity>Onna-son</townOrCity>
+            <stateOrProvince>Okinawa</stateOrProvince>
+            <country>Japan</country>
+            <postOrZipCode>904-0495</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Shibata S</author>
+            <author authorORCID="0000-0002-7605-4721">Shoji M</author>
+            <author>Okada K</author>
+            <author authorORCID="0000-0001-5814-3766">Matsunami H</author>
+            <author authorORCID="0000-0002-9762-9467">Matthews M</author>
+            <author authorORCID="0000-0003-1342-8885">Imada K</author>
+            <author authorORCID="0000-0001-7685-0042">Nakayama K</author>
+            <author authorORCID="0000-0001-8480-0918">Wolf M</author>
+        </authorsList>
+        <datasetSize>72.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11015</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-0724</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Shibata S</author>
+                    <author authorORCID="0000-0002-7605-4721" order="2">Shoji M</author>
+                    <author order="3">Okada K</author>
+                    <author authorORCID="0000-0001-5814-3766" order="4">Matsunami H</author>
+                    <author authorORCID="0000-0002-9762-9467" order="5">Matthews MM</author>
+                    <author authorORCID="0000-0003-1342-8885" order="6">Imada K</author>
+                    <author authorORCID="0000-0001-7685-0042" order="7">Nakayama K</author>
+                    <author authorORCID="0000-0001-8480-0918" order="8">Wolf M</author>
+                    <title>Structure of polymerized type V pilin reveals assembly mechanism involving protease-mediated strand exchange</title>
+                    <journal>Nature microbiology</journal>
+                    <journalAbbreviation>Nat Microbiol</journalAbbreviation>
+                    <country></country>
+                    <issue>6</issue>
+                    <volume>5</volume>
+                    <firstPage>830</firstPage>
+                    <lastPage>837</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41564-020-0705-1</externalReferences>
+                    <externalReferences type="pubmed">32284566</externalReferences>
+                    <details>Deposition contains motion-corrected dose-weighted framesums.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>FimA motion-corrected dose-weighted frame sums</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1153</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.12</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.12</pixelHeight>
+        </dimensions>
+        <details>Talos Arctica 200kV
+1.12 A/pixel
+total dose 46 el/A2</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/FoilHole*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

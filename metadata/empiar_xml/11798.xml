@@ -1,0 +1,97 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11798" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-11-20</depositionDate>
+            <releaseDate>2024-05-20</releaseDate>
+            <updateDate>2024-05-20</updateDate>
+        </keyDates>
+        <title>Cryo-EM micrographs of human α1B/βI+βIVb microtubules bound to GMPCPP decorated with TTLL6</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-2621-7307</authorORCID>
+            <firstName>Antonina</firstName>
+            <lastName>Roll-Mecak</lastName>
+            <organization type="academic">National Institutes of Health</organization>
+            <street>Cell Biology and Biophysics Unit, NINDS Porter Neuroscience Research Center Building 35, Room 3B-203 35 Convent Drive</street>
+            <townOrCity>Bethesda</townOrCity>
+            <stateOrProvince>Maryland</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>20814</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-2621-7307</authorORCID>
+            <firstName>Antonina</firstName>
+            <lastName>Roll-Mecak</lastName>
+            <organization type="academic">National Institutes of Health</organization>
+            <street>Cell Biology and Biophysics Unit, NINDS Porter Neuroscience Research Center Building 35, Room 3B-203 35 Convent Drive</street>
+            <townOrCity>Bethesda</townOrCity>
+            <stateOrProvince>Maryland</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>20814</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-9768-5792">Zehr EA</author>
+            <author authorORCID="0000-0003-2621-7307">Roll-Mecak A</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>National Institutes of Health (NIH)</fundingBody>
+                <code>ZO1 NS003163</code>
+                <country>United States</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">146.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11798</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-42884</emdbEntry>
+            <emdbEntry>EMD-41018</emdbEntry>
+            <emdbEntry>EMD-41022</emdbEntry>
+            <emdbEntry>EMD-41090</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Mahalingan KK</author>
+                    <author order="2">Grotjahn DA</author>
+                    <author authorORCID="0000-0003-3820-5960" order="3">Li Y</author>
+                    <author authorORCID="0000-0003-4921-1135" order="4">Lander GC</author>
+                    <author order="5">Zehr EA</author>
+                    <author authorORCID="0000-0003-2621-7307" order="6">Roll-Mecak A</author>
+                    <title>Structural basis for α-tubulin-specific and modification state-dependent glutamylation</title>
+                    <journal>Nature chemical biology</journal>
+                    <journalAbbreviation>Nat Chem Biol</journalAbbreviation>
+                    <country>United States</country>
+                    <year>2024</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41589-024-01599-0</externalReferences>
+                    <externalReferences type="pubmed">38658656</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Micrographs of human α1B/βI+βIVb microtubules bound to GMPCPP decorated with TTLL6</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2770</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.15</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.15</pixelHeight>
+        </dimensions>
+        <details>All image stacks (accumulating 42 electron per squared Angstrom exposure in 39 frames in 9.75 seconds ) were drift-corrected. Dose rate was set to 5.5 electrons/pixel/second</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

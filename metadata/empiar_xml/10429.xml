@@ -1,0 +1,213 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10429" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-02-28</depositionDate>
+            <releaseDate>2020-07-14</releaseDate>
+            <updateDate>2020-07-14</updateDate>
+        </keyDates>
+        <title>3 Å resolution single particle reconstruction of glucosyltransferase ALG6 in nanodisc</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-8207-2889</authorORCID>
+            <firstName>Kaspar</firstName>
+            <lastName>Locher</lastName>
+            <organization type="academic">ETH Zurich</organization>
+            <street>Otto-​Stern-Weg 5</street>
+            <townOrCity>Zurich</townOrCity>
+            <stateOrProvince>ZH</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>8093</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8207-2889</authorORCID>
+            <firstName>Kaspar</firstName>
+            <lastName>Locher</lastName>
+            <organization type="academic">ETH Zurich</organization>
+            <street>Otto-​Stern-Weg 5</street>
+            <townOrCity>Zurich</townOrCity>
+            <stateOrProvince>ZH</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>8093</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Bloch JS</author>
+            <author>Pesciullesi G</author>
+            <author>Boilevin J</author>
+            <author>Nosol K</author>
+            <author>Irobalieva RN</author>
+            <author>Darbre T</author>
+            <author>Aebi M</author>
+            <author>Kossiakoff AA</author>
+            <author>Reymond JL</author>
+            <author>Locher KP</author>
+        </authorsList>
+        <datasetSize units="TB">2.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10429</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-10258</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Bloch JS</author>
+                    <author order="2">Pesciullesi G</author>
+                    <author order="3">Boilevin J</author>
+                    <author order="4">Nosol K</author>
+                    <author order="5">Irobalieva RN</author>
+                    <author order="6">Darbre T</author>
+                    <author order="7">Aebi M</author>
+                    <author order="8">Kossiakoff AA</author>
+                    <author order="9">Reymond JL</author>
+                    <author authorORCID="0000-0002-8207-2889" order="10">Locher KP</author>
+                    <author authorORCID="0000-0002-5786-0488" order="11">Bloch JS</author>
+                    <author order="12">Pesciullesi G</author>
+                    <author order="13">Boilevin J</author>
+                    <author order="14">Nosol K</author>
+                    <author order="15">Irobalieva RN</author>
+                    <author order="16">Darbre T</author>
+                    <author order="17">Aebi M</author>
+                    <author order="18">Kossiakoff AA</author>
+                    <author authorORCID="0000-0003-2724-2942" order="19">Reymond JL</author>
+                    <author order="20">Locher KP</author>
+                    <title>Structure and mechanism of the ER-based glucosyltransferase ALG6</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <issue>7799</issue>
+                    <volume>579</volume>
+                    <firstPage>443</firstPage>
+                    <lastPage>447</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41586-020-2044-z</externalReferences>
+                    <externalReferences type="pubmed">32103179</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion corrected micrographs of the Alg6-Fab complex</name>
+        <directory>/data/good_micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5143</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.84</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.84</pixelHeight>
+        </dimensions>
+        <details>This folder includes motion corrected micrographs that were further used for processing.
+Data has been split into sub directories subdir0..5.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of the Alg6-Fab complex</name>
+        <directory>/data/set1</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>740</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.4313</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.4313</pixelHeight>
+        </dimensions>
+        <details>Raw movies in .tif format separated into four sets (set1-4). Total number of movies is  5143. Data collected on Gatan K3 camera.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of the Alg6-Fab complex</name>
+        <directory>/data/set2</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>971</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.4313</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.4313</pixelHeight>
+        </dimensions>
+        <details>Raw movies in .tif format separated into four sets (set1-4). Total number of movies is  5143. Data collected on Gatan K3 camera.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of the Alg6-Fab complex</name>
+        <directory>/data/set3</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>762</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.4313</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.4313</pixelHeight>
+        </dimensions>
+        <details>Raw movies in .tif format separated into four sets (set1-4). Total number of movies is  5143. Data collected on Gatan K3 camera.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of the Alg6-Fab complex</name>
+        <directory>/data/set4</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>2670</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.4313</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.4313</pixelHeight>
+        </dimensions>
+        <details>Raw movies in .tif format separated into four sets (set1-4). Total number of movies is  5143. Data collected on Gatan K3 camera.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

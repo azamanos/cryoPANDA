@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-4727">
+    <admin>
+        <current_status>
+            <date>2024-05-15</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-03-23</deposition>
+            <header_release>2019-08-28</header_release>
+            <map_release>2019-08-28</map_release>
+            <update>2024-05-15</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>European Commission</funding_body>
+                <code>726368</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>German Research Foundation</funding_body>
+                <code>SFB 974</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>German Research Foundation</funding_body>
+                <code>SFB 1208</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>German Research Foundation</funding_body>
+                <country>Germany</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM Structure of the PI3-Kinase SH3 Domain Amyloid Fibril</title>
+        <authors_list>
+            <author>Roeder C</author>
+            <author>Vettore N</author>
+        </authors_list>
+        <keywords>amyloid fibril, sh3 domain, PROTEIN FIBRIL</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Roder C</author>
+                    <author order="2">Vettore N</author>
+                    <author order="3">Mangels LN</author>
+                    <author order="4">Gremer L</author>
+                    <author order="5">Ravelli RBG</author>
+                    <author order="6">Willbold D</author>
+                    <author order="7">Hoyer W</author>
+                    <author order="8">Buell AK</author>
+                    <author order="9">Schroder GF</author>
+                    <title>Atomic structure of PI3-kinase SH3 amyloid fibrils by cryo-electron microscopy.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>10</volume>
+                    <first_page>3754</first_page>
+                    <last_page>3754</last_page>
+                    <year>2019</year>
+                    <external_references type="PUBMED">31434882</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-019-11320-8</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6r4r</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Fibril of PI3K-SH3 domains</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Fibril of PI3K-SH3 domains</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9913">Bos taurus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="kDa/nm">34.55</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Phosphatidylinositol 3-kinase regulatory subunit alpha</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9913">Bos taurus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009649584999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>7</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="511693">Escherichia coli BL21</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GSMSAEGYQYRALYDYKKEREEDIDLHLGDILTVNKGSLVALGFSDGQEAKPEEIGWLNGYNETTGERGDFPGTYVEYIG
+RKKISP</string>
+                    <external_references type="UNIPROTKB">P23727</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <concentration units="mg/mL">1.62</concentration>
+                    <buffer>
+                        <ph>2.5</ph>
+                        <component>
+                            <concentration units="mg/mL">0.11</concentration>
+                            <formula>C2H6ClNO2</formula>
+                            <name>glycin-hydrochloride</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TECNAI ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">4096</width>
+                                    <height units="pixel">4096</height>
+                                </dimensions>
+                            </digitization_details>
+                            <number_real_images>622</number_real_images>
+                            <average_exposure_time units="s">65.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">26.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">2.3548</delta_z>
+                            <delta_phi units="deg">179.436</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.4</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2</version>
+                        </software>
+                    </software_list>
+                    <details>For the even/odd test, the segment images were split by entire fibrils and refined separately for 25 iterations using the same reference density (low-passed filtered to 20 A).</details>
+                    <number_images_used>27681</number_images_used>
+                </final_reconstruction>
+                <segment_selection>
+                    <number_selected>103733</number_selected>
+                    <details>Filaments were picked manually in Relion2</details>
+                </segment_selection>
+                <startup_model type_of_model="NONE"/>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="42593">
+        <file>emd_4727.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>220</col>
+            <row>220</row>
+            <sec>220</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>220</x>
+            <y>220</y>
+            <z>220</z>
+        </spacing>
+        <cell>
+            <a units="Å">205.7</a>
+            <b units="Å">205.7</b>
+            <c units="Å">205.7</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-3.4095263</minimum>
+            <maximum>3.3725786</maximum>
+            <average>0.010784938</average>
+            <std>0.46720803</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.935</x>
+            <y units="Å">0.935</y>
+            <z units="Å">0.935</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>1.1</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-4727::::</label>
+        <annotation_details>EM reconstruction of sh3 fibril, map sharpened with a B-factor of -150 A2 and low-pass filtered to 3.0 A.</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="42593">
+                <file>emd_4727_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>220</col>
+                    <row>220</row>
+                    <sec>220</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>220</x>
+                    <y>220</y>
+                    <z>220</z>
+                </spacing>
+                <cell>
+                    <a units="Å">205.7</a>
+                    <b units="Å">205.7</b>
+                    <c units="Å">205.7</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.014687824</minimum>
+                    <maximum>0.03389991</maximum>
+                    <average>0.0012074934</average>
+                    <std>0.0045719096</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.935</x>
+                    <y units="Å">0.935</y>
+                    <z units="Å">0.935</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-4727::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="42593">
+                <file>emd_4727_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>220</col>
+                    <row>220</row>
+                    <sec>220</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>220</x>
+                    <y>220</y>
+                    <z>220</z>
+                </spacing>
+                <cell>
+                    <a units="Å">205.7</a>
+                    <b units="Å">205.7</b>
+                    <c units="Å">205.7</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.012989679</minimum>
+                    <maximum>0.030528596</maximum>
+                    <average>0.0012483379</average>
+                    <std>0.00449232</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.935</x>
+                    <y units="Å">0.935</y>
+                    <z units="Å">0.935</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-4727::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

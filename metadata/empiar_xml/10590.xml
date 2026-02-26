@@ -1,0 +1,101 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10590" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-10-15</depositionDate>
+            <releaseDate>2020-12-22</releaseDate>
+            <updateDate>2020-12-22</updateDate>
+        </keyDates>
+        <title>Single-particle Cryo-EM of the endogenous human BAF complex alone</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-2606-2835</authorORCID>
+            <firstName>Thomas</firstName>
+            <lastName>Walz</lastName>
+            <organization type="academic">Laboratory of Molecular Electron Microscopy, The Rockefeller University</organization>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10065</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-4058-5985</authorORCID>
+            <firstName>Cigall</firstName>
+            <lastName>Kadoch</lastName>
+            <organization type="academic">Department of Pediatric Oncology, Dana-Faber Cancer Institute</organization>
+            <townOrCity>Boston</townOrCity>
+            <stateOrProvince>Massachusetts</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02215</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-5371-6385">Suzuki H</author>
+            <author authorORCID="0000-0002-6624-4839">Mashtalir N</author>
+            <author authorORCID="0000-0002-4058-5985">Kadoch C</author>
+            <author authorORCID="0000-0003-2606-2835">Walz T</author>
+        </authorsList>
+        <datasetSize units="GB">258.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10590</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-22476</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-6624-4839" order="1">Mashtalir N</author>
+                    <author authorORCID="0000-0001-5371-6385" order="2">Suzuki H</author>
+                    <author order="3">Farrell DP</author>
+                    <author order="4">Sankar A</author>
+                    <author order="5">Luo J</author>
+                    <author order="6">Filipovski M</author>
+                    <author order="7">D'Avino AR</author>
+                    <author order="8">St Pierre R</author>
+                    <author order="9">Valencia AM</author>
+                    <author order="10">Onikubo T</author>
+                    <author order="11">Roeder RG</author>
+                    <author order="12">Han Y</author>
+                    <author order="13">He Y</author>
+                    <author order="14">Ranish JA</author>
+                    <author order="15">DiMaio F</author>
+                    <author authorORCID="0000-0003-2606-2835" order="16">Walz T</author>
+                    <author authorORCID="0000-0002-4058-5985" order="17">Kadoch C</author>
+                    <title>A Structural Model of the Endogenous Human BAF Complex Informs Disease Mechanisms</title>
+                    <journal>Cell</journal>
+                    <journalAbbreviation>Cell</journalAbbreviation>
+                    <country></country>
+                    <issue>3</issue>
+                    <volume>183</volume>
+                    <firstPage>802</firstPage>
+                    <lastPage>817</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.cell.2020.09.051</externalReferences>
+                    <externalReferences type="pubmed">33053319</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion-corrected micrographs of the endogenous human BAF complex on thin-layer carbon grids</name>
+        <directory>/data/micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4865</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.5</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.5</pixelHeight>
+        </dimensions>
+        <details>Motion-corrected averages of movies collected at an accumulated dose of 66.7 e-/A^2 across 50 frames over a 15 s exposure, recorded on Talos Arctica (FEI) with a K2 Summit direct detector (Gatan) in super-resolution counting mode. Motion correction was performed using MotionCor2 with dose weighting, 2x binning, and 5x5 patches.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,299 @@
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" emdb_id="EMD-3556" version="3.0.0.0" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_0_0/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2017-08-02</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2016-12-22</deposition>
+            <header_release>2017-01-25</header_release>
+            <map_release>2017-02-22</map_release>
+            <update>2017-08-02</update>
+        </key_dates>
+        <title>Yeast mitochondrial ribosome - large subunit (fitted to EMD 3551)</title>
+        <authors_list>
+            <author>Desai N</author>
+            <author>Brown A</author>
+            <author>Amunts A</author>
+            <author>Ramakrishnan V</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Desai N</author>
+                    <author order="2">Brown A</author>
+                    <author order="3">Amunts A</author>
+                    <author order="4">Ramakrishnan V</author>
+                    <title>The structure of the yeast mitochondrial ribosome.</title>
+                    <journal_abbreviation>Science</journal_abbreviation>
+                    <country>US</country>
+                    <volume>355</volume>
+                    <first_page>528</first_page>
+                    <last_page>531</last_page>
+                    <year>2017</year>
+                    <external_references type="PUBMED">28154081</external_references>
+                    <external_references type="DOI">doi:10.1126/science.aal2415</external_references>
+                    <external_references type="ISSN">1095-9203</external_references>
+                    <external_references type="CSD">0038</external_references>
+                    <external_references type="ASTM">SCIEAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-2566</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-3556</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Yeast mitochondrial ribosome - large subunit</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Yeast mitochondrial ribosome - large subunit</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <details />
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON II (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/&#8491;^2">23.5</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>1.4</version>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <final_reconstruction>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">3.2</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>1.4</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>221875</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>1.4</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>1.4</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="143749">
+        <file>emd_3556.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>330</col>
+            <row>330</row>
+            <sec>330</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>330</x>
+            <y>330</y>
+            <z>330</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">442.2</a>
+            <b units="&#8491;">442.2</b>
+            <c units="&#8491;">442.2</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.48783594</minimum>
+            <maximum>0.9171615</maximum>
+            <average>0.0016730722</average>
+            <std>0.026782883</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">1.34</x>
+            <y units="&#8491;">1.34</y>
+            <z units="&#8491;">1.34</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0305</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-3556::::</label>
+    </map>
+    <interpretation>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="143749">
+                <file>emd_3556_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>330</col>
+                    <row>330</row>
+                    <sec>330</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>330</x>
+                    <y>330</y>
+                    <z>330</z>
+                </spacing>
+                <cell>
+                    <a units="&#8491;">442.2</a>
+                    <b units="&#8491;">442.2</b>
+                    <c units="&#8491;">442.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.02351375</minimum>
+                    <maximum>0.07800803</maximum>
+                    <average>-0.000013631247</average>
+                    <std>0.0067074634</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="&#8491;">1.34</x>
+                    <y units="&#8491;">1.34</y>
+                    <z units="&#8491;">1.34</z>
+                </pixel_spacing>
+                <label>::::EMDATABANK.org::::EMD-3556::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="143749">
+                <file>emd_3556_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>330</col>
+                    <row>330</row>
+                    <sec>330</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>330</x>
+                    <y>330</y>
+                    <z>330</z>
+                </spacing>
+                <cell>
+                    <a units="&#8491;">442.2</a>
+                    <b units="&#8491;">442.2</b>
+                    <c units="&#8491;">442.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.02384044</minimum>
+                    <maximum>0.07942993</maximum>
+                    <average>-0.000015891532</average>
+                    <std>0.0067047044</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="&#8491;">1.34</x>
+                    <y units="&#8491;">1.34</y>
+                    <z units="&#8491;">1.34</z>
+                </pixel_spacing>
+                <label>::::EMDATABANK.org::::EMD-3556::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

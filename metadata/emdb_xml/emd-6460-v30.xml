@@ -1,0 +1,271 @@
+<emd emdb_id="EMD-6460" version="3.0.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+    <admin>
+        <current_status>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2015-09-05</deposition>
+            <header_release>2015-10-14</header_release>
+            <map_release>2015-10-21</map_release>
+            <update>2015-11-04</update>
+        </key_dates>
+        <title>Cryo-EM Structure of the Activated NAIP2/NLRC4 Inflammasome Reveals Nucleated Polymerization</title>
+        <authors_list>
+            <author>Zhang L</author>
+            <author>Chen S</author>
+            <author>Ruan J</author>
+            <author>Wu J</author>
+            <author>Tong AB</author>
+            <author>Yin Q</author>
+            <author>Li Y</author>
+            <author>David L</author>
+            <author>Lu A</author>
+            <author>Wang WL</author>
+            <author>Marks C</author>
+            <author>Ouyang Q</author>
+            <author>Zhang X</author>
+            <author>Mao Y</author>
+            <author>Wu H</author>
+        </authors_list>
+        <keywords>Inflammasome, NLRC4, NAIP2</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Zhang L</author>
+                    <author order="2">Chen S</author>
+                    <author order="3">Ruan J</author>
+                    <author order="4">Wu J</author>
+                    <author order="5">Tong AB</author>
+                    <author order="6">Yin Q</author>
+                    <author order="7">Li Y</author>
+                    <author order="8">David L</author>
+                    <author order="9">Lu A</author>
+                    <author order="10">Wang WL</author>
+                    <author order="11">Marks C</author>
+                    <author order="12">Ouyang Q</author>
+                    <author order="13">Zhang X</author>
+                    <author order="14">Mao Y</author>
+                    <author order="15">Wu H</author>
+                    <title>Cryo-EM structure of the activated NAIP2-NLRC4 inflammasome reveals nucleated polymerization.</title>
+                    <journal>SCIENCE</journal>
+                    <volume>350</volume>
+                    <first_page>404</first_page>
+                    <last_page>409</last_page>
+                    <year>2015</year>
+                    <external_references type="PUBMED">26449474</external_references>
+                    <external_references type="DOI">doi:10.1126/science.aac5789</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+    </crossreferences>
+    <sample>
+        <name>NAIP2/NLRC4 inflammasome, 10-fold disk</name>
+        <supramolecule_list>
+            <sample_supramolecule supramolecule_id="1000">
+                <name>NAIP2/NLRC4 inflammasome, 10-fold disk</name>
+                <details>The sample contains multiple oligomeric states, including 10-fold, 11-fold, and 12-fold disks.</details>
+                <oligomeric_state>One NAIP2 subunit and nine NLRC subunits</oligomeric_state>
+                <number_unique_components>2</number_unique_components>
+                <molecular_weight>
+                    <experimental units="MDa">1.6</experimental>
+                    <theoretical units="MDa">1.6</theoretical>
+                </molecular_weight>
+            </sample_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name synonym="NLRC4">NLR family CARD domain-containing protein 4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                    <strain>RAW 264.7</strain>
+                    <synonym_organism>mouse</synonym_organism>
+                    <tissue>Abelson murine leukemia virus-induced tumor; ascites</tissue>
+                    <cell>macrophage</cell>
+                    <cellular_location>cytosol</cellular_location>
+                </natural_source>
+                <details>One activated NAIP2 induces polymerization of NLRC4.</details>
+                <number_of_copies>9</number_of_copies>
+                <oligomeric_state>NLRC4 inflammasome comprises nine NLRC4 and one NAIP2</oligomeric_state>
+                <recombinant_exp_flag>true</recombinant_exp_flag>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                    <recombinant_strain>IPLB-SF21-AE</recombinant_strain>
+                    <recombinant_cell>Sf21</recombinant_cell>
+                    <recombinant_plasmid>pFastBac1</recombinant_plasmid>
+                </recombinant_expression>
+                <sequence>
+                    <external_references type="UNIPROTKB">Q3UP24</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name synonym="NAIP2">NLR family, apoptosis inhibitory protein 2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                    <strain>RAW 264.7</strain>
+                    <synonym_organism>mouse</synonym_organism>
+                    <tissue>Abelson murine leukemia virus-induced tumor; ascites</tissue>
+                    <cell>macrophage</cell>
+                    <cellular_location>cytosol</cellular_location>
+                </natural_source>
+                <details>One activated NAIP2 induces polymerization of NLRC4.</details>
+                <number_of_copies>1</number_of_copies>
+                <oligomeric_state>NLRC4 inflammasome comprises one NAIP2 and nine NLRC4</oligomeric_state>
+                <recombinant_exp_flag>true</recombinant_exp_flag>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                    <recombinant_strain>IPLB-SF21-AE</recombinant_strain>
+                    <recombinant_cell>Sf21</recombinant_cell>
+                    <recombinant_plasmid>pFastBac1</recombinant_plasmid>
+                </recombinant_expression>
+                <sequence />
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">3</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <details>25 mM Tris-HCl, pH 8.0, 150 mM NaCl, 2 mM DTT</details>
+                    </buffer>
+                    <grid>
+                        <details>400 mesh C-flat grid</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">103</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <method>Blot for 1 seconds before plunging</method>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>OTHER</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="&#181;m">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="&#181;m">3.0</nominal_defocus_max>
+                    <nominal_magnification>21000.0</nominal_magnification>
+                    <calibrated_magnification>28736.0</calibrated_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <temperature>
+                        <temperature_min units="K">79.5</temperature_min>
+                        <temperature_max units="K">80</temperature_max>
+                        <temperature_average units="K">79.5</temperature_average>
+                    </temperature>
+                    <alignment_procedure>
+                        <legacy>
+                            <astigmatism>Objective lens astigmatism was corrected at 21,000 times magnification.</astigmatism>
+                        </legacy>
+                    </alignment_procedure>
+                    <date>2015-04-01</date>
+                    <image_recording_list>
+                        <image_recording>
+                            <film_or_detector_model category="CCD">GATAN K2 (4k x 4k)</film_or_detector_model>
+                            <digitization_details>
+                                <sampling_interval units="&#181;m">5</sampling_interval>
+                            </digitization_details>
+                            <number_real_images>9113</number_real_images>
+                            <average_electron_dose_per_image units="e/&#8491;^2">48</average_electron_dose_per_image>
+                            <details>average of 36 frames recorded by the direct electron detector</details>
+                            <bits_per_pixel>32.</bits_per_pixel>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <ctf_correction>
+                    <details>Wiener-type filter</details>
+                </ctf_correction>
+                <final_reconstruction>
+                    <algorithm>OTHER</algorithm>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">12.5</resolution>
+                    <resolution_method>OTHER</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>Spider, EMAN2, Relion</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>4489</number_images_used>
+                </final_reconstruction>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="61037">
+        <file>emd_6460.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>250</col>
+            <row>250</row>
+            <sec>250</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>250</x>
+            <y>250</y>
+            <z>250</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">430.0</a>
+            <b units="&#8491;">430.0</b>
+            <c units="&#8491;">430.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.01187289</minimum>
+            <maximum>0.02465408</maximum>
+            <average>0.00017569</average>
+            <std>0.00186498</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">1.72</x>
+            <y units="&#8491;">1.72</y>
+            <z units="&#8491;">1.72</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.006</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <annotation_details>Reconstruction of 10-fold NAIP2/NLRC4 inflammasome</annotation_details>
+        <details>::::EMDATABANK.org::::EMD-6460::::</details>
+    </map>
+    <interpretation>
+        <figure_list>
+            <figure>
+                <file>emd_6460.tif</file>
+            </figure>
+        </figure_list>
+    </interpretation>
+</emd>

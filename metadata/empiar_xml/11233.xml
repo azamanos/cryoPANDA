@@ -1,0 +1,134 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11233" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-09-16</depositionDate>
+            <releaseDate>2022-10-04</releaseDate>
+            <updateDate>2022-10-04</updateDate>
+        </keyDates>
+        <title>Particle stack from TRPM8 bound to calcium dataset</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0001-9535-0369</authorORCID>
+            <firstName>Yifan</firstName>
+            <lastName>Cheng</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, University of California, San Francisco</organization>
+            <street>600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94143</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0001-5037-7322</authorORCID>
+            <firstName>Melinda</firstName>
+            <middleName>M</middleName>
+            <lastName>Diver</lastName>
+            <organization type="academic">Structural Biology Program, Memorial Sloan Kettering Cancer Center</organization>
+            <street>430 East 67th Street</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10065</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator>
+            <authorORCID>0000-0001-9535-0369</authorORCID>
+            <firstName>Yifan</firstName>
+            <lastName>Cheng</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, University of California, San Francisco</organization>
+            <street>600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94143</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator>
+            <authorORCID>0000-0002-6365-4867</authorORCID>
+            <firstName>David</firstName>
+            <lastName>Julius</lastName>
+            <organization type="academic">Department of Physiology, University of California, San Francisco</organization>
+            <street>600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94143</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-5037-7322">Diver MM</author>
+            <author authorORCID="0000-0001-9535-0369">Cheng Y</author>
+            <author authorORCID="0000-0002-6365-4867">Julius D</author>
+        </authorsList>
+        <datasetSize>129.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11233</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-0639</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-5037-7322" order="1">Diver MM</author>
+                    <author authorORCID="0000-0001-9535-0369" order="2">Cheng Y</author>
+                    <author authorORCID="0000-0002-6365-4867" order="3">Julius D</author>
+                    <title>Structural insights into TRPM8 inhibition and desensitization</title>
+                    <journal>Science</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>6460</issue>
+                    <volume>365</volume>
+                    <firstPage>1434</firstPage>
+                    <lastPage>1440</lastPage>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.aax6672</externalReferences>
+                    <externalReferences type="pubmed">31488702</externalReferences>
+                    <details>The transient receptor potential melastatin 8 (TRPM8) ion channel is the primary detector of environmental cold and an important target for treating pathological cold hypersensitivity. Here, we present cryo–electron microscopy structures of TRPM8 in ligand-free, antagonist-bound, or calcium-bound forms, revealing how robust conformational changes give rise to two nonconducting states, closed and desensitized.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Dataset of TRPM8 bound to calcium, intermediate processed stack</name>
+        <directory>/data/Intermediate_Particle_Stack</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>297750</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>320</imageWidth>
+            <pixelWidth>1.059</pixelWidth>
+            <imageHeight>320</imageHeight>
+            <pixelHeight>1.059</pixelHeight>
+        </dimensions>
+        <details>This dataset contains TRPM8 particles bound to calcium. It is a larger particle stack containing ~300k particles, a subset of which yielded the final published reconstruction.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dataset of TRPM8 bound to calcium, processed stack from final reconstruction</name>
+        <directory>/data/Final_Particle_Stack</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>42040</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>320</imageWidth>
+            <pixelWidth>1.059</pixelWidth>
+            <imageHeight>320</imageHeight>
+            <pixelHeight>1.059</pixelHeight>
+        </dimensions>
+        <details>This dataset contains TRPM8 particles bound to calcium. It contains the ~40k particles that went into the final published reconstruction. It is a subset of the larger particle stack containing ~300k particles (uploaded in parallel).</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

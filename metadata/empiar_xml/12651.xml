@@ -1,0 +1,111 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12651" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2025-03-26</depositionDate>
+            <releaseDate>2025-03-31</releaseDate>
+            <updateDate>2025-03-31</updateDate>
+        </keyDates>
+        <title>CryoEM structural characterization of α-Synuclein Oligomer</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-7789-807X</authorORCID>
+            <firstName>Jorge</firstName>
+            <lastName>Cuéllar</lastName>
+            <organization type="academic">National Centre for Biotechnology (CNB-CSIC)</organization>
+            <street>Darwin, 3</street>
+            <townOrCity>Madrid</townOrCity>
+            <stateOrProvince>Madrid</stateOrProvince>
+            <country>Spain</country>
+            <postOrZipCode>28049</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Jorge</firstName>
+            <lastName>Cuéllar</lastName>
+            <organization type="academic">National Centre for Biotechnology (CNB-CSIC)</organization>
+            <townOrCity>Madrid</townOrCity>
+            <country>Spain</country>
+            <postOrZipCode>28049</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-9045-7765">Santos J</author>
+            <author authorORCID="0000-0002-7789-807X">Cuellar J</author>
+            <author authorORCID="0000-0002-8205-2060">Pallarès I</author>
+            <author authorORCID="0000-0001-7468-8053">Valpuesta JM</author>
+            <author authorORCID="0000-0002-9652-6351">Ventura S</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">37.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12651</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-16466</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-9045-7765" order="1">Santos J</author>
+                    <author authorORCID="0000-0002-7789-807X" order="2">Cuellar J</author>
+                    <author authorORCID="0000-0002-8205-2060" order="3">Pallarès I</author>
+                    <author order="4">Byrd EJ</author>
+                    <author order="5">Lends A</author>
+                    <author order="6">Moro F</author>
+                    <author authorORCID="0009-0006-5047-4265" order="7">Abdul-Shukkoor MB</author>
+                    <author order="8">Pujols J</author>
+                    <author order="9">Velasco-Carneros L</author>
+                    <author authorORCID="0000-0001-9029-1865" order="10">Sobott F</author>
+                    <author authorORCID="0000-0002-2918-8989" order="11">Otzen DE</author>
+                    <author authorORCID="0000-0003-2437-7761" order="12">Calabrese AN</author>
+                    <author order="13">Muga A</author>
+                    <author authorORCID="0000-0002-7768-0206" order="14">Pedersen JS</author>
+                    <author authorORCID="0000-0001-7176-7813" order="15">Loquet A</author>
+                    <author authorORCID="0000-0001-7468-8053" order="16">Valpuesta JM</author>
+                    <author authorORCID="0000-0002-3079-8039" order="17">Radford SE</author>
+                    <author authorORCID="0000-0002-9652-6351" order="18">Ventura S</author>
+                    <title>A Targetable N-Terminal Motif Orchestrates α-Synuclein Oligomer-to-Fibril Conversion</title>
+                    <journal>Journal of the American Chemical Society</journal>
+                    <journalAbbreviation>J Am Chem Soc</journalAbbreviation>
+                    <country></country>
+                    <issue>18</issue>
+                    <volume>146</volume>
+                    <firstPage>12702</firstPage>
+                    <lastPage>12711</lastPage>
+                    <year>2024</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1021/jacs.4c02262</externalReferences>
+                    <externalReferences type="pubmed">38683963</externalReferences>
+                    <details>N/A</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Particles of a-synuclein</name>
+        <directory>/data/010152_ProtRelionExportParticles/Export</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>2528</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>80</imageWidth>
+            <pixelWidth>2.74</pixelWidth>
+            <imageHeight>80</imageHeight>
+            <pixelHeight>2.74</pixelHeight>
+        </dimensions>
+        <details>the original images pixel size was 1.37. These are 2x binned particles.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/010152_ProtRelionExportParticles/Export</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/010152_ProtRelionExportParticles/Export</pickedParticlesDirectory>
+    </imageSet>
+</entry>

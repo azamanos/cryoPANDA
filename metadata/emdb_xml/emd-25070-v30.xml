@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_1/emdb.xsd" version="3.0.9.1" emdb_id="EMD-25070">
+    <admin>
+        <current_status>
+            <date>2024-01-17</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-09-30</deposition>
+            <header_release>2022-09-14</header_release>
+            <map_release>2022-09-14</map_release>
+            <update>2024-01-17</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Marie Sklodowska-Curie Actions, FragNET ITN</funding_body>
+                <code>795070</code>
+                <country>European Union</country>
+            </grant_reference>
+        </grant_support>
+        <title>Synechocystis PCC 6803 Phycobilisome in the down-down conformation</title>
+        <authors_list>
+            <author ORCID="0000-0001-7204-5863">Sauer PV</author>
+            <author ORCID="0000-0001-6290-4820">Sutter M</author>
+            <author ORCID="0000-0002-3500-2052">Dominguez-Martin MA</author>
+            <author ORCID="0000-0002-6982-4345">Kirst H</author>
+            <author ORCID="0000-0002-9977-8482">Kerfeld CA</author>
+        </authors_list>
+        <keywords>Complex, light harvesting, pigment, PHOTOSYNTHESIS</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Dominguez-Martin MA</author>
+                    <author ORCID="0000-0001-7204-5863" order="2">Sauer PV</author>
+                    <author ORCID="0000-0002-6982-4345" order="3">Kirst H</author>
+                    <author ORCID="0000-0001-6290-4820" order="4">Sutter M</author>
+                    <author order="5">Bina D</author>
+                    <author ORCID="0000-0001-9379-7159" order="6">Greber BJ</author>
+                    <author ORCID="0000-0001-9816-3681" order="7">Nogales E</author>
+                    <author ORCID="0000-0002-6176-0420" order="8">Polivka T</author>
+                    <author ORCID="0000-0002-9977-8482" order="9">Kerfeld CA</author>
+                    <title>Structures of a phycobilisome in light-harvesting and photoprotected states.</title>
+                    <journal_abbreviation>Nature</journal_abbreviation>
+                    <country>UK</country>
+                    <year>2022</year>
+                    <external_references type="PUBMED">36045294</external_references>
+                    <external_references type="DOI">doi:10.1038/s41586-022-05156-4</external_references>
+                    <external_references type="ISSN">1476-4687</external_references>
+                    <external_references type="CSD">0006</external_references>
+                    <external_references type="ASTM">NATUAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-25069</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-25071</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-25068</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Complex of phycobilisome from Synechocystis PCC 6803 in the down-down conformation</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Complex of phycobilisome from Synechocystis PCC 6803 in the down-down conformation</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="1111708">Synechocystis sp. (strain PCC 6803 / Kazusa)</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">3.8</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/1</model>
+                        <material>GOLD</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <details>Homemade streptavidin affinity grids</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>Manual blotting. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.6</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">1.8</nominal_defocus_max>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">50.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>Streptavidin lattice was subtracted after movie alignment.</details>
+                <startup_model type_of_model="OTHER">
+                    <details>Ab initio model</details>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.5</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>52674</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="1492993">
+        <file>emd_25070.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>720</col>
+            <row>720</row>
+            <sec>720</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>720</x>
+            <y>720</y>
+            <z>720</z>
+        </spacing>
+        <cell>
+            <a units="Å">755.99994</a>
+            <b units="Å">755.99994</b>
+            <c units="Å">755.99994</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-1.0064161</minimum>
+            <maximum>1.850565</maximum>
+            <average>-0.0012812231</average>
+            <std>0.062609814</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.05</x>
+            <y units="Å">1.05</y>
+            <z units="Å">1.05</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.353</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-25070::::</label>
+        <annotation_details>Refined map of PBS in down-down conformation</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_25070_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="1492993">
+                <file>emd_25070_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>720</col>
+                    <row>720</row>
+                    <sec>720</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>720</x>
+                    <y>720</y>
+                    <z>720</z>
+                </spacing>
+                <cell>
+                    <a units="Å">755.99994</a>
+                    <b units="Å">755.99994</b>
+                    <c units="Å">755.99994</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.0017884497</minimum>
+                    <maximum>2.2420938</maximum>
+                    <average>0.0019202182</average>
+                    <std>0.031667374</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.05</x>
+                    <y units="Å">1.05</y>
+                    <z units="Å">1.05</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-25070::::</label>
+                <annotation_details>Map sharpened with deepEMhancer with tight preset</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="1492993">
+                <file>emd_25070_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>720</col>
+                    <row>720</row>
+                    <sec>720</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>720</x>
+                    <y>720</y>
+                    <z>720</z>
+                </spacing>
+                <cell>
+                    <a units="Å">755.99994</a>
+                    <b units="Å">755.99994</b>
+                    <c units="Å">755.99994</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-2.540532</minimum>
+                    <maximum>3.2211924</maximum>
+                    <average>0.0006830942</average>
+                    <std>0.30803654</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.05</x>
+                    <y units="Å">1.05</y>
+                    <z units="Å">1.05</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-25070::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="1492993">
+                <file>emd_25070_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>720</col>
+                    <row>720</row>
+                    <sec>720</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>720</x>
+                    <y>720</y>
+                    <z>720</z>
+                </spacing>
+                <cell>
+                    <a units="Å">755.99994</a>
+                    <b units="Å">755.99994</b>
+                    <c units="Å">755.99994</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-2.5378006</minimum>
+                    <maximum>3.118226</maximum>
+                    <average>0.0006593167</average>
+                    <std>0.30976084</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.05</x>
+                    <y units="Å">1.05</y>
+                    <z units="Å">1.05</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-25070::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

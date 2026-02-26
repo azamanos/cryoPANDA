@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_2/emdb.xsd" version="3.0.9.2" emdb_id="EMD-20589">
+    <admin>
+        <current_status>
+            <date>2024-03-20</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-08-10</deposition>
+            <header_release>2019-09-18</header_release>
+            <map_release>2020-04-08</map_release>
+            <update>2024-03-20</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute Of Allergy and Infectious Diseases (NIH/NIAID)</funding_body>
+                <code>P50 AI150464</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>1DP2GM110772-01</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/Office of the Director</funding_body>
+                <code>1S10OD021596-01</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/Office of the Director</funding_body>
+                <code>S10OD021741</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/Office of the Director</funding_body>
+                <code>S10OD020054</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>CryoEM reconstruction of membrane-bound ESCRT-III filament composed of CHMP1B+IST1 (left-handed)</title>
+        <authors_list>
+            <author>Nguyen HC</author>
+            <author>Frost A</author>
+        </authors_list>
+        <keywords>membrane remodeling, membrane-bound protein filament, ESCRT-III, LIPID BINDING PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Nguyen HC</author>
+                    <author order="2">Talledge N</author>
+                    <author order="3">McCullough J</author>
+                    <author order="4">Sharma A</author>
+                    <author order="5">Moss 3rd FR</author>
+                    <author order="6">Iwasa JH</author>
+                    <author order="7">Vershinin MD</author>
+                    <author order="8">Sundquist WI</author>
+                    <author order="9">Frost A</author>
+                    <title>Membrane constriction and thinning by sequential ESCRT-III polymerization.</title>
+                    <journal_abbreviation>Nat.Struct.Mol.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>27</volume>
+                    <first_page>392</first_page>
+                    <last_page>399</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32251413</external_references>
+                    <external_references type="DOI">doi:10.1038/s41594-020-0404-x</external_references>
+                    <external_references type="ISSN">1545-9985</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-20588</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-20590</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-20591</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6tz5</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>membrane-bound ESCRT-III copolymer filament composed of CHMP1B and IST1</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>membrane-bound ESCRT-III copolymer filament composed of CHMP1B and IST1</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Charged multivesicular body protein 1b</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022140353999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>34</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSNMEKHLFNLKFAAKELSRSAKKCDKEEKAEKAKIEKAIQKGNMEVARIHAENAIRQKNQAVNFLRMSARVDAVAARVQ
+TAVTMGKVTKSMAGVVKSMDATLKTMNLEKISALMDKFEHQFETLDVQTQQMEDTMSSTTTLTTPQNQVDMLLQEMADEA
+GLDLNMELPQGQTGSVGTSVASAEQDELSQRLARLRDQV</string>
+                    <external_references type="UNIPROTKB">Q7LBR1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>IST1 homolog</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.021574280999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>34</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLGSGFKAERLRVNLRLVINRLKLLEKKKTELAQKARKEIADYLAAGKDERARIRVEHIIREDYLVEAMEILELYCDLLL
+ARFGLIQSMKELDSGLAESVSTLIWAAPRLQSEVAELKIVADQLCAKYSKEYGKLCRTNQIGTVNDRLMHKLSVEAPPKI
+LVERYLIEIAKNYNVPYEPDSVVMAEAPP</string>
+                    <external_references type="UNIPROTKB">P53990</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>helicalArray</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <grid>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">30</time>
+                        </pretreatment>
+                        <details>unspecified</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">292</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK III</instrument>
+                        <details>Grids were blotted with Whatman No. 1 filter paper for 4-8 seconds with a 0 mm offset at 19C and 100 percent humidity before plunging into liquid ethane. </details>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI POLARA 300</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>SUPER-RESOLUTION</detector_mode>
+                            <average_electron_dose_per_image units="e/Å^2">44.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">3.06</delta_z>
+                            <delta_phi units="deg">-20.77</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.1</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>73749</number_images_used>
+                </final_reconstruction>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>Smooth cylinder</insilico_model>
+                </startup_model>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="174457">
+        <file>emd_20589.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>352</col>
+            <row>352</row>
+            <sec>352</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>352</x>
+            <y>352</y>
+            <z>352</z>
+        </spacing>
+        <cell>
+            <a units="Å">429.44</a>
+            <b units="Å">429.44</b>
+            <c units="Å">429.44</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.023875222</minimum>
+            <maximum>0.050917484</maximum>
+            <average>0.00006261408</average>
+            <std>0.003435318</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.22</x>
+            <y units="Å">1.22</y>
+            <z units="Å">1.22</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.01</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-20589::::</label>
+        <annotation_details>RELION postprocessed map with helical symmetry applied to the entire map</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_20589_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="174457">
+                <file>emd_20589_additional_4.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>352</col>
+                    <row>352</row>
+                    <sec>352</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>352</x>
+                    <y>352</y>
+                    <z>352</z>
+                </spacing>
+                <cell>
+                    <a units="Å">429.44</a>
+                    <b units="Å">429.44</b>
+                    <c units="Å">429.44</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.052721772</minimum>
+                    <maximum>0.06930507</maximum>
+                    <average>0.0000014101279</average>
+                    <std>0.006396309</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.22</x>
+                    <y units="Å">1.22</y>
+                    <z units="Å">1.22</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-20589::::</label>
+                <annotation_details>RELION Refine3D unfiltered half map2 with no symmetry applied (C1 half2 map)</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="174457">
+                <file>emd_20589_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>352</col>
+                    <row>352</row>
+                    <sec>352</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>352</x>
+                    <y>352</y>
+                    <z>352</z>
+                </spacing>
+                <cell>
+                    <a units="Å">429.44</a>
+                    <b units="Å">429.44</b>
+                    <c units="Å">429.44</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.01935589</minimum>
+                    <maximum>0.030415323</maximum>
+                    <average>0.00000066011074</average>
+                    <std>0.0022363476</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.22</x>
+                    <y units="Å">1.22</y>
+                    <z units="Å">1.22</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-20589::::</label>
+                <annotation_details>RELION Refine3D filtered map with no symmetry applied (C1 map)</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="174457">
+                <file>emd_20589_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>352</col>
+                    <row>352</row>
+                    <sec>352</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>352</x>
+                    <y>352</y>
+                    <z>352</z>
+                </spacing>
+                <cell>
+                    <a units="Å">429.44</a>
+                    <b units="Å">429.44</b>
+                    <c units="Å">429.44</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.02116315</minimum>
+                    <maximum>0.039604034</maximum>
+                    <average>0.000003726865</average>
+                    <std>0.0022721314</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.22</x>
+                    <y units="Å">1.22</y>
+                    <z units="Å">1.22</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-20589::::</label>
+                <annotation_details>RELION Refine3D filtered map with no symmetry applied (C1 map)</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="174457">
+                <file>emd_20589_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>352</col>
+                    <row>352</row>
+                    <sec>352</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>352</x>
+                    <y>352</y>
+                    <z>352</z>
+                </spacing>
+                <cell>
+                    <a units="Å">429.44</a>
+                    <b units="Å">429.44</b>
+                    <c units="Å">429.44</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.053725917</minimum>
+                    <maximum>0.066809975</maximum>
+                    <average>0.0000018995905</average>
+                    <std>0.0063508567</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.22</x>
+                    <y units="Å">1.22</y>
+                    <z units="Å">1.22</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-20589::::</label>
+                <annotation_details>RELION Refine3D unfiltered half map1 with no symmetry applied (C1 half1 map)</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="174457">
+                <file>emd_20589_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>352</col>
+                    <row>352</row>
+                    <sec>352</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>352</x>
+                    <y>352</y>
+                    <z>352</z>
+                </spacing>
+                <cell>
+                    <a units="Å">429.44</a>
+                    <b units="Å">429.44</b>
+                    <c units="Å">429.44</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.023189893</minimum>
+                    <maximum>0.044638336</maximum>
+                    <average>0.0000049452347</average>
+                    <std>0.0026682527</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.22</x>
+                    <y units="Å">1.22</y>
+                    <z units="Å">1.22</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-20589::::</label>
+                <annotation_details>RELION Refine3D unfiltered half map1 with helical symmetry imposed on the central 40%</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="174457">
+                <file>emd_20589_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>352</col>
+                    <row>352</row>
+                    <sec>352</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>352</x>
+                    <y>352</y>
+                    <z>352</z>
+                </spacing>
+                <cell>
+                    <a units="Å">429.44</a>
+                    <b units="Å">429.44</b>
+                    <c units="Å">429.44</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.025517426</minimum>
+                    <maximum>0.045026377</maximum>
+                    <average>0.0000042495017</average>
+                    <std>0.0026681672</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.22</x>
+                    <y units="Å">1.22</y>
+                    <z units="Å">1.22</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-20589::::</label>
+                <annotation_details>RELION Refine3D unfiltered half map2 with helical symmetry imposed on the central 40%</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

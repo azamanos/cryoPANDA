@@ -1,0 +1,1531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_10_0/emdb.xsd" version="3.0.10.0" emdb_id="EMD-26959">
+    <admin>
+        <current_status>
+            <date>2025-03-19</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <revision_history>
+            <revision version="1.0" date="2023-03-22">
+                <change_list>
+                    <fsc>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </fsc>
+                    <half_map part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <half_map part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <image>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </image>
+                    <primary_map>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </primary_map>
+                </change_list>
+            </revision>
+            <revision version="1.1" date="2025-03-19">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="1.2" date="2024-10-16">
+                <change_list>
+                    <model>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>chem_comp_atom</category>
+                            <category>chem_comp_bond</category>
+                            <category>em_admin</category>
+                            <category>pdbx_entry_details</category>
+                            <category>pdbx_modification_feature</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                            <item>_pdbx_entry_details.has_protein_modification</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+            <revision version="1.3" date="2025-03-19">
+                <change_list>
+                    <model>
+                        <revision_group>DATA_COLLECTION</revision_group>
+                        <categories>
+                            <category>chem_comp_atom</category>
+                            <category>chem_comp_bond</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_chem_comp_atom.atom_id</item>
+                            <item>_chem_comp_atom.pdbx_aromatic_flag</item>
+                            <item>_chem_comp_bond.atom_id_1</item>
+                            <item>_chem_comp_bond.atom_id_2</item>
+                            <item>_chem_comp_bond.pdbx_aromatic_flag</item>
+                            <item>_chem_comp_bond.value_order</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+        </revision_history>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-05-12</deposition>
+            <header_release>2023-03-22</header_release>
+            <map_release>2023-03-22</map_release>
+            <update>2025-03-19</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Almirall, LLC</funding_body>
+                <code>research grant</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cutibacterium acnes 70S ribosome with mRNA, P-site tRNA and Sarecycline bound</title>
+        <authors_list>
+            <author>Lomakin IB</author>
+            <author>Devarkar SC</author>
+            <author>Bunick CG</author>
+        </authors_list>
+        <keywords>ribosome, sarecycline, acne, ANTIBIOTIC</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-6528-5068" order="1">Lomakin IB</author>
+                    <author ORCID="0000-0002-9271-243X" order="2">Devarkar SC</author>
+                    <author order="3">Patel S</author>
+                    <author ORCID="0000-0002-5321-0584" order="4">Grada A</author>
+                    <author ORCID="0000-0002-4011-8308" order="5">Bunick CG</author>
+                    <title>Sarecycline inhibits protein translation in Cutibacterium acnes 70S ribosome using a two-site mechanism.</title>
+                    <journal_abbreviation>Nucleic Acids Res.</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>51</volume>
+                    <first_page>2915</first_page>
+                    <last_page>2930</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">36864821</external_references>
+                    <external_references type="DOI">doi:10.1093/nar/gkad103</external_references>
+                    <external_references type="ISSN">1362-4962</external_references>
+                    <external_references type="CSD">0389</external_references>
+                    <external_references type="ASTM">NARHAD</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8crx</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>70S ribosome with mRNA, P-site tRNA and Sarecycline bound</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>70S ribosome with mRNA, P-site tRNA and Sarecycline bound</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>8</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>9</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>10</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>11</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>12</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>13</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>14</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>15</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>16</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>17</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>18</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>19</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>20</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>21</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>22</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>23</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>24</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>25</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>26</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>27</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>28</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>29</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>30</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>31</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>32</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>33</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>34</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>35</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>36</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>37</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>38</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>39</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>40</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>41</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>42</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>43</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>44</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>45</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>46</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>47</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>48</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>49</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>50</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>51</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>52</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>53</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>54</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <rna macromolecule_id="1">
+                <name>RNA (1537-MER)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.498742875</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>UUUUUCAUUGGAGAGUUUGAUCCUGGCUCAGGACGAACGCUGGCGGCGUGCUUAACACAUGCAAGUCGAACGGAAAGGCC
+CUGCUUUUGUGGGGUGCUCGAGUGGCGAACGGGUGAGUAACACGUGAGUAACCUGCCCUUGACUUUGGGAUAACUUCAGG
+AAACUGGGGCUAAUACCGGAUAGGAGCUCCUGCUGCAUGGUGGGGGUUGGAAAGUUUCGGCGGUUGGGGAUGGACUCGCG
+GCUUAUCAGCUUGUUGGUGGGGUAGUGGCUUACCAAGGCUUUGACGGGUAGCCGGCCUGAGAGGGUGACCGGCCACAUUG
+GGACUGAGAUACGGCCCAGACUCCUACGGGAGGCAGCAGUGGGGAAUAUUGCACAAUGGGCGGAAGCCUGAUGCAGCAAC
+GCCGCGUGCGGGAUGACGGCCUUCGGGUUGUAAACCGCUUUCGCCUGUGACGAAGCGUGAGUGACGGUAAUGGGUAAAGA
+AGCACCGGCUAACUACG(PSU)GCCAGCAGCC(G7M)CGGUGAUACGUAGGGUGCGAGCGUUGUCCGGAUUUAUUGGGCG
+UAAAGGGCUCGUAGGUGGUUGAUCGCGUCGGAAGUGUAAUCUUGGGGCUUAACCCUGAGCGUGCUUUCGAUACGGGUUGA
+CUUGAGGAAGGUAGGGGAGAAUGGAAUUCCUGGUGGAGCGGUGGAAUGCGCAGAUAUCAGGAGGAACACCAGUGGCGAAG
+GCGGUUCUCUGGGCCUUUCCUGACGCUGAGGAGCGAAAGCGUGGGGAGCGAACAGGCUUAGAUACCCUGGUAGUCCACGC
+UGUAAACGGUGGGUACUAGGUGUGGGGUCCAUUCCACGGGUUCCGUGCCGUAGCUAACGCUUUAAGUACCCCGCCUGGGG
+AGUACGGCCGCAAGGCUAAAACUCAAAGGAAUUGACGGGGCCCCGCACAAGCGGCGGAGCAUGCGGAUUAAUUCGAU
+(2MG)(5MC)AACGCGUAGAACCUUACCUGGGUUUGACAUGGAUCGGGAGUGCUCAGAGAUGGGUGUGCCUCUUUUGGGG
+UCGGUUCACAGGUGGUGCAUGGCUGUCGUCAGCUCGUGUCGUGAGAUGUUGGGUUAAGUCCCGCAACGAGCGCAACCCUU
+GUUCACUGUUGCCAGCACGUUAUGGUGGGGACUCAGUGGAGACCGCCGGGGUCAACUCGGAGGAAGGUGGGGAUGACGUC
+AAGUCAUCAUGCCCCUUAUGUCCAGGGCUUCACGCAUGCUACAAUGGCUGGUACAGAGAGUGGCGAGCCUGUGAGGGUGA
+GCGAAUCUCGGAAAGCCGGUCUCAGUUCGGAUUGGGGUCUGCAACUCGACCUCAUGAAGUCGGAGUCGCUAGUAAUCGCA
+GAUCAGCAACGCUGCGGUGAAUACGUUCCCGGGGCUUGUACACAC(5MC)G(4OC)C(5MC)GU(5MC)AAGUCAUGAAA
+GUUGGUAACACCCGAAGCCGGUGGCCUAACCGUUGUGGGGGAGCCGUCGAAGGUGGGACUGGUGAUUAGGACUAAGUCG
+(UR3)AACAAGGUAGCCGUACC(2MG)G(MA6)(MA6)GGUGCGGCUGGAUCACCUCCUUUCUAAGGAG</string>
+                    <external_references type="GENBANK">CP059593.1</external_references>
+                </sequence>
+            </rna>
+            <protein_or_peptide macromolecule_id="2">
+                <name>30S ribosomal protein S4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023271604999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARYTGPLTKKSRRLGTDLVGNDKSFERRPYPPGVHGRGRTKDSEYSLQLREKQKARYAYGVLEKQFRRYYEEADRAQGK
+TGDVLLQILESRLDNVVYRAGLAATRRQARQMVSHGHFLVNGKKVNIPSYRVSTHDIIDVREKSKDLPPIVIARETFETR
+DVPAWLEVRPNKGRILVHQLPTRDQIVIDVNEQAIVELYSK</string>
+                    <external_references type="UNIPROTKB">A0A2B7JMY9</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>30S ribosomal protein S5</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022603695</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSGTQRRGGGAGGERRGRDNRRGQNDRNRNQNEYLERVVAINRVAKVVQGGRRFSFTALVVVGDGEGSVGVGYGKAKEVP
+AAIAKAVEEAKKHFFKVPLVGRTITHPVIGEKAAGVVMLRPASPGTGVIAGGSARAVLECAGVHDVLAKSLGSSNAINVV
+HATVDALQQLEEPEEVARRRGKSVEDIAPAAMLRARKEADEAAAAARMEEKAGVN</string>
+                    <external_references type="UNIPROTKB">A0A2B7I5L8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>30S ribosomal protein S6</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011270147000000001</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MRKYEVMIIIDPTVEERQVDSLMEKYLKVITDEKGTVDNVDVWGKRRLAYDIQKKSEGIYVVVNATCEPATIQELDRLLA
+IDEKIMRTKVMRPEIH</string>
+                    <external_references type="UNIPROTKB">A0A2C6L3A1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>30S ribosomal protein S8</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.01467793</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTMTDPIADMLTRLRNANQAYHDQTSMPHSKIKAGIAGILKSEGYIADYKVNEPKEGEVGKTLTLTLKYGENRERSIAGV
+RRISKPGLRVYAKSTALPKVLGGLGIAIISTSQGLLTDKQAHEKSVGGEVLAYVW</string>
+                    <external_references type="UNIPROTKB">A0A2B7ITQ7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="6">
+                <name>30S ribosomal protein S11</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014194463</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MATAGHKGAPKTKVRRKEKKNVVAGQAHIKSTFNNTIIAITDPSGAVISWASAGTVGFKGSRKSTPFAAQMAAEAAGRRA
+MEHGMKRVDVFVKGPGSGRETAIRSLGAVGLEIGPISDVTPVPHNGCRPPKRRRV</string>
+                    <external_references type="UNIPROTKB">A0A2B7I645</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="7">
+                <name>30S ribosomal protein S12</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013666084</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPTIQQLVRKGRTDKISKNKTPALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVRLSSGIEVTAYIPGVGHNLQEHSMV
+LVRGGRVKDLPGVRYKIVRGSLDTQGVKGRKQARSRYGAKKEK</string>
+                    <external_references type="UNIPROTKB">A0A2C6LJN0</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="8">
+                <name>30S ribosomal protein S15</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.01010276</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDAAEKKKIIEEYATHPGDTGSPDVQVAILTKRIAELTEHLKVHKGDHHSRRGLMLMVGQRRRLLNYIAKNDIEHYRELI
+ARLGLRR</string>
+                    <external_references type="UNIPROTKB">A0A2B7I743</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="9">
+                <name>30S ribosomal protein S17</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.010475277</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSENTAERTTRRKVREGLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSATKRW
+RLVEIIEKAK</string>
+                    <external_references type="UNIPROTKB">A0A2B7JMS7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="10">
+                <name>30S ribosomal protein S18</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008817496999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAGPQRKSVNKKKVVPIKTVHIGAVDYKDTALLRKFISERGKIRARRVTGLSVQDQRKVAIAIKNARELALLPYASTAR</string>
+                    <external_references type="UNIPROTKB">A0A2C6LI71</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="11">
+                <name>30S ribosomal protein S20</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009724277</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPNIKSQIKRVKTNEKSRQRNKAVKSALRTYVRNFRRAAEAGDVEAATKAARVANRQLDKAASKGVIHKNQAANRKSAIS
+KKLNSLAA</string>
+                    <external_references type="UNIPROTKB">A0A2B7I592</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="12">
+                <name>30S ribosomal protein S16</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015980861</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MATKIRLKRLGKIRTPHYRVVVMDSRAKRDGRAIEEIGQYHPKADPSVIVIDSERVQYWLGVGAQPTEAVVALLKRTGDW
+QKFTGDTSPSGVKPQPERPNKDDLFNAALAEADEAPREAITKKSEGAAADEASESAAGDNSGEKAEA</string>
+                    <external_references type="UNIPROTKB">A0A2B7IXM7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="13">
+                <name>30S ribosomal protein bS22</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.004120247999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGSVIKKRRKRMAKKKHRKLLKRTRIQRRRAGK</string>
+                    <external_references type="UNIPROTKB">A0A533INE0</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="14">
+                <name>30S ribosomal protein S3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.029728719</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGQKINPHGFRLGVTTDHKTRWYAEKQYAELVGEDVKIREWLHKNLERAGLSSIEIERRSERVTIFLYAARPGIVIGRNG
+AEAERVRGELEKLTGKQIQLNILEVKSPETDAQLVAQGIAEQLAARVAFRRAMRKAQQSAMNAGALGIRIKCSGRLGGAE
+MSRSEGYREGRVPLHTLRADIDYGFFEARTTFGRIGVKVWIYKGDVTGTRAERAAQKAARQAAQGGRGGRGGNRRGRGDR
+PDRRGGRRRAEAAKQSAETPAPQTENAGA</string>
+                    <external_references type="UNIPROTKB">A0A2B7I5Y3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="15">
+                <name>30S ribosomal protein S7</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.017615482</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPRKGPAPKRPVMVDPVYGSPLVSQLVSKILLDGKKTVAQNIVYTALEGCRAKNNTDPVQTLKRALDNIKPSLEVKSRRV
+GGATYQVPVEVKPARQTTLAMRWLVNFSRERREKTMAERLMNEILDASNGLGASVKRREDTHKMAEANRAFAHYRW</string>
+                    <external_references type="UNIPROTKB">A0A2B7ITZ4</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="16">
+                <name>30S ribosomal protein S9</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.018630138999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTDTPTENLENTEVTPFTEGDREIAYRTDSNPTVAAGDSKRPAMIAPGAATGRRKEAIARVRITPGSGQWKINGRTLEDY
+FPNKVHQQIVTEPFATAGVEGAYDVIARIGGGGVTGQAGALRLGIARALNNVDPEASRPALKKAGMLTRDARVKERKKAG
+LKKARKAPQYSKR</string>
+                    <external_references type="UNIPROTKB">A0A2B7JN42</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="17">
+                <name>30S ribosomal protein S10</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011750766</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAGQKIRIRLRAYDHEVIDSSARKIVDTVTRTGAKVAGPVPLPTEKNVFCVIRSPHKYKDSREHFEMRTHKRLIDILEPT
+PKTVDSLMRLDLPAGVDIEIKLP</string>
+                    <external_references type="UNIPROTKB">A0A085B5E4</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="18">
+                <name>30S ribosomal protein S13</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014030230999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARLIGVDLPRDKRLEVALTYIYGIGRTRATETLKATGISGDLRVHELTDDQLVALRDHIEANYHVEGDLRREVAADIRR
+KIEIGTYQGRRHRSGLPVRGQRTRTNARTRKGKRKAVAKKKAK</string>
+                    <external_references type="UNIPROTKB">A0A2C6LKT6</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="19">
+                <name>30S ribosomal protein S14 type Z</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.006924359</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKTALKVKAARKPKFGVRAYTRCQRCGRPHSVYRKFGLCRICLREMAHAGQLPGVTKSSW</string>
+                    <external_references type="UNIPROTKB">A0A2B7JMX1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="20">
+                <name>30S ribosomal protein S19</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.010536263999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPRSLKKGPFVDEHLAKKVTAQNEAGTHNVIKTWSRRSMVTPDMIGHTIGVHDGRKHVPVFVTESMVGHKLGEFAPTRTF
+KGHVKDDKKARRR</string>
+                    <external_references type="UNIPROTKB">A0A2B7ITR7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="21">
+                <name>30S ribosomal protein S2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.031583166</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAVVTTRQLLESGVHFGHQTRRWNPKMKRFIFTERNGIYIIDLHQSLTYIDKAYAFVKETVAKGGQILFVGTKKQAQESI
+VEQATRVGMPYVNQRWLGGMLTNFQTISKRIARLKELEAMDFDKVSGSGLTKKELLMLSREKDKLEKDLGGIRDMPKVPQ
+AVWVVDTKKEHLAIDEARKLKIPVVAILDTNCDPDEVDYAIPGNDDAIRSVSLLTRIIADAAAEGLMARSAGKSGEQPAE
+AEPMPDWERELLEGDGAKTEAKAEEPKAEAKKADEAPEAEKSN</string>
+                    <external_references type="UNIPROTKB">A0A2B7I756</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="22">
+                <name>50S ribosomal protein L2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.030309863</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGIRKYKPTTPGRRGSSVSDFVELTRSTPEKSLLVAKPKTGGRNNTGRITTRHIGGGHKQAYRIIDFKRYDKDGVPAKVA
+HIEYDPNRTARIALLHYADGEKRYIIAPDGVGQGTVVVSGPEADIKPGNNLPLRNIPVGTTVHAVELRPGGGAKMGRSAG
+ASVQLVAREGKYATVRLPSGEMRMVDIRCRATIGEVGNAEQININWGKAGRNRWKGIRPTVRGVVMNPIDHPHGGGEGRT
+SGGRHPVSPWGKPEGRTRNKKKASSRLIVRRRKSGKKR</string>
+                    <external_references type="UNIPROTKB">A0A2B7JMV5</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="23">
+                <name>50S ribosomal protein L3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023553052999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTNERTVKGVLGTKLGMTQLWDEHNRLVPVTVIQAGPCVVTQVRTPETDGYSAVQLGYGAVKAKNVTKPEAGHFEKAGVT
+PRRHLVELRTADASEYTLGQEIAADVFSESDFVDVTGTSKGKGTAGVMKRHGFGGLRATHGVHRKHRSPGSIGGCSTPGK
+VIKGLRMAGRMGVERVTVQNLQVHSVDAERGIMLVRGAVPGPKGSLLVVRSAAKKAAKNGDAA</string>
+                    <external_references type="UNIPROTKB">A0A1G9KW65</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="24">
+                <name>50S ribosomal protein L4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.032342169999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MNETKTIDVLDVKGKKAGSAELPGDLFDVNTNIPLIHQVVVAQLAAARQGTHATKTRGQVSGGGKKPWRQKGTGRARQGS
+TRAPQWVGGGTVHGPQPRSYAQRTPKKMVGAALRGALSDMARDNRIFVVTSLVDGDKPSTKQAKAVLSGLAELRKVLVVL
+DRSDEIDWLSVRNLSEVHVLAADQLNTYDVVNARTIVFSQAGLDAFVGARSANTQALSAEPEVPETNVADQHPYGEDSFR
+GDNPPAGFDIKGNEDSMKFHEPSSPWYGRTIAEVWFRSAAAAEAAGFVNAVKSDSEKEDAK</string>
+                    <external_references type="UNIPROTKB">A0A2B7I5M5</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="25">
+                <name>50S ribosomal protein L5</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023901756</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSTDAIAHEMPRLKKQYREQIRAAMQEEFGYRNPMLIPGLEKIVVNMGVGDAAHDSKVMDGAIRDITAITGQKPQVTKAR
+KSIAQFKLREGQPIGCHVTLRGDRMWEFADRLLTLALPRIRDFRGLNSNQFDGKGNYTFGLSEQVMFLEIDQDKIDRIRG
+MDITFVTTAQTNEEGKALLKHLGFPFKAKDDPKKAKTKRGPAYYAKKKKK</string>
+                    <external_references type="UNIPROTKB">A0A3E2DDM1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="26">
+                <name>50S ribosomal protein L6</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.019868811</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSRIGRLPIAVPSGVEVKLDGQYVEVKGPKGTLNFTVREPITVSKNDEGAILVERPDDERENRSLHGLTRTLINNMVIGV
+TEGYEKKLEIQGVGYRVLSKGPKQLEFNLGFSHPVIVDAPEGITFAVENPTKFSVQGIDKQVVGETAANIRKIRKPEPYK
+GKGVRYEGENVRRKVGKAGK</string>
+                    <external_references type="UNIPROTKB">A0A2B7I5S3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="27">
+                <name>50S ribosomal protein L13</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.016325824</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTTYSPKAGEVQRKWYVIDAEDIVLGRLATTAANLLRGKHKPQYAPHIDTGDFVVVVNASKIALTGKKATDSLRYDHSGR
+PGGLRVTSIGEMLAKNPRRAVERAVWGMMPKNKLSRQQLKKLKVYGGPEHPHAAQNPQPYEITQIAQ</string>
+                    <external_references type="UNIPROTKB">A0A2B7I6I7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="28">
+                <name>50S ribosomal protein L14</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013503870999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MIQQETRLKVADNTGAKELLCIRVLGGSKRRYAYLGDTIVCTVKDAIPGGNVKKGEVVKAVVVRTVKSHRRPDGSYIKFD
+ENAAVLLKGDGEPRGTRIFGPIARELREKKFMRIVSLAPEVI</string>
+                    <external_references type="UNIPROTKB">A0A2B7JMZ8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="29">
+                <name>50S ribosomal protein L15</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015542903</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAIELHDLKPAPGAHKAKTRVGRGEGSKGKTAGRGTKGTGARKNVPEFFAGGQMPIHMQAPKLGGFHNPFRTEYQVVNLD
+KVEALFPKGGKITVDDLVSVGAVRDNELVKVLGTGELTVKVDLVVDAWSKSAQEKIEKAGGSVTKR</string>
+                    <external_references type="UNIPROTKB">A0A2B7IUA0</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="30">
+                <name>50S ribosomal protein L16</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015700248</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLIPRRVKYRKQHHPKRTGAAKGGTQLAFGDYGIQATEGGYLTNRQIEAARIAMTRYIKRGGKVWINVYPDRPMTKHPAE
+SRMGSGKGTPEWWIANIKPGRVLFELSGVPEDVAREAMRLAIHKLPMKARFISREGGDN</string>
+                    <external_references type="UNIPROTKB">A0A2B7I5M8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="31">
+                <name>50S ribosomal protein L17</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.020058641</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPKPTKGPRLGGSPAHERIILRNLASQLFEHGRVVTTVTKAKRVRPLAEKLINRAKTDTVANRRFVNRTITDRGIVHILF
+TEIGPRMEGRDGGYTRVTRIGIRKGDNAPMAVIEVISDKVAPKAPASAADAKAQINTATEAKDAEPEAGDAAVEHNAPAE
+DAAAQAPVADEQEAAEADEKAEEKPEA</string>
+                    <external_references type="UNIPROTKB">A0A085AZY3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="32">
+                <name>50S ribosomal protein L18</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013727841</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MASTLTVRKSLSDRAKARARRQARGRKKIFGTVERPRMVVTRSSKHVFVQVIDDVAGNTLVSASTMEAELREMSGDKTAK
+AARVGTIIGERAKAAGITKVVFDKAGNQYHGRIAALADAAREAGLDF</string>
+                    <external_references type="UNIPROTKB">A0A2B7JN02</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="33">
+                <name>50S ribosomal protein L19</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013106117</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSNIIDEIDKASMRDDIPEFRPGDSVKVHVKVVEGSRTRVQVFSGIVISRTGGGVQESFTVRKLSFGTGVERTFPLHSPI
+IDKIEVDRHGAVRRAKLYYLRGRRGKAAKIKERGSAR</string>
+                    <external_references type="UNIPROTKB">A0A2C6LKT3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="34">
+                <name>50S ribosomal protein L20</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013988012</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARVKRSVNAKKKRREVLDQASGYRGQRSRLYRKAKEQTLHSATYSFRDRRAKKGDFRSLWIQRINAASRAQGMTYNRFI
+NGLKNAGVEVDRKMLAELAVSDINAFNSLVEVAKASQPQNAAA</string>
+                    <external_references type="UNIPROTKB">A0A2B7I6V3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="35">
+                <name>50S ribosomal protein L21</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011087788</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MYAIVRSGGRQHKVAVGDVVEIDKVADEAGSSIELTPLLVVDGESVTSDKDALGKVKVTAEVLGETKGPKIRILKYKNKT
+GYKKRQGHRQKYTQVKVTGIEG</string>
+                    <external_references type="UNIPROTKB">A0A085B4N9</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="36">
+                <name>50S ribosomal protein L22</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.016729471</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSKTERPSRRAALLGDRPGSYAIARHVRMSASKCRRVINLVRGMDAVDAVTMLKFQPQAAAEPIRKVIASAMANAEQTEG
+LRADDLYISQAFVDEGITMRRIRPRAKGSASRILKRSAHITVVVEPKEARQARKKAKSGRPAAAAKSETEKGA</string>
+                    <external_references type="UNIPROTKB">A0A2B7ITY5</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="37">
+                <name>50S ribosomal protein L23</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011349219999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSELKIRDPRDIILAPVVSEKSYGLLDQNTYTFVVKPTANKTEIKIAIEQIFGVKVTSVNTMNRKGKVRRTRTGVGKRPD
+TKRAIVTVAEGDRIDIFTGPVA</string>
+                    <external_references type="UNIPROTKB">A0A2C6LEQ5</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="38">
+                <name>50S ribosomal protein L24</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013514626</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKSLKIKKGDRVKVIAGNDKGAIGEVLSVDPARERVVVEGVNIRKHHRRDMPTPQGGTTKGGIISSEAPIHVSNVQLVTK
+IDGKDVVTRVGYRRVDVTKRRPDGSEYAAQRSVRYLKKEEAK</string>
+                    <external_references type="UNIPROTKB">A0A085B5D2</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="39">
+                <name>50S ribosomal protein L25</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022349113</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MADIIHLKAEQRTEFGKGAARRIRRDDKVPAVMYGHDHDPIHVTLDGHATLLALRTENPLLSIEIEGQKPMLALPKDVQR
+DVLKGFVRHVDLLTVRRGEKVDVNVALRITGESAPGTIAMTEFNEIEVQADLLNIPEVIEIDVTGLEAGTTIYLGDLKLP
+EGTSLLGDAEDVAATVAFPETEPVEDEESAGEDAQGESEEKAAKE</string>
+                    <external_references type="UNIPROTKB">A0A2B7IYF8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="40">
+                <name>50S ribosomal protein L27</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009540655</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAHKKGASSSRNGRDSNAQRLGVKRFGGQLVNAGEIIVRQRGTHFHPGDGVGRGGDDTLFALRDGNVEFGTRRGRRVVNV
+TPVEAPVEA</string>
+                    <external_references type="UNIPROTKB">A0A2B7IGT1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="41">
+                <name>50S ribosomal protein L28</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.006953212</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAAVCDICAKRPGFGHNVPWSKKKTNRRWSPNIQRVRVVENGTHKRMNVCTSCLKAGRVSR</string>
+                    <external_references type="UNIPROTKB">A0A2B7I7B7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="42">
+                <name>50S ribosomal protein L29</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008899072</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPKLSAAELRQLSGEELRNKVRELKEELFGLRFQSATGQLENTARLREVRKDIARVYTVLQERNLNIVDDPDSTKEA</string>
+                    <external_references type="UNIPROTKB">A0A2B7JB12</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="43">
+                <name>50S ribosomal protein L30</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.006932171</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSKLKITQIKSGIATKPNHRETLRSLGLKRIGDTVIKEDRPEFRGMVRTVRHLVTMEEVD</string>
+                    <external_references type="UNIPROTKB">A0A2B7I5Y4</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="44">
+                <name>50S ribosomal protein L32</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.006991127999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAVPKRKMSRSNTRHRRSQWKTVATKLVTCANPACGEKHLPHTACPSCGGYGPRGDRRQVVEA</string>
+                    <external_references type="UNIPROTKB">A0A2B7I771</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="45">
+                <name>50S ribosomal protein L33</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.006725948</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKKSGDVRPKITLACTECKERNYITKKNRRNNPDRMEMAKFCPRCRKHTAHRETR</string>
+                    <external_references type="UNIPROTKB">A0A2C6LJM0</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="46">
+                <name>50S ribosomal protein L34</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.005185075999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKRTFQPSNRRRARNHGFRSRMSTRAGRSILAARRRKGRVNLSA</string>
+                    <external_references type="UNIPROTKB">A0A2B7IDI8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="47">
+                <name>50S ribosomal protein L35</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007457868</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPKMKSHSGTKKRFKVTGSGKVTARKAGKRHLNEHKSSRVTRRLTGETVLSKGEAAKVKKLLAGHPGR</string>
+                    <external_references type="UNIPROTKB">A0A371N4N9</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="48">
+                <name>50S ribosomal protein L31</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007731770999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKQGIHPDYRETTVVCTCGNTFTTRSTSQSGTLNADVCSKCHPFYTGKQKILDAGGRVARFERRYGKKN</string>
+                    <external_references type="UNIPROTKB">A0A2B7JUW7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <rna macromolecule_id="49">
+                <name>23S ribosomal RNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">1.002554625</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>GCAAAGUUGUGUAGUGCGAUCGGUGGAUGCCUUGGCACCAAGAGCCGAUGAAGGACGUUGUGACCUGCGAUAAGCCCUGG
+GGAGUUGGUGAGCGAGCUGUGAUCCGGGGGUGUCCGAAUGGGGAAACCUGGAAUGUCCGGAGUAGUGUCCGGUGGCCCUG
+CCCUGAAUGUAUAGGGGUGUGGGUGGUAACGCGGGGAAGUGAAACAUCUUAGUACCCGUAGGAAGAGAAAACAAGUGUGA
+UUCCGUGAGUAGUGGCGAGCGAAAGCGGAGGAGGCUAAACCGUGUGUGUGUUCAAGCCGGCAGGUGUUGCAUGUGCGGGG
+UUGUGGGGGCCUUGUGGUUCUGCUGCCGCAGGAUUGGCCAGUGAGAAAUGUUGCGUGAAGGUGAAGCGUCUGGGAAGGCG
+UACCGGAGUGGGUGAGAGUCCUGUAACUGUAAGCGUGGCACUGGUGUGGGGUUGCCCCGAGUAGCGUGGGACUCGUGGAA
+UUUCGCGUGAAUCUGGCGGGACCACCCGUCAAGCCUAAAUACUCCUUGGUGACCGAUAGUGGAUGAGUACCGUGAGGGAA
+GGGUGAAAAGUACCCCGGGAGGGGAGUGAAAGAGUUCCUGAAACCGGUCGCAUGCAAGCCGUCAGAGCCUGUGUGGUGAU
+GGCGUGCCUUUUGAAGAAUGAGCCUGCGAGUUAGUGAUGCGUGGCGAGGUUAACCCGUGGUGGGGGAGUCGUAGCGAAAG
+CGAGUCCGAUAAGGGCGUGAGUCGCGUGUUCUAGACCCGAAGCGGUGUGAUCUAUCCAUGGCCAGGAUGAAGCGUCGGUA
+AGACGUCGUGGAGGUCCGAACCCACUUCAGUUGAAAAUGGAGGGGAUGAGUUGUGGAUAGGGGUGAAAGGCCAAUCAAAC
+ACCGUGAUAGCUGGUUCUCCCCGAAAUGCAUUUAGGUGCAGCGUUGCGUGGUUCUUGUUGGAGGUAGAGCACUGGAUGGU
+CUAGGGGGCUUAUCGGCUUACCGAAAUCAGCCAAACUCCGAAUGCUGGCAAGUGUAGCGUGGCAGUGAGACGGCGGG
+(PSU)GAUAAGCUUCGUCGUCGAGAGGGAAACAGCCCAGAUCAUCAGCUAAGGCCCCUAAGUGGUGACUCAGUGGGAAAG
+GAUGUGGAGUUGCGUAGACAACCAGGAGGUUGGCUUGGAAGCAGCCAUCCUUGAAAGAGUGCGUAAUAGCUCACUGGUCA
+AGUGAUUCCGCGCCGAUAAUGUAGCGGGGCUUAAGUUAUCCGCCGAAGCUGUGGCAACCUGUGUGGUUGGGUAGGGGAGC
+GUCGUGUCAGUGGUGAAGCUGCCGGGUGACUGUGUGGUGGAGUUGAUGCGAGUGAGAAUGCAGGCAUGAGUAGCGUGUGA
+CGGGUGGGAAUCCCGUCCGCCGAUUAUCCAAGGGUUCCAGGGUCAAGUUUGUCUGCCCUGGGUGAGUCGGGUCCUAAGGC
+GAGGCCGACAGGCGUAGUCGAUGGGUAACCAGUUGAUAUUCUGGUACCGGCUUGUCACCGUCCGUGUCGAGGUGUGUGAU
+GCUAAGCAUGUGAGCUUGUCUUGGGAGUGUUUUUGAUGCUUCUGGGGUGGGUGAGUGUGUGAACCGAUCAUGUAGUAGGC
+AAGCUGCGGAGGGACGCAGUGAGGUAGCUCAUCCCCGGUGAUGGUUGUCCGGGGCUAAGUGUGUGGACUGUCUGGUAGGU
+AAAUCCGCUGGGCGUGAAGGUUGAGGCAUGAUGGGGAGCCCAUGGUUGUGGGUGAGUGAGUGAUCCUGUACUGUCGAGAA
+AAGCUUCGUGAGCGAGGUGGCGGGUCCGCCCGUACCCUAAACCGACACUGGUGGAUAGGUAGAGUAUACCGAGGCGAUCG
+AGUGAAUCGUGGUGAAGGAACUCGGCAAAAUGCCCCCGUAACUUUGGGAUAAGGGGGACCUGAGCUGUCGUGCACCCGUG
+CGGUGUGGUGGCGGUGAGGGGCGCAGAGUCCAGGGGGAAACGACUGUUUACCAAAAACACAGGUCCGUGCGAAGUCGUAA
+GACGAUGUAUACGGACUGACUCCU(2MG)CCCGGUGCUGGAAGGUUAAGGGGAACUGUGAGUGUAUGCGUAGCGGUGAAC
+UUAAGCCCCAGUAAACGGCGGUGG(PSU)AAC(3TD)A(PSU)AACCAUCCUAAGGUAGCGAAA(5MU)UCCUUGUCGGG
+UAAGUUCCGAC(5MC)UGCACGAAUGGAGUAACGAUUUCCCUACUGUCUCCACCAUGAACUCGGUGAAAUUGCAUUACGA
+GUAAAGAUGCUCGUUACGCGCAGCAGGACGGAAAGACCCCGGGACCUUUACUAUAGUUUGGUAUUGGUGAUUGGGACGGU
+UUGUGUAGGAUAGGUGGGAGACGUUGAUGCGGCCACGCUAGUGGUGGUGGAGUCGUUGGUGAAAUACCACUCUGAUUGUU
+CUGGUUAUCUCACUGUGGACCGUGAUCCGGUUCAAGGACAGUGCCUGAUGGGUAGUUUGACUG(OMG)GGCGGUCGCCUC
+CUAAAGGGUAACGGAGGCGCCCAAAGGUUCCCUCAGCCUGGUUGGUAAUCAGGUGGUGAGUGUAAGUGCACAAGGGGGCU
+UGACUGUGAGACUGACAGGUCGAGCAGGGACGAAAGUCGGGACUAGUGAUCUGACGGUGGCUUGUGGAUGCGCCGUCACU
+CAACGGAUAAAAGGUACCCCG(2MG)GGA(H2U)AACAGGC(PSU)GAUCUUGCCCGAGCGCUCAUAGCGACGGCAUGGU
+UUGGCA(OMC)CUCG(2MA)(PSU)GUCGGCUCGUCGCAUCCUGGGGCUGGAGUCGGUCCCAAGGGUUGGGC(OMU)GUU
+CGCCCAUUAAAGCGGCACGCGAGC(PSU)GGGUUCAGAACGUCGUGAGACAG(PSU)(PSU)CGGUCCCUAUCCGCUGCG
+CGCGGAGGAAUCUUGAGAAGGGCUGUCUUUAGUACGAGAGGACCGAGACGGACUGACCUCUGGUGUGCCAGUUGUUCUGC
+CAAGAGCAUGGCUGGUUGGCUACGUCGGGUUGUGAUAACCGCUGAAAGCAUCUAAGCGGGAAGCACGCUUCAAGAUAAGG
+GUUCCCACAGGAGUGUUCCUGGUAAGGUCCCCGAGAGAUGAUCGGGUUGAUAGGCCAGACGUGGACGCAUCGUAAGGUGU
+GGAGCUGACUGGUACUAAUAGACCGAGGACUUUCAUUAACA</string>
+                </sequence>
+            </rna>
+            <rna macromolecule_id="50">
+                <name>5S ribosomal RNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.038770055</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>UUUCCGGUGGCCAUAGUGGAAGGGAAACACCCGGUCCCAUUCCGAACCCGGUCGUUAAGCCUUCCAACGCUGAUGGUACU
+GCACGAGGGAUCGUGUGGGAGAGUAAGACGCUGCCGGAAU</string>
+                    <external_references type="GENBANK">CP059593.1</external_references>
+                </sequence>
+            </rna>
+            <protein_or_peptide macromolecule_id="51">
+                <name>50S ribosomal protein bL37</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.002744284</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGKTGRKRRARRKKGANHGKRPNA</string>
+                </sequence>
+            </protein_or_peptide>
+            <rna macromolecule_id="52">
+                <name>32MF mRNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007115308</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>CAAGGAGGUAAAAAUGUUUUAA</string>
+                </sequence>
+            </rna>
+            <rna macromolecule_id="53">
+                <name>P-site initiator tRNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024846901999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>CGCGGGG(4SU)GGAGCAGCCUGGUAGCUCGUCGGG(5MC)UCAUAACCCGAAGGUCGUCGG(5MU)(PSU)CAAAUCCG
+GCCCCCGCAACCA</string>
+                    <external_references type="GENBANK">CP009106.1</external_references>
+                </sequence>
+            </rna>
+            <protein_or_peptide macromolecule_id="54">
+                <name>50S ribosomal protein L36</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1747">Cutibacterium acnes</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.004386378999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKVQPSVKKICDKCKVIRRHGRVMVICDNPRHKQRQG</string>
+                    <external_references type="UNIPROTKB">A0A2B7JN22</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="55">
+                <name>Sarecycline</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000487502</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>V7A</formula>
+            </ligand>
+            <ligand macromolecule_id="56">
+                <name>MAGNESIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">2.4305e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>386</number_of_copies>
+                <formula>MG</formula>
+            </ligand>
+            <ligand macromolecule_id="57">
+                <name>ZINC ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">6.5409e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>5</number_of_copies>
+                <formula>ZN</formula>
+            </ligand>
+            <ligand macromolecule_id="58">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>129</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <grid>
+                        <model>C-flat-2/1</model>
+                        <material>GOLD</material>
+                        <mesh>300</mesh>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">15</time>
+                        </pretreatment>
+                        <details>25 mA</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.0</nominal_defocus_max>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <average_exposure_time units="s">2.1</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">30.56</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>1108852</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">2.78</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.3.1</version>
+                            <processing_details>Non-uniform Refinement</processing_details>
+                        </software>
+                    </software_list>
+                    <number_images_used>70853</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.3.1</version>
+                            <processing_details>Ab-initio</processing_details>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.3.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="157217">
+        <file>emd_26959.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>340</col>
+            <row>340</row>
+            <sec>340</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>340</x>
+            <y>340</y>
+            <z>340</z>
+        </spacing>
+        <cell>
+            <a units="Å">363.12</a>
+            <b units="Å">363.12</b>
+            <c units="Å">363.12</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.5512391</minimum>
+            <maximum>1.51766</maximum>
+            <average>0.0055122683</average>
+            <std>0.06892903</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.068</x>
+            <y units="Å">1.068</y>
+            <z units="Å">1.068</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.12</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-26959::::</label>
+        <annotation_details>70S ribosome with mRNA, P-site tRNA and Sarecycline bound</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="157217">
+                <file>emd_26959_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>340</col>
+                    <row>340</row>
+                    <sec>340</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>340</x>
+                    <y>340</y>
+                    <z>340</z>
+                </spacing>
+                <cell>
+                    <a units="Å">363.12</a>
+                    <b units="Å">363.12</b>
+                    <c units="Å">363.12</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.9940002</minimum>
+                    <maximum>2.057691</maximum>
+                    <average>0.0038268408</average>
+                    <std>0.14416032</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.068</x>
+                    <y units="Å">1.068</y>
+                    <z units="Å">1.068</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-26959::::</label>
+                <annotation_details>70S ribosome with mRNA, P-site tRNA and Sarecycline bound</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="157217">
+                <file>emd_26959_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>340</col>
+                    <row>340</row>
+                    <sec>340</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>340</x>
+                    <y>340</y>
+                    <z>340</z>
+                </spacing>
+                <cell>
+                    <a units="Å">363.12</a>
+                    <b units="Å">363.12</b>
+                    <c units="Å">363.12</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.93039566</minimum>
+                    <maximum>2.1293216</maximum>
+                    <average>0.0038202433</average>
+                    <std>0.14455228</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.068</x>
+                    <y units="Å">1.068</y>
+                    <z units="Å">1.068</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-26959::::</label>
+                <annotation_details>70S ribosome with mRNA, P-site tRNA and Sarecycline bound</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

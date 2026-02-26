@@ -1,0 +1,121 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10242" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-01-23</depositionDate>
+            <releaseDate>2019-04-12</releaseDate>
+            <updateDate>2019-04-12</updateDate>
+        </keyDates>
+        <title>Cryo-EM reconstruction of heparin-induced 2N3R tau filaments</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0462-6540</authorORCID>
+            <firstName>Sjors</firstName>
+            <middleName>H.W.</middleName>
+            <lastName>Scheres</lastName>
+            <organization type="academic">MRC laboratory of molecular biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0462-6540</authorORCID>
+            <firstName>Sjors</firstName>
+            <middleName>H.W.</middleName>
+            <lastName>Scheres</lastName>
+            <organization type="academic">MRC laboratory of molecular biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-3011-9956">Zhang W.</author>
+            <author authorORCID="0000-0002-8176-2618">Falcon B.</author>
+            <author>Murzin A.G.</author>
+            <author>Fan J</author>
+            <author>Crowther R.A.</author>
+            <author authorORCID="0000-0002-5214-7886">Goedert M.</author>
+            <author authorORCID="0000-0002-0462-6540">Scheres S.H.W.</author>
+        </authorsList>
+        <datasetSize units="TB">4.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10242</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-4566</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-3011-9956" order="1">Zhang W.</author>
+                    <author authorORCID="0000-0002-8176-2618" order="2">Falcon B.</author>
+                    <author order="3">Murzin A.G.</author>
+                    <author order="4">Fan J.</author>
+                    <author order="5">Crowther R.A.</author>
+                    <author authorORCID="0000-0002-5214-7886" order="6">Goedert M.</author>
+                    <author authorORCID="0000-0002-0462-6540" order="7">Scheres S.H.W.</author>
+                    <title>Heparin-induced tau filaments are polymorphic and differ from those in Alzheimer's and Pick's diseases</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation>Elife</journalAbbreviation>
+                    <country>United Kingdom</country>
+                    <volume>8</volume>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.7554/eLife.43584</externalReferences>
+                    <externalReferences type="pubmed">30720432</externalReferences>
+                    <details>This deposition contains 2051 raw movies and aligned micrographs. The dose per frame is 1.14 electron per squared Angstrom. The pixel size is 1.04 Angstrom / pixel.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned micrographs</name>
+        <directory>/data/AlignedMicrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2051</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.04</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.04</pixelHeight>
+        </dimensions>
+        <details>Aligned and dose-weight sums.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Raw movies</name>
+        <directory>/data/Movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>2051</numImagesOrTiltSeries>
+        <framesPerImage>44</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>44</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.04</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.04</pixelHeight>
+        </dimensions>
+        <details>Gain normalised movies.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

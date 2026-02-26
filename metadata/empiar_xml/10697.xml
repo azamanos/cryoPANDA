@@ -1,0 +1,227 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10697" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-10-21</depositionDate>
+            <releaseDate>2021-05-07</releaseDate>
+            <updateDate>2025-01-09</updateDate>
+        </keyDates>
+        <title>Cryo-EM structures of human RNA Polymerase III</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-3442-5448</authorORCID>
+            <firstName>Mathias</firstName>
+            <lastName>Girbig</lastName>
+            <organization type="academic">European Molecular Biology Laboratory (EMBL)</organization>
+            <street>Meyerhofstraße 1</street>
+            <townOrCity>Heidelberg</townOrCity>
+            <stateOrProvince>Baden-Württemberg</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>69115</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-2176-8337</authorORCID>
+            <firstName>Christoph</firstName>
+            <lastName>Müller</lastName>
+            <organization type="academic">European Molecular Biology Laboratory (EMBL)</organization>
+            <street>Meyerhofstraße 1</street>
+            <townOrCity>Heidelberg</townOrCity>
+            <stateOrProvince>Baden-Württemberg</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>69115</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-3442-5448">Girbig M</author>
+            <author authorORCID="0000-0002-9763-1815">Misiaszek AD</author>
+            <author authorORCID="0000-0001-5975-5609">Vorlaender MK</author>
+            <author authorORCID="0000-0003-2176-8337">Mueller CW</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">3.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10697</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-11673</emdbEntry>
+            <emdbEntry>EMD-11736</emdbEntry>
+            <emdbEntry>EMD-11737</emdbEntry>
+            <emdbEntry>EMD-11738</emdbEntry>
+            <emdbEntry>EMD-11739</emdbEntry>
+            <emdbEntry>EMD-11740</emdbEntry>
+            <emdbEntry>EMD-11741</emdbEntry>
+            <emdbEntry>EMD-11742</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-3442-5448" order="1">Girbig M</author>
+                    <author authorORCID="0000-0002-9763-1815" order="2">Misiaszek AD</author>
+                    <author authorORCID="0000-0001-5975-5609" order="3">Vorländer MK</author>
+                    <author authorORCID="0000-0003-1549-3162" order="4">Lafita A</author>
+                    <author authorORCID="0000-0003-1948-3922" order="5">Grötsch H</author>
+                    <author authorORCID="0000-0003-0816-0861" order="6">Baudin F</author>
+                    <author authorORCID="0000-0002-6982-4660" order="7">Bateman A</author>
+                    <author authorORCID="0000-0003-2176-8337" order="8">Müller CW</author>
+                    <title>Cryo-EM structures of human RNA polymerase III in its unbound and transcribing states</title>
+                    <journal>Nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>Nat Struct Mol Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>2</issue>
+                    <volume>28</volume>
+                    <firstPage>210</firstPage>
+                    <lastPage>219</lastPage>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41594-020-00555-5</externalReferences>
+                    <externalReferences type="pubmed">33558764</externalReferences>
+                    <details>Polished particles of human RNA Pol III EC (final reconstruction)" and state that it does not contain the correct particle stack</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>LZW-TIFF compressed multiframe micrographs of human RNA Pol III EC</name>
+        <directory>/data/EMPIAR/Human_Pol_III_EC/01_raw_tiffs</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>9488</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.05</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.05</pixelHeight>
+        </dimensions>
+        <details>Micrographs were recorded in counting mode, dose = 1.01 e/A^2/frame
+Defocus range = 0.75 - 2.00 
+CountRef_41-1_00001.mrc to be found in "data/EMPIAR/Human_Pol_III_EC/01_raw_tiffs/"</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIAR/Human_Pol_III_EC/01_raw_tiffs/*-*_0000?.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR/Human_Pol_III_EC/02__initially_picked_particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Initially picked particles of human RNA Pol III EC</name>
+        <directory>/data/EMPIAR/Human_Pol_III_EC/02__initially_picked_particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>367717</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>250</imageWidth>
+            <pixelWidth>1.05</pixelWidth>
+            <imageHeight>250</imageHeight>
+            <pixelHeight>1.05</pixelHeight>
+        </dimensions>
+        <details>Directory "data/EMPIAR/Human_Pol_III_EC/02__initially_picked_particles" also contains the "run_data.star" file, which contains the coordinates of the particles that went into the final 3D reconstruction of human Pol III EC (unpolished)</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR/Human_Pol_III_EC/01_raw_tiffs/goodparticles_BoxNet2Mask_20180918.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR/Human_Pol_III_EC/02__initially_picked_particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Polished particles of human RNA Pol III EC (final reconstruction)</name>
+        <directory>/data/EMPIAR/Human_Pol_III_EC/03_polished_particles_map_B</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>166071</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>440</imageWidth>
+            <pixelWidth>1.05</pixelWidth>
+            <imageHeight>440</imageHeight>
+            <pixelHeight>1.05</pixelHeight>
+        </dimensions>
+        <details>Directory "data/EMPIAR/Human_Pol_III_EC/03_polished_particles_map_B" contains the "run_data.star" file of the final 3D reconstruction derived from Relion 3D Refinement after particle polishing and CTF refinement</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR/Human_Pol_III_EC/03_polished_particles_map_B</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>LZW-TIFF compressed multiframe micrographs of human RNA Pol III apo</name>
+        <directory>/data/EMPIAR/Human_Pol_III_apo</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>9544</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.822</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.822</pixelHeight>
+        </dimensions>
+        <details>Micrographs were recorded in counting mode, dose = 0.95 e/A^2/frame
+Defocus range = 0.75 - 2.25 
+CountRef_51-1_00001.mrc to be found in "data/EMPIAR/Human_Pol_III_apo/01_raw_tiffs/"</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIAR/Human_Pol_III_apo/01_raw_tiffs/*-*_0000?.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Initially picked particles of human RNA Pol III apo</name>
+        <directory>/data/EMPIAR/Human_Pol_III_apo/02_initially_picked_particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>304683</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>328</imageWidth>
+            <pixelWidth>0.822</pixelWidth>
+            <imageHeight>328</imageHeight>
+            <pixelHeight>0.822</pixelHeight>
+        </dimensions>
+        <details>Directory "data/EMPIAR/Human_Pol_III_apo/02_initially_picked_particles" also contains the "run_data.star" file, which contains the coordinates of the particles that went into the final 3D reconstruction of human Pol III apo (unpolished)</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR/Human_Pol_III_apo/02_initially_picked_particles/goodparticles_BoxNet2Mask_20180918.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR/Human_Pol_III_apo/02_initially_picked_particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Polished particles of human RNA Pol III apo (final reconstruction)</name>
+        <directory>/data/EMPIAR/Human_Pol_III_apo/03_polished_particles_map_A</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>111289</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>440</imageWidth>
+            <pixelWidth>0.822</pixelWidth>
+            <imageHeight>440</imageHeight>
+            <pixelHeight>0.822</pixelHeight>
+        </dimensions>
+        <details>Directory "data/EMPIAR/Human_Pol_III_apo/03_polished_particles_map_A" contains the "run_data.star" file of the final 3D reconstruction derived from Relion 3D Refinement after particle polishing and CTF refinement</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR/Human_Pol_III_apo/03_polished_particles_map_A</pickedParticlesDirectory>
+    </imageSet>
+</entry>

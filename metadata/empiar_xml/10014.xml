@@ -1,0 +1,238 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10014" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2014-09-15</depositionDate>
+            <releaseDate>2014-09-17</releaseDate>
+            <updateDate>2014-09-17</updateDate>
+        </keyDates>
+        <title>MAVS CARD and DeltaProTM filaments</title>
+        <correspondingAuthor private="true">
+            <firstName>Qiu-Xing</firstName>
+            <lastName>Jiang</lastName>
+            <organization type="academic">UT Southwestern Medical Center</organization>
+            <townOrCity>Dallas</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>75390</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Xuewu</firstName>
+            <lastName>Zhang</lastName>
+            <organization type="academic">UT Southwestern Medical Center</organization>
+            <townOrCity>Dallas</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>75390</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Xu H</author>
+            <author>He X</author>
+            <author>Zheng H</author>
+            <author>Huang L</author>
+            <author>Hou F</author>
+            <author>Yu Z</author>
+            <author>de la Cruz MJ</author>
+            <author>Borkowski B</author>
+            <author>Zhang X</author>
+            <author>Chen ZJ</author>
+            <author>Jiang QX</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2015-10-28</date>
+                <statusCode>REL</statusCode>
+                <details>Restructured the entry directory to have "data" and ".private".</details>
+            </version>
+        </versionHistory>
+        <datasetSize units="GB">35.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10014</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-5890</emdbEntry>
+            <emdbEntry>EMD-5891</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>CARD set1 micrographs</name>
+        <directory>/data/CARDonlymicroset123/CARDonlymicroset01</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>49</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>1.167</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>1.167</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>CARD set2 micrographs</name>
+        <directory>/data/CARDonlymicroset123/CARDonlymicroset02</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>59</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>1.34</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>1.34</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>CARD set3 micrographs</name>
+        <directory>/data/CARDonlymicroset123/CARDonlymicroset03</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>13</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>1.167</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>1.167</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>CARD set4 micrographs</name>
+        <directory>/data/CARDonlymircroset04</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>581</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>2.018</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>2.018</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>CARD set1 segments</name>
+        <directory>/data/CARDonlysegmentsall/set01</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>IMAGIC</headerFormat>
+        <dataFormat>IMAGIC</dataFormat>
+        <numImagesOrTiltSeries>1432</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>128</imageWidth>
+            <pixelWidth>1.167</pixelWidth>
+            <imageHeight>128</imageHeight>
+            <pixelHeight>1.167</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>CARD set2 segments</name>
+        <directory>/data/CARDonlysegmentsall/set02</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>IMAGIC</headerFormat>
+        <dataFormat>IMAGIC</dataFormat>
+        <numImagesOrTiltSeries>1763</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>160</imageWidth>
+            <pixelWidth>1.34</pixelWidth>
+            <imageHeight>160</imageHeight>
+            <pixelHeight>1.34</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>CARD set3 segments</name>
+        <directory>/data/CARDonlysegmentsall/set03</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>IMAGIC</headerFormat>
+        <dataFormat>IMAGIC</dataFormat>
+        <numImagesOrTiltSeries>577</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>160</imageWidth>
+            <pixelWidth>1.167</pixelWidth>
+            <imageHeight>160</imageHeight>
+            <pixelHeight>1.167</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>CARD set4 segments</name>
+        <directory>/data/CARDonlysegmentsall/set04</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>IMAGIC</headerFormat>
+        <dataFormat>IMAGIC</dataFormat>
+        <numImagesOrTiltSeries>3029</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>96</imageWidth>
+            <pixelWidth>2.018</pixelWidth>
+            <imageHeight>96</imageHeight>
+            <pixelHeight>2.018</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>DeltProTM micrographs</name>
+        <directory>/data/DeltProTM/micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>23</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>2.33</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>2.33</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>DeltaProTM segments</name>
+        <directory>/data/DeltProTM/segments</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>IMAGIC</headerFormat>
+        <dataFormat>IMAGIC</dataFormat>
+        <numImagesOrTiltSeries>720</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>150</imageWidth>
+            <pixelWidth>2.33</pixelWidth>
+            <imageHeight>150</imageHeight>
+            <pixelHeight>2.33</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+</entry>

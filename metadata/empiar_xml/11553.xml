@@ -1,0 +1,111 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11553" schemaVersion="0.63" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-02-01</depositionDate>
+            <releaseDate>2023-05-23</releaseDate>
+            <updateDate>2023-05-23</updateDate>
+        </keyDates>
+        <title>PIC-Mediator in complex with +1 nucleosome (T40N)</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-1408-5178</authorORCID>
+            <firstName>Yanhui</firstName>
+            <lastName>Xu</lastName>
+            <organization type="academic">Fudan University</organization>
+            <street>Dongan Road 131</street>
+            <townOrCity>Shanghai</townOrCity>
+            <stateOrProvince>Shanghai</stateOrProvince>
+            <country>China</country>
+            <postOrZipCode>200032</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-1408-5178</authorORCID>
+            <firstName>Yanhui</firstName>
+            <lastName>Xu</lastName>
+            <organization type="academic">Fudan University</organization>
+            <street>Dongan Road 131</street>
+            <townOrCity>Shanghai</townOrCity>
+            <stateOrProvince>Shanghai</stateOrProvince>
+            <country>China</country>
+            <postOrZipCode>200032</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-4120-104X">Chen X</author>
+            <author authorORCID="0000-0001-5085-175X">Wang X</author>
+            <author authorORCID="0000-0002-1242-2628">Liu W</author>
+            <author authorORCID="0000-0002-3512-237X">Ren Y</author>
+            <author authorORCID="0000-0001-8958-4695">Qu X</author>
+            <author authorORCID="0000-0002-0071-6792">Li J</author>
+            <author authorORCID="0000-0001-9627-0336">Yin X</author>
+            <author authorORCID="0000-0002-1408-5178">Xu Y</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">1.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11553</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-34359</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-4120-104X" order="1">Chen X</author>
+                    <author authorORCID="0000-0001-5085-175X" order="2">Wang X</author>
+                    <author authorORCID="0000-0002-1242-2628" order="3">Liu W</author>
+                    <author authorORCID="0000-0002-3512-237X" order="4">Ren Y</author>
+                    <author authorORCID="0000-0001-8958-4695" order="5">Qu X</author>
+                    <author authorORCID="0000-0002-0071-6792" order="6">Li J</author>
+                    <author authorORCID="0000-0001-9627-0336" order="7">Yin X</author>
+                    <author authorORCID="0000-0002-1408-5178" order="8">Xu Y</author>
+                    <title>Structures of +1 nucleosome-bound PIC-Mediator complex</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country>China</country>
+                    <issue>6615</issue>
+                    <volume>378</volume>
+                    <firstPage>62</firstPage>
+                    <lastPage>68</lastPage>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.abn8131</externalReferences>
+                    <externalReferences type="pubmed">36201575</externalReferences>
+                    <details>The micrographs are composed of 40 frames each in MRC format  (accumulating 50 electron per squared Angstrom in a 4.2 second exposure).</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned and averaged multi-frame micrographs of PIC-Mediator in complex with +1 nucleosome (T40N) in MH-binding state</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>20082</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.334</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.334</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

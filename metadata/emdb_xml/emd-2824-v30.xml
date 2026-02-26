@@ -1,0 +1,199 @@
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" emdb_id="EMD-2824" version="3.0.1.1" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+   <admin>
+      <current_status>
+         <code>REL</code>
+         <processing_site>PDBe</processing_site>
+      </current_status>
+      <sites>
+         <deposition>PDBe</deposition>
+         <last_processing>PDBe</last_processing>
+      </sites>
+      <key_dates>
+         <deposition>2014-11-19</deposition>
+         <header_release>2014-12-10</header_release>
+         <map_release>2014-12-10</map_release>
+         <update>2015-03-11</update>
+      </key_dates>
+      <title>Semi-automated selection of cryo-EM particles in RELION-1.3</title>
+      <authors_list>
+         <author>Scheres SHW</author>
+      </authors_list>
+      <keywords>single-particle analysis, automated particle picking, beta-galactosidase</keywords>
+   </admin>
+   <crossreferences>
+      <citation_list>
+         <primary_citation>
+            <journal_citation published="true">
+               <author order="1">Scheres SH</author>
+               <title>Semi-automated selection of cryo-EM particles in RELION-1.3.</title>
+               <journal>J.STRUCT.BIOL.</journal>
+               <volume>189</volume>
+               <first_page>114</first_page>
+               <last_page>122</last_page>
+               <year>2015</year>
+               <external_references type="PUBMED">25486611</external_references>
+               <external_references type="DOI">doi:10.1016/j.jsb.2014.11.010</external_references>
+            </journal_citation>
+         </primary_citation>
+      </citation_list>
+   </crossreferences>
+   <sample>
+      <name>beta-galactosidase</name>
+      <supramolecule_list>
+         <sample_supramolecule supramolecule_id="1000">
+            <name>beta-galactosidase</name>
+            <oligomeric_state>hometetramer</oligomeric_state>
+            <number_unique_components>1</number_unique_components>
+            <molecular_weight>
+               <theoretical units="MDa">0.45</theoretical>
+            </molecular_weight>
+         </sample_supramolecule>
+      </supramolecule_list>
+      <macromolecule_list>
+         <protein_or_peptide macromolecule_id="1">
+            <name>beta-galactosidase</name>
+            <natural_source database="NCBI">
+               <organism ncbi="83333">Escherichia coli K-12</organism>
+            </natural_source>
+            <molecular_weight>
+               <theoretical units="MDa">0.465</theoretical>
+            </molecular_weight>
+            <number_of_copies>4</number_of_copies>
+            <oligomeric_state>tetramer</oligomeric_state>
+            <recombinant_exp_flag>false</recombinant_exp_flag>
+            <recombinant_expression database="NCBI">
+               </recombinant_expression>
+            <sequence>
+               <external_references type="UNIPROTKB">P00722</external_references>
+               <external_references type="GO">GO:0004565</external_references>
+            </sequence>
+         </protein_or_peptide>
+      </macromolecule_list>
+   </sample>
+   <structure_determination_list>
+      <structure_determination structure_determination_id="1">
+         <method>singleParticle</method>
+         <aggregation_state>particle</aggregation_state>
+         <specimen_preparation_list>
+            <single_particle_preparation preparation_id="1">
+               <concentration units="mg/mL">1</concentration>
+               <grid>
+                  <details>glow-discharged Quantifoil grids</details>
+               </grid>
+               <vitrification>
+                  <cryogen_name>ETHANE</cryogen_name>
+                  <chamber_temperature units="K">90</chamber_temperature>
+                  <instrument>HOMEMADE PLUNGER</instrument>
+                  <method>manual blotting</method>
+               </vitrification>
+            </single_particle_preparation>
+         </specimen_preparation_list>
+         <microscopy_list>
+            <single_particle_microscopy microscopy_id="1">
+               <microscope>FEI POLARA 300</microscope>
+               <illumination_mode>FLOOD BEAM</illumination_mode>
+               <imaging_mode>BRIGHT FIELD</imaging_mode>
+               <electron_source>FIELD EMISSION GUN</electron_source>
+               <acceleration_voltage units="kV">300</acceleration_voltage>
+               <nominal_cs units="mm">2</nominal_cs>
+               <nominal_defocus_min units="&#181;m">1.359</nominal_defocus_min>
+               <nominal_defocus_max units="&#181;m">4.962</nominal_defocus_max>
+               <nominal_magnification>81000.0</nominal_magnification>
+               <calibrated_magnification>79096.0</calibrated_magnification>
+               <specimen_holder_model>OTHER</specimen_holder_model>
+               <date>2012-06-12</date>
+               <image_recording_list>
+                  <image_recording>
+                     <film_or_detector_model category="CCD">FEI FALCON II (4k x 4k)</film_or_detector_model>
+                     <number_real_images>84</number_real_images>
+                     <average_electron_dose_per_image units="e/&#8491;^2">24</average_electron_dose_per_image>
+                     <details>Every image is the average of 24 raw (unaligned) movie frames. The complete set of electron micrographs used to obtain the density map presented here is available through the Electron Microscopy Pilot Image ARchive (EMPIAR).</details>
+                  </image_recording>
+               </image_recording_list>
+               <tilt_angle_min>0</tilt_angle_min>
+            </single_particle_microscopy>
+         </microscopy_list>
+         <singleparticle_processing image_processing_id="1">
+            <details>The particles were selected using the new semi-automatic particle selection procedures in RELION-1.3. This reconstruction was done to test these procedures.</details>
+            <ctf_correction>
+               <details>RELION</details>
+            </ctf_correction>
+            <final_reconstruction>
+               <applied_symmetry>
+                  <point_group>D2</point_group>
+               </applied_symmetry>
+               <resolution res_type="BY AUTHOR" units="&#8491;">4.2</resolution>
+               <resolution_method>OTHER</resolution_method>
+               <software_list>
+                  <software>
+                     <name>RELION, CTFFIND3</name>
+                  </software>
+               </software_list>
+               <number_images_used>42755</number_images_used>
+            </final_reconstruction>
+            <final_angle_assignment>
+               <details>RELION</details>
+            </final_angle_assignment>
+         </singleparticle_processing>
+      </structure_determination>
+   </structure_determination_list>
+   <map format="CCP4" size_kbytes="22783">
+      <file>emd_2824.map.gz</file>
+      <symmetry>
+         <space_group>1</space_group>
+      </symmetry>
+      <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+      <dimensions>
+         <col>180</col>
+         <row>180</row>
+         <sec>180</sec>
+      </dimensions>
+      <origin>
+         <col>0</col>
+         <row>0</row>
+         <sec>0</sec>
+      </origin>
+      <spacing>
+         <x>180</x>
+         <y>180</y>
+         <z>180</z>
+      </spacing>
+      <cell>
+         <a units="&#8491;">318.6</a>
+         <b units="&#8491;">318.6</b>
+         <c units="&#8491;">318.6</c>
+         <alpha units="deg">90.0</alpha>
+         <beta units="deg">90.0</beta>
+         <gamma units="deg">90.0</gamma>
+      </cell>
+      <axis_order>
+         <fast>X</fast>
+         <medium>Y</medium>
+         <slow>Z</slow>
+      </axis_order>
+      <statistics>
+         <minimum>-0.41184917</minimum>
+         <maximum>0.74745452</maximum>
+         <average>0.00064884</average>
+         <std>0.03866324</std>
+      </statistics>
+      <pixel_spacing>
+         <x units="&#8491;">1.77</x>
+         <y units="&#8491;">1.77</y>
+         <z units="&#8491;">1.77</z>
+      </pixel_spacing>
+      <contour_list>
+         <contour primary="true">
+            <level>0.2</level>
+            <source>AUTHOR</source>
+         </contour>
+      </contour_list>
+      <annotation_details>Reconstruction with semi-automatically selected particles.</annotation_details>
+      <details>::::EMDATABANK.org::::EMD-2824::::</details>
+   </map>
+   <validation>
+      <fsc_curve>
+         <file>emd_2824_fsc.xml</file>
+      </fsc_curve>
+   </validation>
+</emd>

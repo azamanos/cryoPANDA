@@ -1,0 +1,153 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11841" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-12-12</depositionDate>
+            <releaseDate>2024-07-03</releaseDate>
+            <updateDate>2024-07-04</updateDate>
+        </keyDates>
+        <title>Automatically collected tilt series on cryoFIB milled lamellae of Baker's Yeast</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-1261-7126</authorORCID>
+            <firstName>Fabian</firstName>
+            <lastName>Eisenstein</lastName>
+            <organization type="academic">Graduate School of Medicine, The University of Tokyo</organization>
+            <street>N415, Experimental Research Building, 7-3-1 Hongo, Bunkyo-ku</street>
+            <townOrCity>Tokyo</townOrCity>
+            <stateOrProvince>Tokyo</stateOrProvince>
+            <country>Japan</country>
+            <postOrZipCode>113-0033</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-1261-7126</authorORCID>
+            <firstName>Radostin</firstName>
+            <lastName>Danev</lastName>
+            <organization type="academic">Graduate School of Medicine, The University of Tokyo</organization>
+            <street>N415, Experimental Research Building, 7-3-1 Hongo, Bunkyo-ku</street>
+            <townOrCity>Tokyo</townOrCity>
+            <stateOrProvince>Tokyo</stateOrProvince>
+            <country>Japan</country>
+            <postOrZipCode>113-0033</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-1261-7126">Eisenstein F</author>
+            <author authorORCID="0000-0003-2368-6618">Fukuda Y</author>
+            <author authorORCID="0000-0001-6406-8993">Danev R</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Japan Society for the Promotion of Science (JSPS)</fundingBody>
+                <code>22H02554</code>
+                <country>Japan</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">1.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11841</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>cell</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-38295</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="true">
+                    <author authorORCID="0000-0002-1261-7126" order="1">Eisenstein F</author>
+                    <author authorORCID="0000-0003-2368-6618" order="2">Fukuda Y</author>
+                    <author authorORCID="0000-0001-6406-8993" order="3">Danev R</author>
+                    <title>Smart Parallel Automated Cryo Electron tomography</title>
+                    <journal>bioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <year>2023</year>
+                    <language>English</language>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned frames for all tilts of all tilt series of Yeast lamellae using SPACEtomo</name>
+        <directory>/data/frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>41</numImagesOrTiltSeries>
+        <framesPerImage>10</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>4092</imageWidth>
+            <pixelWidth>2.09</pixelWidth>
+            <imageHeight>5760</imageHeight>
+            <pixelHeight>2.09</pixelHeight>
+        </dimensions>
+        <details>camera orientation: rotation by 90, flipped around y axis</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Projections of reconstructed tomograms using AreTomo2</name>
+        <directory>/data/projections</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>510</imageWidth>
+            <pixelWidth>16.72</pixelWidth>
+            <imageHeight>720</imageHeight>
+            <pixelHeight>16.72</pixelHeight>
+        </dimensions>
+        <details>Automatically XY projections from AreTomo2 reconstructions of all tomograms for screening tilt series content.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Montages of lamellae and grids collected by SPACEtomo</name>
+        <directory>/data/montages</directory>
+        <category>stitched maps</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4092</imageWidth>
+            <pixelWidth>18.9</pixelWidth>
+            <imageHeight>5760</imageHeight>
+            <pixelHeight>18.9</pixelHeight>
+        </dimensions>
+        <details>Montages of lamellae of varying sizes and full grids collected automatically by SPACEtomo</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Meta information in form of mdoc files for all tilt series</name>
+        <directory>/data/mdocs</directory>
+        <category>tilt series</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>41</numImagesOrTiltSeries>
+        <framesPerImage>10</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>2.09</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>2.09</pixelHeight>
+        </dimensions>
+        <details>All mdoc files (unsorted) without dose information. Dose was 4.35 e/A^2/tilt.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

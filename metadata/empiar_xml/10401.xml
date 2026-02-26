@@ -1,0 +1,102 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10401" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-04-29</depositionDate>
+            <releaseDate>2020-12-09</releaseDate>
+            <updateDate>2021-02-12</updateDate>
+        </keyDates>
+        <title>SA-like and SD-like states of human 26S Proteasome with non-cleavable M1-linked hexaubiquitin and E3 ubiquitin ligase E6AP/UBE3A</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-7590-2891</authorORCID>
+            <firstName>Kylie</firstName>
+            <middleName>J</middleName>
+            <lastName>Walters</lastName>
+            <organization type="academic">Structural Biophysics Laboratory, Center for Cancer Research, National Cancer Institute</organization>
+            <street>Bldg. 538/Room 167, 1050 Boyle Street</street>
+            <townOrCity>Frederick</townOrCity>
+            <stateOrProvince>MD</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>21702</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-7590-2891</authorORCID>
+            <firstName>Kylie</firstName>
+            <middleName>J</middleName>
+            <lastName>Walters</lastName>
+            <organization type="academic">Structural Biophysics Laboratory, Center for Cancer Research, National Cancer Institute</organization>
+            <street>Bldg. 538/Room 167, 1050 Boyle Street</street>
+            <townOrCity>Frederick</townOrCity>
+            <stateOrProvince>MD</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>21702</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-0036-0212">Chen X</author>
+            <author authorORCID="0000-0001-7590-2891">Walters KJ</author>
+        </authorsList>
+        <datasetSize units="GB">330.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10401</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-21691</emdbEntry>
+            <emdbEntry>EMD-21696</emdbEntry>
+            <emdbEntry>EMD-21704</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-0036-0212" order="1">Chen X</author>
+                    <author order="2">Dorris Z</author>
+                    <author order="3">Shi D</author>
+                    <author order="4">Huang RK</author>
+                    <author order="5">Khant H</author>
+                    <author order="6">Fox T</author>
+                    <author order="7">de Val N</author>
+                    <author order="8">Williams D</author>
+                    <author order="9">Zhang P</author>
+                    <author authorORCID="0000-0001-7590-2891" order="10">Walters KJ</author>
+                    <title>Cryo-EM Reveals Unanchored M1-Ubiquitin Chain Binding at hRpn11 of the 26S Proteasome</title>
+                    <journal>Structure (London, England : 1993)</journal>
+                    <journalAbbreviation>Structure</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>11</issue>
+                    <volume>28</volume>
+                    <firstPage>1206</firstPage>
+                    <lastPage>1217.e4</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.str.2020.07.011</externalReferences>
+                    <externalReferences type="pubmed">32783951</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion-corrected single frame micrographs of human 26S Proteasome with non-cleavable M1-linked hexaubiquitin and E3 ubiquitin ligase E6AP/UBE3A</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6216</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.365</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.365</pixelHeight>
+        </dimensions>
+        <details>Each micrograph is averaged from drift-corrected 40 frames with an accumulated dose of 36.64 electrons/anstrom^2. The single-particle datasets have been classified into two classes of conformation: SA-like and SD-like.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/XC__*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Picked_particles_processed_classified_conformations/picked_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Picked_particles_processed_classified_conformations</pickedParticlesDirectory>
+    </imageSet>
+</entry>

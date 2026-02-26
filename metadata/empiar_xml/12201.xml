@@ -1,0 +1,131 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12201" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-11-14</depositionDate>
+            <releaseDate>2024-08-29</releaseDate>
+            <updateDate>2024-08-29</updateDate>
+        </keyDates>
+        <title>The Prothrombin-Prothrombinase Interaction</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-2300-4891</authorORCID>
+            <firstName>Enrico</firstName>
+            <lastName>Di Cera</lastName>
+            <organization type="academic">St. Louis University</organization>
+            <street>1100 S Grand</street>
+            <townOrCity>St. Louis</townOrCity>
+            <stateOrProvince>MO</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>63104</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-2300-4891</authorORCID>
+            <firstName>Enrico</firstName>
+            <lastName>Di Cera</lastName>
+            <organization type="academic">St. Louis University</organization>
+            <street>1100 S Grand</street>
+            <townOrCity>St. Louis</townOrCity>
+            <stateOrProvince>MO</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>63104</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-2016-5369">Stojanovski BM</author>
+            <author authorORCID="0000-0001-7227-3663">Mohammed BM</author>
+            <author authorORCID="0000-0003-2748-5530">Ruben EA</author>
+            <author authorORCID="0000-0002-0566-2076">Summers B</author>
+            <author authorORCID="0000-0001-5170-2000">Rau MJ</author>
+            <author authorORCID="0000-0002-7907-3602">Fitzpatrick JAJ</author>
+            <author authorORCID="0000-0003-2300-4891">Di Cera E</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>National Institutes of Health/National Heart, Lung, and Blood Institute (NIH/NHLBI)</fundingBody>
+                <code>HL049413, HL139554, HL147821</code>
+                <country>United States</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Childrens Discovery Institute of Washington University and St. Louis Childrens Hospital</fundingBody>
+                <code>CDI-CORE-2019-813</code>
+                <country>United States</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Foundation for Barnes-Jewish Hospital</fundingBody>
+                <code>3770</code>
+                <country>United States</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">149.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12201</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-42405</emdbEntry>
+            <emdbEntry>EMD-26061</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <nonJournalCitation published="true">
+                    <author authorORCID="0000-0002-2016-5369" order="1">Stojanovski BM</author>
+                    <author authorORCID="0000-0001-7227-3663" order="2">Mohammed BM</author>
+                    <author authorORCID="0000-0003-2300-4891" order="3">Di Cera E</author>
+                    <bookTitle>Macromolecular Protein Complexes V: Structure and Function</bookTitle>
+                    <volume>104</volume>
+                    <publisher>SpringerLink</publisher>
+                    <publicationLocation></publicationLocation>
+                    <country></country>
+                    <firstPage>409</firstPage>
+                    <lastPage>423</lastPage>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1007/978-3-031-58843-3_15</externalReferences>
+                    <externalReferences type="pubmed">38963494</externalReferences>
+                </nonJournalCitation>
+            </universalCitation>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-2748-5530" order="1">Ruben EA</author>
+                    <author authorORCID="0000-0002-0566-2076" order="2">Summers B</author>
+                    <author authorORCID="0000-0001-5170-2000" order="3">Rau MJ</author>
+                    <author authorORCID="0000-0002-7907-3602" order="4">Fitzpatrick JAJ</author>
+                    <author authorORCID="0000-0003-2300-4891" order="5">Di Cera E</author>
+                    <title>Cryo-EM structure of the prothrombin-prothrombinase complex</title>
+                    <journal>Blood</journal>
+                    <journalAbbreviation>Blood</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>24</issue>
+                    <volume>139</volume>
+                    <firstPage>3463</firstPage>
+                    <lastPage>3473</lastPage>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1182/blood.2022015807</externalReferences>
+                    <externalReferences type="pubmed">35427420</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Patch_aligned_doseweighted micrographs</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2390</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.94</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.94</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

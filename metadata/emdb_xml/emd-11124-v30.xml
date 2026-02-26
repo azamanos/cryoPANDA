@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_10/emdb.xsd" emdb_id="EMD-11124" version="3.0.1.10">
+    <admin>
+        <current_status>
+            <date>2020-10-14</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-06-04</deposition>
+            <header_release>2020-08-19</header_release>
+            <map_release>2020-08-19</map_release>
+            <update>2020-10-14</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Swedish Research Council</funding_body>
+                <code>349-2007-8732</code>
+                <country>Sweden</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Knut and Alice Wallenberg Foundation</funding_body>
+                <code>2011.0148</code>
+                <country>Sweden</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Swedish Research Council</funding_body>
+                <code>621-2014-4460</code>
+                <country>Sweden</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-electron tomogram after FIB-milling of Tuwongella immobilis, a species of the Planctomycetes phylum (high magnification, 33 000x)</title>
+        <authors_list>
+            <author>Seeger C</author>
+            <author>Andersson SGE</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Mahajan M</author>
+                    <author order="2">Seeger C</author>
+                    <author order="3">Yee B</author>
+                    <author order="4">Andersson SGE</author>
+                    <title>Evolutionary Remodeling of the Cell Envelope in Bacteria of the Planctomycetes Phylum.</title>
+                    <journal_abbreviation>Genome Biol Evol</journal_abbreviation>
+                    <volume>12</volume>
+                    <first_page>1528</first_page>
+                    <last_page>1548</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32761170</external_references>
+                    <external_references type="DOI">doi:10.1093/gbe/evaa159</external_references>
+                    <external_references type="ISSN">1759-6653</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-11025</emdb_id>
+                <relationship>
+                    <other>unknown</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-11057</emdb_id>
+                <relationship>
+                    <other>unknown</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-11074</emdb_id>
+                <relationship>
+                    <other>unknown</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-11073</emdb_id>
+                <relationship>
+                    <other>unknown</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-11025</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>cryo-electron tomogram of same species obtained at lower magnification</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-11057</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>cryo-electron tomogram of same species obtained at lower magnification</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-11124</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-11074</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-11073</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Tuwongella immobilis, whole cell cryo-electron tomogram after FIB-milling.</name>
+        <supramolecule_list>
+            <cell_supramolecule supramolecule_id="1">
+                <name>Tuwongella immobilis, whole cell cryo-electron tomogram after FIB-milling.</name>
+                <parent>0</parent>
+                <details>Whole cell tomogram of Tuwongella immobilis revealing the invaginated cytoplasmic membrane, which is characteristic for many members of the phylum Planctomycetes.</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="692036">Tuwongella immobilis</organism>
+                </natural_source>
+            </cell_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>tomography</method>
+            <aggregation_state>cell</aggregation_state>
+            <specimen_preparation_list>
+                <tomography_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                        <component>
+                            <concentration units="mmol/L">10.0</concentration>
+                            <name>Na-phosphate</name>
+                        </component>
+                        <details>10 mM Na-phosphate buffer, pH 7.4, 0.2 microm filtered. DO NOT use salt or any other components that increase osmolarity!</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/1</model>
+                        <material>GOLD</material>
+                        <mesh>200</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <atmosphere>AIR</atmosphere>
+                            <pressure units="kPa">101.325</pressure>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">293</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>Blot time: 6s, blot force: -5, wait time: 15s, 293K, 100% humidity. </details>
+                    </vitrification>
+                    <details>Bacterial cells grown on M1 agar plates at 32degrees celsius and kept at 20degress celsius until vitrification</details>
+                    <cryo_protectant>No</cryo_protectant>
+                    <sectioning>
+                        <other_sectioning>NO SECTIONING</other_sectioning>
+                    </sectioning>
+                </tomography_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <tomography_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>OTHER</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">70.0</c2_aperture_diameter>
+                    <nominal_magnification>33000.0</nominal_magnification>
+                    <calibrated_magnification>33000.0</calibrated_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <temperature>
+                        <temperature_min units="K">93.0</temperature_min>
+                    </temperature>
+                    <specialist_optics>
+                        <energy_filter>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <details>Before tilt series acquisition, cryo focused ion beam (FIB) milling with gallium ion source was performed on a FEI Dual beam Scios (Thermo Fisher Scientific, Netherlands). Autogrids with vitrified cells were mounted onto a dedicated cryo holder and transferred onto a cooled (93K) cryo stage in the dual beam microscope. The lamellae were prepared with two parallel rectangular patterns at both sides (top and bottom) of the cells, at milling angle of 10-15deg, accelerating voltage of 30 kV and ion currents between 30-300 pA. The final thickness of the lamella (milled at the lowest ion current) was about 150-300 nm.</details>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <number_real_images>61</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">1.64</average_electron_dose_per_image>
+                            <details>Total dose tilt series: 100e-/angstrom; number of tilts: 61; dose per tilt: 1.64 e-/angstrom: motion correction for the acquired tilt series was performed by using motioncor2 of the IMOD package</details>
+                        </image_recording>
+                    </image_recording_list>
+                </tomography_microscopy>
+            </microscopy_list>
+            <tomography_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <algorithm>BACK PROJECTION</algorithm>
+                    <software_list>
+                        <software>
+                            <name>IMOD</name>
+                            <version>4.9.10</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>61</number_images_used>
+                </final_reconstruction>
+            </tomography_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="5567442">
+        <file>emd_11124.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS SIGNED BYTE</data_type>
+        <dimensions>
+            <col>3838</col>
+            <row>3710</row>
+            <sec>391</sec>
+        </dimensions>
+        <origin>
+            <col>15</col>
+            <row>-15</row>
+            <sec>15</sec>
+        </origin>
+        <spacing>
+            <x>3838</x>
+            <y>3710</y>
+            <z>391</z>
+        </spacing>
+        <cell>
+            <a units="Å">16772.059</a>
+            <b units="Å">16212.699</b>
+            <c units="Å">1708.6699</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-20</minimum>
+            <maximum>11</maximum>
+            <average>-3.8185735</average>
+            <std>1.6227262</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">4.3699994</x>
+            <y units="Å">4.37</y>
+            <z units="Å">4.37</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-11124::::</label>
+        <annotation_details>Cryo-electron tomogram after FIB-milling of Tuwongella immobilis, a Planctomycetes species</annotation_details>
+    </map>
+</emd>

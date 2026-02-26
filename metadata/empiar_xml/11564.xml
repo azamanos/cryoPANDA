@@ -1,0 +1,114 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11564" schemaVersion="0.63" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-03-07</depositionDate>
+            <releaseDate>2023-07-25</releaseDate>
+            <updateDate>2023-07-25</updateDate>
+        </keyDates>
+        <title>AP2 bound to MSPE3D1 lipid nanodisc with tyrosine cargo peptide</title>
+        <correspondingAuthor private="true">
+            <firstName>Richard</firstName>
+            <middleName>Wayne</middleName>
+            <lastName>Baker</lastName>
+            <organization type="academic">University of North Carolina at Chapel Hill</organization>
+            <townOrCity>Chapel Hill</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>27599</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Richard</firstName>
+            <middleName>Wayne</middleName>
+            <lastName>Baker</lastName>
+            <organization type="academic">University of North Carolina at Chapel Hill</organization>
+            <townOrCity>Chapel Hill</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>27599</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-1136-6000">Baker RW</author>
+            <author authorORCID="0000-0002-6648-3442">Cannon KS</author>
+            <author authorORCID="0000-0003-3816-2470">Sarsam R</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">1.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11564</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-16804</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-6648-3442" order="1">Cannon KS</author>
+                    <author authorORCID="0000-0003-3816-2470" order="2">Sarsam RD</author>
+                    <author order="3">Tedamrongwanish T</author>
+                    <author authorORCID="0009-0000-0280-4174" order="4">Zhang K</author>
+                    <author authorORCID="0000-0003-1136-6000" order="5">Baker RW</author>
+                    <title>Lipid nanodiscs as a template for high-resolution cryo-EM structures of peripheral membrane proteins</title>
+                    <journal>Journal of structural biology</journal>
+                    <journalAbbreviation>J Struct Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>3</issue>
+                    <volume>215</volume>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.jsb.2023.107989</externalReferences>
+                    <externalReferences type="pubmed">37364761</externalReferences>
+                </journalCitation>
+            </universalCitation>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author authorORCID="0000-0002-6648-3442" order="1">Cannon KS</author>
+                    <author authorORCID="0000-0003-3816-2470" order="2">Sarsam RD</author>
+                    <author order="3">Tedamrongwanish T</author>
+                    <author authorORCID="0009-0000-0280-4174" order="4">Zhang K</author>
+                    <author authorORCID="0000-0003-1136-6000" order="5">Baker RW</author>
+                    <title>Lipid nanodiscs as a template for high-resolution cryo-EM structures of peripheral membrane proteins</title>
+                    <journal>bioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <year>2023</year>
+                    <externalReferences type="doi">10.1101/2023.03.07.531120</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned, dose-weighted micrographs of the AP2 clathrin adaptor bound to an MSPE3D1 nanodisc with embedded tyrosine cargo</name>
+        <directory>/data/Data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>12075</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.88</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.88</pixelHeight>
+        </dimensions>
+        <details>This is a dataset of the AP2 clathrin adaptor bound to an MSP1E3D1 nanodisc with an embedded cargo peptide. Included are aligned and dose weighted micrographs from cryoSPARC.
+
+Total micrographs: 12,075
+Pixel Size: 0.88 Ang
+Magnification = 45,000
+Dose rate: 12.86 e-/pix/s
+Exposure Time: 2.71638 seconds
+Total dose: 45.1 e-/A2</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

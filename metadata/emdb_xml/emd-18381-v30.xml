@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_2/emdb.xsd" version="3.0.9.2" emdb_id="EMD-18381">
+    <admin>
+        <current_status>
+            <date>2024-04-03</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-09-04</deposition>
+            <header_release>2024-02-21</header_release>
+            <map_release>2024-02-21</map_release>
+            <update>2024-04-03</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Wellcome Trust</funding_body>
+                <code>222531/Z/21/Z</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council (BBSRC)</funding_body>
+                <code>BB/T008172/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>677623</code>
+                <country>European Union</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Medical Research Council (MRC, United Kingdom)</funding_body>
+                <code>MC_UU_00018/3</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>UFL1 E3 ligase bound 60S ribosome</title>
+        <authors_list>
+            <author>Makhlouf L</author>
+            <author>Zeqiraj E</author>
+            <author>Kulathu Y</author>
+        </authors_list>
+        <keywords>UFM1, Ligase, Ribosome, Complex</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Makhlouf L</author>
+                    <author order="2">Peter JJ</author>
+                    <author order="3">Magnussen HM</author>
+                    <author order="4">Thakur R</author>
+                    <author ORCID="0000-0002-8041-0151" order="5">Millrine D</author>
+                    <author order="6">Minshull TC</author>
+                    <author order="7">Harrison G</author>
+                    <author order="8">Varghese J</author>
+                    <author order="9">Lamoliatte F</author>
+                    <author ORCID="0000-0001-9132-4737" order="10">Foglizzo M</author>
+                    <author ORCID="0000-0002-6745-183X" order="11">Macartney T</author>
+                    <author ORCID="0000-0003-2437-7761" order="12">Calabrese AN</author>
+                    <author ORCID="0000-0003-0239-5926" order="13">Zeqiraj E</author>
+                    <author ORCID="0000-0002-3274-1642" order="14">Kulathu Y</author>
+                    <title>The UFM1 E3 ligase recognizes and releases 60S ribosomes from ER translocons.</title>
+                    <journal_abbreviation>Nature</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>627</volume>
+                    <first_page>437</first_page>
+                    <last_page>444</last_page>
+                    <year>2024</year>
+                    <external_references type="PUBMED">38383789</external_references>
+                    <external_references type="DOI">doi:10.1038/s41586-024-07093-w</external_references>
+                    <external_references type="ISSN">1476-4687</external_references>
+                    <external_references type="CSD">0006</external_references>
+                    <external_references type="ASTM">NATUAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8qfc</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>UFM1 ribosome E3 ligase complex bound to 60S ribosome</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>UFM1 ribosome E3 ligase complex bound to 60S ribosome</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>60S ribosomal protein L10a</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024879421999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSSKVSRDTLYEAVREVLHGNQRKRRKFLETVELQISLKNYDPQKDKRFSGTVRLKSTPRPKFSVCVLGDQQHCDEAKAV
+DIPHMDIEALKKLNKNKKLVKKLAKKYDAFLASESLIKQIPRILGPGLNKAGKFPSLLTHNENMVAKVDEVKSTIKFQMK
+KVLCLAVAVGHVKMTDDELVYNIHLAVNFLVSLLKKNWQNVRALYIKSTMGKPQRLY</string>
+                    <external_references type="UNIPROTKB">P62906</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>E3 UFM1-protein ligase 1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.091591234</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGHHHHHHENLYFQGMADAWEEIRRLAADFQRAQFAEATQRLSERNCIEIVNKLIAQKQLEVVHTLDGKEYITPAQISKE
+MRDELHVRGGRVNIVDLQQVINVDLIHIENRIGDIIKSEKHVQLVLGQLIDENYLDRLAEEVNDKLQESGQVTISELCKT
+YDLPGNFLTQALTQRLGRIISGHIDLDNRGVIFTEAFVARHKARIRGLFSAITRPTAVNSLISKYGFQEQLLYSVLEELV
+NSGRLRGTVVGGRQDKAVFVPDIYSRTQSTWVDSFFRQNGYLEFDALSRLGIPDAVSYIKKRYKTTQLLFLKAACVGQGL
+VDQVEASVEEAISSGTWVDIAPLLPTSLSVEDAAILLQQVMRAFSKQASTVVFSDTVVVSEKFINDCTELFRELMHQKAE
+KEMKNNPVHLITEEDLKQISTLESVSTSKKDKKDERRRKATEGSGSMRGGGGGNAREYKIKKVKKKGRKDDDSDDESQSS
+HTGKKKPEISFMFQDEIEDFLRKHIQDAPEEFISELAEYLIKPLNKTYLEVVRSVFMSSTTSASGTGRKRTIKDLQEEVS
+NLYNNIRLFEKGMKFFADDTQAALTKHLLKSVCTDITNLIFNFLASDLMMAVDDPAAITSEIRKKILSKLSEETKVALTK
+LHNSLNEKSIEDFISCLDSAAEACDIMVKRGDKKRERQILFQHRQALAEQLKVTEDPALILHLTSVLLFQFSTHSMLHAP
+GRCVPQIIAFLNSKIPEDQHALLVKYQGLVVKQLVSQSKKTGQGDYPLNNELDKEQEDVASTTRKELQELSSSIKDLVLK
+SRKSSVTEE</string>
+                    <external_references type="UNIPROTKB">O94874</external_references>
+                </sequence>
+                <ec_number>2.3.2.-</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>CDK5 regulatory subunit-associated protein 3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.057458938</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GPLVDMEDHQHVPIDIQTSKLLDWLVDRRHCSLKWQSLVLTIREKINAAIQDMPESEEIAQLLSGSYIHYFHCLRILDLL
+KGTEASTKNIFGRYSSQRMKDWQEIIALYEKDNTYLVELSSLLVRNVNYEIPSLKKQIAKCQQLQQEYSRKEEECQAGAA
+EMREQFYHSCKQYGITGENVRGELLALVKDLPSQLAEIGAAAQQSLGEAIDVYQASVGFVCESPTEQVLPMLRFVQKRGN
+STVYEWRTGTEPSVVERPHLEELPEQVAEDAIDWGDFGVEAVSEGTDSGISAEAAGIDWGIFPESDSKDPGGDGIDWGDD
+AVALQITVLEAGTQAPEGVARGPDALTLLEYTETRNQFLDELMELEIFLAQRAVELSEEADVLSVSQFQLAPAILQGQTK
+EKMVTMVSVLEDLIGKLTSLQLQHLFMILASPRYVDRVTEFLQQKLKQSQLLALKKELMVQKQQEALEEQAALEPKLDLL
+LEKTKELQKLIEADISKRYSGRPVNLMGTSL</string>
+                    <external_references type="UNIPROTKB">Q96JB5</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>DDRGK domain-containing protein 1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.034644444999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MWSHPQFEKLEVLFQGPASAGQEPLHNEELAGAGRVAQPGPLEPEEPRAGGRPRRRRDLGSRLQAQRRAQRVAWAEADEN
+EEEAVILAQEEEGVEKPAETHLSGKIGAKKLRKLEEKQARKAQREAEEAEREERKRLESQREAEWKKEEERLRLEEEQKE
+EEERKAREEQAQREHEEYLKLKEAFVVEEEGVGETMTEEQSQSFLTEFINYIKQSKVVLLEDLASQVGLRTQDTINRIQD
+LLAEGTITGVIDDRGKFIYITPEELAAVANFIRQRGRVSIAELAQASNSLIAWGRESPAQAPA</string>
+                    <external_references type="UNIPROTKB">Q96HY6</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>Ubiquitin-fold modifier 1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009236628</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GPGSMSKVSFKITLTSDPRLPYKVLSVPESTPFTAVLKFAAEEFKVPAATSAIITNDGIGINPAQTAGNVFLKHGSELRI
+IPRDRVG</string>
+                    <external_references type="UNIPROTKB">A0A8C2YGR4</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">7.7</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <details>25 mM HEPES pH 7.5, 50 mM KCl, 5 mM MgCl2, 2 mM DTT</details>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.2</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.0</nominal_defocus_max>
+                    <nominal_magnification>165000.0</nominal_magnification>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>TFS Selectris X</name>
+                            <slit_width units="eV">10</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>59394</number_real_images>
+                            <average_exposure_time units="s">2.67</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">33.4</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE">
+                    <details>Model generated ab intio.</details>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.2</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>299008</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="813190">
+        <file>emd_18381.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>588</col>
+            <row>588</row>
+            <sec>588</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>588</x>
+            <y>588</y>
+            <z>588</z>
+        </spacing>
+        <cell>
+            <a units="Å">435.12</a>
+            <b units="Å">435.12</b>
+            <c units="Å">435.12</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.0017910122</minimum>
+            <maximum>1.9982334</maximum>
+            <average>0.00035842624</average>
+            <std>0.011887603</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.74</x>
+            <y units="Å">0.74</y>
+            <z units="Å">0.74</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.03</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-18381::::</label>
+        <annotation_details>DeepEMhancer map.</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_18381_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="813190">
+                <file>emd_18381_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>588</col>
+                    <row>588</row>
+                    <sec>588</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>588</x>
+                    <y>588</y>
+                    <z>588</z>
+                </spacing>
+                <cell>
+                    <a units="Å">435.12</a>
+                    <b units="Å">435.12</b>
+                    <c units="Å">435.12</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.011942109</minimum>
+                    <maximum>0.034612093</maximum>
+                    <average>0.000023718267</average>
+                    <std>0.0004137934</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.74</x>
+                    <y units="Å">0.74</y>
+                    <z units="Å">0.74</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-18381::::</label>
+                <annotation_details>Raw map.</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="813190">
+                <file>emd_18381_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>588</col>
+                    <row>588</row>
+                    <sec>588</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>588</x>
+                    <y>588</y>
+                    <z>588</z>
+                </spacing>
+                <cell>
+                    <a units="Å">435.12</a>
+                    <b units="Å">435.12</b>
+                    <c units="Å">435.12</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.013766915</minimum>
+                    <maximum>0.0370295</maximum>
+                    <average>0.000023741877</average>
+                    <std>0.0004396191</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.74</x>
+                    <y units="Å">0.74</y>
+                    <z units="Å">0.74</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-18381::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="813190">
+                <file>emd_18381_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>588</col>
+                    <row>588</row>
+                    <sec>588</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>588</x>
+                    <y>588</y>
+                    <z>588</z>
+                </spacing>
+                <cell>
+                    <a units="Å">435.12</a>
+                    <b units="Å">435.12</b>
+                    <c units="Å">435.12</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.0142488815</minimum>
+                    <maximum>0.03825577</maximum>
+                    <average>0.000023694673</average>
+                    <std>0.00044080382</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.74</x>
+                    <y units="Å">0.74</y>
+                    <z units="Å">0.74</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-18381::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

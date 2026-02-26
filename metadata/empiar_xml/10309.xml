@@ -1,0 +1,136 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10309" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-07-01</depositionDate>
+            <releaseDate>2019-11-15</releaseDate>
+            <updateDate>2019-11-15</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of the adenosine A2A receptor coupled to an engineered heterotrimeric G protein</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-2008-9183</authorORCID>
+            <firstName>Christopher</firstName>
+            <lastName>Tate</lastName>
+            <organization type="academic">MRC laboratory of molecular biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-2008-9183</authorORCID>
+            <firstName>Christopher</firstName>
+            <lastName>Tate</lastName>
+            <organization type="academic">MRC laboratory of molecular biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-4254-3148">Garcia-Nafria J</author>
+            <author>Lee Y</author>
+            <author>Bai X</author>
+            <author>Carpenter B</author>
+            <author authorORCID="0000-0002-2008-9183">Tate CG</author>
+        </authorsList>
+        <datasetSize units="TB">1.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10309</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-4390</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-4254-3148" order="1">García-Nafría J</author>
+                    <author order="2">Lee Y</author>
+                    <author order="3">Bai X</author>
+                    <author authorORCID="0000-0003-1712-3528" order="4">Carpenter B</author>
+                    <author authorORCID="0000-0002-2008-9183" order="5">Tate CG</author>
+                    <title>Cryo-EM structure of the adenosine A2A receptor coupled to an engineered heterotrimeric G protein</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation>Elife</journalAbbreviation>
+                    <country></country>
+                    <volume>7</volume>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.7554/eLife.35946</externalReferences>
+                    <externalReferences type="pubmed">29726815</externalReferences>
+                    <details>Unaligned movies collected on Titan Krios with VPP and Falcon3.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs</name>
+        <directory>/data/Movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>827</numImagesOrTiltSeries>
+        <framesPerImage>75</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>75</frameRangeMax>
+        </frameRange>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.07</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.07</pixelHeight>
+        </dimensions>
+        <details>Unaligned movies from Falcon3 in the counting mode. The files from EPU were compressed into the TIFF format by mrc2tif command in IMOD. During this process, the pixel size in the header was reset to 1.0 A/px. The true pixel size is 1.07 A/px.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Micelle subtracted particles</name>
+        <directory>/data/Subtracted</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>128002</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>150</imageWidth>
+            <pixelWidth>1.07</pixelWidth>
+            <imageHeight>150</imageHeight>
+            <pixelHeight>1.07</pixelHeight>
+        </dimensions>
+        <details>Particle images after subtraction of the micelle density.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particles before subtraction</name>
+        <directory>/data/Non-subtracted</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>128002</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>150</imageWidth>
+            <pixelWidth>1.07</pixelWidth>
+            <imageHeight>150</imageHeight>
+            <pixelHeight>1.07</pixelHeight>
+        </dimensions>
+        <details>Particle images before subtraction of the micelle density.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

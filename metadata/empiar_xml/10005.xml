@@ -1,0 +1,138 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10005" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2013-10-25</depositionDate>
+            <releaseDate>2013-12-04</releaseDate>
+            <updateDate>2016-01-19</updateDate>
+        </keyDates>
+        <title>TRPV1 dataset taken on a K2 direct electron detector</title>
+        <correspondingAuthor private="true">
+            <firstName>Yifan</firstName>
+            <lastName>Cheng</lastName>
+            <organization type="academic">University of California San Francisco</organization>
+            <townOrCity>San Francisco</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>94158-2517</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Yifan</firstName>
+            <lastName>Cheng</lastName>
+            <organization type="academic">University of California San Francisco</organization>
+            <townOrCity>San Francisco</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>94158-2517</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Liao M</author>
+            <author>Cao E</author>
+            <author>Julius D</author>
+            <author>Cheng Y</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2015-07-13</date>
+                <statusCode>REL</statusCode>
+                <details>Added two datasets - raw multi-frame micrographs and summed-frame micrographs</details>
+            </version>
+            <version>
+                <versionNumber>2</versionNumber>
+                <date>2015-12-04</date>
+                <statusCode>REL</statusCode>
+                <details>Corrected the resolution of "TRPV1 raw multi-frame micrographs" image set to be 0.6078 ‎Å instead of 1.2156 ‎Å</details>
+            </version>
+            <version>
+                <versionNumber>3</versionNumber>
+                <date>2016-01-18</date>
+                <statusCode>REL</statusCode>
+                <details>Added picked_coordinates directory to micrographs</details>
+            </version>
+            <version>
+                <versionNumber>4</versionNumber>
+                <date>2016-01-19</date>
+                <statusCode>REL</statusCode>
+                <details>Moved picked_coordinates directory so that it is under micrographs/summed_frames and updated annotation for picked coordinates</details>
+            </version>
+        </versionHistory>
+        <datasetSize units="TB">6.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10005</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-5778</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>TRPV1 picked particles</name>
+        <directory>/data/particles</directory>
+        <category>tilt series</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>35645</numImagesOrTiltSeries>
+        <framesPerImage>30</framesPerImage>
+        <frameRange>
+            <frameRangeMin>3</frameRangeMin>
+            <frameRangeMax>16</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.2156</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.2156</pixelHeight>
+        </dimensions>
+        <details>(1)
+"tv1_f01-30.mrc" contains the particles from summing frame 1 to 30.
+"tv1_f03-16.mrc" contains the particles from summing frame 3 to 16.
+All particles are boxed after motion correction. The particles are normalized (mean=0, standard deviation=1), and also contrast-inverted (white particles with black ground).
+"tv1_relion_data.star" is the final output of RELION auto-refine, containing all particle information.
+            
+(2)
+30 particle stacks in MRC format, named as "f01.mrc", "f02.mrc", etc., store all frames of all particles. For example, "f01.mrc" contains the 1st frame of each particle, and "f02.mrc" contains the 2nd frame of each particle. These particles are boxed after motion-correction, and a direct sum should generate particles as those in "tv1_f01-30.mrc", except that the particles in "f??.mrc" are not normalized and are in original contrast (black particle with white background).</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>TRPV1 raw multi-frame micrographs</name>
+        <directory>/data/micrographs/movie_frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>966</numImagesOrTiltSeries>
+        <framesPerImage>30</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>0.6078</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>0.6078</pixelHeight>
+        </dimensions>
+        <details>These files are named stack_0001.mrc -&gt; stack_0966.mrc</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>TRPV1 summed frame micrographs</name>
+        <directory>/data/micrographs/summed_frames</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>966</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.2156</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.2156</pixelHeight>
+        </dimensions>
+        <details>These files are named stack_0001_2x_SumCorr.mrc -&gt; stack_0966_2x_SumCorr.mrc
+The picked particle coordinates can be found in:
+micrographs/summed_frames/picked_coordinates
+They correspond to 3x binned images, so the values need to be multiplied by 3 to correspond to the unbinned image.
+The TRPV1_coords_88915 folder reflects the initial particles that were selected for further processing. The TRPV1_coords_35645 one relates to the final particles used to obtain the high-resolution map (meaning: we initially extracted 88915 particles, then post 2d and 3d classification we proceeded to minimize the stack by subselecting the final group of particles from “star” files -&gt; the 35645 particles).
+</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

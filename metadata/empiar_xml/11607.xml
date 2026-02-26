@@ -1,0 +1,181 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11607" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-06-28</depositionDate>
+            <releaseDate>2024-11-08</releaseDate>
+            <updateDate>2024-11-08</updateDate>
+        </keyDates>
+        <title>Automethylated PRC2 dimer bound to nucleosome</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-7204-5863</authorORCID>
+            <firstName>Paul</firstName>
+            <middleName>Victor</middleName>
+            <lastName>Sauer</lastName>
+            <organization type="academic">QB3 Institute, University of California, Berkeley, CA, USA</organization>
+            <townOrCity>Berkeley</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94720</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8304-4062</authorORCID>
+            <firstName>Simon</firstName>
+            <lastName>Poepsel</lastName>
+            <organization type="academic">Center for Molecular Medicine Cologne (CMMC) University of Cologne</organization>
+            <street>Robert-Koch-Str. 21</street>
+            <townOrCity>Cologne</townOrCity>
+            <country>Germany</country>
+            <postOrZipCode>50931</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-9816-3681</authorORCID>
+            <firstName>Eva</firstName>
+            <lastName>Nogales</lastName>
+            <organization type="academic">Molecular and Cell Biology Department, UC Berkeley</organization>
+            <townOrCity>Berkeley</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94720</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-7204-5863">Sauer PV</author>
+            <author authorORCID="0000-0003-0293-052X">Pavlenko E</author>
+            <author authorORCID="0000-0001-9816-3681">Nogales E</author>
+            <author authorORCID="0000-0002-8304-4062">Poepsel S</author>
+            <author authorORCID="0000-0002-5145-7508">Cookis T</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">1.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11607</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-41110</emdbEntry>
+            <emdbEntry>EMD-41141</emdbEntry>
+            <emdbEntry>EMD-41146</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-7204-5863" order="1">Sauer PV</author>
+                    <author order="2">Pavlenko E</author>
+                    <author order="3">Cookis T</author>
+                    <author order="4">Zirden LC</author>
+                    <author order="5">Renn J</author>
+                    <author order="6">Singhal A</author>
+                    <author order="7">Hunold P</author>
+                    <author order="8">Hoehne-Wiechmann MN</author>
+                    <author order="9">van Ray O</author>
+                    <author order="10">Kaschani F</author>
+                    <author order="11">Kaiser M</author>
+                    <author order="12">Hänsel-Hertsch R</author>
+                    <author order="13">Sanbonmatsu KY</author>
+                    <author order="14">Nogales E</author>
+                    <author order="15">Poepsel S</author>
+                    <title>Activation of automethylated PRC2 by dimerization on chromatin</title>
+                    <journal>Molecular cell</journal>
+                    <journalAbbreviation>Mol Cell</journalAbbreviation>
+                    <country></country>
+                    <year>2024</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.molcel.2024.08.025</externalReferences>
+                    <externalReferences type="pubmed">39303719</externalReferences>
+                    <details>Micrographs of datasets 1,2 and 4 from the paper. PRC2 dimer bound to nucleosome, PRC2 monomer bound to nucleosome, PRC2-J119-450 monomer bound to H1-nucleosome</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Dataset1, automethylated PRC2 dimer bound to nucleosome, motion corrected, dose weighted, streptavidin subtracted</name>
+        <directory>/data/Dataset1_PRC2dimer</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3894</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.15</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.15</pixelHeight>
+        </dimensions>
+        <details>Motion corrected, dose weighted, streptavidin subtracted, dose 40 electron per square angstrom</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dataset2, automethylated PRC2 dimer bound to nucleosome, motion corrected, dose weighted, streptavidin subtracted</name>
+        <directory>/data/Dataset2_PRC2dimer</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4062</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.15</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.15</pixelHeight>
+        </dimensions>
+        <details>Motion corrected, dose weighted, streptavidin subtracted, dose 40 electron per square angstrom</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dataset4, PRC2_J119-450 bound to H1-nucleosome, motion corrected, dose weighted, streptavidin subtracted</name>
+        <directory>/data/Dataset4_PRC2-J119-450_H1nuc</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>14470</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4092</imageWidth>
+            <pixelWidth>0.94</pixelWidth>
+            <imageHeight>5760</imageHeight>
+            <pixelHeight>0.94</pixelHeight>
+        </dimensions>
+        <details>Motion corrected, dose weighted, streptavidin subtracted, dose 50 electron per square angstrom</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dataset3, H1 bound to nucleosome</name>
+        <directory>/data/Dataset3_H1-Nuc</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2236</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4092</imageWidth>
+            <pixelWidth>1.14</pixelWidth>
+            <imageHeight>5760</imageHeight>
+            <pixelHeight>1.14</pixelHeight>
+        </dimensions>
+        <details>The sample used here was PRC2 (EZH2, SUZ12,EED, RBAP48, AEBP2, but without Jarid2) together with H1.0 bound to nucleosome. However it didn't form a complex. Instead, this dataset yielded a structure of H1.0 bound to nucleosome alone. In addition, the quality of the streptavidin lattice was not good, so the subtraction was incomplete. Therefore, when processing this dataset there might be leftovers of streptavidin appearing in the 2D classes. This dataset was recorded on a Talos Arctica at 200kV with a dose of 50 electrons per square Angstrom.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

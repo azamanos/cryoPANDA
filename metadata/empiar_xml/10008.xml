@@ -1,0 +1,77 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10008" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2014-02-20</depositionDate>
+            <releaseDate>2014-02-21</releaseDate>
+            <updateDate>2014-02-21</updateDate>
+        </keyDates>
+        <title>Low-contrast particle stack for HIV-1 Env gp160 precursor (MRC stack)</title>
+        <correspondingAuthor private="true">
+            <firstName>Youdong</firstName>
+            <lastName>Mao</lastName>
+            <organization type="academic">Dana-Farber Cancer Institute</organization>
+            <townOrCity>Boston</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>02215</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Joseph</firstName>
+            <lastName>Sodroski</lastName>
+            <organization type="academic">Dana-Farber Cancer Institute</organization>
+            <townOrCity>Boston</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>02215</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Mao Y</author>
+            <author>Wang L</author>
+            <author>Gu C</author>
+            <author>Herschhorn A</author>
+            <author>Desormeaux A</author>
+            <author>Finzi A</author>
+            <author>Xiang SH</author>
+            <author>Sodroski JG</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2015-10-27</date>
+                <statusCode>REL</statusCode>
+                <details>Restructured the entry directory to have "data" and ".private".</details>
+            </version>
+        </versionHistory>
+        <datasetSize units="GB">38.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10008</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-5447</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>U115</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>124478</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>0.74688</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>0.74688</pixelHeight>
+        </dimensions>
+        <details>U115dataset.mrcs: This is the particle set with the original pixel size. It is a subset of the larger dataset deposited as the *.dat SPIDER stack files (10007).
+U115D2dataset.mrcs: this was the particle stack used to reproduce the refinement in RELION starting from a Gaussian sphere. The dataset was two-fold binned from U115dataset.mrcs.
+
+We made minor modifications to the RELION version 1.1 source code.
+The purpose of these changes was two-fold: 1) to avoid pre-mature progression to finer angular sampling for images of lower contrast than those tested during the development of the original software, and 2) to solve a file resource interlocking issue that arises when a greater number of parallel nodes is employed. Three modifications were made in the file "ml_optimiser.cpp", as follows: (i) The function global_mutex.lock() was added at line 2220, global_mutex.unlock() at line 2242; (ii) 0.75 was changed to 0.05 at line 4684, allowing the finer angular sampling of lower contrast images in autoAdjustAngularSampling(); and (iii) Line 4656 was changed to "max_nr_iter_wo_resol_gain = (do_split_random_halves) ? 0 : 6" in autoAdjustAngularSampling(). These changes are not essential for successful refinement when one follows the author’s suggestion of starting from a 60-Å low-pass filtered model.
+However, we found the changes to be critical for successful refinement when a Gaussian sphere was used as a starting model.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

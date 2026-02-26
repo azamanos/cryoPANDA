@@ -1,0 +1,241 @@
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" emdb_id="EMD-1200" version="3.0.1.1" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+   <admin>
+      <current_status>
+         <code>REL</code>
+         <processing_site>PDBe</processing_site>
+      </current_status>
+      <sites>
+         <deposition>PDBe</deposition>
+         <last_processing>PDBe</last_processing>
+      </sites>
+      <key_dates>
+         <deposition>2006-02-28</deposition>
+         <header_release>2006-03-01</header_release>
+         <map_release>2006-07-01</map_release>
+         <update>2011-05-26</update>
+      </key_dates>
+      <title>Automated cryoEM data acquisition and analysis of 284742 particles of GroEL.</title>
+      <authors_list>
+         <author>Stagg SM</author>
+         <author>Pulokas J</author>
+         <author>Fellmann D</author>
+         <author>Cheng A</author>
+         <author>Quispe JD</author>
+         <author>Mallick SP</author>
+         <author>Avila RM</author>
+         <author>Carragher B</author>
+         <author>Potter CS</author>
+      </authors_list>
+      <keywords>
+         </keywords>
+   </admin>
+   <crossreferences>
+      <citation_list>
+         <primary_citation>
+            <journal_citation published="true">
+               <author order="1">Stagg SM</author>
+               <author order="2">Lander GC</author>
+               <author order="3">Pulokas J</author>
+               <author order="4">Fellmann D</author>
+               <author order="5">Cheng A</author>
+               <author order="6">Quispe JD</author>
+               <author order="7">Mallick SP</author>
+               <author order="8">Avila RM</author>
+               <author order="9">Carragher B</author>
+               <author order="10">Potter CS</author>
+               <title>Automated cryoEM data acquisition and analysis of 284742 particles of GroEL.</title>
+               <journal>J.STRUCT.BIOL.</journal>
+               <volume>155</volume>
+               <first_page>470</first_page>
+               <last_page>481</last_page>
+               <year>2006</year>
+               <external_references type="PUBMED">16762565</external_references>
+               <external_references type="DOI">doi:10.1016/j.jsb.2006.04.005</external_references>
+            </journal_citation>
+         </primary_citation>
+      </citation_list>
+   </crossreferences>
+   <sample>
+      <name>E.coli GroEL</name>
+      <supramolecule_list>
+         <sample_supramolecule supramolecule_id="1000">
+            <name>E.coli GroEL</name>
+            <oligomeric_state>homotetradecamer</oligomeric_state>
+            <number_unique_components>1</number_unique_components>
+            <molecular_weight>
+               <experimental units="MDa">0.800</experimental>
+               <theoretical units="MDa">0.800</theoretical>
+               <method>Calculated molecular weight from sequence</method>
+            </molecular_weight>
+         </sample_supramolecule>
+      </supramolecule_list>
+      <macromolecule_list>
+         <protein_or_peptide macromolecule_id="1">
+            <name>GroEL</name>
+            <natural_source database="NCBI">
+               <organism ncbi="562">Escherichia coli</organism>
+               <synonym_organism>E.coli</synonym_organism>
+               <cellular_location>cytosol</cellular_location>
+            </natural_source>
+            <molecular_weight>
+               <experimental units="MDa">0.800</experimental>
+               <theoretical units="MDa">0.800</theoretical>
+            </molecular_weight>
+            <number_of_copies>14</number_of_copies>
+            <oligomeric_state>homotetradecamer</oligomeric_state>
+            <recombinant_exp_flag>true</recombinant_exp_flag>
+            <recombinant_expression database="NCBI">
+               <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+            </recombinant_expression>
+            <sequence>
+               </sequence>
+         </protein_or_peptide>
+      </macromolecule_list>
+   </sample>
+   <structure_determination_list>
+      <structure_determination structure_determination_id="1">
+         <method>singleParticle</method>
+         <aggregation_state>particle</aggregation_state>
+         <specimen_preparation_list>
+            <single_particle_preparation preparation_id="1">
+               <concentration units="mg/mL">3.2</concentration>
+               <buffer>
+                  <ph>7.5</ph>
+                  <details>100mM Hepes, 10mM Mg(OAc)2, 10mM KOAc, 2mM DTT</details>
+               </buffer>
+               <grid>
+                  <details>Protochips C-flat grid: holey carbon with
+        2um       holes and 2um spacing 400 mesh copper grid</details>
+               </grid>
+               <vitrification>
+                  <cryogen_name>ETHANE</cryogen_name>
+                  <chamber_humidity units="percentage">100</chamber_humidity>
+                  <chamber_temperature units="K">93</chamber_temperature>
+                  <instrument>OTHER</instrument>
+                  <details>Vitrification instrument: FEI Vitrobot. Grid plasma cleaned for 20s with Fischione 1020 plasma cleaner using 75% Argon 25% Oxygen mix.</details>
+                  <method>Temperature of chamber was 4 degrees C. 0 seconds
+        drain time.       Single blot. 0 mm offset. 4 ul sample
+        applied to grid. Blot for       3.5 seconds before plunging.</method>
+               </vitrification>
+            </single_particle_preparation>
+         </specimen_preparation_list>
+         <microscopy_list>
+            <single_particle_microscopy microscopy_id="1">
+               <microscope>FEI TECNAI F20</microscope>
+               <illumination_mode>FLOOD BEAM</illumination_mode>
+               <imaging_mode>BRIGHT FIELD</imaging_mode>
+               <electron_source>FIELD EMISSION GUN</electron_source>
+               <acceleration_voltage units="kV">120</acceleration_voltage>
+               <nominal_cs units="mm">2</nominal_cs>
+               <nominal_defocus_min units="&#181;m">0.5</nominal_defocus_min>
+               <nominal_defocus_max units="&#181;m">2.28</nominal_defocus_max>
+               <nominal_magnification>50000.0</nominal_magnification>
+               <specimen_holder_model>GATAN LIQUID NITROGEN</specimen_holder_model>
+               <temperature>
+                  <temperature_average units="K">94</temperature_average>
+               </temperature>
+               <alignment_procedure>
+                  <legacy>
+                     <astigmatism>objective lens astigmatism was corrected at
+        50,000X magnification</astigmatism>
+                  </legacy>
+               </alignment_procedure>
+               <date>2005-05-19</date>
+               <image_recording_list>
+                  <image_recording>
+                     <film_or_detector_model category="CCD">GATAN ULTRASCAN 4000 (4k x 4k)</film_or_detector_model>
+                     <number_real_images>552</number_real_images>
+                     <average_electron_dose_per_image units="e/&#8491;^2">11.5</average_electron_dose_per_image>
+                     <bits_per_pixel>16.</bits_per_pixel>
+                  </image_recording>
+               </image_recording_list>
+               <specimen_holder>Gatan 626 side entry cryo-stage</specimen_holder>
+               <tilt_angle_min>0</tilt_angle_min>
+               <tilt_angle_max>0</tilt_angle_max>
+            </single_particle_microscopy>
+         </microscopy_list>
+         <singleparticle_processing image_processing_id="1">
+            <details>The images were acquired using  the Leginon
+          automated       data       aquisition system. The particles
+          were       automatically selected using       the Selexon
+          package. The       CTF was automatically estimated using the
+          ACE package</details>
+            <ctf_correction>
+               <details>Phase correction for each particle. Amplitude
+        correction for the final volume</details>
+            </ctf_correction>
+            <final_reconstruction>
+               <applied_symmetry>
+                  <point_group>D7</point_group>
+               </applied_symmetry>
+               <algorithm>OTHER</algorithm>
+               <resolution res_type="BY AUTHOR" units="&#8491;">7.8</resolution>
+               <resolution_method>FSC 0.5 CUT-OFF</resolution_method>
+               <software_list>
+                  <software>
+                     <name>EMAN</name>
+                  </software>
+               </software_list>
+               <number_images_used>158390</number_images_used>
+            </final_reconstruction>
+            <final_two_d_classification>
+               <number_classes>333</number_classes>
+            </final_two_d_classification>
+         </singleparticle_processing>
+      </structure_determination>
+   </structure_determination_list>
+   <map format="CCP4" size_kbytes="5489">
+      <file>emd_1200.map.gz</file>
+      <symmetry>
+         <space_group>1</space_group>
+      </symmetry>
+      <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+      <dimensions>
+         <col>112</col>
+         <row>112</row>
+         <sec>112</sec>
+      </dimensions>
+      <origin>
+         <col>-56</col>
+         <row>-56</row>
+         <sec>-56</sec>
+      </origin>
+      <spacing>
+         <x>112</x>
+         <y>112</y>
+         <z>112</z>
+      </spacing>
+      <cell>
+         <a units="&#8491;">253.456</a>
+         <b units="&#8491;">253.456</b>
+         <c units="&#8491;">253.456</c>
+         <alpha units="deg">90</alpha>
+         <beta units="deg">90</beta>
+         <gamma units="deg">90</gamma>
+      </cell>
+      <axis_order>
+         <fast>X</fast>
+         <medium>Y</medium>
+         <slow>Z</slow>
+      </axis_order>
+      <statistics>
+         <minimum>-5.45532</minimum>
+         <maximum>7.65301</maximum>
+         <average>-0.000000000562777</average>
+         <std>0.735104</std>
+      </statistics>
+      <pixel_spacing>
+         <x units="&#8491;">2.263</x>
+         <y units="&#8491;">2.263</y>
+         <z units="&#8491;">2.263</z>
+      </pixel_spacing>
+      <contour_list>
+         <contour primary="true">
+            <level>1.84</level>
+         </contour>
+      </contour_list>
+      <annotation_details>This is a three-dimensional volume of GroEL
+      reconstructed to 7.8 Angstroms resolution</annotation_details>
+      <details>::::EMDATABANK.org::::EMD-1200::::</details>
+   </map>
+</emd>

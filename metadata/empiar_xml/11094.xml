@@ -1,0 +1,87 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11094" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-06-29</depositionDate>
+            <releaseDate>2022-07-27</releaseDate>
+            <updateDate>2022-07-27</updateDate>
+        </keyDates>
+        <title>PMCA-amplified α-synuclein fibrils, Parkinson's Disease patient-derived seeds</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0003-3378-0683</authorORCID>
+            <firstName>James</firstName>
+            <middleName>Alexander</middleName>
+            <lastName>Geraets</lastName>
+            <organization type="academic">Forschungszentrum Jülich</organization>
+            <townOrCity>Jülich</townOrCity>
+            <country>Germany</country>
+            <postOrZipCode>52425</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0003-1803-5431</authorORCID>
+            <firstName>Gunnar</firstName>
+            <middleName>F</middleName>
+            <lastName>Schröder</lastName>
+            <organization type="academic">Forschungszentrum Jülich</organization>
+            <townOrCity>Jülich</townOrCity>
+            <country>Germany</country>
+            <postOrZipCode>52425</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-7877-0262">Frieg B</author>
+            <author authorORCID="0000-0003-3378-0683">Geraets JA</author>
+            <author authorORCID="0000-0003-1803-5431">Schröder GF</author>
+        </authorsList>
+        <datasetSize>595.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11094</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-13123</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="true">
+                    <author authorORCID="0000-0002-7877-0262" order="1">Frieg B</author>
+                    <author authorORCID="0000-0003-3378-0683" order="2">Geraets JA</author>
+                    <author order="3">Strohäker T</author>
+                    <author order="4">Dienemann C</author>
+                    <author authorORCID="0000-0002-5460-2336" order="5">Mavroeidi P</author>
+                    <author order="6">Jung BC</author>
+                    <author order="7">Kim WS</author>
+                    <author order="8">Lee SJ</author>
+                    <author authorORCID="0000-0001-7038-0780" order="9">Xilouri M</author>
+                    <author authorORCID="0000-0002-2536-6581" order="10">Zweckstetter M</author>
+                    <author authorORCID="0000-0003-1803-5431" order="11">Schröder GF</author>
+                    <title>Quaternary structure of patient-homogenate amplified α-synuclein fibrils modulates seeding of endogenous α-synuclein</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned averages of PMCA-amplified α-synuclein fibrils, Parkinson's Disease patient-derived seeds</name>
+        <directory>/data/Micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6780</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.05</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.05</pixelHeight>
+        </dimensions>
+        <details>Provided are aligned average micrographs collected on a Titan Krios at 300kV with a K3 detector operating in non-superresolution counting mode. Applied defocus values ranged from −0.7 to −2.9 µm. MotionCor2 was used to align 40 dose fractions that were taken with a total electron dose of ~42.7e-/Å². Coordinates provided are of start-end pairs, for helical segmentation and extraction.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Micrographs/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Coordinates/*_manualpick.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Coordinates/</pickedParticlesDirectory>
+    </imageSet>
+</entry>

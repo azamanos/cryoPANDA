@@ -1,0 +1,122 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10160" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-01-03</depositionDate>
+            <releaseDate>2018-04-03</releaseDate>
+            <updateDate>2018-04-03</updateDate>
+        </keyDates>
+        <title>Conformational Dynamics of human Bact spliceosome</title>
+        <correspondingAuthor private="true">
+            <firstName>David</firstName>
+            <lastName>Haselbach</lastName>
+            <organization type="academic">Max-Planck-Institute for biophysical Chemistry</organization>
+            <street>Am Faßberg 11</street>
+            <townOrCity>Göttingen</townOrCity>
+            <stateOrProvince>Niedersachsen</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>37077</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Holger</firstName>
+            <lastName>Stark</lastName>
+            <organization type="academic">Max-Planck-Institute for biophysical Chemistry</organization>
+            <street>Am Faßberg 11</street>
+            <townOrCity>Göttingen</townOrCity>
+            <stateOrProvince>Niedersachsen</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>37077</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Haselbach D</author>
+            <author>Stark H</author>
+        </authorsList>
+        <datasetSize units="TB">2.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10160</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-4233</emdbEntry>
+            <emdbEntry>EMD-4234</emdbEntry>
+            <emdbEntry>EMD-4235</emdbEntry>
+            <emdbEntry>EMD-4236</emdbEntry>
+            <emdbEntry>EMD-4237</emdbEntry>
+            <emdbEntry>EMD-4238</emdbEntry>
+            <emdbEntry>EMD-4239</emdbEntry>
+            <emdbEntry>EMD-4240</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Haselbach D</author>
+                    <author order="2">Komarov I</author>
+                    <author order="3">Agafonov DE</author>
+                    <author order="4">Hartmuth K</author>
+                    <author order="5">Graf B</author>
+                    <author order="6">Dybkov O</author>
+                    <author order="7">Urlaub H</author>
+                    <author order="8">Kastner B</author>
+                    <author order="9">Lührmann R</author>
+                    <author order="10">Stark H</author>
+                    <title>Structure and Conformational Dynamics of the Human Spliceosomal Bact Complex</title>
+                    <journal>Cell</journal>
+                    <journalAbbreviation>Cell</journalAbbreviation>
+                    <country></country>
+                    <issue>3</issue>
+                    <volume>172</volume>
+                    <firstPage>454</firstPage>
+                    <lastPage>464.e11</lastPage>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.cell.2018.01.010</externalReferences>
+                    <externalReferences type="pubmed">29361316</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>aligned and summed micrograph stack of human Bact spliceosome</name>
+        <directory>/data/database_alisum</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>22814</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.16</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.16</pixelHeight>
+        </dimensions>
+        <details>summed and aligned but not dose weighted frames, recorded with 40 electrons per squared angstroem </details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>aligned, dose-weighted and summed micrograph stack of human Bact spliceosome </name>
+        <directory>/data/database_weightsum</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>22814</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.16</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.16</pixelHeight>
+        </dimensions>
+        <details>summed, aligned and dose weighted frames, recorded with 40 electrons per squared angstroem </details>
+        <segmentationList/>
+    </imageSet>
+</entry>

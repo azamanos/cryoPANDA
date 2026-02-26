@@ -1,0 +1,132 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10313" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-08-20</depositionDate>
+            <releaseDate>2020-02-07</releaseDate>
+            <updateDate>2020-02-07</updateDate>
+        </keyDates>
+        <title>Cryo-EM reconstructions of tau filaments in chronic traumatic encephalopathy</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0462-6540</authorORCID>
+            <firstName>Sjors</firstName>
+            <lastName>Scheres</lastName>
+            <organization type="academic">MRC Laboratory of Molecular Biology</organization>
+            <townOrCity>Cambridge</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0462-6540</authorORCID>
+            <firstName>Sjors</firstName>
+            <lastName>Scheres</lastName>
+            <organization type="academic">MRC Laboratory of Molecular Biology</organization>
+            <townOrCity>Cambridge</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8176-2618</authorORCID>
+            <firstName>Benjamin</firstName>
+            <lastName>Falcon</lastName>
+            <organization type="academic">MRC Laboratory of Molecular Biology</organization>
+            <townOrCity>Cambridge</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-8176-2618">Falcon B</author>
+            <author>Zivanov J</author>
+            <author authorORCID="0000-0002-3011-9956">Zhang W</author>
+            <author>Murzin AG</author>
+            <author>Garringer HJ</author>
+            <author>Vidal R</author>
+            <author>Crowther RA</author>
+            <author>Newell KL</author>
+            <author>Ghetti B</author>
+            <author authorORCID="0000-0002-5214-7886">Goedert M</author>
+            <author authorORCID="0000-0002-0462-6540">Scheres SHW</author>
+        </authorsList>
+        <datasetSize units="TB">9.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10313</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-0527</emdbEntry>
+            <emdbEntry>EMD-0528</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-8176-2618" order="1">Falcon B</author>
+                    <author order="2">Zivanov J</author>
+                    <author authorORCID="0000-0002-3011-9956" order="3">Zhang W</author>
+                    <author order="4">Murzin AG</author>
+                    <author order="5">Garringer HJ</author>
+                    <author order="6">Vidal R</author>
+                    <author order="7">Crowther RA</author>
+                    <author order="8">Newell KL</author>
+                    <author order="9">Ghetti B</author>
+                    <author authorORCID="0000-0002-5214-7886" order="10">Goedert M</author>
+                    <author authorORCID="0000-0002-0462-6540" order="11">Scheres SHW</author>
+                    <title>Novel tau filament fold in chronic traumatic encephalopathy encloses hydrophobic molecules</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <issue>7752</issue>
+                    <volume>568</volume>
+                    <firstPage>420</firstPage>
+                    <lastPage>423</lastPage>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41586-019-1026-5</externalReferences>
+                    <externalReferences type="pubmed">30894745</externalReferences>
+                    <details>Aligned and dose-weight sums, gain normalised movies and particle coordinates.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Raw Movies</name>
+        <directory>/data/Movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>5420</numImagesOrTiltSeries>
+        <framesPerImage>45</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.055</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.055</pixelHeight>
+        </dimensions>
+        <details>The dose rate is 1.23 electrons / A^2 / frame.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned Micrographs</name>
+        <directory>/data/AlignedMicrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5420</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.055</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.055</pixelHeight>
+        </dimensions>
+        <details>Aligned and dose-weighted sums. Particle positions are in the particles.star files.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/AlignedMicrographs/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Type*_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data</pickedParticlesDirectory>
+    </imageSet>
+</entry>

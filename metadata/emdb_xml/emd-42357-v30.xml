@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-42357">
+    <admin>
+        <current_status>
+            <date>2025-01-15</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-10-16</deposition>
+            <header_release>2024-10-23</header_release>
+            <map_release>2024-10-23</map_release>
+            <update>2025-01-15</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Not funded</funding_body>
+            </grant_reference>
+        </grant_support>
+        <title>Cholinephosphotransferase in complex with diacylglycerol</title>
+        <authors_list>
+            <author>Roberts JR</author>
+            <author>Maeda S</author>
+            <author>Ohi MD</author>
+        </authors_list>
+        <keywords>lipid metabolism, phospholipid synthesis, membrane protein enzyme, choline metabolism, MEMBRANE PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Roberts JR</author>
+                    <author order="2">Horibata Y</author>
+                    <author order="3">Kwarcinski FE</author>
+                    <author order="4">Lam V</author>
+                    <author order="5">Raczkowski AM</author>
+                    <author order="6">Hubbard A</author>
+                    <author order="7">White B</author>
+                    <author order="8">Sugimoto H</author>
+                    <author order="9">Tall GG</author>
+                    <author order="10">Ohi MD</author>
+                    <author order="11">Maeda S</author>
+                    <title>Structural basis for catalysis and selectivity of phospholipid synthesis by eukaryotic choline-phosphotransferase.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>16</volume>
+                    <first_page>111</first_page>
+                    <last_page>111</last_page>
+                    <year>2025</year>
+                    <external_references type="PUBMED">39747155</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-024-55673-1</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8ul9</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Saccharomyces cerevisiae CDP-choline phosphotransferase in complex with diacyl-glycerol</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Saccharomyces cerevisiae CDP-choline phosphotransferase in complex with diacyl-glycerol</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                </natural_source>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>nanobody24</name>
+                <parent>1</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="9844">Lama glama</organism>
+                </natural_source>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>yCPT1</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Cholinephosphotransferase 1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.044147277</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>(ACE)GFFIPQSSLGNLKLYKYQSDDRSFLSNHVLRPFWRKFATIFPLWMAPNLVTLLGFCFIIFNVLTTLYYDPYFDQE
+SPRWTYFSYAIGLFLYQTFDACDGMHARRTGQQGPLGELFDHCIDSINTTLSMIPVCSMTGMGYTYMTIFSQFAILCSFY
+LSTWEEYHTHKLYLAEFCGPVEGIIVLCISFIAVGIYGPQTIWHTKVAQFSWQDFVFDVETVHLMYAFCTGALIFNIVTA
+HTNVVRYYESQSTKSATPSKTAENISKAVNGLLPFFAYFSSIFTLVLIQPSFISLALILSIGFSVAFVVGRMIIAHLTMQ
+PFPMVNFPFLIPTIQLVLYAFMVYVLDYQKGSIVSALVWMGLGLTLAIHGMFINDIIYDITTFLDIYALSIK</string>
+                    <external_references type="UNIPROTKB">P17898</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>MAGNESIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">2.4305e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <formula>MG</formula>
+            </ligand>
+            <ligand macromolecule_id="3">
+                <name>1,2-DIOLEOYL-SN-GLYCERO-3-PHOSPHOCHOLINE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0007871209999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>PCW</formula>
+            </ligand>
+            <ligand macromolecule_id="4">
+                <name>DIACYL GLYCEROL</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000625018</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>DGA</formula>
+            </ligand>
+            <ligand macromolecule_id="5">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">2</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>NITROGEN</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">1.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.4</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">60.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.2</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>677515</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_42357.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">276.48</a>
+            <b units="Å">276.48</b>
+            <c units="Å">276.48</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-2.7850502</minimum>
+            <maximum>4.1988897</maximum>
+            <average>-0.0011216768</average>
+            <std>0.062190752</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.08</x>
+            <y units="Å">1.08</y>
+            <z units="Å">1.08</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.345</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-42357::::</label>
+        <annotation_details>Primary Map</annotation_details>
+    </map>
+    <interpretation>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_42357_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">276.48</a>
+                    <b units="Å">276.48</b>
+                    <c units="Å">276.48</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.319533</minimum>
+                    <maximum>0.6454366</maximum>
+                    <average>0.00034972117</average>
+                    <std>0.019057365</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.08</x>
+                    <y units="Å">1.08</y>
+                    <z units="Å">1.08</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-42357::::</label>
+                <annotation_details>Half map B</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_42357_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">276.48</a>
+                    <b units="Å">276.48</b>
+                    <c units="Å">276.48</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.3423876</minimum>
+                    <maximum>0.63796383</maximum>
+                    <average>0.00035650173</average>
+                    <std>0.019084023</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.08</x>
+                    <y units="Å">1.08</y>
+                    <z units="Å">1.08</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-42357::::</label>
+                <annotation_details>Half map A</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

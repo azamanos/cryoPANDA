@@ -1,0 +1,124 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10076" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2016-10-31</depositionDate>
+            <releaseDate>2016-12-02</releaseDate>
+            <updateDate>2016-12-02</updateDate>
+        </keyDates>
+        <title>CryoEM Dataset of L17-Depleted 50S Ribosomal Intermediates</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-6656-6320</authorORCID>
+            <firstName>Yong Zi</firstName>
+            <lastName>Tan</lastName>
+            <organization type="academic">New York Structural Biology Center/Columbia University</organization>
+            <street>89 Convent Ave</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8124-7472</authorORCID>
+            <firstName>Dmitry</firstName>
+            <lastName>Lyumkis</lastName>
+            <organization type="academic">Laboratory of Genetics and Helmsley Center for Genomic Medicine, The Salk Institute for Biological Studies</organization>
+            <street>10010 North Torrey Pines Road</street>
+            <townOrCity>La Jolla</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>92037</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8772-468X</authorORCID>
+            <firstName>Williamson</firstName>
+            <middleName>R</middleName>
+            <lastName>James</lastName>
+            <organization type="academic">Department of Integrative Structural and Computational Biology, Department of Chemistry, and The Skaggs Institute for Chemical Biology, The Scripps Research Institute</organization>
+            <street>10550 North Torrey Pines Road</street>
+            <townOrCity>La Jolla</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>92037</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-8858-8907">Davis JH</author>
+            <author authorORCID="0000-0001-6656-6320">Tan YZ</author>
+            <author authorORCID="0000-0002-0624-5020">Carragher B</author>
+            <author authorORCID="0000-0002-3287-121X">Potter CS</author>
+            <author authorORCID="0000-0002-8124-7472">Lyumkis D</author>
+            <author authorORCID="0000-0002-8772-468X">Williamson JR</author>
+        </authorsList>
+        <datasetSize units="GB">50.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10076</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-8434</emdbEntry>
+            <emdbEntry>EMD-8440</emdbEntry>
+            <emdbEntry>EMD-8441</emdbEntry>
+            <emdbEntry>EMD-8442</emdbEntry>
+            <emdbEntry>EMD-8443</emdbEntry>
+            <emdbEntry>EMD-8444</emdbEntry>
+            <emdbEntry>EMD-8445</emdbEntry>
+            <emdbEntry>EMD-8446</emdbEntry>
+            <emdbEntry>EMD-8447</emdbEntry>
+            <emdbEntry>EMD-8448</emdbEntry>
+            <emdbEntry>EMD-8449</emdbEntry>
+            <emdbEntry>EMD-8450</emdbEntry>
+            <emdbEntry>EMD-8451</emdbEntry>
+            <emdbEntry>EMD-8452</emdbEntry>
+            <emdbEntry>EMD-8453</emdbEntry>
+            <emdbEntry>EMD-8455</emdbEntry>
+            <emdbEntry>EMD-8456</emdbEntry>
+            <emdbEntry>EMD-8457</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-8858-8907" order="1">Davis JH</author>
+                    <author authorORCID="0000-0001-6656-6320" order="2">Tan Y</author>
+                    <author authorORCID="0000-0002-0624-5020" order="3">Carragher B</author>
+                    <author authorORCID="0000-0002-3287-121X" order="4">Potter CS</author>
+                    <author authorORCID="0000-0002-8124-7472" order="5">Lyumkis D</author>
+                    <author authorORCID="0000-0002-8772-468X" order="6">Williamson JR</author>
+                    <title>Modular Assembly of the Bacterial Large Ribosomal Subunit</title>
+                    <journal>Cell</journal>
+                    <journalAbbreviation>Cell</journalAbbreviation>
+                    <country></country>
+                    <issue>6</issue>
+                    <volume>167</volume>
+                    <firstPage>1610</firstPage>
+                    <lastPage>1622.e15</lastPage>
+                    <year>2016</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.cell.2016.11.020</externalReferences>
+                    <details>131899 particle stack, aligned on a per-particle basis using Rubinstein's particle polishing software, exposure-weighted, not inverted, normalized. Stack contains a heterogeneous mixture of particles primarily comprising assembling 50S ribosomal subunits. </details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Particle stack of L17-depleted 50S Ribosomal Assembly Intermediates</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>131899</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>1</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>320</imageWidth>
+            <pixelWidth>1.31</pixelWidth>
+            <imageHeight>320</imageHeight>
+            <pixelHeight>1.31</pixelHeight>
+        </dimensions>
+        <details>131899 particle stack has been obtained from 2479 images with 50 frames per image, using frames from 1 to 50, aligned on a per-particle basis using Rubinstein's particle polishing software, exposure-weighted, not inverted, normalized. Stack contains a heterogeneous mixture of particles. In order to account for highly preferred orientation of the specimen, data was acquired using tilts ranging from 10-60 degrees, in addition to untilted images at 0 degrees. Parameter file for Frealign and Relion (stack is not yet normalized to Relion format) provided.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

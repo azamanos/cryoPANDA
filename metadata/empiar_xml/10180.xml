@@ -1,0 +1,116 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10180" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-03-27</depositionDate>
+            <releaseDate>2018-05-30</releaseDate>
+            <updateDate>2018-08-30</updateDate>
+        </keyDates>
+        <title>Structure of a pre-catalytic spliceosome</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0462-6540</authorORCID>
+            <firstName>Sjors</firstName>
+            <middleName>HW</middleName>
+            <lastName>Scheres</lastName>
+            <organization type="academic">MRC laboratory of Molecular Biology</organization>
+            <street>Francis Crick Avenue, Cambridge Biomedical Campus</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0462-6540</authorORCID>
+            <firstName>Sjors</firstName>
+            <middleName>HW</middleName>
+            <lastName>Scheres</lastName>
+            <organization type="academic">MRC laboratory of Molecular Biology</organization>
+            <street>Francis Crick Avenue, Cambridge Biomedical Campus</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Plaschka C</author>
+            <author>Lin PC</author>
+            <author authorORCID="0000-0003-1785-6510">Nagai K</author>
+            <author authorORCID="0000-0003-2697-2767">Nakane T</author>
+            <author authorORCID="0000-0002-2662-6373">Kimanius D</author>
+            <author authorORCID="0000-0002-2734-2794">Lindahl E</author>
+            <author authorORCID="0000-0002-0462-6540">Scheres SHW</author>
+        </authorsList>
+        <datasetSize units="GB">126.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10180</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-3682</emdbEntry>
+            <emdbEntry>EMD-3683</emdbEntry>
+            <emdbEntry>EMD-3684</emdbEntry>
+            <emdbEntry>EMD-3685</emdbEntry>
+            <emdbEntry>EMD-3686</emdbEntry>
+            <emdbEntry>EMD-3687</emdbEntry>
+            <emdbEntry>EMD-3688</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Plaschka C</author>
+                    <author order="2">Lin PC</author>
+                    <author authorORCID="0000-0003-1785-6510" order="3">Nagai K</author>
+                    <title>Structure of a pre-catalytic spliceosome</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <issue>7660</issue>
+                    <volume>546</volume>
+                    <firstPage>617</firstPage>
+                    <lastPage>621</lastPage>
+                    <year>2017</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/nature22799</externalReferences>
+                    <externalReferences type="pubmed">28530653</externalReferences>
+                </journalCitation>
+            </universalCitation>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-2697-2767" order="1">Nakane T</author>
+                    <author authorORCID="0000-0002-2662-6373" order="2">Kimanius D</author>
+                    <author authorORCID="0000-0002-2734-2794" order="3">Lindahl E</author>
+                    <author authorORCID="0000-0002-0462-6540" order="4">Scheres SH</author>
+                    <title>Characterisation of molecular motions in cryo-EM single-particle data by multi-body refinement in RELION</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation>Elife</journalAbbreviation>
+                    <country>United Kingdom</country>
+                    <volume>7</volume>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.7554/eLife.36861</externalReferences>
+                    <externalReferences type="pubmed">29856314</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Polished parcitles</name>
+        <directory>/data</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>327490</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>320</imageWidth>
+            <pixelWidth>1.699</pixelWidth>
+            <imageHeight>320</imageHeight>
+            <pixelHeight>1.699</pixelHeight>
+        </dimensions>
+        <details>Shiny particles after particle polishing used for the Nature paper were further down-sampled to 1.699 Å/px and windowed to 320 px. These particles were used in the Multibody paper.
+
+The particle STAR file after consensus refinement, masks and initial references for four bodies and a body STAR file are also included. Readers can reproduce the multibody refinement in the paper using these inputs.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

@@ -1,0 +1,88 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12097" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-05-26</depositionDate>
+            <releaseDate>2024-06-13</releaseDate>
+            <updateDate>2024-06-13</updateDate>
+        </keyDates>
+        <title>Particle stack from SARS-CoV-2 (wuhan variant) Spike protein in complex with the single chain fragment scFv76-77 single particle cryo-EM data</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-3287-9024</authorORCID>
+            <firstName>Antonio</firstName>
+            <lastName>Chaves-Sanjuan</lastName>
+            <organization type="academic">Department of Biosciences, University of Milan</organization>
+            <street>Via Celoria 26</street>
+            <townOrCity>Milano</townOrCity>
+            <country>Italy</country>
+            <postOrZipCode>20133</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-3287-9024</authorORCID>
+            <firstName>Antonio</firstName>
+            <lastName>Chaves-Sanjuan</lastName>
+            <organization type="academic">Department of Biosciences, University of Milan</organization>
+            <street>Via Celoria 26</street>
+            <townOrCity>Milano</townOrCity>
+            <country>Italy</country>
+            <postOrZipCode>20133</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-3287-9024">Chaves-Sanjuan A</author>
+            <author authorORCID="0009-0004-6877-2020">Berlinguer M</author>
+            <author authorORCID="0000-0002-9253-5170">Bolognesi M</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Other private</fundingBody>
+                <code>Alfasigma S.p.A.</code>
+                <country>Italy</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">304.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12097</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-50417</emdbEntry>
+            <emdbEntry>EMD-50418</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0003-3287-9024" order="1">Chaves-Sanjuan A</author>
+                    <author authorORCID="0009-0004-6877-2020" order="2">Berlinguer M</author>
+                    <author authorORCID="0000-0002-9253-5170" order="3">Bolognesi M</author>
+                    <title>SARS-CoV-2 (wuhan variant) Spike protein in complex with the single chain fragment scFv76-77</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <details>Particle stacks of the initial and the final set of particles used in the deposited reconstructions. The particle stack is in the /particles folder. The EMD-XXXXX_particles.star files contains the particles and are named according to the final reconstruction. The initial_particles.star file corresponds to the initial set of particles picked.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Particle stack and .star files of the initial and the final set of particles of the SARS-CoV-2 (wuhan variant) Spike protein in complex with the single chain fragment scFv76-77 data set</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>3774</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED 32 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>400</imageWidth>
+            <pixelWidth>0.889</pixelWidth>
+            <imageHeight>400</imageHeight>
+            <pixelHeight>0.889</pixelHeight>
+        </dimensions>
+        <details>The particle stack in the particle folder contains both particles of the initial set of picked particles and the final reconstruction.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles</pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,93 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10166" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-03-21</depositionDate>
+            <releaseDate>2018-03-21</releaseDate>
+            <updateDate>2018-03-21</updateDate>
+        </keyDates>
+        <title>human 26S proteasome bound to the chemotherapeutic Oprozomib</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-5276-5633</authorORCID>
+            <firstName>David</firstName>
+            <lastName>Haselbach</lastName>
+            <organization type="academic">Institute of Molecular Pathology</organization>
+            <street>Vienna Biocenter 1</street>
+            <townOrCity>Vienna</townOrCity>
+            <stateOrProvince>Vienna</stateOrProvince>
+            <country>Austria</country>
+            <postOrZipCode>1030</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Holger</firstName>
+            <lastName>Stark</lastName>
+            <organization type="academic">Max-Planck-Institute for biophysical Chemistry</organization>
+            <street>Am Faßberg 11</street>
+            <townOrCity>Göttingen</townOrCity>
+            <stateOrProvince>Niedersachsen</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>37077</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-5276-5633">Haselbach D</author>
+            <author>Schrader J</author>
+            <author>Lambrecht F</author>
+            <author authorORCID="0000-0003-3444-0947">Henneberg F</author>
+            <author authorORCID="0000-0001-6220-9828">Chari A</author>
+            <author>Stark H</author>
+        </authorsList>
+        <datasetSize units="GB">100.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10166</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-4146</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-5276-5633" order="1">Haselbach D</author>
+                    <author order="2">Schrader J</author>
+                    <author order="3">Lambrecht F</author>
+                    <author authorORCID="0000-0003-3444-0947" order="4">Henneberg F</author>
+                    <author authorORCID="0000-0001-6220-9828" order="5">Chari A</author>
+                    <author order="6">Stark H</author>
+                    <title>Long-range allosteric regulation of the human 26S proteasome by 20S proteasome-targeting cancer drugs</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <volume>8</volume>
+                    <firstPage>15578</firstPage>
+                    <lastPage>15586</lastPage>
+                    <year>2017</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/ncomms15578</externalReferences>
+                    <externalReferences type="pubmed">28541292</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Particle stack of aligned, summed and dose weighted particle images from the human 26S proteasome bound to oprozomib. </name>
+        <directory>/data</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>238631</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>0</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>336</imageWidth>
+            <pixelWidth>1.27</pixelWidth>
+            <imageHeight>336</imageHeight>
+            <pixelHeight>1.27</pixelHeight>
+        </dimensions>
+        <details>Particle stack of aligned, summed and dose weighted particle images from the human 26S proteasome bound to oprozomib. Total dose 40 electrons per Angstroem squared. Images are already inverted and normalized.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

@@ -1,0 +1,126 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11139" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-03-23</depositionDate>
+            <releaseDate>2022-08-16</releaseDate>
+            <updateDate>2022-08-18</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of the human GS-GN complex in the inhibited state</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0003-0239-5926</authorORCID>
+            <firstName>Elton</firstName>
+            <lastName>Zeqiraj</lastName>
+            <organization type="academic">Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds</organization>
+            <townOrCity>Leeds</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>LS2 9JT</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0003-0239-5926</authorORCID>
+            <firstName>Elton</firstName>
+            <lastName>Zeqiraj</lastName>
+            <organization type="academic">Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds</organization>
+            <townOrCity>Leeds</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>LS2 9JT</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-8588-7648">Marr L</author>
+            <author authorORCID="0000-0003-0990-9678">Biswas D</author>
+            <author authorORCID="0000-0001-9712-9676">Daly LA</author>
+            <author>Browning C</author>
+            <author>Vial SCM</author>
+            <author authorORCID="0000-0003-3305-258X">Maskell DP</author>
+            <author>Hudson C</author>
+            <author>Bertrand JA</author>
+            <author>Pollard J</author>
+            <author authorORCID="0000-0002-3640-5275">Ranson NA</author>
+            <author>Khatter H</author>
+            <author>Eyers CE</author>
+            <author authorORCID="0000-0001-8839-5980">Sakamoto K</author>
+            <author authorORCID="0000-0003-0239-5926">Zeqiraj E</author>
+        </authorsList>
+        <datasetSize units="TB">9.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11139</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-14587</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-8588-7648" order="1">Marr L</author>
+                    <author authorORCID="0000-0003-0990-9678" order="2">Biswas D</author>
+                    <author authorORCID="0000-0001-9712-9676" order="3">Daly LA</author>
+                    <author order="4">Browning C</author>
+                    <author order="5">Vial SCM</author>
+                    <author authorORCID="0000-0003-3305-258X" order="6">Maskell DP</author>
+                    <author order="7">Hudson C</author>
+                    <author order="8">Bertrand JA</author>
+                    <author order="9">Pollard J</author>
+                    <author authorORCID="0000-0002-3640-5275" order="10">Ranson NA</author>
+                    <author order="11">Khatter H</author>
+                    <author order="12">Eyers CE</author>
+                    <author authorORCID="0000-0001-8839-5980" order="13">Sakamoto K</author>
+                    <author authorORCID="0000-0003-0239-5926" order="14">Zeqiraj E</author>
+                    <title>Mechanism of glycogen synthase inactivation and interaction with glycogenin</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>13</volume>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-022-31109-6</externalReferences>
+                    <externalReferences type="pubmed">35690592</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multiframe movies in the EER format of the human glycogen synthase-glycogenin complex</name>
+        <directory>/data/Images-Disc1</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>EER</headerFormat>
+        <dataFormat>EER</dataFormat>
+        <numImagesOrTiltSeries>20841</numImagesOrTiltSeries>
+        <framesPerImage>896</framesPerImage>
+        <voxelType>BIT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>0.71</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>0.71</pixelHeight>
+        </dimensions>
+        <details>A dose per physical pixel/s of 4.71 was used resulting in a total dose of 34.8 e/Å2, fractionated across 128 EPU frames. This was then grouped into 21 frames, resulting in a dose per frame of 0.8 e/Å2. Micrograph file pattern: data/Images-Disc1/GridSquare_*/Data/*.eer</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned micrographs of the human glycogen synthase-glycogenin complex</name>
+        <directory>/data/job008</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>20841</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.71</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.71</pixelHeight>
+        </dimensions>
+        <details>Raw movie frames are aligned with RELION's own implementation of the MotionCor2 algorithm using an EER fractionation of 21. Micrograph file pattern: data/job008/Raw_data/*.mrc</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

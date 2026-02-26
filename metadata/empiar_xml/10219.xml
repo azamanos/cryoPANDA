@@ -1,0 +1,95 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10219" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-10-08</depositionDate>
+            <releaseDate>2018-10-23</releaseDate>
+            <updateDate>2019-09-25</updateDate>
+        </keyDates>
+        <title>Cryo-electron microscopy data of thermostabilized avian CFTR</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-1822-2384</authorORCID>
+            <firstName>Jonathan</firstName>
+            <middleName>Firoze</middleName>
+            <lastName>fay</lastName>
+            <organization type="academic">University of North Carolina Chapel Hill</organization>
+            <street>98 Manning Drive</street>
+            <townOrCity>Chapel Hill</townOrCity>
+            <stateOrProvince>NC</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>27599</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-1822-2384</authorORCID>
+            <firstName>Jonathan</firstName>
+            <middleName>Firoze</middleName>
+            <lastName>fay</lastName>
+            <organization type="academic">University of North Carolina Chapel Hill</organization>
+            <street>98 Manning Drive</street>
+            <townOrCity>Chapel Hill</townOrCity>
+            <stateOrProvince>NC</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>27599</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-1822-2384">Fay JF</author>
+        </authorsList>
+        <datasetSize units="GB">19.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10219</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-7793</emdbEntry>
+            <emdbEntry>EMD-7794</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-1822-2384" order="1">Fay JF</author>
+                    <author order="2">Aleksandrov LA</author>
+                    <author order="3">Jensen T</author>
+                    <author order="4">Cui L</author>
+                    <author order="5">Kousouros JN</author>
+                    <author order="6">He L</author>
+                    <author order="7">Aleksandrov AA</author>
+                    <author order="8">Gingerich D</author>
+                    <author order="9">Riordan JR</author>
+                    <author order="10">Chen J</author>
+                    <title>Cryo-EM visualization of an active high open probability CFTR anion channel</title>
+                    <journal>Biochemistry</journal>
+                    <journalAbbreviation>Biochemistry</journalAbbreviation>
+                    <country>United States</country>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1021/acs.biochem.8b00763</externalReferences>
+                    <externalReferences type="pubmed">30281975</externalReferences>
+                    <details>Two particle stacks and meta-data associated with entries EMD-7793 &amp; EMD-7794.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Binned Particle stacks and meta data for cryo-EM structures of phosphorylated and dephosphorylated avian CFTR</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>2</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>Binned Particle stacks and meta data for cryo-EM structures of phosphorylated and dephosphorylated avian CFTR
+7793: PPase-treated CFTR : 200x200, 30,219 images @ 1.37 A/pix 
+7794: PKA-treated CFTR : 160x160, 57,826 images @ 1.71 A/pix</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/7793.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/7793.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data</pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd emdb_id="EMD-16753" version="3.0.3.0">
+    <admin>
+        <current_status>
+            <date>2023-05-10</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-02-21</deposition>
+            <header_release>2023-05-03</header_release>
+            <map_release>2023-05-03</map_release>
+            <update>2023-05-10</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>949081</code>
+                <country>European Union</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Molecular Biology Organization (EMBO)</funding_body>
+                <code>623-2020</code>
+                <country>European Union</country>
+            </grant_reference>
+        </grant_support>
+        <title>Tomogram of purified human TREX-mRNPs</title>
+        <authors_list>
+            <author>Pacheco-Fiallos FB</author>
+            <author>Vorlaender MK</author>
+            <author>Plaschka C</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Pacheco-Fiallos B</author>
+                    <author order="2">Vorlander MK</author>
+                    <author order="3">Riabov-Bassat D</author>
+                    <author order="4">Fin L</author>
+                    <author order="5">O'Reilly FJ</author>
+                    <author order="6">Ayala FI</author>
+                    <author ORCID="0000-0002-9684-9839" order="7">Schellhaas U</author>
+                    <author ORCID="0000-0001-5999-1310" order="8">Rappsilber J</author>
+                    <author ORCID="0000-0002-6020-9514" order="9">Plaschka C</author>
+                    <title>mRNA recognition and packaging by the human transcription-export complex.</title>
+                    <journal_abbreviation>Nature</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>616</volume>
+                    <first_page>828</first_page>
+                    <last_page>835</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">37020021</external_references>
+                    <external_references type="DOI">doi:10.1038/s41586-023-05904-0</external_references>
+                    <external_references type="ISSN">1476-4687</external_references>
+                    <external_references type="CSD">0006</external_references>
+                    <external_references type="ASTM">NATUAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-16753</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>endogenous human transcription-export complex</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1" chimera="true">
+                <name>endogenous human transcription-export complex</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                    <strain>K562 cells</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>tomography</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <tomography_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.2</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">75</chamber_humidity>
+                        <chamber_temperature units="K">295</chamber_temperature>
+                    </vitrification>
+                    <sectioning>
+                        <other_sectioning>NO SECTIONING</other_sectioning>
+                    </sectioning>
+                </tomography_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <tomography_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">1.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">4.0</nominal_defocus_max>
+                    <nominal_magnification>64000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <specialist_optics>
+                        <energy_filter>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">1.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </tomography_microscopy>
+            </microscopy_list>
+            <tomography_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <software_list>
+                        <software>
+                            <name>Warp</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>61</number_images_used>
+                </final_reconstruction>
+            </tomography_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="416404">
+        <file>emd_16753.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>566</col>
+            <row>786</row>
+            <sec>234</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>566</x>
+            <y>786</y>
+            <z>234</z>
+        </spacing>
+        <cell>
+            <a units="Å">5660.0</a>
+            <b units="Å">7860.0</b>
+            <c units="Å">2340.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.20848206</minimum>
+            <maximum>0.52322316</maximum>
+            <average>-0.00067815324</average>
+            <std>0.01711818</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">10.0</x>
+            <y units="Å">10.0</y>
+            <z units="Å">10.0</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-16753::::</label>
+        <annotation_details>Reconstructed tomogram (denoised)</annotation_details>
+    </map>
+    <interpretation>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="416404">
+                <file>emd_16753_additional_4.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>566</col>
+                    <row>786</row>
+                    <sec>234</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>566</x>
+                    <y>786</y>
+                    <z>234</z>
+                </spacing>
+                <cell>
+                    <a units="Å">5660.0</a>
+                    <b units="Å">7860.0</b>
+                    <c units="Å">2340.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.43107915</minimum>
+                    <maximum>0.5523607</maximum>
+                    <average>2.2803363e-06</average>
+                    <std>0.05850757</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">10.0</x>
+                    <y units="Å">10.0</y>
+                    <z units="Å">10.0</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16753::::</label>
+                <annotation_details>Reconstructed tomogram</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="23329">
+                <file>emd_16753_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>180</col>
+                    <row>180</row>
+                    <sec>180</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>180</x>
+                    <y>180</y>
+                    <z>180</z>
+                </spacing>
+                <cell>
+                    <a units="Å">540.0</a>
+                    <b units="Å">540.0</b>
+                    <c units="Å">540.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.4013041</minimum>
+                    <maximum>0.98485535</maximum>
+                    <average>0.015097022</average>
+                    <std>0.09685351</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">3.0</x>
+                    <y units="Å">3.0</y>
+                    <z units="Å">3.0</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16753::::</label>
+                <annotation_details>Sub-tomogram average map of TREX bound to mRNPs, post-processed with mask on THOC-1, -2, -3</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="23329">
+                <file>emd_16753_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>180</col>
+                    <row>180</row>
+                    <sec>180</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>180</x>
+                    <y>180</y>
+                    <z>180</z>
+                </spacing>
+                <cell>
+                    <a units="Å">540.0</a>
+                    <b units="Å">540.0</b>
+                    <c units="Å">540.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.35596037</minimum>
+                    <maximum>0.9965483</maximum>
+                    <average>0.015097022</average>
+                    <std>0.09144167</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">3.0</x>
+                    <y units="Å">3.0</y>
+                    <z units="Å">3.0</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16753::::</label>
+                <annotation_details>Sub-tomogram average map of TREX bound to mRNPs, post-processed with mask on THOC-5, -6, -7</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="23329">
+                <file>emd_16753_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>180</col>
+                    <row>180</row>
+                    <sec>180</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>180</x>
+                    <y>180</y>
+                    <z>180</z>
+                </spacing>
+                <cell>
+                    <a units="Å">540.0</a>
+                    <b units="Å">540.0</b>
+                    <c units="Å">540.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.008197202</minimum>
+                    <maximum>0.023513626</maximum>
+                    <average>-2.6273334e-05</average>
+                    <std>0.0018909483</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">3.0</x>
+                    <y units="Å">3.0</y>
+                    <z units="Å">3.0</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16753::::</label>
+                <annotation_details>Sub-tomogram average map of TREX bound to mRNPs,  post-processed with wide mask</annotation_details>
+            </additional_map>
+        </additional_map_list>
+    </interpretation>
+</emd>

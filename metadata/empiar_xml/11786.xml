@@ -1,0 +1,127 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11786" schemaVersion="0.63" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-11-10</depositionDate>
+            <releaseDate>2023-12-11</releaseDate>
+            <updateDate>2023-12-11</updateDate>
+        </keyDates>
+        <title>SpCas9 bound to 10 nucleotide complementary DNA substrate</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-7601-210X</authorORCID>
+            <firstName>Martin</firstName>
+            <lastName>Jinek</lastName>
+            <organization type="academic">Department of Biochemistry, University of Zurich</organization>
+            <street>Winterthurerstrasse 190</street>
+            <townOrCity>Zurich</townOrCity>
+            <stateOrProvince>ZH</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>8057</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-7601-210X</authorORCID>
+            <firstName>Martin</firstName>
+            <lastName>Jinek</lastName>
+            <organization type="academic">Department of Biochemistry, University of Zurich</organization>
+            <street>Winterthurerstrasse 190</street>
+            <townOrCity>Zurich</townOrCity>
+            <stateOrProvince>ZH</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>8057</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-1560-5769">Pacesa M</author>
+            <author authorORCID="0000-0002-1805-7844">Loeff L</author>
+            <author authorORCID="0000-0003-1113-2773">Querques I</author>
+            <author authorORCID="0000-0003-3558-7211">Muckenfuss LM</author>
+            <author authorORCID="0000-0003-4589-4290">Sawicka M</author>
+            <author authorORCID="0000-0002-7601-210X">Jinek M</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Swiss National Science Foundation</fundingBody>
+                <code>31003A_182567</code>
+                <country>Switzerland</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">157.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11786</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-14500</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-1560-5769" order="1">Pacesa M</author>
+                    <author authorORCID="0000-0002-1805-7844" order="2">Loeff L</author>
+                    <author authorORCID="0000-0003-1113-2773" order="3">Querques I</author>
+                    <author authorORCID="0000-0003-3558-7211" order="4">Muckenfuss LM</author>
+                    <author authorORCID="0000-0003-4589-4290" order="5">Sawicka M</author>
+                    <author authorORCID="0000-0002-7601-210X" order="6">Jinek M</author>
+                    <title>R-loop formation and conformational activation mechanisms of Cas9</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <issue>7925</issue>
+                    <volume>609</volume>
+                    <firstPage>191</firstPage>
+                    <lastPage>196</lastPage>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41586-022-05114-0</externalReferences>
+                    <externalReferences type="pubmed">36002571</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of SpCas9 bound to 10 nucleotide complementary DNA substrate</name>
+        <directory>/data/20211005</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>597</numImagesOrTiltSeries>
+        <framesPerImage>36</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>36</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.325</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.325</pixelHeight>
+        </dimensions>
+        <details>Unaligned multi-frame movies with each containing 36 frames per movie collected at 300 kV in super-resolution counting mode. Total accumulated electron exposure on the specimen level corresponds to 66.6 electrons per Å^2. Movies are not gain corrected and the gain reference is provided. Data acquired with EPU.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/20211005/*_fractions.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Gain reference</name>
+        <directory>/data/20211005/20211004_gain_ref</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>DM4</headerFormat>
+        <dataFormat>DM4</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.325</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.325</pixelHeight>
+        </dimensions>
+        <details>Gain reference</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/20211005/20211004_gain_ref/K3-18290183 Gain Ref. x1.m1.dm4</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

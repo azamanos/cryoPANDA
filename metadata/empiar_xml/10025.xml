@@ -1,0 +1,111 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10025" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2015-02-26</depositionDate>
+            <releaseDate>2015-03-06</releaseDate>
+            <updateDate>2015-03-06</updateDate>
+        </keyDates>
+        <title>T20S Proteasome at 2.8 Å Resolution</title>
+        <correspondingAuthor private="true">
+            <firstName>Melody</firstName>
+            <lastName>Campbell</lastName>
+            <organization type="academic">Automated Molecular Imaging Group, Department of Integrative Structural and Computational Biology, The Scripps Research Institute</organization>
+            <street>10550 North Torrey Pines Road</street>
+            <townOrCity>La Jolla</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>92037</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0624-5020</authorORCID>
+            <firstName>Bridget</firstName>
+            <lastName>Carragher</lastName>
+            <organization type="academic">National Resource for Automated Molecular Microscopy, The Scripps Research Institute</organization>
+            <street>10550 North Torrey Pines Road</street>
+            <townOrCity>La Jolla</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>92037</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Campbell M</author>
+            <author>Veesler D</author>
+            <author>Cheng A</author>
+            <author>Potter CS</author>
+            <author authorORCID="0000-0002-0624-5020">Carragher B</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2015-07-01</date>
+                <statusCode>REL</statusCode>
+                <details>Added Relion star file with coordinates: data/14sep05c_raw_196/run1_shiny_mp007_data_dotstar.txt</details>
+            </version>
+        </versionHistory>
+        <datasetSize units="TB">2.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10025</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-6287</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>Raw movies</name>
+        <directory>/data/14sep05c_raw_196</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>196</numImagesOrTiltSeries>
+        <framesPerImage>38</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>7420</imageWidth>
+            <pixelWidth>0.66</pixelWidth>
+            <imageHeight>7676</imageHeight>
+            <pixelHeight>0.66</pixelHeight>
+        </dimensions>
+        <details>Super-resolution data-acquisition. dark-amibox05-0.mrc and norm-amibox05-0.mrc are used for gain correction.
+run1_shiny_mp007_data_dotstar.txt is a Relion star file with particle coordinates etc.</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Frame-averaged micrographs</name>
+        <directory>/data/14sep05c_averaged_196</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>196</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>7420</imageWidth>
+            <pixelWidth>0.66</pixelWidth>
+            <imageHeight>7676</imageHeight>
+            <pixelHeight>0.66</pixelHeight>
+        </dimensions>
+        <details>Super-resolution data-acquisition.</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Aligned multi-frame micrographs</name>
+        <directory>/data/14sep05c_aligned_196</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>196</numImagesOrTiltSeries>
+        <framesPerImage>38</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>7420</imageWidth>
+            <pixelWidth>0.66</pixelWidth>
+            <imageHeight>7676</imageHeight>
+            <pixelHeight>0.66</pixelHeight>
+        </dimensions>
+        <details>Super-resolution data-acquisition.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

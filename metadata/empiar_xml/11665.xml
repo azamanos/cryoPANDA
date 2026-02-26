@@ -1,0 +1,112 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11665" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-06-13</depositionDate>
+            <releaseDate>2024-06-13</releaseDate>
+            <updateDate>2024-06-13</updateDate>
+        </keyDates>
+        <title>Atomic structure and conformational variability of the HER2-trastuzumab-pertuzumab complex</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-9948-680X</authorORCID>
+            <firstName>Remi</firstName>
+            <middleName>Jo</middleName>
+            <lastName>Ruedas</lastName>
+            <organization type="academic">Sanofi, Integrated Drug Discovery</organization>
+            <street>13, Quai Jules Guesdes - BP 14</street>
+            <townOrCity>Vitry-sur-seine</townOrCity>
+            <stateOrProvince>Val-de-Marne</stateOrProvince>
+            <country>France</country>
+            <postOrZipCode>94403</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0921-6727</authorORCID>
+            <firstName>Stephane</firstName>
+            <lastName>Bressanelli</lastName>
+            <organization type="academic">CNRS - Institute for Integrative Biology of the Cell (I2BC)</organization>
+            <street>1 avenue de la terrasse</street>
+            <townOrCity>Gif sur yvette</townOrCity>
+            <stateOrProvince>Essonne</stateOrProvince>
+            <country>France</country>
+            <postOrZipCode>91198</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-9948-680X">Ruedas R</author>
+            <author authorORCID="0000-0003-3714-9127">Vuillemot R</author>
+            <author authorORCID="0000-0002-6490-4602">Tubiana T</author>
+            <author>Winter JM</author>
+            <author authorORCID="0000-0003-0779-9014">Pieri L</author>
+            <author authorORCID="0000-0001-6462-905X">Arteni AA</author>
+            <author>Samson C</author>
+            <author authorORCID="0000-0001-5112-2743">Jonic S</author>
+            <author authorORCID="0000-0003-4960-0632">Mathieu M</author>
+            <author authorORCID="0000-0002-0921-6727">Bressanelli S</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">207.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11665</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-17993</emdbEntry>
+            <emdbEntry>EMD-18188</emdbEntry>
+            <emdbEntry>EMD-18189</emdbEntry>
+            <emdbEntry>EMD-18190</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-9948-680X" order="1">Ruedas R</author>
+                    <author authorORCID="0000-0003-3714-9127" order="2">Vuillemot R</author>
+                    <author authorORCID="0000-0002-6490-4602" order="3">Tubiana T</author>
+                    <author order="4">Winter JM</author>
+                    <author authorORCID="0000-0003-0779-9014" order="5">Pieri L</author>
+                    <author authorORCID="0000-0001-6462-905X" order="6">Arteni AA</author>
+                    <author order="7">Samson C</author>
+                    <author authorORCID="0000-0001-5112-2743" order="8">Jonic S</author>
+                    <author authorORCID="0000-0003-4960-0632" order="9">Mathieu M</author>
+                    <author authorORCID="0000-0002-0921-6727" order="10">Bressanelli S</author>
+                    <title>Structure and conformational variability of the HER2-trastuzumab-pertuzumab complex</title>
+                    <journal>Journal of structural biology</journal>
+                    <journalAbbreviation>J Struct Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>2</issue>
+                    <volume>216</volume>
+                    <year>2024</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.jsb.2024.108095</externalReferences>
+                    <externalReferences type="pubmed">38723875</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned particles images of the flexible HER2-Trastuzumab-Pertuzumab ternary complex</name>
+        <directory>/data/extract</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>708609</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>280</imageWidth>
+            <pixelWidth>1.16</pixelWidth>
+            <imageHeight>280</imageHeight>
+            <pixelHeight>1.16</pixelHeight>
+        </dimensions>
+        <details>This the particle stack for the global reconstruction of the flexible HER2-Trastuzumab-Pertuzumab ternary complex. It allows reconstruction to an overall resolution &lt; 3.3 A. The data sign is +1, white particle on dark background. The accompanying star file is exported from the last round of global refinement in cryoSPARC v. 4.1.2, with all the CTF parameters recorded. The dataset displays considerable continuous conformational variability.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/J503_csparc2star-particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/extract</pickedParticlesDirectory>
+    </imageSet>
+</entry>

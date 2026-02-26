@@ -1,0 +1,105 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11605" schemaVersion="0.63" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-06-30</depositionDate>
+            <releaseDate>2023-08-20</releaseDate>
+            <updateDate>2023-08-20</updateDate>
+        </keyDates>
+        <title>AP2 bound to Y-cargo motif of Tgn38 in the presence of heparin</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-1136-6000</authorORCID>
+            <firstName>Richard</firstName>
+            <middleName>Wayne</middleName>
+            <lastName>Baker</lastName>
+            <organization type="academic">University of North Carolina at Chapel Hill</organization>
+            <street>3049A Genetic Medicine Bldg</street>
+            <townOrCity>Chapel Hill</townOrCity>
+            <stateOrProvince>NC</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>27599</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-1136-6000</authorORCID>
+            <firstName>Richard</firstName>
+            <middleName>Wayne</middleName>
+            <lastName>Baker</lastName>
+            <organization type="academic">University of North Carolina at Chapel Hill</organization>
+            <street>3049E Genetic Medicine Bldg</street>
+            <townOrCity>Chapel Hill</townOrCity>
+            <stateOrProvince>NC</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>27599</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-5513-088X">Partlow EA</author>
+            <author authorORCID="0000-0002-6648-3442">Cannon KS</author>
+            <author authorORCID="0000-0002-6409-0530">Hollopeter G</author>
+            <author authorORCID="0000-0003-1136-6000">Baker RW</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>National Institutes of Health (NIH)</fundingBody>
+                <code>R01GM127548</code>
+                <country>United States</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">523.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11605</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-24712</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-5513-088X" order="1">Partlow EA</author>
+                    <author authorORCID="0000-0002-6648-3442" order="2">Cannon KS</author>
+                    <author authorORCID="0000-0002-6409-0530" order="3">Hollopeter G</author>
+                    <author authorORCID="0000-0003-1136-6000" order="4">Baker RW</author>
+                    <title>Structural basis of an endocytic checkpoint that primes the AP2 clathrin adaptor for cargo internalization</title>
+                    <journal>Nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>Nat Struct Mol Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>4</issue>
+                    <volume>29</volume>
+                    <firstPage>339</firstPage>
+                    <lastPage>347</lastPage>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41594-022-00749-z</externalReferences>
+                    <externalReferences type="pubmed">35347313</externalReferences>
+                    <details>The data are motion corrected and dose-weighted micrographs from dose-fractionated stacks collected on a Talos Arctica with a K3 DED. There are 60 frames, with a pixel size of 1.155 Angstrom, and a total dose of 55 e-/A^2. These micrographs were used to determine a structure of AP2 bound to the Y-cargo motif of Tgn38 in the presence of heparin.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion corrected, dose-weighted micgrographs</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5958</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.155</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.155</pixelHeight>
+        </dimensions>
+        <details>This is a dataset of the AP2 clathrin adaptor bound to a Y-cargo motif from Tgn38 in the presence of heparin. Included are motion-corrected and dose-weighted micrographs processed using cryoSPARC v3.
+
+Total movies: 5958
+Pixel Size: 1.155 Ang
+Total dose: 55 e-/A2</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

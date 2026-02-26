@@ -1,0 +1,239 @@
+<emd emdb_id="EMD-5447" version="3.0.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+    <admin>
+        <current_status>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2012-07-11</deposition>
+            <header_release>2012-08-08</header_release>
+            <map_release>2013-06-12</map_release>
+            <update>2015-10-07</update>
+        </key_dates>
+        <title>Molecular Architecture of the Unliganded Membrane-Bound HIV-1 Envelope Glycoprotein Trimer</title>
+        <authors_list>
+            <author>Mao Y</author>
+            <author>Wang L</author>
+            <author>Sodroski J</author>
+        </authors_list>
+        <keywords>HIV, envelope spike, trimer, membrane glycoprotein</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Mao Y</author>
+                    <author order="2">Wang L</author>
+                    <author order="3">Gu C</author>
+                    <author order="4">Herschhorn A</author>
+                    <author order="5">Desormeaux A</author>
+                    <author order="6">Finzi A</author>
+                    <author order="7">Xiang SH</author>
+                    <author order="8">Sodroski JG</author>
+                    <title>Molecular architecture of the uncleaved HIV-1 envelope glycoprotein trimer.</title>
+                    <journal>PROC.NAT.ACAD.SCI.USA</journal>
+                    <volume>110</volume>
+                    <first_page>12438</first_page>
+                    <last_page>12443</last_page>
+                    <year>2013</year>
+                    <external_references type="PUBMED">23757493</external_references>
+                    <external_references type="DOI">doi:10.1073/pnas.1307382110</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <auxiliary_link_list>
+            <auxiliary_link>
+                <link>http://dx.doi.org/10.6019/EMPIAR-10003</link>
+            </auxiliary_link>
+        </auxiliary_link_list>
+    </crossreferences>
+    <sample>
+        <name>HIV-1 envelope glycoprotein trimer</name>
+        <supramolecule_list>
+            <sample_supramolecule supramolecule_id="1000">
+                <name>HIV-1 envelope glycoprotein trimer</name>
+                <details>The sample was monodisperse and solubilized in Cymal-6.</details>
+                <oligomeric_state>three gp120 exterior subunits and three gp41 transmembrane subunits</oligomeric_state>
+                <number_unique_components>3</number_unique_components>
+                <molecular_weight>
+                    <experimental units="MDa">0.44</experimental>
+                    <theoretical units="MDa">0.435</theoretical>
+                    <method>Sedimentation, gel electrophoresis</method>
+                </molecular_weight>
+            </sample_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name synonym="Env trimer, gp160 trimer">HIV-1 envelope glycoprotein trimer precursor</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="11676">Human immunodeficiency virus 1</organism>
+                    <synonym_organism>HIV-1</synonym_organism>
+                </natural_source>
+                <molecular_weight>
+                    <experimental units="MDa">0.44</experimental>
+                    <theoretical units="MDa">0.435</theoretical>
+                </molecular_weight>
+                <details>The glycoprotein was expressed in 293F cells and was purified from the extracted plasma membranes. The cDNA sequence is derived from HIV-1 JR-FL isolate.</details>
+                <oligomeric_state>trimer</oligomeric_state>
+                <recombinant_exp_flag>true</recombinant_exp_flag>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                    <recombinant_plasmid>pcDNA3.1 in 293F cell line</recombinant_plasmid>
+                </recombinant_expression>
+                <sequence />
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">2.5</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                        <details>20 mM Tris-HCl, 300 mM NaCl and 0.01% Cymal-6</details>
+                    </buffer>
+                    <grid>
+                        <details>200 mesh and 400 mesh C-flat grid with thin holey carbon support</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">93</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <method>Held for 2 s, blotted by filter papers for 2 s before plunging.</method>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TECNAI F20</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_cs units="mm">2</nominal_cs>
+                    <nominal_defocus_min units="&#181;m">0.2</nominal_defocus_min>
+                    <nominal_defocus_max units="&#181;m">2.0</nominal_defocus_max>
+                    <nominal_magnification>150000.0</nominal_magnification>
+                    <calibrated_magnification>200835.0</calibrated_magnification>
+                    <specimen_holder_model>GATAN LIQUID NITROGEN</specimen_holder_model>
+                    <temperature>
+                        <temperature_min units="K">89</temperature_min>
+                        <temperature_max units="K">93</temperature_max>
+                        <temperature_average units="K">91</temperature_average>
+                    </temperature>
+                    <date>2009-09-01</date>
+                    <image_recording_list>
+                        <image_recording>
+                            <film_or_detector_model category="CCD">GENERIC GATAN (4k x 4k)</film_or_detector_model>
+                            <number_real_images>5991</number_real_images>
+                            <average_electron_dose_per_image units="e/&#8491;^2">10</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                    <specimen_holder>CT3500</specimen_holder>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <ctf_correction>
+                    <details>Wiener filter</details>
+                </ctf_correction>
+                <final_reconstruction>
+                    <algorithm>OTHER</algorithm>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">6.0</resolution>
+                    <resolution_method>FSC 0.5 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>SPIDER</name>
+                        </software>
+                    </software_list>
+                    <details>The final map was deconvoluted and amplitude-corrected with a B-factor of 250 and was low-pass filtered at 5.6 Angstrom with a cosine edge of 8-Fourier-pixel width. The final resolution of the refined cryo-EM map, measured by FSC-0.5 cutoff, is 6 Angstrom without masking of the background noise in the map and is 5.66 Angstrom with of masking the background noise.</details>
+                    <number_images_used>582914</number_images_used>
+                </final_reconstruction>
+                <final_angle_assignment>
+                    <details>0.5 degree of angular step</details>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="65537">
+        <file>emd_5447.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">191.20128</a>
+            <b units="&#8491;">191.20128</b>
+            <c units="&#8491;">191.20128</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.05022446</minimum>
+            <maximum>0.07631132</maximum>
+            <average>-0.00001735</average>
+            <std>0.00299701</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">0.74688</x>
+            <y units="&#8491;">0.74688</y>
+            <z units="&#8491;">0.74688</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.007</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <annotation_details>Reconstruction of the unliganded HIV-1 envelope glycoprotein trimer</annotation_details>
+        <details>::::EMDATABANK.org::::EMD-5447::::</details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>3JWD</access_code>
+                    <chain>
+                        <chain_id>G</chain_id>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+                <software_list>
+                    <software>
+                        <name>O, Coot, CNS, Chimera, Modeller</name>
+                    </software>
+                </software_list>
+                <details>Protocol: Flexible fitting</details>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

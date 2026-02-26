@@ -1,0 +1,86 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10060" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2016-04-05</depositionDate>
+            <releaseDate>2016-04-05</releaseDate>
+            <updateDate>2016-04-05</updateDate>
+        </keyDates>
+        <title>Subset of image stack used for 3D reconstruction</title>
+        <correspondingAuthor private="true">
+            <firstName>Edward</firstName>
+            <middleName>Herschel</middleName>
+            <lastName>Egelman</lastName>
+            <organization type="academic">Biochemistry and Molecular Genetics, University of Virginia</organization>
+            <street>1340 Jefferson Park Avenue</street>
+            <townOrCity>Charlottesville</townOrCity>
+            <stateOrProvince>VA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>22908</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Edward</firstName>
+            <middleName>Herschel</middleName>
+            <lastName>Egelman</lastName>
+            <organization type="academic">Biochemistry and Molecular Genetics, University of Virginia</organization>
+            <street>1340 Jefferson Park Avenue</street>
+            <townOrCity>Charlottesville</townOrCity>
+            <stateOrProvince>VA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>22908</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Egelman EH</author>
+        </authorsList>
+        <datasetSize units="GB">35.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10060</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-6310</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">DiMaio F</author>
+                    <author order="2">Yu X</author>
+                    <author authorORCID="0000-0002-3355-1744" order="3">Rensen E</author>
+                    <author authorORCID="0000-0001-5486-0098" order="4">Krupovic M</author>
+                    <author order="5">Prangishvili D</author>
+                    <author authorORCID="0000-0003-4844-5212" order="6">Egelman EH</author>
+                    <title>Virology. A virus that infects a hyperthermophile encapsidates A-form DNA</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country></country>
+                    <issue>6237</issue>
+                    <volume>348</volume>
+                    <firstPage>914</firstPage>
+                    <lastPage>917</lastPage>
+                    <year>2015</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.aaa4181</externalReferences>
+                    <externalReferences type="pubmed">25999507</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>image segments of SIRV2</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>36694</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>512</imageWidth>
+            <pixelWidth>1.05</pixelWidth>
+            <imageHeight>512</imageHeight>
+            <pixelHeight>1.05</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+</entry>

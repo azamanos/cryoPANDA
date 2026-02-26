@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='utf-8'?>
+<emd emdb_id="EMD-23006" version="3.0.2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_7/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2022-01-26</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-11-20</deposition>
+            <header_release>2022-01-12</header_release>
+            <map_release>2022-01-12</map_release>
+            <update>2022-01-26</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R35GM118099</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Complex of Hsp90 and co-chaperone p23</title>
+        <authors_list>
+            <author>Noddings CM</author>
+            <author>Wang Y-R</author>
+            <author>Agard DA</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0003-0890-9035" order="1">Noddings CM</author>
+                    <author order="2">Wang RY</author>
+                    <author ORCID="0000-0003-3881-722X" order="3">Johnson JL</author>
+                    <author ORCID="0000-0003-3512-695X" order="4">Agard DA</author>
+                    <title>Structure of Hsp90-p23-GR reveals the Hsp90 client-remodelling mechanism.</title>
+                    <journal_abbreviation>Nature</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>601</volume>
+                    <first_page>465</first_page>
+                    <last_page>469</last_page>
+                    <year>2021</year>
+                    <external_references type="PUBMED">34937936</external_references>
+                    <external_references type="DOI">doi:10.1038/s41586-021-04236-1</external_references>
+                    <external_references type="ISSN">1476-4687</external_references>
+                    <external_references type="CSD">0006</external_references>
+                    <external_references type="ASTM">NATUAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-23004</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>EMD-23004 contains the GR:Hsp90:p23 complex which was obtained from the same dataset.</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-23006</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Complex of Hsp90 dimer and the co-chaperone p23</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Complex of Hsp90 dimer and the co-chaperone p23</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <molecular_weight>
+                    <theoretical units="MDa">0.188</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>heat shock protein 90</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="511693">Escherichia coli BL21</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPEETQTQDQPMEEEEVETFAFQAEIAQLMSLIINTFYSNKEIFLRELISNSSDALDKIRYESLTDPSKLDSGKELHINLIPNKQDRTLTIVDTGIGMTKADLINNLGTIAKSGTKAFMEALQAGADISMIGQFGVGFYSAYLVAEKVTVITKHNDDEQYAWESSAGGSFTVRTDTGEPMGRGTKVILHLKEDQTEYLEERRIKEIVKKHSQFIGYPITLFVEKERDKEVSDDEAEEKEDKEEEKEKEEKESEDKPEIEDVGSDEEEEKKDGDKKKKKKIKEKYIDQEELNKTKPIWTRNPDDITNEEYGEFYKSLTNDWEDHLAVKHFSVEGQLEFRALLFVPRRAPFDLFENRKKKNNIKLYVRRVFIMDNCEELIPEYLNFIRGVVDSEDLPLNISREMLQQSKILKVIRKNLVKKCLELFTELAEDKENYKKFYEQFSKNIKLGIHEDSQNRKKLSELLRYYTSASGDEMVSLKDYCTRMKENQKHIYYITGETKDQVANSAFVERLRKHGLEVIYMIEPIDEYCVQQLKEFEGKTLVSVTKEGLELPEDEEEKKKQEEKKTKFENLCKIMKDILEKKVEKVVVSNRLVTSPCCIVTSTYGWTANMERIMKAQALRDNSTMGYMAAKKHLEINPDHSIIETLRQKAEADKNDKSVKDLVILLYETALLSSGFSLEDPQTHANRIYRMIKLGLGIDEDDPTADDTSAAVTEEMPPLEGDDDTSRMEEVD</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>p23</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="511693">Escherichia coli BL21</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MQPASAKWYDRRDYVFIEFCVEDSKDVNVNFEKSKLTFSCLGGSDNFKHLNEIDLFHCIDPNDSKHKRTDRSILCCLRKGESGQSWPRLTKERAKLNWLSVDFNNWKDWEDDSDEDMSNFDRFSEMMNNMGGDEDVDLPEVDGADDDSQDSDDEKMPDLE</string>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">283</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.0</nominal_defocus_max>
+                    <nominal_magnification>105000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free />
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Bioquantum</name>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <number_real_images>5608</number_real_images>
+                            <average_exposure_time units="s">5.9</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">60.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>6062152</number_selected>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>CTFFIND</name>
+                            <version>4.1</version>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>2CG9</pdb_id>
+                    </pdb_model>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution res_type="BY AUTHOR" units="Å">2.66</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.8</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>454385</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.8</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.8</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.8</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="108001">
+        <file>emd_23006.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>300</col>
+            <row>300</row>
+            <sec>300</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>300</x>
+            <y>300</y>
+            <z>300</z>
+        </spacing>
+        <cell>
+            <a units="Å">250.5</a>
+            <b units="Å">250.5</b>
+            <c units="Å">250.5</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.021348419</minimum>
+            <maximum>0.098981835</maximum>
+            <average>0.00017238664</average>
+            <std>0.0017886482</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.835</x>
+            <y units="Å">0.835</y>
+            <z units="Å">0.835</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.015</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-23006::::</label>
+        <annotation_details>Primary map ; Hsp90:p23</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_23006_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="108001">
+                <file>emd_23006_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">250.5</a>
+                    <b units="Å">250.5</b>
+                    <c units="Å">250.5</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.013293721</minimum>
+                    <maximum>0.059752572</maximum>
+                    <average>4.4337212e-05</average>
+                    <std>0.0016008964</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.835</x>
+                    <y units="Å">0.835</y>
+                    <z units="Å">0.835</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-23006::::</label>
+                <annotation_details>Raw map ; Hsp90:p23</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="108001">
+                <file>emd_23006_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">250.5</a>
+                    <b units="Å">250.5</b>
+                    <c units="Å">250.5</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.015193482</minimum>
+                    <maximum>0.0664445</maximum>
+                    <average>4.2279597e-05</average>
+                    <std>0.001777606</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.835</x>
+                    <y units="Å">0.835</y>
+                    <z units="Å">0.835</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-23006::::</label>
+                <annotation_details>Half map 2 ; Hsp90:p23</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="108001">
+                <file>emd_23006_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">250.5</a>
+                    <b units="Å">250.5</b>
+                    <c units="Å">250.5</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.017250331</minimum>
+                    <maximum>0.06690356</maximum>
+                    <average>4.4109125e-05</average>
+                    <std>0.0017787721</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.835</x>
+                    <y units="Å">0.835</y>
+                    <z units="Å">0.835</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-23006::::</label>
+                <annotation_details>Half map 1 ; Hsp90:p23</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

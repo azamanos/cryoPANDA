@@ -1,0 +1,133 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11241" schemaVersion="0.63" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-09-07</depositionDate>
+            <releaseDate>2023-07-10</releaseDate>
+            <updateDate>2023-07-10</updateDate>
+        </keyDates>
+        <title>Structure of an Escherichia coli 70S ribosome stalled by Tetracenomycin X during translation of an MAAAPQK(C) peptide</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-3153-9490</authorORCID>
+            <firstName>C</firstName>
+            <middleName>Axel</middleName>
+            <lastName>Innis</lastName>
+            <organization type="academic">INSERM U1212 CNRS UMR 5320 University of Bordeaux</organization>
+            <street>146 rue Léo Saignat</street>
+            <townOrCity>Bordeaux</townOrCity>
+            <stateOrProvince>Nouvelle-Aquitaine</stateOrProvince>
+            <country>France</country>
+            <postOrZipCode>33076</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-3153-9490</authorORCID>
+            <firstName>C</firstName>
+            <middleName>Axel</middleName>
+            <lastName>Innis</lastName>
+            <organization type="academic">INSERM U1212 CNRS UMR 5320 University of Bordeaux</organization>
+            <street>146 rue Léo Saignat</street>
+            <townOrCity>Bordeaux</townOrCity>
+            <stateOrProvince>Nouvelle-Aquitaine</stateOrProvince>
+            <country>France</country>
+            <postOrZipCode>33076</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-1530-2613</authorORCID>
+            <firstName>Thibaud</firstName>
+            <lastName>Renault</lastName>
+            <organization type="academic">INSERM U1212 CNRS UMR 5320 University of Bordeaux</organization>
+            <street>146 rue Léo Saignat</street>
+            <townOrCity>Bordeaux</townOrCity>
+            <stateOrProvince>Nouvelle-Aquitaine</stateOrProvince>
+            <country>France</country>
+            <postOrZipCode>33076</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-7902-2162">Leroy EC</author>
+            <author authorORCID="0000-0001-7314-2884">Perry TN</author>
+            <author authorORCID="0000-0002-1530-2613">Renault TT</author>
+            <author authorORCID="0000-0003-3153-9490">Innis CA</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">948.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11241</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-14956</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-7902-2162" order="1">Leroy EC</author>
+                    <author authorORCID="0000-0001-7314-2884" order="2">Perry TN</author>
+                    <author authorORCID="0000-0002-1530-2613" order="3">Renault TT</author>
+                    <author authorORCID="0000-0003-3153-9490" order="4">Innis CA</author>
+                    <title>Tetracenomycin X sequesters peptidyl-tRNA during translation of QK motifs</title>
+                    <journal>Nature chemical biology</journal>
+                    <journalAbbreviation>Nat Chem Biol</journalAbbreviation>
+                    <country></country>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41589-023-01343-0</externalReferences>
+                    <externalReferences type="pubmed">37322159</externalReferences>
+                    <details>The micrographs were recorded on a Talos Arctica (Thermo Fisher Scientific) operated at 200 kV and equipped with a K2 Summit direct electron detector (Gatan) in Nanoprobe mode. SerialEM was used with a magnified pixel size of 0.93 Å at a magnification of 45,000x to record 38 movie frames with an exposure time of 3.8 seconds using a dose rate of 0.94 electrons/Å² per frame for a total accumulated dose of 35.72 electrons/Å².</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of an E. coli 70S-MAAAPQKC-TcmX ribosomal complex</name>
+        <directory>/data/frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>6156</numImagesOrTiltSeries>
+        <framesPerImage>38</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>38</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>0.905</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>0.905</pixelHeight>
+        </dimensions>
+        <details>Raw micrographs collected on a Talos Arctica with a nominal pixsize of 0.93Å/px (calibrated 0.905Å/px) of an E. coli 70S-MAAAPQKC-TcmX ribosomal complex.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Gain reference</name>
+        <directory>/data/gain</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>0.905</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>0.905</pixelHeight>
+        </dimensions>
+        <details>Gain must be rotated 270°.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_4/emdb.xsd" emdb_id="EMD-7623" version="3.0.1.4">
+    <admin>
+        <current_status>
+            <date>2019-05-15</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2018-03-26</deposition>
+            <header_release>2018-04-04</header_release>
+            <map_release>2018-04-04</map_release>
+            <update>2019-05-15</update>
+        </key_dates>
+        <title>Apoferritin with spot-to-plunge time of 100ms</title>
+        <authors_list>
+            <author>Noble AJ</author>
+            <author>Wei H</author>
+            <author>Dandey VP</author>
+            <author>Zhang Z</author>
+            <author>Potter CS</author>
+            <author>Carragher B</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Noble AJ</author>
+                    <author order="2">Wei H</author>
+                    <author order="3">Dandey VP</author>
+                    <author order="4">Zhang Z</author>
+                    <author order="5">Tan YZ</author>
+                    <author order="6">Potter CS</author>
+                    <author order="7">Carragher B</author>
+                    <title>Reducing effects of particle adsorption to the air-water interface in cryo-EM.</title>
+                    <journal_abbreviation>Nat. Methods</journal_abbreviation>
+                    <country>US</country>
+                    <volume>15</volume>
+                    <first_page>793</first_page>
+                    <last_page>795</last_page>
+                    <year>2018</year>
+                    <external_references type="PUBMED">30250056</external_references>
+                    <external_references type="DOI">doi:10.1038/s41592-018-0139-3</external_references>
+                    <external_references type="ISSN">1548-7105</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-7623</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Apoferritin</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Apoferritin</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="7207">Tabanus atratus</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="32644">unidentified</recombinant_organism>
+                </recombinant_expression>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>tomography</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <tomography_preparation preparation_id="1">
+                    <concentration units="mg/mL">6</concentration>
+                    <buffer>
+                        <ph>0.0001</ph>
+                    </buffer>
+                    <grid>
+                        <model>Homemade</model>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <instrument>OTHER</instrument>
+                        <details>The value given for _emd_vitrification.instrument is SPOTITON. This is not in a list of allowed values set(['FEI VITROBOT MARK I', 'GATAN CRYOPLUNGE 3', 'LEICA PLUNGER', 'FEI VITROBOT MARK II', 'HOMEMADE PLUNGER', 'LEICA EM CPC', 'LEICA KF80', 'FEI VITROBOT MARK III', 'LEICA EM GP', 'OTHER', 'REICHERT-JUNG PLUNGER', 'FEI VITROBOT MARK IV']) so OTHER is written into the XML file.</details>
+                    </vitrification>
+                    <sectioning>
+                        <other_sectioning>NO SECTIONING</other_sectioning>
+                    </sectioning>
+                </tomography_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <tomography_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Bioquantum</name>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 QUANTUM (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <average_electron_dose_per_image units="e/Å^2">3.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </tomography_microscopy>
+            </microscopy_list>
+            <tomography_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <algorithm>SIMULTANEOUS ITERATIVE (SIRT)</algorithm>
+                    <software_list>
+                        <software>
+                            <name>TOMO3D</name>
+                            <processing_details>SIRT, 30 iterations</processing_details>
+                        </software>
+                    </software_list>
+                    <number_images_used>30</number_images_used>
+                </final_reconstruction>
+            </tomography_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="2038100">
+        <file>emd_7623.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>1200</col>
+            <row>1051</row>
+            <sec>404</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>-187</sec>
+        </origin>
+        <spacing>
+            <x>1200</x>
+            <y>1051</y>
+            <z>404</z>
+        </spacing>
+        <cell>
+            <a units="Å">2597.0762</a>
+            <b units="Å">2274.606</b>
+            <c units="Å">874.34894</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.58027387</minimum>
+            <maximum>0.83425206</maximum>
+            <average>0.14941664</average>
+            <std>0.05151833</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">2.16423</x>
+            <y units="Å">2.16423</y>
+            <z units="Å">2.16423</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-7623::::</label>
+        <annotation_details>Apoferritin with spot-to-plunge time of 100ms</annotation_details>
+    </map>
+</emd>

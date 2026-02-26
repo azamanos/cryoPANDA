@@ -1,0 +1,116 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11569" schemaVersion="0.63" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-05-02</depositionDate>
+            <releaseDate>2023-06-30</releaseDate>
+            <updateDate>2023-06-30</updateDate>
+        </keyDates>
+        <title>CryoEM micrographs of the leptin–leptin receptor complex</title>
+        <correspondingAuthor private="true">
+            <firstName>Nathanael</firstName>
+            <lastName>Caveney</lastName>
+            <organization type="academic">Stanford University</organization>
+            <townOrCity>Stanford</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>94305</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Nathanael</firstName>
+            <lastName>Caveney</lastName>
+            <organization type="academic">Stanford University</organization>
+            <townOrCity>Stanford</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>94305</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Saxton RA</author>
+            <author>Caveney NA</author>
+            <author>Garcia KC</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">11.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11569</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-27432</emdbEntry>
+            <emdbEntry>EMD-27433</emdbEntry>
+            <emdbEntry>EMD-27434</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-9777-8270" order="1">Saxton RA</author>
+                    <author order="2">Caveney NA</author>
+                    <author order="3">Moya-Garzon MD</author>
+                    <author order="4">Householder KD</author>
+                    <author authorORCID="0009-0002-7386-2050" order="5">Rodriguez GE</author>
+                    <author authorORCID="0000-0001-7089-2532" order="6">Burdsall KA</author>
+                    <author authorORCID="0000-0003-2631-7463" order="7">Long JZ</author>
+                    <author authorORCID="0000-0001-9273-0278" order="8">Garcia KC</author>
+                    <title>Structural insights into the mechanism of leptin receptor activation</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>14</volume>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-023-37169-6</externalReferences>
+                    <externalReferences type="pubmed">37002197</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned micrographs of truncated leptin receptor complex</name>
+        <directory>/data/211129</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>24842</numImagesOrTiltSeries>
+        <framesPerImage>39</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>0.8521</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>0.8521</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/211129/*/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned micrographs of leptin receptor complex full ECD</name>
+        <directory>/data/220529</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>13787</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>0.653</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>0.653</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/220529/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

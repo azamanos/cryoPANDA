@@ -1,0 +1,148 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11405" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-01-13</depositionDate>
+            <releaseDate>2023-03-27</releaseDate>
+            <updateDate>2023-03-28</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of the ribosome/Sec61 translocon with a macrocyclic inhibitor KZR-8445</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0003-1329-8056</authorORCID>
+            <firstName>Shahid</firstName>
+            <lastName>Rehan</lastName>
+            <organization type="academic">Omass Therapeutics</organization>
+            <street>The Oxford Science Park, The Schrödinger Building, Heatley Rd</street>
+            <townOrCity>Oxford</townOrCity>
+            <stateOrProvince>Oxfordshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>ox44sy</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-3160-7767</authorORCID>
+            <firstName>Ville</firstName>
+            <lastName>Pavilainen</lastName>
+            <organization type="academic">HiLife Institute of Biotechnology, University of Helsinki</organization>
+            <townOrCity>Helsinki</townOrCity>
+            <country>Finland</country>
+            <postOrZipCode>00790</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-1329-8056">Rehan S</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Academy of Finland</fundingBody>
+                <code>338836</code>
+                <country>Finland</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Academy of Finland</fundingBody>
+                <code>314672</code>
+                <country>Finland</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Academy of Finland</fundingBody>
+                <code>314669</code>
+                <country>Finland</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">12.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11405</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-14776</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author authorORCID="0000-0003-1329-8056" order="1">Rehan S</author>
+                    <author order="2">Tranter D</author>
+                    <author order="3">Sharp PP</author>
+                    <author order="4">Lowe E</author>
+                    <author order="5">Anderl JL</author>
+                    <author order="6">Muchamuel T</author>
+                    <author order="7">Abrishami V</author>
+                    <author order="8">Kuivanen S</author>
+                    <author order="9">Wenzell N</author>
+                    <author order="10">Jennings A</author>
+                    <author order="11">Kalyanaraman C</author>
+                    <author order="12">Craven GB</author>
+                    <author order="13">Strandin T</author>
+                    <author order="14">Javanainen M</author>
+                    <author order="15">Vapalahti O</author>
+                    <author order="16">Jacobson M</author>
+                    <author order="17">McMinn D</author>
+                    <author order="18">Kirk CJ</author>
+                    <author order="19">Huiskonen JT</author>
+                    <author order="20">Taunton J</author>
+                    <author order="21">Paavilainen VO</author>
+                    <title>Signal peptide mimicry primes Sec61 for client-selective inhibition</title>
+                    <journal>bioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <year>2022</year>
+                    <externalReferences type="doi">10.1101/2022.07.03.498529</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned micrographs of the ribosome/Sec61/KZR-8445 complex</name>
+        <directory>/data</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>30260</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>50</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.415</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.415</pixelHeight>
+        </dimensions>
+        <details>The micrographs are the average, without any realignment of 50 movie frames (accumulating 47.66 electrons per square Ångstrom). Data was collected in super resolution mode (physical pixel size 0.83 px/Å) and binned 2x during preprocessing. Data collected on a Krios instrument with a K3 detector operated at 300 kV and at a nominal magnification of 105000x.
+
+Details:
+Nominal Defocus range (min, max, step): -0.6, -2.2
+Total exposure on specimen: 47.66 e/A^2 
+Exposure time: 3.0 s
+Nominal pixel size: 0.83 A (0.415 A super res)
+Objective lens spherical aberration (Cs): 2.7 mm
+Acceleration voltage: 300 kV
+Microscope / Detector: 300 kV FEI Titan Krios TEM / Gatan K3 summit</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/KZR445_raw_mics*/FoilHole*.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Motion corrected micrographs of the ribosome/Sec61/KZR-8445 complex</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>30260</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.83</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.83</pixelHeight>
+        </dimensions>
+        <details>Positions of particles for the final reconstructed volume in associated .star file.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Motion_corrected_CTF*/KZR445_raw_mics*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/relion_model.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/</pickedParticlesDirectory>
+    </imageSet>
+</entry>

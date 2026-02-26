@@ -1,0 +1,95 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12311" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-09-27</depositionDate>
+            <releaseDate>2024-12-21</releaseDate>
+            <updateDate>2024-12-21</updateDate>
+        </keyDates>
+        <title>Cryo electron micrographs of AP-3 core bound to Arf1 and LAMPI on a lipid nanodisc</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-1136-6000</authorORCID>
+            <firstName>Richard</firstName>
+            <lastName>Baker</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, UNC Chapel Hill School of Medicine</organization>
+            <townOrCity>Chapel Hill</townOrCity>
+            <stateOrProvince>North Carolina</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>27519</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-1136-6000</authorORCID>
+            <firstName>Richard</firstName>
+            <lastName>Baker</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, UNC Chapel Hill School of Medicine</organization>
+            <townOrCity>Chapel Hill</townOrCity>
+            <stateOrProvince>North Carolina</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>27519</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-1136-6000">Baker RW</author>
+            <author authorORCID="0000-0003-4852-7656">Begley M</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</fundingBody>
+                <code>R35GM150960</code>
+                <country>United States</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">1018.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12311</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-45207</emdbEntry>
+            <emdbEntry>EMD-45210</emdbEntry>
+            <emdbEntry>EMD-45211</emdbEntry>
+            <emdbEntry>EMD-45212</emdbEntry>
+            <emdbEntry>EMD-45213</emdbEntry>
+            <emdbEntry>EMD-45208</emdbEntry>
+            <emdbEntry>EMD-45209</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author authorORCID="0000-0003-4852-7656" order="1">Begley M</author>
+                    <author authorORCID="0000-0002-0004-6514" order="2">Aragon M</author>
+                    <author authorORCID="0000-0003-1136-6000" order="3">Baker RW</author>
+                    <title>A structure-based mechanism for initiation of AP-3 coated vesicle formation</title>
+                    <journal>bioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <year>2024</year>
+                    <externalReferences type="doi">10.1101/2024.06.05.597630</externalReferences>
+                    <externalReferences type="pubmed">38895279</externalReferences>
+                    <details>The micrographs are motion-corrected with dose weighting in cryoSPARCv4.4.1. There are four separate datasets, each collected at a unique tilt angle.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>aligned, dose-weighted micrographs of AP-3 core and Arf1 Q71L bound to a nanodisc containing LAMP1 cargo peptide</name>
+        <directory>/data/nanodisc_AP-3</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>11601</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.058</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.058</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

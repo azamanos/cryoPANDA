@@ -1,0 +1,229 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11465" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-02-21</depositionDate>
+            <releaseDate>2023-05-11</releaseDate>
+            <updateDate>2023-05-11</updateDate>
+        </keyDates>
+        <title>Cryo electron tomography dataset of purified human TREX-mRNPs</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0001-5975-5609</authorORCID>
+            <firstName>Matthias</firstName>
+            <middleName>Kopano</middleName>
+            <lastName>Vorländer</lastName>
+            <organization type="academic">Forschungsinstitut für Molekulare Pathologie</organization>
+            <street>Campus-Vienna-Biocenter 1</street>
+            <townOrCity>Wien</townOrCity>
+            <country>Austria</country>
+            <postOrZipCode>1030</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-6020-9514</authorORCID>
+            <firstName>Clemens</firstName>
+            <lastName>Plaschka</lastName>
+            <organization type="academic">Forschungsinstitut für Molekulare Pathologie</organization>
+            <street>Campus-Vienna-Biocenter 1</street>
+            <townOrCity>Wien</townOrCity>
+            <country>Austria</country>
+            <postOrZipCode>1030</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Pacheco-Fiallos B</author>
+            <author authorORCID="0000-0001-5975-5609">Vorländer MK</author>
+            <author authorORCID="0000-0002-6020-9514">Plaschka C</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>European Research Council (ERC)</fundingBody>
+                <code>ERC-2020-STG 949081 RNApaxport</code>
+                <country>Belgium</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Welch Foundation</fundingBody>
+                <code>203149</code>
+                <country>United Kingdom</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>European Molecular Biology Organization (EMBO)</fundingBody>
+                <code>ALTF 623-2020</code>
+                <country>Germany</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>European Research Council (ERC)</fundingBody>
+                <code>MCSA 101028744</code>
+                <country>Belgium</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">1.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11465</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-16753</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Pacheco-Fiallos B</author>
+                    <author authorORCID="0000-0001-5975-5609" order="2">Vorländer MK</author>
+                    <author order="3">Riabov-Bassat D</author>
+                    <author order="4">Fin L</author>
+                    <author authorORCID="0000-0001-9258-0150" order="5">O'Reilly FJ</author>
+                    <author authorORCID="0000-0002-7844-0570" order="6">Ayala FI</author>
+                    <author authorORCID="0000-0002-9684-9839" order="7">Schellhaas U</author>
+                    <author authorORCID="0000-0001-5999-1310" order="8">Rappsilber J</author>
+                    <author authorORCID="0000-0002-6020-9514" order="9">Plaschka C</author>
+                    <title>mRNA recognition and packaging by the human transcription-export complex</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <issue>7958</issue>
+                    <volume>616</volume>
+                    <firstPage>828</firstPage>
+                    <lastPage>835</lastPage>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41586-023-05904-0</externalReferences>
+                    <externalReferences type="pubmed">37020021</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Compressed movies of individual tilt exposures</name>
+        <directory>/data/frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>6650</numImagesOrTiltSeries>
+        <framesPerImage>6</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>6</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.38</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.38</pixelHeight>
+        </dimensions>
+        <details>Unaligned movie frames of the individual tilt exposures. Each movie contains 6 frames and was exposed with 1.97 electrons per Å^2, or 0.3 electrons per Å^2 per frame. Movies are compressed and require the gainref file "CountRef_TS_TS_test_02_000_0.0.mrc" (uploaded in a separate directory) for motion correction. Each file has an .mdoc file associated that describes details of the exposure. These are found in the folder "mdoc_individual_tilts". In addition, the folder "tomostar" contains a .tomostar file for each tilt series that contains the information on tilt series alignment in Warp format (version 1.09). The folder "gainref" possesses the gain reference file to unpack and motion correct the tilt movie frames.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/frames/TS_*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Motion corrected tilt exposures</name>
+        <directory>/data/average</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6650</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.38</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.38</pixelHeight>
+        </dimensions>
+        <details>Motion corrected individual tilt exposures</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/average/TS_*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unbinned, unaligned tilt series as output by SerialEM.</name>
+        <directory>/data/TiltSeries_SerialEM</directory>
+        <category>tilt series</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>117</numImagesOrTiltSeries>
+        <framesPerImage>61</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>6</frameRangeMax>
+        </frameRange>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.38</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.38</pixelHeight>
+        </dimensions>
+        <details>Each tilt series contains 61 tilt images, collected from -60 to +60 degrees in two degree increments, using the dose-symmetric Hagen scheme. The folder also contains SerialEM .log files with details about tilt series aquistion, and Serial .mdoc files with details about the tilt series.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Reconstructed tomograms, binned to a pixel size of 10 Å/px</name>
+        <directory>/data/reconstructed_tomos_raw</directory>
+        <category>reconstructed volumes</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>109</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>566</imageWidth>
+            <pixelWidth>10.0</pixelWidth>
+            <imageHeight>786</imageHeight>
+            <pixelHeight>10.0</pixelHeight>
+        </dimensions>
+        <details>Reconstructed tomograms, binned to a pixel size of 10 Å/px. Tomograms were reconstructed with Warp</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Denoised, reconstructed tomograms, binned to a pixel size of 10 Å/px</name>
+        <directory>/data/reconstructed_tomos_denoised</directory>
+        <category>reconstructed volumes</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>109</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>566</imageWidth>
+            <pixelWidth>10.0</pixelWidth>
+            <imageHeight>786</imageHeight>
+            <pixelHeight>10.0</pixelHeight>
+        </dimensions>
+        <details>Denoised, reconstructed tomograms, binned to a pixel size of 10 Å/px. Tomograms were denoised using Noise2Map (part of the Warp package).</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Extracted subtomograms that were used in the final reconstruction</name>
+        <directory>/data/subtomograms</directory>
+        <category>subtomograms</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1096</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>180</imageWidth>
+            <pixelWidth>3.0</pixelWidth>
+            <imageHeight>180</imageHeight>
+            <pixelHeight>3.0</pixelHeight>
+        </dimensions>
+        <details>Reconstructed subtomograms used for the final reconstruction, binned to 3Å/px al at bnox size of 180px. The folder also contains 3D ctf subvolumes for each subtomogram. The folder "star_file" contains a RELION (v3.1) star file that contains the refined orientations of each subtomogram.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

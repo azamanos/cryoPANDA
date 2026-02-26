@@ -1,0 +1,65 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10024" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2015-02-17</depositionDate>
+            <releaseDate>2015-04-30</releaseDate>
+            <updateDate>2015-04-30</updateDate>
+        </keyDates>
+        <title>Human TRPA1 ion channel with agonist AITC</title>
+        <correspondingAuthor private="true">
+            <firstName>Jean-Paul</firstName>
+            <lastName>Armache</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, University of California San Francisco</organization>
+            <townOrCity>San Francisco</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>94158-2517</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Yifan</firstName>
+            <lastName>Cheng</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, University of California San Francisco</organization>
+            <townOrCity>San Francisco</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>94158-2517</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Paulsen CE</author>
+            <author>Armache JP</author>
+            <author> Gao Y</author>
+            <author>Cheng Y</author>
+            <author>Julius D</author>
+        </authorsList>
+        <datasetSize units="GB">453.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10024</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-6267</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>TRP ion channel dataset</name>
+        <directory>/data</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>43585</numImagesOrTiltSeries>
+        <framesPerImage>30</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>30</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>300</imageWidth>
+            <pixelWidth>1.2156</pixelWidth>
+            <imageHeight>300</imageHeight>
+            <pixelHeight>1.2156</pixelHeight>
+        </dimensions>
+        <details>stacks f_01.mrc to f_30.mrc are particle stacks corresponding to individual frames. trpa1.mrcs is the frame averaged stack. trpa1.star is the associated meta-data file.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

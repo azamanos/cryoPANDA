@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_1/emdb.xsd" version="3.0.9.1" emdb_id="EMD-28698">
+    <admin>
+        <current_status>
+            <date>2024-01-17</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-10-28</deposition>
+            <header_release>2023-01-11</header_release>
+            <map_release>2023-01-11</map_release>
+            <update>2024-01-17</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>GM117593</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>GM137109</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>GM082545</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>GM110772</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>GM089740</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Howard Hughes Medical Institute (HHMI)</funding_body>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Chan Zuckerberg Initiative</funding_body>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>CryoEM reconstruction of membrane-bound, right-handed CHMP1B+IST1 filament with brominated PIP2 probe</title>
+        <authors_list>
+            <author ORCID="0000-0002-6149-6447">Moss FR</author>
+            <author ORCID="0000-0003-2231-2577">Frost A</author>
+        </authors_list>
+        <keywords>ESCRT, brominated, lipid, membrane, MEMBRANE PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-6149-6447" order="1">Moss 3rd FR</author>
+                    <author ORCID="0000-0003-3090-1240" order="2">Lincoff J</author>
+                    <author ORCID="0000-0002-1606-8806" order="3">Tucker M</author>
+                    <author ORCID="0000-0003-4430-7592" order="4">Mohammed A</author>
+                    <author ORCID="0000-0003-3509-5997" order="5">Grabe M</author>
+                    <author ORCID="0000-0003-2231-2577" order="6">Frost A</author>
+                    <title>Brominated lipid probes expose structural asymmetries in constricted membranes.</title>
+                    <journal_abbreviation>Nat.Struct.Mol.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>30</volume>
+                    <first_page>167</first_page>
+                    <last_page>175</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">36624348</external_references>
+                    <external_references type="DOI">doi:10.1038/s41594-022-00898-1</external_references>
+                    <external_references type="ISSN">1545-9985</external_references>
+                </journal_citation>
+            </primary_citation>
+            <secondary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-6142-8807" order="7">Nguyen HC</author>
+                    <author ORCID="0000-0002-4603-0120" order="8">Talledge N</author>
+                    <author ORCID="0000-0001-6836-4394" order="9">McCullough J</author>
+                    <author order="10">Sharma A</author>
+                    <author ORCID="0000-0002-6149-6447" order="11">Moss FR</author>
+                    <author order="12">Iwasa JH</author>
+                    <author order="13">Vershinin MD</author>
+                    <author order="14">Sundquist WI</author>
+                    <author ORCID="0000-0003-2231-2577" order="15">Frost A</author>
+                    <title>Membrane constriction and thinning by sequential ESCRT-III polymerization.</title>
+                    <journal_abbreviation>Nat Struct Mol Biol</journal_abbreviation>
+                    <country>US</country>
+                    <volume>27</volume>
+                    <first_page>392</first_page>
+                    <last_page>399</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32251413</external_references>
+                    <external_references type="DOI">doi:10.1038/s41594-020-0404-x</external_references>
+                    <external_references type="ISSN">1545-9985</external_references>
+                </journal_citation>
+            </secondary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-20588</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Helical copolymer of CHMP1B and IST1 bound to a lipid membrane nanotube</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Helical copolymer of CHMP1B and IST1 bound to a lipid membrane nanotube</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>The lipid nanotube contains a brominated analog of PIP2</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>CHMP1B</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSNMEKHLFNLKFAAKELSRSAKKCDKEEKAEKAKIKKAIQKGNMEVARIHAENAIRQKNQAVNFLRMSARVDAVAARVQTAVTMGKVTKSMAGVVKSMDATLKTMNLEKISALMDKFEHQFETLDVQTQQMEDTMSSTTTLTTPQNQVDMLLQEMADEAGLDLNMELPQGQTGSVGTSVASAEQDELSQRLARLRDQV</string>
+                    <external_references type="UNIPROTKB">Q7LBR1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>IST1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <details>N-terminal domain</details>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLGSGFKAERLRVNLRLVINRLKLLEKKKTELAQKARKEIADYLAAGKDERARIRVEHIIREDYLVEAMEILELYCDLLLARFGLIQSMKELDSGLAESVSTLIWAAPRLQSEVAELKIVADQLCAKYSKEYGKLCRTNQIGTVNDRLMHKLSVEAPP</string>
+                    <external_references type="UNIPROTKB">P53990</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>helicalArray</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">292</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_defocus_min units="µm">0.6</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.0</nominal_defocus_max>
+                    <nominal_magnification>105000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Bioquantum</name>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <number_real_images>2116</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">67.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">3.0</delta_z>
+                            <delta_phi units="deg">20.00</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">3.5</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.8</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>6698</number_images_used>
+                </final_reconstruction>
+                <segment_selection>
+                    <number_selected>170300</number_selected>
+                    <software_list>
+                        <software>
+                            <name>crYOLO</name>
+                        </software>
+                    </software_list>
+                </segment_selection>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>Featureless cylinder</insilico_model>
+                </startup_model>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.8</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="442369">
+        <file>emd_28698.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>480</col>
+            <row>480</row>
+            <sec>480</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>480</x>
+            <y>480</y>
+            <z>480</z>
+        </spacing>
+        <cell>
+            <a units="Å">400.8</a>
+            <b units="Å">400.8</b>
+            <c units="Å">400.8</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.008970598</minimum>
+            <maximum>0.01599148</maximum>
+            <average>0.00016389802</average>
+            <std>0.0012475139</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.835</x>
+            <y units="Å">0.835</y>
+            <z units="Å">0.835</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.003</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-28698::::</label>
+        <annotation_details>Right-handed, 18-subunit-per-turn, membrane-bound CHMP1B/IST1 with brominated PIP2.</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_28698_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="442369">
+                <file>emd_28698_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>480</col>
+                    <row>480</row>
+                    <sec>480</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>480</x>
+                    <y>480</y>
+                    <z>480</z>
+                </spacing>
+                <cell>
+                    <a units="Å">400.8</a>
+                    <b units="Å">400.8</b>
+                    <c units="Å">400.8</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.02204736</minimum>
+                    <maximum>0.036613602</maximum>
+                    <average>0.00015556985</average>
+                    <std>0.002198123</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.835</x>
+                    <y units="Å">0.835</y>
+                    <z units="Å">0.835</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>EMDB</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-28698::::</label>
+                <annotation_details>RELION post-processed, right-handed, 18-subunit-per-turn, membrane-bound CHMP1B/IST1 with brominated PIP2.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="442369">
+                <file>emd_28698_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>480</col>
+                    <row>480</row>
+                    <sec>480</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>480</x>
+                    <y>480</y>
+                    <z>480</z>
+                </spacing>
+                <cell>
+                    <a units="Å">400.8</a>
+                    <b units="Å">400.8</b>
+                    <c units="Å">400.8</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.010794822</minimum>
+                    <maximum>0.01703184</maximum>
+                    <average>0.00017195039</average>
+                    <std>0.0014653838</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.835</x>
+                    <y units="Å">0.835</y>
+                    <z units="Å">0.835</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-28698::::</label>
+                <annotation_details>Right-handed, 18-subunit-per-turn, membrane-bound CHMP1B/IST1 with brominated PIP2. No helical symmetry has been applied.</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="442369">
+                <file>emd_28698_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>480</col>
+                    <row>480</row>
+                    <sec>480</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>480</x>
+                    <y>480</y>
+                    <z>480</z>
+                </spacing>
+                <cell>
+                    <a units="Å">400.8</a>
+                    <b units="Å">400.8</b>
+                    <c units="Å">400.8</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.015124928</minimum>
+                    <maximum>0.024528556</maximum>
+                    <average>0.00015556914</average>
+                    <std>0.0018129967</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.835</x>
+                    <y units="Å">0.835</y>
+                    <z units="Å">0.835</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-28698::::</label>
+                <annotation_details>Right-handed, 18-subunit-per-turn, membrane-bound CHMP1B/IST1 with brominated PIP2. Half 1.</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="442369">
+                <file>emd_28698_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>480</col>
+                    <row>480</row>
+                    <sec>480</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>480</x>
+                    <y>480</y>
+                    <z>480</z>
+                </spacing>
+                <cell>
+                    <a units="Å">400.8</a>
+                    <b units="Å">400.8</b>
+                    <c units="Å">400.8</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.0117611075</minimum>
+                    <maximum>0.01954443</maximum>
+                    <average>0.00015562549</average>
+                    <std>0.0014154543</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.835</x>
+                    <y units="Å">0.835</y>
+                    <z units="Å">0.835</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-28698::::</label>
+                <annotation_details>Right-handed, 18-subunit-per-turn, membrane-bound CHMP1B/IST1 with brominated PIP2. Half 2.</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

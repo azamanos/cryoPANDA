@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-0129">
+    <admin>
+        <current_status>
+            <date>2024-05-15</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2018-07-13</deposition>
+            <header_release>2018-10-24</header_release>
+            <map_release>2018-10-31</map_release>
+            <update>2024-05-15</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Medical Research Council (United Kingdom)</funding_body>
+                <code>MC_UU_12014/7</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>Structure of the Macrobrachium rosenbergii Nodavirus</title>
+        <authors_list>
+            <author>Ho KH</author>
+            <author>Gabrielsen M</author>
+        </authors_list>
+        <keywords>Nodavirus, Capsid, Virion, VIRUS LIKE PARTICLE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-5778-4729" order="1">Ho KL</author>
+                    <author ORCID="0000-0002-9848-2276" order="2">Gabrielsen M</author>
+                    <author ORCID="0000-0002-4294-0637" order="3">Beh PL</author>
+                    <author ORCID="0000-0003-0128-8184" order="4">Kueh CL</author>
+                    <author order="5">Thong QX</author>
+                    <author ORCID="0000-0001-7808-605X" order="6">Streetley J</author>
+                    <author ORCID="0000-0001-9452-198X" order="7">Tan WS</author>
+                    <author ORCID="0000-0003-2096-8310" order="8">Bhella D</author>
+                    <title>Structure of the Macrobrachium rosenbergii nodavirus: A new genus within the Nodaviridae?</title>
+                    <journal_abbreviation>PLoS Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>16</volume>
+                    <first_page>e3000038</first_page>
+                    <last_page>e3000038</last_page>
+                    <year>2018</year>
+                    <external_references type="PUBMED">30346944</external_references>
+                    <external_references type="DOI">doi:10.1371/journal.pbio.3000038</external_references>
+                    <external_references type="ISSN">1545-7885</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-3655</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>Previously solved structure at lower resolution</details>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6h2b</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Macrobrachium rosenbergii nodavirus</name>
+        <supramolecule_list>
+            <virus_supramolecule supramolecule_id="1">
+                <name>Macrobrachium rosenbergii nodavirus</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Capsid protein was expressed in Sf9 cells</details>
+                <sci_species_name ncbi="222557">Macrobrachium rosenbergii nodavirus</sci_species_name>
+                <natural_host database="NCBI">
+                    <organism ncbi="79674">Macrobrachium rosenbergii</organism>
+                </natural_host>
+                <virus_shell shell_id="1">
+                    <name>Capsid</name>
+                    <diameter units="Å">400.0</diameter>
+                    <triangulation>3</triangulation>
+                </virus_shell>
+                <virus_type>VIRUS-LIKE PARTICLE</virus_type>
+                <virus_isolate>OTHER</virus_isolate>
+                <virus_enveloped>false</virus_enveloped>
+                <virus_empty>false</virus_empty>
+            </virus_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Capsid protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="222557">Macrobrachium rosenbergii nodavirus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.041563593999999995</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARGKQNSNQAQNNSNANGKRRKRSRRNRNPQTIPNFNPIVAKPTVAPLQTNIRSARSDVNAITVLNGSDFLTTVKVRGS
+NNLTDSKSRILVKQPISASSFLGTRISGLSQFWERYRWHKAAVRYVPAVPNTLACQLIGYIDTDPLDDPNVILDVDQLLR
+QATSQVGARQWNFSDTTTIPLIVRRDDQLYYTGQDKENVRFSQQGVFYLLQVTTLLNISGEAITNDLISGSLYLDWVCGF
+SMPQINPTPVEISQLTYNADTIGNWVPPTELNQTYTQDITGLKPNSKFIIVPYMDRTSSEVLQKCTITCNEVNAVGSISY
+FDTNDIKCNGYITFQANNIGEATFTLVTDYKGVTDAKPYQYRIIRAIVGNN</string>
+                    <external_references type="UNIPROTKB">X2FE19</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>CALCIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">4.0078e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>CA</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.2</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                        <details>20 mM HEPES, 100 mM NaCl pH 7.4</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/2</model>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>CONTINUOUS</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">15</time>
+                            <atmosphere>AIR</atmosphere>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <details>VLPs were deposited onto a continuous carbon film that had been floated onto a quantifoil holey carbon film (R2/2). </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.5</nominal_defocus_max>
+                    <calibrated_magnification>47170.0</calibrated_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Bioquantum</name>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 QUANTUM (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <frames_per_image>2-20</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>2459</number_real_images>
+                            <average_exposure_time units="s">5.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">36.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>60939</number_selected>
+                    <details>Automated particle picking in Relion 2.1</details>
+                </particle_selection>
+                <startup_model type_of_model="EMDB MAP">
+                    <emdb_id>EMD-3655</emdb_id>
+                    <details>our previously calculated intermediate resolution structure of the same VLP was used to start data processing.</details>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>I</point_group>
+                    </applied_symmetry>
+                    <algorithm>BACK PROJECTION</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">3.28</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                    <details>Standard Relion workflow for icosahedral particle.</details>
+                    <number_images_used>40883</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="536871">
+        <file>emd_0129.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>512</col>
+            <row>512</row>
+            <sec>512</sec>
+        </dimensions>
+        <origin>
+            <col>-256</col>
+            <row>-256</row>
+            <sec>-256</sec>
+        </origin>
+        <spacing>
+            <x>512</x>
+            <y>512</y>
+            <z>512</z>
+        </spacing>
+        <cell>
+            <a units="Å">542.72</a>
+            <b units="Å">542.72</b>
+            <c units="Å">542.72</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.08820353</minimum>
+            <maximum>0.15871026</maximum>
+            <average>0.00086273794</average>
+            <std>0.006595679</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.06</x>
+            <y units="Å">1.06</y>
+            <z units="Å">1.06</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.02</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-0129::::</label>
+        <annotation_details>None</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+                <details>Model built largely ab initio, following docking of a homology model based on PDB 4LLF. The homology model matched in two strands at residues - 104-135 and 232-243. This served as the starting point for manual model building. The model was then subjected to real space refinement using Phenix.</details>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>140.0</overall_bvalue>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

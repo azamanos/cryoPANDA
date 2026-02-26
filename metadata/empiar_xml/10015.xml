@@ -1,0 +1,71 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10015" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2014-05-30</depositionDate>
+            <releaseDate>2014-11-06</releaseDate>
+            <updateDate>2014-11-06</updateDate>
+        </keyDates>
+        <title>Yeast 80S Ribosome-Taura Syndrome Virus IRES complex, Frealign Input Particle Stack</title>
+        <correspondingAuthor private="true">
+            <firstName>Axel</firstName>
+            <lastName>Brilot</lastName>
+            <organization type="academic">Department of Biochemistry, Rosenstiel Basic Medical Sciences Research Center, Brandeis University</organization>
+            <townOrCity>Waltham</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02454</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Nikolaus</firstName>
+            <lastName>Grigorieff</lastName>
+            <organization type="academic">Janelia Farm Research Campus, Howard Hughes Medical Institute</organization>
+            <townOrCity>Ashburn</townOrCity>
+            <stateOrProvince>VA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>20147</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Koh CS</author>
+            <author>Brilot AF</author>
+            <author>Grigorieff N</author>
+            <author>Korostelev AA</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2015-10-28</date>
+                <statusCode>REL</statusCode>
+                <details>Restructured the entry directory to have "data" and ".private".</details>
+            </version>
+        </versionHistory>
+        <datasetSize units="GB">273.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10015</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-5942</emdbEntry>
+            <emdbEntry>EMD-5943</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>Frealign input particle stack</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>416312</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>420</imageWidth>
+            <pixelWidth>1.0595</pixelWidth>
+            <imageHeight>420</imageHeight>
+            <pixelHeight>1.0595</pixelHeight>
+        </dimensions>
+        <details>Processing of raw images: Normalized in Imagic (normvar, whole image average=0, sigma=10)</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

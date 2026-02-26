@@ -1,0 +1,318 @@
+<emd emdb_id="EMD-6487" version="3.0.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+    <admin>
+        <current_status>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2015-10-19</deposition>
+            <header_release>2015-11-18</header_release>
+            <map_release>2015-11-18</map_release>
+            <update>2015-12-09</update>
+        </key_dates>
+        <title>Cryo-electron microscopy structure of RAG SEC (C2 symmetry)</title>
+        <authors_list>
+            <author>Ru H</author>
+            <author>Chambers MG</author>
+            <author>Fu T</author>
+            <author>Tong AB</author>
+            <author>Liao M</author>
+            <author>Wu H</author>
+        </authors_list>
+        <keywords>RAG1, RAG2, V(D)J recombination, Signal end complex, Antigen receptor recombination, T and B cell development</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Ru H</author>
+                    <author order="2">Chambers MG</author>
+                    <author order="3">Fu TM</author>
+                    <author order="4">Tong AB</author>
+                    <author order="5">Liao M</author>
+                    <author order="6">Wu H</author>
+                    <title>Molecular Mechanism of V(D)J Recombination from Synaptic RAG1-RAG2 Complex Structures.</title>
+                    <journal>CELL(CAMBRIDGE,MASS.)</journal>
+                    <volume>163</volume>
+                    <first_page>1138</first_page>
+                    <last_page>1152</last_page>
+                    <year>2015</year>
+                    <external_references type="PUBMED">26548953</external_references>
+                    <external_references type="DOI">doi:10.1016/j.cell.2015.10.055</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>3jbx</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Signal End Complex of RAG1-RAG2</name>
+        <supramolecule_list>
+            <sample_supramolecule supramolecule_id="1000">
+                <name>Signal End Complex of RAG1-RAG2</name>
+                <details>The sample was monodisperse.</details>
+                <oligomeric_state>Dimer of RAG1-RAG2 binds to 12-RSS and 23-RSS products with HMGB1</oligomeric_state>
+                <number_unique_components>1</number_unique_components>
+                <molecular_weight>
+                    <experimental units="MDa">0.38</experimental>
+                    <theoretical units="MDa">0.38</theoretical>
+                    <method>Size exclusion chromatography</method>
+                </molecular_weight>
+            </sample_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name synonym="RAG1 and RAG2">Recombination Activating Gene 1 and 2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="7955">Danio rerio</organism>
+                    <strain>AB</strain>
+                    <synonym_organism>Zebrafish</synonym_organism>
+                    <cell>B and T lymphocytes</cell>
+                    <organelle>Nucleus</organelle>
+                </natural_source>
+                <molecular_weight>
+                    <experimental units="MDa">0.38</experimental>
+                    <theoretical units="MDa">0.38</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <oligomeric_state>Dimer of RAG1-RAG2</oligomeric_state>
+                <recombinant_exp_flag>true</recombinant_exp_flag>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                    <recombinant_cell>Sf9</recombinant_cell>
+                    <recombinant_plasmid>pFastBac1</recombinant_plasmid>
+                </recombinant_expression>
+                <sequence>
+                    <external_references type="UNIPROTKB">O13033</external_references>
+                    <external_references type="GO">GO:0003677</external_references>
+                    <external_references type="GO">GO:0004519</external_references>
+                    <external_references type="GO">GO:0004842</external_references>
+                    <external_references type="GO">GO:0005515</external_references>
+                    <external_references type="GO">GO:0008270</external_references>
+                    <external_references type="GO">GO:0003677</external_references>
+                    <external_references type="GO">GO:0003682</external_references>
+                    <external_references type="GO">GO:0005515</external_references>
+                    <external_references type="GO">GO:0005546</external_references>
+                    <external_references type="GO">GO:0005547</external_references>
+                    <external_references type="INTERPRO">IPR024627</external_references>
+                    <external_references type="INTERPRO">IPR023336</external_references>
+                    <external_references type="INTERPRO">IPR018957</external_references>
+                    <external_references type="INTERPRO">IPR001841</external_references>
+                    <external_references type="INTERPRO">IPR013083</external_references>
+                    <external_references type="INTERPRO">IPR017907</external_references>
+                    <external_references type="INTERPRO">IPR011043</external_references>
+                    <external_references type="INTERPRO">IPR015915</external_references>
+                    <external_references type="INTERPRO">IPR004321</external_references>
+                    <external_references type="INTERPRO">IPR025162</external_references>
+                    <external_references type="INTERPRO">IPR011011</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.4</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <details>150 mM NaCl, 20 mM HEPES, 5 mM MgCl2, 1 mM TCEP</details>
+                    </buffer>
+                    <grid>
+                        <details>400 mesh Quantifoil holey carbon grid, glow discharged</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">85</chamber_humidity>
+                        <chamber_temperature units="K">120</chamber_temperature>
+                        <instrument>GATAN CRYOPLUNGE 3</instrument>
+                        <method>Blot for 2.5 seconds before plunging.</method>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI POLARA 300</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.0</nominal_cs>
+                    <nominal_defocus_min units="&#181;m">1.5</nominal_defocus_min>
+                    <nominal_defocus_max units="&#181;m">2.5</nominal_defocus_max>
+                    <nominal_magnification>31000.0</nominal_magnification>
+                    <calibrated_magnification>40607.0</calibrated_magnification>
+                    <specimen_holder_model>GATAN LIQUID NITROGEN</specimen_holder_model>
+                    <temperature>
+                        <temperature_min units="K">80</temperature_min>
+                        <temperature_max units="K">105</temperature_max>
+                        <temperature_average units="K">100</temperature_average>
+                    </temperature>
+                    <alignment_procedure>
+                        <legacy>
+                            <astigmatism>Objective lens astigmatism was corrected at 150,000 times magnification.</astigmatism>
+                        </legacy>
+                    </alignment_procedure>
+                    <date>2015-03-09</date>
+                    <image_recording_list>
+                        <image_recording>
+                            <film_or_detector_model category="CCD">GATAN K2 (4k x 4k)</film_or_detector_model>
+                            <number_real_images>650</number_real_images>
+                            <average_electron_dose_per_image units="e/&#8491;^2">41</average_electron_dose_per_image>
+                            <details>Every image is the average of 30 frames recorded by the direct electron detector.</details>
+                            <bits_per_pixel>8.</bits_per_pixel>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <details>Image processing was carried out using SAMUEL and Relion.</details>
+                <ctf_correction>
+                    <details>Each particle</details>
+                </ctf_correction>
+                <final_reconstruction>
+                    <algorithm>OTHER</algorithm>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">3.4</resolution>
+                    <resolution_method>OTHER</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>SPIDER, Relion</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>63853</number_images_used>
+                </final_reconstruction>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="27649">
+        <file>emd_6487.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>192</col>
+            <row>192</row>
+            <sec>192</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>192</x>
+            <y>192</y>
+            <z>192</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">236.16</a>
+            <b units="&#8491;">236.16</b>
+            <c units="&#8491;">236.16</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.08890372</minimum>
+            <maximum>0.17297024</maximum>
+            <average>-0.00005541</average>
+            <std>0.00759702</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">1.23</x>
+            <y units="&#8491;">1.23</y>
+            <z units="&#8491;">1.23</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.04</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <annotation_details>Reconstruction of RAG SEC with C2 symmetry</annotation_details>
+        <details>::::EMDATABANK.org::::EMD-6487::::</details>
+    </map>
+    <interpretation>
+        <figure_list>
+            <figure>
+                <file>emd_6487.png</file>
+            </figure>
+        </figure_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_6487_msk_1.map</file>
+                <mask_details format="CCP4" size_kbytes="27649">
+                    <file>emd_6487_msk_1.map</file>
+                    <symmetry>
+                        <space_group>1</space_group>
+                    </symmetry>
+                    <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                    <dimensions>
+                        <col>192</col>
+                        <row>192</row>
+                        <sec>192</sec>
+                    </dimensions>
+                    <origin>
+                        <col>0</col>
+                        <row>0</row>
+                        <sec>0</sec>
+                    </origin>
+                    <spacing>
+                        <x>192</x>
+                        <y>192</y>
+                        <z>192</z>
+                    </spacing>
+                    <cell>
+                        <a units="&#8491;">236.16</a>
+                        <b units="&#8491;">236.16</b>
+                        <c units="&#8491;">236.16</c>
+                        <alpha units="deg">90.0</alpha>
+                        <beta units="deg">90.0</beta>
+                        <gamma units="deg">90.0</gamma>
+                    </cell>
+                    <axis_order>
+                        <fast>X</fast>
+                        <medium>Y</medium>
+                        <slow>Z</slow>
+                    </axis_order>
+                    <statistics>
+                        <minimum>0.0</minimum>
+                        <maximum>1.0</maximum>
+                        <average>0.03725641</average>
+                        <std>0.17934144</std>
+                    </statistics>
+                    <pixel_spacing>
+                        <x units="&#8491;">1.23</x>
+                        <y units="&#8491;">1.23</y>
+                        <z units="&#8491;">1.23</z>
+                    </pixel_spacing>
+                    <annotation_details>This mask represent the whole active site region.</annotation_details>
+                    <details>::::EMDATABANK.org::::</details>
+                </mask_details>
+            </segmentation>
+        </segmentation_list>
+    </interpretation>
+    <validation>
+        <fsc_curve>
+            <file>emd_6487_fsc.xml</file>
+        </fsc_curve>
+    </validation>
+</emd>

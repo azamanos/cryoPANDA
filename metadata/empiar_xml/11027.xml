@@ -1,0 +1,110 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11027" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-06-22</depositionDate>
+            <releaseDate>2022-04-25</releaseDate>
+            <updateDate>2022-04-25</updateDate>
+        </keyDates>
+        <title>Cryo electron microscopy of in vitro recombinant SAA1.1 amyloid fibrils</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-9442-460X</authorORCID>
+            <firstName>Matthias</firstName>
+            <lastName>Schmidt</lastName>
+            <organization type="academic">Institute of Protein Biochemistry, Ulm University</organization>
+            <street>Helmholtzstrasse 8/1</street>
+            <townOrCity>Ulm</townOrCity>
+            <country>Germany</country>
+            <postOrZipCode>89081</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <firstName>Marcus</firstName>
+            <lastName>Faendrich</lastName>
+            <organization type="academic">Institute of Protein Biochemistry, Ulm University</organization>
+            <street>Helmholtzstrasse 8/1</street>
+            <townOrCity>Ulm</townOrCity>
+            <country>Germany</country>
+            <postOrZipCode>89081</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-9442-460X">Schmidt MS</author>
+        </authorsList>
+        <datasetSize>525.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11027</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-11162</emdbEntry>
+            <emdbEntry>EMD-11163</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-4526-366X" order="1">Bansal A</author>
+                    <author authorORCID="0000-0002-9442-460X" order="2">Schmidt M</author>
+                    <author order="3">Rennegarbe M</author>
+                    <author order="4">Haupt C</author>
+                    <author authorORCID="0000-0002-1557-2621" order="5">Liberta F</author>
+                    <author authorORCID="0000-0001-5336-7058" order="6">Stecher S</author>
+                    <author order="7">Puscalau-Girtu I</author>
+                    <author order="8">Biedermann A</author>
+                    <author authorORCID="0000-0003-2123-6816" order="9">Fändrich M</author>
+                    <title>AA amyloid fibrils from diseased tissue are structurally different from in vitro formed SAA fibrils</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country>Germany</country>
+                    <issue>1</issue>
+                    <volume>12</volume>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-021-21129-z</externalReferences>
+                    <externalReferences type="pubmed">33579941</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multiframe micrographs of ex-vivo murine SAA1</name>
+        <directory>/data/micrographs</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>3001</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.04</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.04</pixelHeight>
+        </dimensions>
+        <details>Data collection with a Titan Krios EM (300 kV) using a K2 Summit camera, 20 eV slit. Defocus range -0.5 to -2.5, exposure time 12 seconds, dose rate 3.33 e/A^2/sec, total dose 40 e/A^2.
+In addition, thumbnails with powerspectra and the gain reference (data/gain_reference) can be found within this entry.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/micrographs/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Thumbnails for micrographs of ex-vivo murine SAA1</name>
+        <directory>/data/thumbnails</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>JPEG</headerFormat>
+        <dataFormat>JPEG</dataFormat>
+        <numImagesOrTiltSeries>3001</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>1017</imageWidth>
+            <pixelWidth>3.93</pixelWidth>
+            <imageHeight>1000</imageHeight>
+            <pixelHeight>3.93</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/thumbnails/*.jpg</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

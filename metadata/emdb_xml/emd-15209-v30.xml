@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-15209">
+    <admin>
+        <current_status>
+            <date>2024-07-24</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-06-17</deposition>
+            <header_release>2022-12-28</header_release>
+            <map_release>2022-12-28</map_release>
+            <update>2024-07-24</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council (BBSRC)</funding_body>
+                <code>BB/L014130/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council (BBSRC)</funding_body>
+                <code>BBS/E/J/000PR9794</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Wellcome Trust</funding_body>
+                <code>108466/Z/15/Z</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>Nudaurelia capensis omega virus maturation intermediate captured at pH6.25 (insect cell expressed VLPs)</title>
+        <authors_list>
+            <author>Castells-Graells R</author>
+            <author>Hesketh EL</author>
+            <author>Johnson JE</author>
+            <author>Ranson NA</author>
+            <author>Lawson DM</author>
+            <author>Lomonossoff GP</author>
+        </authors_list>
+        <keywords>ICOSAHEDRAL VIRUS, AUTO-CATALYTIC CLEAVAGE, VIRUS MATURATION, VIRUS-LIKE PARTICLE, VIRUS LIKE PARTICLE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="false">
+                    <author ORCID="0000-0002-3985-6194" order="1">Castells-Graells R</author>
+                    <author ORCID="0000-0002-4522-0061" order="2">Hesketh EL</author>
+                    <author order="3">Johnson JE</author>
+                    <author ORCID="0000-0002-3640-5275" order="4">Ranson NA</author>
+                    <author ORCID="0000-0002-7637-4303" order="5">Lawson DM</author>
+                    <author ORCID="0000-0003-0700-906X" order="6">Lomonossoff GP</author>
+                    <title>Decoding virus maturation with cryo-EM structures of intermediates</title>
+                    <journal_abbreviation>To be published</journal_abbreviation>
+                    <external_references type="CSD">0353</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8a6j</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Nudaurelia capensis omega virus</name>
+        <supramolecule_list>
+            <virus_supramolecule supramolecule_id="1">
+                <name>Nudaurelia capensis omega virus</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>expressed in Spodoptera frugiperda Sf21 cells</details>
+                <sci_species_name ncbi="12541">Nudaurelia capensis omega virus</sci_species_name>
+                <natural_host database="NCBI">
+                    <organism ncbi="2059211">Gonimbrasia cytherea</organism>
+                </natural_host>
+                <molecular_weight>
+                    <theoretical units="MDa">16.76</theoretical>
+                </molecular_weight>
+                <virus_shell shell_id="1">
+                    <name>coat</name>
+                    <diameter units="Å">460.0</diameter>
+                    <triangulation>4</triangulation>
+                </virus_shell>
+                <virus_type>VIRUS-LIKE PARTICLE</virus_type>
+                <virus_isolate>OTHER</virus_isolate>
+                <virus_enveloped>false</virus_enveloped>
+                <virus_empty>false</virus_empty>
+            </virus_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>p70</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="12541">Nudaurelia capensis omega virus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.06989195299999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDSNSASGKRRSRNVRIAANTVNVAPKQRQARGRRARSRANNIDNVTAAAQELGQSLDANVITFPTNVATMPEFRSWARG
+KLDIDQDSIGWYFKYLDPAGATESARAVGEYSKIPDGLVKFSVDAEIREIYNEECPTVSDASIPLDGAQWSLSIISYPMF
+RTAYFAVANVDNKEISLDVTNDLIVWLNNLASWRDVVDSGQWFTFSDDPTWFVRIRVLHPTYDLPDPTEGLLRTVSDYRL
+TYKSITCEANMPTLVDQGFWIGGHYALTPIATTQNAVEGSGFVHPFNVTRPGIAAGVTLTWASMPPGGSAPSGDPAWIPD
+STTQFQWRHGGFDAPTGVITYTIPRGYTMQYFDTTTNEWNGFANPDDVVTFGQTGGAAGTNATITITAPTVTLTILATTT
+SAANVINFRNLDAETTAASNRSEVPLPPLTFGQTAPNNPKIEQTLVKDTLGSYLVHSKMRNPVFQLTPASSFGAISFTNP
+GFDRNLDLPGFGGIRDSLDVNMSTAVCHFRSLSKSCSIVTKTYQGWEGVTNVNTPFGQFAHSGLLKNDEILCLADDLATR
+LTGVYGATDNFAAAVLAFAANMLTSVLKSEATTSVIKELGNQATGLANQGLARLPGLLASIPGKIAARVRARRDRRRAAR
+MNNN</string>
+                    <external_references type="UNIPROTKB">Q4TVS9</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.3</concentration>
+                    <buffer>
+                        <ph>6.25</ph>
+                    </buffer>
+                    <grid>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">70.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.2</nominal_defocus_max>
+                    <nominal_magnification>75000.0</nominal_magnification>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <detector_mode>INTEGRATING</detector_mode>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>10528</number_real_images>
+                            <average_exposure_time units="s">1.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">50.4</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>8A3C</pdb_id>
+                    </pdb_model>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>I</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">4.8</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.3</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>114943</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.3</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.3</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.3</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="108001">
+        <file>emd_15209.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>300</col>
+            <row>300</row>
+            <sec>300</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>300</x>
+            <y>300</y>
+            <z>300</z>
+        </spacing>
+        <cell>
+            <a units="Å">639.00006</a>
+            <b units="Å">639.00006</b>
+            <c units="Å">639.00006</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.046453275</minimum>
+            <maximum>0.12252846</maximum>
+            <average>0.0024965468</average>
+            <std>0.010038551</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">2.13</x>
+            <y units="Å">2.13</y>
+            <z units="Å">2.13</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.02</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-15209::::</label>
+        <annotation_details>Postprocessed map from Relion</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>8A3C</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>OTHER</refinement_protocol>
+                <target_criteria>Correlation coefficient</target_criteria>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>432.0</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_15209_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="108001">
+                <file>emd_15209_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">639.00006</a>
+                    <b units="Å">639.00006</b>
+                    <c units="Å">639.00006</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.01676505</minimum>
+                    <maximum>0.053244837</maximum>
+                    <average>0.0027346879</average>
+                    <std>0.008068267</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">2.13</x>
+                    <y units="Å">2.13</y>
+                    <z units="Å">2.13</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-15209::::</label>
+                <annotation_details>Refine3D half map 1 from Relion</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="108001">
+                <file>emd_15209_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">639.00006</a>
+                    <b units="Å">639.00006</b>
+                    <c units="Å">639.00006</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.01695055</minimum>
+                    <maximum>0.05310121</maximum>
+                    <average>0.0022584058</average>
+                    <std>0.00810138</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">2.13</x>
+                    <y units="Å">2.13</y>
+                    <z units="Å">2.13</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-15209::::</label>
+                <annotation_details>Refine3D half map 2 from Relion</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

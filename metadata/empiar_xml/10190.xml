@@ -1,0 +1,128 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10190" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-05-27</depositionDate>
+            <releaseDate>2018-06-11</releaseDate>
+            <updateDate>2018-06-11</updateDate>
+        </keyDates>
+        <title>RNA Polymerase III initially transcribing complex</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-5975-5609</authorORCID>
+            <firstName>Matthias</firstName>
+            <lastName>Vorländer</lastName>
+            <organization type="academic">European Molecular Biology Laboratory</organization>
+            <street>Meyerhofstraße 1</street>
+            <townOrCity>Heidelberg</townOrCity>
+            <stateOrProvince>Baden-Württemberg</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>69117</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Matthias</firstName>
+            <lastName>Vorländer</lastName>
+            <organization type="academic">European Molecular Biology Laboratory</organization>
+            <street>Meyerhofstraße 1</street>
+            <townOrCity>Heidelberg</townOrCity>
+            <stateOrProvince>Baden-Württemberg</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>69117</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Vorländer MK</author>
+            <author>Khatter H</author>
+            <author>Wetzel R</author>
+            <author>Hagen WJH</author>
+            <author>Müller CW</author>
+        </authorsList>
+        <datasetSize units="TB">1.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10190</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-4181</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Vorländer MK</author>
+                    <author order="2">Khatter H</author>
+                    <author order="3">Wetzel R</author>
+                    <author order="4">Hagen WJH</author>
+                    <author order="5">Müller CW</author>
+                    <title>Molecular mechanism of promoter opening by RNA polymerase III</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <issue>7688</issue>
+                    <volume>553</volume>
+                    <firstPage>295</firstPage>
+                    <lastPage>300</lastPage>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/nature25440</externalReferences>
+                    <externalReferences type="pubmed">29345638</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Movie frames</name>
+        <directory>/data/MotionCorr</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>3868</numImagesOrTiltSeries>
+        <framesPerImage>30</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>30</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED 32 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>7676</imageWidth>
+            <pixelWidth>0.675</pixelWidth>
+            <imageHeight>7420</imageHeight>
+            <pixelHeight>0.675</pixelHeight>
+        </dimensions>
+        <details>TIFs were recorded in super resolution mode on the K2. File "SuperRef_110-1_000_Feb27_18.11.28.mrc", which is the GainRef file of the K2 detector converted to MRC format, is required for unpacking the TIF files with MotionCor2.</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Aligned sums of the movie frames without doseweighting</name>
+        <directory>/data/MotionCorr</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3868</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED 32 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.35</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.35</pixelHeight>
+        </dimensions>
+        <details>The files were obtained with MotionCor2</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Doseweighted aligned sums of the movie frames</name>
+        <directory>/data/MotionCorr</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3868</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED 32 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.35</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.35</pixelHeight>
+        </dimensions>
+        <details>The files were obtained with MotionCor2</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

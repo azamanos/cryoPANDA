@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-3953">
+    <admin>
+        <current_status>
+            <date>2024-11-13</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2017-10-26</deposition>
+            <header_release>2017-11-08</header_release>
+            <map_release>2018-04-11</map_release>
+            <update>2024-11-13</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Swiss National Science Foundation, National Centre of Competence in Research (NCCR) TransCure</funding_body>
+                <country>Switzerland</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Swiss Federal Institute of Technology Zurich (ETH Zurich)</funding_body>
+                <code>ETH-22-14-1</code>
+                <country>Switzerland</country>
+            </grant_reference>
+        </grant_support>
+        <title>Structure of inhibitor-bound ABCG2</title>
+        <authors_list>
+            <author>Jackson SM</author>
+            <author>Manolaridis I</author>
+        </authors_list>
+        <keywords>Multidrug transporter, ABCG2, MZ29, inhibitor, MEMBRANE PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Jackson SM</author>
+                    <author order="2">Manolaridis I</author>
+                    <author order="3">Kowal J</author>
+                    <author order="4">Zechner M</author>
+                    <author order="5">Taylor NMI</author>
+                    <author order="6">Bause M</author>
+                    <author order="7">Bauer S</author>
+                    <author order="8">Bartholomaeus R</author>
+                    <author order="9">Bernhardt G</author>
+                    <author order="10">Koenig B</author>
+                    <author order="11">Buschauer A</author>
+                    <author order="12">Stahlberg H</author>
+                    <author order="13">Altmann KH</author>
+                    <author order="14">Locher KP</author>
+                    <title>Structural basis of small-molecule inhibition of human multidrug transporter ABCG2.</title>
+                    <journal_abbreviation>Nat. Struct. Mol. Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>25</volume>
+                    <first_page>333</first_page>
+                    <last_page>340</last_page>
+                    <year>2018</year>
+                    <external_references type="PUBMED">29610494</external_references>
+                    <external_references type="DOI">doi:10.1038/s41594-018-0049-1</external_references>
+                    <external_references type="ISSN">1545-9985</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6eti</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>inhibitor-bound ABCG2</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>inhibitor-bound ABCG2</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>ABCG2</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">HOMO SAPIENS</organism>
+                </natural_source>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>inhibitor</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">MUS MUSCULUS</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>ATP-binding cassette sub-family G member 2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.072385852</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSSSNVEVFIPVSQGNTNGFPATASNDLKAFTEGAVLSFHNICYRVKLKSGFLPCRKPVEKEILSNINGIMKPGLNAILG
+PTGGGKSSLLDVLAARKDPSGLSGDVLINGAPRPANFKCNSGYVVQDDVVMGTLTVRENLQFSAALRLATTMTNHEKNER
+INRVIQELGLDKVADSKVGTQFIRGVSGGERKRTSIGMELITDPSILFLDEPTTGLDSSTANAVLLLLKRMSKQGRTIIF
+SIHQPRYSIFKLFDSLTLLASGRLMFHGPAQEALGYFESAGYHCEAYNNPADFFLDIINGDSTAVALNREEDFKATEIIE
+PSKQDKPLIEKLAEIYVNSSFYKETKAELHQLSGGEKKKKITVFKEISYTTSFCHQLRWVSKRSFKNLLGNPQASIAQII
+VTVVLGLVIGAIYFGLKNDSTGIQNRAGVLFFLTTNQCFSSVSAVELFVVEKKLFIHEYISGYYRVSSYFLGKLLSDLLP
+MRMLPSIIFTCIVYFMLGLKPKADAFFVMMFTLMMVAYSASSMALAIAAGQSVVSVATLLMTICFVFMMIFSGLLVNLTT
+IASWLSWLQYFSIPRYGFTALQHNEFLGQNFCPGLNATGNNPCNYATCTGEEYLVKQGIDLSPWGLWKNHVALACMIVIF
+LTIAYLKLLFLKKYS</string>
+                    <external_references type="UNIPROTKB">Q9UNQ0</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>5D3(Fab) light chain variable domain</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023594016</theoretical>
+                </molecular_weight>
+                <details>The variable domain of the light chain of 5D3(Fab)</details>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="10090">Mus musculus</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>DIVLTQSPSSFSVSLGDRVTISCKASGYILNRLAWYQQKPGNAPRLLISGATSLETGFPSRFSGTGSGKDYTLSISSLQT
+EDVGTYYCQQYWSTPWTFGGGTKLEIRRADAAPTVSIFPPSSEQLTSGGASVVCFLNNFYPKDINVKWKIDGSERQNGVL
+NSWTDQDSKDSTYSMSSTLTLTKDEYERHNSYTCEATHKTSTSPIVKSFNRNEC</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>5D3(Fab) heavy chain variable domain</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023843633</theoretical>
+                </molecular_weight>
+                <details>The variable domain of the heavy chain of 5D3(Fab)</details>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="10090">Mus musculus</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>QVQLQESGPGLVKPSQSLSLTCTVTGFSITSDYAWNWIRQFPGKKLEWMGYINFDGGTTYNPSLRGRISITRDTSKNQFF
+LQLRSVTPEDTATYYCATFYGAKGTLDYWGQGTSVTVSSAKTTPPSVYPLAPVCGDTSGSSVTLGCLVKGYFPEPVTLTW
+NSGSLSSGVHTFPAVLQSDLYTLSSSVTVTSSTWPSQSITCNVAHPASSTKVDKKIEPRGP</string>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="5">
+                <name>~{tert}-butyl 3-[(2~{S},5~{S},8~{S})-14-cyclopentyloxy-2-(2-methylpropyl)-4,7-bis(oxidanylidene)-3,6,17-triazatetracyclo[8.7.0.0^{3,8}.0^{11,16}]heptadeca-1(10),11,13,15-tetraen-5-yl]propanoate</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000523664</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>BWQ</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.4</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <number_real_images>4094</number_real_images>
+                            <average_exposure_time units="s">0.2</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">2.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="PDB ENTRY">
+                    <details>5NJ3</details>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.1</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>284831</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="226493">
+        <file>emd_3953.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>384</col>
+            <row>384</row>
+            <sec>384</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>384</x>
+            <y>384</y>
+            <z>384</z>
+        </spacing>
+        <cell>
+            <a units="Å">322.56</a>
+            <b units="Å">322.56</b>
+            <c units="Å">322.56</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.16035369</minimum>
+            <maximum>0.29498184</maximum>
+            <average>-0.0000047451895</average>
+            <std>0.005259065</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.84</x>
+            <y units="Å">0.84</y>
+            <z units="Å">0.84</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.038</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-3953::::</label>
+        <annotation_details>The local-resolution filtered map of ABCG2-MZ29-Fab</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <overall_bvalue>98.0</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="226493">
+                <file>emd_3953_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>384</col>
+                    <row>384</row>
+                    <sec>384</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>384</x>
+                    <y>384</y>
+                    <z>384</z>
+                </spacing>
+                <cell>
+                    <a units="Å">322.56</a>
+                    <b units="Å">322.56</b>
+                    <c units="Å">322.56</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.16072826</minimum>
+                    <maximum>0.27887657</maximum>
+                    <average>0.00043866824</average>
+                    <std>0.0053286776</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.84</x>
+                    <y units="Å">0.84</y>
+                    <z units="Å">0.84</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::D_1200007232::::</label>
+                <annotation_details>The post-processed map of ABCG2-MZ29-Fab</annotation_details>
+            </additional_map>
+        </additional_map_list>
+    </interpretation>
+</emd>

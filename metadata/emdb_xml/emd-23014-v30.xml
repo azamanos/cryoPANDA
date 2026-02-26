@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-23014">
+    <admin>
+        <current_status>
+            <date>2024-10-23</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-11-20</deposition>
+            <header_release>2021-03-24</header_release>
+            <map_release>2021-03-24</map_release>
+            <update>2024-10-23</update>
+        </key_dates>
+        <title>GluK2/K5 with 6-Cyano-7-nitroquinoxaline-2,3-dione (CNQX)</title>
+        <authors_list>
+            <author>Khanra N</author>
+            <author>Brown PMGE</author>
+        </authors_list>
+        <keywords>Kainate receptor, ionotropic glutamate receptor, membrane protein, ligand-gated ion channel, SIGNALING PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Khanra N</author>
+                    <author order="2">Brown PM</author>
+                    <author order="3">Perozzo AM</author>
+                    <author order="4">Bowie D</author>
+                    <author order="5">Meyerson J</author>
+                    <title>Architecture and structural dynamics of the heteromeric GluK2/K5 kainate receptor.</title>
+                    <journal_abbreviation>Elife</journal_abbreviation>
+                    <country>US</country>
+                    <volume>10</volume>
+                    <year>2021</year>
+                    <external_references type="PUBMED">33724189</external_references>
+                    <external_references type="DOI">doi:10.7554/eLife.66097</external_references>
+                    <external_references type="ISSN">2050-084X</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-23015</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-23017</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7ks0</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>GluK2/K5 with 6-Cyano-7-nitroquinoxaline-2,3-dione (CNQX)</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>GluK2/K5 with 6-Cyano-7-nitroquinoxaline-2,3-dione (CNQX)</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="10116">Rattus norvegicus</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Glutamate receptor ionotropic, kainate 5,Green fluorescent protein chimera</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="6100">Aequorea victoria</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.123676812</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPAELLLLLIVAFANPSCQVLSSLRMAAILDDQTVCGRGERLALALAREQINGIIEVPAKARVEVDIFELQRDSQYETTD
+TMCQILPKGVVSVLGPSSSPASASTVSHICGEKEIPHIKVGPEETPRLQYLRFASVSLYPSNEDVSLAVSRILKSFNYPS
+ASLICAKAECLLRLEELVRGFLISKETLSVRMLDDSRDPTPLLKEIRDDKVSTIIIDANASISHLVLRKASELGMTSAFY
+KYILTTMDFPILHLDGIVEDSSNILGFSMFNTSHPFYPEFVRSLNMSWRENCEASTYPGPALSAALMFDAVHVVVSAVRE
+LNRSQEIGVKPLACTSANIWPHGTSLMNYLRMVEYDGLTGRVEFNSKGQRTNYTLRILEKSRQGHREIGVWYSNRTLAMN
+ATTLDINLSQTLANKTLVVTTILENPYVMRRPNFQALSGNERFEGFCVDMLRELAELLRFRYRLRLVEDGLYGAPEPNGS
+WTGMVGELINRKADLAVAAFTITAEREKVIDFSKPFMTLGISILYRVHMGRKPGYFSFLDPFSPAVWLFMLLAYLAVSVV
+LFLAARLSPYEWYNPHPSLRARPHILENQYTLGNSLWFPVGGFMQQGSEIMPRALSTRIVSGVWWAFTLIIISSYTANLA
+AFLTVQRMEVPVESADDLADQTNIEYGTIHAGSTMTFFQNSRYQTYQRMWNYMQSKQPSVFVKSTEEGIARVLNSRYAFL
+LESTMNEYHRRLNCNLTQIGGLLDTKGYGIGMPLGSPFRDEITLAILQLQENNRLEILKRKWWEGGRCPKEEDHRAKGLG
+MENIGGIFVVLIAGLIIAVFVAVMEFIYKSRAEAKRMKGLVPRGSAAAAMVSKGEELFTGVVPILVELDGDVNGHKFSVS
+GEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTLTYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKTRA
+EVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKIRHNIEDGSVQLADHYQQNTPIGD
+GPVLLPDNHYLSTQSKLSKDPNEKRDHMVLLEFVTAAGITLGMDELYKSGLRTETSQVAPA</string>
+                    <external_references type="UNIPROTKB">Q63273</external_references>
+                    <external_references type="UNIPROTKB">P42212</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Glutamate receptor ionotropic, kainate 2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10116">Rattus norvegicus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.105981617</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKIISPVLSNLVFSRSIKVLLCLLWIGYSQGTTHVLRFGGIFEYVESGPMGAEELAFRFAVNTINRNRTLLPNTTLTYDT
+QKINLYDSFEASKKACDQLSLGVAAIFGPSHSSSANAVQSICNALGVPHIQTRWKHQVSDNKDSFYVSLYPDFSSLSRAI
+LDLVQFFKWKTVTVVYDDSTGLIRLQELIKAPSRYNLRLKIRQLPADTKDAKPLLKEMKRGKEFHVIFDCSHEMAAGILK
+QALAMGMMTEYYHYIFTTLDLFALDVEPYRYSGVNMTGFRILNTENTQVSSIIEKWSMERLQAPPKPDSGLLDGFMTTDA
+ALMYDAVHVVSVAVQQFPQMTVSSLQCNRHKPWRFGTRFMSLIKEAHWEGLTGRITFNKTNGLRTDFDLDVISLKEEGLE
+KIGTWDPASGLNMTESQKGKPANITDSLSNRSLIVTTILEEPYVLFKKSDKPLYGNDRFEGYCIDLLRELSTILGFTYEI
+RLVEDGKYGAQDDVNGQWNGMVRELIDHKADLAVAPLAITYVREKVIDFSKPFMTLGISILYRKPNGTNPGVFSFLNPLS
+PDIWMYVLLAYLGVSVVLFVIARFSPYEWYNPHPSNPDSDVVENNFTLLNSFWFGVGALMQQGSELMPKALSTRIVGGIW
+WFFTLIIISSYTANLAAFLTVERMESPIDSADDLAKQTKIEYGAVEDGATMTFFKKSKISTYDKMWAFMSSRRQSVLVKS
+NEEGIQRVLTSDYAFLMESTTIEFVTQRNCNLTQIGGLIDSKGYGVGTPMGSPYRDKITIAILQLQEEGKLHMMKEKWWR
+GNGCPEEESKEASALGVQNIGGIFIVLAAGLVLSVFVAVGEFLYKSKKNAQLEKRSFCSAMVEELRMSLKCQRRLKHKPQ
+APVIVKTEEVINMHTFNDRRLPGKETMASGLRSAWSHPQFEKGGGSGGGSGGGSWSHPQFEK</string>
+                    <external_references type="UNIPROTKB">P42260</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">3.7</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                        <component>
+                            <concentration units="mM">300.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <name>Tris</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>UltrAuFoil R1.2/1.3</model>
+                        <material>GOLD</material>
+                        <mesh>300</mesh>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                        <details>Functionalized with PEG-thiol</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">295</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                    <details>1 mM 6-Cyano-7-nitroquinoxaline-2,3-dione</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TECNAI ARCTICA</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">51.5</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">5.3</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <details>Number of particles for ATD map: 540580
+
+Number of particles for LBD-TMD map: 184945</details>
+                    <number_images_used>1021916</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="131073">
+        <file>emd_23014.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>320</col>
+            <row>320</row>
+            <sec>320</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>320</x>
+            <y>320</y>
+            <z>320</z>
+        </spacing>
+        <cell>
+            <a units="Å">350.71997</a>
+            <b units="Å">350.71997</b>
+            <c units="Å">350.71997</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.6293837</minimum>
+            <maximum>1.175882</maximum>
+            <average>0.0037012568</average>
+            <std>0.054113127</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.096</x>
+            <y units="Å">1.096</y>
+            <z units="Å">1.096</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.367</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-23014::::</label>
+        <annotation_details>GluK2/K5 with CNQX (full-length map)</annotation_details>
+    </map>
+    <interpretation>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="131073">
+                <file>emd_23014_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">350.71997</a>
+                    <b units="Å">350.71997</b>
+                    <c units="Å">350.71997</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.6154802</minimum>
+                    <maximum>2.2488523</maximum>
+                    <average>0.012835224</average>
+                    <std>0.07543231</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.096</x>
+                    <y units="Å">1.096</y>
+                    <z units="Å">1.096</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-23014::::</label>
+                <annotation_details>GluK2/K5 with CNQX (LBD-TMD map)</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="131073">
+                <file>emd_23014_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">350.71997</a>
+                    <b units="Å">350.71997</b>
+                    <c units="Å">350.71997</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.16543</minimum>
+                    <maximum>2.869725</maximum>
+                    <average>0.009804051</average>
+                    <std>0.06748044</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.096</x>
+                    <y units="Å">1.096</y>
+                    <z units="Å">1.096</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-23014::::</label>
+                <annotation_details>GluK2/K5 with CNQX (ATD map)</annotation_details>
+            </additional_map>
+        </additional_map_list>
+    </interpretation>
+</emd>

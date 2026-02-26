@@ -1,0 +1,95 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11086" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-06-13</depositionDate>
+            <releaseDate>2022-10-31</releaseDate>
+            <updateDate>2022-10-31</updateDate>
+        </keyDates>
+        <title>Cryo-EM reconstruction of P.falciparum kinesin-8B motor domain in no nucleotide state bound to tubulin dimer</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0001-5686-6290</authorORCID>
+            <firstName>Carolyn</firstName>
+            <middleName>Ann</middleName>
+            <lastName>Moores</lastName>
+            <organization type="academic">Institute of Structural and Molecular Biology,Birkbeck College,London</organization>
+            <townOrCity>London</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>WC1E 7HX</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0001-5686-6290</authorORCID>
+            <firstName>Carolyn</firstName>
+            <middleName>Ann</middleName>
+            <lastName>Moores</lastName>
+            <organization type="academic">Institute of Structural and Molecular Biology,Birkbeck College,London</organization>
+            <street>Malet street</street>
+            <townOrCity>London</townOrCity>
+            <stateOrProvince>London</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>WC1E 7HX</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-2598-8572">Liu T</author>
+            <author authorORCID="0000-0002-9275-0604">Shilliday F</author>
+            <author authorORCID="0000-0003-1283-1541">Cook AD</author>
+            <author authorORCID="0000-0001-5686-6290">Moores CA</author>
+        </authorsList>
+        <datasetSize>216.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11086</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-14461</emdbEntry>
+            <emdbEntry>EMD-14459</emdbEntry>
+            <emdbEntry>EMD-14460</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author authorORCID="0000-0003-2598-8572" order="1">Liu T</author>
+                    <author authorORCID="0000-0002-9275-0604" order="2">Shilliday F</author>
+                    <author authorORCID="0000-0003-1283-1541" order="3">Cook AD</author>
+                    <author order="4">Tewari R</author>
+                    <author authorORCID="0000-0003-1592-6407" order="5">Sutherland CJ</author>
+                    <author order="6">Roberts AJ</author>
+                    <author authorORCID="0000-0001-5686-6290" order="7">Moores CA</author>
+                    <editor order="1"> </editor>
+                    <title>Mechanochemical tuning of a kinesin motor essential for malaria parasite transmission</title>
+                    <journal>bioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <year>2022</year>
+                    <externalReferences type="doi">10.1101/2022.02.11.480087</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Cryo-EM dataset of P.falciparum kinesin-8B motor domains in no nucleotide state bound to MT</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4075</numImagesOrTiltSeries>
+        <framesPerImage>32</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>32</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.05</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.05</pixelHeight>
+        </dimensions>
+        <details>The dataset was collected on Titan Krios with K2 camera operating in counting mode with a GIF Quantum LS Imaging filter and motion corrected using MotionCor2.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

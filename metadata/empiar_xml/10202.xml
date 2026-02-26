@@ -1,0 +1,245 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10202" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-07-28</depositionDate>
+            <releaseDate>2018-08-08</releaseDate>
+            <updateDate>2019-06-07</updateDate>
+        </keyDates>
+        <title>Sub-2 Å Single-Particle Cryo-EM Reconstruction of AAV2-L336C</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-6656-6320</authorORCID>
+            <firstName>Yong Zi</firstName>
+            <lastName>Tan</lastName>
+            <organization type="academic">New York Structural Biology Center/Columbia University</organization>
+            <street>89 Convent Ave</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8124-7472</authorORCID>
+            <firstName>Dmitry</firstName>
+            <lastName>Lyumkis</lastName>
+            <organization type="academic">Laboratory of Genetics and Helmsley Center for Genomic Medicine, The Salk Institute for Biological Studies</organization>
+            <street>10010 North Torrey Pines Road</street>
+            <townOrCity>La Jolla</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>92037</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-0565-5578</authorORCID>
+            <firstName>Mavis</firstName>
+            <lastName>Agbandje-McKenna</lastName>
+            <organization type="academic">Department of Biochemistry and Molecular Biology, Center for Structural Biology, The McKnight Brain Institute, College of Medicine, University of Florida</organization>
+            <street>1200 Newell Drive</street>
+            <townOrCity>Gainesville</townOrCity>
+            <stateOrProvince>Florida</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>32610</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-6656-6320">Tan YZ</author>
+            <author authorORCID="0000-0001-6436-0521">Aiyer S</author>
+            <author authorORCID="0000-0001-8957-3363">Mietzsch M</author>
+            <author>Hull JA</author>
+            <author>McKenna R</author>
+            <author>Grieger J</author>
+            <author>Samulski RJ</author>
+            <author>Baker TS</author>
+            <author authorORCID="0000-0003-0565-5578">Agbandje-McKenna M</author>
+            <author authorORCID="0000-0002-8124-7472">Lyumkis D</author>
+        </authorsList>
+        <datasetSize units="TB">5.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10202</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-9012</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-6656-6320" order="1">Tan YZ</author>
+                    <author authorORCID="0000-0001-6436-0521" order="2">Aiyer S</author>
+                    <author authorORCID="0000-0001-8957-3363" order="3">Mietzsch M</author>
+                    <author order="4">Hull JA</author>
+                    <author order="5">McKenna R</author>
+                    <author order="6">Grieger J</author>
+                    <author order="7">Samulski RJ</author>
+                    <author order="8">Baker TS</author>
+                    <author authorORCID="0000-0003-0565-5578" order="9">Agbandje-McKenna M</author>
+                    <author authorORCID="0000-0002-8124-7472" order="10">Lyumkis D</author>
+                    <title>Sub-2 Å Ewald curvature corrected structure of an AAV2 capsid variant</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>9</volume>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-018-06076-6</externalReferences>
+                    <externalReferences type="pubmed">30194371</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned, compressed, raw movie frames of AAV2-L336C</name>
+        <directory>/data/01_Raw_Frames_Compressed</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1317</numImagesOrTiltSeries>
+        <framesPerImage>70</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>70</frameRangeMax>
+        </frameRange>
+        <voxelType>SIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>7420</imageWidth>
+            <pixelWidth>0.394</pixelWidth>
+            <imageHeight>7676</imageHeight>
+            <pixelHeight>0.394</pixelHeight>
+        </dimensions>
+        <details>Unaligned, compressed, raw movie frames of AAV2-L336C. The gain normalization reference images (norm) are included. No dark gain reference images are present because dark images values are always zero in counting mode camera. Magnification anisotropy measured using gold diffraction was found to be 1.005 at major axis, 0.995 at minor axis, at 7.7 degrees angle. Total dose was 22.5 electrons per Å squared over 3.5 seconds. Calibrated pixel size is 0.394 Å/pixel.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>MotionCor2 aligned, gain corrected, magnification anisotropy corrected, Fourier bin by 2 movie frames of AAV2-L336C</name>
+        <directory>/data/02_MotionCor2_Bin2_Aligned_FrameStack</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1317</numImagesOrTiltSeries>
+        <framesPerImage>70</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>70</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>0.788</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>0.788</pixelHeight>
+        </dimensions>
+        <details>MotionCor2 aligned, gain corrected, magnification anisotropy corrected, Fourier bin by 2 movie frames of AAV2-L336C. Movie frames were aligned using MotionCor2 with 5 by 5 patches, a grouping of 3 and B-factor of 100, and Fourier space binning of 2 (resulting in a pixel size of 0.788 Å/pixel)  through the Appion software package. No dose weighting was applied for these movies frames.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>MotionCor2 aligned, gain corrected, magnification anisotropy corrected, Fourier bin by 2, dose weighted, summed micrographs of AAV2-L336C</name>
+        <directory>/data/03_MotionCor2_Bin2_DW_Aligned_Micrograph</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1317</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>0.788</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>0.788</pixelHeight>
+        </dimensions>
+        <details>MotionCor2 aligned, gain corrected, magnification anisotropy corrected, Fourier bin by 2 movie frames of AAV2-L336C. Movie frames were aligned using MotionCor2 with 5 by 5 patches, a grouping of 3 and B-factor of 100, and Fourier space binning of 2 (resulting in a pixel size of 0.788 Å/pixel)  through the Appion software package. Dose weighting was applied for these summed micrographs, using a dose per frame of 0.3214 electrons per Å squared.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>MotionCor2 aligned, gain corrected, magnification anisotropy corrected, Fourier bin by 2, not dose weighted, summed micrographs of AAV2-L336C</name>
+        <directory>/data/04_MotionCor2_Bin2_NotDW_Aligned_Micrograph</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1317</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>0.788</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>0.788</pixelHeight>
+        </dimensions>
+        <details>MotionCor2 aligned, gain corrected, magnification anisotropy corrected, Fourier bin by 2 movie frames of AAV2-L336C. Movie frames were aligned using MotionCor2 with 5 by 5 patches, a grouping of 3 and B-factor of 100, and Fourier space binning of 2 (resulting in a pixel size of 0.788 Å/pixel)  through the Appion software package. These are the non-dose weighted summed micrographs that can be used for CTF estimation.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>MotionCor2 aligned, gain corrected, magnification anisotropy corrected, Fourier bin by 2, not dose weighted, frames 5 to 19 summed micrographs of AAV2-L336C</name>
+        <directory>/data/05_MotionCor2_Bin2_NotDW_Frames5-19_Sum_Micrograph</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1317</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>0.788</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>0.788</pixelHeight>
+        </dimensions>
+        <details>MotionCor2 aligned, gain corrected, magnification anisotropy corrected, Fourier bin by 2 movie frames of AAV2-L336C. Movie frames were aligned using MotionCor2 with 5 by 5 patches, a grouping of 3 and B-factor of 100, and Fourier space binning of 2 (resulting in a pixel size of 0.788 Å/pixel)  through the Appion software package. Frames 5 to 19 were summed and no dose weighting was applied, as these corresponded to frames that gave the best resolution reconstructions individually compared to the other frames. Note that the signal-to-noise ratio in these micrographs are less those from all 70 frames, and should only be used for the final refinements and reconstructions once Euler angles and shifts have been established.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final particle stack of AAV2-L336C using frames 5 to 19</name>
+        <directory>/data/06_Final_Stack</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>30515</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>800</imageWidth>
+            <pixelWidth>0.788</pixelWidth>
+            <imageHeight>800</imageHeight>
+            <pixelHeight>0.788</pixelHeight>
+        </dimensions>
+        <details>Final set of AAV2-L336C particles extracted from MotionCor2 aligned, gain corrected, magnification anisotropy corrected, Fourier bin by 2, not dose weighted, frames 5 to 19 summed micrographs. A Relion .star format file is provided and contains the final Euler angles, shifts and also the micrograph coordinates.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final particle stack of AAV2-L336C grouped into frames 5-9, 10-14 and 15-19, after rotational alignment</name>
+        <directory>/data/07_Final_Stack_Rotational_Alignment</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>91545</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>800</imageWidth>
+            <pixelWidth>0.788</pixelWidth>
+            <imageHeight>800</imageHeight>
+            <pixelHeight>0.788</pixelHeight>
+        </dimensions>
+        <details>From the final set of 30515 particles, each particle was expanded into 3: a particle for frames 5-9, one for frames 10-14 and one for frames 15-19. This resulted in a stack 3 times larger that was used for rotational alignment in Frealign. A .mrc stack and Frealign .par file are provided with the final Euler angles and shifts.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-24302">
+    <admin>
+        <current_status>
+            <date>2024-06-05</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-06-25</deposition>
+            <header_release>2021-08-04</header_release>
+            <map_release>2021-08-04</map_release>
+            <update>2024-06-05</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Neurological Disorders and Stroke (NIH/NINDS)</funding_body>
+                <code>R01NS102279</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>p47-bound p97-R155H mutant with ATPgammaS</title>
+        <authors_list>
+            <author>Nandi P</author>
+            <author>Li S</author>
+        </authors_list>
+        <keywords>AAA+ ATPase, MOTOR PROTEIN, HYDROLASE, HYDROLASE-Lipid Binding Protein complex</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Nandi P</author>
+                    <author order="2">Li S</author>
+                    <author order="3">Columbres RCA</author>
+                    <author order="4">Wang F</author>
+                    <author order="5">Williams DR</author>
+                    <author order="6">Poh YP</author>
+                    <author order="7">Chou TF</author>
+                    <author order="8">Chiu PL</author>
+                    <title>Structural and Functional Analysis of Disease-Linked p97 ATPase Mutant Complexes.</title>
+                    <journal_abbreviation>Int J Mol Sci</journal_abbreviation>
+                    <country>CH</country>
+                    <volume>22</volume>
+                    <year>2021</year>
+                    <external_references type="PUBMED">34360842</external_references>
+                    <external_references type="DOI">doi:10.3390/ijms22158079</external_references>
+                    <external_references type="ISSN">1422-0067</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7r7s</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>p47-bound p97-R155H mutant with ATPgammaS</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>p47-bound p97-R155H mutant with ATPgammaS</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>p47-bound p97-R155H mutant with ATPgammaS</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.723</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Transitional endoplasmic reticulum ATPase</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.08941777299999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MASGADSKGDDLSTAILKQKNRPNRLIVDEAINEDNSVVSLSQPKMDELQLFRGDTVLLKGKKRREAVCIVLSDDTCSDE
+KIRMNRVVRNNLRVRLGDVISIQPCPDVKYGKRIHVLPIDDTVEGITGNLFEVYLKPYFLEAYRPIRKGDIFLVHGGMRA
+VEFKVVETDPSPYCIVAPDTVIHCEGEPIKREDEEESLNEVGYDDIGGCRKQLAQIKEMVELPLRHPALFKAIGVKPPRG
+ILLYGPPGTGKTLIARAVANETGAFFFLINGPEIMSKLAGESESNLRKAFEEAEKNAPAIIFIDELDAIAPKREKTHGEV
+ERRIVSQLLTLMDGLKQRAHVIVMAATNRPNSIDPALRRFGRFDREVDIGIPDATGRLEILQIHTKNMKLADDVDLEQVA
+NETHGHVGADLAALCSEAALQAIRKKMDLIDLEDETIDAEVMNSLAVTMDDFRWALSQSNPSALRETVVEVPQVTWEDIG
+GLEDVKRELQELVQYPVEHPDKFLKFGMTPSKGVLFYGPPGCGKTLLAKAIANECQANFISIKGPELLTMWFGESEANVR
+EIFDKARQAAPCVLFFDELDSIAKARGGNIGDGGGAADRVINQILTEMDGMSTKKNVFIIGATNRPDIIDPAILRPGRLD
+QLIYIPLPDEKSRVAILKANLRKSPVAKDVDLEFLAKMTNGFSGADLTEICQRACKLAIRESIESEIRRERERQTNPSAM
+EVEEDDPVPEIRRDHFEEAMRFARRSVSDNDIRKYEMFAQTLQQSRGFGSFRFPSGNQGGAGPSQGSGGGTGGSVYTEDN
+DDDLYG</string>
+                    <external_references type="UNIPROTKB">P55072</external_references>
+                </sequence>
+                <ec_number>3.6.4.6</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>NSFL1 cofactor p47</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10116">Rattus norvegicus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.040731855000000004</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAEERQDALREFVAVTGAEEDRARFFLESAGWDLQIALASFYEDGGDEDIVTISQATPSSVSRGTAPSDNRVTSFRDLIH
+DQDEEEEEEEGQRFYAGGSERSGQQIVGPPRKKSPNELVDDLFKGAKEHGAVAVERVTKSPGETSKPRPFAGGGYRLGAA
+PEEESAYVAGERRRHSGQDVHVVLKLWKTGFSLDNGDLRSYQDPSNAQFLESIRRGEVPAELRRLAHGGQVNLDMEDHRD
+EDFVKPKGAFKAFTGEGQKLGSTAPQVLNTSSPAQQAENEAKASSSILINEAEPTTNIQIRLADGGRLVQKFNHSHRISD
+IRLFIVDARPAMAATSFVLMTTFPNKELADENQTLKEANLLNAVIVQRLT</string>
+                    <external_references type="UNIPROTKB">O35987</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="3">
+                <name>PHOSPHOTHIOPHOSPHORIC ACID-ADENYLATE ESTER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0005232469999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>12</number_of_copies>
+                <formula>AGS</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.2</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>HEPES</formula>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>KCl</formula>
+                            <name>potassium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.0</concentration>
+                            <formula>TCEP</formula>
+                            <name>TCEP</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>C-flat-2/1</model>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY ARRAY</film_topology>
+                        </support_film>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">292</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>The grid was blotted for 6 seconds.. </details>
+                    </vitrification>
+                    <details>The protein sample was monodisperse.</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">-0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">-2.5</nominal_defocus_max>
+                    <nominal_magnification>48077.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free>
+                            <residual_tilt units="mrad">0.001</residual_tilt>
+                        </coma_free>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>SUPER-RESOLUTION</detector_mode>
+                            <digitization_details/>
+                            <number_real_images>2796</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">44.4</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>401303</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="INSILICO MODEL"/>
+                <final_reconstruction>
+                    <algorithm>BACK PROJECTION</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">4.23</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2.15</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>63353</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2.15</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2.15</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2.15</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="55297">
+        <file>emd_24302.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>240</col>
+            <row>240</row>
+            <sec>240</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>240</x>
+            <y>240</y>
+            <z>240</z>
+        </spacing>
+        <cell>
+            <a units="Å">339.12</a>
+            <b units="Å">339.12</b>
+            <c units="Å">339.12</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.2829055</minimum>
+            <maximum>0.7998169</maximum>
+            <average>0.0002974616</average>
+            <std>0.029934788</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.413</x>
+            <y units="Å">1.413</y>
+            <z units="Å">1.413</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.086</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-24302::::</label>
+        <annotation_details>p47-bound p97-R155H mutant with ATPgammaS</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>5FTN</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>OTHER</refinement_protocol>
+                <target_criteria>CC</target_criteria>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>124.799999999999997</overall_bvalue>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

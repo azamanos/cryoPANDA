@@ -1,0 +1,194 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10295" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-07-16</depositionDate>
+            <releaseDate>2019-10-04</releaseDate>
+            <updateDate>2019-10-11</updateDate>
+        </keyDates>
+        <title>Single particle cryo-EM dataset of clathrin cages suitable for subparticle extraction</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-3364-7946</authorORCID>
+            <firstName>Corinne</firstName>
+            <middleName>J</middleName>
+            <lastName>Smith</lastName>
+            <organization type="academic">University of Warwick</organization>
+            <street>Gibbet Hill Road</street>
+            <townOrCity>Coventry</townOrCity>
+            <stateOrProvince>West Midlands</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CV47AL</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-3364-7946</authorORCID>
+            <firstName>Corinne</firstName>
+            <middleName>J</middleName>
+            <lastName>Smith</lastName>
+            <organization type="academic">University of Warwick</organization>
+            <street>Gibbet Hill Road</street>
+            <townOrCity>Coventry</townOrCity>
+            <stateOrProvince>West Midlands</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CV47AL</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-1717-8134">Morris KL</author>
+            <author authorORCID="0000-0002-6924-9985">Jones JR</author>
+            <author authorORCID="0000-0001-9712-1519">Halebian M</author>
+            <author>Wu S</author>
+            <author>Baker M</author>
+            <author authorORCID="0000-0001-9195-2282">Armache JP</author>
+            <author>Avila Ibarra A</author>
+            <author authorORCID="0000-0003-0320-0895">Sessions RB</author>
+            <author authorORCID="0000-0001-8776-3518">Cameron AD</author>
+            <author>Cheng Y</author>
+            <author authorORCID="0000-0003-3364-7946">Smith CJ</author>
+        </authorsList>
+        <datasetSize units="GB">19.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10295</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-0120</emdbEntry>
+            <emdbEntry>EMD-0118</emdbEntry>
+            <emdbEntry>EMD-0116</emdbEntry>
+            <emdbEntry>EMD-0115</emdbEntry>
+            <emdbEntry>EMD-0114</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-3364-7946" order="11">Smith CJ</author>
+                    <author authorORCID="0000-0002-1717-8134" order="1">Morris KL</author>
+                    <author authorORCID="0000-0002-6924-9985" order="2">Jones JR</author>
+                    <author authorORCID="0000-0001-9712-1519" order="3">Halebian M</author>
+                    <author order="4">Wu S</author>
+                    <author order="5">Baker M</author>
+                    <author authorORCID="0000-0001-9195-2282" order="6">Armache JP</author>
+                    <author order="7">Avila Ibarra A</author>
+                    <author authorORCID="0000-0003-0320-0895" order="8">Sessions RB</author>
+                    <author authorORCID="0000-0001-8776-3518" order="9">Cameron AD</author>
+                    <author order="10">Cheng Y</author>
+                    <title>Cryo-EM of multiple cage architectures reveals a universal mode of clathrin self-assembly</title>
+                    <journal>Nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>Nat. Struct. Mol. Biol.</journalAbbreviation>
+                    <country></country>
+                    <issue>10</issue>
+                    <volume>26</volume>
+                    <firstPage>890</firstPage>
+                    <lastPage>898</lastPage>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41594-019-0292-0</externalReferences>
+                    <externalReferences type="pubmed">31582853</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Clathrin cage particle images - 36 D6 barrel</name>
+        <directory>/data/job090</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>1160</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>750</imageWidth>
+            <pixelWidth>1.705</pixelWidth>
+            <imageHeight>750</imageHeight>
+            <pixelHeight>1.705</pixelHeight>
+        </dimensions>
+        <details>Clathrin cage particle images of the 36 D6 barrel with C1 refinement, suitable for subparticle extraction by relion localised reconstruction</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/job090/Micrographs/FII_stack_*_bin1_*_Raw_DW.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/job090/Micrographs/FII_stack_*_bin1_*_Raw_DW_extract.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/job090/Micrographs</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Clathrin cage particle images - 32 sweet potato</name>
+        <directory>/data/job092</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>1761</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>750</imageWidth>
+            <pixelWidth>1.705</pixelWidth>
+            <imageHeight>750</imageHeight>
+            <pixelHeight>1.705</pixelHeight>
+        </dimensions>
+        <details>Clathrin cage particle images of the 32 sweet potato with C1 refinement, suitable for subparticle extraction by relion localised reconstruction</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/job092/Micrographs/FII_stack_*_bin1_*_Raw_DW.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/job092/Micrographs/FII_stack_*_bin1_*_Raw_DW_extract.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/job092/Micrographs/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Clathrin cage particle images - 28 mini coat</name>
+        <directory>/data/job020</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>2945</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>750</imageWidth>
+            <pixelWidth>1.705</pixelWidth>
+            <imageHeight>750</imageHeight>
+            <pixelHeight>1.705</pixelHeight>
+        </dimensions>
+        <details>Clathrin cage particle images of the 28 mini coat with C1 refinement, suitable for subparticle extraction by relion localised reconstruction</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/job020/Micrographs/FII_stack_*_bin1_*_Raw_DW.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/job020/Micrographs/FII_stack_*_bin1_*_Raw_DW_extract.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/job020/Micrographs</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Clathrin cage particle images - 36 tennis ball</name>
+        <directory>/data/job091</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>1624</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>750</imageWidth>
+            <pixelWidth>1.705</pixelWidth>
+            <imageHeight>750</imageHeight>
+            <pixelHeight>1.705</pixelHeight>
+        </dimensions>
+        <details>Clathrin cage particle images of the 36 tennis ball with C1 refinement, suitable for subparticle extraction by relion localised reconstruction</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/job091/Micrographs/FII_stack_*_bin1_*_Raw_DW.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/job091/Micrographs/FII_stack_*_bin1_*_Raw_DW_extract.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/job091/Micrographs</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Clathrin cage particle images - 37 big apple</name>
+        <directory>/data/job098</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>2010</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>750</imageWidth>
+            <pixelWidth>1.705</pixelWidth>
+            <imageHeight>750</imageHeight>
+            <pixelHeight>1.705</pixelHeight>
+        </dimensions>
+        <details>Clathrin cage particle images of the 37 big apple with C1 refinement, suitable for subparticle extraction by relion localised reconstruction</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/job098/Micrographs/FII_stack_*_bin1_*_Raw_DW.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/job098/Micrographs/FII_stack_*_bin1_*_Raw_DW_extract.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/job098/Micrographs</pickedParticlesDirectory>
+    </imageSet>
+</entry>

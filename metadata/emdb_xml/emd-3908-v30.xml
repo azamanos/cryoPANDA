@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-3908">
+    <admin>
+        <current_status>
+            <date>2024-05-15</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2017-10-09</deposition>
+            <header_release>2017-11-15</header_release>
+            <map_release>2017-11-15</map_release>
+            <update>2024-05-15</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>H2020 European Research Council</funding_body>
+                <code>725685</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Medical Research Council (United Kingdom)</funding_body>
+                <code>MC_U105192715</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Research Council</funding_body>
+                <code>261151</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Molecular Biology Organization</funding_body>
+                <code>ALTF66-2015</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Bill &amp; Melinda Gates Foundation</funding_body>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>PolyA polymerase module of the cleavage and polyadenylation factor (CPF) from Saccharomyces cerevisiae</title>
+        <authors_list>
+            <author>Casanal A</author>
+            <author>Kumar A</author>
+        </authors_list>
+        <keywords>WD40, Beta-propeller, Zinc finger, 3'end processing, RNA BINDING PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Casanal A</author>
+                    <author order="2">Kumar A</author>
+                    <author order="3">Hill CH</author>
+                    <author order="4">Easter AD</author>
+                    <author order="5">Emsley P</author>
+                    <author order="6">Degliesposti G</author>
+                    <author order="7">Gordiyenko Y</author>
+                    <author order="8">Santhanam B</author>
+                    <author order="9">Wolf J</author>
+                    <author order="10">Wiederhold K</author>
+                    <author order="11">Dornan GL</author>
+                    <author order="12">Skehel M</author>
+                    <author order="13">Robinson CV</author>
+                    <author order="14">Passmore LA</author>
+                    <title>Architecture of eukaryotic mRNA 3'-end processing machinery.</title>
+                    <journal_abbreviation>Science</journal_abbreviation>
+                    <country>US</country>
+                    <volume>358</volume>
+                    <first_page>1056</first_page>
+                    <last_page>1059</last_page>
+                    <year>2017</year>
+                    <external_references type="PUBMED">29074584</external_references>
+                    <external_references type="DOI">doi:10.1126/science.aao6535</external_references>
+                    <external_references type="ISSN">1095-9203</external_references>
+                    <external_references type="CSD">0038</external_references>
+                    <external_references type="ASTM">SCIEAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6eoj</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Complex of Cft1, Yth1, Pfs2 and Fip1</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Complex of Cft1, Yth1, Pfs2 and Fip1</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="559292">SaccharSaccharomyces cerevisiae (strain ATCC 204508 / S288c)omyces</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.27</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Protein CFT1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="559292">Saccharomyces cerevisiae (strain ATCC 204508 / S288c)</organism>
+                    <strain>ATCC 204508 / S288c</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.153577156</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MNVYDDVLDATVVSHSLATHFTTSDYEELLVVRTNILSVYRPTRDGKLYLTDEFKFHGLITDIGLIPQKDSPLSCLLLCT
+GVAKISILKFNTLTNSIDTLSLHYYEGKFKGKSLVELAKISTLRMDPGSSCALLFNNDIIAFLPFHVNKNDDDEEEEDED
+ENIDDSELIHSMNQKSQGTNTFNKRKRTKLGDKFTAPSVVLVASELYEGAKNIIDIQFLKNFTKPTIALLYQPKLVWAGN
+TTISKLPTQYVILTLNIQPAESATKIESTTIAFVKELPWDLHTIVPVSNGAIIVGTNELAFLDNTGVLQSTVLLNSFADK
+ELQKTKIINNSSLEIMFREKNTTSIWIPSSKSKNGGSNNDETLLLMDLKSNIYYIQMEAEGRLLIKFDIFKLPIVNDLLK
+ENSNPKCITRLNATNSNKNMDLFIGFGSGNALVLRLNNLKSTIETREAHNPSSGTNSLMDINDDDDEEMDDLYADEAPEN
+GLTTNDSKGTVETVQPFDIELLSSLRNVGPITSLTVGKVSSIDDVVKGLPNPNKNEYSLVATSGNGSGSHLTVIQTSVQP
+EIELALKFISITQIWNLKIKGRDRYLITTDSTKSRSDIYESDNNFKLHKGGRLRRDATTVYISMFGEEKRIIQVTTNHLY
+LYDTHFRRLTTIKFDYEVIHVSVMDPYILVTVSRGDIKIFELEEKNKRKLLKVDLPEILNEMVITSGLILKSNMCNEFLI
+GLSKSQEEQLLFTFVTADNQIIFFTKDHNDRIFQLNGVDQLNESLYISTYQLGDEIVPDPSIKQVMINKLGHDNKEEYLT
+ILTFGGEIYQYRKLPQRRSRFYRNVTRNDLAITGAPDNAYAKGVSSIERIMHYFPDYNGYSVIFVTGSVPYILIKEDDST
+PKIFKFGNIPLVSVTPWSERSVMCVDDIKNARVYTLTTDNMYYGNKLPLKQIKISNVLDDYKTLQKLVYHERAQLFLVSY
+CKRVPYEALGEDGEKVIGYDENVPHAEGFQSGILLINPKSWKVIDKIDFPKNSVVNEMRSSMIQINSKTKRKREYIIAGV
+ANATTEDTPPTGAFHIYDVIEVVPEPGKPDTNYKLKEIFQEEVSGTVSTVCEVSGRFMISQSQKVLVRDIQEDNSVIPVA
+FLDIPVFVTDSKSFGNLLIIGDAMQGFQFIGFDAEPYRMISLGRSMSKFQTMSLEFLVNGGDMYFAATDADRNVHVLKYA
+PDEPNSLSGQRLVHCSSFTLHSTNSCMMLLPRNEEFGSPQVPSFQNVGGQVDGSVFKIVPLSEEKYRRLYVIQQQIIDRE
+LQLGGLNPRMERLANDFYQMGHSMRPMLDFNVIRRFCGLAIDRRKSIAQKAGRHAHFEAWRDIINIEFSMRSLCQGK</string>
+                    <external_references type="UNIPROTKB">Q06632</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>mRNA 3'-end-processing protein YTH1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="559292">Saccharomyces cerevisiae (strain ATCC 204508 / S288c)</organism>
+                    <strain>ATCC 204508 / S288c</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024560416</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>PSLIHPDTAKYPFKFEPFLRQEYSFSLDPDRPICEFYNSREGPKSCPRGPLCPKKHVLPIFQNKIVCRHWLRGLCKKNDQ
+CEYLHEYNLRKMPECVFFSKNGYCTQSPDCQYLHIDPASKIPKCENYEMGFCPLGSSCPRRHIKKVFCQRYMTGFCPLGK
+DECDMEHPQFIIPDEGSKLRIKRDDEINTRKMDEEKERRLNAIINGEV</string>
+                    <external_references type="UNIPROTKB">Q06102</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Polyadenylation factor subunit 2,Polyadenylation factor subunit 2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="559292">Saccharomyces cerevisiae S288c</organism>
+                    <strain>ATCC 204508 / S288c</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.053636645</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDGHNQNQYQNQNQIQQSQQPPLKKYVTQRRSVDVSSPYINLYYNRRHGLPNLVVEPETSYTIDIMPPNAYRGRDRVINL
+PSKFTHLSSNKVKHVIPAIQWTPEGRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGDADGMIK
+IWQPNFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERVLSGHHWDVKSCDWHPEMGLIASASKD
+NLVKLWDPRSGNCISSILKFKHTVLKTRFQPTKGNLLMAISKDKSCRVFDIRYSMKELMCVRDETDYMTLEWHPINESMF
+TLACYDGSLKHFDLLQNLNEPILTIPYAHDKCITSLSYNPVGHIFATAAKDRTIRFWTRARPIDPNAYDDPTYNNKKING
+WFFGINNDINAVREKSEFGAAPPPPATLEPHALPNMNGFINKKPRQEIPGIDSNIKSSTLPGLSI(UNK)(UNK)(UNK)
+(UNK)(UNK)</string>
+                    <external_references type="UNIPROTKB">P42841</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="4">
+                <name>ZINC ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">6.5409e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>ZN</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.1</concentration>
+                    <buffer>
+                        <ph>7.9</ph>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <name>Hepes</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <name>Sodium Chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.0</concentration>
+                            <name>TCEP</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil UltrAuFoil</model>
+                        <material>GOLD</material>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">30</time>
+                            <atmosphere>AIR</atmosphere>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK III</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">70.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_magnification>81000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Quantum LS</name>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>SUPER-RESOLUTION</detector_mode>
+                            <digitization_details/>
+                            <number_grids_imaged>5</number_grids_imaged>
+                            <number_real_images>4227</number_real_images>
+                            <average_exposure_time units="s">16.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">45.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>460167</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="OTHER">
+                    <details>3D model generated from a previous data set collected from a CPF native sample in a Titan Krios equipped with a Falcon II detector.</details>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">3.55</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>77197</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>10</number_classes>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="16385">
+        <file>emd_3908.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>160</col>
+            <row>160</row>
+            <sec>160</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>160</x>
+            <y>160</y>
+            <z>160</z>
+        </spacing>
+        <cell>
+            <a units="Å">224.0</a>
+            <b units="Å">224.0</b>
+            <c units="Å">224.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.55501544</minimum>
+            <maximum>0.8373203</maximum>
+            <average>0.00017478284</average>
+            <std>0.031612962</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.4</x>
+            <y units="Å">1.4</y>
+            <z units="Å">1.4</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.15</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-3908::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_3908_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="16385">
+                <file>emd_3908_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>160</col>
+                    <row>160</row>
+                    <sec>160</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>160</x>
+                    <y>160</y>
+                    <z>160</z>
+                </spacing>
+                <cell>
+                    <a units="Å">224.0</a>
+                    <b units="Å">224.0</b>
+                    <c units="Å">224.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.042330265</minimum>
+                    <maximum>0.10739435</maximum>
+                    <average>0.000093314295</average>
+                    <std>0.005229405</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.4</x>
+                    <y units="Å">1.4</y>
+                    <z units="Å">1.4</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-3908::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="16385">
+                <file>emd_3908_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>160</col>
+                    <row>160</row>
+                    <sec>160</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>160</x>
+                    <y>160</y>
+                    <z>160</z>
+                </spacing>
+                <cell>
+                    <a units="Å">224.0</a>
+                    <b units="Å">224.0</b>
+                    <c units="Å">224.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.0437378</minimum>
+                    <maximum>0.10621406</maximum>
+                    <average>0.00008146853</average>
+                    <std>0.005315407</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.4</x>
+                    <y units="Å">1.4</y>
+                    <z units="Å">1.4</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-3908::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

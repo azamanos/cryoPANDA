@@ -1,0 +1,91 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11763" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-11-07</depositionDate>
+            <releaseDate>2024-06-18</releaseDate>
+            <updateDate>2024-06-18</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of 1-deoxy-D-xylulose 5-phosphate synthase (DXPS) from Plasmodium falciparum</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0613-9164</authorORCID>
+            <firstName>Andre</firstName>
+            <middleName>Schutzer</middleName>
+            <lastName>Godoy</lastName>
+            <organization type="academic">Instituto de Fisica de Sao Carlos, Universidade de Sao Paulo, Sao Carlos, SP, Brazil</organization>
+            <street>Av. João Dagnone, 1100</street>
+            <townOrCity>Sao Carlos</townOrCity>
+            <stateOrProvince>SP</stateOrProvince>
+            <country>Brazil</country>
+            <postOrZipCode>13563-120</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-9859-5177</authorORCID>
+            <firstName>Matthew</firstName>
+            <middleName>R</middleName>
+            <lastName>Groves</lastName>
+            <organization type="academic">Department of Drug Design, Groningen Research Institute of Pharmacy, University of Groningen</organization>
+            <street>Antonius Deusinglaan 1,  AV</street>
+            <townOrCity>Groningen</townOrCity>
+            <country>Netherlands</country>
+            <postOrZipCode>9713</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Gawriljuk V.O.</author>
+            <author>Godoy A.S.</author>
+            <author>Oerlemans R.</author>
+            <author>Groves M.R.</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">67.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11763</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-18842</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author order="1">Gawriljuk V.O.</author>
+                    <author order="2">Godoy A.S.</author>
+                    <author order="3">Oerlemans R.</author>
+                    <author order="4">Groves M.R.</author>
+                    <title>Cryo-EM structure of 1-deoxy-D-xylulose 5-phosphate synthase (DXPS) from Plasmodium falciparum</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned multiframe micrographs</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2070</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.74</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.74</pixelHeight>
+        </dimensions>
+        <details>Aligned micrographs of data collected from 1-deoxy-D-xylulose 5-phosphate synthase (DXPS) from Plasmodium falciparum</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Raw_data/FoilHole_*_EER.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='utf-8'?>
+<emd emdb_id="EMD-27117" version="3.0.2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_8/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2022-11-23</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-05-26</deposition>
+            <header_release>2022-09-07</header_release>
+            <map_release>2022-09-07</map_release>
+            <update>2022-11-23</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>GM141044</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Bent ADP-Pi-F-actin</title>
+        <authors_list>
+            <author ORCID="0000-0002-2501-9280">Reynolds MJ</author>
+            <author ORCID="0000-0001-7250-4484">Alushin GM</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Reynolds MJ</author>
+                    <author order="2">Hachicho C</author>
+                    <author order="3">Carl AG</author>
+                    <author order="4">Gong R</author>
+                    <author order="5">Alushin GM</author>
+                    <title>Bending forces and nucleotide state jointly regulate F-actin structure.</title>
+                    <journal_abbreviation>Nature</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>611</volume>
+                    <first_page>380</first_page>
+                    <last_page>386</last_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">36289330</external_references>
+                    <external_references type="DOI">doi:10.1038/s41586-022-05366-w</external_references>
+                    <external_references type="ISSN">1476-4687</external_references>
+                    <external_references type="CSD">0006</external_references>
+                    <external_references type="ASTM">NATUAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-27117</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-27114</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-27115</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-27118</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-27119</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-27116</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8d16</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Bent F-actin, ADP-Pi nucleotide state</name>
+        <supramolecule_list>
+            <complex_supramolecule chimera="true" supramolecule_id="1">
+                <name>Bent F-actin, ADP-Pi nucleotide state</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Mechanically deformed filamentous actin in the ADP-Pi state</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="9031">Gallus gallus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="kDa/nm">15.1</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Actin, alpha skeletal muscle, intermediate form</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9031">chicken</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.041387227</theoretical>
+                </molecular_weight>
+                <number_of_copies>7</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>TTALVCDNGSGLVKAGFAGDDAPRAVFPSIVGRPRHQGVMVGMGQKDSYVGDEAQSKRGILTLKYPIE(HIC)GIITNWD
+DMEKIWHHTFYNELRVAPEEHPTLLTEAPLNPKANREKMTQIMFETFNVPAMYVAIQAVLSLYASGRTTGIVLDSGDGVT
+HNVPIYEGYALPHAIMRLDLAGRDLTDYLMKILTERGYSFVTTAEREIVRDIKEKLCYVALDFENEMATAASSSSLEKSY
+ELPDGQVITIGNERFRCPETLFQPSFIGMESAGIHETTYNSIMKCDIDIRKDLYANNVMSGGTTMYPGIADRMQKEITAL
+APSTMKIKIIAPPERKYSVWIGGSILASLSTFQQMWITKQEYDEAGPSIVHRKCF</string>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>ADENOSINE-5'-DIPHOSPHATE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000427201</theoretical>
+                </molecular_weight>
+                <number_of_copies>7</number_of_copies>
+                <formula>ADP</formula>
+            </ligand>
+            <ligand macromolecule_id="3">
+                <name>MAGNESIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">2.4305e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>7</number_of_copies>
+                <formula>MG</formula>
+            </ligand>
+            <ligand macromolecule_id="4">
+                <name>PHOSPHATE ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">9.4971e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>7</number_of_copies>
+                <formula>PO4</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">1.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">4.0</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>SUPER-RESOLUTION</detector_mode>
+                            <digitization_details>
+                                <frames_per_image>1-40</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <average_exposure_time units="s">10.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">60.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>CTFFIND</name>
+                            <version>4.0</version>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <startup_model type_of_model="NONE">
+                    <details>Ab initio reconstruction as implemented in cryoSPARC</details>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution res_type="BY AUTHOR" units="Å">3.71</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>14991</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                    <details>In RELION star file format, rot randomly assigned, tilt prior set to 90, psi prior (with bimodal psi) determined by auto-picking.</details>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>3</number_classes>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3,1</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="8596">
+        <file>emd_27117.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>247</col>
+            <row>100</row>
+            <sec>87</sec>
+        </dimensions>
+        <origin>
+            <col>140</col>
+            <row>205</row>
+            <sec>214</sec>
+        </origin>
+        <spacing>
+            <x>87</x>
+            <y>100</y>
+            <z>247</z>
+        </spacing>
+        <cell>
+            <a units="Å">89.61</a>
+            <b units="Å">103.0</b>
+            <c units="Å">254.40999</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>Z</fast>
+            <medium>Y</medium>
+            <slow>X</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.09794458</minimum>
+            <maximum>0.20587902</maximum>
+            <average>0.008802947</average>
+            <std>0.020729475</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.03</x>
+            <y units="Å">1.03</y>
+            <z units="Å">1.03</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.045</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-27117::::</label>
+        <annotation_details>Main map, bent ADP-Pi F-actin</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_27117_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="536871">
+                <file>emd_27117_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>512</col>
+                    <row>512</row>
+                    <sec>512</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>512</x>
+                    <y>512</y>
+                    <z>512</z>
+                </spacing>
+                <cell>
+                    <a units="Å">527.36</a>
+                    <b units="Å">527.36</b>
+                    <c units="Å">527.36</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.09023719</minimum>
+                    <maximum>0.11208171</maximum>
+                    <average>6.0351453e-05</average>
+                    <std>0.007689022</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.03</x>
+                    <y units="Å">1.03</y>
+                    <z units="Å">1.03</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-27117::::</label>
+                <annotation_details>Half-map 1, bent ADP-Pi F-actin</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="536871">
+                <file>emd_27117_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>512</col>
+                    <row>512</row>
+                    <sec>512</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>512</x>
+                    <y>512</y>
+                    <z>512</z>
+                </spacing>
+                <cell>
+                    <a units="Å">527.36</a>
+                    <b units="Å">527.36</b>
+                    <c units="Å">527.36</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.0915068</minimum>
+                    <maximum>0.12276077</maximum>
+                    <average>5.2417254e-05</average>
+                    <std>0.007667006</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.03</x>
+                    <y units="Å">1.03</y>
+                    <z units="Å">1.03</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-27117::::</label>
+                <annotation_details>Half-map 2, bent ADP-Pi F-actin</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

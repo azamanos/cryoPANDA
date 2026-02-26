@@ -1,0 +1,107 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10279" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-05-27</depositionDate>
+            <releaseDate>2020-04-21</releaseDate>
+            <updateDate>2019-05-27</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of TMEM16F in digitonin without calcium bound</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-9141-1865</authorORCID>
+            <firstName>Shangyu</firstName>
+            <lastName>Dang</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, University of California San Francisco</organization>
+            <street>600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-9535-0369</authorORCID>
+            <firstName>Yifan</firstName>
+            <lastName>Cheng</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, University of California San Francisco</organization>
+            <street>600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-2655-7726">Feng S</author>
+            <author authorORCID="0000-0001-9141-1865">Dang S</author>
+            <author authorORCID="0000-0003-3647-0824">Han T</author>
+            <author authorORCID="0000-0002-4694-1493">Ye W</author>
+            <author authorORCID="0000-0003-0361-1715">Jin P</author>
+            <author authorORCID="0000-0003-0803-8604">Cheng T</author>
+            <author authorORCID="0000-0001-7426-9596">Li J</author>
+            <author authorORCID="0000-0003-1367-6299">Jan YN</author>
+            <author authorORCID="0000-0003-3938-8498">Jan LY</author>
+            <author authorORCID="0000-0001-9535-0369">Cheng Y</author>
+        </authorsList>
+        <datasetSize units="GB">289.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10279</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-20245</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-2655-7726" order="1">Feng S</author>
+                    <author authorORCID="0000-0001-9141-1865" order="2">Dang S</author>
+                    <author authorORCID="0000-0003-3647-0824" order="3">Han TW</author>
+                    <author authorORCID="0000-0002-4694-1493" order="4">Ye W</author>
+                    <author authorORCID="0000-0003-0361-1715" order="5">Jin P</author>
+                    <author authorORCID="0000-0003-0803-8604" order="6">Cheng T</author>
+                    <author authorORCID="0000-0001-7426-9596" order="7">Li J</author>
+                    <author authorORCID="0000-0003-1367-6299" order="8">Jan YN</author>
+                    <author authorORCID="0000-0003-3938-8498" order="9">Jan LY</author>
+                    <author authorORCID="0000-0001-9535-0369" order="10">Cheng Y</author>
+                    <title>Cryo-EM Studies of TMEM16F Calcium-Activated Ion Channel Suggest Features Important for Lipid Scrambling</title>
+                    <journal>Cell reports</journal>
+                    <journalAbbreviation>Cell Rep</journalAbbreviation>
+                    <country></country>
+                    <issue>2</issue>
+                    <volume>28</volume>
+                    <firstPage>567</firstPage>
+                    <lastPage>579.e4</lastPage>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.celrep.2019.06.023</externalReferences>
+                    <externalReferences type="pubmed">31291589</externalReferences>
+                    <details>Automatically picked particles from motion corrected images.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Automated picked particle stack of TMEM16F in digitonin without calcium bound</name>
+        <directory>/data</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>2249</numImagesOrTiltSeries>
+        <framesPerImage>120</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>120</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.059</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.059</pixelHeight>
+        </dimensions>
+        <details>All.star includes all automatically picked particles. Final.star includes particles for final reconstruction.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Micrographs/*.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data</pickedParticlesDirectory>
+    </imageSet>
+</entry>

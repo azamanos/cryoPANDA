@@ -1,0 +1,117 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10254" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-02-23</depositionDate>
+            <releaseDate>2019-05-09</releaseDate>
+            <updateDate>2019-05-09</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of TRPV5 full length in nanodisc</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-9141-1865</authorORCID>
+            <firstName>Shangyu</firstName>
+            <lastName>Dang</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, University of California San Francisco</organization>
+            <street>600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-6365-4867</authorORCID>
+            <firstName>David</firstName>
+            <lastName>Julius</lastName>
+            <organization type="academic">Department of Physiology, University of California San Francisco</organization>
+            <street>600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-9535-0369</authorORCID>
+            <firstName>Yifan</firstName>
+            <lastName>Cheng</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, University of California San Francisco</organization>
+            <street>600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-1547-516X</authorORCID>
+            <firstName>Jenny</firstName>
+            <lastName>van der Wijst</lastName>
+            <organization type="academic">Department of Physiology, Radboud Institute for Molecular Life Sciences, Radboud University Medical Center</organization>
+            <townOrCity>Nijmegen</townOrCity>
+            <country>Netherlands</country>
+            <postOrZipCode>6500HB</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-9141-1865">Dang S</author>
+            <author authorORCID="0000-0002-7968-4745">van Goor MK</author>
+            <author authorORCID="0000-0001-7870-5308">Asarnow D</author>
+            <author authorORCID="0000-0003-3109-9480">Wang Y</author>
+            <author authorORCID="0000-0002-6365-4867">Julius D</author>
+            <author authorORCID="0000-0001-9535-0369">Cheng Y</author>
+            <author authorORCID="0000-0002-1547-516X">van der Wijst J</author>
+        </authorsList>
+        <datasetSize units="GB">100.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10254</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-0594</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-9141-1865" order="1">Dang S</author>
+                    <author authorORCID="0000-0002-7968-4745" order="2">van Goor MK</author>
+                    <author authorORCID="0000-0001-7870-5308" order="3">Asarnow D</author>
+                    <author authorORCID="0000-0003-3109-9480" order="4">Wang Y</author>
+                    <author authorORCID="0000-0002-6365-4867" order="5">Julius D</author>
+                    <author authorORCID="0000-0001-9535-0369" order="6">Cheng Y</author>
+                    <author authorORCID="0000-0002-1547-516X" order="7">van der Wijst J</author>
+                    <title>Structural insight into TRPV5 channel function and modulation</title>
+                    <journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+                    <journalAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>18</issue>
+                    <volume>116</volume>
+                    <firstPage>8869</firstPage>
+                    <lastPage>8878</lastPage>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1073/pnas.1820323116</externalReferences>
+                    <externalReferences type="pubmed">30975749</externalReferences>
+                    <details>The automated picked particles stack, the final reconstruction particle star file.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Automated picked particle stack of TRPV5 full length in nanodisc</name>
+        <directory>/data</directory>
+        <category>picked particles - single frame - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>930</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.059</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.059</pixelHeight>
+        </dimensions>
+        <details>Particles used for final reconstruction: final.star (RELION) or final.csv (CryoSPARC)</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Micrographs/*.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Micrographs/*.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles.star</pickedParticlesDirectory>
+    </imageSet>
+</entry>

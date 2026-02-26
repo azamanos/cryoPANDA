@@ -1,0 +1,113 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11028" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-09-25</depositionDate>
+            <releaseDate>2022-05-03</releaseDate>
+            <updateDate>2022-05-03</updateDate>
+        </keyDates>
+        <title>Cryo-EM Structures of Glucocorticoid Receptor-Hsp90-p23 [the GR Maturation Complex], Hsp90-p23, and MBP-Hsp90-p23</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0003-3512-695X</authorORCID>
+            <firstName>David</firstName>
+            <lastName>Agard</lastName>
+            <organization type="academic">University of California, San Francisco</organization>
+            <street>600 16th St</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94143</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0003-3512-695X</authorORCID>
+            <firstName>David</firstName>
+            <lastName>Agard</lastName>
+            <organization type="academic">University of California, San Francisco</organization>
+            <street>600 16th St</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94143</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-0890-9035">Noddings CM</author>
+            <author authorORCID="0000-0001-5025-9596">Wang RY</author>
+            <author authorORCID="0000-0003-3512-695X">Agard DA</author>
+        </authorsList>
+        <datasetSize>494.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11028</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-23004</emdbEntry>
+            <emdbEntry>EMD-23005</emdbEntry>
+            <emdbEntry>EMD-23006</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-0890-9035" order="1">Noddings CM</author>
+                    <author authorORCID="0000-0001-5025-9596" order="2">Wang RY</author>
+                    <author authorORCID="0000-0003-3881-722X" order="3">Johnson JL</author>
+                    <author authorORCID="0000-0003-3512-695X" order="4">Agard DA</author>
+                    <title>Structure of Hsp90-p23-GR reveals the Hsp90 client-remodelling mechanism</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>7893</issue>
+                    <volume>601</volume>
+                    <firstPage>465</firstPage>
+                    <lastPage>469</lastPage>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41586-021-04236-1</externalReferences>
+                    <externalReferences type="pubmed">34937936</externalReferences>
+                    <details>The micrographs were motion-corrected and dose-weighted from 117 raw movie frames (accumulating 60 electron per squared Angstrom in a 5.9 second exposure).</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>MotionCor2 aligned frames of GR-Hsp90-p23 collected on Gatan K3</name>
+        <directory>/data/Micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5608</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.835</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.835</pixelHeight>
+        </dimensions>
+        <details>Micrographs corrected with MotionCor2 v1.2.1 and corresponding .star files with picked particles from Relion v3.0.8</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Micrographs/charimn_20191220_hsp90GRp23_k1*aligned_mic_DW.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Picked_particles/charimn_20191220_hsp90GRp23_k1*aligned_mic_DW_autopick.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Picked_particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Processed subsets</name>
+        <directory>/data/SubSets</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5608</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.835</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.835</pixelHeight>
+        </dimensions>
+        <details>Multiple processed subsets containing processed picked particles (run_data.star) from Relion v3.0.8 for each of the three reconstructions (GR-Hsp90-p23, Hsp90-p23, MBP-Hsp90-p23)</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

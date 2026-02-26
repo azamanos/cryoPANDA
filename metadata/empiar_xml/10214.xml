@@ -1,0 +1,154 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ftp://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10214" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-10-05</depositionDate>
+            <releaseDate>2018-10-25</releaseDate>
+            <updateDate>2019-04-10</updateDate>
+        </keyDates>
+        <title>CryoET of bacterial RNA polymerase with several detergents</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-8241-3153</authorORCID>
+            <firstName>Darst</firstName>
+            <lastName>Seth</lastName>
+            <organization type="academic">The Rockefeller University</organization>
+            <street>1230 York Avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10065</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-8241-3153</authorORCID>
+            <firstName>Darst</firstName>
+            <lastName>Seth</lastName>
+            <organization type="academic">The Rockefeller University</organization>
+            <street>1230 York Avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10065</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-2311-003X">Chen J</author>
+            <author authorORCID="0000-0001-8634-2279">Noble AJ</author>
+            <author authorORCID="0000-0002-8493-7890">Kang JY</author>
+            <author authorORCID="0000-0002-8241-3153">Darst SA</author>
+        </authorsList>
+        <datasetSize>207.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10214</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true">
+                    <author authorORCID="0000-0002-2311-003X" order="1">Chen J</author>
+                    <author authorORCID="0000-0001-8634-2279" order="2">Noble AJ</author>
+                    <author authorORCID="0000-0002-8493-7890" order="3">Kang JY</author>
+                    <author authorORCID="0000-0002-8241-3153" order="4">Darst SA</author>
+                    <editor order="1"> </editor>
+                    <title>Eliminating effects of particle adsorption to the air/water interface in single-particle cryo-electron microscopy: Bacterial RNA polymerase and CHAPSO</title>
+                    <journal>Journal of Structural Biology: X</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.yjsbx.2019.100005</externalReferences>
+                    <details>The tilt images are whole-frame aligned averages using Motioncor2.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>K2 tilt-series frames</name>
+        <directory>/data/frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>8</numImagesOrTiltSeries>
+        <framesPerImage>8</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.33</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.33</pixelHeight>
+        </dimensions>
+        <details>~8 e-/px/s dose rate on the camera
+Gain and dark references included</details>
+        <segmentationList/>
+        <scipionWorkflow></scipionWorkflow>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Whole-frame aligned tilt images along with all other magnification images from the collection</name>
+        <directory>/data/leginon</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>17</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.33</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.33</pixelHeight>
+        </dimensions>
+        <details>Whole-frame aligned tilt images using Motioncor2.</details>
+        <segmentationList/>
+        <scipionWorkflow></scipionWorkflow>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dynamo manual particle picks of tomograms</name>
+        <directory>/data/particle picks</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>DYNAMO TBL FILE</headerFormat>
+        <dataFormat>RAW TEXT</dataFormat>
+        <numImagesOrTiltSeries>4</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>5.32</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>5.32</pixelHeight>
+        </dimensions>
+        <details>Manual particle picks of binned by 4 tomograms using Dynamo.</details>
+        <segmentationList/>
+        <scipionWorkflow></scipionWorkflow>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Appion-Protomo tilt-series alignments</name>
+        <directory>/data/protomo_alignments</directory>
+        <category>tilt series</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>13</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.33</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.33</pixelHeight>
+        </dimensions>
+        <details>Includes a full tilt-series alignment run for each  tilt-series.
+To view properly, navigate to the protomo_alignments folder in Appion-Protomo.
+The export/ directory contains SerialEM-formatted unaligned tilt-series stacks, mdoc files, and tilt files. This allows for easy upload to Appion-Protomo.</details>
+        <segmentationList/>
+        <scipionWorkflow></scipionWorkflow>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

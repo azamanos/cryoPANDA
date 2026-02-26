@@ -1,0 +1,99 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10920" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-01-10</depositionDate>
+            <releaseDate>2022-09-06</releaseDate>
+            <updateDate>2022-09-06</updateDate>
+        </keyDates>
+        <title>Cryo-EM dataset of mutant p97R155H-p47 in presence of ATPγS collected using Thermo Fisher/FEI Titan Krios TEM Gatan K2 Summit DED camera</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-8047-2029</authorORCID>
+            <firstName>Purbasha</firstName>
+            <lastName>Nandi</lastName>
+            <organization type="academic">Arizona State University</organization>
+            <street>1050 S Stanley Pl</street>
+            <townOrCity>Tempe</townOrCity>
+            <stateOrProvince>AZ</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>85281</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-8047-2029</authorORCID>
+            <firstName>Purbasha</firstName>
+            <lastName>Nandi</lastName>
+            <organization type="academic">Biodesign Center for Applied Structural Discovery, School of Molecular Sciences, Arizona State University, Tempe, AZ 85287, USA</organization>
+            <street>1001 McAllister Avenue</street>
+            <townOrCity>Tempe</townOrCity>
+            <stateOrProvince>AZ</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>85281</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-8047-2029">Nandi PN</author>
+            <author authorORCID="0000-0001-8608-7650">Chiu PL</author>
+            <author authorORCID="0000-0003-2410-2186">Chou TC</author>
+        </authorsList>
+        <datasetSize>280.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10920</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-24302</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-8047-2029" order="1">Nandi PN</author>
+                    <author authorORCID="0000-0002-0829-1821" order="2">Li S</author>
+                    <author order="3">Columbres RCA</author>
+                    <author order="4">Wang F</author>
+                    <author order="5">Williams DR</author>
+                    <author order="6">Poh YP</author>
+                    <author order="7">Chou TF</author>
+                    <author authorORCID="0000-0001-8608-7650" order="8">Chiu PL</author>
+                    <title>Structural and Functional Analysis of Disease-Linked p97 ATPase Mutant Complexes</title>
+                    <journal>International journal of molecular sciences</journal>
+                    <journalAbbreviation>Int J Mol Sci</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>15</issue>
+                    <volume>22</volume>
+                    <firstPage>8079</firstPage>
+                    <lastPage>8100</lastPage>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.3390/ijms22158079</externalReferences>
+                    <externalReferences type="pubmed">34360842</externalReferences>
+                    <details>These are the motion-corrected dose-weighted micrographs for the cryo-EM dataset of disease mutant p97R155H-p47 in presence of ATPγS.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion corrected dose-weighted micrographs for the cryo-EM dataset of disease mutant p97R155H-p47 in presence of ADP.</name>
+        <directory>/data/P24_DWmrc/new</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5281</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>SIGNED 32 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.06</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.06</pixelHeight>
+        </dimensions>
+        <details>These are the motion-corrected dose-weighted micrographs for the cryoEM dataset of disease mutant p97R155H-p47 in presence of ADP.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/P24_DWmrc/new/PN317-4_*_patch_aligned_doseweighted.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

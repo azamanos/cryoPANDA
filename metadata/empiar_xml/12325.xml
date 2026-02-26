@@ -1,0 +1,117 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12325" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-06-21</depositionDate>
+            <releaseDate>2025-01-21</releaseDate>
+            <updateDate>2025-01-21</updateDate>
+        </keyDates>
+        <title>Cryo-EM images of NINJ1 disks</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-7281-8579</authorORCID>
+            <firstName>Hao</firstName>
+            <lastName>Wu</lastName>
+            <organization type="academic">Boston Childrens Hospital</organization>
+            <townOrCity>Boston</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>02115</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-7281-8579</authorORCID>
+            <firstName>Hao</firstName>
+            <lastName>Wu</lastName>
+            <organization type="academic">Boston Childrens Hospital</organization>
+            <townOrCity>Boston</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>02115</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-9750-543X">Liron LD</author>
+            <author authorORCID="0000-0002-7281-8579">Wu HW</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">2.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12325</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-42301</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-9750-543X" order="1">David LD</author>
+                    <author authorORCID="0000-0002-3443-6772" order="2">Borges JP</author>
+                    <author order="3">Hollingsworth LR</author>
+                    <author order="4">Volchuk A</author>
+                    <author order="5">Jansen I</author>
+                    <author authorORCID="0000-0002-9292-1354" order="6">Garlick E</author>
+                    <author order="7">Steinberg BE</author>
+                    <author authorORCID="0000-0002-7281-8579" order="8">Wu HW</author>
+                    <title>NINJ1 mediates plasma membrane rupture by cutting and releasing membrane disks</title>
+                    <journal>Cell</journal>
+                    <journalAbbreviation>Cell</journalAbbreviation>
+                    <country></country>
+                    <issue>9</issue>
+                    <volume>187</volume>
+                    <firstPage>2224</firstPage>
+                    <lastPage>2.235e+19</lastPage>
+                    <year>2024</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.cell.2024.03.008</externalReferences>
+                    <externalReferences type="pubmed">38614101</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion corrected micrograph</name>
+        <directory>/data/motioncorrected</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>15295</numImagesOrTiltSeries>
+        <framesPerImage>47</framesPerImage>
+        <voxelType>SIGNED 32 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>300</imageWidth>
+            <pixelWidth>0.82</pixelWidth>
+            <imageHeight>300</imageHeight>
+            <pixelHeight>0.82</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Extracted particles</name>
+        <directory>/data/extract</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>15295</numImagesOrTiltSeries>
+        <framesPerImage>47</framesPerImage>
+        <voxelType>BIT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

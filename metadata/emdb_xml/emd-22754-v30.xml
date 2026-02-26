@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_2/emdb.xsd" version="3.0.9.2" emdb_id="EMD-22754">
+    <admin>
+        <current_status>
+            <date>2024-03-06</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-09-29</deposition>
+            <header_release>2020-12-02</header_release>
+            <map_release>2020-12-02</map_release>
+            <update>2024-03-06</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Science Foundation (NSF, United States)</funding_body>
+                <code>1759826</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/Office of the Director</funding_body>
+                <code>S10OD020011</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Aldolase, rabbit muscle (no beam-tilt refinement)</title>
+        <authors_list>
+            <author>Cianfrocco MA</author>
+            <author>Kearns SE</author>
+        </authors_list>
+        <keywords>glycolysis, gluconeogenesis, Carbohydrate degradation, Homotetramer, LYASE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-0277-7652" order="1">Cash JN</author>
+                    <author ORCID="0000-0001-5640-909X" order="2">Kearns S</author>
+                    <author order="3">Li Y</author>
+                    <author order="4">Cianfrocco MA</author>
+                    <title>High-resolution cryo-EM using beam-image shift at 200 keV.</title>
+                    <journal_abbreviation>Iucrj</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>7</volume>
+                    <first_page>1179</first_page>
+                    <last_page>1187</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">33209328</external_references>
+                    <external_references type="DOI">doi:10.1107/S2052252520013482</external_references>
+                    <external_references type="ISSN">2052-2525</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7k9l</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Homotetramer of aldolase</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Homotetramer of aldolase</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9986">Oryctolagus cuniculus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="kDa/nm">157</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Fructose-bisphosphate aldolase A</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9986">Oryctolagus cuniculus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.039263672</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9986">Oryctolagus cuniculus</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>PHSHPALTPEQKKELSDIAHRIVAPGKGILAADESTGSIAKRLQSIGTENTEENRRFYRQLLLTADDRVNPCIGGVILFH
+ETLYQKADDGRPFPQVIKSKGGVVGIKVDKGVVPLAGTNGETTTQGLDGLSERCAQYKKDGADFAKWRCVLKIGEHTPSA
+LAIMENANVLARYASICQQNGIVPIVEPEILPDGDHDLKRCQYVTEKVLAAVYKALSDHHIYLEGTLLKPNMVTPGHACT
+QKYSHEEIAMATVTALRRTVPPAVTGVTFLSGGQSEEEASINLNAINKCPLLKPWALTFSYGRALQASALKAWGGKKENL
+KAAQEEYVKRALANSLACQGKYTPSGQAGAAASESLFISNHAY</string>
+                    <external_references type="UNIPROTKB">P00883</external_references>
+                </sequence>
+                <ec_number>4.1.2.13</ec_number>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1.6</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <name>NaCl</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>UltrAuFoil R1.2/1.3</model>
+                        <material>GOLD</material>
+                        <mesh>300</mesh>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">95</chamber_humidity>
+                        <chamber_temperature units="K">277.15</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                    <details>Pure aldolase isolated from rabbit muscle was purchased as a lyophilized powder (Sigma Aldrich) and solubilized in 20 mM HEPES (pH 7.5), 50 mM NaCl at 1.6 mg/ml. Sample was blotted for 4 seconds with Whatman No. #1 filter paper immediately prior to plunge freezing in liquid ethane cooled by liquid nitrogen.</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TALOS ARCTICA</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">100.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.0008</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">0.002</nominal_defocus_max>
+                    <nominal_magnification>45000.0</nominal_magnification>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 BASE (4k x 4k)</film_or_detector_model>
+                            <average_exposure_time units="s">10.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">42.0</average_electron_dose_per_image>
+                            <details>Images were collected on a Talos Arctica transmission electron microscope (Thermo Fisher) operating at 200 keV with a gun lens of 6, a spot size of 6, 70 um C2 aperture and 100 um objective aperture using beam-image shift. Movies were collected using a K2 direct electron detector (Gatan Inc.) operating in counting mode at 45,000x corresponding to a physical pixel size of 0.91 A/pixel with a 10 sec exposure using 200 ms per frame. Using an exposure rate of 4.204 e/pix/sec, each movie had a total dose of approximately 42 e/A2 for the 2,111 movies over a defocus 0.8-2 um.</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>718578</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>5VY5</pdb_id>
+                    </pdb_model>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">4.9</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>186471</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="108001">
+        <file>emd_22754.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>300</col>
+            <row>300</row>
+            <sec>300</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>300</x>
+            <y>300</y>
+            <z>300</z>
+        </spacing>
+        <cell>
+            <a units="Å">273.0</a>
+            <b units="Å">273.0</b>
+            <c units="Å">273.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.07657765</minimum>
+            <maximum>0.116004646</maximum>
+            <average>0.0000014749575</average>
+            <std>0.0044992724</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.91</x>
+            <y units="Å">0.91</y>
+            <z units="Å">0.91</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0247</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-22754::::</label>
+        <annotation_details>Aldolase, rabbit muscle (no beam-tilt refinement)</annotation_details>
+    </map>
+</emd>

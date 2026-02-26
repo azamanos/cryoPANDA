@@ -1,0 +1,138 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10374" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-02-12</depositionDate>
+            <releaseDate>2020-07-15</releaseDate>
+            <updateDate>2020-07-15</updateDate>
+        </keyDates>
+        <title>CryoEM reconstruction of human ABCG2 transporter with inhibitor MZ29 and 5D3-Fab</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-8207-2889</authorORCID>
+            <firstName>Kaspar</firstName>
+            <middleName>P</middleName>
+            <lastName>Locher</lastName>
+            <organization type="academic">ETH Zurich</organization>
+            <street>Otto-Stern-Weg 5</street>
+            <townOrCity>Zurich</townOrCity>
+            <stateOrProvince>ZH</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>8093</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8207-2889</authorORCID>
+            <firstName>Kaspar</firstName>
+            <middleName>P</middleName>
+            <lastName>Locher</lastName>
+            <organization type="academic">ETH Zurich</organization>
+            <street>Otto-Stern-Weg 5</street>
+            <townOrCity>Zurich</townOrCity>
+            <stateOrProvince>ZH</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>8093</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-8309-4713">Jackson SM</author>
+            <author>Manolaridis I</author>
+            <author authorORCID="0000-0003-4694-1896">Kowal J</author>
+            <author>Zechner M</author>
+            <author>Taylor NMI</author>
+            <author>Bause M</author>
+            <author>Bauer S</author>
+            <author>Bartholomaeus R</author>
+            <author>Bernhardt G</author>
+            <author>Koenig B</author>
+            <author>Buschauer A</author>
+            <author>Stahlberg H</author>
+            <author>Altmann KH</author>
+            <author authorORCID="0000-0002-8207-2889">Locher KP</author>
+        </authorsList>
+        <datasetSize units="TB">5.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10374</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-3953</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-8309-4713" order="1">Jackson SM</author>
+                    <author order="2">Manolaridis I</author>
+                    <author authorORCID="0000-0003-4694-1896" order="3">Kowal J</author>
+                    <author order="4">Zechner M</author>
+                    <author authorORCID="0000-0003-0761-4921" order="5">Taylor NMI</author>
+                    <author order="6">Bause M</author>
+                    <author order="7">Bauer S</author>
+                    <author order="8">Bartholomaeus R</author>
+                    <author order="9">Bernhardt G</author>
+                    <author authorORCID="0000-0002-6131-4850" order="10">Koenig B</author>
+                    <author order="11">Buschauer A</author>
+                    <author authorORCID="0000-0002-1185-4592" order="12">Stahlberg H</author>
+                    <author order="13">Altmann KH</author>
+                    <author authorORCID="0000-0002-8207-2889" order="14">Locher KP</author>
+                    <title>Structural basis of small-molecule inhibition of human multidrug transporter ABCG2</title>
+                    <journal>Nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>Nat. Struct. Mol. Biol.</journalAbbreviation>
+                    <country></country>
+                    <issue>4</issue>
+                    <volume>25</volume>
+                    <firstPage>333</firstPage>
+                    <lastPage>340</lastPage>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41594-018-0049-1</externalReferences>
+                    <externalReferences type="pubmed">29610494</externalReferences>
+                    <details>Raw movies (mrc) without alignment with provided gain references, particles and final 3D refinement files with masks</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned super-resolution multi-frame micrographs of MZ-29 inhibitor bound ABCG2-Fab.</name>
+        <directory>/data/Movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4094</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>50</frameRangeMax>
+        </frameRange>
+        <voxelType>4 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>7676</imageWidth>
+            <pixelWidth>0.42</pixelWidth>
+            <imageHeight>7420</imageHeight>
+            <pixelHeight>0.42</pixelHeight>
+        </dimensions>
+        <details>Unaligned super-resolution (K2 camera) multi-frame micrographs of MZ-29 inhibitor bound ABCG2-Fab. One movie is made of 50 frames (10sec in total/0.2s per frame, frame dose is 2.0 e/A2).</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Extracted particles and corresponding star file</name>
+        <directory>/data/Extracted_particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>587743</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>384</imageWidth>
+            <pixelWidth>0.84</pixelWidth>
+            <imageHeight>384</imageHeight>
+            <pixelHeight>0.84</pixelHeight>
+        </dimensions>
+        <details>All particles picked up with Gautomatch and extracted from all micrographs.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

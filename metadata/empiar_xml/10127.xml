@@ -1,0 +1,95 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10127" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2017-11-30</depositionDate>
+            <releaseDate>2018-01-22</releaseDate>
+            <updateDate>2018-01-22</updateDate>
+        </keyDates>
+        <title>Human TRPM4 ion channel in a lipid nanodisc in a calcium-bound state</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-3691-5010</authorORCID>
+            <firstName>Henriette</firstName>
+            <middleName>Elisabeth</middleName>
+            <lastName>Autzen</lastName>
+            <organization type="academic">UCSF</organization>
+            <street>600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>USA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158-2517</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-9535-0369</authorORCID>
+            <firstName>Yifan</firstName>
+            <lastName>Cheng</lastName>
+            <organization type="academic">UCSF, HHMI</organization>
+            <street>600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158-2517</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-3691-5010">Autzen HE</author>
+            <author>Myasnikov AG</author>
+            <author>Campbell MG</author>
+            <author>Asarnow D</author>
+            <author>Julius D</author>
+            <author authorORCID="0000-0001-9535-0369">Cheng Y</author>
+        </authorsList>
+        <datasetSize units="GB">84.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10127</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-7133</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-3691-5010" order="1">Autzen HE</author>
+                    <author authorORCID="0000-0001-9535-0369" order="6">Cheng Y</author>
+                    <title>Structure of the human TRPM4 ion channel in a lipid nanodisc</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>6372</issue>
+                    <volume>359</volume>
+                    <firstPage>228</firstPage>
+                    <lastPage>232</lastPage>
+                    <year>2017</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.aar4510</externalReferences>
+                    <externalReferences type="pubmed">29217581</externalReferences>
+                    <details>Stacks of all the picked particles post 2D clean-up. 
+Star files: One representing all the particles post 2D-clean up and another representing the subset of the particles that went into the final 3D reconstruction.
+</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>particle stacks of TRPM4 particles post 2D clean-up</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>221100</numImagesOrTiltSeries>
+        <framesPerImage>169</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>169</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>320</imageWidth>
+            <pixelWidth>1.046</pixelWidth>
+            <imageHeight>320</imageHeight>
+            <pixelHeight>1.046</pixelHeight>
+        </dimensions>
+        <details>Particle positions in the corresponding .star files. Files have variable number of frames with maximum number being 169.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

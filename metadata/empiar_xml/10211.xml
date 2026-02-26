@@ -1,0 +1,133 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10211" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-09-24</depositionDate>
+            <releaseDate>2021-04-14</releaseDate>
+            <updateDate>2021-06-29</updateDate>
+        </keyDates>
+        <title>mouse MDA5-dsRNA filamemts in complex of 2mM ADP-AlF4</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-6084-0429</authorORCID>
+            <firstName>Yorgo</firstName>
+            <lastName>Modis</lastName>
+            <organization type="academic">Department of Medicine, MRC-LMB, University of Cambridge</organization>
+            <street>Francis Crick Avenue, Cambridge Biomedical Campus</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-6084-0429</authorORCID>
+            <firstName>Yorgo</firstName>
+            <lastName>Modis</lastName>
+            <organization type="academic">Department of Medicine, MRC-LMB, University of Cambridge</organization>
+            <street>Francis Crick Avenue, Cambridge Biomedical Campus</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB20QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-9265-632X">Yu Q</author>
+            <author authorORCID="0000-0002-3152-2237">Qu K</author>
+            <author authorORCID="0000-0002-6084-0429">Modis YE</author>
+        </authorsList>
+        <datasetSize units="GB">195.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10211</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-0023</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-9265-632X" order="1">Yu Q</author>
+                    <author authorORCID="0000-0002-3152-2237" order="2">Qu K</author>
+                    <author authorORCID="0000-0002-6084-0429" order="3">Modis Y.E</author>
+                    <title>Cryo-EM Structures of MDA5-dsRNA Filaments at Different Stages of ATP Hydrolysis</title>
+                    <journal>Molecular cell</journal>
+                    <journalAbbreviation>Mol. Cell</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>6</issue>
+                    <volume>72</volume>
+                    <firstPage>999</firstPage>
+                    <lastPage>1012.e6</lastPage>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.molcel.2018.10.012</externalReferences>
+                    <externalReferences type="pubmed">30449722</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>mouse MDA5-dsRNA filaments in complex with 2mM ADP-AlF4_data1</name>
+        <directory>/data/EMPIRA_ADP_AlF4</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>323</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.07</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.07</pixelHeight>
+        </dimensions>
+        <details>Dose weighted and aligned single-frame micrographs by MotionCorr2
+Dataset 1 at 1.07 (Å) Pixel size. Picked particles are raw particles from RELION Autopick. Not final particles for reconstruction.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIRA_ADP_AlF4/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIRA_ADP_AlF4_Autopick/*au*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIRA_ADP_AlF4_Autopick</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>mouse MDA5-dsRNA filaments in complex with 2mM ADP-AlF4_data2_rescaled</name>
+        <directory>/data/micrographs_rescale</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1381</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4152</imageWidth>
+            <pixelWidth>1.07</pixelWidth>
+            <imageHeight>4152</imageHeight>
+            <pixelHeight>1.07</pixelHeight>
+        </dimensions>
+        <details>Dose weighted and aligned single-frame micrographs by MotionCorr2.
+The 2nd dataset under fold /data/micrographs_rescale at 1.07 Å pixel size was rescaled from /data/micrographs_DW at pixel size 1.085 Å  . Picked particles are raw particles from RELION Autopick. Not final particles for reconstruction.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/micrographs_rescale/*DW_rescale.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/*_rescale_Autopick/*_autopick.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/micrographs_rescale_Autopick</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>mouse MDA5-dsRNA filaments in complex with 2mM ADP-AlF4_data2</name>
+        <directory>/data/micrographs_DW</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1381</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.085</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.085</pixelHeight>
+        </dimensions>
+        <details>Dose weighted and aligned single-frame micrographs by MotionCorr2.
+The 2nd dataset under fold /data/micrographs_DW at pixel size 1.085 Å is the original file(not rescaled). Picked particles are raw particles from RELION Autopick. Not final particles for reconstruction.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/micrographs_DW/*_DW.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>*/micrographs_rescale_Autopick/*ick.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/micrographs_rescale_Autopick</pickedParticlesDirectory>
+    </imageSet>
+</entry>

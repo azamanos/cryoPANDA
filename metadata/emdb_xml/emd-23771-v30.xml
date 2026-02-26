@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='utf-8'?>
+<emd emdb_id="EMD-23771" version="3.0.2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_5/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2021-06-23</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-04-05</deposition>
+            <header_release>2021-06-23</header_release>
+            <map_release>2021-06-23</map_release>
+            <update>2021-06-23</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>760067</code>
+                <country>Germany</country>
+            </grant_reference>
+        </grant_support>
+        <title>3D reconstruction generated using the locations and orientations of 5,080 50S subunits detected in 220 images using 2DTM with a M. pneumoniae 50S template</title>
+        <authors_list>
+            <author>Lucas BA</author>
+            <author>Himes BA</author>
+            <author>Xue L</author>
+            <author>Grant T</author>
+            <author>Mahamid J</author>
+            <author>Grigorieff N</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Lucas BA</author>
+                    <author order="2">Himes BA</author>
+                    <author order="3">Xue L</author>
+                    <author order="4">Grant T</author>
+                    <author order="5">Mahamid J</author>
+                    <author order="6">Grigorieff N</author>
+                    <title>Locating Macromolecular Assemblies in Cells by 2D Template Matching with cis TEM.</title>
+                    <journal_abbreviation>Elife</journal_abbreviation>
+                    <country>US</country>
+                    <volume>10</volume>
+                    <year>2021</year>
+                    <external_references type="PUBMED">34114559</external_references>
+                    <external_references type="DOI">doi:10.7554/eLife.68946</external_references>
+                    <external_references type="ISSN">2050-084X</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-23771</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-23772</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>Reconstruction obtained using B. subtilis 50S template</details>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Mycoplasma pneumoniae 70S ribosome</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Mycoplasma pneumoniae 70S ribosome</name>
+                <parent>0</parent>
+                <details>3D reconstruction generated using the locations and orientations of 5,080 50S subunits detected in 220 images using 2DTM with a M. pneumoniae 50S template</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="2104">Mycoplasma pneumoniae</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">2.5</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>cell</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.0</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil</model>
+                        <material>GOLD</material>
+                        <mesh>200</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY ARRAY</film_topology>
+                        </support_film>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">298</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>Grids were washed with PBS buffer containing 10 nm protein A-conjugated gold beads (Aurion), blotted from the back side for 2 s and plunged into mixed liquid ethane/propane at liquid N2 temperature with a manual plunger.. </details>
+                    </vitrification>
+                    <details>Whole Mycoplasma pneumoniae cells deposited on a cryo-EM grid</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.2</nominal_defocus_max>
+                    <nominal_magnification>215000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <basic />
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Bioquantum</name>
+                            <slit_width units="eV">10</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>SUPER-RESOLUTION</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">5760</width>
+                                    <height units="pixel">4092</height>
+                                </dimensions>
+                                <sampling_interval units="µm">5.0</sampling_interval>
+                                <frames_per_image>1-20</frames_per_image>
+                            </digitization_details>
+                            <number_real_images>220</number_real_images>
+                            <average_exposure_time units="s">2.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">32.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>The reconstruction was calculated using standard procedures implemented in cisTEM. See https://github.com/timothygrant80/cisTEM</details>
+                <particle_selection>
+                    <details>Particles were selected based on 50S targets detected by 2D template matching</details>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>cisTEM</name>
+                            <version>2.0</version>
+                            <processing_details>See github repository</processing_details>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <startup_model type_of_model="NONE">
+                    <details>Orientations are based on template matching</details>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution res_type="BY AUTHOR" units="Å">20.0</resolution>
+                    <resolution_method>OTHER</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cisTEM</name>
+                            <version>2.0</version>
+                            <processing_details>See github repository</processing_details>
+                        </software>
+                    </software_list>
+                    <details>Resolution not determined since the FSC has template bias</details>
+                    <number_images_used>5080</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                    <software_list>
+                        <software>
+                            <name>cisTEM</name>
+                            <version>2.0</version>
+                            <processing_details>See github repository</processing_details>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing>
+                        <number_reference_projections>2500000</number_reference_projections>
+                        <merit_function>SNR</merit_function>
+                        <angular_sampling units="degrees">1.5</angular_sampling>
+                    </projection_matching_processing>
+                    <software_list>
+                        <software>
+                            <name>cisTEM</name>
+                            <version>2.0</version>
+                            <processing_details>See github repository</processing_details>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_23771.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">384.0</a>
+            <b units="Å">384.0</b>
+            <c units="Å">384.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-2.0888515</minimum>
+            <maximum>5.559764</maximum>
+            <average>0.049143806</average>
+            <std>0.54958534</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.5</x>
+            <y units="Å">1.5</y>
+            <z units="Å">1.5</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>1.0</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-23771::::</label>
+        <annotation_details>20-Angstrom filtered reconstruction</annotation_details>
+    </map>
+    <interpretation>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_23771_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">384.0</a>
+                    <b units="Å">384.0</b>
+                    <c units="Å">384.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-4.250576</minimum>
+                    <maximum>11.480609</maximum>
+                    <average>0.049143806</average>
+                    <std>0.79228497</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.5</x>
+                    <y units="Å">1.5</y>
+                    <z units="Å">1.5</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-23771::::</label>
+                <annotation_details>Unfiltered reconstruction</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_23771_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">384.0</a>
+                    <b units="Å">384.0</b>
+                    <c units="Å">384.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.961277</minimum>
+                    <maximum>2.5774462</maximum>
+                    <average>0.006418045</average>
+                    <std>0.16687669</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.5</x>
+                    <y units="Å">1.5</y>
+                    <z units="Å">1.5</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-23771::::</label>
+                <annotation_details>Half map 1</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_23771_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">384.0</a>
+                    <b units="Å">384.0</b>
+                    <c units="Å">384.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-2.002652</minimum>
+                    <maximum>2.715335</maximum>
+                    <average>0.009756732</average>
+                    <std>0.16660894</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.5</x>
+                    <y units="Å">1.5</y>
+                    <z units="Å">1.5</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-23771::::</label>
+                <annotation_details>Half map 2</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

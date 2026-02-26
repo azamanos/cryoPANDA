@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-11212">
+    <admin>
+        <current_status>
+            <date>2024-05-01</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-06-20</deposition>
+            <header_release>2020-08-26</header_release>
+            <map_release>2020-08-26</map_release>
+            <update>2024-05-01</update>
+        </key_dates>
+        <title>Cryo-EM structure of ESCRT-III helical Vps24 filaments</title>
+        <authors_list>
+            <author>Huber ST</author>
+            <author>Mostafavi S</author>
+        </authors_list>
+        <keywords>Filament, Helical, Membrane Remodeling, LIPID BINDING PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0003-3721-5104" order="1">Huber ST</author>
+                    <author ORCID="0000-0002-4330-3285" order="2">Mostafavi S</author>
+                    <author order="3">Mortensen SA</author>
+                    <author ORCID="0000-0002-1168-5143" order="4">Sachse C</author>
+                    <title>Structure and assembly of ESCRT-III helical Vps24 filaments.</title>
+                    <journal_abbreviation>Sci Adv</journal_abbreviation>
+                    <country>US</country>
+                    <volume>6</volume>
+                    <first_page>eaba4897</first_page>
+                    <last_page>eaba4897</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32875105</external_references>
+                    <external_references type="DOI">doi:10.1126/sciadv.aba4897</external_references>
+                    <external_references type="ISSN">2375-2548</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6zh3</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Doubled-stranded helical filament assembly of Vps24</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Doubled-stranded helical filament assembly of Vps24</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Vacuolar protein-sorting-associated protein 24</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="559292">Saccharomyces cerevisiae (strain ATCC 204508 / S288c)</organism>
+                    <strain>ATCC 204508 / S288c</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.026562173999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GSHMDYIKKAIWGPDPKEQQRRIRSVLRKNGRNIEKSLRELTVLQNKTQQLIKKSAKKNDVRTVRLYAKELYQINKQYDR
+MYTSRAQLDSVRMKIDEAIRMNTLSNQMADSAGLMREVNSLVRLPQLRNTMIELEKELMKSGIISEMVDDTMESVGDVGE
+EMDEAVDEEVNKIVEQYTNEKFKNVDQVPTVELAANEEEQEIPDEKVDEEADRMVNEMRERLRALQN</string>
+                    <external_references type="UNIPROTKB">P36095</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.9</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                        <component>
+                            <concentration units="mM">100.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>Tris</formula>
+                            <name>Tris</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY ARRAY</film_topology>
+                            <film_thickness>12.0</film_thickness>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">283</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                    <details>Sample was concentrated to 5 mg/mL, incubated in the refridgerator overnight, ultracentrifugated, and resuspended to a final concentration of 0.9 mg/mL for cryo-EM</details>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">70.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.75</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">3.0</nominal_defocus_max>
+                    <nominal_magnification>130000.0</nominal_magnification>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <frames_per_image>1-40</frames_per_image>
+                            </digitization_details>
+                            <number_real_images>3257</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">1.0</average_electron_dose_per_image>
+                            <details>1320 images were manually selected for further processing</details>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <number_classes_used>62</number_classes_used>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">25.18</delta_z>
+                            <delta_phi units="deg">-32.47</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <algorithm>BACK PROJECTION</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">3.2</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>313554</number_images_used>
+                </final_reconstruction>
+                <segment_selection>
+                    <number_selected>524155</number_selected>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                    <details>one segment every 24.7 Angstrom</details>
+                </segment_selection>
+                <startup_model type_of_model="OTHER">
+                    <details>featureless cylinder</details>
+                </startup_model>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_11212.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">266.24</a>
+            <b units="Å">266.24</b>
+            <c units="Å">266.24</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.22486193</minimum>
+            <maximum>0.38453808</maximum>
+            <average>0.001851589</average>
+            <std>0.015475936</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.04</x>
+            <y units="Å">1.04</y>
+            <z units="Å">1.04</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.03</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-11212::::</label>
+        <annotation_details>Sharpened cryo EM density</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>3FRT</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>126.0</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_11212_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_11212_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">266.24</a>
+                    <b units="Å">266.24</b>
+                    <c units="Å">266.24</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.014750125</minimum>
+                    <maximum>0.06122921</maximum>
+                    <average>0.0009598626</average>
+                    <std>0.0043186257</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.04</x>
+                    <y units="Å">1.04</y>
+                    <z units="Å">1.04</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-11212::::</label>
+                <annotation_details>Unsharpened cryo EM density</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_11212_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">266.24</a>
+                    <b units="Å">266.24</b>
+                    <c units="Å">266.24</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.022104843</minimum>
+                    <maximum>0.07174851</maximum>
+                    <average>0.0011525481</average>
+                    <std>0.004005215</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.04</x>
+                    <y units="Å">1.04</y>
+                    <z units="Å">1.04</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-11212::::</label>
+                <annotation_details>Half map 2</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_11212_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">266.24</a>
+                    <b units="Å">266.24</b>
+                    <c units="Å">266.24</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.023247419</minimum>
+                    <maximum>0.07097508</maximum>
+                    <average>0.0011600804</average>
+                    <std>0.0040161237</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.04</x>
+                    <y units="Å">1.04</y>
+                    <z units="Å">1.04</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-11212::::</label>
+                <annotation_details>Half map 1</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

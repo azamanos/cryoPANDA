@@ -1,0 +1,89 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10032" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2015-08-28</depositionDate>
+            <releaseDate>2015-08-28</releaseDate>
+            <updateDate>2015-08-28</updateDate>
+        </keyDates>
+        <title>Cryo electron microscopy of YnaI</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-7962-4849</authorORCID>
+            <firstName>Bettina</firstName>
+            <lastName>Bottcher</lastName>
+            <organization type="academic">University of Edinburgh</organization>
+            <street>Max Born Crescent</street>
+            <townOrCity>Edinburgh</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>EH9 3B8</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-7962-4849</authorORCID>
+            <firstName>Bettina</firstName>
+            <lastName>Bottcher</lastName>
+            <organization type="academic">University of Edinburgh</organization>
+            <street>Max Born Crescent</street>
+            <townOrCity>Edinburgh</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>EH9 3B8</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-7962-4849">Bottcher B</author>
+            <author>Prazak V</author>
+            <author>Rasmussen A</author>
+            <author>Black SS</author>
+            <author>Rasmussen T</author>
+        </authorsList>
+        <datasetSize units="GB">107.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10032</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-3035</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>ynai_particles</name>
+        <directory>/data/particles_phaseflipped</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>34799</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>160</imageWidth>
+            <pixelWidth>1.729</pixelWidth>
+            <imageHeight>160</imageHeight>
+            <pixelHeight>1.729</pixelHeight>
+        </dimensions>
+        <details>Stack of phase flipped particle images + matching relion-star file
+</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>ynai_micrographs</name>
+        <directory>/data/micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3308</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.729</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.729</pixelHeight>
+        </dimensions>
+        <details>Micrographs of YnaI (F20/TVIPS F416)
+The approximate dose is 20 electrons/A2; micrographs have been acquired with EM-tools
+
+The picked particle coordinates are found in: data/ynai/coordinates. These are the coordinates (EMAN-format) of the manually selected particle images.
+The coordinates match the micrographs which have the same name but the extension  tif.
+The picked particle images are found in: data/particles_phaseflipped</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

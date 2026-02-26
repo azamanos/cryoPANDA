@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd emdb_id="EMD-35917">
+    <admin>
+        <current_status>
+            <date>2023-06-14</date>
+            <code>REL</code>
+            <processing_site>PDBj</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBj</deposition>
+            <last_processing>PDBj</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-04-12</deposition>
+            <header_release>2023-06-14</header_release>
+            <map_release>2023-06-14</map_release>
+            <update>2023-06-14</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Natural Science Foundation of China (NSFC)</funding_body>
+                <code>11874199</code>
+                <country>China</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Medical Research Council (MRC, United Kingdom)</funding_body>
+                <code>MR/N00065X/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Wellcome Trust</funding_body>
+                <code>206422/Z/17/Z</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>101021133</code>
+                <country>European Union</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EPty SPA at CSA of 4.83 mrad</title>
+        <authors_list>
+            <author ORCID="0000-0002-3415-3107">Pei XD</author>
+            <author ORCID="0000-0003-0788-6687">Wang P</author>
+        </authors_list>
+        <keywords>Complex, VIRUS</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Pei X</author>
+                    <author ORCID="0000-0002-6498-4518" order="2">Zhou L</author>
+                    <author ORCID="0000-0002-7864-8427" order="3">Huang C</author>
+                    <author ORCID="0000-0003-1687-4848" order="4">Boyce M</author>
+                    <author ORCID="0000-0003-1513-9964" order="5">Kim JS</author>
+                    <author ORCID="0000-0001-5306-7936" order="6">Liberti E</author>
+                    <author order="7">Hu Y</author>
+                    <author ORCID="0000-0001-7838-7741" order="8">Sasaki T</author>
+                    <author ORCID="0000-0002-5883-6463" order="9">Nellist PD</author>
+                    <author ORCID="0000-0003-1803-691X" order="10">Zhang P</author>
+                    <author order="11">Stuart DI</author>
+                    <author ORCID="0000-0001-8068-1990" order="12">Kirkland AI</author>
+                    <author ORCID="0000-0003-0788-6687" order="13">Wang P</author>
+                    <title>Cryogenic electron ptychographic single particle analysis with wide bandwidth information transfer.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>14</volume>
+                    <first_page>3027</first_page>
+                    <last_page>3027</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">37230988</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-023-38268-0</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-35917</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Rotavirus A</name>
+        <supramolecule_list>
+            <virus_supramolecule supramolecule_id="1">
+                <name>Rotavirus A</name>
+                <parent>0</parent>
+                <sci_species_name ncbi="28875">Rotavirus A</sci_species_name>
+                <sci_species_strain>SA 11</sci_species_strain>
+                <virus_shell shell_id="1">
+                    <name>Double Layered particles</name>
+                    <diameter units="Å">720.0</diameter>
+                </virus_shell>
+                <virus_type>VIRION</virus_type>
+                <virus_isolate>OTHER</virus_isolate>
+                <virus_enveloped>false</virus_enveloped>
+                <virus_empty>false</virus_empty>
+            </virus_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">8</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">80</chamber_humidity>
+                        <chamber_temperature units="K">298</chamber_temperature>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>JEOL CRYO ARM 300</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>OTHER</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">3.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">3.0</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>OTHER</film_or_detector_model>
+                            <number_real_images>23</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">24.6</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>498</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="INSILICO MODEL"/>
+                <final_reconstruction>
+                    <number_classes_used>3</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>I</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">18.6</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>80</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>1</number_classes>
+                    <average_number_members_per_class>241.0</average_number_members_per_class>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="61012">
+        <file>emd_35917.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>248</col>
+            <row>248</row>
+            <sec>248</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>248</x>
+            <y>248</y>
+            <z>248</z>
+        </spacing>
+        <cell>
+            <a units="Å">1152.8007</a>
+            <b units="Å">1152.8007</b>
+            <c units="Å">1152.8007</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>0.0</minimum>
+            <maximum>1.0</maximum>
+            <average>0.4997661</average>
+            <std>0.049300298</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">4.64839</x>
+            <y units="Å">4.64839</y>
+            <z units="Å">4.64839</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.624</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-35917::::</label>
+    </map>
+    <interpretation>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="61012">
+                <file>emd_35917_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>248</col>
+                    <row>248</row>
+                    <sec>248</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>248</x>
+                    <y>248</y>
+                    <z>248</z>
+                </spacing>
+                <cell>
+                    <a units="Å">1152.8007</a>
+                    <b units="Å">1152.8007</b>
+                    <c units="Å">1152.8007</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.055121873</minimum>
+                    <maximum>0.06337227</maximum>
+                    <average>0.00000084704385</average>
+                    <std>0.0062938</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">4.64839</x>
+                    <y units="Å">4.64839</y>
+                    <z units="Å">4.64839</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-35917::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="61012">
+                <file>emd_35917_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>248</col>
+                    <row>248</row>
+                    <sec>248</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>248</x>
+                    <y>248</y>
+                    <z>248</z>
+                </spacing>
+                <cell>
+                    <a units="Å">1152.8007</a>
+                    <b units="Å">1152.8007</b>
+                    <c units="Å">1152.8007</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.054744013</minimum>
+                    <maximum>0.05077898</maximum>
+                    <average>0.000001487159</average>
+                    <std>0.006068308</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">4.64839</x>
+                    <y units="Å">4.64839</y>
+                    <z units="Å">4.64839</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-35917::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

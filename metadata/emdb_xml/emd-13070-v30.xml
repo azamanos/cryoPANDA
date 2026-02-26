@@ -1,0 +1,3510 @@
+<?xml version='1.0' encoding='utf-8'?>
+<emd emdb_id="EMD-13070" version="3.0.2.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_6/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2021-09-15</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-06-10</deposition>
+            <header_release>2021-09-15</header_release>
+            <map_release>2021-09-15</map_release>
+            <update>2021-09-15</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>714068</code>
+                <country>Sweden</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Knut and Alice Wallenberg Foundation</funding_body>
+                <code>019.0306</code>
+                <country>Sweden</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Swedish Research Council</funding_body>
+                <code>2019-03534</code>
+                <country>Sweden</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Cancerfonden</funding_body>
+                <code>19 0055 Pj</code>
+                <country>Sweden</country>
+            </grant_reference>
+        </grant_support>
+        <title>cryoDRGN graph traversal of the ALC1 - PARylated nucleosome complex particle distribution</title>
+        <authors_list>
+            <author>Bacic L</author>
+            <author>Gaullier G</author>
+            <author>Deindl S</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Bacic L</author>
+                    <author order="2">Gaullier G</author>
+                    <author order="3">Sabantsev A</author>
+                    <author order="4">Lehmann LC</author>
+                    <author order="5">Brackmann K</author>
+                    <author order="6">Dimakou D</author>
+                    <author order="7">Halic M</author>
+                    <author order="8">Hewitt G</author>
+                    <author order="9">Boulton S</author>
+                    <author order="10">Deindl S</author>
+                    <title>Structure and dynamics of the chromatin remodeler ALC1 bound to a PARylated nucleosome.</title>
+                    <journal_abbreviation>Elife</journal_abbreviation>
+                    <country>US</country>
+                    <volume>10</volume>
+                    <year>2021</year>
+                    <external_references type="PUBMED">34486521</external_references>
+                    <external_references type="DOI">doi:10.7554/eLife.71420</external_references>
+                    <external_references type="ISSN">2050-084X</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-13065</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>The linked EMDB entry comes from a subset of the particles used for the present entry.</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-13070</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>ALC1/CHD1L bound to a PARylated nucleosome</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>ALC1/CHD1L bound to a PARylated nucleosome</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>The nucleosome was PARylated by PARP2 and HPF1 before addition of ALC1.</details>
+                <molecular_weight>
+                    <theoretical units="MDa">0.305</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>ALC1/CHD1L</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>ALC1/CHD1L</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>Histone</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Histone</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="8355">Xenopus laevis</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="4">
+                <name>Widom 601 sequence</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Widom 601 sequence</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="32630">synthetic construct</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>ALC1/CHD1L</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MFLLRLHTEGRAEAARVQEQDLRQWGLTGIHLRSYQLEGVNWLAQRFHCQNGCILGDEMGLGKTCQTIALFIYLAGRLNDEGPFLILCPLSVLSNWKEEMQRFAPGLSCVTYAGDKEERACLQQDLKQESRFHVLLTTYEICLKDASFLKSFPWSVLVVDEAHRLKNQSSLLHKTLSEFSVVFSLLLTGTPIQNSLQELYSLLSFVEPDLFSKEEVGDFIQRYQDIEKESESASELHKLLQPFLLRRVKAEVATELPKKTEVVIYHGMSALQKKYYKAILMKDLDAFENETAKKVKLQNILSQLRKCVDHPYLFDGVEPEPFEVGDHLTEASGKLHLLDKLLAFLYSGGHRVLLFSQMTQMLDILQDYMDYRGYSYERVDGSVRGEERHLAIKNFGQQPIFVFLLSTRAGGVGMNLTAADTVIFVDSDFNPQNDLQAAARAHRIGQNKSVKVIRLIGRDTVEEIVYRKAASKLQLTNMIIEGGHFTLGAQKPAADADLQLSEILKFGLDKLLASEGSTMDEIDLESILGETKDGQWVSDALPAAEGGSRDQEEGKNHMYLFEGKDYSKEPSKEDRKSFEQLVNLQKTLLEKASQEGRSLRNKGSVLIPGLVEGSTKRKRVLSPEELEDRQKKRQEAAAKRRRLIEEKKRQKEEAEHKKKMAWWESNNYQSFCLPSEESEPEDLENGEESSAELDYQDPDATSLKYVSGDVTHPQAGAEDALIVHCVDDSGHWGRGGLFTALEKRSAEPRKIYELAGKMKDLSLGGVLLFPVDDKESRNKGQDLLALIVAQHRDRSNVLSGIKMAALEEGLKKIFLAAKKKKASVHLPRIGHATKGFNWYGTERLIRKHLAARGIPTYIYYFPRSKAHHHHHH</string>
+                </sequence>
+                <ec_number>3.6.4.12</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Histone H3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="8355">Xenopus laevis</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARTKQTARKSTGGKAPRKQLATKAARKSAPATGGVKKPHRYRPGTVALREIRRYQKSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEASEAYLVALFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Histone H4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="8355">Xenopus laevis</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSGRGKGGKGLGKGGAKRHRKVLRDNIQGITKPAIRRLARRGGVKRISGLIYEETRGVLKVFLENVIRDAVTYTEHAKRKTVTAMDVVYALKRQGRTLYGFGG</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Histone H2A</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="8355">Xenopus laevis</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSGRGKQGGKTRAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLTAEILELAGNAARDNKKTRIIPRHLQLAVRNDEELNKLLGGVTIAQGGVLPNIQSVLLPKKTESAKSAKSK</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>Histone H2B</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="8355">Xenopus laevis</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPEPAKSAPAPKKGSKKAVTKTQKKDGKKRRKSRKESYAIYVYKVLKQVHPDTGISSKAMSIMNSFVNDVFERIAGEASRLAHYNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSAK</string>
+                </sequence>
+            </protein_or_peptide>
+            <dna macromolecule_id="6">
+                <name>Widom 601 sequence</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="32630">synthetic construct</organism>
+                </natural_source>
+                <sequence>
+                    <string>AATCGATGTATATATCTGACACGTGCCTGGAGACTAGGGAGTAATCCCCTTGGCGGTTAAAACGCGGGGGACAGCGCGTACGTGCGTTTAAGCGGTGCTAGAGCTGTCTACGACCAATTGAGCGGCCTCGGCACCGGGATTCTGATGGTCACCTAGA</string>
+                </sequence>
+                <classification>DNA</classification>
+            </dna>
+            <dna macromolecule_id="7">
+                <name>Widom 601 sequence</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="32630">synthetic construct</organism>
+                </natural_source>
+                <sequence>
+                    <string>TCTAGGTGACCATCAGAATCCCGGTGCCGAGGCCGCTCAATTGGTCGTAGACAGCTCTAGCACCGCTTAAACGCACGTACGCGCTGTCCCCCGCGTTTTAACCGCCAAGGGGATTACTCCCTAGTCTCCAGGCACGTGTCAGATATATACATCGATT</string>
+                </sequence>
+                <classification>DNA</classification>
+            </dna>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.3</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/2</model>
+                        <material>COPPER</material>
+                        <mesh>200</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY ARRAY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <atmosphere>AIR</atmosphere>
+                            <pressure units="kPa">0.04</pressure>
+                        </pretreatment>
+                        <details>Current 20 mA</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>3 uL were applied on grid and immediately blotted for 2.5 s at blot force 0.. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free />
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Bioquantum</name>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>26747</number_real_images>
+                            <average_exposure_time units="s">2.2</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">45.0</average_electron_dose_per_image>
+                            <details>Total dose was fractionated over 40 movie frames.</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>3321590</number_selected>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>CTFFIND</name>
+                            <version>4.1.9</version>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>Synthetic map at 30 A resolution generated from PDB entry 3LZ0 (free nucleosome) with the molmap command in ChimeraX.</insilico_model>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution res_type="BY AUTHOR" units="Å">10.0</resolution>
+                    <resolution_method>OTHER</resolution_method>
+                    <details>cryoDRGN does not report any measure of resolution.</details>
+                    <number_images_used>43698</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1.1</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                    <details>Analysis of heterogeneity with cryoDRGN.</details>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <details>Analysis of the heterogeneity in a set of 43698 particles with cryoDRGN.</details>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="8389">
+        <file>emd_13070.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>128</col>
+            <row>128</row>
+            <sec>128</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>128</x>
+            <y>128</y>
+            <z>128</z>
+        </spacing>
+        <cell>
+            <a units="Å">215.04</a>
+            <b units="Å">215.04</b>
+            <c units="Å">215.04</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.19022673</minimum>
+            <maximum>0.09633083</maximum>
+            <average>0.0012134946</average>
+            <std>0.00696156</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.68</x>
+            <y units="Å">1.68</y>
+            <z units="Å">1.68</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.01</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-13070::::</label>
+        <annotation_details>vol_000.mrc from cryoDRGN graph traversal.</annotation_details>
+    </map>
+    <interpretation>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.18088952</minimum>
+                    <maximum>0.1089477</maximum>
+                    <average>0.0013737107</average>
+                    <std>0.0073632826</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_001.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.18435882</minimum>
+                    <maximum>0.119311884</maximum>
+                    <average>0.0012541963</average>
+                    <std>0.0076106857</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_002.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.20123997</minimum>
+                    <maximum>0.120302275</maximum>
+                    <average>0.0011973426</average>
+                    <std>0.0077877217</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_003.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_4.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.19238481</minimum>
+                    <maximum>0.12480429</maximum>
+                    <average>0.0012439361</average>
+                    <std>0.007952977</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_004.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_5.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.19181487</minimum>
+                    <maximum>0.13867797</maximum>
+                    <average>0.0010749181</average>
+                    <std>0.007706744</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_005.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_6.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.19166116</minimum>
+                    <maximum>0.13257256</maximum>
+                    <average>0.0010852816</average>
+                    <std>0.007910661</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_006.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_7.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.182068</minimum>
+                    <maximum>0.12792648</maximum>
+                    <average>0.001143995</average>
+                    <std>0.008002758</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_007.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_8.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.17915466</minimum>
+                    <maximum>0.11850418</maximum>
+                    <average>0.0015858761</average>
+                    <std>0.008334954</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_008.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_9.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.18118228</minimum>
+                    <maximum>0.11895501</maximum>
+                    <average>0.0016779437</average>
+                    <std>0.008582175</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_009.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_10.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.19437253</minimum>
+                    <maximum>0.118951015</maximum>
+                    <average>0.0014613929</average>
+                    <std>0.008399487</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_010.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_11.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.18097557</minimum>
+                    <maximum>0.12575719</maximum>
+                    <average>0.0015335769</average>
+                    <std>0.008548929</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_011.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_12.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.19070616</minimum>
+                    <maximum>0.12692712</maximum>
+                    <average>0.0016781135</average>
+                    <std>0.008597501</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_012.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_13.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.19022284</minimum>
+                    <maximum>0.12880135</maximum>
+                    <average>0.0014851775</average>
+                    <std>0.008262158</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_013.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_14.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.17977321</minimum>
+                    <maximum>0.13249572</maximum>
+                    <average>0.0012361319</average>
+                    <std>0.008128232</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_014.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_15.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.19581115</minimum>
+                    <maximum>0.1290324</maximum>
+                    <average>0.001380532</average>
+                    <std>0.008357758</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_015.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_16.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.21432327</minimum>
+                    <maximum>0.12766312</maximum>
+                    <average>0.0016806495</average>
+                    <std>0.00856577</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_016.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_17.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.21878624</minimum>
+                    <maximum>0.13609117</maximum>
+                    <average>0.0015520176</average>
+                    <std>0.008659378</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_017.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_18.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.21188095</minimum>
+                    <maximum>0.1374067</maximum>
+                    <average>0.0012188642</average>
+                    <std>0.008301761</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_018.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_19.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.21558686</minimum>
+                    <maximum>0.14244285</maximum>
+                    <average>0.001352712</average>
+                    <std>0.0082117375</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_019.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_20.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.22501779</minimum>
+                    <maximum>0.13564059</maximum>
+                    <average>0.0011374785</average>
+                    <std>0.007871724</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_020.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_21.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.23277912</minimum>
+                    <maximum>0.13604155</maximum>
+                    <average>0.0011532444</average>
+                    <std>0.0077132806</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_021.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_22.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.20767775</minimum>
+                    <maximum>0.13059418</maximum>
+                    <average>0.0008761315</average>
+                    <std>0.0074945833</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_022.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_23.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.20680335</minimum>
+                    <maximum>0.122021995</maximum>
+                    <average>0.0009811834</average>
+                    <std>0.0073018013</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_023.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_24.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.1817141</minimum>
+                    <maximum>0.12788719</maximum>
+                    <average>0.0010328304</average>
+                    <std>0.0076165586</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_024.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_25.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.18034704</minimum>
+                    <maximum>0.11593103</maximum>
+                    <average>0.0010552616</average>
+                    <std>0.0073607583</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_025.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_26.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.19160146</minimum>
+                    <maximum>0.10603323</maximum>
+                    <average>0.0012423455</average>
+                    <std>0.0071497094</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_026.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_27.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.175833</minimum>
+                    <maximum>0.11298496</maximum>
+                    <average>0.0013018051</average>
+                    <std>0.007429141</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_027.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_28.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.16278845</minimum>
+                    <maximum>0.12101594</maximum>
+                    <average>0.0011242252</average>
+                    <std>0.0075244885</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_028.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_29.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.175833</minimum>
+                    <maximum>0.11298496</maximum>
+                    <average>0.0013018051</average>
+                    <std>0.007429141</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_029.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_30.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.1974717</minimum>
+                    <maximum>0.11725018</maximum>
+                    <average>0.0011986884</average>
+                    <std>0.0073728985</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_030.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_31.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.20273127</minimum>
+                    <maximum>0.10957881</maximum>
+                    <average>0.0011187787</average>
+                    <std>0.0071447385</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_031.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_32.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.21584174</minimum>
+                    <maximum>0.106496595</maximum>
+                    <average>0.0010511816</average>
+                    <std>0.0070562446</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_032.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_33.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.23661605</minimum>
+                    <maximum>0.09649533</maximum>
+                    <average>0.00084815826</average>
+                    <std>0.006678914</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_033.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_34.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.23233332</minimum>
+                    <maximum>0.09282316</maximum>
+                    <average>0.0009950681</average>
+                    <std>0.0065521505</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_034.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_35.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.2423347</minimum>
+                    <maximum>0.09739293</maximum>
+                    <average>0.0009367188</average>
+                    <std>0.0063766297</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_035.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_36.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.22192584</minimum>
+                    <maximum>0.1041768</maximum>
+                    <average>0.0012838066</average>
+                    <std>0.0069853426</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_036.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_37.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.23203376</minimum>
+                    <maximum>0.10857101</maximum>
+                    <average>0.0010965602</average>
+                    <std>0.007056443</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_037.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_38.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.22767246</minimum>
+                    <maximum>0.119503826</maximum>
+                    <average>0.0009256288</average>
+                    <std>0.007494803</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_038.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_39.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.21454197</minimum>
+                    <maximum>0.12381255</maximum>
+                    <average>0.00085917464</average>
+                    <std>0.0075846636</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_039.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_40.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.22202791</minimum>
+                    <maximum>0.13247961</maximum>
+                    <average>0.0009144213</average>
+                    <std>0.0077814357</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_040.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_41.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.23138395</minimum>
+                    <maximum>0.12690546</maximum>
+                    <average>0.0007316734</average>
+                    <std>0.007459756</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_041.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_42.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.2247104</minimum>
+                    <maximum>0.1277912</maximum>
+                    <average>0.00088677974</average>
+                    <std>0.0075655323</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_042.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_43.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.20566495</minimum>
+                    <maximum>0.12976307</maximum>
+                    <average>0.0009191491</average>
+                    <std>0.007747524</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_043.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_44.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.1971048</minimum>
+                    <maximum>0.13334511</maximum>
+                    <average>0.0012346668</average>
+                    <std>0.008040199</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_044.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_45.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.21367155</minimum>
+                    <maximum>0.122893326</maximum>
+                    <average>0.0012506163</average>
+                    <std>0.0077251247</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_045.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_46.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.19411828</minimum>
+                    <maximum>0.12181523</maximum>
+                    <average>0.0014237637</average>
+                    <std>0.007894339</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_046.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_47.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.19357759</minimum>
+                    <maximum>0.12734553</maximum>
+                    <average>0.0015014687</average>
+                    <std>0.008074742</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_047.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_48.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.19227435</minimum>
+                    <maximum>0.12361346</maximum>
+                    <average>0.001490318</average>
+                    <std>0.008222294</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_048.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_49.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.19172862</minimum>
+                    <maximum>0.124805056</maximum>
+                    <average>0.0015199828</average>
+                    <std>0.008222457</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_049.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_50.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.16787796</minimum>
+                    <maximum>0.12695736</maximum>
+                    <average>0.0014214497</average>
+                    <std>0.008134628</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_050.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_51.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.17189759</minimum>
+                    <maximum>0.12526543</maximum>
+                    <average>0.0012372078</average>
+                    <std>0.008161871</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_051.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_52.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.17017956</minimum>
+                    <maximum>0.12464423</maximum>
+                    <average>0.0013034919</average>
+                    <std>0.00807794</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_052.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_53.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.18357481</minimum>
+                    <maximum>0.12840383</maximum>
+                    <average>0.0012562895</average>
+                    <std>0.008125794</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_053.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_54.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.19154622</minimum>
+                    <maximum>0.1324489</maximum>
+                    <average>0.0011568399</average>
+                    <std>0.008132252</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_054.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_55.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.1956716</minimum>
+                    <maximum>0.13412887</maximum>
+                    <average>0.0010914025</average>
+                    <std>0.008242635</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_055.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_56.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.19974375</minimum>
+                    <maximum>0.13468108</maximum>
+                    <average>0.0009916192</average>
+                    <std>0.008274581</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_056.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_57.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.19650555</minimum>
+                    <maximum>0.13743167</maximum>
+                    <average>0.0009634541</average>
+                    <std>0.00826537</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_057.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_13070_additional_58.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">215.04</a>
+                    <b units="Å">215.04</b>
+                    <c units="Å">215.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.17848378</minimum>
+                    <maximum>0.13042681</maximum>
+                    <average>0.00091928575</average>
+                    <std>0.008198711</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.68</x>
+                    <y units="Å">1.68</y>
+                    <z units="Å">1.68</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13070::::</label>
+                <annotation_details>vol_058.mrc from cryoDRGN graph traversal.</annotation_details>
+            </additional_map>
+        </additional_map_list>
+    </interpretation>
+</emd>

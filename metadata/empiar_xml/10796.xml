@@ -1,0 +1,119 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10796" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-07-24</depositionDate>
+            <releaseDate>2021-09-24</releaseDate>
+            <updateDate>2022-02-04</updateDate>
+        </keyDates>
+        <title>A microtubule RELION-based pipeline for cryo-EM image processing</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-6362-2347</authorORCID>
+            <firstName>Joseph</firstName>
+            <middleName>Michael</middleName>
+            <lastName>Atherton</lastName>
+            <organization type="academic">Institute of Structural and Molecular Biology, Birkbeck College, University of London</organization>
+            <street>Malet Street</street>
+            <townOrCity>London</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>WC1E 7HX</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-6362-2347</authorORCID>
+            <firstName>Joseph</firstName>
+            <middleName>Michael</middleName>
+            <lastName>Atherton</lastName>
+            <organization type="academic">Institute of Structural and Molecular Biology, Birkbeck College, University of London</organization>
+            <street>Malet Street</street>
+            <townOrCity>London</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>WC1E 7HX</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-1283-1541">Cook AD</author>
+            <author authorORCID="0000-0001-6733-146X">Manka SW</author>
+            <author authorORCID="0000-0001-5156-7558">Wang S</author>
+            <author authorORCID="0000-0001-5686-6290">Moores CA</author>
+            <author authorORCID="0000-0002-6362-2347">Atherton J</author>
+        </authorsList>
+        <datasetSize>256.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10796</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-10131</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-1283-1541" order="1">Cook AD</author>
+                    <author authorORCID="0000-0001-6733-146X" order="2">Manka SW</author>
+                    <author authorORCID="0000-0001-5156-7558" order="3">Wang S</author>
+                    <author authorORCID="0000-0001-5686-6290" order="4">Moores CA</author>
+                    <author authorORCID="0000-0002-6362-2347" order="5">Atherton J</author>
+                    <editor authorORCID="0000-0002-1903-1574" order="2">Ludtke SJ</editor>
+                    <title>A microtubule RELION-based pipeline for cryo-EM image processing</title>
+                    <journal>Journal of Structural Biology</journal>
+                    <journalAbbreviation>JBC</journalAbbreviation>
+                    <country></country>
+                    <year>2019</year>
+                    <externalReferences type="doi">10.1016/j.jsb.2019.10.004</externalReferences>
+                    <externalReferences type="pubmed">31610239</externalReferences>
+                    <details>22 frames over 1.5 seconds (tiff format, dark and gain reference frames provided for correction). 
+50 electrons per squared Angstrom total dose over the whole movie. 
+Pixel size 1.53 Angstrom/Pixel.
+Camera and microscope: DE20 direct detector in linear mode on a Technai Polara at 300kV.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Movies of microtubules decorated with MKLP2 motor domain (ADPAlFx bound)</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>293</numImagesOrTiltSeries>
+        <framesPerImage>22</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4880</imageWidth>
+            <pixelWidth>1.53</pixelWidth>
+            <imageHeight>3600</imageHeight>
+            <pixelHeight>1.53</pixelHeight>
+        </dimensions>
+        <details>22 frames over 1.5 seconds (frames tiff format, dark and gain reference frames provided for correction). 
+50 electrons per squared Angstrom total dose over the whole movie. 
+Pixel size 1.53 Angstrom/Pixel.
+Camera and microscope: DE20 direct detector in linear mode on a Technai Polara at 300kV.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Single-frames of microtubules decorated with MKLP2 motor domain (ADPAlFx bound)</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>6741</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>5120</imageWidth>
+            <pixelWidth>1.53</pixelWidth>
+            <imageHeight>3840</imageHeight>
+            <pixelHeight>1.53</pixelHeight>
+        </dimensions>
+        <details>22 frames over 1.5 seconds (frames tiff format, dark and gain reference frames provided for correction). 
+50 electrons per squared Angstrom total dose over the whole movie. 
+Pixel size 1.53 Angstrom/Pixel.
+Camera and microscope: DE20 direct detector in linear mode on a Technai Polara at 300kV.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

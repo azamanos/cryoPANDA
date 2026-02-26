@@ -1,0 +1,118 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10003" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2013-08-23</depositionDate>
+            <releaseDate>2013-08-26</releaseDate>
+            <updateDate>2022-01-24</updateDate>
+        </keyDates>
+        <title>HIV-1 envelope glycoprotein trimer micrographs</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-9302-2257</authorORCID>
+            <firstName>Youdong</firstName>
+            <lastName>Mao</lastName>
+            <organization type="academic">Dana-Farber Cancer Institute</organization>
+            <townOrCity>Boston</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>02215</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Joseph</firstName>
+            <lastName>Sodroski</lastName>
+            <organization type="academic">Dana-Farber Cancer Institute</organization>
+            <townOrCity>Boston</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>02215</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-9302-2257">Mao Y</author>
+            <author>Wang L</author>
+            <author>Gu C</author>
+            <author>Herschhorn A</author>
+            <author>Désormeaux A</author>
+            <author authorORCID="0000-0002-4992-5288">Finzi A</author>
+            <author>Xiang SH</author>
+            <author>Sodroski JG</author>
+        </authorsList>
+        <datasetSize units="GB">586.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10003</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-5447</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-9302-2257" order="1">Mao Y</author>
+                    <author order="2">Wang L</author>
+                    <author order="3">Gu C</author>
+                    <author order="4">Herschhorn A</author>
+                    <author order="5">Désormeaux A</author>
+                    <author authorORCID="0000-0002-4992-5288" order="6">Finzi A</author>
+                    <author order="7">Xiang SH</author>
+                    <author order="8">Sodroski JG</author>
+                    <title>Molecular architecture of the uncleaved HIV-1 envelope glycoprotein trimer</title>
+                    <journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+                    <journalAbbreviation>Proc Natl Acad Sci U S A</journalAbbreviation>
+                    <country></country>
+                    <issue>30</issue>
+                    <volume>110</volume>
+                    <firstPage>12438</firstPage>
+                    <lastPage>12443</lastPage>
+                    <year>2013</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1073/pnas.1307382110</externalReferences>
+                    <externalReferences type="pubmed">23757493</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+        <relatedEmpiarEntries>
+            <empiarEntry>EMPIAR-10007</empiarEntry>
+            <empiarEntry>EMPIAR-10008</empiarEntry>
+        </relatedEmpiarEntries>
+    </crossReferences>
+    <imageSet>
+        <name>10 focal pair micrographs of HIV-1 Envelope Glycoprotein Trimer</name>
+        <directory>/data/sample_set</directory>
+        <category>picked particles - single frame - unprocessed</category>
+        <headerFormat>SPIDER</headerFormat>
+        <dataFormat>SPIDER</dataFormat>
+        <numImagesOrTiltSeries>20</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.74688</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.74688</pixelHeight>
+        </dimensions>
+        <details>Original set of 10 focal pairs deposited: 2013-08-23</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Full set of 4683 focal pair micrographs</name>
+        <directory>/data/full_set</directory>
+        <category>micrographs - focal pairs - contrast inverted</category>
+        <headerFormat>SPIDER</headerFormat>
+        <dataFormat>SPIDER</dataFormat>
+        <numImagesOrTiltSeries>9366</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.74688</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.74688</pixelHeight>
+        </dimensions>
+        <details>Full set of micrographs deposited on: 12/7/2015. There are 4683 focal pairs.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

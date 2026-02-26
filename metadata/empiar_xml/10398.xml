@@ -1,0 +1,101 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10398" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-04-17</depositionDate>
+            <releaseDate>2020-09-02</releaseDate>
+            <updateDate>2020-09-02</updateDate>
+        </keyDates>
+        <title>CryoEM reconstruction of ESCRT-III filament composed of IST1 NTD R16E K27E double mutant</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-2231-2577</authorORCID>
+            <firstName>Adam</firstName>
+            <lastName>Frost</lastName>
+            <organization type="academic">Univeristy of California, San Fancisco</organization>
+            <street>Genetech Hall S472F (office), 600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-2231-2577</authorORCID>
+            <firstName>Adam</firstName>
+            <lastName>Frost</lastName>
+            <organization type="academic">Univeristy of California, San Fancisco</organization>
+            <street>Genetech Hall S472F (office), 600 16th Street</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-6142-8807">Nguyen HC</author>
+            <author authorORCID="0000-0002-4603-0120">Talledge N</author>
+            <author authorORCID="0000-0001-6836-4394">McCullough J</author>
+            <author>Sharma A</author>
+            <author authorORCID="0000-0002-6149-6447">Moss FR</author>
+            <author>Iwasa JH</author>
+            <author>Vershinin MD</author>
+            <author>Sundquist WI</author>
+            <author authorORCID="0000-0003-2231-2577">Frost A</author>
+        </authorsList>
+        <datasetSize units="GB">1.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10398</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-20591</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-6142-8807" order="1">Nguyen HC</author>
+                    <author authorORCID="0000-0002-4603-0120" order="2">Talledge N</author>
+                    <author authorORCID="0000-0001-6836-4394" order="3">McCullough J</author>
+                    <author order="4">Sharma A</author>
+                    <author authorORCID="0000-0002-6149-6447" order="5">Moss FR</author>
+                    <author order="6">Iwasa JH</author>
+                    <author order="7">Vershinin MD</author>
+                    <author order="8">Sundquist WI</author>
+                    <author authorORCID="0000-0003-2231-2577" order="9">Frost A</author>
+                    <title>Membrane constriction and thinning by sequential ESCRT-III polymerization</title>
+                    <journal>Nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>Nat. Struct. Mol. Biol.</journalAbbreviation>
+                    <country></country>
+                    <issue>4</issue>
+                    <volume>27</volume>
+                    <firstPage>392</firstPage>
+                    <lastPage>399</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41594-020-0404-x</externalReferences>
+                    <externalReferences type="pubmed">32251413</externalReferences>
+                    <details>Processed particle stacks and associated metadata for RELION helical reconstruction.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>CryoEM data of ESCRT-III filament composed of IST1 NTD R16E K27E double mutant</name>
+        <directory>/data</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>4556</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>320</imageWidth>
+            <pixelWidth>1.23</pixelWidth>
+            <imageHeight>320</imageHeight>
+            <pixelHeight>1.23</pixelHeight>
+        </dimensions>
+        <details>particles used to reconstruct an IST1 double mutant alone using helical reconstruction in RELION</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/IST1dm_job058.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/IST1dm_job058.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_0/emdb.xsd" version="3.0.9.0" emdb_id="EMD-12885">
+    <admin>
+        <current_status>
+            <date>2023-11-22</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-05-07</deposition>
+            <header_release>2021-07-07</header_release>
+            <map_release>2021-07-07</map_release>
+            <update>2023-11-22</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Wellcome Trust</funding_body>
+                <code>206212/Z/17/Z</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Russian Science Foundation</funding_body>
+                <code>19-74-10030</code>
+                <country>Russian Federation</country>
+            </grant_reference>
+        </grant_support>
+        <title>Structure of the apo-state of the bacteriophage PhiKZ non-virion RNA polymerase - class including clamp</title>
+        <authors_list>
+            <author>de Martin Garrido N</author>
+            <author>Lai Wan Loong YTE</author>
+        </authors_list>
+        <keywords>RNA polymerase, PhiKZ, non-virion, TRANSCRIPTION</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">deYMartin Garrido N</author>
+                    <author order="2">Orekhova M</author>
+                    <author order="3">Lai Wan Loong YTE</author>
+                    <author order="4">Litvinova A</author>
+                    <author order="5">Ramlaul K</author>
+                    <author order="6">Artamonova T</author>
+                    <author order="7">Melnikov AS</author>
+                    <author order="8">Serdobintsev P</author>
+                    <author order="9">Aylett CHS</author>
+                    <author order="10">Yakunina M</author>
+                    <title>Structure of the bacteriophage PhiKZ non-virion RNA polymerase.</title>
+                    <journal_abbreviation>Nucleic Acids Res.</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>49</volume>
+                    <first_page>7732</first_page>
+                    <last_page>7739</last_page>
+                    <year>2021</year>
+                    <external_references type="PUBMED">34181731</external_references>
+                    <external_references type="DOI">doi:10.1093/nar/gkab539</external_references>
+                    <external_references type="ISSN">1362-4962</external_references>
+                    <external_references type="CSD">0389</external_references>
+                    <external_references type="ASTM">NARHAD</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7ogp</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Bacteriophage PhiKZ non-virion RNA polymerase</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Bacteriophage PhiKZ non-virion RNA polymerase</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Expressed in E.coli from sequences obtained from the St. Petersburg lab strain of bacteriophage PhiKZ</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="169683">Pseudomonas virus phiKZ</organism>
+                    <strain>St. Petersburg</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.3</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>PHIKZ055</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2905945">Pseudomonas phage phiKZ</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.057976605</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGSSHHHHHHSSGLVPRGSHMGLYAKVVDHNEVHDQFTGKRIYANDYNTSNSDEKEEFDRHFYSHFQDSEAIESSVSCDC
+RAIEDAHKLGVICDICNTPVVNTSSRPIEPSMWVRTPKHVRSLINPRLIIMLTGYLVTKEFDFLAYLTDTSYRYDVESIG
+SKETRRKVDRLLHRGFERGLNHFIDNFNEIFQFLLDANIISNNKSEFAQFVAQNKDKLFPKYLPVPSKLCFVAESTTSGT
+YLDKPIEAAIDATLTFASIDASSVPLSPIKAQNRTMRGLRLYGQFYEIYAKSRIAQKPGLARRHMFGARLNATARAVITS
+ISDPHDYDELHIPWGVGCQLLKYHLTNKLKAKFNMTTREAFSFVYENVLQYNQIIADLFKELIAEAAPYKGMGCTFHRNP
+TLQRGSTQQFFITKVKDDINDNSISMSVLCLKAPNADFDGDQLNLTLMPDVYLTKATERIAPHTWVLSIDEPHEISGNLE
+LQGPVVETIINWAHEKYLPPLEEWLKAK</string>
+                    <external_references type="UNIPROTKB">Q8SDA7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>PHIKZ068</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2905945">Pseudomonas phage phiKZ</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.05941977</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MEIIVTGVQGTGFTEVATEHNGKRLTWTTTAYSKIRVQDQQRVFQEINDYWSGLSAEAQQHIWNCYVEIRKIMDMAMDPM
+RIAMSLSYYIKEMYKAMPMNSFRRWLLTIGKLYIPVDIEEVITDDSRYNRPDQTYLKHDYINLASVSLALRPLVPIWGEF
+IDQGTSQEMHKECEVISLISDCEVNHWPVDEISIDGTPVETAYDKLSAYVKFCVEDEAPTLANLYRGMSSAEVPDILQAK
+VMVRRLTILPLNDATSHSIVSNMFRYVKSNLNPAERSTADRVNDKRPDKGGIDDDDKTSFIESHKTKQRVTPGDIVAYNL
+DALDVVKLVHKIDDTVPVELIQECLDCVAVTATKDIYPHQILLAQWVMHKAFPARAFSHINKNAVNHLLAAAQSLMWHWG
+FQQVAVFMQVELYYSGEHAMSIQPRNSTRIQIKYKDVMDELYPHQRQQRAINGVPVAPVNIAGIAVQSAHASIRSSNWIY
+HGPDRLFKEAEQVTQNKVLVVPATIKSVITELVIHLGKLNQ</string>
+                    <external_references type="UNIPROTKB">Q8SD94</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>DNA-directed RNA polymerase</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2905945">Pseudomonas phage phiKZ</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.07878045299999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSQLGRREIDLTLLGHTGLDPWYGTTSSARGAMFVTHIGQAPEVNGNESRYFLTGAELEYAKYTHDVRFPEDCRVLHVLR
+KYPTGIGKDSIRSNPVTTIIYENYFDKYKTIGVLHVPEYMSHHQDFGYELVKNREVWETIAPNEMFSKDTVIAQSGAVKK
+DGTLGMGVNANVVFLSAAGTIEDGFVANKNFLKRMMPTSYSTAVANAGRKAFFLNMYGDDKIYKPFPDIGDVIRPDGVIF
+AIRDHDDDLAPAEMTPRALRTLDRTFDRAVIGTPGAKVIDIDIWRDERVNPSPTPTGMDAQLVKYHTHLSSYYRELLKIY
+RGLLARRKDDLHITEEFERLIVTAQMFLPQPDNVRKLSRFYRLDPLDEWRVEVTYKAQKMPAGAFKMTDFHGGKGVICKV
+MEDEDMPIDENGNRADLIIFGGSTMRRSNYGRIYEHGFGAAARDLAQRLRVEAGLDRHAKPTQQQLNSVMGNTQWVDYAF
+KELLGFYEIIAPTMHSKMMEHPNPAEHVKTVLMDGFPYIYAPVDDPVDLMAAVNKLINSDKYRPHYGKVSYRDQAGKWVT
+TKDNVLMGPLYMMLLEKIGEDWSAAASVKTQPFGLPSKLNNADRASTPGRETAIRSFGESETRSYNCTVGPGPTAEILDQ
+TNNPLAHAAVIESWLTAEKPSSVPVAVDREKIPFGGSRPVAMFDHLLECSGIALEYAPDH</string>
+                </sequence>
+                <ec_number>2.7.7.6</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>PHIKZ074</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2905945">Pseudomonas phage phiKZ</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.07751346099999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MNLNRYKARDLLNLSYDDLWSLPSEWHLIEFDDGKTVVSVDRITKLSVLCWYPLKHYKDCPIPSDHHIDFNRILTDNPKD
+YLNVEGGRVTSKAMVKHLNKAIWNIYDWSGETVDPEVLSKLAIEGKNWLYNQTTVKLSEYLATLSMFDIAEVYNHPKVRE
+ANHNIEPTTYGIEKISYGKVKEVFNDPTQFIGNSIIEGLRSGTQKTEQLLQAFAWRGFPTDINSDIFKYPVTTGYIDGIW
+NLYENMIESRSGTKALLYNKELLRVTEYFNRKSQLIAQYVQRLHPGDCKTTILAEYPVTKLTLKAFKGKYYQKEDGKLDW
+IRGNETHLIGTKQKFRSVFGCNHPDSQGICMTCYGRLGINIPKGTNIGQVAAVSMGDKITSAVLSTKHTDASSAVEQYKL
+GKIESNYLRTGEIPETLYLKKELTQKDYRLVIARSEAENLADILMIDDLTAYPATSATELTSLALVYDDEVNGECGDVLT
+VSLYNRRASLSIEMLKHIKMVRWELDQRDNIVISLRGFDFNLPFLTLPNKHVNMYEVMKRFQSFLHSGSDSAEAGKLSTE
+KVGYTSKTYLKNYKSPIEALPVFATMANEKISLNISHCEILIYAMMIRSAQYRDYRLPKPGINGQFEKYNRLMQCRSLGG
+AMAFEKQHEPLNNPGSFLNKMRNDHPYDLLVKGGKLR</string>
+                    <external_references type="UNIPROTKB">Q8SD88</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>PHIKZ123</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2905945">Pseudomonas phage phiKZ</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.06295909</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPDPFLIEKIRENTPCMNPTLANGITVEHTMTRDPNTGVNMTRRYIDSLFDISSVLFPDGFKYEGNRACTPLKHFEEITR
+EYNAKRIANIAPTDMYMIDLMFSYKGEMLYPRPMLLPAFKRGNMVTINGAKYIGSPVLTDVGFSVLNDSIFIPFRRTKLT
+FKQTDHHYMCNGQRKIMYVIWSQIHNEMAKRTKRDLGNRPHIESCLAHYFFCQFGVTQTFKQWANVDVKCGLLSDFPEEE
+YPREKWNIYSSATLKGKHPTGEMVLVIPRHQESIFATRLIAGFWYVVDAFPMRFTRPEYVDSTNLWRVILGHMVFGDFEH
+QGKVEENIDSHLHSFCNSLDEMTIEELKTVGVNVSTIWELLYEIMTSLAHHLYATDIDETSMYGKRLTVLHYLMSEFNYA
+VSMFGYMFQSRRDREWTVQELNEGLKRSFKLQTAIKRLTVDHGELDTMSNPNSSMLIKGTSILVTQDRAKTAKAHNKSLI
+NDSSRIIHASIAEVGQYKNQPKNNPDGRGRLNMYTKVGPTGLVERREEVREIIDNAQLMFRAK</string>
+                    <external_references type="UNIPROTKB">Q8SD39</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="6">
+                <name>ZINC ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">6.5409e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>ZN</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.3</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                        <details>15 mM Tris-Cl pH 8.0, 150 mM NaCl, 0.5 mM EDTA, 2 mM MgCl2, 1 mM DTT</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/1</model>
+                        <support_film film_type_id="1">
+                            <film_material>GRAPHENE OXIDE</film_material>
+                            <film_topology>CONTINUOUS</film_topology>
+                            <film_thickness>1.0</film_thickness>
+                        </support_film>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">278</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>1-2 s blot. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">70.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.75</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">3.25</nominal_defocus_max>
+                    <nominal_magnification>48000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <temperature>
+                        <temperature_min units="K">100.0</temperature_min>
+                        <temperature_max units="K">100.0</temperature_max>
+                    </temperature>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Bioquantum</name>
+                            <slit_width units="eV">70</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">5096</width>
+                                    <height units="pixel">4092</height>
+                                </dimensions>
+                            </digitization_details>
+                            <number_grids_imaged>2</number_grids_imaged>
+                            <number_real_images>10582</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                            <details>TIFF movie mode</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>Motion correction and dose-weighting in motioncor2</details>
+                <particle_selection>
+                    <number_selected>3179799</number_selected>
+                    <details>EMAN BATCHBOXER with low-pass butterworth preprocessing</details>
+                </particle_selection>
+                <startup_model type_of_model="OTHER">
+                    <details>RELION - STOCHASTIC GRADIENT DESCENT</details>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.3</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>50085</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>9</number_classes>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3</version>
+                        </software>
+                    </software_list>
+                    <details>855016 particles classified</details>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_12885.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">217.6</a>
+            <b units="Å">217.6</b>
+            <c units="Å">217.6</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.0606534</minimum>
+            <maximum>0.0910257</maximum>
+            <average>0.00036268804</average>
+            <std>0.004750127</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.85</x>
+            <y units="Å">0.85</y>
+            <z units="Å">0.85</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.02</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-12885::::</label>
+        <annotation_details>PhiKZ non-virion RNA polymerase - class including clamp</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>6EDT</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>OTHER</refinement_protocol>
+                <details>Core conserved regions initially identified from comparison with PDB 6EDT - remainder built de novo</details>
+            </modelling>
+        </modelling_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_12885_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">217.6</a>
+                    <b units="Å">217.6</b>
+                    <c units="Å">217.6</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.028759686</minimum>
+                    <maximum>0.049183626</maximum>
+                    <average>0.00041253073</average>
+                    <std>0.0033710764</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.85</x>
+                    <y units="Å">0.85</y>
+                    <z units="Å">0.85</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-12885::::</label>
+                <annotation_details>PhiKZ non-virion RNA polymerase - class including clamp - halfmap 2</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_12885_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">217.6</a>
+                    <b units="Å">217.6</b>
+                    <c units="Å">217.6</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.027670193</minimum>
+                    <maximum>0.048309915</maximum>
+                    <average>0.00018428027</average>
+                    <std>0.0033761458</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.85</x>
+                    <y units="Å">0.85</y>
+                    <z units="Å">0.85</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-12885::::</label>
+                <annotation_details>PhiKZ non-virion RNA polymerase - class including clamp - halfmap 1</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

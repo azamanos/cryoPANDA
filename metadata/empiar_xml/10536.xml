@@ -1,0 +1,125 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10536" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-06-10</depositionDate>
+            <releaseDate>2020-12-09</releaseDate>
+            <updateDate>2021-01-29</updateDate>
+        </keyDates>
+        <title>Single particle cryo-EM dataset for MlaFEDB from E. coli in nanodisc</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-6050-2219</authorORCID>
+            <firstName>Nicolas</firstName>
+            <lastName>Coudray</lastName>
+            <organization type="academic">NYU</organization>
+            <street>540 1st Avenue, 2nd Floor Lab 14-17</street>
+            <townOrCity>New Yok</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10016</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-2570-0404</authorORCID>
+            <firstName>Ekiert</firstName>
+            <lastName>Damian</lastName>
+            <organization type="academic">NYU</organization>
+            <street>540 1st Avenue, 2nd Floor Lab 14-17</street>
+            <townOrCity>New Yok</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10016</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-0624-6178</authorORCID>
+            <firstName>Bhabha</firstName>
+            <lastName>Gira</lastName>
+            <organization type="academic">NYU</organization>
+            <street>540 1st Avenue, 2nd Floor Lab 14-17</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10016</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-6050-2219">Coudray N</author>
+            <author authorORCID="0000-0001-9023-705X">Isom GL</author>
+            <author authorORCID="0000-0003-4941-9526">MacRae M</author>
+            <author authorORCID="0000-0003-4157-7845">Saiduddin MN</author>
+            <author authorORCID="0000-0003-0624-6178">Bhabha G</author>
+            <author authorORCID="0000-0002-2570-0404">Ekiert DC</author>
+        </authorsList>
+        <datasetSize units="TB">5.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10536</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-22116</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-6050-2219" order="1">Coudray N</author>
+                    <author authorORCID="0000-0001-9023-705X" order="2">Isom GL</author>
+                    <author authorORCID="0000-0003-4941-9526" order="3">MacRae M</author>
+                    <author authorORCID="0000-0003-4157-7845" order="4">Saiduddin MN</author>
+                    <author authorORCID="0000-0003-0624-6178" order="5">Bhabha G</author>
+                    <author authorORCID="0000-0002-2570-0404" order="6">Ekiert DC</author>
+                    <title>Structure of bacterial phospholipid transporter MlaFEDB with substrate bound</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation>Elife</journalAbbreviation>
+                    <country></country>
+                    <volume>9</volume>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.7554/elife.62518</externalReferences>
+                    <externalReferences type="pubmed">33236984</externalReferences>
+                    <details>Raw movies acquired in super-resolution mode (0.416 A / pixel, 71 e-/A^2, 30 frames for 6 sec).
+Particle stacks (0.832 A / pixel) were extracted from motion corrected movies (with Relion's implementation of motioncor2) followed by particle polishing.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of MlaFEDB complex</name>
+        <directory>/data/movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3212</numImagesOrTiltSeries>
+        <framesPerImage>30</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>7420</imageWidth>
+            <pixelWidth>0.416</pixelWidth>
+            <imageHeight>7676</imageHeight>
+            <pixelHeight>0.416</pixelHeight>
+        </dimensions>
+        <details>Unaligned super-resolution (K2 camera, Titan Krios) multi-frame micrographs (total electron dose: 71 e-/A2; frame rate: 200 ms)</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/movies/18aug01*mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Polished particles (using Relion 3.1)</name>
+        <directory>/data/polished_particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>3064</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>500</imageWidth>
+            <pixelWidth>0.832</pixelWidth>
+            <imageHeight>500</imageHeight>
+            <pixelHeight>0.832</pixelHeight>
+        </dimensions>
+        <details>Picked particles after polishing in Relion 3.1.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/polished_particles/18aug01*.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/polished_particles/18aug01*frames_shiny.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/polished_particles</pickedParticlesDirectory>
+    </imageSet>
+</entry>

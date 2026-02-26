@@ -1,0 +1,121 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10930" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-01-05</depositionDate>
+            <releaseDate>2022-01-28</releaseDate>
+            <updateDate>2022-01-28</updateDate>
+        </keyDates>
+        <title>Anaplastic lymphoma kinase (ALK) extracellular fragment of ligand binding region 648-1025 in complex with AUG-alpha</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0003-1751-3964</authorORCID>
+            <firstName>Andrey</firstName>
+            <middleName>V</middleName>
+            <lastName>Reshetnyak</lastName>
+            <organization type="academic">Department of Structural Biology, St. Jude Children's Research Hospital</organization>
+            <street>262 Danny Thomas Pl</street>
+            <townOrCity>Memphis</townOrCity>
+            <stateOrProvince>TN</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>38105</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0001-6354-2796</authorORCID>
+            <firstName>Charalampos</firstName>
+            <middleName>G</middleName>
+            <lastName>Kalodimos</lastName>
+            <organization type="academic">Department of Structural Biology, St. Jude Children's Research Hospital</organization>
+            <street>262 Danny Thomas Pl</street>
+            <townOrCity>Memphis</townOrCity>
+            <stateOrProvince>TN</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>38105</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-1751-3964">Reshetnyak AV</author>
+            <author authorORCID="0000-0003-2607-7121">Myasnikov AG</author>
+            <author authorORCID="0000-0001-6354-2796">Kalodimos CG</author>
+        </authorsList>
+        <datasetSize units="TB">10.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10930</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-24095</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-1751-3964" order="1">Reshetnyak AV</author>
+                    <author order="2">Rossi P</author>
+                    <author authorORCID="0000-0003-2607-7121" order="3">Myasnikov AG</author>
+                    <author order="4">Sowaileh M</author>
+                    <author order="5">Mohanty J</author>
+                    <author order="6">Nourse A</author>
+                    <author authorORCID="0000-0003-1202-511X" order="7">Miller DJ</author>
+                    <author order="8">Lax I</author>
+                    <author authorORCID="0000-0002-5085-5969" order="9">Schlessinger J</author>
+                    <author authorORCID="0000-0001-6354-2796" order="10">Kalodimos CG</author>
+                    <title>Mechanism for the activation of the anaplastic lymphoma kinase receptor</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <issue>600</issue>
+                    <volume>7887</volume>
+                    <firstPage>153</firstPage>
+                    <lastPage>157</lastPage>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41586-021-04140-8</externalReferences>
+                    <externalReferences type="pubmed">34819673</externalReferences>
+                    <details>The motion-corrected and CTF-estimated images along with extracted particle stacks and the particle stacks used for final reconstruction</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of 2:2 ALK:AugAlpha complex</name>
+        <directory>/data/Micrographs</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>13618</numImagesOrTiltSeries>
+        <framesPerImage>70</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.413</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.413</pixelHeight>
+        </dimensions>
+        <details>Raw movie frames. Movies were recorded at defocus values from −0.8 to −1.8 m at 105,000× magnification, corresponding to a pixel size of 0.826 Å at the specimen level (super-resolution pixel size is 0.413). Seventy frames with 2.8-s exposure (0.04 s per frame and the dose of 1.2 e per frame per A2) were collected with the total dose of around 88.4 e, and the first frame was discarded.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Micrographs/Titan_Andrey_S319_G13_V1-1_*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Particles/particles_*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Particles/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned single-frame micrographs of 2:2 ALK:AugAlpha complex</name>
+        <directory>/data/Micrographs_motion_corrected</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>13618</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.826</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.826</pixelHeight>
+        </dimensions>
+        <details>Aligned micrographs. Motion correction was performed on raw super-resolution movie stacks and binned by 2 using MotionCor2
+
+data/Particles/ - Particles were automatically picked using cisTEM. Here we provide two star files, so that someone can extract particles in Relion using motion-corrected images and one of the star files (final structure and all picked particles) with the coordinates. Box size used for reconstruction was 256.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Micrographs_motion_corrected/Titan_Andrey_S319_G13_V1-1_*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Particles/particles_*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Particles/</pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-4776">
+    <admin>
+        <current_status>
+            <date>2024-11-06</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-04-06</deposition>
+            <header_release>2017-11-08</header_release>
+            <map_release>2019-07-31</map_release>
+            <update>2024-11-06</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>German Research Foundation</funding_body>
+                <code>Mo2752/2</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>German Research Foundation</funding_body>
+                <code>SFB 807</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>German Research Foundation</funding_body>
+                <code>EXC 115</code>
+                <country>Germany</country>
+            </grant_reference>
+        </grant_support>
+        <title>Heterodimeric ABC exporter TmrAB in ATP-bound outward-facing occluded conformation</title>
+        <authors_list>
+            <author>Januliene D</author>
+            <author>Hofmann S</author>
+            <author>Medhdipour AR</author>
+            <author>Thomas C</author>
+            <author>Hummer G</author>
+            <author>Tampe R</author>
+            <author>Moeller A</author>
+        </authors_list>
+        <keywords>ATP-binding cassette transporter, membrane protein, heterodimer, exporter, TRANSPORT PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Hofmann S</author>
+                    <author order="2">Januliene D</author>
+                    <author order="3">Mehdipour AR</author>
+                    <author order="4">Thomas C</author>
+                    <author order="5">Stefan E</author>
+                    <author order="6">Bruchert S</author>
+                    <author order="7">Kuhn BT</author>
+                    <author order="8">Geertsma ER</author>
+                    <author order="9">Hummer G</author>
+                    <author order="10">Tampe R</author>
+                    <author order="11">Moeller A</author>
+                    <title>Conformation space of a heterodimeric ABC exporter under turnover conditions.</title>
+                    <journal_abbreviation>Nature</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>571</volume>
+                    <first_page>580</first_page>
+                    <last_page>583</last_page>
+                    <year>2019</year>
+                    <external_references type="PUBMED">31316210</external_references>
+                    <external_references type="DOI">doi:10.1038/s41586-019-1391-0</external_references>
+                    <external_references type="ISSN">1476-4687</external_references>
+                    <external_references type="CSD">0006</external_references>
+                    <external_references type="ASTM">NATUAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6rai</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>TmrAB EQ mutant in ATP bound outward-occluded conformation</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>TmrAB EQ mutant in ATP bound outward-occluded conformation</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <molecular_weight>
+                    <theoretical units="MDa">0.15</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>TmrAB</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="274">Thermus thermophilus</organism>
+                </natural_source>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>nanobody</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="30538">Vicugna pacos</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Multidrug resistance ABC transporter ATP-binding and permease protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="274">Thermus thermophilus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.070663805</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTEDTYSKAFDRALFARILRYVWPYRLQVVLALLFLLVVTLAAAATPLFFKWAIDLALVPTEPRPLAERFHLLLWISLGF
+LAVRAVHFAATYGETYLIQWVGQRVLFDLRSDLFAKLMRLHPGFYDRNPVGRLMTRVTSDVDAINQFITGGLVGVIADLF
+TLVGLLGFMLFLSPKLTLVVLLVAPVLLAVTTWVRLGMRSAYREMRLRLARVNAALQENLSGVETIQLFVKEREREEKFD
+RLNRDLFRAWVEIIRWFALFFPVVGFLGDFAVASLVYYGGGEVVRGAVSLGLLVAFVDYTRQLFQPLQDLSDKFNLFQGA
+MASAERIFGVLDTEEELKDPEDPTPIRGFRGEVEFRDVWLAYTPKGVEPTEKDWVLKGVSFRVRPGEKVALVGATGAGKT
+SVVSLIARFYDPQRGCVFLDGVDVRRYRQEELRRHVGIVLQEPFLFSGTVLDNLRLFDPSVPPERVEEVARFLGAHEFIL
+RLPKGYQTVLGERGAGLSTGEKQLLALVRALLASPDILLILDQATASVDSETEKRLQEALYKAMEGRTSLIIAHRLSTIR
+HVDRILVFRKGRLVEEGSHEELLAKGGYYAALYRLQFQEAKLGGGGENLYFQGHHHHHHHHHH</string>
+                    <external_references type="UNIPROTKB">Q72J05</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Multidrug resistance ABC transporter ATP-binding and permease protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="274">Thermus thermophilus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.06463445699999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTGRSAAPLLRRLWPYVGRYRWRYLWAVLAGLVSIFFFVLTPYFLRLAVDAVQAGRGFGVYALAIVASAALSGLLSYAMR
+RLAVVASRQVEYDLRRDLLHHLLTLDRDFYHKHRVGDLMNRLNTDLSAVREMVGPGILMGSRLSFLVLLAFLSMYAVNAR
+LAFYLTLILPGIFLAMRFLLRLIDRRYREAQEVFDRISTLAQEAFSGIRVVKGYALERRMVAWFQDLNRLYVEKSLALAR
+VEGPLHALLGFLMGFAFLTVLWAGGAMVVRGELSVGELVQFNAYLAQLTWPILGLGWVMALYQRGLTSLRRLFELLDEKP
+AIRDEDPLPLALEDLSGEVRFEGVGLKRDGRWLLRGLTLTIPEGMTLGITGRTGSGKSLLAALVPRLLDPSEGRVYVGGH
+EARRIPLAVLRKAVGVAPQEPFLFSETILENIAFGLDEVDRERVEWAARLAGIHEEILAFPKGYETVLGERGITLSGGQR
+QRVALARALAKRPKILILDDALSAVDAETEARILQGLKTVLGKQTTLLISHRTAALRHADWIIVLDGGRIVEEGTHESLL
+QAGGLYAEMDRLQKEVEA</string>
+                    <external_references type="UNIPROTKB">Q72J04</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Nanobody Nb9F10</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="30538">Vicugna pacos</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014594405</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAQLQLVESGGGLVQPGDSLRLSCAVSGSALDYNAIGWFRQAPGKEREGVACISKITGNTAYADSVKGRFTISRDNAKNT
+VHLQMNSLKPEDTAVYYCATVTAVLLPGRCVPGKYWGQGTPVTVSSHHHHHHEPEA</string>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="4">
+                <name>ADENOSINE-5'-TRIPHOSPHATE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000507181</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>ATP</formula>
+            </ligand>
+            <ligand macromolecule_id="5">
+                <name>MAGNESIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">2.4305e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>MG</formula>
+            </ligand>
+            <ligand macromolecule_id="6">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil, UltrAuFoil</model>
+                        <material>GOLD</material>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 QUANTUM (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <average_exposure_time units="s">8.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">64.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>2200000</number_selected>
+                    <details>The particles were generously picked, using RELION-3 template picker</details>
+                </particle_selection>
+                <startup_model type_of_model="EMDB MAP"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.9</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>94621</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_4776.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">275.712</a>
+            <b units="Å">275.712</b>
+            <c units="Å">275.712</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.12247599</minimum>
+            <maximum>0.2929613</maximum>
+            <average>0.000118543896</average>
+            <std>0.0040902854</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.077</x>
+            <y units="Å">1.077</y>
+            <z units="Å">1.077</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.03</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-4776::::</label>
+        <annotation_details>TmrAB in ATP-bound OF occluded conformation</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_4776_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_4776_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">275.712</a>
+                    <b units="Å">275.712</b>
+                    <c units="Å">275.712</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.051856387</minimum>
+                    <maximum>0.12719026</maximum>
+                    <average>0.000005687856</average>
+                    <std>0.0043050996</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.077</x>
+                    <y units="Å">1.077</y>
+                    <z units="Å">1.077</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-4776::::</label>
+                <annotation_details>Half map 1</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_4776_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">275.712</a>
+                    <b units="Å">275.712</b>
+                    <c units="Å">275.712</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.055028047</minimum>
+                    <maximum>0.12628289</maximum>
+                    <average>0.0000068310114</average>
+                    <std>0.0042944658</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.077</x>
+                    <y units="Å">1.077</y>
+                    <z units="Å">1.077</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-4776::::</label>
+                <annotation_details>Half map 2</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

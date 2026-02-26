@@ -1,0 +1,70 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10017" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2014-11-19</depositionDate>
+            <releaseDate>2014-11-19</releaseDate>
+            <updateDate>2014-11-19</updateDate>
+        </keyDates>
+        <title>Beta-galactosidase Falcon-II micrographs plus manually selected coordinates by Richard Henderson</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0462-6540</authorORCID>
+            <firstName>Sjors</firstName>
+            <lastName>Scheres</lastName>
+            <organization type="academic">Medical Research Council Laboratory of Molecular Biology</organization>
+            <street>Francis Crick Avenue, Cambridge Biomedical Campus</street>
+            <townOrCity>Cambridge</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0462-6540</authorORCID>
+            <firstName>Sjors</firstName>
+            <lastName>Scheres</lastName>
+            <organization type="academic">Medical Research Council Laboratory of Molecular Biology</organization>
+            <street>Francis Crick Avenue, Cambridge Biomedical Campus</street>
+            <townOrCity>Cambridge</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-0462-6540">Scheres SH</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2015-10-28</date>
+                <statusCode>REL</statusCode>
+                <details>Restructured the entry directory to have "data" and ".private".</details>
+            </version>
+        </versionHistory>
+        <datasetSize units="GB">5.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10017</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-2824</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>Beta-galactosidase micrographs + coordinates</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>84</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.77</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.77</pixelHeight>
+        </dimensions>
+        <details>Particle positions in corresponding .coord text files (with X and Y coordinates for manually selected coordinates in 1st and 2nd column respectively).
+The micrographs are the average, without any realignment, of 24 raw movie frames (accumulating 24 electron per squared Angstrom in a 1.5 second exposure).</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

@@ -1,0 +1,99 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10081" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2017-01-25</depositionDate>
+            <releaseDate>2017-02-09</releaseDate>
+            <updateDate>2017-02-09</updateDate>
+        </keyDates>
+        <title>Structure of the human HCN1 hyperpolarization-activated cyclic nucleotide-gated ion channel</title>
+        <correspondingAuthor private="true">
+            <firstName>Roderick</firstName>
+            <lastName>MacKinnon</lastName>
+            <organization type="academic">The Rockefeller University</organization>
+            <street>1230 York Ave</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10065</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Roderick</firstName>
+            <lastName>MacKinnon</lastName>
+            <organization type="academic">The Rockefeller University</organization>
+            <street>1230 York Ave</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10065</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Lee CH</author>
+            <author>MacKinnon R</author>
+        </authorsList>
+        <datasetSize units="GB">66.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10081</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-8511</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Lee CH</author>
+                    <author order="2">MacKinnon R</author>
+                    <title>Structures of the Human HCN1 Hyperpolarization-Activated Channel</title>
+                    <journal>Cell</journal>
+                    <journalAbbreviation>Cell</journalAbbreviation>
+                    <country></country>
+                    <issue>1-2</issue>
+                    <volume>168</volume>
+                    <firstPage>111</firstPage>
+                    <lastPage>120.e11</lastPage>
+                    <year>2017</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.cell.2016.12.023</externalReferences>
+                    <externalReferences type="pubmed">28086084</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned summed micrographs of the human HCN1 hyperpolarization-activated channel </name>
+        <directory>/data/micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>997</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.3</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.3</pixelHeight>
+        </dimensions>
+        <details>Summed micrographs were drift-corrected and weighted with the exposure filter using UnBlur as described in the paper.</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Shiny particle image stacks of the human HCN1 hyperpolarization-activated channel </name>
+        <directory>/data/particle_stacks</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>984</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.3</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.3</pixelHeight>
+        </dimensions>
+        <details>Particle image stacks have been "polished" using RELION as described in the paper. The text file data.star contains the relevant information of the particles</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

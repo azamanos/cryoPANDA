@@ -1,0 +1,108 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10268" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-04-16</depositionDate>
+            <releaseDate>2020-07-14</releaseDate>
+            <updateDate>2020-07-14</updateDate>
+        </keyDates>
+        <title>Separating distinct macromolecular assemblies from cryo-EM images</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-6198-1194</authorORCID>
+            <firstName>David</firstName>
+            <middleName>W.</middleName>
+            <lastName>Taylor</lastName>
+            <organization type="academic">Department of Molecular Biosciences, University of Texas at Austin</organization>
+            <street>100 E. 24th St.</street>
+            <townOrCity>Aust</townOrCity>
+            <stateOrProvince>TX</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>78712</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-6198-1194</authorORCID>
+            <firstName>David</firstName>
+            <middleName>W.</middleName>
+            <lastName>Taylor</lastName>
+            <organization type="academic">Department of Molecular Biosciences, University of Texas at Austin</organization>
+            <street>100 E. 24th St.</street>
+            <townOrCity>Aust</townOrCity>
+            <stateOrProvince>TX</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>78712</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <firstName>Edward</firstName>
+            <middleName>M.</middleName>
+            <lastName>Marcotte</lastName>
+            <organization type="academic">Department of Molecular Biosciences, University of Texas at Austin</organization>
+            <street>100 E. 24th St.</street>
+            <townOrCity>Austin</townOrCity>
+            <stateOrProvince>TX</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>78712</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Verbeke EJ</author>
+            <author>Zhou Y</author>
+            <author>Horton AP</author>
+            <author>Mallam AL</author>
+            <author authorORCID="0000-0002-6198-1194">Taylor DW</author>
+            <author>Marcotte EM</author>
+        </authorsList>
+        <datasetSize units="GB">128.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10268</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-20109</emdbEntry>
+            <emdbEntry>EMD-20110</emdbEntry>
+            <emdbEntry>EMD-20111</emdbEntry>
+            <emdbEntry>EMD-20112</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Verbeke EJ</author>
+                    <author order="2">Zhou Y</author>
+                    <author order="3">Horton AP</author>
+                    <author order="4">Mallam AL</author>
+                    <author authorORCID="0000-0002-6198-1194" order="5">Taylor DW</author>
+                    <author order="6">Marcotte EM</author>
+                    <title>Separating distinct structures of multiple macromolecular assemblies from cryo-EM projections</title>
+                    <journal>Journal of structural biology</journal>
+                    <journalAbbreviation>J. Struct. Biol.</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>209</volume>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.jsb.2019.107416</externalReferences>
+                    <externalReferences type="pubmed">31726096</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Drift-corrected and dose-weighted average micographs of a mixture containing 40S, 60S, 80S and apoferritin</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2423</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.1</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.1</pixelHeight>
+        </dimensions>
+        <details>These micrographs are the average after alignment and dose-weighting of 20 raw movie frames (accumulating 40 electron per squared Angstrom in a 6 second exposure).</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

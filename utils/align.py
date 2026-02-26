@@ -1,0 +1,65 @@
+"""A Python wrapper for aligning two .mrc volumes using ChimeraX command-line tools.
+
+Example usage
+-------------
+chimerax --nogui --script "metrics/utils/align.py ref.mrc vol.mrc -o out.mrc"
+chimerax --nogui --script \
+    "metrics/utils/align.py ref.mrc vol.mrc -o out.mrc -f out.txt --flip"
+
+"""
+import os
+import argparse
+from chimerax.core.commands import run
+
+parser = argparse.ArgumentParser(description="Aligns two volumes")
+parser.add_argument("ref", help="Input volume to align on")
+parser.add_argument("vol", help="Input volume to align")
+parser.add_argument("-o", type=os.path.abspath, required=True, help="Aligned mrc")
+parser.add_argument(
+    "-f",
+    type=os.path.abspath,
+    required=True,
+    help="Text file that this program's output is being piped to (required if flip=True)",
+)
+parser.add_argument(
+    "--ninits", type=int, default=100, help="Number of alignments to try"
+)
+parser.add_argument(
+    "--flip",
+    action="store_true",
+    help="Run an additional ninits alignments after flipping handedness of vol",
+)
+parser.add_argument(
+    "--seed", type=int, help="random seed to use for alignment initializations"
+)
+args = parser.parse_args()
+
+# Open the two volumes in ChimeraX as `#1` and `#2`
+run(session, f"open {args.ref}")
+run(session, f"open {args.vol}")
+seed_str = f" seed {args.seed}" if args.seed is not None else ""
+
+if not args.flip:
+    run(session, f"fitmap #1 inMap #2 search {args.ninits}{seed_str}")
+    run(session, "volume resample #1 onGrid #2 modelId #3")
+    run(session, f"save {args.o} #3")
+else:
+    run(session, "volume flip #2")
+    run(session, f"fitmap #2 inMap #1 search {args.ninits}{seed_str}")
+    run(session, f"fitmap #3 inMap #1 search {args.ninits}{seed_str}")
+
+    # corrs = []
+    # f = open(args.f, "r")
+    # for line in f:
+    #     if line.startswith("  correlation"):
+    #         corrs.append(float(line.split(",")[0][16:]))
+    # f.close()
+    #
+    # print(corrs)
+    # if corrs[0] > corrs[1]:
+    #     run(session, "volume resample #2 onGrid #1 modelId #4")
+    # else:
+    #     run(session, "volume resample #3 onGrid #1 modelId #4")
+    # run(session, f"save {args.o} #4")
+
+run(session, "exit")

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_1/emdb.xsd" version="3.0.9.1" emdb_id="EMD-41195">
+    <admin>
+        <current_status>
+            <date>2023-12-27</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-07-06</deposition>
+            <header_release>2023-12-20</header_release>
+            <map_release>2023-12-20</map_release>
+            <update>2023-12-27</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute on Aging (NIH/NIA)</funding_body>
+                <code>R01AG048120</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute on Aging (NIH/NIA)</funding_body>
+                <code>R01AG07895</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/Office of the Director</funding_body>
+                <code>U24 GM129541</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Tropomyosin-receptor kinase fused gene protein (TRK-fused gene protein; TFG) Low Complexity Domain (residues 237-327) G269V mutant, amyloid fiber</title>
+        <authors_list>
+            <author>Rosenberg GM</author>
+            <author>Sawaya MR</author>
+            <author>Boyer DR</author>
+            <author>Ge P</author>
+            <author>Abskharon R</author>
+            <author>Eisenberg DS</author>
+        </authors_list>
+        <keywords>amyloid, mutation, Charcot-Marie-Tooth disease, Hereditary motor and sensory neuropathy with proximal dominant involvement, PROTEIN FIBRIL</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-1297-1715" order="1">Rosenberg GM</author>
+                    <author ORCID="0000-0003-1350-0189" order="2">Abskharon R</author>
+                    <author ORCID="0000-0002-4487-0230" order="3">Boyer DR</author>
+                    <author order="4">Ge P</author>
+                    <author ORCID="0000-0003-0874-9043" order="5">Sawaya MR</author>
+                    <author ORCID="0000-0003-2432-5419" order="6">Eisenberg DS</author>
+                    <title>Fibril structures of TFG protein mutants validate the identification of TFG as a disease-related amyloid protein by the IMPAcT method.</title>
+                    <journal_abbreviation>Pnas Nexus</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>2</volume>
+                    <first_page>pgad402</first_page>
+                    <last_page>pgad402</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">38077690</external_references>
+                    <external_references type="DOI">doi:10.1093/pnasnexus/pgad402</external_references>
+                    <external_references type="ISSN">2752-6542</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8teq</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>amyloid fibril of protein TFG G269V</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>amyloid fibril of protein TFG G269V</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>TRK-fused gene protein Low Complexity Domain G269V mutant</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.04049078899999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>30</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="469008">Escherichia coli BL21(DE3)</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSYYHHHHHHDYDIPTTENLYFQGAMVSKGEEDNMAIIKEFMRFKVHMEGSVNGHEFEIEGEGEGRPYEGTQTAKLKVTK
+GGPLPFAWDILSPQFMYGSKAYVKHPADIPDYLKLSFPEGFKWERVMNFEDGGVVTVTQDSSLQDGEFIYKVKLRGTNFP
+SDGPVMQKKTMGWEASSERMYPEDGALKGEIKQRLKLKDGGHYDAEVKTTYKAKKPVQLPGAYNVNIKLDITSHNEDYTI
+VEQYERAEGRHSTGGMDELYKAGTMDPGQIEGQMYQQYQQQAGYGAQQPQAPPQQPQQYVIQYSASYSQQTGPQQPQQFQ
+GYGQQPTSQAPAPAFSGQPQQLPAQPPQQYQASNYPAQ</string>
+                    <external_references type="UNIPROTKB">A0A2U3DNX3</external_references>
+                    <external_references type="UNIPROTKB">Q92734</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <concentration units="mg/mL">10</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                        <details>PBS</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">240</time>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>8 seconds, blot force 0. </details>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">1.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.6</nominal_defocus_max>
+                    <nominal_magnification>105000.0</nominal_magnification>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <number_real_images>15192</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">50.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">4.93</delta_z>
+                            <delta_phi units="deg">-3.07</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.84</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>31643</number_images_used>
+                </final_reconstruction>
+                <startup_model type_of_model="NONE"/>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="322487">
+        <file>emd_41195.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>432</col>
+            <row>432</row>
+            <sec>432</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>432</x>
+            <y>432</y>
+            <z>432</z>
+        </spacing>
+        <cell>
+            <a units="Å">371.52002</a>
+            <b units="Å">371.52002</b>
+            <c units="Å">371.52002</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>Z</fast>
+            <medium>Y</medium>
+            <slow>X</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-19.133392000000001</minimum>
+            <maximum>31.496825999999999</maximum>
+            <average>0.000000000001824</average>
+            <std>1.0</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.8600001</x>
+            <y units="Å">0.8600001</y>
+            <z units="Å">0.8600001</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>5.0</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-41195::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+                <target_criteria>Correlation coefficient</target_criteria>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>44.549999999999997</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="322487">
+                <file>emd_41195_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>432</col>
+                    <row>432</row>
+                    <sec>432</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>432</x>
+                    <y>432</y>
+                    <z>432</z>
+                </spacing>
+                <cell>
+                    <a units="Å">371.52002</a>
+                    <b units="Å">371.52002</b>
+                    <c units="Å">371.52002</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.028644973</minimum>
+                    <maximum>0.052938044</maximum>
+                    <average>-0.000009867477</average>
+                    <std>0.001972367</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.8600001</x>
+                    <y units="Å">0.8600001</y>
+                    <z units="Å">0.8600001</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-41195::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="322487">
+                <file>emd_41195_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>432</col>
+                    <row>432</row>
+                    <sec>432</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>432</x>
+                    <y>432</y>
+                    <z>432</z>
+                </spacing>
+                <cell>
+                    <a units="Å">371.52002</a>
+                    <b units="Å">371.52002</b>
+                    <c units="Å">371.52002</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.029647844</minimum>
+                    <maximum>0.05223821</maximum>
+                    <average>-0.000009948606</average>
+                    <std>0.0019775217</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.8600001</x>
+                    <y units="Å">0.8600001</y>
+                    <z units="Å">0.8600001</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-41195::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

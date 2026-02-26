@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-13486">
+    <admin>
+        <current_status>
+            <date>2024-07-17</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-08-30</deposition>
+            <header_release>2021-12-01</header_release>
+            <map_release>2021-12-01</map_release>
+            <update>2024-07-17</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Swiss National Science Foundation</funding_body>
+                <code>31003A_182567</code>
+                <country>European Union</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>ERC-CoG-820152</code>
+                <country>European Union</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of ShCas12k in complex with a sgRNA and a dsDNA target</title>
+        <authors_list>
+            <author>Schmitz M</author>
+            <author>Jinek M</author>
+        </authors_list>
+        <keywords>Cas12k, sgRNA, target DNA, Protein-RNA-DNA complex, Tn7, DNA Binding Protein, Transposition, CRISPR</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0003-1113-2773" order="1">Querques I</author>
+                    <author ORCID="0000-0003-3216-7350" order="2">Schmitz M</author>
+                    <author ORCID="0000-0002-3568-7637" order="3">Oberli S</author>
+                    <author ORCID="0000-0002-3432-4375" order="4">Chanez C</author>
+                    <author ORCID="0000-0002-7601-210X" order="5">Jinek M</author>
+                    <title>Target site selection and remodelling by type V CRISPR-transposon systems.</title>
+                    <journal_abbreviation>Nature</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>599</volume>
+                    <first_page>497</first_page>
+                    <last_page>502</last_page>
+                    <year>2021</year>
+                    <external_references type="PUBMED">34759315</external_references>
+                    <external_references type="DOI">doi:10.1038/s41586-021-04030-z</external_references>
+                    <external_references type="ISSN">1476-4687</external_references>
+                    <external_references type="CSD">0006</external_references>
+                    <external_references type="ASTM">NATUAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7pla</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Ternary complex of ShCas12k with sgRNA and target dsDNA</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Ternary complex of ShCas12k with sgRNA and target dsDNA</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="34078">Scytonema hofmannii</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.187</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>ShCas12k</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="34078">Scytonema hofmannii</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.073421773</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SNASQITIQARLISFESNRQQLWKLMADLNTPLINELLCQLGQHPDFEKWQQKGKLPSTVVSQLCQPLKTDPRFAGQPSR
+LYMSAIHIVDYIYKSWLAIQKRLQQQLDGKTRWLEMLNSDAELVELSGDTLEAIRVKAAEILAIAMPASESDSASPKGKK
+GKKEKKPSSSSPKRSLSKTLFDAYQETEDIKSRSAISYLLKNGCKLTDKEEDSEKFAKRRRQVEIQIQRLTEKLISRMPK
+GRDLTNAKWLETLLTATTTVAEDNAQAKRWQDILLTRSSSLPFPLVFETNEDMVWSKNQKGRLCVHFNGLSDLIFEVYCG
+NRQLHWFQRFLEDQQTKRKSKNQHSSGLFTLRNGHLVWLEGEGKGEPWNLHHLTLYCCVDNRLWTEEGTEIVRQEKADEI
+TKFITNMKKKSDLSDTQQALIQRKQSTLTRINNSFERPSQPLYQGQSHILVGVSLGLEKPATVAVVDAIANKVLAYRSIK
+QLLGDNYELLNRQRRQQQYLSHERHKAQKNFSPNQFGASELGQHIDRLLAKAIVALARTYKAGSIVLPKLGDMREVVQSE
+IQAIAEQKFPGYIEGQQKYAKQYRVNVHRWSYGRLIQSIQSKAAQTGIVIEEGKQPIRGSPHDKAKELALSAYNLRLTRR
+S</string>
+                    <external_references type="UNIPROTKB">A0A8X6EH11</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <rna macromolecule_id="2">
+                <name>sgRNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="34078">Scytonema hofmannii</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.08237654700000001</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>GGAUAUUAAUAGCGCCGCAAUUCAUGCUGCUUGCAGCCUCUGAAUUUUGUUAAAUGAGGGUUAGUUUGACUGUAUAAAUA
+CAGUCUUGCUUUCUGACCCUGGUAGCUGCUCACCCUGAUGCUGCUGUCAAUAGACAGGAUAGGUGCGCUCCCAGCAAUAA
+GGGCGCGGAUGUACUGCUGUAGUGGCUACUGAAUCACCCCCGAUCAAGGGGGAACCCUAAAUGGGUUGAAAGGAGAAGUC
+AUUUAAUAAGGCCACU</string>
+                </sequence>
+            </rna>
+            <dna macromolecule_id="3">
+                <name>DNA target strand</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="32630">synthetic construct</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015301836999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>(DG)(DT)(DT)(DT)(DA)(DA)(DC)(DA)(DG)(DT)(DG)(DG)(DC)(DC)(DT)(DT)(DA)(DT)(DT)(DA)
+(DA)(DA)(DT)(DG)(DA)(DC)(DT)(DT)(DC)(DT)(DC)(DA)(DA)(DC)(DC)(DT)(DC)(DC)(DT)(DA)
+(DC)(DG)(DT)(DA)(DT)(DC)(DG)(DT)(DA)(DG)</string>
+                </sequence>
+                <classification>DNA</classification>
+            </dna>
+            <dna macromolecule_id="4">
+                <name>DNA non-target strand</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="32630">synthetic construct</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015497986999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>(DC)(DT)(DA)(DC)(DG)(DA)(DT)(DA)(DC)(DG)(DT)(DA)(DG)(DG)(DA)(DG)(DG)(DT)(DT)(DG)
+(DA)(DG)(DA)(DA)(DG)(DT)(DC)(DA)(DT)(DT)(DT)(DA)(DA)(DT)(DA)(DA)(DG)(DG)(DC)(DC)
+(DA)(DC)(DT)(DG)(DT)(DT)(DA)(DA)(DA)(DC)</string>
+                </sequence>
+                <classification>DNA</classification>
+            </dna>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">51.81</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.04</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>138000</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>OTHER</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="108001">
+        <file>emd_13486.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>300</col>
+            <row>300</row>
+            <sec>300</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>300</x>
+            <y>300</y>
+            <z>300</z>
+        </spacing>
+        <cell>
+            <a units="Å">192.0</a>
+            <b units="Å">192.0</b>
+            <c units="Å">192.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>Y</fast>
+            <medium>X</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.09044516</minimum>
+            <maximum>0.29100224</maximum>
+            <average>0.005274707</average>
+            <std>0.013449504</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.64</x>
+            <y units="Å">0.64</y>
+            <z units="Å">0.64</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.055</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-13486::::</label>
+    </map>
+</emd>

@@ -1,0 +1,78 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10667" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-03-15</depositionDate>
+            <releaseDate>2021-04-06</releaseDate>
+            <updateDate>2021-04-06</updateDate>
+        </keyDates>
+        <title>Human 46QHuntingtin-HAP40 complex structure</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0003-3520-5439</authorORCID>
+            <firstName>QIANG</firstName>
+            <lastName>GUO</lastName>
+            <organization type="academic">Peking-Tsinghua Joint Center for Life Sciences, School of Life Sciences, Peking University</organization>
+            <street>yiheyuan road 5</street>
+            <townOrCity>Beijing</townOrCity>
+            <stateOrProvince>N/A</stateOrProvince>
+            <country>China</country>
+            <postOrZipCode>100731</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-8366-7622</authorORCID>
+            <firstName>Ruben</firstName>
+            <lastName>Fernandez-Busnadiego</lastName>
+            <organization type="academic">Institute of Neuropathology, University Medical Center Göttingen</organization>
+            <street>N/A</street>
+            <townOrCity>Göttingen</townOrCity>
+            <stateOrProvince>N/A</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>37099</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-3520-5439">GUO Q</author>
+        </authorsList>
+        <datasetSize>59.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10667</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-30911</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <nonJournalCitation published="true">
+                    <author authorORCID="0000-0003-3520-5439" order="1">GUO Q</author>
+                    <bookTitle>Pathological polyQ expansion does not alter the conformation of the Huntingtin-HAP40 complex</bookTitle>
+                    <publisher></publisher>
+                    <publicationLocation></publicationLocation>
+                    <country></country>
+                    <year>2021</year>
+                    <details>These micrographs have been aligned with Motioncor2.</details>
+                </nonJournalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned micrographs of Human 46QHuntingtin-HAP40 sample</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1115</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>The refinement relion _data.star file was attached with particle information.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/upload/HTT_46Q_*_aligned_DW.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/upload/run_it015_data.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

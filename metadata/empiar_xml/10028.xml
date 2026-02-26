@@ -1,0 +1,140 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10028" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2015-05-29</depositionDate>
+            <releaseDate>2015-06-17</releaseDate>
+            <updateDate>2023-03-28</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of the Plasmodium falciparum 80S ribosome bound to the anti-protozoan drug emetine</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-0462-6540</authorORCID>
+            <firstName>Sjors</firstName>
+            <middleName>SHW</middleName>
+            <lastName>Scheres</lastName>
+            <organization type="academic">Structural Studies, Medical Research Council Laboratory of Molecular Biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 OQH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-0462-6540</authorORCID>
+            <firstName>Sjors</firstName>
+            <middleName>SHW</middleName>
+            <lastName>Scheres</lastName>
+            <organization type="academic">Structural Studies, Medical Research Council Laboratory of Molecular Biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 OQH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Wong W</author>
+            <author>Bai XC</author>
+            <author>Brown A</author>
+            <author>Fernandez IS</author>
+            <author>Hanssen E</author>
+            <author>Condron M</author>
+            <author>Tan YH</author>
+            <author>Baum J</author>
+            <author authorORCID="0000-0002-0462-6540">Scheres SHW</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">1.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10028</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-2660</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Wong W</author>
+                    <author authorORCID="0000-0002-4234-5686" order="2">Bai XC</author>
+                    <author authorORCID="0000-0002-0021-0476" order="3">Brown A</author>
+                    <author order="4">Fernandez IS</author>
+                    <author authorORCID="0000-0002-4064-1844" order="5">Hanssen E</author>
+                    <author order="6">Condron M</author>
+                    <author order="7">Tan YH</author>
+                    <author authorORCID="0000-0002-0275-352X" order="8">Baum J</author>
+                    <author authorORCID="0000-0002-0462-6540" order="9">Scheres SH</author>
+                    <title>Cryo-EM structure of the Plasmodium falciparum 80S ribosome bound to the anti-protozoan drug emetine</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation>Elife</journalAbbreviation>
+                    <country></country>
+                    <volume>3</volume>
+                    <year>2014</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.7554/elife.03080</externalReferences>
+                    <externalReferences type="pubmed">24913268</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs</name>
+        <directory>/data/Micrographs</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1081</numImagesOrTiltSeries>
+        <framesPerImage>16</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.34</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.34</pixelHeight>
+        </dimensions>
+        <details>Micrographs are split into two sub-directories: Micrographs_part1 and Micrographs_part2. Each of these directories contains BOTH the unaligned frames (xxx_movie.mrcs) and the frame-averaged micrographs (600.mrc). These directories also contain the ctffind3 log files and the autopick star files.</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Frame averaged micrographs</name>
+        <directory>/data/Micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1081</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.34</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.34</pixelHeight>
+        </dimensions>
+        <details>Micrographs are split into two sub-directories: Micrographs_part1 and Micrographs_part2. Each of these directories contains BOTH the unaligned frames (xxx_movie.mrcs) and the frame-averaged micrographs (600.mrc). These directories also contain the ctffind3 log files and the autopick star files.</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Processed shiny particles</name>
+        <directory>/data/Particles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>105247</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>360</imageWidth>
+            <pixelWidth>1.34</pixelWidth>
+            <imageHeight>360</imageHeight>
+            <pixelHeight>1.34</pixelHeight>
+        </dimensions>
+        <details>Particle images are organized in two sub-directories - MRC_0601 and MRC_1901. Particle images are in MRCS image stacks - one each corresponding to the micrograph from which they were picked. The text file shiny_2sets.star describes the picking of the particles from the micrographs.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-13812">
+    <admin>
+        <current_status>
+            <date>2024-07-17</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-11-01</deposition>
+            <header_release>2022-03-30</header_release>
+            <map_release>2022-03-30</map_release>
+            <update>2024-07-17</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>950278</code>
+                <country>European Union</country>
+            </grant_reference>
+        </grant_support>
+        <title>U2 snRNP after ATP-dependent remodelling</title>
+        <authors_list>
+            <author>Tholen J</author>
+            <author>Galej WP</author>
+        </authors_list>
+        <keywords>snRNP, Spliceosome, U2 snRNP, Splicing, NUCLEAR PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-0789-2692" order="1">Tholen J</author>
+                    <author ORCID="0000-0003-1306-4743" order="2">Razew M</author>
+                    <author ORCID="0000-0002-8137-3532" order="3">Weis F</author>
+                    <author ORCID="0000-0001-8859-5229" order="4">Galej WP</author>
+                    <title>Structural basis of branch site recognition by the human spliceosome.</title>
+                    <journal_abbreviation>Science</journal_abbreviation>
+                    <country>US</country>
+                    <volume>375</volume>
+                    <first_page>50</first_page>
+                    <last_page>57</last_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">34822310</external_references>
+                    <external_references type="DOI">doi:10.1126/science.abm4245</external_references>
+                    <external_references type="ISSN">1095-9203</external_references>
+                    <external_references type="CSD">0038</external_references>
+                    <external_references type="ASTM">SCIEAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7q4p</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Remodelled U2 snRNP</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Remodelled U2 snRNP</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>8</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Remodelled U2 snRNP obtained after incubation of 17S U2 snRNP with ATP. 17S U2 snRNP was isolated from nuclear extract of HEK293F cells by affinity chromatography.</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">1.08</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Splicing factor 3A subunit 2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.049327355</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDFQHRPGGKTGSGGVASSSESNRDRRERLRQLALETIDINKDPYFMKNHLGSYECKLCLTLHNNEGSYLAHTQGKKHQT
+NLARRAAKEAKEAPAQPAPEKVKVEVKKFVKIGRPGYKVTKQRDSEMGQQSLLFQIDYPEIAEGIMPRHRFMSAYEQRIE
+PPDRRWQYLLMAAEPYETIAFKVPSREIDKAEGKFWTHWNRETKQFFLQFHFKMEKPPAPPSLPAGPPGVKRPPPPLMNG
+LPPRPPLPESLPPPPPGGLPLPPMPPTGPAPSGPPGPPQLPPPAPGVHPPAPVVHPPASGVHPPAPGVHPPAPGVHPPAP
+GVHPPTSGVHPPAPGVHPPAPGVHPPAPGVHPPAPGVHPPAPGVHPPPSAGVHPQAPGVHPAAPAVHPQAPGVHPPAPGM
+HPQAPGVHPQPPGVHPSAPGVHPQPPGVHPSNPGVHPPTPMPPMLRPPLPSEGPGNIPPPPPTN</string>
+                    <external_references type="UNIPROTKB">Q15428</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <rna macromolecule_id="2">
+                <name>U2 snRNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.060270602</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>AUCGCUUCUC(OMG)(OMG)CCUUUUGGCUAA(OMG)AUCAAGUG(PSU)AG(PSU)A(PSU)(OMC)(PSU)G(PSU)
+(PSU)CU(OMU)AUCAGU(PSU)UAA(PSU)AU(OMC)UGAUACGUCCUCUAUCCGAGGACAAUAUAUUAAAUGGAUUUU
+UGGAGCAGGGAGAUGGAAUAGGAGCUUGCUCCGUCCACUCCACGCAUCGACCUGGUAUUGCAGUACCUCCAGGAACGGUG
+CACCC</string>
+                    <external_references type="GENBANK">NR_002716.3</external_references>
+                </sequence>
+            </rna>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Splicing factor 3A subunit 3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.05893484399999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>METILEQQRRYHEEKERLMDVMAKEMLTKKSTLRDQINSDHRTRAMQDRYMEVSGNLRDLYDDKDGLRKEELNAISGPNE
+FAEFYNRLKQIKEFHRKHPNEICVPMSVEFEELLKARENPSEEAQNLVEFTDEEGYGRYLDLHDCYLKYINLKASEKLDY
+ITYLSIFDQLFDIPKERKNAEYKRYLEMLLEYLQDYTDRVKPLQDQNELFGKIQAEFEKKWENGTFPGWPKETSSALTHA
+GAHLDLSAFSSWEELASLGLDRLKSALLALGLKCGGTLEERAQRLFSTKGKSLESLDTSLFAKNPKSKGTKRDTERNKDI
+AFLEAQIYEYVEILGEQRHLTHENVQRKQARTGEEREEEEEEQISESESEDEENEIIYNPKNLPLGWDGKPIPYWLYKLH
+GLNINYNCEICGNYTYRGPKAFQRHFAEWRHAHGMRCLGIPNTAHFANVTQIEDAVSLWAKLKLQKASERWQPDTEEEYE
+DSSGNVVNKKTYEDLKRQGLL</string>
+                    <external_references type="UNIPROTKB">Q12874</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Splicing factor 3B subunit 1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.146024938</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKIAKTHEDIEAQIREIQGKKAALDEAQGVGLDSTGYYDQEIYGGSDSRFAGYVTSIAATELEDDDDDYSSSTSLLGQK
+KPGYHAPVALLNDIPQSTEQYDPFAEHRPPKIADREDEYKKHRRTMIISPERLDPFADGGKTPDPKMNARTYMDVMREQH
+LTKEEREIRQQLAEKAKAGELKVVNGAAASQPPSKRKRRWDQTADQTPGATPKKLSSWDQAETPGHTPSLRWDETPGRAK
+GSETPGATPGSKIWDPTPSHTPAGAATPGRGDTPGHATPGHGGATSSARKNRWDETPKTERDTPGHGSGWAETPRTDRGG
+DSIGETPTPGASKRKSRWDETPASQMGGSTPVLTPGKTPIGTPAMNMATPTPGHIMSMTPEQLQAWRWEREIDERNRPLS
+DEELDAMFPEGYKVLPPPAGYVPIRTPARKLTATPTPLGGMTGFHMQTEDRTMKSVNDQPSGNLPFLKPDDIQYFDKLLV
+DVDESTLSPEEQKERKIMKLLLKIKNGTPPMRKAALRQITDKAREFGAGPLFNQILPLLMSPTLEDQERHLLVKVIDRIL
+YKLDDLVRPYVHKILVVIEPLLIDEDYYARVEGREIISNLAKAAGLATMISTMRPDIDNMDEYVRNTTARAFAVVASALG
+IPSLLPFLKAVCKSKKSWQARHTGIKIVQQIAILMGCAILPHLRSLVEIIEHGLVDEQQKVRTISALAIAALAEAATPYG
+IESFDSVLKPLWKGIRQHRGKGLAAFLKAIGYLIPLMDAEYANYYTREVMLILIREFQSPDEEMKKIVLKVVKQCCGTDG
+VEANYIKTEILPPFFKHFWQHRMALDRRNYRQLVDTTVELANKVGAAEIISRIVDDLKDEAEQYRKMVMETIEKIMGNLG
+AADIDHKLEEQLIDGILYAFQEQTTEDSVMLNGFGTVVNALGKRVKPYLPQICGTVLWRLNNKSAKVRQQAADLISRTAV
+VMKTCQEEKLMGHLGVVLYEYLGEEYPEVLGSILGALKAIVNVIGMHKMTPPIKDLLPRLTPILKNRHEKVQENCIDLVG
+RIADRGAEYVSAREWMRICFELLELLKAHKKAIRRATVNTFGYIAKAIGPHDVLATLLNNLKVQERQNRVCTTVAIAIVA
+ETCSPFTVLPALMNEYRVPELNVQNGVLKSLSFLFEYIGEMGKDYIYAVTPLLEDALMDRDLVHRQTASAVVQHMSLGVY
+GFGCEDSLNHLLNYVWPNVFETSPHVIQAVMGALEGLRVAIGPCRMLQYCLQGLFHPARKVRDVYWKIYNSIYIGSQDAL
+IAHYPRIYNDDKNTYIRYELDYIL</string>
+                    <external_references type="UNIPROTKB">O75533</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>Splicing factor 3B subunit 2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.100377812</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MATEHPEPPKAELQLPPPPPPGHYGAWAAQELQAKLAEIGAPIQGNREELVERLQSYTRQTGIVLNRPVLRGEDGDKAAP
+PPMSAQLPGIPMPPPPLGLPPLQPPPPPPPPPPGLGLGFPMAHPPNLGPPPPLRVGEPVALSEEERLKLAQQQAALLMQQ
+EERAKQQGDHSLKEHELLEQQKRAAVLLEQERQQEIAKMGTPVPRPPQDMGQIGVRTPLGPRVAAPVGPVGPTPTVLPMG
+APVPRPRGPPPPPGDENREMDDPSVGPKIPQALEKILQLKESRQEEMNSQQEEEEMETDARSSLGQSASETEEDTVSVSK
+KEKNRKRRNRKKKKKPQRVRGVSSESSGDREKDSTRSRGSDSPAADVEIEYVTEEPEIYEPNFIFFKRIFEAFKLTDDVK
+KEKEKEPEKLDKLENSAAPKKKGFEEEHKDSDDDSSDDEQEKKPEAPKLSKKKLRRMNRFTVAELKQLVARPDVVEMHDV
+TAQDPKLLVHLKATRNSVPVPRHWCFKRKYLQGKRGIEKPPFELPDFIKRTGIQEMREALQEKEEQKTMKSKMREKVRPK
+MGKIDIDYQKLHDAFFKWQTKPKLTIHGDLYYEGKEFETRLKEKKPGDLSDELRISLGMPVGPNAHKVPPPWLIAMQRYG
+PPPSYPNLKIPGLNSPIPESCSFGYHAGGWGKPPVDETGKPLYGDVFGTNAAEFQTKTEEEEIDRTPWGELEPSDEESSE
+EEEEEESDEDKPDETGFITPADSGLITPGGFSSVPAGMETPELIELRKKKIEEAMDGSETPQLFTVLPEKRTATVGGAMM
+GSTHIYDMSTVMSRKGPAPELQGVEVALAPEELELDPMAMTQKYEEHVREQQAQVEKEDFSDMVAEHAAKQKQKKRKAQP
+QDSRGGSKKYKEFKF</string>
+                    <external_references type="UNIPROTKB">Q13435</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="6">
+                <name>Splicing factor 3B subunit 3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.135718844</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MFLYNLTLQRATGISFAIHGNFSGTKQQEIVVSRGKILELLRPDPNTGKVHTLLTVEVFGVIRSLMAFRLTGGTKDYIVV
+GSDSGRIVILEYQPSKNMFEKIHQETFGKSGCRRIVPGQFLAVDPKGRAVMISAIEKQKLVYILNRDAAARLTISSPLEA
+HKANTLVYHVVGVDVGFENPMFACLEMDYEEADNDPTGEAAANTQQTLTFYELDLGLNHVVRKYSEPLEEHGNFLITVPG
+GSDGPSGVLICSENYITYKNFGDQPDIRCPIPRRRNDLDDPERGMIFVCSATHKTKSMFFFLAQTEQGDIFKITLETDED
+MVTEIRLKYFDTVPVAAAMCVLKTGFLFVASEFGNHYLYQIAHLGDDDEEPEFSSAMPLEEGDTFFFQPRPLKNLVLVDE
+LDSLSPILFCQIADLANEDTPQLYVACGRGPRSSLRVLRHGLEVSEMAVSELPGNPNAVWTVRRHIEDEFDAYIIVSFVN
+ATLVLSIGETVEEVTDSGFLGTTPTLSCSLLGDDALVQVYPDGIRHIRADKRVNEWKTPGKKTIVKCAVNQRQVVIALTG
+GELVYFEMDPSGQLNEYTERKEMSADVVCMSLANVPPGEQRSRFLAVGLVDNTVRIISLDPSDCLQPLSMQALPAQPESL
+CIVEMGGTEKQDELGERGSIGFLYLNIGLQNGVLLRTVLDPVTGDLSDTRTRYLGSRPVKLFRVRMQGQEAVLAMSSRSW
+LSYSYQSRFHLTPLSYETLEFASGFASEQCPEGIVAISTNTLRILALEKLGAVFNQVAFPLQYTPRKFVIHPESNNLIII
+ETDHNAYTEATKAQRKQQMAEEMVEAAGEDERELAAEMAAAFLNENLPESIFGAPKAGNGQWASVIRVMNPIQGNTLDLV
+QLEQNEAAFSVAVCRFSNTGEDWYVLVGVAKDLILNPRSVAGGFVYTYKLVNNGEKLEFLHKTPVEEVPAAIAPFQGRVL
+IGVGKLLRVYDLGKKKLLRKCENKHIANYISGIQTIGHRVIVSDVQESFIWVRYKRNENQLIIFADDTYPRWVTTASLLD
+YDTVAGADKFGNICVVRLPPNTNDEVDEDPTGNKALWDRGLLNGASQKAEVIMNYHVGETVLSLQKTTLIPGGSESLVYT
+TLSGGIGILVPFTSHEDHDFFQHVEMHLRSEHPPLCGRDHLSFRSYYFPVKNVIDGDLCEQFNSMEPNKQKNVSEELDRT
+PPEVSKKLEDIRTRYAF</string>
+                    <external_references type="UNIPROTKB">Q15393</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="7">
+                <name>Splicing factor 3B subunit 5</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.010149369</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTDRYTIHSQLEHLQSKYIGTGHADTTKWEWLVNQHRDSYCSYMGHFDLLNYFAIAENESKARVRFNLMEKMLQPCGPPA
+DKPEEN</string>
+                    <external_references type="UNIPROTKB">Q9BWJ5</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="8">
+                <name>PHD finger-like domain-containing protein 5A</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.012427523999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKHHPDLIFCRKQAGVAIGRLCEKCDGKCVICDSYVRPCTLVRICDECNYGSYQGRCVICGGPGVSDAYYCKECTIQEK
+DRDGCPKIVNLGSSKTDLFYERKKYGFKKR</string>
+                    <external_references type="UNIPROTKB">Q7RTV0</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="9">
+                <name>ZINC ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">6.5409e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>5</number_of_copies>
+                <formula>ZN</formula>
+            </ligand>
+            <ligand macromolecule_id="10">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>241</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.3</concentration>
+                    <buffer>
+                        <ph>7.9</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>C8H18N2O4S</formula>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>KCl</formula>
+                            <name>Potassium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">2.0</concentration>
+                            <formula>MgCl2</formula>
+                            <name>Magnesium chloride</name>
+                        </component>
+                        <details>Sample after desalting may have also contained up to 5% glycerol.</details>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">1.8</nominal_defocus_max>
+                    <nominal_magnification>130000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">5760</width>
+                                    <height units="pixel">4092</height>
+                                </dimensions>
+                            </digitization_details>
+                            <number_grids_imaged>2</number_grids_imaged>
+                            <number_real_images>15531</number_real_images>
+                            <average_exposure_time units="s">1.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">53.45</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>1500165</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.15</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>158286</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2.15</version>
+                            <processing_details>Ab-initio reconstruction</processing_details>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="1048577">
+        <file>emd_13812.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>640</col>
+            <row>640</row>
+            <sec>640</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>640</x>
+            <y>640</y>
+            <z>640</z>
+        </spacing>
+        <cell>
+            <a units="Å">409.59998</a>
+            <b units="Å">409.59998</b>
+            <c units="Å">409.59998</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.013931382</minimum>
+            <maximum>0.044395287</maximum>
+            <average>0.00014981163</average>
+            <std>0.0006985685</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.64</x>
+            <y units="Å">0.64</y>
+            <z units="Å">0.64</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.00711</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-13812::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>7Q3L</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>7Q3L</access_code>
+                    <chain>
+                        <chain_id>B</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>7Q3L</access_code>
+                    <chain>
+                        <chain_id>C</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>7Q3L</access_code>
+                    <chain>
+                        <chain_id>E</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>7Q3L</access_code>
+                    <chain>
+                        <chain_id>G</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>7Q3L</access_code>
+                    <chain>
+                        <chain_id>9</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>7ABH</access_code>
+                    <chain>
+                        <chain_id>1</chain_id>
+                        <residue_range>42-85</residue_range>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>7Q3L</access_code>
+                    <chain>
+                        <chain_id>2</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_space>RECIPROCAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_13812_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="1048577">
+                <file>emd_13812_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>640</col>
+                    <row>640</row>
+                    <sec>640</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>640</x>
+                    <y>640</y>
+                    <z>640</z>
+                </spacing>
+                <cell>
+                    <a units="Å">409.59998</a>
+                    <b units="Å">409.59998</b>
+                    <c units="Å">409.59998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.053837683</minimum>
+                    <maximum>0.09417233</maximum>
+                    <average>-0.000017779734</average>
+                    <std>0.0017281013</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.64</x>
+                    <y units="Å">0.64</y>
+                    <z units="Å">0.64</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13812::::</label>
+                <annotation_details>Map postprocessed in relion with -37 B-factor.</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="1048577">
+                <file>emd_13812_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>640</col>
+                    <row>640</row>
+                    <sec>640</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>640</x>
+                    <y>640</y>
+                    <z>640</z>
+                </spacing>
+                <cell>
+                    <a units="Å">409.59998</a>
+                    <b units="Å">409.59998</b>
+                    <c units="Å">409.59998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.0296393</minimum>
+                    <maximum>0.05477024</maximum>
+                    <average>-0.000025989106</average>
+                    <std>0.001508606</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.64</x>
+                    <y units="Å">0.64</y>
+                    <z units="Å">0.64</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13812::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="1048577">
+                <file>emd_13812_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>640</col>
+                    <row>640</row>
+                    <sec>640</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>640</x>
+                    <y>640</y>
+                    <z>640</z>
+                </spacing>
+                <cell>
+                    <a units="Å">409.59998</a>
+                    <b units="Å">409.59998</b>
+                    <c units="Å">409.59998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.02766941</minimum>
+                    <maximum>0.055347305</maximum>
+                    <average>-0.000009570362</average>
+                    <std>0.0015103265</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.64</x>
+                    <y units="Å">0.64</y>
+                    <z units="Å">0.64</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13812::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

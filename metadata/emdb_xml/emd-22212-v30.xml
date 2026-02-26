@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_9/emdb.xsd" emdb_id="EMD-22212" version="3.0.1.9">
+    <admin>
+        <current_status>
+            <date>2020-08-12</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-06-24</deposition>
+            <header_release>2020-08-05</header_release>
+            <map_release>2020-08-05</map_release>
+            <update>2020-08-12</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/Eunice Kennedy Shriver National Institute of Child Health &amp; Human Development (NIH/NICHD)</funding_body>
+                <code>R01 GM61576</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Structure of the human mitochondrial ribosome-EF-G1 complex (ClassII)</title>
+        <authors_list>
+            <author>Sharma MR</author>
+            <author>Koripella RK</author>
+            <author>Agrawal RK</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Koripella RK</author>
+                    <author order="2">Sharma MR</author>
+                    <author order="3">Bhargava K</author>
+                    <author order="4">Datta PP</author>
+                    <author order="5">Kaushal PS</author>
+                    <author order="6">Keshavan P</author>
+                    <author order="7">Spremulli LL</author>
+                    <author order="8">Banavali NK</author>
+                    <author order="9">Agrawal RK</author>
+                    <title>Structures of the human mitochondrial ribosome bound to EF-G1 reveal distinct features of mitochondrial translation elongation.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>11</volume>
+                    <first_page>3830</first_page>
+                    <last_page>3830</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32737313</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-020-17715-2</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-21233</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-21242</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-22212</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Human mitochondrial ribosome-EF-G1 complex</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Human mitochondrial ribosome-EF-G1 complex</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.6</ph>
+                    </buffer>
+                    <grid>
+                        <details>unspecified</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <details></details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>OTHER</imaging_mode>
+                    <electron_source>OTHER</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">69.21</average_electron_dose_per_image>
+                        </image_recording>
+                        <image_recording image_recording_id="2">
+                            <film_or_detector_model>DIRECT ELECTRON DE-16 (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <average_electron_dose_per_image units="e/Å^2">70.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>3J9M</pdb_id>
+                    </pdb_model>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.96</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>25755</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="256001">
+        <file>emd_22212.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>400</col>
+            <row>400</row>
+            <sec>400</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>400</x>
+            <y>400</y>
+            <z>400</z>
+        </spacing>
+        <cell>
+            <a units="Å">438.44</a>
+            <b units="Å">438.44</b>
+            <c units="Å">438.44</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.30166945</minimum>
+            <maximum>1.0738233</maximum>
+            <average>0.0036290183</average>
+            <std>0.060010504</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.0961</x>
+            <y units="Å">1.0961</y>
+            <z units="Å">1.0961</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.1</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-22212::::</label>
+        <annotation_details>ClassII 55S-EF-G1mt complex</annotation_details>
+    </map>
+</emd>

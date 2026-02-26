@@ -1,0 +1,236 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12723" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2025-04-04</depositionDate>
+            <releaseDate>2025-05-14</releaseDate>
+            <updateDate>2025-05-14</updateDate>
+        </keyDates>
+        <title>Single-particle cryo-EM of Staphylococcus aureus ribosomes inhibited by fusidic acid and fusidic acid cyclopentane</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-4302-6855</authorORCID>
+            <firstName>Adrián</firstName>
+            <lastName>González-López</lastName>
+            <organization type="academic">Department of Cell and Molecular Biology (ICM), Uppsala University</organization>
+            <street>Box 596</street>
+            <townOrCity>Uppsala</townOrCity>
+            <stateOrProvince>Uppland</stateOrProvince>
+            <country>Sweden</country>
+            <postOrZipCode>75124</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-9079-2774</authorORCID>
+            <firstName>Maria</firstName>
+            <lastName>Selmer</lastName>
+            <organization type="academic">Department of Cell and Molecular Biology (ICM), Uppsala University</organization>
+            <street>Box 596</street>
+            <townOrCity>Uppsala</townOrCity>
+            <stateOrProvince>Uppland</stateOrProvince>
+            <country>Sweden</country>
+            <postOrZipCode>75124</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-4302-6855">González-López A</author>
+            <author authorORCID="0000-0001-7683-6419">Larsson DSD</author>
+            <author authorORCID="0000-0001-9079-2774">Selmer M</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Swedish Research Council</fundingBody>
+                <code>2017-03827</code>
+                <country>Sweden</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Swedish Research Council</fundingBody>
+                <code>2022-04511</code>
+                <country>Sweden</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">11.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12723</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-17365</emdbEntry>
+            <emdbEntry>EMD-17363</emdbEntry>
+            <emdbEntry>EMD-17364</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-4302-6855" order="1">González-López A</author>
+                    <author order="2">Larsson DSD</author>
+                    <author order="3">Koripella RK</author>
+                    <author order="4">Cain BN</author>
+                    <author order="5">Chavez MG</author>
+                    <author order="6">Hergenrother PJ</author>
+                    <author order="7">Sanyal S</author>
+                    <author authorORCID="0000-0001-9079-2774" order="8">Selmer M</author>
+                    <title>Structures of the Staphylococcus aureus ribosome inhibited by fusidic acid and fusidic acid cyclopentane</title>
+                    <journal>Scientific reports</journal>
+                    <journalAbbreviation>Sci Rep</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>14</volume>
+                    <year>2024</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41598-024-64868-x</externalReferences>
+                    <externalReferences type="pubmed">38902339</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of FA-CP inhibited ribosomes</name>
+        <directory>/data/FA-CP_Krios_dataset/raw_movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>EER</headerFormat>
+        <dataFormat>EER</dataFormat>
+        <numImagesOrTiltSeries>17252</numImagesOrTiltSeries>
+        <framesPerImage>684</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.728</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.728</pixelHeight>
+        </dimensions>
+        <details>Data (raw movies) were collected at SciLifeLab in Umeå, Sweden in a Titan Krios G2 operated at 300 kV and equipped with a Falcon-4i direct electron detector and Selectris energy filter using 10 eV slit. The data were acquired at 165,000 x nominal magnification with a calibrated pixel size of 0.728 Å. A 50 µm C2 aperture was inserted and the TEM was operated in nanoprobe mode at spot size 6 and 520 nm beam size. The EER formatted movies were collected in 684 raw frames with a total dose of 27.77 e-/Å2 (12.45 e-/pixel/s) over 2.23 s with a set defocus between -0.7 to -1.3 µm.
+The movies are not gain-corrected, use the file provided within the main folder.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of FA inhibited ribosomes</name>
+        <directory>/data/FA_Krios_dataset/raw_movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>5486</numImagesOrTiltSeries>
+        <framesPerImage>30</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.824</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.824</pixelHeight>
+        </dimensions>
+        <details>Data (raw movies) were collected at SciLifeLab in Solna, Sweden on a Titan Krios G2 operated at 300 kV and equipped with a K3 BioQuantum direct electron detector and energy filter using 20 eV slit. The data were acquired at 105,000 x nominal magnification with a calibrated pixel size of 0.824 Å. A 50 µm C2 aperture was inserted and the TEM was operated in nanoprobe mode at spot size 6 and 670 nm beam size. The movies were collected in 30 frames over 1.3 s with a total dose of 30.83 e-/Å2 (16.1 e-/pixel/s) with a set defocus between -0.5 to -1.5 µm.
+The movies are gain-corrected.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>EMD-17364 particles (FA-CP CHI)</name>
+        <directory>/data/FA-CP_Krios_dataset/particles_EMD-17364_PDB-8P2G</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>303005</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>700</imageWidth>
+            <pixelWidth>0.728</pixelWidth>
+            <imageHeight>700</imageHeight>
+            <pixelHeight>0.728</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>EMD-17363 particles (FA-CP POST)</name>
+        <directory>/data/FA-CP_Krios_dataset/particles_EMD-17363_PDB-8P2F</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>40800</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>700</imageWidth>
+            <pixelWidth>0.728</pixelWidth>
+            <imageHeight>700</imageHeight>
+            <pixelHeight>0.728</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>EMD-17365 particles (FA CHI)</name>
+        <directory>/data/FA_Krios_dataset/particles_EMD-17365_PDB-8P2H</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>178679</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>600</imageWidth>
+            <pixelWidth>0.824</pixelWidth>
+            <imageHeight>600</imageHeight>
+            <pixelHeight>0.824</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of FA-CP inhibited ribosomes screening Glacios data</name>
+        <directory>/data/FA-CP_Glacios_screening_data/raw_movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>6052</numImagesOrTiltSeries>
+        <framesPerImage>31</framesPerImage>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.952</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.952</pixelHeight>
+        </dimensions>
+        <details>Raw movies from the FA-CP inhibited ribosomes screening in a Glacios microscope operated at 200 kV with a magnification of 150,000x with a pixel size of 0.952 Å/pix. The movies were collected in 31 frames over 28.74 s with a total dose of 29.8 e-/Å2 (0.94 e-/pixel/s) with a set defocus between -0.5 to -1.5 µm.
+The movies are gain corrected.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of FA inhibited ribosomes screening Glacios data</name>
+        <directory>/data/FA_Glacios_screening_data/raw_movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1460</numImagesOrTiltSeries>
+        <framesPerImage>30</framesPerImage>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.952</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.952</pixelHeight>
+        </dimensions>
+        <details>Raw movies from the FA inhibited ribosomes screening in a Glacios microscope operated at 200 kV with a magnification of 150,000x with a pixel size of 0.952 Å/pix. The movies were collected in 30 frames over 27.79 s with a total dose of 30 e-/Å2 (1.00 e-/pixel/s) with a set defocus between -0.5 to -1.5 µm.
+The movies are gain corrected.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,120 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11167" schemaVersion="0.63" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-08-18</depositionDate>
+            <releaseDate>2023-06-23</releaseDate>
+            <updateDate>2023-06-23</updateDate>
+        </keyDates>
+        <title>Unaligned and aligned cryo-EM micrographs of 82-kDa malate synthase G</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-1525-6004</authorORCID>
+            <firstName>Kuen-Phon</firstName>
+            <lastName>Wu</lastName>
+            <organization type="academic">Institute of Biological Chemistry, Academia Sinica</organization>
+            <street>128 Academia Road, Section 2, Nankang District</street>
+            <townOrCity>Taipei</townOrCity>
+            <stateOrProvince>N/A</stateOrProvince>
+            <country>Taiwan</country>
+            <postOrZipCode>115</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-1525-6004</authorORCID>
+            <firstName>Kuen-Phon</firstName>
+            <lastName>Wu</lastName>
+            <organization type="academic">Institute of Biological Chemistry, Academia Sinica</organization>
+            <street>128 Academia Road, Section 2, Nankang District</street>
+            <townOrCity>Taipei</townOrCity>
+            <stateOrProvince>N/A</stateOrProvince>
+            <country>Taiwan</country>
+            <postOrZipCode>115</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-1525-6004">Wu K.-P.</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">227.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11167</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-34029</emdbEntry>
+            <emdbEntry>EMD-34030</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Ho MR</author>
+                    <author order="2">Wu YM</author>
+                    <author order="3">Lu YC</author>
+                    <author order="4">Ko TP</author>
+                    <author order="5">Wu KP</author>
+                    <title>Cryo-EM reveals the structure and dynamics of a 723-residue malate synthase G</title>
+                    <journal>Journal of structural biology</journal>
+                    <journalAbbreviation>J Struct Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>2</issue>
+                    <volume>215</volume>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.jsb.2023.107958</externalReferences>
+                    <externalReferences type="pubmed">36997036</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>aligned micrographs</name>
+        <directory>/data/MSG</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>700</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>0.822</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>0.822</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>unaligned micrographs of MSG</name>
+        <directory>/data/raw_data</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>700</numImagesOrTiltSeries>
+        <framesPerImage>80</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>80</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>0.822</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>0.822</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

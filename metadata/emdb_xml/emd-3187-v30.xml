@@ -1,0 +1,312 @@
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" emdb_id="EMD-3187" version="3.0.1.1" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+   <admin>
+      <current_status>
+         <code>REL</code>
+         <processing_site>PDBe</processing_site>
+      </current_status>
+      <sites>
+         <deposition>PDBe</deposition>
+         <last_processing>PDBe</last_processing>
+      </sites>
+      <key_dates>
+         <deposition>2015-10-03</deposition>
+         <header_release>2015-10-28</header_release>
+         <map_release>2015-11-04</map_release>
+         <update>2015-11-25</update>
+      </key_dates>
+      <title>Structure of the P2 polymerase inside in vitro assembled bacteriophage phi6 polymerase complex, with P1 included</title>
+      <authors_list>
+         <author>Ilca S</author>
+         <author>Kotecha A</author>
+         <author>Sun X</author>
+         <author>Poranen MP</author>
+         <author>Stuart DI</author>
+         <author>Huiskonen JT</author>
+      </authors_list>
+      <keywords>Bacteriophage phi6, polymerase complex, P2, polymerase, P1</keywords>
+   </admin>
+   <crossreferences>
+      <citation_list>
+         <primary_citation>
+            <journal_citation published="true">
+               <author order="1">Ilca SL</author>
+               <author order="2">Kotecha A</author>
+               <author order="3">Sun X</author>
+               <author order="4">Poranen MP</author>
+               <author order="5">Stuart DI</author>
+               <author order="6">Huiskonen JT</author>
+               <title>Localized reconstruction of subunits from electron cryomicroscopy images of macromolecular complexes</title>
+               <journal>Nat. Commun.</journal>
+               <volume>6</volume>
+               <first_page>8843</first_page>
+               <year>2015</year>
+               <external_references type="PUBMED">26534841</external_references>
+               <external_references type="DOI">doi:10.1038/ncomms9843</external_references>
+            </journal_citation>
+         </primary_citation>
+      </citation_list>
+      <pdb_list>
+         <pdb_reference>
+            <pdb_id>5fj7</pdb_id>
+            <relationship>
+               <in_frame>FULLOVERLAP</in_frame>
+            </relationship>
+         </pdb_reference>
+      </pdb_list>
+   </crossreferences>
+   <sample>
+      <name>Bacteriophage phi6 polymerase complex assembled in vitro from purified proteins P1, P2, and P4</name>
+      <supramolecule_list>
+         <sample_supramolecule supramolecule_id="1000">
+            <name>Bacteriophage phi6 polymerase complex assembled in vitro from purified proteins P1, P2, and P4</name>
+            <oligomeric_state>Icosahedral assembly with 120 copies of P1</oligomeric_state>
+            <number_unique_components>3</number_unique_components>
+         </sample_supramolecule>
+      </supramolecule_list>
+      <macromolecule_list>
+         <protein_or_peptide macromolecule_id="1">
+            <name>P1 protein from bacteriophage phi6</name>
+            <natural_source database="NCBI">
+               <organism ncbi="10879">Pseudomonas phage phi6</organism>
+               <synonym_organism>bacteriophage phi6</synonym_organism>
+            </natural_source>
+            <molecular_weight>
+               <theoretical units="MDa">0.085</theoretical>
+            </molecular_weight>
+            <number_of_copies>120</number_of_copies>
+            <oligomeric_state>60 asymmetric dimers from an icosahedral shell</oligomeric_state>
+            <recombinant_exp_flag>true</recombinant_exp_flag>
+            <recombinant_expression database="NCBI">
+               <recombinant_organism ncbi="317">Pseudomonas syringae</recombinant_organism>
+               <recombinant_strain>pathovar phaseolicola</recombinant_strain>
+               <recombinant_plasmid>pLM358</recombinant_plasmid>
+            </recombinant_expression>
+            <sequence>
+               <external_references type="UNIPROTKB">P11126</external_references>
+            </sequence>
+         </protein_or_peptide>
+         <protein_or_peptide macromolecule_id="2">
+            <name>P2 protein from bacteriophage phi6</name>
+            <natural_source database="NCBI">
+               <organism ncbi="10879">Pseudomonas phage phi6</organism>
+               <synonym_organism>bacteriophage phi6</synonym_organism>
+            </natural_source>
+            <molecular_weight>
+               <theoretical units="MDa">0.075</theoretical>
+            </molecular_weight>
+            <oligomeric_state>monomer</oligomeric_state>
+            <recombinant_exp_flag>true</recombinant_exp_flag>
+            <recombinant_expression database="NCBI">
+               <recombinant_organism ncbi="317">Pseudomonas syringae</recombinant_organism>
+               <recombinant_strain>pathovar phaseolicola</recombinant_strain>
+               <recombinant_plasmid>pLM358</recombinant_plasmid>
+            </recombinant_expression>
+            <sequence>
+               <external_references type="UNIPROTKB">P11124</external_references>
+            </sequence>
+         </protein_or_peptide>
+         <protein_or_peptide macromolecule_id="3">
+            <name>P4 protein from bacteriophage phi6</name>
+            <natural_source database="NCBI">
+               <organism ncbi="10879">Pseudomonas phage phi6</organism>
+               <synonym_organism>bacteriophage phi6</synonym_organism>
+            </natural_source>
+            <molecular_weight>
+               <theoretical units="MDa">0.035</theoretical>
+            </molecular_weight>
+            <oligomeric_state>hexamer</oligomeric_state>
+            <recombinant_exp_flag>true</recombinant_exp_flag>
+            <recombinant_expression database="NCBI">
+               <recombinant_organism ncbi="317">Pseudomonas syringae</recombinant_organism>
+               <recombinant_strain>pathovar phaseolicola</recombinant_strain>
+               <recombinant_plasmid>pLM358</recombinant_plasmid>
+            </recombinant_expression>
+            <sequence>
+               <external_references type="UNIPROTKB">P11125</external_references>
+            </sequence>
+         </protein_or_peptide>
+      </macromolecule_list>
+   </sample>
+   <structure_determination_list>
+      <structure_determination structure_determination_id="1">
+         <method>singleParticle</method>
+         <aggregation_state>particle</aggregation_state>
+         <specimen_preparation_list>
+            <single_particle_preparation preparation_id="1">
+               <concentration units="mg/mL">2.4</concentration>
+               <buffer>
+                  <ph>8.0</ph>
+                  <details>20 mM Tris</details>
+               </buffer>
+               <grid>
+                  <details>glow discharged Cflat grid (CF-2/1-2C-T)</details>
+               </grid>
+               <vitrification>
+                  <cryogen_name>ETHANE</cryogen_name>
+                  <chamber_temperature units="K">120</chamber_temperature>
+                  <instrument>FEI VITROBOT MARK IV</instrument>
+                  <method>Blot 4 seconds before plunging</method>
+               </vitrification>
+            </single_particle_preparation>
+         </specimen_preparation_list>
+         <microscopy_list>
+            <single_particle_microscopy microscopy_id="1">
+               <microscope>FEI POLARA 300</microscope>
+               <illumination_mode>FLOOD BEAM</illumination_mode>
+               <imaging_mode>BRIGHT FIELD</imaging_mode>
+               <electron_source>FIELD EMISSION GUN</electron_source>
+               <acceleration_voltage units="kV">300</acceleration_voltage>
+               <nominal_cs units="mm">2.0</nominal_cs>
+               <nominal_defocus_min units="&#181;m">1.1</nominal_defocus_min>
+               <nominal_defocus_max units="&#181;m">2.6</nominal_defocus_max>
+               <nominal_magnification>160000.0</nominal_magnification>
+               <calibrated_magnification>37037.0</calibrated_magnification>
+               <specimen_holder_model>OTHER</specimen_holder_model>
+               <temperature>
+                  <temperature_min units="K">81</temperature_min>
+                  <temperature_max units="K">120</temperature_max>
+                  <temperature_average units="K">81</temperature_average>
+               </temperature>
+               <specialist_optics>
+                  <energy_filter>
+                     <name>GIF QUANTUM LS</name>
+                     <lower_energy_threshold units="eV">0.0</lower_energy_threshold>
+                     <upper_energy_threshold units="eV">20.0</upper_energy_threshold>
+                  </energy_filter>
+               </specialist_optics>
+               <details>dose rate 6-8 e-/pix/s</details>
+               <date>2014-06-12</date>
+               <image_recording_list>
+                  <image_recording>
+                     <film_or_detector_model category="CCD">GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                     <digitization_details>
+                        <sampling_interval units="&#181;m">5</sampling_interval>
+                     </digitization_details>
+                     <number_real_images>834</number_real_images>
+                     <average_electron_dose_per_image units="e/&#8491;^2">16</average_electron_dose_per_image>
+                     <details>Every image is the average of 22 frames recorded by the direct electron detector</details>
+                     <bits_per_pixel>16.</bits_per_pixel>
+                  </image_recording>
+               </image_recording_list>
+            </single_particle_microscopy>
+         </microscopy_list>
+         <singleparticle_processing image_processing_id="1">
+            <details>After 3D classification, particles from the classes that contained P2 were selected</details>
+            <ctf_correction>
+               <details>Each particle</details>
+            </ctf_correction>
+            <final_reconstruction>
+               <applied_symmetry>
+                  <point_group>C1</point_group>
+               </applied_symmetry>
+               <algorithm>OTHER</algorithm>
+               <resolution res_type="BY AUTHOR" units="&#8491;">7.9</resolution>
+               <resolution_method>OTHER</resolution_method>
+               <software_list>
+                  <software>
+                     <name>Relion</name>
+                  </software>
+               </software_list>
+               <details>Final map was postprocessed in Relion. Inverse B-factor of 515 was applied.</details>
+               <number_images_used>43216</number_images_used>
+            </final_reconstruction>
+            <final_two_d_classification>
+               <number_classes>5</number_classes>
+            </final_two_d_classification>
+         </singleparticle_processing>
+      </structure_determination>
+   </structure_determination_list>
+   <map format="CCP4" size_kbytes="3908">
+      <file>emd_3187.map.gz</file>
+      <symmetry>
+         <space_group>1</space_group>
+      </symmetry>
+      <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+      <dimensions>
+         <col>100</col>
+         <row>100</row>
+         <sec>100</sec>
+      </dimensions>
+      <origin>
+         <col>0</col>
+         <row>0</row>
+         <sec>0</sec>
+      </origin>
+      <spacing>
+         <x>100</x>
+         <y>100</y>
+         <z>100</z>
+      </spacing>
+      <cell>
+         <a units="&#8491;">135.0</a>
+         <b units="&#8491;">135.0</b>
+         <c units="&#8491;">135.0</c>
+         <alpha units="deg">90.0</alpha>
+         <beta units="deg">90.0</beta>
+         <gamma units="deg">90.0</gamma>
+      </cell>
+      <axis_order>
+         <fast>X</fast>
+         <medium>Y</medium>
+         <slow>Z</slow>
+      </axis_order>
+      <statistics>
+         <minimum>-0.0248057</minimum>
+         <maximum>0.0742096</maximum>
+         <average>0.00919464</average>
+         <std>0.00958751</std>
+      </statistics>
+      <pixel_spacing>
+         <x units="&#8491;">1.35</x>
+         <y units="&#8491;">1.35</y>
+         <z units="&#8491;">1.35</z>
+      </pixel_spacing>
+      <contour_list>
+         <contour primary="true">
+            <level>0.02</level>
+            <source>EMDB</source>
+         </contour>
+      </contour_list>
+      <annotation_details>Localized reconstruction of P2 polymerase from bacteriophage phi6 polymerase complexes assembled in vitro, together with P1</annotation_details>
+      <details>::::EMDATABANK.org::::EMD-3187::::</details>
+   </map>
+   <interpretation>
+      <modelling_list>
+         <modelling>
+            <initial_model>
+               <access_code>4K7H</access_code>
+               <chain>
+                  <chain_id>A</chain_id>
+               </chain>
+            </initial_model>
+            <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+            <software_list>
+               <software>
+                  <name>Chimera, COOT, Phenix</name>
+               </software>
+            </software_list>
+            <refinement_space>REAL</refinement_space>
+         </modelling>
+         <modelling>
+            <initial_model>
+               <access_code>1HHS</access_code>
+               <chain>
+                  <chain_id>A</chain_id>
+               </chain>
+            </initial_model>
+            <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+            <software_list>
+               <software>
+                  <name>Chimera, Phenix</name>
+               </software>
+            </software_list>
+            <refinement_space>REAL</refinement_space>
+         </modelling>
+      </modelling_list>
+      <figure_list>
+         <figure>
+            <file>emd_3187.jpg</file>
+         </figure>
+      </figure_list>
+   </interpretation>
+</emd>

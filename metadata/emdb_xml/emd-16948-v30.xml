@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_10_1/emdb.xsd" version="3.0.10.1" emdb_id="EMD-16948">
+    <admin>
+        <current_status>
+            <date>2025-04-23</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-03-30</deposition>
+            <header_release>2024-04-10</header_release>
+            <map_release>2024-04-10</map_release>
+            <update>2025-04-23</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>101001394</code>
+                <country>European Union</country>
+            </grant_reference>
+        </grant_support>
+        <title>cryo-EM structure of human tRNA(GluUUC) - PUS4 and PUS7 modified</title>
+        <authors_list>
+            <author ORCID="0000-0001-6733-242X">Biela AP</author>
+        </authors_list>
+        <keywords>tRNA, human, RNA</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-6142-6759" order="1">Biela AD</author>
+                    <author ORCID="0000-0001-6733-242X" order="2">Biela AP</author>
+                    <author ORCID="0000-0001-7914-2164" order="3">Lin TY</author>
+                    <author ORCID="0000-0003-2815-7133" order="4">Glatt S</author>
+                    <title>Structures of human tRNAs by single particle cryo-EM</title>
+                    <journal_abbreviation>Embo J.</journal_abbreviation>
+                    <country>UK</country>
+                    <year>2025</year>
+                    <external_references type="DOI">doi:10.1038/s44318-025-00443-y</external_references>
+                    <external_references type="ISSN">1460-2075</external_references>
+                    <external_references type="CSD">0897</external_references>
+                    <external_references type="ASTM">EMJODG</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+    </crossreferences>
+    <sample>
+        <name>free Gln tRNA</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>free Gln tRNA</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/1</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY ARRAY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">70</time>
+                        </pretreatment>
+                        <details>8mA</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">95</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.4</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>6106</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>219753</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <resolution units="Å" res_type="BY AUTHOR">4.95</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>38501</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.1</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>3</number_classes>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.1</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="42593">
+        <file>emd_16948.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>220</col>
+            <row>220</row>
+            <sec>220</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>220</x>
+            <y>220</y>
+            <z>220</z>
+        </spacing>
+        <cell>
+            <a units="Å">189.2</a>
+            <b units="Å">189.2</b>
+            <c units="Å">189.2</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.10899079</minimum>
+            <maximum>0.31517768</maximum>
+            <average>0.0006206548</average>
+            <std>0.010966995</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.86</x>
+            <y units="Å">0.86</y>
+            <z units="Å">0.86</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0879</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-16948::::</label>
+        <annotation_details>main map</annotation_details>
+    </map>
+    <interpretation>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="42593">
+                <file>emd_16948_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>220</col>
+                    <row>220</row>
+                    <sec>220</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>220</x>
+                    <y>220</y>
+                    <z>220</z>
+                </spacing>
+                <cell>
+                    <a units="Å">189.2</a>
+                    <b units="Å">189.2</b>
+                    <c units="Å">189.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.07275216</minimum>
+                    <maximum>0.2683376</maximum>
+                    <average>0.000536373</average>
+                    <std>0.012364038</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.86</x>
+                    <y units="Å">0.86</y>
+                    <z units="Å">0.86</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16948::::</label>
+                <annotation_details>half map A</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="42593">
+                <file>emd_16948_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>220</col>
+                    <row>220</row>
+                    <sec>220</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>220</x>
+                    <y>220</y>
+                    <z>220</z>
+                </spacing>
+                <cell>
+                    <a units="Å">189.2</a>
+                    <b units="Å">189.2</b>
+                    <c units="Å">189.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.07837019</minimum>
+                    <maximum>0.2803336</maximum>
+                    <average>0.00053317077</average>
+                    <std>0.01253314</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.86</x>
+                    <y units="Å">0.86</y>
+                    <z units="Å">0.86</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16948::::</label>
+                <annotation_details>half map B</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

@@ -1,0 +1,302 @@
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" emdb_id="EMD-2484" version="3.0.1.1" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+   <admin>
+      <current_status>
+         <code>REL</code>
+         <processing_site>PDBe</processing_site>
+      </current_status>
+      <sites>
+         <deposition>PDBe</deposition>
+         <last_processing>PDBe</last_processing>
+      </sites>
+      <key_dates>
+         <deposition>2013-10-11</deposition>
+         <header_release>2013-10-30</header_release>
+         <map_release>2013-10-30</map_release>
+         <update>2014-04-16</update>
+      </key_dates>
+      <title>Pre-fusion structure of trimeric HIV-1 envelope glycoprotein determined by cryo-electron microscopy</title>
+      <authors_list>
+         <author>Bartesaghi A</author>
+         <author>Merk A</author>
+         <author>Borgnia MJ</author>
+         <author>Milne JLS</author>
+         <author>Subramaniam S</author>
+      </authors_list>
+      <keywords>HIV-1 envelope glycoprotein, SOSIP gp140 trimer, HIV-1 Env, pre-fusion state</keywords>
+   </admin>
+   <crossreferences>
+      <citation_list>
+         <primary_citation>
+            <journal_citation published="true">
+               <author order="1">Bartesaghi A</author>
+               <author order="2">Merk A</author>
+               <author order="3">Borgnia MJ</author>
+               <author order="4">Milne JLS</author>
+               <author order="5">Subramaniam S</author>
+               <title>Prefusion structure of trimeric HIV-1 envelope glycoprotein determined by cryo-electron microscopy</title>
+               <journal>NAT.STRUCT.MOL.BIOL.</journal>
+               <volume>20</volume>
+               <first_page>1352</first_page>
+               <last_page>1357</last_page>
+               <year>2013</year>
+               <external_references type="PUBMED">24154805</external_references>
+               <external_references type="DOI">doi:10.1038/nsmb.2711</external_references>
+            </journal_citation>
+         </primary_citation>
+      </citation_list>
+      <pdb_list>
+         <pdb_reference>
+            <pdb_id>4cc8</pdb_id>
+            <relationship>
+               <in_frame>FULLOVERLAP</in_frame>
+            </relationship>
+         </pdb_reference>
+      </pdb_list>
+   </crossreferences>
+   <sample>
+      <name>Complex of KNH1144 SOSIP gp140 trimer with VRC03 Fab.</name>
+      <supramolecule_list>
+         <sample_supramolecule supramolecule_id="1000">
+            <name>Complex of KNH1144 SOSIP gp140 trimer with VRC03 Fab.</name>
+            <oligomeric_state>Tetramer (gp41, gp120, Fab Heavy, Fab Light)</oligomeric_state>
+            <number_unique_components>4</number_unique_components>
+            <molecular_weight>
+               <theoretical units="MDa">0.67</theoretical>
+            </molecular_weight>
+         </sample_supramolecule>
+      </supramolecule_list>
+      <macromolecule_list>
+         <protein_or_peptide macromolecule_id="1">
+            <name synonym="Envelope glycoprotein">gp120</name>
+            <natural_source database="NCBI">
+               <organism ncbi="11676">Human immunodeficiency virus 1</organism>
+               <strain>HIV-1 isolate 00KE_KNH1144</strain>
+               <synonym_organism>HIV-1</synonym_organism>
+            </natural_source>
+            <number_of_copies>3</number_of_copies>
+            <oligomeric_state>monomer</oligomeric_state>
+            <recombinant_exp_flag>true</recombinant_exp_flag>
+            <recombinant_expression database="NCBI">
+               <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+               <recombinant_plasmid>SOSIP-PPI4 and furin-pcDNA3.1</recombinant_plasmid>
+            </recombinant_expression>
+            <sequence>
+               </sequence>
+         </protein_or_peptide>
+         <protein_or_peptide macromolecule_id="2">
+            <name synonym="Envelope Glycoprotein">gp41</name>
+            <natural_source database="NCBI">
+               <organism ncbi="11676">Human immunodeficiency virus 1</organism>
+               <strain>HIV-1 isolate 00KE_KNH1144</strain>
+               <synonym_organism>HIV-1</synonym_organism>
+            </natural_source>
+            <details>Complete ectodomain of HIV-1 Env from the Clade A strain KNH1144 inlcuding residues in the membrane proximal external region with the following residue substitutions A662E, S668N, and S676T</details>
+            <number_of_copies>3</number_of_copies>
+            <oligomeric_state>monomer</oligomeric_state>
+            <recombinant_exp_flag>true</recombinant_exp_flag>
+            <recombinant_expression database="NCBI">
+               <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+               <recombinant_plasmid>SOSIP-PPI4 and furin-pcDNA3.1</recombinant_plasmid>
+            </recombinant_expression>
+            <sequence>
+               </sequence>
+         </protein_or_peptide>
+         <protein_or_peptide macromolecule_id="3">
+            <name synonym="VRC03 Fab">Monoclonal antibody VRC03 Fab Heavy chain</name>
+            <natural_source database="NCBI">
+               <organism ncbi="9606">Homo sapiens</organism>
+            </natural_source>
+            <molecular_weight>
+               <theoretical units="MDa">0.025</theoretical>
+            </molecular_weight>
+            <details>Fab fragment</details>
+            <recombinant_exp_flag>true</recombinant_exp_flag>
+            <recombinant_expression database="NCBI">
+               <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+               <recombinant_cell>HEK 293</recombinant_cell>
+            </recombinant_expression>
+            <sequence>
+               </sequence>
+         </protein_or_peptide>
+         <protein_or_peptide macromolecule_id="4">
+            <name synonym="VRC03 Fab">Monoclonal antibody VRC03 Fab Light chain</name>
+            <natural_source database="NCBI">
+               <organism ncbi="9606">Homo sapiens</organism>
+            </natural_source>
+            <molecular_weight>
+               <theoretical units="MDa">0.025</theoretical>
+            </molecular_weight>
+            <details>Fab fragment</details>
+            <recombinant_exp_flag>true</recombinant_exp_flag>
+            <recombinant_expression database="NCBI">
+               <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+               <recombinant_cell>HEK 293</recombinant_cell>
+            </recombinant_expression>
+            <sequence>
+               </sequence>
+         </protein_or_peptide>
+      </macromolecule_list>
+   </sample>
+   <structure_determination_list>
+      <structure_determination structure_determination_id="1">
+         <method>singleParticle</method>
+         <aggregation_state>particle</aggregation_state>
+         <specimen_preparation_list>
+            <single_particle_preparation preparation_id="1">
+               <concentration units="mg/mL">0.65</concentration>
+               <buffer>
+                  <ph>7.5</ph>
+                  <details>TNE Buffer (10 mM Tris, 150 mM NaCl, 1 mM EDTA)</details>
+               </buffer>
+               <grid>
+                  <details>Protochips C-flat R 2/2, plasma cleaned</details>
+               </grid>
+               <vitrification>
+                  <cryogen_name>ETHANE</cryogen_name>
+                  <chamber_humidity units="percentage">100</chamber_humidity>
+                  <instrument>FEI VITROBOT MARK IV</instrument>
+                  <method>blot for 6 seconds, blot offset of -2, plunge into an ethane slurry cooled by liquid nitrogen</method>
+               </vitrification>
+            </single_particle_preparation>
+         </specimen_preparation_list>
+         <microscopy_list>
+            <single_particle_microscopy microscopy_id="1">
+               <microscope>FEI TITAN KRIOS</microscope>
+               <illumination_mode>FLOOD BEAM</illumination_mode>
+               <imaging_mode>BRIGHT FIELD</imaging_mode>
+               <electron_source>FIELD EMISSION GUN</electron_source>
+               <acceleration_voltage units="kV">80</acceleration_voltage>
+               <nominal_defocus_min units="&#181;m">1.5</nominal_defocus_min>
+               <nominal_defocus_max units="&#181;m">2.5</nominal_defocus_max>
+               <nominal_magnification>75000.0</nominal_magnification>
+               <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+               <date>2011-08-09</date>
+               <image_recording_list>
+                  <image_recording>
+                     <film_or_detector_model category="CCD">GATAN ULTRASCAN 4000 (4k x 4k)</film_or_detector_model>
+                     <number_real_images>4713</number_real_images>
+                     <average_electron_dose_per_image units="e/&#8491;^2">10</average_electron_dose_per_image>
+                     <bits_per_pixel>16.</bits_per_pixel>
+                  </image_recording>
+               </image_recording_list>
+            </single_particle_microscopy>
+         </microscopy_list>
+         <singleparticle_processing image_processing_id="1">
+            <details>Particles were selected manually, classified in 2D using IMAGIC and 3D refinement was done with FREALIGN.</details>
+            <final_reconstruction>
+               <applied_symmetry>
+                  <point_group>C3</point_group>
+               </applied_symmetry>
+               <resolution res_type="BY AUTHOR" units="&#8491;">6.0</resolution>
+               <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+               <software_list>
+                  <software>
+                     <name>EMAN, IMAGIC, FREALIGN</name>
+                  </software>
+               </software_list>
+               <number_images_used>88125</number_images_used>
+            </final_reconstruction>
+            <final_two_d_classification>
+               <number_classes>500</number_classes>
+            </final_two_d_classification>
+         </singleparticle_processing>
+      </structure_determination>
+   </structure_determination_list>
+   <map format="CCP4" size_kbytes="65537">
+      <file>emd_2484.map.gz</file>
+      <symmetry>
+         <space_group>1</space_group>
+      </symmetry>
+      <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+      <dimensions>
+         <col>256</col>
+         <row>256</row>
+         <sec>256</sec>
+      </dimensions>
+      <origin>
+         <col>0</col>
+         <row>0</row>
+         <sec>0</sec>
+      </origin>
+      <spacing>
+         <x>256</x>
+         <y>256</y>
+         <z>256</z>
+      </spacing>
+      <cell>
+         <a units="&#8491;">276.48</a>
+         <b units="&#8491;">276.48</b>
+         <c units="&#8491;">276.48</c>
+         <alpha units="deg">90.0</alpha>
+         <beta units="deg">90.0</beta>
+         <gamma units="deg">90.0</gamma>
+      </cell>
+      <axis_order>
+         <fast>X</fast>
+         <medium>Y</medium>
+         <slow>Z</slow>
+      </axis_order>
+      <statistics>
+         <minimum>-0.03569165</minimum>
+         <maximum>0.08147071</maximum>
+         <average>0.00132176</average>
+         <std>0.00755302</std>
+      </statistics>
+      <pixel_spacing>
+         <x units="&#8491;">1.08</x>
+         <y units="&#8491;">1.08</y>
+         <z units="&#8491;">1.08</z>
+      </pixel_spacing>
+      <contour_list>
+         <contour primary="true">
+            <level>0.0405</level>
+            <source>AUTHOR</source>
+         </contour>
+      </contour_list>
+      <annotation_details>Structure of HIV-1 gp140 trimer bound to VRC03 Fab</annotation_details>
+      <details>::::EMDATABANK.org::::EMD-2484::::</details>
+   </map>
+   <interpretation>
+      <modelling_list>
+         <modelling>
+            <initial_model>
+               <access_code>3SE8</access_code>
+               <chain>
+                  <chain_id>G</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>H</chain_id>
+               </chain>
+               <chain>
+                  <chain_id>L</chain_id>
+               </chain>
+            </initial_model>
+            <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+            <software_list>
+               <software>
+                  <name>Chimera</name>
+               </software>
+            </software_list>
+            <details>3SE8, Chain G and chains H, L fitted as two separate rigid bodies into map. 3HMG helix fitted by hand into map.</details>
+            <refinement_space>REAL</refinement_space>
+         </modelling>
+         <modelling>
+            <initial_model>
+               <access_code>3HMG</access_code>
+               <chain>
+                  <chain_id>B</chain_id>
+               </chain>
+            </initial_model>
+            <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+            <software_list>
+               <software>
+                  <name>Chimera</name>
+               </software>
+            </software_list>
+            <details>Protocol: Rigid body. Automated fitting procedures.
+Only residues 92-122 of chain B were fitted.</details>
+            <refinement_space>REAL</refinement_space>
+         </modelling>
+      </modelling_list>
+   </interpretation>
+</emd>

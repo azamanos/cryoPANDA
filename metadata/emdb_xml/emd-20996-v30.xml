@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_2/emdb.xsd" version="3.0.9.2" emdb_id="EMD-20996">
+    <admin>
+        <current_status>
+            <date>2024-03-06</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-11-18</deposition>
+            <header_release>2019-12-18</header_release>
+            <map_release>2020-05-06</map_release>
+            <update>2024-03-06</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R00GM112982</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Other private</funding_body>
+                <code>DFS-20-16</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R35GM128777-01</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Cancer Institute (NIH/NCI)</funding_body>
+                <code>ACB-12002</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>AGM-12006</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Lipophilic Envelope-spanning Tunnel B (LetB), Map 4</title>
+        <authors_list>
+            <author>Isom GL</author>
+            <author>Coudray N</author>
+        </authors_list>
+        <keywords>conformational dynamics, lipid transport, bacterial cell envelope, LetB, YebT, MCE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Isom GL</author>
+                    <author order="2">Coudray N</author>
+                    <author order="3">MacRae MR</author>
+                    <author order="4">McManus CT</author>
+                    <author order="5">Ekiert DC</author>
+                    <author order="6">Bhabha G</author>
+                    <title>LetB Structure Reveals a Tunnel for Lipid Transport across the Bacterial Envelope.</title>
+                    <journal_abbreviation>Cell</journal_abbreviation>
+                    <volume>181</volume>
+                    <first_page>653</first_page>
+                    <last_page>664.e19</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32359438</external_references>
+                    <external_references type="DOI">doi:10.1016/j.cell.2020.03.030</external_references>
+                    <external_references type="ISSN">1097-4172</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6v0f</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Lipophilic Envelope-spanning Tunnel B (LetB), Map 4, Model 4</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Lipophilic Envelope-spanning Tunnel B (LetB), Map 4, Model 4</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Cryo-EM reconstruction of rings 2 to 4, class 2.2.1</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli K-12</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.56</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Intermembrane transport protein YebT</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.089744031</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="469008">Escherichia coli BL21(DE3)</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GNTVTIDFMSADGIVPGRTPVRYQGVEVGTVQDISLSDDLRKIEVKVSIKSDMKDALREETQFWLVTPKASLAGVSGLDA
+LVGGNYIGMMPGKGKEQDHFVALDTQPKYRLDNGDLMIHLQAPDLGSLNSGSLVYFRKIPVGKVYDYAINPNKQGVVIDV
+LIERRFTDLVKKGSRFWNVSGVDANVSISGAKVKLESLAALVNGAIAFDSPEESKPAEAEDTFGLYEDLAHSQRGVIIKL
+ELPSGAGLTADSTPLMYQGLEVGQLTKLDLNPGGKVTGEMTVDPSVVTLLRENTRIELRNPKLSLSDANLSALLTGKTFE
+LVPGDGEPRKEFVVVPGEKALLHEPDVLTLTLTAPESYGIDAGQPLILHGVQVGQVIDRKLTSKGVTFTVAIEPQHRELV
+KGDSKFVVNSRVDVKVGLDGVEFLGASASEWINGGIRILPGDKGEMKASYPLYANLEKALENSLSDLPTTTVSLSAETLP
+DVQAGSVVLYRKFEVGEVITVRPRANAFDIDLHIKPEYRNLLTSNSVFWAEGGAKVQLNGSGLTVQASPLSRALKGAISF
+DNLSGASASQRKGDKRILYASETAARAVGGQITLHAFDAGKLAVGMPIRYLGIDIGQIQTLDLITARNEVQAKAVLYPEY
+VQTFARGGTRFSVVTPQISAAGVEHLDTILQPYINVEPGRGNPRRDFELQEATITDSRYLDGLSIIVEAPEAGSLGIGTP
+VLFRGLEVGTVTGMTLGTLSDRVMIAMRISKRYQHLVRNNSVFWLASGYSLDFGLTGGVVKTGTFNQFIRGGIAFATPPG
+TPLAPKAQEGKHFLLQESEPKEWREWGTALPK</string>
+                    <external_references type="UNIPROTKB">P76272</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.5</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <instrument>FEI VITROBOT MARK III</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <digitization_details>
+                                <frames_per_image>1-50</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>4906</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">80.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>731231</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="EMDB MAP">
+                    <emdb_id>EMD-8611</emdb_id>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C6</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.96</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>144219</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>5</number_classes>
+                    <average_number_members_per_class>110000.0</average_number_members_per_class>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                    <details>Classification of signal subtracted density maps of rings 2 to 4</details>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="87809">
+        <file>emd_20996.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>280</col>
+            <row>280</row>
+            <sec>280</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>280</x>
+            <y>280</y>
+            <z>280</z>
+        </spacing>
+        <cell>
+            <a units="Å">366.8</a>
+            <b units="Å">366.8</b>
+            <c units="Å">366.8</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.2867189</minimum>
+            <maximum>0.5293804</maximum>
+            <average>0.00010996487</average>
+            <std>0.00885437</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.31</x>
+            <y units="Å">1.31</y>
+            <z units="Å">1.31</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.09</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-20996::::</label>
+        <annotation_details>Lipophilic Envelope-spanning Tunnel B (LetB), Map 4, Model 4 (rings 2 to 4, after masking and signal subtraction in Relion)</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>5UW2</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

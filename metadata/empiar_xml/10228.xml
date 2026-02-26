@@ -1,0 +1,115 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ftp://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10228" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-11-05</depositionDate>
+            <releaseDate>2019-05-01</releaseDate>
+            <updateDate>2019-05-01</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of phosphodiesterase 6 reveals insights into the allosteric regulation of type I phosphodiesterases</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-8255-479X</authorORCID>
+            <firstName>Sahil</firstName>
+            <lastName>Gulati</lastName>
+            <organization type="academic">Gavin Herbert Eye Institute and the Department of Ophthalmology, University of California, Irvine</organization>
+            <street>829 Health Sciences Road</street>
+            <townOrCity>Irvine</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>92617</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-0788-545X</authorORCID>
+            <firstName>Krzysztof</firstName>
+            <lastName>Palczewski</lastName>
+            <organization type="academic">Gavin Herbert Eye Institute and the Department of Ophthalmology, University of California, Irvine</organization>
+            <street>829 Health Sciences Road</street>
+            <townOrCity>Irvine</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>92617</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator>
+            <authorORCID>0000-0002-1185-4592</authorORCID>
+            <firstName>Henning</firstName>
+            <lastName>Stahlberg</lastName>
+            <organization type="academic">Center for Cellular Imaging and NanoAnalytics, Biozentrum, University of Basel</organization>
+            <street>Mattenstrasse 26</street>
+            <stateOrProvince>Basel</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>4058</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator>
+            <firstName>Lubomir</firstName>
+            <lastName>Kovacik</lastName>
+            <organization type="academic">Center for Cellular Imaging and NanoAnalytics, Biozentrum, University of Basel</organization>
+            <street>Mattenstrasse 26</street>
+            <stateOrProvince>Basel</stateOrProvince>
+            <country>Switzerland</country>
+            <postOrZipCode>4058</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-8255-479X">Gulati S</author>
+            <author authorORCID="0000-0002-0788-545X">Palczewski K</author>
+            <author authorORCID="0000-0002-0118-8733">Engel A</author>
+            <author authorORCID="0000-0002-1185-4592">Stahlberg H</author>
+            <author authorORCID="0000-0002-0644-3027">Kovacik L</author>
+        </authorsList>
+        <datasetSize>166.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10228</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-9297</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true">
+                    <author authorORCID="0000-0002-8255-479X" order="1">Gulati S</author>
+                    <author authorORCID="0000-0002-0788-545X" order="2">Palczewski K</author>
+                    <author authorORCID="0000-0002-0118-8733" order="3">Engel A</author>
+                    <author authorORCID="0000-0002-1185-4592" order="4">Stahlberg H</author>
+                    <author authorORCID="0000-0002-0644-3027" order="5">Kovacik L</author>
+                    <editor order="1"> </editor>
+                    <title>Cryo-EM structure of phosphodiesterase 6 reveals insights into the allosteric regulation of type I phosphodiesterases</title>
+                    <journal>Science advances</journal>
+                    <journalAbbreviation>Sci Adv</journalAbbreviation>
+                    <country></country>
+                    <issue>2</issue>
+                    <volume>5</volume>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/sciadv.aav4322</externalReferences>
+                    <externalReferences type="pubmed">30820458</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned micrographs of Phosphodiesterase 6</name>
+        <directory>/data/PDE6_alignedaverages</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3134</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <frameRange>
+            <frameRangeMin>0</frameRangeMin>
+            <frameRangeMax>1</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.058</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.058</pixelHeight>
+        </dimensions>
+        <details>The micrographs are averaged of 50 raw movie frames</details>
+        <segmentationList/>
+        <scipionWorkflow></scipionWorkflow>
+        <micrographsFilePattern>data/PDE6_alignedaverages/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/PDE6_particles/PDE6_*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/PDE6_particles</pickedParticlesDirectory>
+    </imageSet>
+</entry>

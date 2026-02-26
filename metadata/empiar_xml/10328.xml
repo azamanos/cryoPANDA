@@ -1,0 +1,107 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10328" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-10-01</depositionDate>
+            <releaseDate>2021-11-08</releaseDate>
+            <updateDate>2021-11-08</updateDate>
+        </keyDates>
+        <title>Hedgehog receptor Patched (PTCH1) in complex with a conformation selective nanobody TI23</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-2145-4151</authorORCID>
+            <firstName>Yunxiao</firstName>
+            <lastName>Zhang</lastName>
+            <organization type="academic">Stanford University</organization>
+            <street>265 Campus Drive</street>
+            <townOrCity>Stanford</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94305</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-1098-9046</authorORCID>
+            <firstName>Philip</firstName>
+            <middleName>Arden</middleName>
+            <lastName>Beachy</lastName>
+            <organization type="academic">Stanford University</organization>
+            <street>265 Campus Drive</street>
+            <townOrCity>Stanford</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94305</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-2145-4151">Zhang Y</author>
+            <author authorORCID="0000-0002-2186-9800">Lu WJ</author>
+            <author authorORCID="0000-0002-2535-904X">Bulkley DP</author>
+            <author>Liang J</author>
+            <author>Ralko A</author>
+            <author>Han S</author>
+            <author>Roberts KJ</author>
+            <author>Li A</author>
+            <author>Cho W</author>
+            <author authorORCID="0000-0002-5648-955X">Cheng Y</author>
+            <author authorORCID="0000-0002-7173-3741">Manglik A</author>
+            <author authorORCID="0000-0003-1098-9046">Beachy PA</author>
+        </authorsList>
+        <datasetSize units="GB">75.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10328</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-22689</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-2145-4151" order="1">Zhang Y</author>
+                    <author authorORCID="0000-0002-2186-9800" order="2">Lu WJ</author>
+                    <author authorORCID="0000-0002-2535-904X" order="3">Bulkley DP</author>
+                    <author order="4">Liang J</author>
+                    <author order="5">Ralko A</author>
+                    <author order="6">Han S</author>
+                    <author order="7">Roberts KJ</author>
+                    <author order="8">Li A</author>
+                    <author order="9">Cho W</author>
+                    <author authorORCID="0000-0002-5648-955X" order="10">Cheng Y</author>
+                    <author authorORCID="0000-0002-7173-3741" order="11">Manglik A</author>
+                    <author authorORCID="0000-0003-1098-9046" order="12">Beachy PA</author>
+                    <title>Hedgehog pathway activation through nanobody-mediated conformational blockade of the Patched sterol conduit</title>
+                    <journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+                    <journalAbbreviation>Proc Natl Acad Sci U S A</journalAbbreviation>
+                    <country></country>
+                    <issue>46</issue>
+                    <volume>117</volume>
+                    <firstPage>28838</firstPage>
+                    <lastPage>28846</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1073/pnas.2011560117</externalReferences>
+                    <externalReferences type="pubmed">33139559</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Particle stack of Hedgehog receptor PTCH1 in complex with nanobody TI23 for final reconstruction</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>307652</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.059</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.059</pixelHeight>
+        </dimensions>
+        <details>This is the particle stack for the final reconstruction of PTCH1-TI23 complex. The data sign is +1, white particle on dark background. The accompanying star file is exported from the last round of refinement in cryoSPARC2, with all the CTF parameters recorded.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

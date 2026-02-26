@@ -1,0 +1,133 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10345" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-12-13</depositionDate>
+            <releaseDate>2020-01-31</releaseDate>
+            <updateDate>2020-02-07</updateDate>
+        </keyDates>
+        <title>CryoEM dataset containing multiple conformations of the asymmetric αVβ8 integrin bound to two Fabs on a holey carbon grid (minimal preferred orientations)</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-1909-5751</authorORCID>
+            <firstName>Melody</firstName>
+            <middleName>Grace</middleName>
+            <lastName>Campbell</lastName>
+            <organization type="academic">UCSF</organization>
+            <street>600 16th Street, Room S474</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94143</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-9535-0369</authorORCID>
+            <firstName>Yifan</firstName>
+            <lastName>Cheng</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, University of California, San Francisco</organization>
+            <street>600 16th Street, Room S472D</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94143</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-1909-5751">Campbell MG</author>
+            <author authorORCID="0000-0001-9535-0369">Cheng Y</author>
+        </authorsList>
+        <datasetSize units="GB">882.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10345</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-20795</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-1909-5751" order="1">Campbell MG</author>
+                    <author authorORCID="0000-0002-2848-9536" order="2">Cormier A</author>
+                    <author order="3">Ito S</author>
+                    <author order="4">Seed RI</author>
+                    <author order="5">Bondesson AJ</author>
+                    <author order="6">Lou J</author>
+                    <author order="7">Marks JD</author>
+                    <author order="8">Baron J</author>
+                    <author authorORCID="0000-0001-9535-0369" order="9">Cheng Y</author>
+                    <author authorORCID="0000-0003-2312-4113" order="10">Nishimura SL</author>
+                    <title>Cryo-EM Reveals Integrin-Mediated TGF-β Activation without Release from Latent TGF-β</title>
+                    <journal>Cell</journal>
+                    <journalAbbreviation>Cell</journalAbbreviation>
+                    <country></country>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.cell.2019.12.030</externalReferences>
+                    <externalReferences type="pubmed">31955848</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned 60-frame movies of αVβ8 integrin bound to a Fab (C6D4) on a holey carbon grid</name>
+        <directory>/data/Movies_18jam15a</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1644</numImagesOrTiltSeries>
+        <framesPerImage>60</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>7676</imageWidth>
+            <pixelWidth>0.6725</pixelWidth>
+            <imageHeight>7420</imageHeight>
+            <pixelHeight>0.6725</pixelHeight>
+        </dimensions>
+        <details>αVβ8 integrin bound to a Fab (C6D4) on a holey carbon grid (particles have minimal preferred orientations): 1644 unaligned uncorrected movies were recorded automatically using SerialEM on a K2 camera in super-resolution (dstep=2.5) mode on a Titan Krios microscope operated at 300 kV (Cs=2.7) equipped with an energy filter using a slit width of 20 eV. The 12 second movies contain 60 frames and the super resolution pixel size is 0.6725 Å/px. The total dose per movie is ~55 e/Å^2. The gain reference anda file containing coordinates for a single dead column.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Movies_18jam15a/18ja****_****.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Stack_18jam15a/Micrographs/18ja*_ali_DW_extract.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Stack_18jam15a/Micrographs</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dose-weighted aligned micrographs of αVβ8 integrin bound to a Fab (C6D4) on a holey carbon grid</name>
+        <directory>/data/Micrographs_18jam15a</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1644</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.345</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.345</pixelHeight>
+        </dimensions>
+        <details>αVβ8 integrin bound to a Fab (C6D4) on a holey carbon grid (particles have minimal preferred orientations): 1644 aligned and dose-weighted (in MotionCor2) micrographs recorded automatically using SerialEM on a K2 camera (dstep=5) in super-resolution mode on a Titan Krios microscope operated at 300 kV (Cs=2.7) equipped with an energy filter using a slit width of 20 eV. Images were binned by 2 using Fourier cropping and the binned pixel size is 1.345. The total dose per micrograph is ~55 e/Å^2.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Micrographs_18jam15a/18ja*_ali_DW.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Stack_18jam15a/Micrographs/18ja*_ali_DW_extract.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Stack_18jam15a/Micrographs</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dose-weighted aligned particle stacks of αVβ8 integrin bound to a Fab (C6D4) on a holey carbon grid</name>
+        <directory>/data/Stack_18jam15a</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>1642</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>300</imageWidth>
+            <pixelWidth>1.345</pixelWidth>
+            <imageHeight>300</imageHeight>
+            <pixelHeight>1.345</pixelHeight>
+        </dimensions>
+        <details>αVβ8 integrin bound to a Fab (C6D4) on a holey carbon grid (particles have minimal preferred orientations): Stacks of 84,266  dose-weighted (in MotionCor2) particles contributing to the seven conformational snapshots described in the publication . Particles were selected after 2D classification. Images were recorded automatically using SerialEM on a K2 camera (dstep=5) in super-resolution mode on a Titan Krios microscope operated at 300 kV (Cs=2.7) equipped with an energy filter using a slit width of 20 eV. Images were binned by 2 using Fourier cropping and the binned pixel size is 1.345.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Micrographs_18jam15a/18ja****_****_ali_DW.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Stack_18jam15a/Micrographs/18ja****_****_ali_DW_extract.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Stack_18jam15a/Micrographs</pickedParticlesDirectory>
+    </imageSet>
+</entry>

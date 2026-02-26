@@ -1,0 +1,146 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10077" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2016-11-01</depositionDate>
+            <releaseDate>2016-11-24</releaseDate>
+            <updateDate>2016-11-24</updateDate>
+        </keyDates>
+        <title>The pathway to GTPase activation of elongation factor SelB on the ribosome</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-4609-4052</authorORCID>
+            <firstName>Niels</firstName>
+            <lastName>Fischer</lastName>
+            <organization type="academic">Max-Planck-Institute for Biophysical Chemistry</organization>
+            <street>Am Fassberg 11</street>
+            <townOrCity>Göttingen</townOrCity>
+            <stateOrProvince>Lower Saxony</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>37073</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Stark</firstName>
+            <lastName>Holger</lastName>
+            <organization type="academic">Max-Planck-Institute for Biophysical Chemistry</organization>
+            <street>Am Fassberg 11</street>
+            <townOrCity>Goettingen</townOrCity>
+            <stateOrProvince>Lower Saxony</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>37073</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-4609-4052">Fischer N</author>
+            <author>Neumann P</author>
+            <author>Bock LV</author>
+            <author>Maracci C</author>
+            <author>Wang Z</author>
+            <author>Paleskava A</author>
+            <author>Konevega AL</author>
+            <author>Schroeder GF</author>
+            <author>Grubmueller H</author>
+            <author>Rodnina MV</author>
+            <author>Stark H</author>
+        </authorsList>
+        <datasetSize units="TB">1.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10077</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-4121</emdbEntry>
+            <emdbEntry>EMD-4122</emdbEntry>
+            <emdbEntry>EMD-4123</emdbEntry>
+            <emdbEntry>EMD-4124</emdbEntry>
+            <emdbEntry>EMD-4125</emdbEntry>
+            <emdbEntry>EMD-4126</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="2">Neumann P</author>
+                    <author order="3">Bock LV</author>
+                    <author order="4">Maracci C</author>
+                    <author order="5">Wang Z</author>
+                    <author order="6">Paleskava A</author>
+                    <author order="7">Konevega AL</author>
+                    <author order="8">Schroeder GF</author>
+                    <author order="9">Grubmueller H</author>
+                    <author order="10">Ficner R</author>
+                    <author order="11">Rodnina MV</author>
+                    <author order="12">Stark H</author>
+                    <title>The pathway to GTPase activation of elongation factor SelB on the ribosome</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <year>2016</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/nature20560</externalReferences>
+                    <externalReferences type="pubmed">27842381</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Part 1 - Unprocessed cryo-EM micrographs of E. Coli 70S-SelB-GDPNP-Sec-tRNASec-fMet-tRNAfMet-SECIS mRNA complexes</name>
+        <directory>/data/Micrographs_part1</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6147</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.16</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.16</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Part 2 - Unprocessed cryo-EM micrographs of E. Coli 70S-SelB-GDPNP-Sec-tRNASec-fMet-tRNAfMet-SECIS mRNA complex</name>
+        <directory>/data/Micrographs_part2</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6534</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.16</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.16</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>ribosomeSelB_particles.mrcs - CTF corrected single particle images of E. Coli 70S-SelB-GDPNP-Sec-tRNASec-fMet-tRNAfMet-SECIS mRNA complex</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>969526</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>272</imageWidth>
+            <pixelWidth>1.16</pixelWidth>
+            <imageHeight>272</imageHeight>
+            <pixelHeight>1.16</pixelHeight>
+        </dimensions>
+        <details>Particle image stack "ribosomeSelB_particles.mrcs":
+CTF corrected particles images (not normalized; total 969.526 particles)
+
+Star-files for particles corresponding to distinct states in "ribosomeSelB_particles.mrcs":
+1. "particles_IC_state.star": particles of initial complex, E. coli ribosome 70S-fMet-  tRNAfmet-SECIS mRNA complex (IC)
+2. "particles_IB_state.star": particles of initial binding state of E. coli ribosome 70S-SelB-GDPNP-Phe-tRNAPhe-fMet-tRNAfmet-SECIS mRNA complex (IB)
+3. "particles_CR_state.star": particles of codon reading state of E. coli ribosome 70S-SelB-GDPNP-Phe-tRNAPhe-fMet-tRNAfmet-SECIS mRNA complex (CR)
+4. "particles_GA_state.star": particles of GTPase activated state of E. coli ribosome 70S-SelB-GDPNP-Phe-tRNAPhe-fMet-tRNAfmet-SECIS mRNA complex (GA)
+5. "particles_C_state.star": particles of classical pre-translocation state of E. coli ribosome 70S-Phe-tRNAPhe-fMet-tRNAfmet-SECIS mRNA complex (C)
+6. "particles_H_state.star": particles of hybrid pre-translocation state of E. coli ribosome 70S-Phe-tRNAPhe-fMet-tRNAfmet-SECIS mRNA complex (H)</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

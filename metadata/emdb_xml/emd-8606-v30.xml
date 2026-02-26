@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_2/emdb.xsd" version="3.0.9.2" emdb_id="EMD-8606">
+    <admin>
+        <current_status>
+            <date>2024-03-13</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2017-02-16</deposition>
+            <header_release>2017-03-15</header_release>
+            <map_release>2017-03-15</map_release>
+            <update>2024-03-13</update>
+        </key_dates>
+        <title>Bacteriophage P22 mature virion capsid protein</title>
+        <authors_list>
+            <author>Hryc CF</author>
+            <author>Chen D-H</author>
+        </authors_list>
+        <keywords>P22 Bacteriophage, VIRUS</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Hryc CF</author>
+                    <author order="2">Chen DH</author>
+                    <author order="3">Afonine PV</author>
+                    <author order="4">Jakana J</author>
+                    <author order="5">Wang Z</author>
+                    <author order="6">Haase-Pettingell C</author>
+                    <author order="7">Jiang W</author>
+                    <author order="8">Adams PD</author>
+                    <author order="9">King JA</author>
+                    <author order="10">Schmid MF</author>
+                    <author order="11">Chiu W</author>
+                    <title>Accurate model annotation of a near-atomic resolution cryo-EM map.</title>
+                    <journal_abbreviation>Proc. Natl. Acad. Sci. U.S.A.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>114</volume>
+                    <first_page>3103</first_page>
+                    <last_page>3108</last_page>
+                    <year>2017</year>
+                    <external_references type="PUBMED">28270620</external_references>
+                    <external_references type="DOI">doi:10.1073/pnas.1621152114</external_references>
+                    <external_references type="ISSN">1091-6490</external_references>
+                    <external_references type="CSD">0040</external_references>
+                    <external_references type="ASTM">PNASA6</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-1826</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>5uu5</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Enterobacteria phage P22</name>
+        <supramolecule_list>
+            <virus_supramolecule supramolecule_id="1">
+                <name>Enterobacteria phage P22</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <sci_species_name ncbi="10754">Enterobacteria phage P22</sci_species_name>
+                <molecular_weight>
+                    <theoretical units="MDa">327.57294</theoretical>
+                </molecular_weight>
+                <virus_shell shell_id="1">
+                    <name>Capsid</name>
+                    <diameter units="Å">735.0</diameter>
+                    <triangulation>7</triangulation>
+                </virus_shell>
+                <virus_type>VIRION</virus_type>
+                <virus_isolate>SPECIES</virus_isolate>
+                <virus_enveloped>false</virus_enveloped>
+                <virus_empty>false</virus_empty>
+            </virus_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Major capsid protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10754">Salmonella phage P22</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.04679561299999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>7</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="90371">Salmonella enterica subsp. enterica serovar Typhimurium</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MALNEGQIVTLAVDEIIETISAITPMAQKAKKYTPPAASMQRSSNTIWMPVEQESPTQEGWDLTDKATGLLELNVAVNMG
+EPDNDFFQLRADDLRDETAYRRRIQSAARKLANNVELKVANMAAEMGSLVITSPDAIGTNTADAWNFVADAEEIMFSREL
+NRDMGTSYFFNPQDYKKAGYDLTKRDIFGRIPEEAYRDGTIQRQVAGFDDVLRSPKLPVLTKSTATGITVSGAQSFKPVA
+WQLDNDGNKVNVDNRFATVTLSATTGMKRGDKISFAGVKFLGQMAKNVLAQDATFSVVRVVDGTHVEITPKPVALDDVSL
+SPEQRAYANVNTSLADAMAVNILNVKDARTNVFWADDAIRIVSQPIPANHELFAGMKTTSFSIPDVGLNGIFATQGDIST
+LSGLCRIALWYGVNATRPEAIGVGLPGQTA</string>
+                    <external_references type="UNIPROTKB">P26747</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>7.6</ph>
+                        <details>50 mM Tris, pH 7.6, 1 mM MgCl2, 25 mM NaCl</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil</model>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">10</time>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">298</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>single blot, one second duration. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>JEOL 3200FSC</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">100.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">1.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">3.5</nominal_defocus_max>
+                    <nominal_magnification>50000.0</nominal_magnification>
+                    <specimen_holder_model>JEOL 3200FSC CRYOHOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <temperature>
+                        <temperature_min units="K">86.0</temperature_min>
+                        <temperature_max units="K">87.0</temperature_max>
+                    </temperature>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <sph_aberration_corrector>none</sph_aberration_corrector>
+                        <chr_aberration_corrector>none</chr_aberration_corrector>
+                        <energy_filter>
+                            <name>In-column Omega Filter</name>
+                            <lower_energy_threshold units="eV">0</lower_energy_threshold>
+                            <upper_energy_threshold units="eV">20</upper_energy_threshold>
+                        </energy_filter>
+                    </specialist_optics>
+                    <details>normal alignment</details>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>DIRECT ELECTRON DE-20 (5k x 3k)</film_or_detector_model>
+                            <detector_mode>INTEGRATING</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">5120</width>
+                                    <height units="pixel">3840</height>
+                                </dimensions>
+                                <frames_per_image>1-6</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>2927</number_real_images>
+                            <average_exposure_time units="s">1.5</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">37.5</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>Movie-mode data was drift-corrected and damage-compensated using the program DE_process_frames.py.</details>
+                <particle_selection>
+                    <number_selected>57292</number_selected>
+                    <details>Automatic particle selection was followed by manual screening to remove bad particles and junk.</details>
+                </particle_selection>
+                <startup_model type_of_model="OTHER"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>I</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.3</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>jspr</name>
+                        </software>
+                    </software_list>
+                    <details>All the selected 45,150 particle images were first shrunk by a factor of four to a box size of 216x216 in order to accelerate the data processing at low resolutions. About 2,100 shrunken particle images with largest defocuses were selected from each subset to build the initial template, again using the program JSPR.  Five sets of 300 particle images were randomly selected from the highly-defocused 2,100 particle images of each subset, then the global orientation search was performed using JSPR for 20 iterations. The maps from each set were visually examined, and one of the converged maps was selected from the last iterations of each subset. This map was then used as the initial template for the global orientation search for all four-times-shrunken particle images. Several global orientation searches were carried out for the four-times-shrunken data until the resolution converged, as judged by the Fourier Shell Correlation (FSC) curve of two independent data sets (the best 11,000 particles of each). The subsequent local orientation determination was performed using data up to a resolution slightly lower than the resolution assessed by the Gold Standard FSC = 0.143 criterion from the previous iteration, until resolution experienced no further improvement. The orientations and centers for the four-times-shrunken data were then migrated to the full-size (864x864) particle images for additional orientation determination.
+
+It should be noted the first frame was removed from all images and that orientation determination was done with all 23 remaining frames. We then experimented with different sets of subframes of the same particle data set and assessed the density connectivity and resolvability within these different maps. Once this was complete, we found empirically that using frames 1 through 6 (dose of ~10 e/A2), with both motion and damage corrections, yielded the best resolved density map, with a resolution of 3.3 Angstrom based on the Gold Standard estimate. The final reconstruction was produced from the best ~50% of the total particle images. The amplitude of all cryoEM density maps for visualization was scaled to the X-ray structure of bacteriophage HK97 mature capsid (PDB ID: 1OHG) and low-pass filtered to ~3.0 Angstrom resolution.</details>
+                    <number_images_used>45150</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>COMMON LINE</type>
+                    <software_list>
+                        <software>
+                            <name>MPSA</name>
+                        </software>
+                    </software_list>
+                    <details>Multi-Path Simulated Annealing (MPSA) was performed initially in the 200 to 60 Angstrom resolution range, up to 20 Angstrom.</details>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>jspr</name>
+                        </software>
+                    </software_list>
+                    <details>Jiang labs Single Particle Reconstruction (JSPR): 45,150 particle images were used towards 3 Angstrom resolution. During the last several iterations, defocus, astigmatism, and magnification parameters were refined together with the orientation and center position for each particle image.</details>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="2579891">
+        <file>emd_8606.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>864</col>
+            <row>864</row>
+            <sec>864</sec>
+        </dimensions>
+        <origin>
+            <col>-432</col>
+            <row>-432</row>
+            <sec>-432</sec>
+        </origin>
+        <spacing>
+            <x>864</x>
+            <y>864</y>
+            <z>864</z>
+        </spacing>
+        <cell>
+            <a units="Å">924.48004</a>
+            <b units="Å">924.48004</b>
+            <c units="Å">924.48004</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-19.182793</minimum>
+            <maximum>38.868706000000003</maximum>
+            <average>0.15328377</average>
+            <std>1.9640912</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.07</x>
+            <y units="Å">1.07</y>
+            <z units="Å">1.07</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>9.0</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-8606::::</label>
+        <annotation_details>Bacteriophage P22 mature virion capsid protein, combined map</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+                <details>In order to generate the atomic model, we fit our old model (PDB ID: 2XYZ) into subunit A, specifically the hexon capsid protein that sits at the two-fold axis with the penton subunit. To segment the capsid protein, a 30 Angstrom color zone in Chimera was used to separate the density. This ensured that any alteration in protein fold between the previous and current models would not be missed during the segmentation process. The segmented map was then imported into Coot and amino acid PRO25 was easily identified with a kink, similar to where it was previously located. This residue is located at the end of the N-arm and is predicted to be in a small helix which can be identified in the map. From there, baton building was done to the C-terminus and back to the N-terminus, completing the N-arm. Once complete, amino acids were mutated computationally one at a time and registration errors were adjusted based on visible density. All aromatic amino acids were visible and were used as anchor points for other amino acids that lacked strong positive density, such as negatively charged residues. The model was then optimized using the density as a constraint using Phenix.real_space_refine with default parameters, plus simulated annealing to encourage fit to density. Coot was then used to adjust various regions of the model that did not converge into the density such as a portion of the N-arm (weak density) and D-loop (containing several negatively charged amino acids with weak side-chain density). Real-space model optimization again followed, this time without simulated annealing.
+ 
+This model has two domains, the insertion domain and the P-domain / N-arm, that were interpreted differently in a previous model derived from a lower resolution map. We expected that improved resolution would alter the protein fold in the insertion domain.  However, we did not anticipate any alterations in other regions of the model. When assessing the P-domain, we noted improved connectivity of the B-sheets in addition to a fourth strand which was previously modeled wrongly as the N-terminal helix due to poor resolvability. This fourth strand has never been seen in capsid proteins of the bacteriophage, and thus modeling it differently was understandable. When adjusting the threshold, a strand of density extending to the neighboring two-fold axis became visible from the PRO25 anchor point.
+ 
+The resulting model was placed into the density of the other six subunits in an asymmetric unit (ASU), and loops with large variations (the E-loop and a loop in the A-domain) were adjusted manually using Coot. Again, real-space model optimization of the complex followed using default parameters. The refined ASU was then surrounded by neighboring asymmetric units, ensuring that clashes would be avoided and interactions optimized. Coot was then used to manually adjust any rotamers or regions with poor geometry. Moreover, Phenix.molprobity was run to generate a Coot import file, allowing for the removal of extreme clashes and Ramachandran outliers. Finally, a second round of real-space model optimization was completed with simulated annealing and morphing applied. This allowed for greater freedom of model movement. A final MolProbity check was completed to assess stereochemistry. To assess fit to density, cross-correlation was computed during phenix.real_space_refine, and an EMRinger was computed.
+ 
+Model to Calculated Map:  To generate a weighted map from the model that would represent the experimental density map, both occupancies and ADPs had to be refined against the experimental map. ADPs were first set to 50 (Angstrom)^2 for all amino acids in our ASU - with surrounding subunits - and refined with phenix.real_space_refine (run=adp). Two iterations were performed to insure convergence. Occupancies were then changed to -0.5 for all carboxyl oxygens in the refined complex. This negative value was needed in order to produce negative density in the map calculated from the model. These occupancies do not refer to the absence of atoms, but rather are used as weighting values due to the lack of a proper form factor. Occupancies were then refined with phenix.refine in reciprocal space, which resulted in some occupancies reverting to positivevalues. An additional iteration of ADP and occupancy refinement then followed. With atom positions, ADPs, and occupancies all refined, a map was calculated from the model at 3.3 Angstrom resolution using Phenix.fmodel and converted to a CCP4 format map using phenix.mtz2map.
+
+Model Validation / Uncertainty:  The generation of two independent models optimized for the two half maps is a validation practice which assures that agreement is consistent with the claimed 3.3 Angstrom resolution as reflected by the FSC=0.5 numerical value suggested previously. Moreover, assessment of independent models provides an understanding of the level of uncertainty within the map. Both half data sets (~3.4 Angstrom resolution) were modeled independently. Model variation to assess uncertainty was computed in Chimera, and the FSC was computed with EMAN2.</details>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>0.836</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="2579891">
+                <file>emd_8606_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>864</col>
+                    <row>864</row>
+                    <sec>864</sec>
+                </dimensions>
+                <origin>
+                    <col>-432</col>
+                    <row>-432</row>
+                    <sec>-432</sec>
+                </origin>
+                <spacing>
+                    <x>864</x>
+                    <y>864</y>
+                    <z>864</z>
+                </spacing>
+                <cell>
+                    <a units="Å">924.48004</a>
+                    <b units="Å">924.48004</b>
+                    <c units="Å">924.48004</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-20.729769000000001</minimum>
+                    <maximum>28.373709000000002</maximum>
+                    <average>0.11930079</average>
+                    <std>1.5063984</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.07</x>
+                    <y units="Å">1.07</y>
+                    <z units="Å">1.07</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-8606::::</label>
+                <annotation_details>Bacteriophage P22 mature virion capsid protein, half map (set 0)</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="2579891">
+                <file>emd_8606_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>864</col>
+                    <row>864</row>
+                    <sec>864</sec>
+                </dimensions>
+                <origin>
+                    <col>-432</col>
+                    <row>-432</row>
+                    <sec>-432</sec>
+                </origin>
+                <spacing>
+                    <x>864</x>
+                    <y>864</y>
+                    <z>864</z>
+                </spacing>
+                <cell>
+                    <a units="Å">924.48004</a>
+                    <b units="Å">924.48004</b>
+                    <c units="Å">924.48004</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-14.89621</minimum>
+                    <maximum>27.695119999999999</maximum>
+                    <average>0.11227457</average>
+                    <std>1.4293131</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.07</x>
+                    <y units="Å">1.07</y>
+                    <z units="Å">1.07</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-8606::::</label>
+                <annotation_details>Bacteriophage P22 mature virion capsid protein, half map (set 1)</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

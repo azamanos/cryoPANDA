@@ -1,0 +1,1806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_10_0/emdb.xsd" version="3.0.10.0" emdb_id="EMD-17364">
+    <admin>
+        <current_status>
+            <date>2025-03-12</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <revision_history>
+            <revision version="1.0" date="2024-05-01">
+                <change_list>
+                    <additional_map part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </additional_map>
+                    <additional_map part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </additional_map>
+                    <fsc>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </fsc>
+                    <half_map part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <half_map part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <image>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </image>
+                    <mask>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </mask>
+                    <primary_map>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </primary_map>
+                </change_list>
+            </revision>
+            <revision version="1.1" date="2025-03-12">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="1.2" date="2025-03-12">
+                <change_list>
+                    <model>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>chem_comp_atom</category>
+                            <category>chem_comp_bond</category>
+                            <category>em_admin</category>
+                            <category>pdbx_entry_details</category>
+                        </categories>
+                        <items>
+                            <item>_chem_comp_atom.atom_id</item>
+                            <item>_chem_comp_atom.pdbx_aromatic_flag</item>
+                            <item>_chem_comp_bond.atom_id_1</item>
+                            <item>_chem_comp_bond.atom_id_2</item>
+                            <item>_chem_comp_bond.pdbx_aromatic_flag</item>
+                            <item>_chem_comp_bond.value_order</item>
+                            <item>_em_admin.last_update</item>
+                            <item>_pdbx_entry_details.has_protein_modification</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+        </revision_history>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-05-16</deposition>
+            <header_release>2024-05-01</header_release>
+            <map_release>2024-05-01</map_release>
+            <update>2025-03-12</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Other private</funding_body>
+                <country>Sweden</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Other government</funding_body>
+                <country>Sweden</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Swedish Research Council</funding_body>
+                <code>2016-06264</code>
+                <country>Sweden</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Swedish Research Council</funding_body>
+                <code>2022-04511</code>
+                <country>Sweden</country>
+            </grant_reference>
+        </grant_support>
+        <title>Staphylococcus aureus 70S ribosome with elongation factor G locked with fusidic acid cyclopentane with a tRNA in pe/E chimeric hybrid state</title>
+        <authors_list>
+            <author>Gonzalez-Lopez A</author>
+            <author>Selmer M</author>
+        </authors_list>
+        <keywords>RIBOSOME, fusidic acid, EF-G, antibiotic</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Gonzalez-Lopez A</author>
+                    <author order="2">Larsson DSD</author>
+                    <author order="3">Koripella RK</author>
+                    <author order="4">Cain BN</author>
+                    <author order="5">Chavez MG</author>
+                    <author order="6">Hergenrother PJ</author>
+                    <author order="7">Sanyal S</author>
+                    <author order="8">Selmer M</author>
+                    <title>Structures of the Staphylococcus aureus ribosome inhibited by fusidic acid and fusidic acid cyclopentane.</title>
+                    <journal_abbreviation>Sci Rep</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>14</volume>
+                    <first_page>14253</first_page>
+                    <last_page>14253</last_page>
+                    <year>2024</year>
+                    <external_references type="PUBMED">38902339</external_references>
+                    <external_references type="DOI">doi:10.1038/s41598-024-64868-x</external_references>
+                    <external_references type="ISSN">2045-2322</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8p2g</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Staphylococcus aureus 70S ribosome with elongation factor G and fusidic acid cyclopentane</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Staphylococcus aureus 70S ribosome with elongation factor G and fusidic acid cyclopentane</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>24</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>25</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>26</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>27</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>28</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>29</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>30</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>31</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>32</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>8</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>9</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>10</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>11</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>12</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>13</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>14</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>15</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>16</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>17</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>18</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>19</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>20</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>21</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>22</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>23</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>33</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>34</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>35</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>36</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>37</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>38</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>39</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>40</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>41</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>42</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>43</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>44</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>45</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>46</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>47</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>48</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>49</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>50</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>51</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>52</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>53</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">2.6</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <rna macromolecule_id="1">
+                <name>23S ribosomal RNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8324-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.9467826879999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>GAUUAAGUUAUUAAGGGCGCACGGUGGAUGCCUUGGCACUAGAAGCCGAUGAAGGACGUUACUAACGACGAUAUGCUUUG
+GGGAGCUGUAAGUAAGCUUUGAUCCAGAGAUUUCCGAAUGGGGAAACCCAGCAUGAGUUAUGUCAUGUUAUCGAUAUGUG
+AAUACAUAGCAUAUCAGAAGGCACACCCGGAGAACUGAAACAUCUUAGUACCCGGAGGAAGAGAAAGAAAAUUCGAUUCC
+CUUAGUAGCGGCGAGCGAAACGGGAAGAGCCCAAACCAACAAGCUUGCUUGUUGGGGUUGUAGGACACUCUAUACGGAGU
+UACAAAGGACGACAUUAGACGAAUCAUCUGGAAAGAUGAAUCAAAGAAGGUAAUAAUCCUGUAGUCGAAAAUGUUGUCUC
+UCUUGAGUGGAUCCUGAGUACGACGGAGCACGUGAAAUUCCGUCGGAAUCUGGGAGGACCAUCUCCUAAGGCUAAAUACU
+CUCUAGUGACCGAUAGUGAACCAGUACCGUGAGGGAAAGGUGAAAAGCACCCCGGAAGGGGAGUGAAAUAGAACCUGAAA
+CCGUGUGCUUACAAGUAGUCAGAGCCCGUUAAUGGGUGAUGGCGUGCCUUUUGUAGAAUGAACCGGCGAGUUACGAUUUG
+AUGCAAGGUUAAGCAGUAAAUGUGGAGCCGUAGCGAAAGCGAGUCUGAAUAGGGCGUUUAGUAUUUGGUCGUAGACCCGA
+AACCAGGUGAUCUACCCUUGGUCAGGUUGAAGUUCAGGUAACACUGAAUGGAGGACCGAACCGACUUACGU(5MU)GAAA
+AGUGAGCGGAUGAACUGAGGGUAGCGGAGAAAUUCCAAUCGAACCUGGAGAUAGCUGGUUCUCUCCGAAAUAGCUUUAGG
+GCUAGCCUCAAGUGAUGAUUAUUGGAGGUAGAGCACUGUUUGGACGAGGGGCCCCUCUCGGGUUACCGAAUUCAGACAAA
+CUCCGAAUGCCAAUUAAUUUAACUUGGGAGUCAGAACAUGGGUGAUAAGGUCCGUGUUCGAAAGGGAAACAGCCCAGACC
+ACCAGCUAAGGUCCCAAAAUAUAUGUUAAGUGGAAAAGGAUGUGGCGUUGCCCAGACAACUAGGAUGUUGGCUUAGAAGC
+AGCCAUCAUUUAAAGAGUGCGUAAUAGCUCACUAGUCGAGUGACACUGCGCCGAAAAUGUACCGGGGCUAAACAUAUUAC
+CGAAGCUGUGGAUUGUCCUUUGGACAAUGGUAGGAGAGCGUUCUAAGGGCGUUGAAGCAUGAUCGUAAGGACAUGUGGAG
+CGCUUAGAAGUGAGAAUGCCGGUGUGAGUAGCGAAAGACGGGUGAGAAUCCCGUCCACCGAUUGACUAAGGUUUCCAGAG
+GAAGGCUCGUCCGCUCUGGGUUAGUCGGGUCCUAAGCUGAGGCCGACAGGCGUAGGCGAUGGAUAACAGGUUGAUAUUCC
+UGUACCACCUAUAAUCGUUUUAAUCGAUGGGGGGACGCAGUAGGAUAGGCGAAGCGUGCGAUUGGAUUGCACGUCUAAGC
+AGUAAGGCUGAGUAUUAGGCAAAUCCGGUACUCGUUAAGGCUGAGCUGUGAUGGGGAGAAGACAUUGUGUCUUCGAGUCG
+UUGAUUUCACACUGCCGAGAAAAGCCUCUAGAUAGAAAAUAGGUGCCCGUACCGCAAACCGACACAGGUAGUCAAGAUGA
+GAAUUCUAAGGUGAGCGAGCGAACUCUCGUUAAGGAACUCGGCAAAAUGACCCCGUAACUUCGGGAGAAGGGGUGCUCUU
+UAGGGUUAACGCCCAGAAGAGCCGCAGUGAAUAGGCCCAAGCGACUGUUUAUCAAAAACACAGGUCUCUGCUAAACCGUA
+AGGUGAUGUAUAGGGGCUGACGCCUGCCCGGUGCUGGAAGGUUAAGAGGAGUGGUUAGCUUCUGCGAAGCUACGAAUCGA
+AGCCCCAGUAAACGGCGGCCGUAAC(3TD)AUAACGGUCCUAAGGUAGCGAAA(5MU)UCCUUGUCGGGUAAGUUCCGAC
+CCGCACGAAAGGCGUAACGAUUUGGGCACUGUCUCAACGAGAGACUCGGUGAAAUCAUAGUACCUGUGAAGAUGCAGGUU
+ACCCGCGACAGGACGGAAAGACCCCGUGGAGCUUUACUGUAGCCUGAUAUUGAAAUUCGGCACAGCUUGUACAGGAUAGG
+UAGGAGCCUUUGAAACGUGAGCGCUAGCUUACGUGGAGGCGCUGGUGGGAUACUACCCUAGCUGUGUUGGCUUUCUAACC
+CGCACCACUUAUCGUGGUGGGAGACAGUGUCAGGCGGGCAGUUUGACUG(OMG)GGCGGUCGCCUCCUAAAAGGUAACGG
+AGGCGCUCAAAGGUUCCCUCAGAAUGGUUGGAAAUCAUUCAUAGAGUGUAAAGGCAUAAGGGAGCUUGACUGCGAGACCU
+ACAAGUCGAGCAGGGUCGAAAGACGGACUUAGUGAUCCGGUGGUUCCGCAUGGAAGGGCCAUCGCUCAACGGAUAAAAGC
+UACCCCG(2MG)GGA(H2U)AACAGGCUUAUCUCCCCCAAGAGUUCACAUCGACGGGGAGGUUUGGCACCUCG(2MA)UG
+UCGGCUCAUCGCAUCCUGGGGCUGUAGUCGGUCCCAAGGGUUGGGCUGUUCGCCCAUUAAAGCGGUACGCGAGCUGGGUU
+CAGAACGUCGUGAGACAGUUCGGUCCCUAUCCGUCGUGGGCGUAGGAAAUUUGAGAGGAGCUGUCCUUAGUACGAGAGGA
+CCGGGAUGGACAUACCUCUGGUGUACCAGUUGUCGUGCCAACGGCAUAGCUGGGUAGCUAUGUGUGGACGGGAUAAGUGC
+UGAAAGCAUCUAAGCAUGAAGCCCCCCUCAAGAUGAGAUUUCCCAACUUCGGUUAUAAGAUCCCUCAAAGAUGAUGAGGU
+UAAUAGGUUCGAGGUGGAAGCAUGGUGACAUGUGGAGCUGACGAAUACUAAUCGAUCGAAGACUUAAUCAA</string>
+                    <external_references type="GENBANK">CP000253.1</external_references>
+                </sequence>
+            </rna>
+            <rna macromolecule_id="2">
+                <name>5S ribosomal RNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8324-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.036974944999999995</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>UCUGGUGACUAUAGCAAGGAGGUCACACCUGUUCCCAUGCCGAACACAGAAGUUAAGCUCCUUAGCGUCGAUGGUAGUCG
+AACUUACGUUCCGCUAGAGUAGAACGUUGCCAGGC</string>
+                    <external_references type="GENBANK">CP000253.1</external_references>
+                </sequence>
+            </rna>
+            <rna macromolecule_id="3">
+                <name>tRNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024802784999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>CGCGGGGUGGAGCAGCCUGGUAGCUCGUCGGGCUCAUAACCCGAAGGUCGUCGGUUCAAAUCCGGCCCCCGCAACCA</string>
+                    <external_references type="GENBANK">AP023205.1</external_references>
+                </sequence>
+            </rna>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Elongation factor G</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.076699289</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="469008">Escherichia coli BL21(DE3)</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAREFSLEKTRNIGIMAHIDAGKTTTTERILYYTGRIHKIGETHEGASQMDWMEQEQDRGITITSAATTAAWEGHRVNII
+DTPGHVDFTVEVERSLRVLDGAVTVLDAQSGVEPQTETVWRQATTYGVPRIVFVNKMDKLGANFEYSVSTLHDRLQANAA
+PIQLPIGAEDEFEAIIDLVEMKCFKYTNDLGTEIEEIEIPEDHLDRAEEARASLIEAVAETSDELMEKYLGDEEISVSEL
+KEAIRQATTNVEFYPVLCGTAFKNKGVQLMLDAVIDYLPSPLDVKPIIGHRASNPEEEVIAKADDSAEFAALAFKVMTDP
+YVGKLTFFRVYSGTMTSGSYVKNSTKGKRERVGRLLQMHANSRQEIDTVYSGDIAAAVGLKDTGTGDTLCGEKNDIILES
+MEFPEPVIHLSVEPKSKADQDKMTQALVKLQEEDPTFHAHTDEETGQVIIGGMGELHLDILVDRMKKEFNVECNVGAPMV
+SYRETFKSSAQVQGKFSRQSGGRGQYGDVHIEFTPNETGAGFEFENAIVGGVVPREYIPSVEAGLKDAMENGVLAGYPLI
+DVKAKLYDGSYHDVDSSEMAFKIAASLALKEAAKKCDPVILEPMMKVTIEMPEEYMGDIMGDVTSRRGRVDGMEPRGNAQ
+VVNAYVPLSEMFGYATSLRSNTQGRGTYTMYFDHYAEVPKSIAEDIIKKNKGE</string>
+                    <external_references type="UNIPROTKB">Q2G0N1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>50S ribosomal protein L2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.030217163999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAIKKYKPITNGRRNMTSLDFAEITKTTPEKSLLKPLPKKAGRNNQGKLTVRHHGGGHKRQYRVIDFKRNKDGINAKVDS
+IQYDPNRSANIALVVYADGEKRYIIAPKGLEVGQIVESGAEADIKVGNALPLQNIPVGTVVHNIELKPGKGGQIARSAGA
+SAQVLGKEGKYVLIRLRSGEVRMILSTCRATIGQVGNLQHELVNVGKAGRSRWKGIRPTVRGSVMNPNDHPHGGGEGRAP
+IGRPSPMSPWGKPTLGKKTRRGKKSSDKLIVRGRKKK</string>
+                    <external_references type="UNIPROTKB">P60430</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="6">
+                <name>50S ribosomal protein L3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023760256</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTKGILGRKIGMTQVFGENGELIPVTVVEAKENVVLQKKTVEVDGYNAIQVGFEDKKAYKKDAKSNKYANKPAEGHAKKA
+DAAPKRFIREFRNVDVDAYEVGQEVSVDTFVAGDVIDVTGVSKGKGFQGAIKRHGQSRGPMSHGSHFHRAPGSVGMASDA
+SRVFKGQKMPGRMGGNTVTVQNLEVVQVDTENKVILVKGNVPGPKKGLVEIRTSIKKGNK</string>
+                    <external_references type="UNIPROTKB">Q2FW06</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="7">
+                <name>50S ribosomal protein L4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022495697</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MANYDVLKLDGTKSGSIELSDAVFGIEPNNSVLFEAINLQRASLRQGTHAVKNRSAVSGGGRKPWKQKGTGRARQGTIRA
+PQWRGGGIVFGPTPRSYAYKMPKKMRRLALRSALSFKAQENGLTVVDAFNFEAPKTKEFKNVLSTLEQPKKVLVVTENED
+VNVELSARNIPGVQVTTAQGLNVLDITNADSLVITEAAAKKVEEVLG</string>
+                    <external_references type="UNIPROTKB">Q2FW07</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="8">
+                <name>50S ribosomal protein L5</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.020296637</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MNRLKEKFNTEVTENLMKKFNYSSVMEVPKIDKIVVNMGVGDAVQNSKVLDNAVEELELITGQKPLVTKAKKSIATFRLR
+EGMPIGAKVTLRGERMYEFLDKLISVSLPRVRDFQGVSKKAFDGRGNYTLGVKEQLIFPEIDYDKVSKVRGMDIVIVTTA
+NTDEEARELLANFGMPFRK</string>
+                    <external_references type="UNIPROTKB">Q2FW18</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="9">
+                <name>50S ribosomal protein L6</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.019818580000000002</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSRVGKKIIDIPSDVTVTFDGNHVTVKGPKGELSRTLNERMTFKQEENTIEVVRPSDSKEDRTNHGTTRALLNNMVQGVS
+QGYVKVLELVGVGYRAQMQGKDLILNVGYSHPVEIKAEENITFSVEKNTVVKVEGISKEQVGALASNIRSVRPPEPYKGK
+GIRYQGEYVRRKEGKTGK</string>
+                    <external_references type="UNIPROTKB">Q2FW21</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="10">
+                <name>50S ribosomal protein L13</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.016359427</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MRQTFMANESNIERKWYVIDAEGQTLGRLSSEVASILRGKNKVTYTPHVDTGDYVIVINASKIEFTGNKETDKVYYRHSN
+HPGGIKSITAGELRRTNPERLIENSIKGMLPSTRLGEKQGKKLFVYGGAEHPHAAQQPENYELRG</string>
+                    <external_references type="UNIPROTKB">Q2FW38</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="11">
+                <name>50S ribosomal protein L14</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013157342</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MIQQETRLKVADNSGAREVLTIKVLGGSGRKTANIGDVIVCTVKNATPGGVVKKGDVVKAVIVRTKSGVRRNDGSYIKFD
+ENACVIIRDDKGPRGTRIFGPVARELREGNFMKIVSLAPEVL</string>
+                    <external_references type="UNIPROTKB">Q2FW16</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="12">
+                <name>50S ribosomal protein L15</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.01562889</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKLHELKPAEGSRKERNRVGRGVATGNGKTSGRGHKGQKARSGGGVRPGFEGGQLPLFRRLPKRGFTNINRKEYAIVNLD
+QLNKFEDGTEVTPALLVESGVVKNEKSGIKILGNGSLDKKLTVKAHKFSASAAEAIDAKGGAHEVI</string>
+                    <external_references type="UNIPROTKB">P0A0F8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="13">
+                <name>50S ribosomal protein L16</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.016274049</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLLPKRVKYRRQHRPKTTGRSKGGNYVTFGEFGLQATTTSWITSRQIESARIAMTRYMKRGGKVWIKIFPHTPYTKKPLE
+VRMGAGKGAVEGWIAVVKPGRILFEVAGVSEEVAREALRLASHKLPVKTKFVKREELGGETNES</string>
+                    <external_references type="UNIPROTKB">Q2FW13</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="14">
+                <name>50S ribosomal protein L17</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013771773</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGYRKLGRTSDQRKAMLRDLATSLIISERIETTEARAKEVRSVVEKLITLGKKGDLASRRNAAKTLRNVEILNEDETTQT
+ALQKLFGEIAERYTERQGGYTRILKQGPRRGDGAESVIIELV</string>
+                    <external_references type="UNIPROTKB">Q2FW33</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="15">
+                <name>50S ribosomal protein L18</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013124093</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MISKIDKNKVRLKRHARVRTNLSGTAEKPRLNVYRSNKHIYAQIIDDNKGVTLAQASSKDSDIATTATKVELATKVGEAI
+AKKAADKGIKEIVFDRGGYLYHGRVKALAEAARESGLEF</string>
+                    <external_references type="UNIPROTKB">Q2FW22</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="16">
+                <name>50S ribosomal protein L19</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013392771</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTNHKLIEAVTKSQLRTDLPSFRPGDTLRVHVRIIEGTRERIQVFEGVVIKRRGGGVSETFTVRKISSGVGVERTFPLHT
+PKIEKIEVKRRGKVRRAKLYYLRSLRGKAARIQEIR</string>
+                    <external_references type="UNIPROTKB">Q2FZ42</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="17">
+                <name>50S ribosomal protein L20</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013720294999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPRVKGGTVTRARRKKTIKLAKGYFGSKHTLYKVAKQQVMKSGQYAFRDRRQRKRDFRKLWITRINAAARQHEMSYSRLM
+NGLKKAGIDINRKMLSEIAISDEKAFAQLVTKAKDALK</string>
+                    <external_references type="UNIPROTKB">Q2FXQ1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="18">
+                <name>50S ribosomal protein L21</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011354081</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MFAIIETGGKQIKVEEGQEIFVEKLDVNEGDTFTFDKVLFVGGDSVKVGAPTVEGATVTATVNKQGRGKKITVFTYKRRK
+NSKRKKGHRQPYTKLTIDKINA</string>
+                    <external_references type="UNIPROTKB">Q2FXS8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="19">
+                <name>50S ribosomal protein L22</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.012857921999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MEAKAVARTIRIAPRKVRLVLDLIRGKNAAEAIAILKLTNKASSPVIEKVLMSALANAEHNYDMNTDELVVKEAYANEGP
+TLKRFRPRAQGRASAINKRTSHITIVVSDGKEEAKEA</string>
+                    <external_references type="UNIPROTKB">Q2FW11</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="20">
+                <name>50S ribosomal protein L23</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.010625398</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MEARDILKRPVITEKSSEAMAEDKYTFDVDTRVNKTQVKMAVEEIFNVKVASVNIMNYKPKKKRMGRYQGYTNKRRKAIV
+TLKEGSIDLFN</string>
+                    <external_references type="UNIPROTKB">Q2FW08</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="21">
+                <name>50S ribosomal protein L24</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011561504</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MHIKKGDNVKVIAGKDKGKEGKVIATLPKKDRVVVEGVNIMKKHQKPTQLNPEGGILETEAAIHVSNVQLLDPKTNEPTR
+VGYKFVDGKKVRIAKKSGEEIKSNN</string>
+                    <external_references type="UNIPROTKB">Q2FW17</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="22">
+                <name>50S ribosomal protein L25</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023810609</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MASLKSIIRQGKQTRSDLKQLRKSGKVPAVVYGYGTKNVSVKVDEVEFIKVIREVGRNGVIELGVGSKTIKVMVADYQFD
+PLKNQITHIDFLAINMSEERTVEVPVQLVGEAVGAKEGGVVEQPLFNLEVTATPDNIPEAIEVDITELNINDSLTVADVK
+VTGDFKIENDSAESVVTVVAPTEEPTEEEIEAMEGEQQTEEPEVVGESKEDEEKTEE</string>
+                    <external_references type="UNIPROTKB">Q2G0S0</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="23">
+                <name>50S ribosomal protein L27</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.010334798000000001</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLKLNLQFFASKKGVSSTKNGRDSESKRLGAKRADGQFVTGGSILYRQRGTKIYPGENVGRGGDDTLFAKIDGVVKFERK
+GRDKKQVSVYAVAE</string>
+                    <external_references type="UNIPROTKB">Q2FXT0</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="24">
+                <name>50S ribosomal protein L28</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.006995288999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGKQCFVTGRKASTGNRRSHALNSTKRRWNANLQKVRILVDGKPKKVWVSARALKSGKVTRV</string>
+                    <external_references type="UNIPROTKB">Q2FZ60</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="25">
+                <name>50S ribosomal protein L29</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008105266</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKAKEIRDLTTSEIEEQIKSSKEELFNLRFQLATGQLEETARIRTVRKTIARLKTVAREREIEQSKANQ</string>
+                    <external_references type="UNIPROTKB">Q2FW14</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="26">
+                <name>50S ribosomal protein L30</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.006565683</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKLQITLTRSVIGRPETQRKTVEALGLKKTNSSVVVEDNPAIRGQINKVKHLVTVEEK</string>
+                    <external_references type="UNIPROTKB">P0A0G2</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="27">
+                <name>50S ribosomal protein L31 type B</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009737912</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKQGIHPEYHQVIFLDTTTNFKFLSGSTKTSSEMMEWEDGKEYPVIRLDISSDSHPFYTGRQKFAAADGRVERFNKKFGL
+KSNN</string>
+                    <external_references type="UNIPROTKB">Q2FWD8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="28">
+                <name>Large ribosomal subunit protein bL32</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.006500609</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAVPKRRTSKTRKNKRRTHFKISVPGMTECPNCGEYKLSHRVCKNCGSYNGEEVAAK</string>
+                    <external_references type="UNIPROTKB">Q2FZF1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="29">
+                <name>Large ribosomal subunit protein bL33A</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.005944937</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MRVNVTLACTECGDRNYITTKNKRNNPERIEMKKYCPRLNKYTLHRETK</string>
+                    <external_references type="UNIPROTKB">Q2FYU6</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="30">
+                <name>50S ribosomal protein L34</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.005454642</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MVKRTYQPNKRKHSKVHGFRKRMSTKNGRKVLARRRRKGRKVLSA</string>
+                    <external_references type="UNIPROTKB">Q2FUQ0</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="31">
+                <name>50S ribosomal protein L35</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007722368</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPKMKTHRGAAKRVKRTASGQLKRSRAFTSHLFANKSTKQKRQLRKARLVSKSDMKRVKQLLAYKK</string>
+                    <external_references type="UNIPROTKB">Q2FXQ0</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="32">
+                <name>50S ribosomal protein L36</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.004318422</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKVRPSVKPICEKCKVIKRKGKVMVICENPKHKQRQG</string>
+                    <external_references type="UNIPROTKB">Q2FW29</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <rna macromolecule_id="33">
+                <name>16S ribosomal RNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.503117219</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>UUUUAUGGAGAGUUUGAUCCUGGCUCAGGAUGAACGCUGGCGGCGUGCCUAAUACAUGCAAGUCGAGCGAACGGACGAGA
+AGCUUGCUUCUCUGAUGUUAGCGGCGGACGGGUGAGUAACACGUGGAUAACCUACCUAUAAGACUGGGAUAACUUCGGGA
+AACCGGAGCUAAUACCGGAUAAUAUUUUGAACCGCAUGGUUCAAAAGUGAAAGACGGUCUUGCUGUCACUUAUAGAUGGA
+UCCGCGCUGCAUUAGCUAGUUGGUAAGGUAACGGCUUACCAAGGCAACGAUGCAUAGCCGACCUGAGAGGGUGAUCGGCC
+ACACUGGAACUGAGACACGGUCCAGACUCCUACGGGAGGCAGCAGUAGGGAAUCUUCCGCAAUGGGCGAAAGCCUGACGG
+AGCAACGCCGCGUGAGUGAUGAAGGUCUUCGGAUCGUAAAACUCUGUUAUUAGGGAAGAACAUAUGUGUAAGUAACUGUG
+CACAUCUUGACGGUACCUAAUCAGAAAGCCACGGCUAACUACGUGCCAGCAGCC(G7M)CGGUAAUACGUAGGUGGCAAG
+CGUUAUCCGGAAUUAUUGGGCGUAAAGCGCGCGUAGGCGGUUUUUUAAGUCUGAUGUGAAAGCCCACGGCUCAACCGUGG
+AGGGUCAUUGGAAACUGGAAAACUUGAGUGCAGAAGAGGAAAGUGGAAUUCCAUGUGUAGCGGUGAAAUGCGCAGAGAUA
+UGGAGGAACACCAGUGGCGAAGGCGACUUUCUGGUCUGUAACUGACGCUGAUGUGCGAAAGCGUGGGGAUCAAACAGGAU
+UAGAUACCCUGGUAGUCCACGCCGUAAACGAUGAGUGCUAAGUGUUAGGGGGUUUCCGCCCCUUAGUGCUGCAGCUAACG
+CAUUAAGCACUCCGCCUGGGGAGUACGACCGCAAGGUUGAAACUCAAAGGAAUUGACGGGGACCCGCACAAGCGGUGGAG
+CAUGUGGUUUAAUUCGAA(2MG)(5MC)AACGCGAAGAACCUUACCAAAUCUUGACAUCCUUUGACAACUCUAGAGAUAG
+AGCCUUCCCCUUCGGGGGACAAAGUGACAGGUGGUGCAUGGUUGUCGUCAGCUCGUGUCGUGAGAUGUUGGGUUAAGUCC
+CGCAACGAGCGCAACCCUUAAGCUUAGUUGCCAUCAUUAAGUUGGGCACUCUAAGUUGACUGCCGGUGACAAACCGGAGG
+AAGGUGGGGAUGACGUCAAAUCAUCAUGCCCCUUAUGAUUUGGGCUACACACGUGCUACAAUGGACAAUACAAAGGGCAG
+CGAAACCGCGAGGUCAAGCAAAUCCCAUAAAGUUGUUCUCAGUUCGGAUUGUAGUCUGCAACUCGACUACAUGAAGCUGG
+AAUCGCUAGUAAUCGUAGAUCAGCAUGCUACGGUGAAUACGUUCCCGGGUCUUGUACACACCG(4OC)CCGUCACACCAC
+GAGAGUUUGUAACACCCGAAGCCGGUGGAGUAACCUUUUAGGAGCUAGCCGUCGAAGGUGGGACAAAUGAUUGGGGUGAA
+GUCG(UR3)AACAAGGUAGCCGUAUCGG(MA6)(MA6)GGUGCGGCUGGAUCACCUCCUUUCU</string>
+                    <external_references type="GENBANK">CP000253.1</external_references>
+                </sequence>
+            </rna>
+            <rna macromolecule_id="34">
+                <name>mRNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007889855</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>GGCAAGGAGGUAAAAAUGGCAAAA</string>
+                </sequence>
+            </rna>
+            <protein_or_peptide macromolecule_id="35">
+                <name>30S ribosomal protein S2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.029136369</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAVISMKQLLEAGVHFGHQTRRWNPKMKKYIFTERNGIYIIDLQKTVKKVDEAYNFLKQVSEDGGQVLFVGTKKQAQESV
+KSEAERAGQFYINQRWLGGLLTNYKTISKRIKRISEIEKMEEDGLFEVLPKKEVVELKKEYDRLIKFLGGIRDMKSMPQA
+LFVVDPRKERNAIAEARKLNIPIVGIVDTNCDPDEIDYVIPANDDAIRAVKLLTAKMADAILEGQQGVSNEEVAAEQNID
+LDEKEKSEETEATEE</string>
+                    <external_references type="UNIPROTKB">Q2FZ25</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="36">
+                <name>30S ribosomal protein S3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024143866999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGQKINPIGLRVGIIRDWEAKWYAEKDFASLLHEDLKIRKFIDNELKEASVSHVEIERAANRINIAIHTGKPGMVIGKGG
+SEIEKLRNKLNALTDKKVHINVIEIKKVDLDARLVAENIARQLENRASFRRVQKQAITRAMKLGAKGIKTQVSGRLGGAD
+IARAEQYSEGTVPLHTLRADIDYAHAEADTTYGKLGVKVWIYRGEVLPTKNTSGGGK</string>
+                    <external_references type="UNIPROTKB">Q2FW12</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="37">
+                <name>30S ribosomal protein S4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023051416</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARFRGSNWKKSRRLGISLSGTGKELEKRPYAPGQHGPNQRKKLSEYGLQLREKQKLRYLYGMTERQFRNTFDIAGKKFG
+VHGENFMILLASRLDAVVYSLGLARTRRQARQLVNHGHILVDGKRVDIPSYSVKPGQTISVREKSQKLNIIVESVEINNF
+VPEYLNFDADSLTGTFVRLPERSELPAEINEQLIVEYYSR</string>
+                    <external_references type="UNIPROTKB">Q2FXK6</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="38">
+                <name>30S ribosomal protein S5</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.017770512</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARREEETKEFEERVVTINRVAKVVKGGRRFRFTALVVVGDKNGRVGFGTGKAQEVPEAIKKAVEAAKKDLVVVPRVEGT
+TPHTITGRYGSGSVFMKPAAPGTGVIAGGPVRAVLELAGITDILSKSLGSNTPINMVRATIDGLQNLKNAEDVAKLRGKT
+VEELYN</string>
+                    <external_references type="UNIPROTKB">Q2FW23</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="39">
+                <name>30S ribosomal protein S6</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011613146</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MRTYEVMYIVRPNIEEDAKKALVERFNGILATEGAEVLEAKDWGKRRLAYEINDFKDGFYNIVRVKSDNNKATDEFQRLA
+KISDDIIRYMVIREDEDK</string>
+                    <external_references type="UNIPROTKB">Q2G113</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="40">
+                <name>30S ribosomal protein S7</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.017826555</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPRKGSVPKRDVLPDPIHNSKLVTKLINKIMLDGKRGTAQRILYSAFDLVEQRSGRDALEVFEEAINNIMPVLEVKARRV
+GGSNYQVPVEVRPERRTTLGLRWLVNYARLRGEKTMEDRLANEILDAANNTGGAVKKREDTHKMAEANKAFAHYRW</string>
+                    <external_references type="UNIPROTKB">P48940</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="41">
+                <name>30S ribosomal protein S8</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014854315</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTMTDPIADMLTRVRNANMVRHEKLELPASNIKKEIAEILKSEGFIKNVEYVEDDKQGVLRLFLKYGQNDERVITGLKRI
+SKPGLRVYAKASEMPKVLNGLGIALVSTSEGVITDKEARKRNVGGEIIAYVW</string>
+                    <external_references type="UNIPROTKB">Q2FW20</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="42">
+                <name>30S ribosomal protein S9</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014856986999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTLAQVEYRGTGRRKNSVARVRLVPGEGNITVNNRDVREYLPFESLILDLNQPFDVTETKGNYDVLVNVHGGGFTGQAQA
+IRHGIARALLEADPEYRGSLKRAGLLTRDPRMKERKKPGLKAARRSPQFSKR</string>
+                    <external_references type="UNIPROTKB">Q2FW39</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="43">
+                <name>Small ribosomal subunit protein uS10</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011598503</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKQKIRIRLKAYDHRVIDQSAEKIVETAKRSGADVSGPIPLPTEKSVYTIIRAVHKYKDSREQFEQRTHKRLIDIVNPT
+PKTVDALMGLNLPSGVDIEIKL</string>
+                    <external_references type="UNIPROTKB">A5IV35</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="44">
+                <name>30S ribosomal protein S11</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013907977999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARKQVSRKRRVKKNIENGVAHIRSTFNNTIVTITDEFGNALSWSSAGALGFKGSKKSTPFAAQMASETASKSAMEHGLK
+TVEVTVKGPGPGRESAIRALQSAGLEVTAIRDVTPVPHNGCRPPKRRRV</string>
+                    <external_references type="UNIPROTKB">Q2FW31</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="45">
+                <name>30S ribosomal protein S12</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.01532087</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPTINQLVRKPRQSKIKKSDSPALNKGFNSKKKKFTDLNSPQKRGVCTRVGTMTPKKPNSALRKYARVRLSNNIEINAYI
+PGIGHNLQEHSVVLVRGGRVKDLPGVRYHIVRGALDTSGVDGRRQGRSLYGTKKPKN</string>
+                    <external_references type="UNIPROTKB">P0A0H0</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="46">
+                <name>30S ribosomal protein S13</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013747918999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARIAGVDIPREKRVVISLTYIYGIGTSTAQKILEEANVSADTRVKDLTDDELGRIREVVDGYKVEGDLRRETNLNIKRL
+MEISSYRGIRHRRGLPVRGQKTKNNARTRKGPVKTVANKKK</string>
+                    <external_references type="UNIPROTKB">Q2FW30</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="47">
+                <name>30S ribosomal protein S14 type Z</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007317769</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKTSMVAKQQKKQKYAVREYTRCERCGRPHSVYRKFKLCRICFRELAYKGQIPGVRKASW</string>
+                    <external_references type="UNIPROTKB">Q2FW19</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="48">
+                <name>30S ribosomal protein S15</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.010634329999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAISQERKNEIIKEYRVHETDTGSPEVQIAVLTAEINAVNEHLRTHKKDHHSRRGLLKMVGRRRHLLNYLRSKDIQRYRE
+LIKSLGIRR</string>
+                    <external_references type="UNIPROTKB">Q2G2Q1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="49">
+                <name>30S ribosomal protein S16</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.010253886</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAVKIRLTRLGSKRNPFYRIVVADARSPRDGRIIEQIGTYNPTSANAPEIKVDEALALKWLNDGAKPTDTVHNILSKEGI
+MKKFDEQKKAK</string>
+                    <external_references type="UNIPROTKB">Q2FZ45</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="50">
+                <name>30S ribosomal protein S17</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.010196888000000001</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSERNDRKVYVGKVVSDKMDKTITVLVETYKTHKLYGKRVKYSKKYKTHDENNSAKLGDIVKIQETRPLSATKRFRLVEI
+VEESVII</string>
+                    <external_references type="UNIPROTKB">Q2FW15</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="51">
+                <name>30S ribosomal protein S18</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009332018</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAGGPRRGGRRRKKVCYFTANGITHIDYKDTELLKRFISERGKILPRRVTGTSAKYQRMLTTAIKRSRHMALLPYVKEEQ</string>
+                    <external_references type="UNIPROTKB">Q2G111</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="52">
+                <name>30S ribosomal protein S19</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.010639309</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARSIKKGPFVDEHLMKKVEAQEGSEKKQVIKTWSRRSTIFPNFIGHTFAVYDGRKHVPVYVTEDMVGHKLGEFAPTRTF
+KGHVADDKKTRR</string>
+                    <external_references type="UNIPROTKB">Q2FW10</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="53">
+                <name>30S ribosomal protein S20</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="93061">Staphylococcus aureus subsp. aureus NCTC 8325</organism>
+                    <strain>8325-4</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009039472</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MANIKSAIKRVKTTEKAEARNISQKSAMRTAVKNAKTAVSNNADNKNELVSLAVKLVDKAAQSNLIHSNKADRIKSQLMT
+ANK</string>
+                    <external_references type="UNIPROTKB">Q2FXY6</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="54">
+                <name>MAGNESIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">2.4305e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>169</number_of_copies>
+                <formula>MG</formula>
+            </ligand>
+            <ligand macromolecule_id="55">
+                <name>SPERMIDINE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000145246</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <formula>SPD</formula>
+            </ligand>
+            <ligand macromolecule_id="56">
+                <name>1,4-DIAMINOBUTANE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">8.815099999999999e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>PUT</formula>
+            </ligand>
+            <ligand macromolecule_id="57">
+                <name>GUANOSINE-5'-DIPHOSPHATE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000443201</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>GDP</formula>
+            </ligand>
+            <ligand macromolecule_id="58">
+                <name>2-[(3~{R},4~{S},5~{S},8~{S},9~{S},10~{S},11~{R},13~{S},14~{S},16~{S})-16-acetyloxy-4,8,10,14-tetramethyl-3,11-bis(oxidanyl)-1,2,3,4,5,6,7,9,11,12,13,15,16,17-tetradecahydrocyclopenta[a]phenanthren-17-yl]-5-cyclopentyl-pentanoic acid</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000546778</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>WUX</formula>
+            </ligand>
+            <ligand macromolecule_id="59">
+                <name>ZINC ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">6.5409e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <formula>ZN</formula>
+            </ligand>
+            <ligand macromolecule_id="60">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>3169</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>C8H18N2O4S</formula>
+                            <name>HEPES-KOH</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">95.0</concentration>
+                            <formula>KCl</formula>
+                            <name>Potassium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">5.0</concentration>
+                            <formula>NH4Cl</formula>
+                            <name>Ammonium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">5.0</concentration>
+                            <formula>Mg(OAc)2</formula>
+                            <name>Magnesium acetate</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">0.5</concentration>
+                            <formula>CaCl2</formula>
+                            <name>Calcium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">8.0</concentration>
+                            <formula>(CH2)4(NH2)2</formula>
+                            <name>Putrescine</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.0</concentration>
+                            <formula>C7H19N3</formula>
+                            <name>Spermidine</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">0.4</concentration>
+                            <formula>C33H50O6Na</formula>
+                            <name>Fusidic acid cyclopentane</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/1</model>
+                        <material>COPPER</material>
+                        <mesh>200</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>CONTINUOUS</film_topology>
+                            <film_thickness>2.0</film_thickness>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">15</time>
+                            <atmosphere>AIR</atmosphere>
+                            <pressure units="kPa">0.039</pressure>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">90</chamber_humidity>
+                        <chamber_temperature units="K">277.15</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.7000000000000001</nominal_defocus_min>
+                    <calibrated_defocus_min units="µm">0.2</calibrated_defocus_min>
+                    <nominal_defocus_max units="µm">1.3</nominal_defocus_max>
+                    <calibrated_defocus_max units="µm">2.4</calibrated_defocus_max>
+                    <nominal_magnification>165000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>TFS Selectris</name>
+                            <slit_width units="eV">10</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>TFS FALCON 4i (4k x 4k)</film_or_detector_model>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>17252</number_real_images>
+                            <average_exposure_time units="s">2.23</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">27.77</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>559995</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <number_classes_used>9</number_classes_used>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">2.02</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.1.2</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>303005</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.0.2</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.1.2</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>10</number_classes>
+                    <average_number_members_per_class>35000.0</average_number_members_per_class>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.1.2</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="1372001">
+        <file>emd_17364.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>700</col>
+            <row>700</row>
+            <sec>700</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>700</x>
+            <y>700</y>
+            <z>700</z>
+        </spacing>
+        <cell>
+            <a units="Å">509.59998</a>
+            <b units="Å">509.59998</b>
+            <c units="Å">509.59998</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-2.3458745</minimum>
+            <maximum>5.370636</maximum>
+            <average>0.0030986364</average>
+            <std>0.06340962</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.728</x>
+            <y units="Å">0.728</y>
+            <z units="Å">0.728</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.2</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-17364::::</label>
+        <annotation_details>Local filtered map</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>7NHM</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>2XEX</access_code>
+                    <chain>
+                        <chain_id>E</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>7SSD</access_code>
+                    <chain>
+                        <chain_id>D</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_17364_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="1372001">
+                <file>emd_17364_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>700</col>
+                    <row>700</row>
+                    <sec>700</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>700</x>
+                    <y>700</y>
+                    <z>700</z>
+                </spacing>
+                <cell>
+                    <a units="Å">509.59998</a>
+                    <b units="Å">509.59998</b>
+                    <c units="Å">509.59998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.4222868</minimum>
+                    <maximum>1.2550161</maximum>
+                    <average>0.000452915</average>
+                    <std>0.02145746</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.728</x>
+                    <y units="Å">0.728</y>
+                    <z units="Å">0.728</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-17364::::</label>
+                <annotation_details>Local map around EF-G</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="1372001">
+                <file>emd_17364_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>700</col>
+                    <row>700</row>
+                    <sec>700</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>700</x>
+                    <y>700</y>
+                    <z>700</z>
+                </spacing>
+                <cell>
+                    <a units="Å">509.59998</a>
+                    <b units="Å">509.59998</b>
+                    <c units="Å">509.59998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.35322946</minimum>
+                    <maximum>1.6101542</maximum>
+                    <average>0.00037055818</average>
+                    <std>0.03454507</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.728</x>
+                    <y units="Å">0.728</y>
+                    <z units="Å">0.728</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-17364::::</label>
+                <annotation_details>Unsharpened map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="1372001">
+                <file>emd_17364_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>700</col>
+                    <row>700</row>
+                    <sec>700</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>700</x>
+                    <y>700</y>
+                    <z>700</z>
+                </spacing>
+                <cell>
+                    <a units="Å">509.59998</a>
+                    <b units="Å">509.59998</b>
+                    <c units="Å">509.59998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.8589568</minimum>
+                    <maximum>2.1399965</maximum>
+                    <average>0.0013557336</average>
+                    <std>0.10151566</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.728</x>
+                    <y units="Å">0.728</y>
+                    <z units="Å">0.728</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-17364::::</label>
+                <annotation_details>Half map B</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="1372001">
+                <file>emd_17364_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>700</col>
+                    <row>700</row>
+                    <sec>700</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>700</x>
+                    <y>700</y>
+                    <z>700</z>
+                </spacing>
+                <cell>
+                    <a units="Å">509.59998</a>
+                    <b units="Å">509.59998</b>
+                    <c units="Å">509.59998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.8179948</minimum>
+                    <maximum>2.1473858</maximum>
+                    <average>0.0013589574</average>
+                    <std>0.10160566</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.728</x>
+                    <y units="Å">0.728</y>
+                    <z units="Å">0.728</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-17364::::</label>
+                <annotation_details>Half map A</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

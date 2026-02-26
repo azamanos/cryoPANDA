@@ -1,0 +1,147 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10099" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2017-05-17</depositionDate>
+            <releaseDate>2017-08-29</releaseDate>
+            <updateDate>2017-08-29</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of Hrd1 and Hrd3 complex</title>
+        <correspondingAuthor private="true">
+            <firstName>Maofu</firstName>
+            <lastName>Liao</lastName>
+            <organization type="academic">Department of Cell Biology, Harvard Medical School</organization>
+            <street>250 Longwood Ave</street>
+            <townOrCity>Boston</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02115</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Tom</firstName>
+            <middleName>A</middleName>
+            <lastName>Rapoport</lastName>
+            <organization type="academic">Howard Hughes Medical Institute and Department of Cell Biology, Harvard Medical School</organization>
+            <street>240 Longwood Ave</street>
+            <townOrCity>Boston</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>1101</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <firstName>Maofu</firstName>
+            <lastName>Liao</lastName>
+            <organization type="academic">Department of Cell Biology, Harvard Medical School</organization>
+            <street>250 Longwood Ave</street>
+            <townOrCity>Boston</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>1101</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Mi WM</author>
+            <author>Schoebel SS</author>
+            <author>Stein AS</author>
+            <author>Rapoport TAR</author>
+            <author>Liao ML</author>
+        </authorsList>
+        <datasetSize units="GB">708.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10099</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-8639</emdbEntry>
+            <emdbEntry>EMD-8638</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Schoebel S</author>
+                    <author order="2">Mi W</author>
+                    <author order="3">Stein A</author>
+                    <author order="4">Ovchinnikov S</author>
+                    <author order="5">Pavlovicz R</author>
+                    <author order="6">DiMaio F</author>
+                    <author order="7">Baker D</author>
+                    <author order="8">Chambers MG</author>
+                    <author order="9">Su H</author>
+                    <author order="10">Li D</author>
+                    <author order="11">Rapoport TA</author>
+                    <author order="12">Liao M</author>
+                    <title>Cryo-EM structure of the protein-conducting ERAD channel Hrd1 in complex with Hrd3</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <year>2017</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/nature23314</externalReferences>
+                    <externalReferences type="pubmed">28682307</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>summed frame micrographs of Hrd1/Hrd3 complex</name>
+        <directory>/data/Hrd13_images</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5361</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.35</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.35</pixelHeight>
+        </dimensions>
+        <details>Files are named from Ucsf_stack_0001.mrc to Ucsf_stack_5361.mrc
+These are raw micrographs after drift correction from MotionCor2 without dose weighting.</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>dose-weighted summed frame micrographs of Hrd1/Hrd3 complex</name>
+        <directory>/data/Hrd13_images_DW</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5361</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.35</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.35</pixelHeight>
+        </dimensions>
+        <details>Files are named from Ucsf_stack_0001_DW.mrc to Ucsf_stack_5361_DW.mrc
+These are summed micrographs after drift correction from MotionCor2 with dose-weighting</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>picked particles of Hrd1/Hrd3 complex</name>
+        <directory>/data/Hrd13_particles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1015288</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>192</imageWidth>
+            <pixelWidth>1.35</pixelWidth>
+            <imageHeight>192</imageHeight>
+            <pixelHeight>1.35</pixelHeight>
+        </dimensions>
+        <details>particles are in three files 
+Hrd13_July25-26_fixs5_i_n1.mrc 
+Hrd13_July27-28_fixs5_i_n1.mrc
+Hrd13_July29-31_fixs5_i_n1.mrc
+total particle number from above three files is 1015288.
+corresponding star files are available as well
+
+Under folder Hrd13_svco-files_bin3_1015288 are coordinate files of picked particles, and files are SPIDER format. The coordinates are for images binned by 3, so if the users want to box particles from raw images, they need to multiple 3 for all coordinates to get the right value.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

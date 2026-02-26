@@ -1,0 +1,121 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11618" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-07-05</depositionDate>
+            <releaseDate>2023-08-25</releaseDate>
+            <updateDate>2024-08-29</updateDate>
+        </keyDates>
+        <title>Single-particle cryo-EM dataset of an asymmetric nucleosome (10-N-0)</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-3405-6021</authorORCID>
+            <firstName>Guillaume</firstName>
+            <lastName>Gaullier</lastName>
+            <organization type="academic">Uppsala University</organization>
+            <street>Lägerhyddsvägen 1</street>
+            <townOrCity>Uppsala</townOrCity>
+            <country>Sweden</country>
+            <postOrZipCode>752 37</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-3405-6021</authorORCID>
+            <firstName>Guillaume</firstName>
+            <lastName>Gaullier</lastName>
+            <organization type="academic">Uppsala University</organization>
+            <street>Lägerhyddsvägen 1</street>
+            <townOrCity>Uppsala</townOrCity>
+            <country>Sweden</country>
+            <postOrZipCode>752 37</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-3405-6021">Gaullier G</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">1.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11618</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-17944</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-3405-6021" order="1">Gaullier G</author>
+                    <author authorORCID="0000-0002-8559-8894" order="2">Sabantsev A</author>
+                    <author authorORCID="0000-0003-2518-5606" order="3">Lehmann LC</author>
+                    <author order="4">Brackmann K</author>
+                    <author authorORCID="0000-0002-1424-5469" order="5">Dimakou D</author>
+                    <author authorORCID="0000-0002-0061-7372" order="6">Halic M</author>
+                    <author authorORCID="0000-0003-2614-6932" order="7">Hewitt G</author>
+                    <author authorORCID="0000-0001-6936-6834" order="8">Boulton SJ</author>
+                    <author authorORCID="0000-0001-6807-8654" order="9">Deindl S</author>
+                    <title>Structure and dynamics of the chromatin remodeler ALC1 bound to a PARylated nucleosome</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation>Elife</journalAbbreviation>
+                    <country></country>
+                    <volume>10</volume>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.7554/elife.71420</externalReferences>
+                    <externalReferences type="pubmed">34486521</externalReferences>
+                    <details>This dataset was collected in October 2021, during commissioning of the Glacios microscope at the Department of Cell and Molecular Biology, Uppsala University. The sample is an asymmetric nucleosome (10-N-0, with 10 additional base pairs on the strong side of the Widom 601 nucleosome positioning sequence) that had been stored for more than a year at 4C at the time the grid was vitrified. A fraction of the nucleosomes in the dataset are partly unwrapped.
+
+Gain-corrected movies from a Falcon 3EC camera, 0.952 A/pix, 40 frames, total dose 40.01 e/A2. The camera produced MRC files that were subsequently converted to tif format and compressed using relion_convert_to_tiff from Relion 3.1.3.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned movies</name>
+        <directory>/data/movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1537</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.952</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.952</pixelHeight>
+        </dimensions>
+        <details>The pixel size of 0.9783 A/pix in the tiff header is wrong, the correct one is 0.952 as indicated in the deposition metadata. This discrepancy comes from the fact that this dataset was collected during commissioning of the microscope, before the pixel size at this magnification was calibrated.
+
+The coordinates deposited here are the particles that gave the reconstruction deposited as EMD-17944.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/movies/GridSquare_*/Data/*_Fractions.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/particles/J43_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Extracted particles</name>
+        <directory>/data/particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>68401</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>0.952</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>0.952</pixelHeight>
+        </dimensions>
+        <details>Particle stack extracted from motion-corrected micrographs. Running ab initio reconstruction and 3D refinement on them should reproduce the reconstruction deposited as EMD-17944.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/particles/J43_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

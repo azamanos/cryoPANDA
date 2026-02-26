@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_2/emdb.xsd" emdb_id="EMD-22223" version="3.0.2.2">
+    <admin>
+        <current_status>
+            <date>2021-01-13</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-06-26</deposition>
+            <header_release>2021-01-06</header_release>
+            <map_release>2021-01-06</map_release>
+            <update>2021-01-13</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>T32 HL069765</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>U19 AI142790</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>F31 AI145189</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Center for Advancing Translational Sciences (NIH/NCATS)</funding_body>
+                <code>UL1 TR002243</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Defense Threat Reduction Agency (DTRA)</funding_body>
+                <code>HDTRA1-13-1-0034</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>CryoEM structure of Chimeric Eastern Equine Encephalitis Virus with Fab of EEEV-33 Antibody</title>
+        <authors_list>
+            <author>Williamson LE</author>
+            <author>Gilliland T</author>
+            <author>Yadav PK</author>
+            <author>Binshtein E</author>
+            <author>Bombardi R</author>
+            <author>Kose N</author>
+            <author>Nargi RS</author>
+            <author>Sutton RM</author>
+            <author>Armstrong E</author>
+            <author>Carnahan RH</author>
+            <author>Walker LM</author>
+            <author>Kim AS</author>
+            <author>Fox J</author>
+            <author>Diamond MS</author>
+            <author>Ohi M</author>
+            <author>Klimstra WB</author>
+            <author>Crowe JE</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Williamson LE</author>
+                    <author order="2">Gilliland Jr T</author>
+                    <author order="3">Yadav PK</author>
+                    <author order="4">Binshtein E</author>
+                    <author order="5">Bombardi R</author>
+                    <author order="6">Kose N</author>
+                    <author order="7">Nargi RS</author>
+                    <author order="8">Sutton RE</author>
+                    <author order="9">Durie CL</author>
+                    <author order="10">Armstrong E</author>
+                    <author order="11">Carnahan RH</author>
+                    <author order="12">Walker LM</author>
+                    <author order="13">Kim AS</author>
+                    <author order="14">Fox JM</author>
+                    <author order="15">Diamond MS</author>
+                    <author order="16">Ohi MD</author>
+                    <author order="17">Klimstra WB</author>
+                    <author order="18">Crowe Jr JE</author>
+                    <title>Human Antibodies Protect against Aerosolized Eastern Equine Encephalitis Virus Infection.</title>
+                    <journal_abbreviation>Cell</journal_abbreviation>
+                    <volume>183</volume>
+                    <first_page>1884</first_page>
+                    <last_page>1900.e23</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">33301709</external_references>
+                    <external_references type="DOI">doi:10.1016/j.cell.2020.11.011</external_references>
+                    <external_references type="ISSN">1097-4172</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-22223</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Eastern equine encephalitis virus</name>
+        <supramolecule_list>
+            <virus_supramolecule supramolecule_id="1">
+                <name>Eastern equine encephalitis virus</name>
+                <parent>0</parent>
+                <details>Virus was purified from mammalian cell culture.</details>
+                <sci_species_name ncbi="11021">Eastern equine encephalitis virus</sci_species_name>
+                <sci_species_strain>Sindbis</sci_species_strain>
+                <natural_host database="NCBI">
+                    <organism ncbi="329109">Culiseta melanura</organism>
+                </natural_host>
+                <host_system database="NCBI">
+                    <recombinant_organism ncbi="7160">Aedes albopictus</recombinant_organism>
+                    <recombinant_cell>C6/36 cells</recombinant_cell>
+                </host_system>
+                <molecular_weight>
+                    <theoretical units="MDa">6</theoretical>
+                </molecular_weight>
+                <virus_shell shell_id="1">
+                    <name>Eastern equine encephalitis virus</name>
+                    <diameter units="Å">850.0</diameter>
+                    <triangulation>4</triangulation>
+                </virus_shell>
+                <virus_type>VIRION</virus_type>
+                <virus_isolate>SUBSPECIES</virus_isolate>
+                <virus_enveloped>true</virus_enveloped>
+                <virus_empty>true</virus_empty>
+            </virus_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>threeDArray</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.1</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <name>Tris-HCl</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">0.1</concentration>
+                            <name>EDTA</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">100.0</concentration>
+                            <name>Sodium Chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="x">1.0</concentration>
+                            <name>DPBS</name>
+                        </component>
+                        <details>Solutions were made fresh</details>
+                    </buffer>
+                    <grid>
+                        <model>Homemade</model>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                        <support_film film_type_id="1">
+                            <film_topology>LACEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <atmosphere>AIR</atmosphere>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>blot for 10 seconds before plunging. </details>
+                    </vitrification>
+                    <details>Purified SINV/EEEV particles and recombinant Fab mixture</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">100.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.5</nominal_defocus_max>
+                    <nominal_magnification>18000.0</nominal_magnification>
+                    <specimen_holder_model>OTHER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <basic/>
+                    </alignment_procedure>
+                    <details>Preliminary grid screening was performed manually</details>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <frames_per_image>1-50</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>2200</number_real_images>
+                            <average_exposure_time units="s">10.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">50.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>18000</number_selected>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>Gctf</name>
+                            <version>1.06</version>
+                            <processing_details>Contrast transfer function  parameters was estimated using Gctf</processing_details>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>I</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">7.24</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3</version>
+                            <processing_details>Final masked 3D refinement and postprocessing</processing_details>
+                        </software>
+                    </software_list>
+                    <number_images_used>12982</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>OTHER</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="2048001">
+        <file>emd_22223.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>800</col>
+            <row>800</row>
+            <sec>800</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>800</x>
+            <y>800</y>
+            <z>800</z>
+        </spacing>
+        <cell>
+            <a units="Å">1312.0</a>
+            <b units="Å">1312.0</b>
+            <c units="Å">1312.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.017985962</minimum>
+            <maximum>0.03400083</maximum>
+            <average>0.00033728496</average>
+            <std>0.001914548</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.64</x>
+            <y units="Å">1.64</y>
+            <z units="Å">1.64</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0065</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-22223::::</label>
+        <annotation_details>Eastern Equine Encephalitis Virus (EEEV)_Fab33 complex</annotation_details>
+    </map>
+    <interpretation>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="2048001">
+                <file>emd_22223_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>800</col>
+                    <row>800</row>
+                    <sec>800</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>800</x>
+                    <y>800</y>
+                    <z>800</z>
+                </spacing>
+                <cell>
+                    <a units="Å">1312.0</a>
+                    <b units="Å">1312.0</b>
+                    <c units="Å">1312.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.017985962</minimum>
+                    <maximum>0.03400083</maximum>
+                    <average>0.00022797273</average>
+                    <std>0.0015770894</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.64</x>
+                    <y units="Å">1.64</y>
+                    <z units="Å">1.64</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-22223::::</label>
+                <annotation_details>Eastern Equine Encephalitis Virus (EEEV)_Fab33 complex</annotation_details>
+            </additional_map>
+        </additional_map_list>
+    </interpretation>
+</emd>

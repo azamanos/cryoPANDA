@@ -1,0 +1,128 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11615" schemaVersion="0.63" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-07-13</depositionDate>
+            <releaseDate>2023-07-28</releaseDate>
+            <updateDate>2023-07-28</updateDate>
+        </keyDates>
+        <title>Cryo-EM Motion Corrected Micrographs of Human Prothrombin:Prothrombinase</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-2300-4891</authorORCID>
+            <firstName>Enrico</firstName>
+            <lastName>Di Cera</lastName>
+            <organization type="academic">Saint Louis University</organization>
+            <street>1100 S. Grand Blvd.</street>
+            <townOrCity>SAINT LOUIS</townOrCity>
+            <stateOrProvince>Missouri</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>63104</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-2300-4891</authorORCID>
+            <firstName>Enrico</firstName>
+            <lastName>Di Cera</lastName>
+            <organization type="academic">Saint Louis University</organization>
+            <street>1100 S. Grand Blvd.</street>
+            <townOrCity>St. Louis</townOrCity>
+            <stateOrProvince>Missouri</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>63104</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-2748-5530">Ruben EA</author>
+            <author authorORCID="0000-0002-0566-2076">Summers B</author>
+            <author authorORCID="0000-0001-5170-2000">Rau MJ</author>
+            <author authorORCID="0000-0002-7907-3602">Fitzpatrick JAJ</author>
+            <author authorORCID="0000-0003-2300-4891">Di Cera E</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</fundingBody>
+                <code>U24 GM129547</code>
+                <country>United States</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>National Institutes of Health/National Heart, Lung, and Blood Institute (NIH/NHLBI)</fundingBody>
+                <code>R01 HL139554</code>
+                <country>United States</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>National Institutes of Health/National Heart, Lung, and Blood Institute (NIH/NHLBI)</fundingBody>
+                <code>R01 HL147821</code>
+                <country>United States</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>National Institutes of Health/National Heart, Lung, and Blood Institute (NIH/NHLBI)</fundingBody>
+                <code>R01 HL049413</code>
+                <country>United States</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>National Institutes of Health/National Cancer Institute (NIH/NCI)</fundingBody>
+                <code>P30 CA091842</code>
+                <country>United States</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">3.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11615</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-26060</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-2748-5530" order="1">Ruben EA</author>
+                    <author authorORCID="0000-0002-0566-2076" order="2">Summers B</author>
+                    <author authorORCID="0000-0001-5170-2000" order="3">Rau MJ</author>
+                    <author authorORCID="0000-0002-7907-3602" order="4">Fitzpatrick JAJ</author>
+                    <author authorORCID="0000-0003-2300-4891" order="5">Di Cera E</author>
+                    <title>Cryo-EM structure of the prothrombin-prothrombinase complex</title>
+                    <journal>Blood</journal>
+                    <journalAbbreviation>Blood</journalAbbreviation>
+                    <country></country>
+                    <issue>24</issue>
+                    <volume>139</volume>
+                    <firstPage>3463</firstPage>
+                    <lastPage>3473</lastPage>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1182/blood.2022015807</externalReferences>
+                    <externalReferences type="pubmed">35427420</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion Corrected Micrographs of Human prothrombin:prothrombinase</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>10217</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.412</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.412</pixelHeight>
+        </dimensions>
+        <details>Gatan K3 Direct Electron Detector
+GIF BioQuantum 968 energy filter
+300 KV
+Total Dose 50 e/A^2
+Super Resolution Pixel size 0.412 Angstroms
+Physical Pixel size 0.824 Angstrom 
+CS 2.7 mm
+-1 to -3 um defocus
+Motion Corrected</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/MotionCorrected*/*rigid_aligned.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

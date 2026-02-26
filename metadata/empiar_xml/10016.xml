@@ -1,0 +1,78 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10016" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2014-06-04</depositionDate>
+            <releaseDate>2014-11-06</releaseDate>
+            <updateDate>2016-03-17</updateDate>
+        </keyDates>
+        <title>Yeast 80S Ribosome - tRNA- Kozak mRNA complexes, Frealign Input Particle Stack</title>
+        <correspondingAuthor private="true">
+            <firstName>Axel</firstName>
+            <lastName>Brilot</lastName>
+            <organization type="academic">Department of Biochemistry, Rosenstiel Basic Medical Sciences Research Center, Brandeis University</organization>
+            <townOrCity>Waltham</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02454</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Nikolaus</firstName>
+            <lastName>Grigorieff</lastName>
+            <organization type="academic">Janelia Farm Research Campus, Howard Hughes Medical Institute</organization>
+            <townOrCity>Ashburn</townOrCity>
+            <stateOrProvince>VA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>20147</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Svidritskiy E</author>
+            <author>Brilot AF</author>
+            <author>Koh CS</author>
+            <author>Grigorieff N</author>
+            <author>Korostelev AA</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2015-10-28</date>
+                <statusCode>REL</statusCode>
+                <details>Restructured the entry directory to have "data" and ".private".</details>
+            </version>
+            <version>
+                <versionNumber>2</versionNumber>
+                <date>2016-03-17</date>
+                <statusCode>REL</statusCode>
+                <details>Added Frealign parameter files that correspond to the classes of the deposited data.</details>
+            </version>
+        </versionHistory>
+        <datasetSize units="GB">42.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10016</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-5976</emdbEntry>
+            <emdbEntry>EMD-5977</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>Frealign input particle stack</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>86866</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>360</imageWidth>
+            <pixelWidth>1.05</pixelWidth>
+            <imageHeight>360</imageHeight>
+            <pixelHeight>1.05</pixelHeight>
+        </dimensions>
+        <details>Processing of raw images: Normalized in Imagic (normvar, whole image average=0, sigma=10). Originally the data was classified into five classes. The five Frealign parameter files that correspond to these classes can be found in "parfiles" directory.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

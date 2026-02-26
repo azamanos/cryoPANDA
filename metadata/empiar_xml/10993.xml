@@ -1,0 +1,122 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10993" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-03-28</depositionDate>
+            <releaseDate>2022-04-19</releaseDate>
+            <updateDate>2022-04-19</updateDate>
+        </keyDates>
+        <title>Cryo-EM micrographs of BMV TLS RNA</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-3718-1891</authorORCID>
+            <firstName>Jeffrey</firstName>
+            <middleName>S.</middleName>
+            <lastName>Kieft</lastName>
+            <organization type="academic">University of Colorado Anschutz Medical Campus</organization>
+            <street>UC Denver, Dept of Biochemistry</street>
+            <townOrCity>Aurora</townOrCity>
+            <stateOrProvince>CO</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>80045</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-3718-1891</authorORCID>
+            <firstName>Jeffrey</firstName>
+            <middleName>S.</middleName>
+            <lastName>Kieft</lastName>
+            <organization type="academic">University of Colorado Anschutz Medical Campus</organization>
+            <street>UC Denver, Dept of Biochemistry</street>
+            <townOrCity>Aurora</townOrCity>
+            <stateOrProvince>CO</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>80045</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-6526-7158">Bonilla SL</author>
+            <author authorORCID="0000-0002-6471-4243">Sherlock ME</author>
+            <author authorORCID="0000-0002-5960-6109">MacFadden A</author>
+            <author authorORCID="0000-0002-3718-1891">Kieft JS</author>
+        </authorsList>
+        <datasetSize units="TB">6.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10993</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-24952</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-6526-7158" order="1">Bonilla SL</author>
+                    <author authorORCID="0000-0002-6471-4243" order="2">Sherlock ME</author>
+                    <author authorORCID="0000-0002-5960-6109" order="3">MacFadden A</author>
+                    <author authorORCID="0000-0002-3718-1891" order="4">Kieft JS</author>
+                    <title>A viral RNA hijacks host machinery using dynamic conformational changes of a tRNA-like structure</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>6570</issue>
+                    <volume>374</volume>
+                    <firstPage>955</firstPage>
+                    <lastPage>960</lastPage>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.abe8526</externalReferences>
+                    <externalReferences type="pubmed">34793227</externalReferences>
+                    <details>This dataset contains 9746 motion corrected micrographs (4463 in one folder and 5283 in another folder). Motion correction was performed in CryoSPARC using 'Patch motion correction'.  The micrographs were generated from movies with 28 frames, collected in super resolution mode with a Titan Krios 300 kV TEM microscope. The pixel size is 0.412999 Å and the total exposure is 30 electrons per Å squared.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned micrographs (with and without dose-weighting), dataset 1</name>
+        <directory>/data/J1193/motioncorrected</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4463</numImagesOrTiltSeries>
+        <framesPerImage>28</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>28</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.413</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.413</pixelHeight>
+        </dimensions>
+        <details>Micrographs were motion corrected with cryoSPARC 'patch motion correction'. Total dose: 30 electrons per angstrom squared.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned micrographs (with and without dose-weighting), dataset 2</name>
+        <directory>/data/J1194/motioncorrected</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5283</numImagesOrTiltSeries>
+        <framesPerImage>28</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>28</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.413</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.413</pixelHeight>
+        </dimensions>
+        <details>Micrographs were motion corrected with cryoSPARC 'patch motion correction'. Total dose: 30 electrons per angstrom squared.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

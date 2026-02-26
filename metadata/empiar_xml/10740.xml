@@ -1,0 +1,143 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10740" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-06-07</depositionDate>
+            <releaseDate>2022-02-25</releaseDate>
+            <updateDate>2022-02-25</updateDate>
+        </keyDates>
+        <title>Cryo-EM of Mechanosensitive Ion Channel Flycatcher1 in GDN</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-4392-3898</authorORCID>
+            <firstName>Sebastian</firstName>
+            <lastName>Jojoa-Cruz</lastName>
+            <organization type="academic">The Scripps Research Institute</organization>
+            <street>10550 North Torrey Pines Road</street>
+            <townOrCity>San Diego</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>92037</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0001-7153-3769</authorORCID>
+            <firstName>Andrew</firstName>
+            <middleName>Barrett</middleName>
+            <lastName>Ward</lastName>
+            <organization type="academic">The Scripps Research Institute</organization>
+            <street>10550 North Torrey Pines Road</street>
+            <townOrCity>San Diego</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>92037</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-4392-3898">Jojoa-Cruz S</author>
+            <author authorORCID="0000-0002-4135-5356">Saotome K</author>
+            <author authorORCID="0000-0001-9445-6671">Lee WH</author>
+            <author authorORCID="0000-0003-0726-7034">Patapoutian A</author>
+            <author authorORCID="0000-0001-7153-3769">Ward AB</author>
+        </authorsList>
+        <datasetSize units="TB">5.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10740</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-24186</emdbEntry>
+            <emdbEntry>EMD-24187</emdbEntry>
+            <emdbEntry>EMD-24188</emdbEntry>
+            <emdbEntry>EMD-24189</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-4392-3898" order="1">Jojoa-Cruz S</author>
+                    <author authorORCID="0000-0002-4135-5356" order="2">Saotome K</author>
+                    <author authorORCID="0000-0003-4886-9824" order="3">Tsui CCA</author>
+                    <author authorORCID="0000-0001-9445-6671" order="4">Lee WH</author>
+                    <author authorORCID="0000-0001-6360-7959" order="5">Sansom MSP</author>
+                    <author authorORCID="0000-0001-9580-3380" order="6">Murthy SE</author>
+                    <author authorORCID="0000-0003-0726-7034" order="7">Patapoutian A</author>
+                    <author authorORCID="0000-0001-7153-3769" order="8">Ward AB</author>
+                    <title>Structural insights into the Venus flytrap mechanosensitive ion channel Flycatcher1</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>13</volume>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-022-28511-5</externalReferences>
+                    <externalReferences type="pubmed">35165281</externalReferences>
+                    <details>Raw movies and gain references for two datasets. More information about the datasets are in the file "Description_FLYC1datasets". Final particle stack used for the C1 map is also included.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of FLYC1 in GDN, dataset 1</name>
+        <directory>/data/EMPIAR_sjojoa/frames/19may24k/rawdata</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2648</numImagesOrTiltSeries>
+        <framesPerImage>43</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.03</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.03</pixelHeight>
+        </dimensions>
+        <details>particles.star file corresponds to only particles from this dataset (dataset 1) and not dataset 2. Only particles from dataset 1 were used for bayesian polishing and final refinements to obtain the final C1 volume (before symmetry expansion).
+Description_FLYC1datasets_v2.txt file contains further information about data collection.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIAR_sjojoa/frames/19may24k/rawdata/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR_sjojoa/particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR_sjojoa</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of FLYC1 in GDN, dataset 2</name>
+        <directory>/data/EMPIAR_sjojoa/frames/19jul28d/rawdata</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2648</numImagesOrTiltSeries>
+        <framesPerImage>42</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.03</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.03</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIAR_sjojoa/frames/19jul28d/rawdata/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Gain references for dataset 1 and dataset 2</name>
+        <directory>/data/EMPIAR_sjojoa/gains</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.03</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.03</pixelHeight>
+        </dimensions>
+        <details>Gain references for each dataset:
+-Gain reference for dataset 1: 19may24k_ref.mrc
+-Gain reference for dataset 2: 19jul28d_ref.mrc</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIAR_sjojoa/gains/*mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

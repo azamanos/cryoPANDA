@@ -1,0 +1,72 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10007" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2014-02-20</depositionDate>
+            <releaseDate>2014-02-21</releaseDate>
+            <updateDate>2014-02-21</updateDate>
+        </keyDates>
+        <title>Low-contrast particle stack for HIV-1 Env gp160 precursor (Spider stack)</title>
+        <correspondingAuthor private="true">
+            <firstName>Youdong</firstName>
+            <lastName>Mao</lastName>
+            <organization type="academic">Dana-Farber Cancer Institute</organization>
+            <townOrCity>Boston</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>02215</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Joseph</firstName>
+            <lastName>Sodroski</lastName>
+            <organization type="academic">Dana-Farber Cancer Institute</organization>
+            <townOrCity>Boston</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>02215</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Mao Y</author>
+            <author>Wang L</author>
+            <author>Gu C</author>
+            <author>Herschhorn A</author>
+            <author>Desormeaux A</author>
+            <author>Finzi A</author>
+            <author>Xiang SH</author>
+            <author>Sodroski JG</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2015-10-27</date>
+                <statusCode>REL</statusCode>
+                <details>Restructured the entry directory to have "data" and ".private".</details>
+            </version>
+        </versionHistory>
+        <datasetSize units="GB">164.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10007</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-5447</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>U115 raw particle images</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>SPIDER</headerFormat>
+        <dataFormat>SPIDER</dataFormat>
+        <numImagesOrTiltSeries>670023</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>0.74688</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>0.74688</pixelHeight>
+        </dimensions>
+        <details>All raw particle images in the *.dat SPIDER stack files were only inverted in contrast without any further processing such as filtering or binning. Defocus information is provided in the sel_group.dat files.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

@@ -1,0 +1,331 @@
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" emdb_id="EMD-4347" version="3.0.0.0" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_0_0/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2018-07-04</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2018-03-28</deposition>
+            <header_release>2018-04-04</header_release>
+            <map_release>2018-07-04</map_release>
+            <update>2018-07-04</update>
+        </key_dates>
+        <title>Structure of the herpes-simplex virus portal-vertex</title>
+        <authors_list>
+            <author>McElwee M</author>
+            <author>Vijayakrishnan S</author>
+            <author>Rixon FJ</author>
+            <author>Bhella D</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">McElwee M</author>
+                    <author order="2">Vijayakrishnan S</author>
+                    <author order="3">Rixon F</author>
+                    <author order="4">Bhella D</author>
+                    <title>Structure of the herpes simplex virus portal-vertex.</title>
+                    <journal_abbreviation>PLoS Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>16</volume>
+                    <first_page>e2006191</first_page>
+                    <last_page>e2006191</last_page>
+                    <year>2018</year>
+                    <external_references type="PUBMED">29924793</external_references>
+                    <external_references type="DOI">doi:10.1371/journal.pbio.2006191</external_references>
+                    <external_references type="ISSN">1545-7885</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-4347</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Herpes simplex virus (type 1 / strain 17)</name>
+        <supramolecule_list>
+            <virus_supramolecule supramolecule_id="1">
+                <name>Herpes simplex virus (type 1 / strain 17)</name>
+                <parent>0</parent>
+                <details>Virus was propagated in BHK cells</details>
+                <sci_species_name ncbi="10299">Herpes simplex virus (type 1 / strain 17)</sci_species_name>
+                <natural_host database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_host>
+                <virus_shell shell_id="1">
+                    <name>Capsid</name>
+                    <diameter units="&#8491;">1250.0</diameter>
+                    <triangulation>16</triangulation>
+                </virus_shell>
+                <virus_type>VIRION</virus_type>
+                <virus_isolate>STRAIN</virus_isolate>
+                <virus_enveloped>true</virus_enveloped>
+                <virus_empty>false</virus_empty>
+            </virus_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>Portal</name>
+                <parent>1</parent>
+                <details>Dodecameric portal comprised of the pUL6 protein</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="10299">Herpes simplex virus (type 1 / strain 17)</organism>
+                </natural_source>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>Portal-vertex associated tegument protein</name>
+                <parent>1</parent>
+                <details>portal associated tail-like density comprised of ten copies of the pUL25 protein</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="10299">Herpes simplex virus (type 1 / strain 17)</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>7.2</ph>
+                        <details>Phosphate buffered saline</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/2</model>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY ARRAY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <atmosphere>AIR</atmosphere>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details />
+                    </vitrification>
+                    <details>Purified enveloped virions</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_magnification>81000.</nominal_magnification>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <detector_mode>INTEGRATING</detector_mode>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>3702</number_real_images>
+                            <average_exposure_time units="s">12.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/&#8491;^2">78.0</average_electron_dose_per_image>
+                            <details>Images were acquired as 40 fractions per micrograph at 1.78 angstroms/pixel sampling.</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>Images were motion-corrected using motioncor2
+Defocus estimation was performed using GCTF</details>
+                <particle_selection>
+                    <number_selected>12431</number_selected>
+                    <details>Autopicking in Relion</details>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>Gctf</name>
+                        </software>
+                    </software_list>
+                    <details>CTF correction was implemented through Relion</details>
+                </ctf_correction>
+                <startup_model type_of_model="NONE">
+                    <details>Starting model was calculated ab initio in Relion 2.1 assuming full icosahedral symmetry (I2).</details>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C5</point_group>
+                    </applied_symmetry>
+                    <algorithm>BACK PROJECTION</algorithm>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">7.7</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                    <details>Following definition of the class that featured the unique portal vertex, the metadata file was parsed to change sampling from 5x binning to 1.5x binning, and divide the dataset into two halves. Half-maps were calculated and processed to evaluate the FSC and for b-factor estimation.</details>
+                    <number_images_used>5337</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing />
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>10</number_classes>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                    <details>Origin and orientation values were determined by 3D auto refine in RELION, assuming full icosahedral symmetry (i.e. with full gold-standard methods). To compute the C5 symmetric map, we performed focussed classification on the refined dataset. Briefly, the symmetry of the dataset was expanded yielding a metadata file in which each particle image had 60 assigned views, corresponding to the 60-fold icosahedral redundancy. A cylindrical mask was prepared in SPIDER, that covered a single five-fold vertex. 3D classification in RELION was then performed, without orientation refinement (k=10). This led to the definition of a single class in which we could see the portal-vertex associated tegument (tail). The above analysis was performed on data with 5x binning.  The final reconstruction was calculated using 1.5x binned data. The portal-vertex class comprised 26,891 views from 5,337 particle images. Particle images contributed a median 5 views each, thus C5 symmetry is assumed to be applied.</details>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="864001">
+        <file>emd_4347.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>600</col>
+            <row>600</row>
+            <sec>600</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>600</x>
+            <y>600</y>
+            <z>600</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">1602.0</a>
+            <b units="&#8491;">1602.0</b>
+            <c units="&#8491;">1602.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.1443535</minimum>
+            <maximum>0.21554615</maximum>
+            <average>0.00019707222</average>
+            <std>0.02158095</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">2.67</x>
+            <y units="&#8491;">2.67</y>
+            <z units="&#8491;">2.67</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.05</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-4347::::</label>
+        <annotation_details>Reconstruction of the herpes simplex virus type 1 virion, with relaxed (C5) symmetry. The map is sharpened.</annotation_details>
+    </map>
+    <interpretation>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="864001">
+                <file>emd_4347_additional.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>600</col>
+                    <row>600</row>
+                    <sec>600</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>600</x>
+                    <y>600</y>
+                    <z>600</z>
+                </spacing>
+                <cell>
+                    <a units="&#8491;">1602.0</a>
+                    <b units="&#8491;">1602.0</b>
+                    <c units="&#8491;">1602.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.08962618</minimum>
+                    <maximum>0.12478677</maximum>
+                    <average>0.00019707222</average>
+                    <std>0.015881985</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="&#8491;">2.67</x>
+                    <y units="&#8491;">2.67</y>
+                    <z units="&#8491;">2.67</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <level>0.015</level>
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-4347::::</label>
+                <annotation_details>Reconstruction of the herpes simplex virus type 1 virion, with relaxed (C5) symmetry. The map is NOT sharpened.</annotation_details>
+            </additional_map>
+        </additional_map_list>
+    </interpretation>
+</emd>

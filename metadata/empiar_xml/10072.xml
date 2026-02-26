@@ -1,0 +1,114 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10072" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2016-08-17</depositionDate>
+            <releaseDate>2016-11-10</releaseDate>
+            <updateDate>2016-11-10</updateDate>
+        </keyDates>
+        <title>Structural basis for dynamic regulation of the human 26S proteasome</title>
+        <correspondingAuthor private="true">
+            <firstName>Youdong</firstName>
+            <middleName>Jack</middleName>
+            <lastName>Mao</lastName>
+            <organization type="academic">Dana-Farber Cancer Institute</organization>
+            <street>450 Brookline Ave</street>
+            <townOrCity>Boston</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02215</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Youdong</firstName>
+            <middleName>Jack</middleName>
+            <lastName>Mao</lastName>
+            <organization type="academic">Dana-Farber Cancer Institute</organization>
+            <street>450 Brookline Ave</street>
+            <townOrCity>Boston</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>1165</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Chen S</author>
+            <author>Wu J</author>
+            <author>Lu Y</author>
+            <author>Ma YB</author>
+            <author>Lee BH</author>
+            <author>Yu Z</author>
+            <author>Ouyang Q</author>
+            <author>Finley D</author>
+            <author>Kirschner MW</author>
+            <author>Mao Y</author>
+        </authorsList>
+        <datasetSize units="TB">2.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10072</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-8332</emdbEntry>
+            <emdbEntry>EMD-8333</emdbEntry>
+            <emdbEntry>EMD-8334</emdbEntry>
+            <emdbEntry>EMD-8335</emdbEntry>
+            <emdbEntry>EMD-8336</emdbEntry>
+            <emdbEntry>EMD-8337</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Chen S</author>
+                    <author order="2">Wu J</author>
+                    <title>Structural basis for dynamic regulation of the human 26S proteasome</title>
+                    <journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+                    <journalAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</journalAbbreviation>
+                    <country></country>
+                    <issue>46</issue>
+                    <volume>113</volume>
+                    <firstPage>12991</firstPage>
+                    <lastPage>12996</lastPage>
+                    <year>2016</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1073/pnas.1614614113</externalReferences>
+                    <externalReferences type="pubmed">27791164</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Drift-corrected micrographs of human 26S proteasome holoenzyme</name>
+        <directory>/data/micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>SPIDER</headerFormat>
+        <dataFormat>SPIDER</dataFormat>
+        <numImagesOrTiltSeries>6967</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>7420</imageWidth>
+            <pixelWidth>0.86</pixelWidth>
+            <imageHeight>7676</imageHeight>
+            <pixelHeight>0.86</pixelHeight>
+        </dimensions>
+        <details>The micrograph are the average from 30 re-aligned movie frames to minimize any effect of drift or sample movement, accumulating 30 electron per squared Angstrom in a 6 second exposure.</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Classified particle datasets for the human proteasome in four conformational states</name>
+        <directory>/data/particles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>506186</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>The description of particle stack: (1) 26S.mrcs  237,083 particles for double cap with dimension of 640*640. (2) 26S_A.mrcs   85,420 particles for double cap at SA state, the dimension of particles is 640*640; (3) 26SH_A.mrcs 139,236 particles for RP-CP complex at SA state, the dimension of particles is 360*360; (4) 26SH_B.mrcs 18,443 particles for RP-CP complex at SB state, the dimension of particles is 360*360; (5) 26SH_C.mrcs  10,622 particles for RP-CP complex at SC state, the dimension of particles is 360*360; (6) 26SH_D.mrcs 14,382 particles for RP-CP complex at SD state, the dimension of particles is 360*360; the pixel size of all the particles stack is 0.86 angstrom.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

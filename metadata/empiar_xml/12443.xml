@@ -1,0 +1,151 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12443" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-10-29</depositionDate>
+            <releaseDate>2025-02-03</releaseDate>
+            <updateDate>2025-02-03</updateDate>
+        </keyDates>
+        <title>Single particle reconstruction of human apo TRPM8 channel in a closed state</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-5582-2851</authorORCID>
+            <firstName>Mariusz</firstName>
+            <lastName>Czarnocki-Cieciura</lastName>
+            <organization type="academic">International Institute of Molecular and Cell Biology in Warsaw</organization>
+            <street>4 Ks. Trojdena Street</street>
+            <townOrCity>Warsaw</townOrCity>
+            <country>Poland</country>
+            <postOrZipCode>02-109</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-8632-0977</authorORCID>
+            <firstName>Marcin</firstName>
+            <lastName>Nowotny</lastName>
+            <organization type="academic">International Institute of Molecular and Cell Biology in Warsaw</organization>
+            <street>4 Ks. Trojdena Street</street>
+            <townOrCity>Warsaw</townOrCity>
+            <country>Poland</country>
+            <postOrZipCode>02-109</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-6553-1513">Palchevskyi S</author>
+            <author authorORCID="0000-0001-5582-2851">Czarnocki-Cieciura M</author>
+            <author authorORCID="0000-0002-3939-5172">Vistoli G</author>
+            <author authorORCID="0000-0002-5731-3396">Gervasoni S</author>
+            <author authorORCID="0000-0002-1466-898X">Nowak E</author>
+            <author authorORCID="0000-0001-6830-2695">Beccari AR</author>
+            <author authorORCID="0000-0001-8632-0977">Nowotny M</author>
+            <author authorORCID="0000-0003-4789-0955">Talarico C</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Other government</fundingBody>
+                <code>1/SOL/2021/2</code>
+                <country>Poland</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Other government</fundingBody>
+                <code>F/090033/01-03-04/X36</code>
+                <country>Italy</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">3.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12443</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-15981</emdbEntry>
+            <emdbEntry>EMD-15982</emdbEntry>
+            <emdbEntry>EMD-15983</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-6553-1513" order="1">Palchevskyi S</author>
+                    <author authorORCID="0000-0001-5582-2851" order="2">Czarnocki-Cieciura M</author>
+                    <author authorORCID="0000-0002-3939-5172" order="3">Vistoli G</author>
+                    <author authorORCID="0000-0002-5731-3396" order="4">Gervasoni S</author>
+                    <author authorORCID="0000-0002-1466-898X" order="5">Nowak E</author>
+                    <author authorORCID="0000-0001-6830-2695" order="6">Beccari AR</author>
+                    <author authorORCID="0000-0001-8632-0977" order="7">Nowotny M</author>
+                    <author authorORCID="0000-0003-4789-0955" order="8">Talarico C</author>
+                    <title>Structure of human TRPM8 channel</title>
+                    <journal>Communications biology</journal>
+                    <journalAbbreviation>Commun Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>6</volume>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s42003-023-05425-6</externalReferences>
+                    <externalReferences type="pubmed">37857704</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame movies of human apo TRPM8 channel in a closed state</name>
+        <directory>/data/Movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>7918</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.82</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.82</pixelHeight>
+        </dimensions>
+        <details>Gain-corrected, unaligned multi-frame movies collected with Krios G3i microscope + K3 detector (superresolution mode, binned 2x with EPU). Voltage: 300 kV; spherical aberration: 2.7; dose per frame: 1 e/A^2 (total dose: 41.42 e/A^2 fractionated over 40 frames). Defocus range (nominal): -2.7, -2.4, -2.1, -1.8, -1.5, -1.2, -0.9 µm. Objective aperture retracted, C2 aperture: 50 µm.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Movies/*.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/TRPM8_EMD-15982/EMD-15982_particlestack.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/TRPM8_EMD-15982</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned particles of human apo TRPM8 channel in a closed state (consensus map)</name>
+        <directory>/data/TRPM8_EMD-15982</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>110176</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>420</imageWidth>
+            <pixelWidth>0.82</pixelWidth>
+            <imageHeight>420</imageHeight>
+            <pixelHeight>0.82</pixelHeight>
+        </dimensions>
+        <details>Aligned particles with corresponding Relion-3 STAR file for the consensus TRPM8 reconstruction. Coordinates correspond to micrographs binned 2x during Motion correction.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Movies/*.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/TRPM8_EMD-15982/EMD-15982_particlestack.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/TRPM8_EMD-15982</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned particles of human apo TRPM8 channel in a closed state (focused pre-MHR + MHR1/2 map)</name>
+        <directory>/data/TRPM8_EMD-15983</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>212851</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>192</imageWidth>
+            <pixelWidth>0.82</pixelWidth>
+            <imageHeight>192</imageHeight>
+            <pixelHeight>0.82</pixelHeight>
+        </dimensions>
+        <details>Aligned particles with corresponding Relion-3 STAR file for the focused TRPM8 reconstruction (pre-MHR + MHR1/2 map). Particles were signal-subtracted; coordinates correspond to micrographs binned 2x during Motion correction.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Movies/*.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/TRPM8_EMD-15983/EMD-15983_particlestack.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/TRPM8_EMD-15983</pickedParticlesDirectory>
+    </imageSet>
+</entry>

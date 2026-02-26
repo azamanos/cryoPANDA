@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-22278">
+    <admin>
+        <current_status>
+            <date>2024-05-15</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-07-07</deposition>
+            <header_release>2021-07-07</header_release>
+            <map_release>2021-07-07</map_release>
+            <update>2024-05-15</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute on Aging (NIH/NIA)</funding_body>
+                <code>R01 GM121964</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>CryoEM structure of human presequence protease in partial open state 1</title>
+        <authors_list>
+            <author>Liang WG</author>
+            <author>Zhao M</author>
+        </authors_list>
+        <keywords>Partial open state, HYDROLASE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Liang WG</author>
+                    <author order="2">Wijaya J</author>
+                    <author order="3">Wei H</author>
+                    <author order="4">Noble AJ</author>
+                    <author order="5">Mancl JM</author>
+                    <author order="6">Mo S</author>
+                    <author order="7">Lee D</author>
+                    <author order="8">Lin King JV</author>
+                    <author order="9">Pan M</author>
+                    <author order="10">Liu C</author>
+                    <author order="11">Koehler CM</author>
+                    <author order="12">Zhao M</author>
+                    <author order="13">Potter CS</author>
+                    <author order="14">Carragher B</author>
+                    <author order="15">Li S</author>
+                    <author order="16">Tang WJ</author>
+                    <title>Structural basis for the mechanisms of human presequence protease conformational switch and substrate recognition.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>13</volume>
+                    <first_page>1833</first_page>
+                    <last_page>1833</last_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">35383169</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-022-29322-4</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-22279</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-22280</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-22281</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-22282</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6xos</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>CryoEM map of Human Presequence Protease in partial open state 1</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>CryoEM map of Human Presequence Protease in partial open state 1</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Presequence protease, mitochondrial</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.114901461</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="866768">Escherichia coli 'BL21-Gold(DE3)pLysS AG'</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MHHHHHHAAACERALQYKLGDKIHGFTVNQVTSVPELFLTAVKLTHDDTGARYLHLAREDTNNLFSVQFRTTPMDSTGVP
+HILEHTVLCGSQKYPCRDPFFKMLNRSLSTFMNAFTASDYTLYPFSTQNPKDFQNLLSVYLDATFFPCLRELDFWQEGWR
+LEHENPSDPQTPLVFKGVVFNEMKGAFTDNERIFSQHLQNRLLPDHTYSVVSGGDPLCIPELTWEQLKQFHATHYHPSNA
+RFFTYGNFPLEQHLKQIHEEALSKFQKIEPSTVVPAQTPWDKPREFQITCGPDSFATDPSKQTTVSVSFLLPDITDTFEA
+FTLSLLSSLLTSGPNSPFYKALIESGLGTDFSPDVGYNGYTREAYFSVGLQGIVEKDIETVRSLIDRTIDEVVEKGFEDD
+RIEALLHKIEIQMKHQSTSFGLMLTSYIASCWNHDGDPVELLKLGNQLAKFRQCLQENPKFLQEKVKQYFKNNQHKLTLS
+MRPDDKYHEKQAQVEATKLKQKVEALSPGDRQQIYEKGLELRSQQSKPQDASCLPALKVSDIEPTIPVTELDVVLTAGDI
+PVQYCAQPTNGMVYFRAFSSLNTLPEELRPYVPLFCSVLTKLGCGLLDYREQAQQIELKTGGMSASPHVLPDDSHMDTYE
+QGVLFSSLCLDRNLPDMMQLWSEIFNNPCFEEEEHFKVLVKMTAQELANGIPDSGHLYASIRAGRTLTPAGDLQETFSGM
+DQVRLMKRIAEMTDIKPILRKLPRIKKHLLNGDNMRCSVNATPQQMPQTEKAVEDFLRSIGRSKKERRPVRPHTVEKPVP
+SSSGGDAHVPHGSQVIRKLVMEPTFKPWQMKTHFLMPFPVNYVGECIRTVPYTDPDHASLKILARLMTAKFLHTEIREKG
+GAYGGGAKLSHNGIFTLYSYRDPNTIETLQSFGKAVDWAKSGKFTQQDIDEAKLSVFSTVDAPVAPSDKGMDHFLYGLSD
+EMKQAHREQLFAVSHDKLLAVSDRYLGTGKSTHGLAILGPENPKIAKDPSWIIR</string>
+                    <external_references type="UNIPROTKB">Q5JRX3</external_references>
+                </sequence>
+                <ec_number>3.4.24.-</ec_number>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">2</concentration>
+                    <buffer>
+                        <ph>7.7</ph>
+                        <details>20 mM Tris, pH 7.7, 150 mM NaCl, 10mM KCl, 20 mM EDTA and 1 mM 2-mercaptoethanol</details>
+                    </buffer>
+                    <grid>
+                        <details>unspecified</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">308</chamber_temperature>
+                        <instrument>SPOTITON</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">70.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">1.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.5</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <average_exposure_time units="s">6.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">62.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="PDB ENTRY"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.7</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>130572</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_22278.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">219.136</a>
+            <b units="Å">219.136</b>
+            <c units="Å">219.136</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.017432705</minimum>
+            <maximum>0.03952676</maximum>
+            <average>0.0000037437487</average>
+            <std>0.0014599958</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.856</x>
+            <y units="Å">0.856</y>
+            <z units="Å">0.856</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.005</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-22278::::</label>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_22278_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_22278_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">219.136</a>
+                    <b units="Å">219.136</b>
+                    <c units="Å">219.136</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.03426789</minimum>
+                    <maximum>0.071535066</maximum>
+                    <average>0.0000053769345</average>
+                    <std>0.0020905507</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.856</x>
+                    <y units="Å">0.856</y>
+                    <z units="Å">0.856</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-22278::::</label>
+                <annotation_details>Sharpened map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_22278_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">219.136</a>
+                    <b units="Å">219.136</b>
+                    <c units="Å">219.136</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.031499468</minimum>
+                    <maximum>0.05328953</maximum>
+                    <average>0.0000055526616</average>
+                    <std>0.0036134091</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.856</x>
+                    <y units="Å">0.856</y>
+                    <z units="Å">0.856</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>EMDB</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-22278::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_22278_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">219.136</a>
+                    <b units="Å">219.136</b>
+                    <c units="Å">219.136</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.03295412</minimum>
+                    <maximum>0.051721733</maximum>
+                    <average>0.0000052012074</average>
+                    <std>0.00361733</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.856</x>
+                    <y units="Å">0.856</y>
+                    <z units="Å">0.856</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>EMDB</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-22278::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

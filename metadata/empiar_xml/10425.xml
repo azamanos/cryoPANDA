@@ -1,0 +1,93 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10425" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-05-27</depositionDate>
+            <releaseDate>2022-01-18</releaseDate>
+            <updateDate>2022-01-18</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of the A.baumannii MlaBDEF complex bound to AppNHp</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-9106-9358</authorORCID>
+            <firstName>Daniel</firstName>
+            <lastName>Mann</lastName>
+            <organization type="academic">Ernst Ruska Centre 3, Forschungszentrum Jülich</organization>
+            <street>Wilhelm-Johnen Straße</street>
+            <townOrCity>Jülich</townOrCity>
+            <stateOrProvince>NRW</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>52428</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-9106-9358</authorORCID>
+            <firstName>Julien</firstName>
+            <middleName>RC</middleName>
+            <lastName>Bergeron</lastName>
+            <organization type="academic">Randall Division of Cell and Molecular Biophysics, King's College London</organization>
+            <street>Strand</street>
+            <townOrCity>London</townOrCity>
+            <stateOrProvince>Greater London</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>WC2R 2LS</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-9106-9358">Mann D</author>
+            <author authorORCID="0000-0002-2841-9511">Bergeron JRC</author>
+        </authorsList>
+        <datasetSize units="GB">135.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10425</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-11082</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-9106-9358" order="1">Mann D</author>
+                    <author order="2">Fan J</author>
+                    <author order="3">Somboon K</author>
+                    <author authorORCID="0000-0001-7024-7998" order="4">Farrell DP</author>
+                    <author order="5">Muenks A</author>
+                    <author authorORCID="0000-0001-7256-5279" order="6">Tzokov SB</author>
+                    <author order="7">DiMaio F</author>
+                    <author order="8">Khalid S</author>
+                    <author authorORCID="0000-0003-1638-2181" order="9">Miller SI</author>
+                    <author authorORCID="0000-0002-2841-9511" order="10">Bergeron JRC</author>
+                    <title>Structure and lipid dynamics in the maintenance of lipid asymmetry inner membrane complex of A. baumannii</title>
+                    <journal>Communications biology</journal>
+                    <journalAbbreviation>Commun Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>4</volume>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s42003-021-02318-4</externalReferences>
+                    <externalReferences type="pubmed">34188171</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>MotionCor2 aligned micrographs</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2557</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.07</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.07</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data</micrographsFilePattern>
+        <pickedParticlesFilePattern>data</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data</pickedParticlesDirectory>
+    </imageSet>
+</entry>

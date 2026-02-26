@@ -1,0 +1,1799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_10_0/emdb.xsd" version="3.0.10.0" emdb_id="EMD-13464">
+    <admin>
+        <current_status>
+            <date>2025-03-12</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <revision_history>
+            <revision version="1.0" date="2021-10-20">
+                <change_list>
+                    <fsc>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </fsc>
+                    <half_map part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <half_map part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <image>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </image>
+                    <mask>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </mask>
+                    <primary_map>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </primary_map>
+                </change_list>
+            </revision>
+            <revision version="2.0" date="2024-04-24">
+                <change_list>
+                    <model>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>atom_site</category>
+                            <category>chem_comp</category>
+                            <category>chem_comp_atom</category>
+                            <category>chem_comp_bond</category>
+                            <category>em_3d_fitting_list</category>
+                            <category>entity</category>
+                            <category>entity_poly</category>
+                            <category>entity_poly_seq</category>
+                            <category>pdbx_initial_refinement_model</category>
+                            <category>pdbx_poly_seq_scheme</category>
+                            <category>pdbx_struct_mod_residue</category>
+                            <category>pdbx_validate_rmsd_angle</category>
+                            <category>pdbx_validate_rmsd_bond</category>
+                            <category>struct_conn</category>
+                        </categories>
+                        <items>
+                            <item>_atom_site.Cartn_x</item>
+                            <item>_atom_site.Cartn_y</item>
+                            <item>_atom_site.Cartn_z</item>
+                            <item>_atom_site.auth_atom_id</item>
+                            <item>_atom_site.auth_comp_id</item>
+                            <item>_atom_site.group_PDB</item>
+                            <item>_atom_site.label_atom_id</item>
+                            <item>_atom_site.label_comp_id</item>
+                            <item>_atom_site.type_symbol</item>
+                            <item>_chem_comp.formula</item>
+                            <item>_chem_comp.formula_weight</item>
+                            <item>_chem_comp.id</item>
+                            <item>_chem_comp.mon_nstd_flag</item>
+                            <item>_chem_comp.name</item>
+                            <item>_chem_comp.type</item>
+                            <item>_em_3d_fitting_list.accession_code</item>
+                            <item>_em_3d_fitting_list.initial_refinement_model_id</item>
+                            <item>_em_3d_fitting_list.source_name</item>
+                            <item>_em_3d_fitting_list.type</item>
+                            <item>_entity.formula_weight</item>
+                            <item>_entity_poly.pdbx_seq_one_letter_code</item>
+                            <item>_entity_poly_seq.mon_id</item>
+                            <item>_pdbx_poly_seq_scheme.mon_id</item>
+                            <item>_pdbx_poly_seq_scheme.pdb_mon_id</item>
+                            <item>_pdbx_struct_mod_residue.auth_comp_id</item>
+                            <item>_pdbx_struct_mod_residue.label_comp_id</item>
+                            <item>_struct_conn.ptnr1_auth_comp_id</item>
+                            <item>_struct_conn.ptnr1_label_comp_id</item>
+                            <item>_struct_conn.ptnr2_auth_comp_id</item>
+                            <item>_struct_conn.ptnr2_label_comp_id</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+            <revision version="2.1" date="2024-10-23">
+                <change_list>
+                    <model>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                            <category>pdbx_entry_details</category>
+                            <category>pdbx_modification_feature</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                            <item>_pdbx_entry_details.has_protein_modification</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+            <revision version="2.2" date="2025-03-12">
+                <change_list>
+                    <model>
+                        <revision_group>DATA_COLLECTION</revision_group>
+                        <categories>
+                            <category>chem_comp_atom</category>
+                            <category>chem_comp_bond</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_chem_comp_atom.atom_id</item>
+                            <item>_chem_comp_atom.pdbx_aromatic_flag</item>
+                            <item>_chem_comp_bond.atom_id_1</item>
+                            <item>_chem_comp_bond.atom_id_2</item>
+                            <item>_chem_comp_bond.pdbx_aromatic_flag</item>
+                            <item>_chem_comp_bond.value_order</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+            <revision version="1.1" date="2025-03-12">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+        </revision_history>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-08-24</deposition>
+            <header_release>2021-10-20</header_release>
+            <map_release>2021-10-20</map_release>
+            <update>2025-03-12</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>German Research Foundation (DFG)</funding_body>
+                <code>Leibniz Prize (to M.V.R.) &amp; SFB 860</code>
+                <country>Germany</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Max Planck Society</funding_body>
+                <country>Germany</country>
+            </grant_reference>
+        </grant_support>
+        <title>Structure of the 70S-EF-G-GDP ribosome complex with tRNAs in chimeric state 1 (CHI1-EF-G-GDP)</title>
+        <authors_list>
+            <author>Petrychenko V</author>
+            <author>Peng BZ</author>
+        </authors_list>
+        <keywords>EF-G, robosome, 70S, apramycin, translocation, RIBOSOME</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-9867-9493" order="1">Petrychenko V</author>
+                    <author ORCID="0000-0002-9832-8447" order="2">Peng BZ</author>
+                    <author ORCID="0000-0001-6071-9584" order="3">de A P Schwarzer AC</author>
+                    <author ORCID="0000-0003-3076-0409" order="4">Peske F</author>
+                    <author ORCID="0000-0003-0105-3879" order="5">Rodnina MV</author>
+                    <author ORCID="0000-0002-4609-4052" order="6">Fischer N</author>
+                    <title>Structural mechanism of GTPase-powered ribosome-tRNA movement.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>12</volume>
+                    <first_page>5933</first_page>
+                    <last_page>5933</last_page>
+                    <year>2021</year>
+                    <external_references type="PUBMED">34635670</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-021-26133-x</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7pjy</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>E. coli ribosome complex 70S-Apr-EF-G-GDP-Pi-fMet-Phe-tRNAPhe-tRNA-fMet-mRNA</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>E. coli ribosome complex 70S-Apr-EF-G-GDP-Pi-fMet-Phe-tRNAPhe-tRNA-fMet-mRNA</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>8</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>9</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>10</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>11</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>12</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>13</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>14</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>15</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>16</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>17</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>18</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>19</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>20</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>21</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>22</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>23</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>24</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>25</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>26</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>27</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>28</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>29</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>30</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>31</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>32</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>33</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>34</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>35</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>36</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>37</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>38</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>39</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>40</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>41</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>42</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>43</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>44</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>45</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>46</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>47</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>48</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>49</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>50</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>51</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>52</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>53</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>54</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>55</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>56</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>57</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>58</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>59</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>50S ribosomal protein L32</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.006463444999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAVQQNKPTRSKRGMRRSHDALTAVTSLSVDKTSGEKHLRHHITADGYYRGRKVIAK</string>
+                    <external_references type="UNIPROTKB">P0A7N4</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>50S ribosomal protein L33</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.006388631</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKGIREKIKLVSSAGTGHFYTTTKNKRTKPEKLELKKFDPVVRQHVIYKEAKIK</string>
+                    <external_references type="UNIPROTKB">P0A7N9</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>50S ribosomal protein L34</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.005397463</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKRTFQPSVLKRNRSHGFRARMATKNGRQVLARRRAKGRARLTVSK</string>
+                    <external_references type="UNIPROTKB">P0A7P5</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>50S ribosomal protein L35</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007313032</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPKIKTVRGAAKRFKKTGKGGFKHKHANLRHILTKKATKRKRHLRPKAMVSKGDLGLVIACLPYA</string>
+                    <external_references type="UNIPROTKB">P0A7Q1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>50S ribosomal protein L36</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00437739</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKVRASVKKLCRNCKIVKRDGVIRVICSAEPKHKQRQG</string>
+                    <external_references type="UNIPROTKB">P0A7Q6</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="6">
+                <name>50S ribosomal protein L10</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.017736596</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MALNLQDKQAIVAEVSEVAKGALSAVVADSRGVTVDKMTELRKAGREAGVYMRVVRNTLLRRAVEGTPFECLKDAFVGPT
+LIAYSMEHPGAAARLFKEFAKANAKFEVKAAAFEGELIPASQIDRLATLPTYEEAIARLMATMKEASAGKLVRTLAAVRD
+AKEAA</string>
+                    <external_references type="UNIPROTKB">P0A7J3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="7">
+                <name>50S ribosomal protein L31</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007887116999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKKDIHPKYEEITASCSCGNVMKIRSTVGHDLNLDVCSKCHPFFTGKQRDVATGGRVDRFNKRFNIPGSK</string>
+                    <external_references type="UNIPROTKB">P0A7M9</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <rna macromolecule_id="8">
+                <name>23S ribosomal RNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.9415414379999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>GGUUAAGCGACUAAGCGUACACGGUGGAUGCCCUGGCAGUCAGAGGCGAUGAAGGACGUGCUAAUCUGCGAUAAGCGUCG
+GUAAGGUGAUAUGAACCGUUAUAACCGGCGAUUUCCGAAUGGGGAAACCCAGUGUGUUUCGACACACUAUCAUUAACUGA
+AUCCAUAGGUUAAUGAGGCGAACCGGGGGAACUGAAACAUCUAAGUACCCCGAGGAAAAGAAAUCAACCGAGAUUCCCCC
+AGUAGCGGCGAGCGAACGGGGAGCAGCCCAGAGCCUGAAUCAGUGUGUGUGUUAGUGGAAGCGUCUGGAAAGGCGCGCGA
+UACAGGGUGACAGCCCCGUACACAAAAAUGCACAUGCUGUGAGCUCGAUGAGUAGGGCGGGACACGUGGUAUCCUGUCUG
+AAUAUGGGGGGACCAUCCUCCAAGGCUAAAUACUCCUGACUGACCGAUAGUGAACCAGUACCGUGAGGGAAAGGCGAAAA
+GAACCCCGGCGAGGGGAGUGAAAAAGAACCUGAAACCGUGUACGUACAAGCAGUGGGAGCACGCUUAGGCGUGUGACUGC
+GUACCUUUUGUAUAAUGGGUCAGCGACUUAUAUUCUGUAGCAAGGUUAACCGAAUAGGGGAGCCGAAGGGAAACCGAGUC
+UUAACUGGGCGUUAAGUUGCAGGGUAUAGACCCGAAACCCGGUGAUCUAGCCAUGGGCAGGUUGAAGGUUGGGUAACACU
+AACUGGAGGACCGAACCGACUAAU(1MG)(PSU)(5MC)GAAAAAUUAGCGGAUGACUUGUGGCUGGGGGUGAAAGGCCA
+AUCAAACCGGGAGAUAGCUGGUUCUCCCCGAAAGCUAUUUAGGUAGCGCCUCGUGAAUUCAUCUCCGGGGGUAGAGCACU
+GUUUCGGCAAGGGGGUCAACCCGACUUACCAACCCGAUGCAAACUGCGAAUACCGGAGAAUGUUAUCACGGGAGACACAC
+GGCGGG(PSU)GCUAACGUCCGUCGUGAAGAGGGAAACAACCCAGACCGCCAGCUAAGGUCCCAAAGUCAUGGUUAAGUG
+GGAAACGAUGUGGGAAGGCCCAGACAGCCAGGAUGUUGGCUUAGAAGCAGCCAUCAUUUAAAGAAAGCGUAAUAGCUCAC
+UGGUCGAGUCGGCCUGCGCGGAAGAUGUAACGGGGCUAAACCAUGCACCGAAGCUGCGGCAGCGACGCUUAUGCGUUGUU
+GGGUAGGGGAGCGUUCUGUAAGCCUGCGAAGGUGUGCUGUGAGGCAUGCUGGAGGUAUCAGAAGUGCGAAUGCUGACAUA
+AGUAACGAUAAAGCGGGUGAAAAGCCCGCUCGCCGGAAGACCAAGGGUUCCUGUCCAACGUUAAUCGGGGCAGGGUGAGU
+CGACCCCUAAGGCGAGGCCGAAAGGCGUAGUCGAUGGGAAACAGGUUAAUAUUCCUGUACUUGGUGUUACUGCGAAGGGG
+GGACGGAGAAGGCUAUGUUGGCCGGGCGACGGUUGUCCCGGUUUAAGCGUGUAGGCUGGUUUUCCAGGCAAAUCCGGAAA
+AUCAAGGCUGAGGCGUGAUGACGAGGCACUACGGUGCUGAAGCAACAAAUGCCCUGCUUCCAGGAAAAGCCUCUAAGCAU
+CAGGUAACAUCAAAUCGUACCCCAAACCGACAC(6MZ)GGUGGUCAGGUAGAGAAUACCAAGGCGCUUGAGAGAACUCGG
+GUGAAGGAACUAGGCAAAAUGGUGCCGUAACUUCGGGAGAAGGCACGCUGAUAUGUAGGUGAGGUCCCUCGCGGAUGGAG
+CUGAAAUCAGUCGAAGAUACCAGCUGGCUGCAACUGUUUAUUAAAAACACAGCACUGUGCAAACACGAAAGUGGACGUAU
+ACGGUGUGACGCCU(2MG)CCCGGUGCCGGGAGGUUAAUUGAUGGGGUUAGCGCAAGCGAAGCUCUUGAUCGAAGCCCCG
+GUAAACGGCGGCCG(PSU)AAC(3TD)A(PSU)AACGGUCCUAAGGUAGCGAAA(5MU)UCCUUGUCGGGUAAGUUCCGA
+C(5MC)UGCACGAAUGGCGUAAUGAUGGCCAGGCUGUCUCCACCCGAGACUCAGUGAAAUUGAACUCGCUGUG(6MZ)AG
+AUGCAGUGUACCCGCGGCAAGACGGAAAGACCCCGU(G7M)AACCUUUACUAUAGCUUGACACUGAACAUUGAGCCUUGA
+UGUGUAGGAUAGGUGGGAGGCUUUGAAGUGUGGACGCCAGUCUGCAUGGAGCCGACCUUGAAAUACCACCCUUUAAUGUU
+UGAUGUUCUAACGUUGACCCGUAAUCCGGGUUGCGGACAGUGUCUGGUGGGUAGUUUGACUG(OMG)GGCGGUCUCCUCC
+UAAAGAGUAACGGAGGAGCACGAAGGUUGGCUAAUCCUGGUCGGACAUCAGGAGGUUAGUGCAAUGGCAUAAGCCAGCUU
+GACUGCGAGCGUGACGGCGCGAGCAGGUGCGAAAGCAGGUCAUAGUGAUCCGGUGGUUCUGAAUGGAAGGGCCAUCGCUC
+AACGGAUAAAAGGUACUCCG(2MG)GGAUAACAGGC(PSU)GAUACCGCCCAAGAGUUCAUAUCGACGGCGGUGUUUGGC
+A(OMC)CUCG(2MA)(PSU)GUCGGCUCAUCACAUCCUGGGGCUGAAGUAGGUCCCAAGGGUAUGGC(OMU)GUUCGCCA
+UUUAAAGUGGUACGCGAGC(PSU)GGGUUUAGAACGUCGUGAGACAG(PSU)(PSU)CGGUCCCUAUCUGCCGUGGGCGC
+UGGAGAACUGAGGGGGGCUGCUCCUAGUACGAGAGGACCGGAGUGGACGCAUCACUGGUGUUCGGGUUGUCAUGCCAAUG
+GCACUGCCCGGUAGCUAAAUGCGGAAGAGAUAAGUGCUGAAAGCAUCUAAGCACGAAACUUGCCCCGAGAUGAGUUCUCC
+CUGACCCUUUAAGGGUCCUGAAGGAACGUUGAAGACGACGACGUUGAUAGGCCGGGUGUGUAAGCGCAGCGAUGCGUUGA
+GCUAACCGGUACUAAUGAACCGUGAGGCUUAACCU</string>
+                </sequence>
+            </rna>
+            <rna macromolecule_id="9">
+                <name>5S ribosomal RNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.03879008999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>UGCCUGGCGGCCGUAGCGCGGUGGUCCCACCUGACCCCAUGCCGAACUCAGAAGUGAAACGCCGUAGCGCCGAUGGUAGU
+GUGGGGUCUCCCCAUGCGAGAGUAGGGAACUGCCAGGCAU</string>
+                    <external_references type="GENBANK">CP053605.1</external_references>
+                </sequence>
+            </rna>
+            <protein_or_peptide macromolecule_id="10">
+                <name>50S ribosomal protein L2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.029923619</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAVVKCKPTSPGRRHVVKVVNPELHKGKPFAPLLEKNSKSGGRNNNGRITTRHIGGGHKQAYRIVDFKRNKDGIPAVVER
+LEYDPNRSANIALVLYKDGERRYILAPKGLKAGDQIQSGVDAAIKPGNTLPMRNIPVGSTVHNVEMKPGKGGQLARSAGT
+YVQIVARDGAYVTLRLRSGEMRKVEADCRATLGEVGNAEHMLRVLGKAGAARWRGVRPTVRGTAMNPVDHPHGGGEGRNF
+GKHPVTPWGVQTKGKKTRSNKRTDKFIVRRRSK</string>
+                    <external_references type="UNIPROTKB">P60422</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="11">
+                <name>50S ribosomal protein L3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022277534999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MIGLVGKKVGMTRIFTEDGVSIPVTVIEVEANRVTQVKDLANDGYRAIQVTTGAKKANRVTKPEAGHFAKAGVEAGRGLW
+EFRLAEGEEFTVGQSISVELFADVKKVDVTGTSKGKGFAGTVKRWNFRTQDATHGNSLSHRVPGSIGQNQTPGKVFKGKK
+MAGQMGNERVTVQSLDVVRVDAERNLLLVKGAVPGATGSDLIVKPAVKA</string>
+                    <external_references type="UNIPROTKB">P60438</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="12">
+                <name>50S ribosomal protein L4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022121566</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MELVLKDAQSALTVSETTFGRDFNEALVHQVVVAYAAGARQGTRAQKTRAEVTGSGKKPWRQKGTGRARSGSIKSPIWRS
+GGVTFAARPQDHSQKVNKKMYRGALKSILSELVRQDRLIVVEKFSVEAPKTKLLAQKLKDMALEDVLIITGELDENLFLA
+ARNLHKVDVRDATGIDPVSLIAFDKVVMTADAVKQVEEMLA</string>
+                    <external_references type="UNIPROTKB">P60723</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="13">
+                <name>50S ribosomal protein L5</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.020333611</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKLHDYYKDEVVKKLMTEFNYNSVMQVPRVEKITLNMGVGEAIADKKLLDNAAADLAAISGQKPLITKARKSVAGFKIR
+QGYPIGCKVTLRGERMWEFFERLITIAVPRIRDFRGLSAKSFDGRGNYSMGVREQIIFPEIDYDKVDRVRGLDITITTTA
+KSDEEGRALLAAFDFPFRK</string>
+                    <external_references type="UNIPROTKB">P62399</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="14">
+                <name>50S ribosomal protein L6</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.018932791</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSRVAKAPVVVPAGVDVKINGQVITIKGKNGELTRTLNDAVEVKHADNTLTFGPRDGYADGWAQAGTARALLNSMVIGVT
+EGFTKKLQLVGVGYRAAVKGNVINLSLGFSHPVDHQLPAGITAECPTQTEIVLKGADKQVIGQVAADLRAYRRPEPYKGK
+GVRYADEVVRTKEAKKK</string>
+                    <external_references type="UNIPROTKB">P0AG55</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="15">
+                <name>50S ribosomal protein L9</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.01578902</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MQVILLDKVANLGSLGDQVNVKAGYARNFLVPQGKAVPATKKNIEFFEARRAELEAKLAEVLAAANARAEKINALETVTI
+ASKAGDEGKLFGSIGTRDIADAVTAAGVEVAKSEVRLPNGVLRTTGEHEVSFQVHSEVFAKVIVNVVAE</string>
+                    <external_references type="UNIPROTKB">P0A7R1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="16">
+                <name>50S ribosomal protein L11</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014894361999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKKVQAYVKLQVAAGMANPSPPVGPALGQQGVNIMEFCKAFNAKTDSIEKGLPIPVVITVYADRSFTFVTKTPPAAVLL
+KKAAGIKSGSGKPNKDKVGKISRAQLQEIAQTKAADMTGADIEAMTRSIEGTARSMGLVVED</string>
+                    <external_references type="UNIPROTKB">P0A7J7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="17">
+                <name>50S ribosomal protein L13</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.016050606</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKTFTAKPETVKRDWYVVDATGKTLGRLATELARRLRGKHKAEYTPHVDTGDYIIVLNADKVAVTGNKRTDKVYYHHTGH
+IGGIKQATFEEMIARRPERVIEIAVKGMLPKGPLGRAMFRKLKVYAGNEHNHAAQQPQVLDI</string>
+                    <external_references type="UNIPROTKB">P0AA10</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="18">
+                <name>50S ribosomal protein L14</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013565066999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MIQEQTMLNVADNSGARRVMCIKVLGGSHRRYAGVGDIIKITIKEAIPRGKVKKGDVLKAVVVRTKKGVRRPDGSVIRFD
+GNACVLLNNNSEQPIGTRIFGPVTRELRSEKFMKIISLAPEVL</string>
+                    <external_references type="UNIPROTKB">P0ADY3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="19">
+                <name>50S ribosomal protein L15</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015008470999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MRLNTLSPAEGSKKAGKRLGRGIGSGLGKTGGRGHKGQKSRSGGGVRRGFEGGQMPLYRRLPKFGFTSRKAAITAEIRLS
+DLAKVEGGVVDLNTLKAANIIGIQIEFAKVILAGEVTTPVTVRGLRVTKGARAAIEAAGGKIEE</string>
+                    <external_references type="UNIPROTKB">P02413</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="20">
+                <name>50S ribosomal protein L16</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015312269</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLQPKRTKFRKMHKGRNRGLAQGTDVSFGSFGLKAVGRGRLTARQIEAARRAMTRAVKRQGKIWIRVFPDKPITEKPLAV
+RMGKGKGNVEYWVALIQPGKVLYEMDGVPEELAREAFKLAAAKLPIKTTFVTKTVM</string>
+                    <external_references type="UNIPROTKB">P0ADY7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="21">
+                <name>50S ribosomal protein L17</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014393656999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MRHRKSGRQLNRNSSHRQAMFRNMAGSLVRHEIIKTTLPKAKELRRVVEPLITLAKTDSVANRRLAFARTRDNEIVAKLF
+NELGPRFASRAGGYTRILKCGFRAGDNAPMAYIELVDRSEKAEAAAE</string>
+                    <external_references type="UNIPROTKB">P0AG44</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="22">
+                <name>50S ribosomal protein L18</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.012794667999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDKKSARIRRATRARRKLQELGATRLVVHRTPRHIYAQVIAPNGSEVLVAASTVEKAIAEQLKYTGNKDAAAAVGKAVAE
+RALEKGIKDVSFDRSGFQYHGRVQALADAAREAGLQF</string>
+                    <external_references type="UNIPROTKB">P0C018</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="23">
+                <name>50S ribosomal protein L19</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013159278</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSNIIKQLEQEQMKQDVPSFRPGDTVEVKVWVVEGSKKRLQAFEGVVIAIRNRGLHSAFTVRKISNGEGVERVFQTHSPV
+VDSISVKRRGAVRKAKLYYLRERTGKAARIKERLN</string>
+                    <external_references type="UNIPROTKB">P0A7K6</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="24">
+                <name>50S ribosomal protein L20</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013528024</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARVKRGVIARARHKKILKQAKGYYGARSRVYRVAFQAVIKAGQYAYRDRRQRKRQFRQLWIARINAAARQNGISYSKFI
+NGLKKASVEIDRKILADIAVFDKVAFTALVEKAKAALA</string>
+                    <external_references type="UNIPROTKB">P0A7L3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="25">
+                <name>50S ribosomal protein L21</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011586374</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MYAVFQSGGKQHRVSEGQTVRLEKLDIATGETVEFAEVLMIANGEEVKIGVPFVDGGVIKAEVVAHGRGEKVKIVKFRRR
+KHYRKQQGHRQWFTDVKITGISA</string>
+                    <external_references type="UNIPROTKB">P0AG48</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="26">
+                <name>50S ribosomal protein L22</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.012253359</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>METIAKHRHARSSAQKVRLVADLIRGKKVSQALDILTYTNKKAAVLVKKVLESAIANAEHNDGADIDDLKVTKIFVDEGP
+SMKRIMPRAKGRADRILKRTSHITVVVSDR</string>
+                    <external_references type="UNIPROTKB">P61175</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="27">
+                <name>50S ribosomal protein L23</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.01122216</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MIREERLLKVLRAPHVSEKASTAMEKSNTIVLKVAKDATKAEIKAAVQKLFEVEVEVVNTLVVKGKVKRHGQRIGRRSDW
+KKAYVTLKEGQNLDFVGGAE</string>
+                    <external_references type="UNIPROTKB">P0ADZ0</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="28">
+                <name>50S ribosomal protein L24</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011339249999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAAKIRRDDEVIVLTGKDKGKRGKVKNVLSSGKVIVEGINLVKKHQKPVPALNQPGGIVEKEAAIQVSNVAIFNAATGKA
+DRVGFRFEDGKKVRFFKSNSETIK</string>
+                    <external_references type="UNIPROTKB">P60624</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="29">
+                <name>50S ribosomal protein L25</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.010713465</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MFTINAEVRKEQGKGASRRLRAANKFPAIIYGGKEAPLAIELDHDKVMNMQAKAEFYSEVLTIVVDGKEIKVKAQDVQRH
+PYKPKLQHIDFVRA</string>
+                    <external_references type="UNIPROTKB">P68919</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="30">
+                <name>50S ribosomal protein L27</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00914654</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAHKKAGGSTRNGRDSEAKRLGVKRFGGESVLAGSIIVRQRGTKFHAGANVGCGRDHTLFAKADGKVKFEVKGPKNRKFI
+SIEAE</string>
+                    <external_references type="UNIPROTKB">P0A7L8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="31">
+                <name>50S ribosomal protein L28</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009027550999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSRVCQVTGKRPVTGNNRSHALNATKRRFLPNLHSHRFWVESEKRFVTLRVSAKGMRVIDKKGIDTVLAELRARGEKY</string>
+                    <external_references type="UNIPROTKB">P0A7M2</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="32">
+                <name>50S ribosomal protein L29</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0072864639999999994</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKAKELREKSVEELNTELLNLLREQFNLRMQAASGQLQQSHLLKQVRRDVARVKTLLNEKAGA</string>
+                    <external_references type="UNIPROTKB">P0A7M6</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="33">
+                <name>50S ribosomal protein L30</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.006554819999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKTIKITQTRSAIGRLPKHKATLLGLGLRRIGHTVEREDTPAIRGMINAVSFMVKVEE</string>
+                    <external_references type="UNIPROTKB">P0AG51</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <rna macromolecule_id="34">
+                <name>16S ribosomal RNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.499873406</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>AAAUUGAAGAGUUUGAUCAUGGCUCAGAUUGAACGCUGGCGGCAGGCCUAACACAUGCAAGUCGAACGGUAACAGGAAGA
+AGCUUGCUUCUUUGCUGACGAGUGGCGGACGGGUGAGUAAUGUCUGGGAAACUGCCUGAUGGAGGGGGAUAACUACUGGA
+AACGGUAGCUAAUACCGCAUAACGUCGCAAGACCAAAGAGGGGGACCUUCGGGCCUCUUGCCAUCGGAUGUGCCCAGAUG
+GGAUUAGCUAGUAGGUGGGGUAACGGCUCACCUAGGCGACGAUCCCUAGCUGGUCUGAGAGGAUGACCAGCCACACUGGA
+ACUGAGACACGGUCCAGACUCCUACGGGAGGCAGCAGUGGGGAAUAUUGCACAAUGGGCGCAAGCCUGAUGCAGCCAUGC
+CGCGUGUAUGAAGAAGGCCUUCGGGUUGUAAAGUACUUUCAGCGGGGAGGAAGGGAGUAAAGUUAAUACCUUUGCUCAUU
+GACGUUACCCGCAGAAGAAGCACCGGCUAACUCCG(PSU)GCCAGCAGCC(G7M)CGGUAAUACGGAGGGUGCAAGCGUU
+AAUCGGAAUUACUGGGCGUAAAGCGCACGCAGGCGGUUUGUUAAGUCAGAUGUGAAAUCCCCGGGCUCAACCUGGGAACU
+GCAUCUGAUACUGGCAAGCUUGAGUCUCGUAGAGGGGGGUAGAAUUCCAGGUGUAGCGGUGAAAUGCGUAGAGAUCUGGA
+GGAAUACCGGUGGCGAAGGCGGCCCCCUGGACGAAGACUGACGCUCAGGUGCGAAAGCGUGGGGAGCAAACAGGAUUAGA
+UACCCUGGUAGUCCACGCCGUAAACGAUGUCGACUUGGAGGUUGUGCCCUUGAGGCGUGGCUUCCGGAGCUAACGCGUUA
+AGUCGACCGCCUGGGGAGUACGGCCGCAAGGUUAAAACUCAAAUGAAUUGACGGGGGCCCGCACAAGCGGUGGAGCAUGU
+GGUUUAAUUCGAU(2MG)(5MC)AACGCGAAGAACCUUACCUGGUCUUGACAUCCACGGAAGUUUUCAGAGAUGAGAAUG
+UGCCUUCGGGAACCGUGAGACAGGUGCUGCAUGGCUGUCGUCAGCUCGUGUUGUGAAAUGUUGGGUUAAGUCCCGCAACG
+AGCGCAACCCUUAUCCUUUGUUGCCAGCGGUCCGGCCGGGAACUCAAAGGAGACUGCCAGUGAUAAACUGGAGGAAGGUG
+GGGAUGACGUCAAGUCAUCAUG(2MG)CCCUUACGACCAGGGCUACACACGUGCUACAAUGGCGCAUACAAAGAGAAGCG
+ACCUCGCGAGAGCAAGCGGACCUCAUAAAGUGCGUCGUAGUCCGGAUUGGAGUCUGCAACUCGACUCCAUGAAGUCGGAA
+UCGCUAGUAAUCGUGGAUCAGAAUGCCACGGUGAAUACGUUCCCGGGCCUUGUACACACCG(4OC)CCGU(5MC)ACACC
+AUGGGAGUGGGUUGCAAAAGAAGUAGGUAGCUUAACCUUCGGGAGGGCGCUUACCACUUUGUGAUUCAUGACUGGGGUGA
+AGUCG(UR3)AACAAGGUAACCGUAGG(2MG)G(MA6)(MA6)CCUGCGGUUGGAUCACCUCCUUA</string>
+                    <external_references type="GENBANK">CP032808.1</external_references>
+                </sequence>
+            </rna>
+            <protein_or_peptide macromolecule_id="35">
+                <name>30S ribosomal protein S2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.026652557</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MATVSMRDMLKAGVHFGHQTRYWNPKMKPFIFGARNKVHIINLEKTVPMFNEALAELNKIASRKGKILFVGTKRAASEAV
+KDAALSCDQFFVNHRWLGGMLTNWKTVRQSIKRLKDLETQSQDGTFDKLTKKEALMRTRELEKLENSLGGIKDMGGLPDA
+LFVIDADHEHIAIKEANNLGIPVFAIVDTNSDPDGVDFVIPGNDDAIRAVTLYLGAVAATVREGRSQDLASQAEESFVEA</string>
+                    <external_references type="UNIPROTKB">P0A7V0</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="36">
+                <name>30S ribosomal protein S3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.026031316</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGQKVHPNGIRLGIVKPWNSTWFANTKEFADNLDSDFKVRQYLTKELAKASVSRIVIERPAKSIRVTIHTARPGIVIGKK
+GEDVEKLRKVVADIAGVPAQINIAEVRKPELDAKLVADSITSQLERRVMFRRAMKRAVQNAMRLGAKGIKVEVSGRLGGA
+EIARTEWYREGRVPLHTLRADIDYNTSEAHTTYGVIGVKVWIFKGEILGGMAAVEQPEKPAAQPKKQQRKGRK</string>
+                    <external_references type="UNIPROTKB">P0A7V3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="37">
+                <name>30S ribosomal protein S4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023514199</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARYLGPKLKLSRREGTDLFLKSGVRAIDTKCKIEQAPGQHGARKPRLSDYGVQLREKQKVRRIYGVLERQFRNYYKEAA
+RLKGNTGENLLALLEGRLDNVVYRMGFGATRAEARQLVSHKAIMVNGRVVNIASYQVSPNDVVSIREKAKKQSRVKAALE
+LAEQREKPTWLEVDAGKMEGTFKRKPERSDLSADINEHLIVELYSK</string>
+                    <external_references type="UNIPROTKB">P0A7V8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="38">
+                <name>30S ribosomal protein S5</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.017629398</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAHIEKQAGELQEKLIAVNRVSKTVKGGRIFSFTALTVVGDGNGRVGFGYGKAREVPAAIQKAMEKARRNMINVALNNGT
+LQHPVKGVHTGSRVFMQPASEGTGIIAGGAMRAVLEVAGVHNVLAKAYGSTNPINVVRATIDGLENMNSPEMVAAKRGKS
+VEEILGK</string>
+                    <external_references type="UNIPROTKB">P0A7W1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="39">
+                <name>30S ribosomal protein S6, fully modified isoform</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015727512</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MRHYEIVFMVHPDQSEQVPGMIERYTAAITGAEGKIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETTFRF
+NDAVIRSMVMRTKHAVTEASPMVKAKDERRERRDDFANETADDAEAGDSEEEEEE</string>
+                    <external_references type="UNIPROTKB">P02358</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="40">
+                <name>30S ribosomal protein S7</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.020055155999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPRRRVIGQRKILPDPKFGSELLAKFVNILMVDGKKSTAESIVYSALETLAQRSGKSELEAFEVALENVRPTVEVKSRRV
+GGSTYQVPVEVRPVRRNALAMRWIVEAARKRGDKSMALRLANELSDAAENKGTAVKKREDVHRMAEANKAFAHYRWLSLR
+SFSHQAGASSKQPALGYLN</string>
+                    <external_references type="UNIPROTKB">P02359</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="41">
+                <name>30S ribosomal protein S8</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014146557</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSMQDPIADMLTRIRNGQAANKAAVTMPSSKLKVAIANVLKEEGFIEDFKVEGDTKPELELTLKYFQGKAVVESIQRVSR
+PGLRIYKRKDELPKVMAGLGIAVVSTSKGVMTDRAARQAGLGGEIICYVA</string>
+                    <external_references type="UNIPROTKB">P0A7W7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="42">
+                <name>30S ribosomal protein S9</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.01488627</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAENQYYGTGRRKSSAARVFIKPGNGKIVINQRSLEQYFGRETARMVVRQPLELVDMVEKLDLYITVKGGGISGQAGAIR
+HGITRALMEYDESLRSELRKAGFVTRDARQVERKKVGLRKARRRPQFSKR</string>
+                    <external_references type="UNIPROTKB">P0A7X3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="43">
+                <name>30S ribosomal protein S10</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011755597</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MQNQRIRIRLKAFDHRLIDQATAEIVETAKRTGAQVRGPIPLPTRKERFTVLISPHVNKDARDQYEIRTHLRLVDIVEPT
+EKTVDALMRLDLAAGVDVQISLG</string>
+                    <external_references type="UNIPROTKB">P0A7R5</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="44">
+                <name>30S ribosomal protein S11</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013870974999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKAPIRARKRVRKQVSDGVAHIHASFNNTIVTITDRQGNALGWATAGGSGFRGSRKSTPFAAQVAAERCADAVKEYGIK
+NLEVMVKGPGPGRESTIRALNAAGFRITNITDVTPIPHNGCRPPKKRRV</string>
+                    <external_references type="UNIPROTKB">P0A7R9</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="45">
+                <name>30S ribosomal protein S12</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013768156999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MATVNQLVRKPRARKVAKSNVPALEACPQKRGVCTRVYTTTPKKPNSALRKVCRVRLTNGFEVTSYIGGEGHNLQEHSVI
+LIRGGRVKDLPGVRYHTVRGALDCSGVKDRKQARSKYGVKRPKA</string>
+                    <external_references type="UNIPROTKB">P0A7S3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="46">
+                <name>30S ribosomal protein S13</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013128467</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARIAGINIPDHKHAVIALTSIYGVGKTRSKAILAAAGIAEDVKISELSEGQIDTLRDEVAKFVVEGDLRREISMSIKRL
+MDLGCYRGLRHRRGLPVRGQRTKTNARTRKGPRKPIKK</string>
+                    <external_references type="UNIPROTKB">P0A7S9</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="47">
+                <name>30S ribosomal protein S14</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011677637</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKQSMKAREVKRVALADKYFAKRAELKAIISDVNAASDEDRWNAVLKLQTLPRDSSPSRQRNRCRQTGRPHGFLRKFGL
+SRIKVREAAMRGEIPGLKKASW</string>
+                    <external_references type="UNIPROTKB">P0AG59</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="48">
+                <name>30S ribosomal protein S15</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.010290816</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSLSTEATAKIVSEFGRDANDTGSTEVQVALLTAQINHLQGHFAEHKKDHHSRRGLLRMVSQRRKLLDYLKRKDVARYTQ
+LIERLGLRR</string>
+                    <external_references type="UNIPROTKB">P0ADZ4</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="49">
+                <name>30S ribosomal protein S16</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009207571999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MVTIRLARHGAKKRPFYQVVVADSRNARNGRFIERVGFFNPIASEKEEGTRLDLDRIAHWVGQGATISDRVAALIKEVNK
+AA</string>
+                    <external_references type="UNIPROTKB">P0A7T3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="50">
+                <name>30S ribosomal protein S17</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009724491</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTDKIRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIRECRPLSKTKSWTLVRVVE
+KAVL</string>
+                    <external_references type="UNIPROTKB">P0AG63</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="51">
+                <name>30S ribosomal protein S18</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009005471999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARYFRRRKFCRFTAEGVQEIDYKDIATLKNYITESGKIVPSRITGTRAKYQRQLARAIKRARYLSLLPYTDRHQ</string>
+                    <external_references type="UNIPROTKB">P0A7T7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="52">
+                <name>30S ribosomal protein S19</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.010455355</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPRSLKKGPFIDLHLLKKVEKAVESGDKKPLRTWSRRSTIFPNMIGLTIAVHNGRQHVPVFVTDEMVGHKLGEFAPTRTY
+RGHAADKKAKKK</string>
+                    <external_references type="UNIPROTKB">P0A7U3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="53">
+                <name>30S ribosomal protein S20</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009708464</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MANIKSAKKRAIQSEKARKHNASRRSMMRTFIKKVYAAIEAGDKAAAQKAFNEMQPIVDRQAAKGLIHKNKAARHKANLT
+AQINKLA</string>
+                    <external_references type="UNIPROTKB">P0A7U7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="54">
+                <name>30S ribosomal protein S21</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008524039</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPVIKVRENEPFDVALRRFKRSCEKAGVLAEVRRREFYEKPTTERKRAKASAVKRHAKKLARENARRTRLY</string>
+                    <external_references type="UNIPROTKB">P68679</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <rna macromolecule_id="55">
+                <name>P-site tRNA(fMet)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024816876999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>CGCGGGG(4SU)GGAGCAGCCUGGUAGCUCGUCGGGCUCAUAACCCGAAGAUCGUCGG(5MU)(PSU)CAAAUCCGGCCC
+CCGCAACCA</string>
+                    <external_references type="GENBANK">CP022466.1</external_references>
+                </sequence>
+            </rna>
+            <rna macromolecule_id="56">
+                <name>P-site fMet-Phe-tRNA(Phe)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024643889</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>GCCCGGA(4SU)AGCUCAGUCGGUAGAGCAGGGGA(PSU)UGAA(MIA)A(PSU)CCCCGU(G7M)UCCUCGG(5MU)
+(PSU)CGAUUCCGAGUCCGGGCACCA</string>
+                </sequence>
+            </rna>
+            <protein_or_peptide macromolecule_id="57">
+                <name>Elongation factor G</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                    <strain>K12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.077676227</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARTTPIARYRNIGISAHIDAGKTTTTERILFYTGVNHKIGEVHDGAATMDWMEQEQERGITITSAATTAFWSGMAKQYE
+PHRINIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSETVWRQANKYKVPRIAFVNKMDRMGANFLKVVNQIKT
+RLGANPVPLQLAIGAEEHFTGVVDLVKMKAINWNDADQGVTFEYEDIPADMVELANEWHQNLIESAAEASEELMEKYLGG
+EELTEAEIKGALRQRVLNNEIILVTCGSAFKNKGVQAMLDAVIDYLPSPVDVPAINGILDDGKDTPAERHASDDEPFSAL
+AFKIATDPFVGNLTFFRVYSGVVNSGDTVLNSVKAARERFGRIVQMHANKREEIKEVRAGDIAAAIGLKDVTTGDTLCDP
+DAPIILERMEFPEPVISIAVEPKTKADQEKMGLALGRLAKEDPSFRVWTDEESNQTIIAGMGELHLDIIVDRMKREFNVE
+ANVGKPQVAYRETIRQKVTDVEGKHAKQSGGRGQYGHVVIDMYPLEPGSNPKGYEFINDIKGGVIPGEYIPAVDKGIQEQ
+LKAGPLAGYPVVDMGIRLHFGSYHDVDSSELAFKLAASIAFKEGFKKAKPVLLEPIMKVEVETPEENTGDVIGDLSRRRG
+MLKGQESEVTGVKIHAEVPLSEMFGYATQLRSLTKGRASYTMEFLKYDEAPSNVAQAVIEARGK</string>
+                    <external_references type="UNIPROTKB">P0A6M8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="58">
+                <name>Dipeptide (FME-PHE)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00032439499999999995</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>(FME)F</string>
+                </sequence>
+            </protein_or_peptide>
+            <rna macromolecule_id="59">
+                <name>mRNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli (strain K12)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.010480176999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>GUUAACAGGUAUACAUACUAUGUUUGUUAUUAC</string>
+                </sequence>
+            </rna>
+            <ligand macromolecule_id="60">
+                <name>MAGNESIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">2.4305e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>318</number_of_copies>
+                <formula>MG</formula>
+            </ligand>
+            <ligand macromolecule_id="61">
+                <name>ZINC ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">6.5409e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>ZN</formula>
+            </ligand>
+            <ligand macromolecule_id="62">
+                <name>SODIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">2.299e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>NA</formula>
+            </ligand>
+            <ligand macromolecule_id="63">
+                <name>APRAMYCIN</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000539577</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <formula>AM2</formula>
+            </ligand>
+            <ligand macromolecule_id="64">
+                <name>GUANOSINE-5'-DIPHOSPHATE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000443201</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>GDP</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                        <details>50 mM HEPES, 70 mM NH4Cl, 30 mM KCl, 3.5 mM MgCl2, 0.6 mM spermine, 0.4 mM spermidine</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/2</model>
+                        <material>GOLD</material>
+                        <mesh>200</mesh>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">15</time>
+                            <atmosphere>OTHER</atmosphere>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>HOMEMADE PLUNGER</instrument>
+                        <details>Manual blotting &amp; plunge-freezing. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">0.01</nominal_cs>
+                    <nominal_defocus_min units="µm">0.2</nominal_defocus_min>
+                    <calibrated_defocus_min units="µm">0.5</calibrated_defocus_min>
+                    <nominal_defocus_max units="µm">1.5</nominal_defocus_max>
+                    <calibrated_defocus_max units="µm">1.2</calibrated_defocus_max>
+                    <nominal_magnification>59000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <zemlin_tableau/>
+                    </alignment_procedure>
+                    <details>Aberration corrections performed using Cs image corrector (CEOS company)</details>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <detector_mode>INTEGRATING</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">4096</width>
+                                    <height units="pixel">4096</height>
+                                </dimensions>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>8221</number_real_images>
+                            <average_exposure_time units="s">1.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">30.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>1326729</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="EMDB MAP">
+                    <emdb_id>EMD-10906</emdb_id>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.1</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>23737</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="536871">
+        <file>emd_13464.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>512</col>
+            <row>512</row>
+            <sec>512</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>512</x>
+            <y>512</y>
+            <z>512</z>
+        </spacing>
+        <cell>
+            <a units="Å">334.08</a>
+            <b units="Å">334.08</b>
+            <c units="Å">334.08</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-8.595601</minimum>
+            <maximum>15.891617999999999</maximum>
+            <average>0.000000000000057</average>
+            <std>1.0</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.6525</x>
+            <y units="Å">0.6525</y>
+            <z units="Å">0.6525</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>1.5</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::D_1292116620::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>6YSS</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>4AQY</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>5LZD</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>5J9Z</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+                <details>Instead of Chimera ChimeraX was used.</details>
+                <target_criteria>RSCC</target_criteria>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_13464_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="95552">
+                <file>emd_13464_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>288</col>
+                    <row>288</row>
+                    <sec>288</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>288</x>
+                    <y>288</y>
+                    <z>288</z>
+                </spacing>
+                <cell>
+                    <a units="Å">334.08</a>
+                    <b units="Å">334.08</b>
+                    <c units="Å">334.08</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.6605812</minimum>
+                    <maximum>3.515216</maximum>
+                    <average>-0.006817383</average>
+                    <std>0.31142536</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.16</x>
+                    <y units="Å">1.16</y>
+                    <z units="Å">1.16</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::D_1292116620::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="95552">
+                <file>emd_13464_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>288</col>
+                    <row>288</row>
+                    <sec>288</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>288</x>
+                    <y>288</y>
+                    <z>288</z>
+                </spacing>
+                <cell>
+                    <a units="Å">334.08</a>
+                    <b units="Å">334.08</b>
+                    <c units="Å">334.08</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.11775827</minimum>
+                    <maximum>0.26437476</maximum>
+                    <average>0.00013557964</average>
+                    <std>0.022046627</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.16</x>
+                    <y units="Å">1.16</y>
+                    <z units="Å">1.16</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::D_1292116620::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

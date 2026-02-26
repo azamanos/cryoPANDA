@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_10_1/emdb.xsd" version="3.0.10.1" emdb_id="EMD-10835">
+    <admin>
+        <current_status>
+            <date>2025-04-09</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <revision_history>
+            <revision version="1.0" date="2020-05-06">
+                <change_list>
+                    <fsc>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </fsc>
+                    <half_map part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <half_map part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <image>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </image>
+                    <mask>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </mask>
+                    <primary_map>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </primary_map>
+                </change_list>
+            </revision>
+            <revision version="1.1" date="2025-04-09">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>citation</category>
+                            <category>database_2</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_citation.journal_id_ISSN</item>
+                            <item>_database_2.pdbx_DOI</item>
+                            <item>_database_2.pdbx_database_accession</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="1.2" date="2025-04-09">
+                <change_list>
+                    <model>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>chem_comp_atom</category>
+                            <category>chem_comp_bond</category>
+                            <category>citation</category>
+                            <category>database_2</category>
+                            <category>em_admin</category>
+                            <category>pdbx_entry_details</category>
+                            <category>pdbx_modification_feature</category>
+                        </categories>
+                        <items>
+                            <item>_citation.journal_id_ISSN</item>
+                            <item>_database_2.pdbx_DOI</item>
+                            <item>_database_2.pdbx_database_accession</item>
+                            <item>_em_admin.last_update</item>
+                            <item>_pdbx_entry_details.has_protein_modification</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+        </revision_history>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-04-06</deposition>
+            <header_release>2020-05-06</header_release>
+            <map_release>2020-05-06</map_release>
+            <update>2025-04-09</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Swiss National Science Foundation</funding_body>
+                <country>Switzerland</country>
+            </grant_reference>
+        </grant_support>
+        <title>High resolution cryo-EM structure of urease from the pathogen Yersinia enterocolitica</title>
+        <authors_list>
+            <author>Righetto RD</author>
+            <author>Anton L</author>
+        </authors_list>
+        <keywords>Urease, enzyme, nickel, metalloenzyme, pathogen, METAL BINDING PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0003-4247-4303" order="1">Righetto RD</author>
+                    <author ORCID="0000-0003-0008-2141" order="2">Anton L</author>
+                    <author order="3">Adaixo R</author>
+                    <author ORCID="0000-0002-6451-8656" order="4">Jakob RP</author>
+                    <author order="5">Zivanov J</author>
+                    <author order="6">Mahi MA</author>
+                    <author order="7">Ringler P</author>
+                    <author ORCID="0000-0003-2715-335X" order="8">Schwede T</author>
+                    <author order="9">Maier T</author>
+                    <author order="10">Stahlberg H</author>
+                    <title>High-resolution cryo-EM structure of urease from the pathogen Yersinia enterocolitica.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>11</volume>
+                    <first_page>5101</first_page>
+                    <last_page>5101</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">33037208</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-020-18870-2</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+            <secondary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0003-4247-4303" order="11">Righetto RD</author>
+                    <author ORCID="0000-0003-0008-2141" order="12">Anton L</author>
+                    <author order="13">Adaixo R</author>
+                    <author order="14">Jakob R</author>
+                    <author order="15">Zivanov J</author>
+                    <author order="16">Mahi MA</author>
+                    <author order="17">Ringler P</author>
+                    <author order="18">Schwede T</author>
+                    <author ORCID="0000-0002-7459-1363" order="19">Maier T</author>
+                    <author ORCID="0000-0002-1185-4592" order="20">Stahlberg H</author>
+                    <title>High-resolution cryo-EM structure of urease from the pathogen Yersinia enterocolitica</title>
+                    <journal_abbreviation>Biorxiv</journal_abbreviation>
+                    <country>US</country>
+                    <year>2020</year>
+                    <external_references type="DOI">doi:10.1101/2020.04.28.065599</external_references>
+                    <external_references type="ISSN">2692-8205</external_references>
+                </journal_citation>
+            </secondary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6yl3</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Urease oligomer from Y. enterocolitica</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Urease oligomer from Y. enterocolitica</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="913028">Yersinia enterocolitica W22703</organism>
+                    <strain>E40</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">1.025</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Urease subunit gamma</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="913028">Yersinia enterocolitica W22703</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011063836999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>12</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MQLTPREVEKLMIYTLSDVAFKRKARGLKLNYPEAVSIITVTAMEGARDGKSVEDVMKEASKVLTKDDVMDGVADLIPNV
+QVEAIFTDGSRLVTVHDPIK</string>
+                    <external_references type="UNIPROTKB">F4MWM9</external_references>
+                </sequence>
+                <ec_number>3.5.1.5</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Urease subunit beta</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="913028">Yersinia enterocolitica W22703</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014611316999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>12</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SEQNTPLGGCILADTPITFNENKPVTKVKVRNTGDRPIQVGSHFHFFEVNRALEFDRAAAYGKRLNISSTTAIRFEPGDE
+TEVPLIPFGGKQTLYGFNNLVDGWTGEGVVPNSERPDKLEAIRRAAERGFKS</string>
+                    <external_references type="UNIPROTKB">F4MWM8</external_references>
+                </sequence>
+                <ec_number>3.5.1.5</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Urease subunit alpha</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="913028">Yersinia enterocolitica W22703</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.061054858999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>12</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>PQISRQEYAGLFGPTTGDKIRLGDTNLFIEIEKDLRGYGEESVYGGGKSLRDGMGANNHLTRDNGVLDLVITNVTIVDAR
+LGVIKADVGIRDGKIAGIGKSGNPGVMDGVTPGLVVGVSTDAISGEHLILTAAGIDTHIHLISPQQAYHALSNGVATFFG
+GGIGPTDGTNGTTVTPGPWNIRQMLRSVEGLPVNVGILGKGNSYGRGPLLEQAIAGVVGY(KCX)VHEDWGATANALRHS
+LRMADEMDIQVSVHTDSLNECGYVEDTIDAFEGRTIHTFHTEGAGGGHAPDIIRVASQPNVLPSSTNPTLPYGVNSQAEL
+FDMIMVCHNLNPNVPADVSFAESRVRPETIAAENVLHDMGVISMFSSDSQAMGRVGENWLRVMQTANAMKASRGKLPEDA
+PGNDNFRVLRYVAKITINPAIAQGVSHVIGSVEVGKMADLVLWDPRFFGAKPKMVIKGGMINWAAMGDPNASLPTPQPVF
+YRPMFGAMGKTMQDTCVTFVSQAALDDGVKEKAGLDRQVIAVKNCRTISKHDLVRNDQTPNIEVDPETFAVKVDGVHATC
+EPIDTAAMNQRYFFG</string>
+                    <external_references type="UNIPROTKB">F4MWM7</external_references>
+                </sequence>
+                <ec_number>3.5.1.5</ec_number>
+            </protein_or_peptide>
+            <ligand macromolecule_id="4">
+                <name>NICKEL (II) ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">5.8692999999999995e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>24</number_of_copies>
+                <formula>NI</formula>
+            </ligand>
+            <ligand macromolecule_id="5">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>3672</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.39</concentration>
+                    <buffer>
+                        <ph>7.0</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>200</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">90</chamber_humidity>
+                        <chamber_temperature units="K">293.15</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>3 seconds blotting. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">70.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Quantum LS</name>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <average_electron_dose_per_image units="e/Å^2">42.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="INSILICO MODEL"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>T</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">1.98</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>97627</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="536871">
+        <file>emd_10835.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>512</col>
+            <row>512</row>
+            <sec>512</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>512</x>
+            <y>512</y>
+            <z>512</z>
+        </spacing>
+        <cell>
+            <a units="Å">327.168</a>
+            <b units="Å">327.168</b>
+            <c units="Å">327.168</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.1456621</minimum>
+            <maximum>0.24816307</maximum>
+            <average>0.00011374676</average>
+            <std>0.007022416</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.639</x>
+            <y units="Å">0.639</y>
+            <z units="Å">0.639</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.035</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-10835::::</label>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_10835_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="536871">
+                <file>emd_10835_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>512</col>
+                    <row>512</row>
+                    <sec>512</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>512</x>
+                    <y>512</y>
+                    <z>512</z>
+                </spacing>
+                <cell>
+                    <a units="Å">327.168</a>
+                    <b units="Å">327.168</b>
+                    <c units="Å">327.168</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.017432902</minimum>
+                    <maximum>0.042722654</maximum>
+                    <average>0.000022569646</average>
+                    <std>0.002130883</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.639</x>
+                    <y units="Å">0.639</y>
+                    <z units="Å">0.639</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-10835::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="536871">
+                <file>emd_10835_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>512</col>
+                    <row>512</row>
+                    <sec>512</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>512</x>
+                    <y>512</y>
+                    <z>512</z>
+                </spacing>
+                <cell>
+                    <a units="Å">327.168</a>
+                    <b units="Å">327.168</b>
+                    <c units="Å">327.168</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.018514536</minimum>
+                    <maximum>0.042160437</maximum>
+                    <average>0.000022682265</average>
+                    <std>0.0021297808</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.639</x>
+                    <y units="Å">0.639</y>
+                    <z units="Å">0.639</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-10835::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

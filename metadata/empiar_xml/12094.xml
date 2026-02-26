@@ -1,0 +1,202 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12094" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-02-16</depositionDate>
+            <releaseDate>2025-05-04</releaseDate>
+            <updateDate>2025-05-04</updateDate>
+        </keyDates>
+        <title>Structural basis for translational control by the human 48S initiation complex</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-4609-4052</authorORCID>
+            <firstName>Niels</firstName>
+            <lastName>Fischer</lastName>
+            <organization type="academic">Max Planck Institute for Multidisciplinary Sciences</organization>
+            <street>Am Fassberg 11</street>
+            <townOrCity>Goettingen</townOrCity>
+            <stateOrProvince>Niedersachsen</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>37077</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-4609-4052</authorORCID>
+            <firstName>Niels</firstName>
+            <lastName>Fischer</lastName>
+            <organization type="academic">Max Planck Institute for Multidisciplinary Sciences</organization>
+            <street>Am Fassberg 11</street>
+            <townOrCity>Goettingen</townOrCity>
+            <stateOrProvince>Niedersachsen</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>37077</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-9867-9493">Petrychenko V</author>
+            <author authorORCID="0000-0002-5671-637X">Yi SH</author>
+            <author authorORCID="0009-0009-0127-631X">Liedtke D</author>
+            <author authorORCID="0000-0002-9832-8447">Peng BZ</author>
+            <author authorORCID="0000-0003-0105-3879">Rodnina MV</author>
+            <author authorORCID="0000-0002-4609-4052">Fischer N</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">6.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12094</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-17696</emdbEntry>
+            <emdbEntry>EMD-17697</emdbEntry>
+            <emdbEntry>EMD-17698</emdbEntry>
+            <emdbEntry>EMD-17699</emdbEntry>
+            <emdbEntry>EMD-17700</emdbEntry>
+            <emdbEntry>EMD-17701</emdbEntry>
+            <emdbEntry>EMD-19128</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-9867-9493" order="1">Petrychenko V</author>
+                    <author authorORCID="0000-0002-5671-637X" order="2">Yi SH</author>
+                    <author authorORCID="0009-0009-0127-631X" order="3">Liedtke D</author>
+                    <author authorORCID="0000-0002-9832-8447" order="4">Peng BZ</author>
+                    <author authorORCID="0000-0003-0105-3879" order="5">Rodnina MV</author>
+                    <author authorORCID="0000-0002-4609-4052" order="6">Fischer N</author>
+                    <title>Structural basis for translational control by the human 48S initiation complex</title>
+                    <journal>Nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>Nat Struct Mol Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>32</volume>
+                    <firstPage>62</firstPage>
+                    <lastPage>72</lastPage>
+                    <year>2024</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41594-024-01378-4</externalReferences>
+                    <externalReferences type="pubmed">39289545</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion-corrected, dose-weighted micrographs</name>
+        <directory>/data/corrected_micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>93510</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.16</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.16</pixelHeight>
+        </dimensions>
+        <details>Micrographs were obtained from movie-stacks of 20 frames à 2-2.5 e/A^2 by global motion-correction and dose-weighting using Relion 4.0, CTF parameters were estimated with GCTF 1.06 and particles were selected by GAUTOMATCH 0.56.
+- Micrographs star-file (Micrographs with FinalResolution better 4.5A): data/corrected_micrographs.star 
+- Particle coordinates: data/corrected_micrographs/*_automatch.star</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/corrected_micrographs/FoilHole_*_Data_*_Fractions.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Shiny particles, obtained by Bayesian polishing in Relion 4.0</name>
+        <directory>/data/particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>1308019</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>360</imageWidth>
+            <pixelWidth>1.16</pixelWidth>
+            <imageHeight>360</imageHeight>
+            <pixelHeight>1.16</pixelHeight>
+        </dimensions>
+        <details>Star-files for individual particle populations are located in data/particles (see below), masks used for sorting and final refinements in data/particles/masks360.
+Star-file for all shiny particles:
+- data/shiny_particles360_all.star
+Star-files for shiny particles of major states
+- data/particles/shiny_particles360_48S-1.star
+- data/particles/shiny_particles360_48S-2.star
+- data/particles/shiny_particles360_48S-3.star
+- data/particles/shiny_particles360_48S-4.star
+- data/particles/shiny_particles360_48S-5.star
+Star-files for shiny particles of eIF2, tRNA and eIFB5 substates:
+- data/particles/shiny_particles360_48S-2-1.star
+- data/particles/shiny_particles360_48S-2-2.star
+- data/particles/shiny_particles360_48S-2-3.star
+- data/particles/shiny_particles360_48S-3-1.star
+- data/particles/shiny_particles360_48S-3-2.star
+- data/particles/shiny_particles360_48S-3-3.star
+- data/particles/shiny_particles360_48S-4-1.star
+- data/particles/shiny_particles360_48S-4-2.star
+- data/particles/shiny_particles360_48S-5-1.star
+- data/particles/shiny_particles360_48S-5-2.star
+- data/particles/shiny_particles360_48S-5-3.star
+Star-files for shiny particles of eIF3bi substates:
+- data/particles/shiny_particles360_48S-1_eIF3bi_majorstate.star
+- data/particles/shiny_particles360_closed48S_eIF3bi_majorstate.star
+- data/particles/shiny_particles360_closed48S_eIF3bi_minorstate1.star
+- data/particles/shiny_particles360_closed48S_eIF3bi_minorstate2.star</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/corrected_micrographs/FoilHole_*_Data_*_Fractions.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/particles/shiny_particles360/job*/*/FoilHole_*_Data_*_Fractions_shiny.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles/shiny_particles360/job*/*</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Signal-subtracted particles - eIF3core in open 48S</name>
+        <directory>/data/subtracted_particles/subtracted_particles240_eIF3core_open48S</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>92749</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>240</imageWidth>
+            <pixelWidth>1.16</pixelWidth>
+            <imageHeight>240</imageHeight>
+            <pixelHeight>1.16</pixelHeight>
+        </dimensions>
+        <details>Star-files with subtracted particles used for local refinement of eIF3core in open 48S (48S-1):
+- data/subtracted_particles/subtracted_particles240_eIF3core_open48S.star
+Masks used for refinements are located in data/subtracted_particles/masks240.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/corrected_micrographs/FoilHole_*_Data_*_Fractions.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/subtracted_particles/subtracted_particles240_eIF3core_open48S/subtracted_rank*_opticsgroup*.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/subtracted_particles/subtracted_particles240_eIF3core_open48S</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Signal-subtracted particles - eIF3core in closed 48S</name>
+        <directory>/data/subtracted_particles/subtracted_particles240_eIF3core_closed48S</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>356632</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>240</imageWidth>
+            <pixelWidth>1.16</pixelWidth>
+            <imageHeight>240</imageHeight>
+            <pixelHeight>1.16</pixelHeight>
+        </dimensions>
+        <details>Star-files with subtracted particles used for local refinement of eIF3core in closed 48S (48S-2 to 5):
+- data/subtracted_particles/subtracted_particles240_eIF3core_closed48S.star
+Masks used for refinements are located in data/subtracted_particles/masks240.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/corrected_micrographs/FoilHole_*_Data_*_Fractions.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/subtracted_particles/subtracted_particles240_eIF3core_closed48S/subtracted_rank*_opticsgroup*.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/subtracted_particles/subtracted_particles240_eIF3core_closed48S</pickedParticlesDirectory>
+    </imageSet>
+</entry>

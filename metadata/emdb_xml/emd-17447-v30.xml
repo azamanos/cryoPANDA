@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd emdb_id="EMD-17447">
+    <admin>
+        <current_status>
+            <date>2023-07-19</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-05-23</deposition>
+            <header_release>2023-06-21</header_release>
+            <map_release>2023-06-21</map_release>
+            <update>2023-07-19</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Other government</funding_body>
+                <country>Germany</country>
+            </grant_reference>
+        </grant_support>
+        <title>Local refinement map of TFIIIC TauB-DNA monomer 2</title>
+        <authors_list>
+            <author>Seifert-Davila W</author>
+            <author>Girbig M</author>
+            <author>Hauptmann L</author>
+            <author>Hoffmann T</author>
+            <author>Eustermann S</author>
+            <author>Mueller CW</author>
+        </authors_list>
+        <keywords>TFIIIC, tRNA gene, B-Box promoter, DNA recognition, TRANSCRIPTION</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-5366-624X" order="1">Seifert-Davila W</author>
+                    <author ORCID="0000-0003-3442-5448" order="2">Girbig M</author>
+                    <author ORCID="0000-0003-3561-4523" order="3">Hauptmann L</author>
+                    <author ORCID="0000-0002-2980-8324" order="4">Hoffmann T</author>
+                    <author ORCID="0000-0002-4439-7770" order="5">Eustermann S</author>
+                    <author ORCID="0000-0003-2176-8337" order="6">Muller CW</author>
+                    <title>Structural insights into human TFIIIC promoter recognition.</title>
+                    <journal_abbreviation>Sci Adv</journal_abbreviation>
+                    <country>US</country>
+                    <volume>9</volume>
+                    <first_page>eadh2019</first_page>
+                    <last_page>eadh2019</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">37418517</external_references>
+                    <external_references type="DOI">doi:10.1126/sciadv.adh2019</external_references>
+                    <external_references type="ISSN">2375-2548</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-16714</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>Composite map of TauB-DNA dimer</details>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>TFIIIC tauB-DNA monomer 2</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>TFIIIC tauB-DNA monomer 2</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.6</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>8.0</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.7000000000000001</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">1.7</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">42.8</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>Alphafold2 model</insilico_model>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.2</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>35379</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="442369">
+        <file>emd_17447.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>480</col>
+            <row>480</row>
+            <sec>480</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>480</x>
+            <y>480</y>
+            <z>480</z>
+        </spacing>
+        <cell>
+            <a units="Å">394.56</a>
+            <b units="Å">394.56</b>
+            <c units="Å">394.56</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-3.2200065</minimum>
+            <maximum>5.79223</maximum>
+            <average>0.0041989987</average>
+            <std>0.094856426</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.82199997</x>
+            <y units="Å">0.82199997</y>
+            <z units="Å">0.82199997</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.6</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-17447::::</label>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_17447_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="442369">
+                <file>emd_17447_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>480</col>
+                    <row>480</row>
+                    <sec>480</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>480</x>
+                    <y>480</y>
+                    <z>480</z>
+                </spacing>
+                <cell>
+                    <a units="Å">394.56</a>
+                    <b units="Å">394.56</b>
+                    <c units="Å">394.56</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.42162904</minimum>
+                    <maximum>1.3259854</maximum>
+                    <average>0.0019119298</average>
+                    <std>0.042313773</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.82199997</x>
+                    <y units="Å">0.82199997</y>
+                    <z units="Å">0.82199997</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-17447::::</label>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="442369">
+                <file>emd_17447_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>480</col>
+                    <row>480</row>
+                    <sec>480</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>480</x>
+                    <y>480</y>
+                    <z>480</z>
+                </spacing>
+                <cell>
+                    <a units="Å">394.56</a>
+                    <b units="Å">394.56</b>
+                    <c units="Å">394.56</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-2.029778</minimum>
+                    <maximum>2.0701811</maximum>
+                    <average>0.0020879814</average>
+                    <std>0.2482009</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.82199997</x>
+                    <y units="Å">0.82199997</y>
+                    <z units="Å">0.82199997</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-17447::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="442369">
+                <file>emd_17447_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>480</col>
+                    <row>480</row>
+                    <sec>480</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>480</x>
+                    <y>480</y>
+                    <z>480</z>
+                </spacing>
+                <cell>
+                    <a units="Å">394.56</a>
+                    <b units="Å">394.56</b>
+                    <c units="Å">394.56</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-2.123339</minimum>
+                    <maximum>2.186447</maximum>
+                    <average>0.002146413</average>
+                    <std>0.25108266</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.82199997</x>
+                    <y units="Å">0.82199997</y>
+                    <z units="Å">0.82199997</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-17447::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

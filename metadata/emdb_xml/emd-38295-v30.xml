@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-38295">
+    <admin>
+        <current_status>
+            <date>2024-10-02</date>
+            <code>REL</code>
+            <processing_site>PDBj</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBj</deposition>
+            <last_processing>PDBj</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-12-12</deposition>
+            <header_release>2024-04-17</header_release>
+            <map_release>2024-04-17</map_release>
+            <update>2024-10-02</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Japan Society for the Promotion of Science (JSPS)</funding_body>
+                <code>22H02554</code>
+                <country>Japan</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Japan Society for the Promotion of Science (JSPS)</funding_body>
+                <code>21F20764</code>
+                <country>Japan</country>
+            </grant_reference>
+        </grant_support>
+        <title>SPACEtomo example tomograms of Baker's Yeast</title>
+        <authors_list>
+            <author ORCID="0000-0002-1261-7126">Eisenstein F</author>
+            <author ORCID="0000-0001-6406-8993">Danev R</author>
+        </authors_list>
+        <keywords>cryoET, tomogram, CYTOSOLIC PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-1261-7126" order="1">Eisenstein F</author>
+                    <author order="2">Fukuda Y</author>
+                    <author ORCID="0000-0001-6406-8993" order="3">Danev R</author>
+                    <title>Smart parallel automated cryo-electron tomography.</title>
+                    <journal_abbreviation>Nat.Methods</journal_abbreviation>
+                    <country>US</country>
+                    <volume>21</volume>
+                    <first_page>1612</first_page>
+                    <last_page>1615</last_page>
+                    <year>2024</year>
+                    <external_references type="PUBMED">39117874</external_references>
+                    <external_references type="DOI">doi:10.1038/s41592-024-02373-9</external_references>
+                    <external_references type="ISSN">1548-7105</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+    </crossreferences>
+    <sample>
+        <name>Baker's Yeast</name>
+        <supramolecule_list>
+            <cell_supramolecule supramolecule_id="1">
+                <name>Baker's Yeast</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                </natural_source>
+            </cell_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>tomography</method>
+            <aggregation_state>cell</aggregation_state>
+            <specimen_preparation_list>
+                <tomography_preparation preparation_id="1">
+                    <buffer>
+                        <ph>6.8</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                    </vitrification>
+                    <cryo_protectant>15 % dextran and 2 % glucose</cryo_protectant>
+                    <sectioning>
+                        <focused_ion_beam>
+                            <instrument>OTHER</instrument>
+                            <ion>OTHER</ion>
+                            <voltage>30</voltage>
+                            <current>0.03</current>
+                            <duration>60</duration>
+                            <temperature units="K">78</temperature>
+                            <initial_thickness>1000</initial_thickness>
+                            <final_thickness>200</final_thickness>
+                            <details>The value given for _em_focused_ion_beam.instrument is Aquilos 2. This is not in a list of allowed values {'OTHER', 'DB235'} so OTHER is written into the XML file.</details>
+                        </focused_ion_beam>
+                    </sectioning>
+                </tomography_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <tomography_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">5.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">5.0</nominal_defocus_max>
+                    <nominal_magnification>42000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Bioquantum</name>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <number_grids_imaged>8</number_grids_imaged>
+                            <average_exposure_time units="s">1.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">4.35</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </tomography_microscopy>
+            </microscopy_list>
+            <tomography_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <algorithm>BACK PROJECTION</algorithm>
+                    <details>Tomogram was denoised using cryo-CARE</details>
+                    <number_images_used>40</number_images_used>
+                </final_reconstruction>
+            </tomography_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="1769473">
+        <file>emd_38295.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>1024</col>
+            <row>1440</row>
+            <sec>300</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>-72</sec>
+        </origin>
+        <spacing>
+            <x>1024</x>
+            <y>1440</y>
+            <z>300</z>
+        </spacing>
+        <cell>
+            <a units="Å">8560.64</a>
+            <b units="Å">12038.399</b>
+            <c units="Å">2508.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-3.6620421</minimum>
+            <maximum>1.1905801</maximum>
+            <average>0.03319033</average>
+            <std>0.054632302</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">8.36</x>
+            <y units="Å">8.36</y>
+            <z units="Å">8.36</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-38295::::</label>
+        <annotation_details>SPACEtomo example tomogram showing a mitochondrium</annotation_details>
+    </map>
+    <interpretation>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="2943361">
+                <file>emd_38295_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>1022</col>
+                    <row>1440</row>
+                    <sec>500</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>1022</x>
+                    <y>1440</y>
+                    <z>500</z>
+                </spacing>
+                <cell>
+                    <a units="Å">8543.92</a>
+                    <b units="Å">12038.399</b>
+                    <c units="Å">4180.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.0001495697</minimum>
+                    <maximum>0.00008139439</maximum>
+                    <average>0.00000021721523</average>
+                    <std>0.000004919212</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">8.36</x>
+                    <y units="Å">8.36</y>
+                    <z units="Å">8.36</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-38295::::</label>
+                <annotation_details>SPACEtomo example tomogram showing the nuclear envelope</annotation_details>
+            </additional_map>
+        </additional_map_list>
+    </interpretation>
+</emd>

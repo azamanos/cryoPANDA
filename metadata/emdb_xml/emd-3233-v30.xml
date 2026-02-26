@@ -1,0 +1,217 @@
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" emdb_id="EMD-3233" version="3.0.1.1" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+   <admin>
+      <current_status>
+         <code>REL</code>
+         <processing_site>PDBe</processing_site>
+      </current_status>
+      <sites>
+         <deposition>PDBe</deposition>
+         <last_processing>PDBe</last_processing>
+      </sites>
+      <key_dates>
+         <deposition>2015-11-06</deposition>
+         <header_release>2016-01-13</header_release>
+         <map_release>2016-02-03</map_release>
+         <update>2016-02-10</update>
+      </key_dates>
+      <title>Volta phase plate cryo-EM of the small protein complex Prx3</title>
+      <authors_list>
+         <author>Khoshouei M</author>
+         <author>Radjainia M</author>
+         <author>Phillips AJ</author>
+         <author>Gerrard JA</author>
+         <author>Mitra AK</author>
+         <author>Plitzko JM</author>
+         <author>Baumeister W</author>
+         <author>Danev R</author>
+      </authors_list>
+      <keywords>Peroxidase, antioxidant</keywords>
+   </admin>
+   <crossreferences>
+      <citation_list>
+         <primary_citation>
+            <journal_citation published="true">
+               <author order="1">Khoshouei M</author>
+               <author order="2">Radjainia M</author>
+               <author order="3">Phillips AJ</author>
+               <author order="4">Gerrard JA</author>
+               <author order="5">Mitra AK</author>
+               <author order="6">Plitzko JM</author>
+               <author order="7">Baumeister W</author>
+               <author order="8">Danev R</author>
+               <title>Volta phase plate cryo-EM of the small protein complex Prx3</title>
+               <journal>NAT.COMMUN.</journal>
+               <volume>7</volume>
+               <first_page>10534</first_page>
+               <year>2016</year>
+               <external_references type="PUBMED">26817416</external_references>
+               <external_references type="DOI">doi:10.1038/ncomms10534</external_references>
+            </journal_citation>
+         </primary_citation>
+      </citation_list>
+   </crossreferences>
+   <sample>
+      <name>Human peroxiredoxin 3</name>
+      <supramolecule_list>
+         <sample_supramolecule supramolecule_id="1000">
+            <name>Human peroxiredoxin 3</name>
+            <details>The sample was monodisperse</details>
+            <oligomeric_state>Dodecamer</oligomeric_state>
+            <number_unique_components>1</number_unique_components>
+            <molecular_weight>
+               <theoretical units="MDa">0.257</theoretical>
+            </molecular_weight>
+         </sample_supramolecule>
+      </supramolecule_list>
+      <macromolecule_list>
+         <protein_or_peptide macromolecule_id="1">
+            <name>Peroxiredoxin 3</name>
+            <natural_source database="NCBI">
+               <organism ncbi="9606">Homo sapiens</organism>
+               <synonym_organism>Human</synonym_organism>
+               <organelle>Mitochondria</organelle>
+               <cellular_location>Matrix</cellular_location>
+            </natural_source>
+            <molecular_weight>
+               <theoretical units="MDa">0.257</theoretical>
+            </molecular_weight>
+            <number_of_copies>12</number_of_copies>
+            <oligomeric_state>Dodecamer</oligomeric_state>
+            <recombinant_exp_flag>true</recombinant_exp_flag>
+            <recombinant_expression database="NCBI">
+               <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+               <recombinant_plasmid>pET</recombinant_plasmid>
+            </recombinant_expression>
+            <sequence>
+               <external_references type="UNIPROTKB">Q53HC2</external_references>
+            </sequence>
+         </protein_or_peptide>
+      </macromolecule_list>
+   </sample>
+   <structure_determination_list>
+      <structure_determination structure_determination_id="1">
+         <method>singleParticle</method>
+         <aggregation_state>particle</aggregation_state>
+         <specimen_preparation_list>
+            <single_particle_preparation preparation_id="1">
+               <concentration units="mg/mL">0.5</concentration>
+               <buffer>
+                  <ph>8.0</ph>
+                  <details>150mM NaCl, 20mM Hepes</details>
+               </buffer>
+               <grid>
+                  <details>Quantifoil R1.2/1.3</details>
+               </grid>
+               <vitrification>
+                  <cryogen_name>ETHANE-PROPANE MIXTURE</cryogen_name>
+                  <chamber_humidity units="percentage">85</chamber_humidity>
+                  <chamber_temperature units="K">93</chamber_temperature>
+                  <instrument>FEI VITROBOT MARK III</instrument>
+                  <method>Blotting time: 4seconds</method>
+               </vitrification>
+            </single_particle_preparation>
+         </specimen_preparation_list>
+         <microscopy_list>
+            <single_particle_microscopy microscopy_id="1">
+               <microscope>FEI TITAN KRIOS</microscope>
+               <illumination_mode>FLOOD BEAM</illumination_mode>
+               <imaging_mode>BRIGHT FIELD</imaging_mode>
+               <electron_source>FIELD EMISSION GUN</electron_source>
+               <acceleration_voltage units="kV">300</acceleration_voltage>
+               <nominal_cs units="mm">2.7</nominal_cs>
+               <calibrated_magnification>28700.0</calibrated_magnification>
+               <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+               <specialist_optics>
+                  <energy_filter>
+                     <name>Quantum post-column energy filter</name>
+                     <lower_energy_threshold units="eV">0.0</lower_energy_threshold>
+                     <upper_energy_threshold units="eV">20.0</upper_energy_threshold>
+                  </energy_filter>
+               </specialist_optics>
+               <details>Volta Phase Plate</details>
+               <date>2015-07-01</date>
+               <image_recording_list>
+                  <image_recording>
+                     <film_or_detector_model category="CCD">GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                     <average_electron_dose_per_image units="e/&#8491;^2">20</average_electron_dose_per_image>
+                  </image_recording>
+               </image_recording_list>
+            </single_particle_microscopy>
+         </microscopy_list>
+         <singleparticle_processing image_processing_id="1">
+            <final_reconstruction>
+               <applied_symmetry>
+                  <point_group>D6</point_group>
+               </applied_symmetry>
+               <resolution res_type="BY AUTHOR" units="&#8491;">4.4</resolution>
+               <resolution_method>OTHER</resolution_method>
+               <software_list>
+                  <software>
+                     <name>Relion</name>
+                  </software>
+               </software_list>
+               <number_images_used>8000</number_images_used>
+            </final_reconstruction>
+         </singleparticle_processing>
+      </structure_determination>
+   </structure_determination_list>
+   <map format="CCP4" size_kbytes="13719">
+      <file>emd_3233.map.gz</file>
+      <symmetry>
+         <space_group>1</space_group>
+      </symmetry>
+      <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+      <dimensions>
+         <col>152</col>
+         <row>152</row>
+         <sec>152</sec>
+      </dimensions>
+      <origin>
+         <col>0</col>
+         <row>0</row>
+         <sec>0</sec>
+      </origin>
+      <spacing>
+         <x>152</x>
+         <y>152</y>
+         <z>152</z>
+      </spacing>
+      <cell>
+         <a units="&#8491;">264.48</a>
+         <b units="&#8491;">264.48</b>
+         <c units="&#8491;">264.48</c>
+         <alpha units="deg">90.0</alpha>
+         <beta units="deg">90.0</beta>
+         <gamma units="deg">90.0</gamma>
+      </cell>
+      <axis_order>
+         <fast>X</fast>
+         <medium>Y</medium>
+         <slow>Z</slow>
+      </axis_order>
+      <statistics>
+         <minimum>-0.04875568</minimum>
+         <maximum>0.1705908</maximum>
+         <average>0.00093987</average>
+         <std>0.0076915</std>
+      </statistics>
+      <pixel_spacing>
+         <x units="&#8491;">1.7400001</x>
+         <y units="&#8491;">1.7400001</y>
+         <z units="&#8491;">1.7400001</z>
+      </pixel_spacing>
+      <contour_list>
+         <contour primary="true">
+            <level>0.0368</level>
+            <source>AUTHOR</source>
+         </contour>
+      </contour_list>
+      <annotation_details>Volta phase plate reconstruction of hPrx3</annotation_details>
+      <details>::::EMDATABANK.org::::EMD-3233::::</details>
+   </map>
+   <validation>
+      <fsc_curve>
+         <file>emd_3233_fsc.xml</file>
+      </fsc_curve>
+   </validation>
+</emd>

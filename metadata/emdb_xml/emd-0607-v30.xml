@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_2/emdb.xsd" version="3.0.9.2" emdb_id="EMD-0607">
+    <admin>
+        <current_status>
+            <date>2024-03-20</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-02-22</deposition>
+            <header_release>2019-03-20</header_release>
+            <map_release>2019-04-24</map_release>
+            <update>2024-03-20</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01GM098672</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Center for Research Resources (NIH/NCRR)</funding_body>
+                <code>S10OD020054</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Center for Research Resources (NIH/NCRR)</funding_body>
+                <code>S10OD021741</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Neurological Disorders and Stroke (NIH/NINDS)</funding_body>
+                <code>R35NS105038</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Netherlands Organisation for Scientific Research (NWO)</funding_body>
+                <code>451001004</code>
+                <country>Netherlands</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Union (EU)</funding_body>
+                <code>748058</code>
+                <country>European Union</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Human Frontier Science Program (HFSP)</funding_body>
+                <country>France</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Howard Hughes Medical Institute (HHMI)</funding_body>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of TRPV5 with calmodulin bound</title>
+        <authors_list>
+            <author>Dang S</author>
+            <author>van Goor MK</author>
+        </authors_list>
+        <keywords>TRP channel, MEMBRANE PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Dang S</author>
+                    <author order="2">van Goor MK</author>
+                    <author order="3">Asarnow D</author>
+                    <author order="4">Wang Y</author>
+                    <author order="5">Julius D</author>
+                    <author order="6">Cheng Y</author>
+                    <author order="7">van der Wijst J</author>
+                    <title>Structural insight into TRPV5 channel function and modulation.</title>
+                    <journal_abbreviation>Proc.Natl.Acad.Sci.USA</journal_abbreviation>
+                    <country>US</country>
+                    <volume>116</volume>
+                    <first_page>8869</first_page>
+                    <last_page>8878</last_page>
+                    <year>2019</year>
+                    <external_references type="PUBMED">30975749</external_references>
+                    <external_references type="DOI">doi:10.1073/pnas.1820323116</external_references>
+                    <external_references type="ISSN">1091-6490</external_references>
+                    <external_references type="CSD">0040</external_references>
+                    <external_references type="ASTM">PNASA6</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-0593</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>TRPV5 with C-terminal deletion</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-0594</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>Full length TRPV5</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-0605</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>TRPV5 with W583A mutant</details>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6o20</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Complex of TRPV5 with calmodulin bound</name>
+        <supramolecule_list>
+            <cell_supramolecule supramolecule_id="1">
+                <name>Complex of TRPV5 with calmodulin bound</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9986">Oryctolagus cuniculus</organism>
+                </natural_source>
+            </cell_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Transient receptor potential cation channel subfamily V member 5</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9986">Oryctolagus cuniculus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.082899656</theoretical>
+                </molecular_weight>
+                <number_of_copies>5</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGACPPKAKGPWAQLQKLLISWPVGEQDWEQYRDRVNMLQQERIRDSPLLQAAKENDLRLLKILLLNQSCDFQQRGAVGE
+TALHVAALYDNLEAATLLMEAAPELAKEPALCEPFVGQTALHIAVMNQNLNLVRALLARGASVSARATGAAFRRSPHNLI
+YYGEHPLSFAACVGSEEIVRLLIEHGADIRAQDSLGNTVLHILILQPNKTFACQMYNLLLSYDEHSDHLQSLELVPNHQG
+LTPFKLAGVEGNTVMFQHLMQKRKHVQWTCGPLTSTLYDLTEIDSWGEELSFLELVVSSKKREARQILEQTPVKELVSFK
+WKKYGRPYFCVLASLYILYMICFTTCCIYRPLKLRDDNRTDPRDITILQQKLLQEAYVTHQDNIRLVGELVTVTGAVIIL
+LLEIPDIFRVGASRYFGQTILGGPFHVIIITYASLVLLTMVMRLTNMNGEVVPLSFALVLGWCSVMYFARGFQMLGPFTI
+MIQKMIFGDLMRFCWLMAVVILGFASAFHITFQTEDPNNLGEFSDYPTALFSTFELFLTIIDGPANYSVDLPFMYCITYA
+AFAIIATLLMLNLFIAMMGDTHWRVAQERDELWRAQVVATTVMLERKMPRFLWPRSGICGYEYGLGDRWFLRVENHHDQN
+PLRVLRYVEAFKCSDKEDGQEQLSEKRPSTVESGMLSRASVAFQTPSLSRTTSQSSNSHRGWEILRRNTLGHLNLGLDLG
+EGDGEEVYHF</string>
+                    <external_references type="UNIPROTKB">Q9XSM3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Calmodulin</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9913">Bos taurus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.019023912</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="1182032">Escherichia coli-Pichia pastoris shuttle vector pPpARG4</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGSSHHHHHHSSGLVPRGSHMADQLTEEQIAEFKEAFSLFDKDGDGTITTKELGTVMRSLGQNPTEAELQDMINEVDADG
+NGTIDFPEFLTMMARKMKDTDSEEEIREAFRVFDKDGNGYISAAELRHVMTNLGEKLTDEEVDEMIREADIDGDGQVNYE
+EFVQMMTAK</string>
+                    <external_references type="UNIPROTKB">P62157</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="3">
+                <name>CALCIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">4.0078e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <formula>CA</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">2.0</concentration>
+                            <formula>TCEP</formula>
+                            <name>tris(2-carboxyethyl)phosphine</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <formula>HEPES</formula>
+                            <name>4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">5.0</concentration>
+                            <formula>CaCl2</formula>
+                            <name>calcium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="%">0.02</concentration>
+                            <formula>LMNG</formula>
+                            <name>2,2-didecylpropane-1,3-bis-beta-D-maltopyranoside</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">30</time>
+                            <atmosphere>AIR</atmosphere>
+                            <pressure units="kPa">101.325</pressure>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">293</chamber_temperature>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>SUPER-RESOLUTION</detector_mode>
+                            <digitization_details/>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>1135</number_real_images>
+                            <average_exposure_time units="s">10.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">63.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>482348</number_selected>
+                    <details>automated picked</details>
+                </particle_selection>
+                <startup_model type_of_model="EMDB MAP">
+                    <emdb_id>EMD-0593</emdb_id>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.3</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cisTEM</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>34604</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>RANDOM ASSIGNMENT</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>3</number_classes>
+                    <software_list>
+                        <software>
+                            <name>cisTEM</name>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_0607.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">271.104</a>
+            <b units="Å">271.104</b>
+            <c units="Å">271.104</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.38624346</minimum>
+            <maximum>0.61685777</maximum>
+            <average>0.001679637</average>
+            <std>0.033558242</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.059</x>
+            <y units="Å">1.059</y>
+            <z units="Å">1.059</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.15</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-0607::::</label>
+        <annotation_details>sharpened map with 1 CaM bound</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>6O1N</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+            </modelling>
+        </modelling_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_0607_additional_4.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">271.104</a>
+                    <b units="Å">271.104</b>
+                    <c units="Å">271.104</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-6.8860197</minimum>
+                    <maximum>21.224052</maximum>
+                    <average>0.0024888625</average>
+                    <std>0.42671287</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.059</x>
+                    <y units="Å">1.059</y>
+                    <z units="Å">1.059</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-0607::::</label>
+                <annotation_details>sharpened map with 2 CaM bound</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_0607_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">271.104</a>
+                    <b units="Å">271.104</b>
+                    <c units="Å">271.104</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.5189385</minimum>
+                    <maximum>2.4672258</maximum>
+                    <average>0.0073946198</average>
+                    <std>0.07602519</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.059</x>
+                    <y units="Å">1.059</y>
+                    <z units="Å">1.059</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-0607::::</label>
+                <annotation_details>sharpened map without symmetry applied</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_0607_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">271.104</a>
+                    <b units="Å">271.104</b>
+                    <c units="Å">271.104</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.4986888</minimum>
+                    <maximum>2.806715</maximum>
+                    <average>0.0074102096</average>
+                    <std>0.08176435</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.059</x>
+                    <y units="Å">1.059</y>
+                    <z units="Å">1.059</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-0607::::</label>
+                <annotation_details>sharpened map with C2 symmetry applied</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_0607_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">271.104</a>
+                    <b units="Å">271.104</b>
+                    <c units="Å">271.104</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-2.3354225</minimum>
+                    <maximum>3.980249</maximum>
+                    <average>0.0074049593</average>
+                    <std>0.11014665</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.059</x>
+                    <y units="Å">1.059</y>
+                    <z units="Å">1.059</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-0607::::</label>
+                <annotation_details>sharpened map with C4 symmetry applied</annotation_details>
+            </additional_map>
+        </additional_map_list>
+    </interpretation>
+</emd>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-9297">
+    <admin>
+        <current_status>
+            <date>2024-10-09</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2018-11-04</deposition>
+            <header_release>2019-03-06</header_release>
+            <map_release>2019-03-06</map_release>
+            <update>2024-10-09</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Human Genome Research Institute (NIH/NHGRI)</funding_body>
+                <code>EY009339</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Human Genome Research Institute (NIH/NHGRI)</funding_body>
+                <code>EY027283</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Human Genome Research Institute (NIH/NHGRI)</funding_body>
+                <code>EY024864</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of phosphodiesterase 6</title>
+        <authors_list>
+            <author>Gulati S</author>
+            <author>Palczewski K</author>
+            <author>Kovacik L</author>
+            <author>Stahlberg H</author>
+        </authors_list>
+        <keywords>GAF domain, phosphohydrolase, G protein-coupled receptor signaling, SIGNALING PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-8255-479X" order="1">Gulati S</author>
+                    <author ORCID="0000-0002-0788-545X" order="2">Palczewski K</author>
+                    <author ORCID="0000-0002-0118-8733" order="3">Engel A</author>
+                    <author ORCID="0000-0002-1185-4592" order="4">Stahlberg H</author>
+                    <author ORCID="0000-0002-0644-3027" order="5">Kovacik L</author>
+                    <title>Cryo-EM structure of phosphodiesterase 6 reveals insights into the allosteric regulation of type I phosphodiesterases.</title>
+                    <journal_abbreviation>Sci Adv</journal_abbreviation>
+                    <country>US</country>
+                    <volume>5</volume>
+                    <first_page>eaav4322</first_page>
+                    <last_page>eaav4322</last_page>
+                    <year>2019</year>
+                    <external_references type="PUBMED">30820458</external_references>
+                    <external_references type="DOI">doi:10.1126/sciadv.aav4322</external_references>
+                    <external_references type="ISSN">2375-2548</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6mzb</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Phosphodiesterase 6</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Phosphodiesterase 6</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9913">Bos taurus</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Rod cGMP-specific 3',5'-cyclic phosphodiesterase subunit beta</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9913">Bos taurus</organism>
+                    <organ>Eye</organ>
+                    <tissue>Retina</tissue>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.098449648</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9913">Bos taurus</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSLSEGQVHRFLDQNPGFADQYFGRKLSPEDVANACEDGCPEGCTSFRELCQVEESAALFELVQDMQENVNMERVVFKIL
+RRLCSILHADRCSLFMYRQRNGVAELATRLFSVQPDSVLEDCLVPPDSEIVFPLDIGVVGHVAQTKKMVNVQDVMECPHF
+SSFADELTDYVTRNILATPIMNGKDVVAVIMAVNKLDGPCFTSEDEDVFLKYLNFGTLNLKIYHLSYLHNCETRRGQVLL
+WSANKVFEELTDIERQFHKAFYTVRAYLNCDRYSVGLLDMTKEKEFFDVWPVLMGEAQAYSGPRTPDGREILFYKVIDYI
+LHGKEDIKVIPSPPADHWALASGLPTYVAESGFICNIMNAPADEMFNFQEGPLDDSGWIVKNVLSMPIVNKKEEIVGVAT
+FYNRKDGKPFDEQDEVLMESLTQFLGWSVLNTDTYDKMNKLENRKDIAQDMVLYHVRCDREEIQLILPTRERLGKEPADC
+EEDELGKILKEVLPGPAKFDIYEFHFSDLECTELELVKCGIQMYYELGVVRKFQIPQEVLVRFLFSVSKGYRRITYHNWR
+HGFNVAQTMFTLLMTGKLKSYYTDLEAFAMVTAGLCHDIDHRGTNNLYQMKSQNPLAKLHGSSILERHHLEFGKFLLSEE
+TLNIYQNLNRRQHEHVIHLMDIAIIATDLALYFKKRTMFQKIVDESKNYEDRKSWVEYLSLETTRKEIVMAMMMTACDLS
+AITKPWEVQSKVALLVAAEFWEQGDLERTVLDQQPIPMMDRNKAAELPKLQVGFIDFVCTFVYKEFSRFHEEILPMFDRL
+QNNRKEWKALADEYEAKVKALEEDQKKETTAKKVGTEICNGGPAPRSSTCRIL</string>
+                    <external_references type="UNIPROTKB">P23439</external_references>
+                </sequence>
+                <ec_number>3.1.4.35</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Rod cGMP-specific 3',5'-cyclic phosphodiesterase subunit alpha</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9913">Bos taurus</organism>
+                    <organ>Eye</organ>
+                    <tissue>Retina</tissue>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.099461789</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9913">Bos taurus</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGEVTAEEVEKFLDSNVSFAKQYYNLRYRAKVISDLLGPREAAVDFSNYHALNSVEESEIIFDLLRDFQDNLQAEKCVFN
+VMKKLCFLLQADRMSLFMYRARNGIAELATRLFNVHKDAVLEECLVAPDSEIVFPLDMGVVGHVALSKKIVNVPNTEEDE
+HFCDFVDTLTEYQTKNILASPIMNGKDVVAIIMVVNKVDGPHFTENDEEILLKYLNFANLIMKVFHLSYLHNCETRRGQI
+LLWSGSKVFEELTDIERQFHKALYTVRAFLNCDRYSVGLLDMTKQKEFFDVWPVLMGEAPPYAGPRTPDGREINFYKVID
+YILHGKEDIKVIPNPPPDHWALVSGLPTYVAQNGLICNIMNAPSEDFFAFQKEPLDESGWMIKNVLSMPIVNKKEEIVGV
+ATFYNRKDGKPFDEMDETLMESLTQFLGWSVLNPDTYELMNKLENRKDIFQDMVKYHVKCDNEEIQTILKTREVYGKEPW
+ECEEEELAEILQGELPDADKYEINKFHFSDLPLTELELVKCGIQMYYELKVVDKFHIPQEALVRFMYSLSKGYRRITYHN
+WRHGFNVGQTMFSLLVTGKLKRYFTDLEALAMVTAAFCHDIDHRGTNNLYQMKSQNPLAKLHGSSILERHHLEFGKTLLR
+DESLNIFQNLNRRQHEHAIHMMDIAIIATDLALYFKKRTMFQKIVDQSKTYETQQEWTQYMMLDQTRKEIVMAMMMTACD
+LSAITKPWEVQSKVALLVAAEFWEQGDLERTVLQQNPIPMMDRNKADELPKLQVGFIDFVCTFVYKEFSRFHEEITPMLD
+GITNNRKEWKALADEYETKMKGLEEEKQKQQAANQAAAGSQHGGKQPGGGPASKSCCVQ</string>
+                    <external_references type="UNIPROTKB">P11541</external_references>
+                </sequence>
+                <ec_number>3.1.4.35</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit gamma</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9913">Bos taurus</organism>
+                    <organ>Eye</organ>
+                    <tissue>Retina</tissue>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009684228999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9913">Bos taurus</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MNLEPPKAEIRSATRVMGGPVTPRKGPPKFKQRQTRQFKSKPPKKGVQGFGDDIPGMEGLGTDITVICPWEAFNHLELHE
+LAQYGII</string>
+                    <external_references type="UNIPROTKB">P04972</external_references>
+                </sequence>
+                <ec_number>3.1.4.35</ec_number>
+            </protein_or_peptide>
+            <ligand macromolecule_id="4">
+                <name>ZINC ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">6.5409e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>ZN</formula>
+            </ligand>
+            <ligand macromolecule_id="5">
+                <name>MAGNESIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">2.4305e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>MG</formula>
+            </ligand>
+            <ligand macromolecule_id="6">
+                <name>GUANOSINE-3',5'-MONOPHOSPHATE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00034520499999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>35G</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/2</model>
+                        <material>COPPER</material>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>SUPER-RESOLUTION</detector_mode>
+                            <average_electron_dose_per_image units="e/Å^2">80.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.4</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>43597</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="28312">
+        <file>emd_9297.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>192</col>
+            <row>192</row>
+            <sec>192</sec>
+        </dimensions>
+        <origin>
+            <col>84</col>
+            <row>84</row>
+            <sec>84</sec>
+        </origin>
+        <spacing>
+            <x>192</x>
+            <y>192</y>
+            <z>192</z>
+        </spacing>
+        <cell>
+            <a units="Å">203.13599</a>
+            <b units="Å">203.13599</b>
+            <c units="Å">203.13599</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.5842323</minimum>
+            <maximum>32.156455999999999</maximum>
+            <average>0.15703212</average>
+            <std>1.3413881</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.058</x>
+            <y units="Å">1.058</y>
+            <z units="Å">1.058</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>1.0</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-9297::::</label>
+        <annotation_details>Cryo-EM structure of phosphodiesterase 6, primary map</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_9297_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+    </interpretation>
+</emd>

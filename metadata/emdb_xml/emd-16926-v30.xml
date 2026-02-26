@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-16926">
+    <admin>
+        <current_status>
+            <date>2024-07-24</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-03-28</deposition>
+            <header_release>2024-07-10</header_release>
+            <map_release>2024-07-10</map_release>
+            <update>2024-07-24</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Polish National Science Centre</funding_body>
+                <code>2019/35/D/NZ1/02397</code>
+                <country>Poland</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>101001394</code>
+                <country>European Union</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Swiss National Science Foundation</funding_body>
+                <code>310030_184947</code>
+                <country>Switzerland</country>
+            </grant_reference>
+        </grant_support>
+        <title>Human pseudouridine synthase 3 and tRNA-Gln</title>
+        <authors_list>
+            <author ORCID="0000-0001-7914-2164">Lin T-Y</author>
+            <author ORCID="0000-0003-2815-7133">Glatt S</author>
+        </authors_list>
+        <keywords>RNA modification, pseudouridylation, tRNA, homodimer, RNA BINDING PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Lin TY</author>
+                    <author order="2">Kleemann L</author>
+                    <author order="3">Jezowski J</author>
+                    <author order="4">Dobosz D</author>
+                    <author order="5">Rawski M</author>
+                    <author order="6">Indyka P</author>
+                    <author order="7">Wazny G</author>
+                    <author order="8">Mehta R</author>
+                    <author order="9">Chramiec-Glabik A</author>
+                    <author order="10">Koziej L</author>
+                    <author order="11">Ranff T</author>
+                    <author order="12">Fufezan C</author>
+                    <author order="13">Wawro M</author>
+                    <author order="14">Kochan J</author>
+                    <author order="15">Bereta J</author>
+                    <author order="16">Leidel SA</author>
+                    <author order="17">Glatt S</author>
+                    <title>The molecular basis of tRNA selectivity by human pseudouridine synthase 3.</title>
+                    <journal_abbreviation>Mol.Cell</journal_abbreviation>
+                    <country>US</country>
+                    <volume>84</volume>
+                    <first_page>2472</first_page>
+                    <last_page>2489.e8</last_page>
+                    <year>2024</year>
+                    <external_references type="PUBMED">38996458</external_references>
+                    <external_references type="DOI">doi:10.1016/j.molcel.2024.06.013</external_references>
+                    <external_references type="ISSN">1097-2765</external_references>
+                    <external_references type="CSD">2168</external_references>
+                    <external_references type="ASTM">MOCEFL</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8okd</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>homodimer of PUS3 and tRNA-Gln complex</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>homodimer of PUS3 and tRNA-Gln complex</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <molecular_weight>
+                    <theoretical units="MDa">0.11</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>Pseudouridine synthase 3 (PUS3)</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>tRNA-Gln</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>tRNA pseudouridine(38/39) synthase</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.055704198999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>AMADNDTDRNQTEKLLKRVRELEQEVQRLKKEQAKNKEDSNIRENSAGAGKTKRAFDFSAHGRRHVALRIAYMGWGYQGF
+ASQENTNNTIEEKLFEALTKTRLVESRQTSNYHRCGRTAKGVSAFGQVISLDLRSQFPRGRDSEDFNVKEEANAAAEEIR
+YTHILNRVLPPDIRILAWAPVEPSFSARFSCLERTYRYFFPRADLDIVTMDYAAQKYVGTHDFRNLCKMDVANGVINFQR
+TILSAQVQLVGQSPGEGRWQEPFQLCQFEVTGQAFLYHQVRCMMAILFLIGQGMEKPEIIDELLNIEKNPQKPQYSMAVE
+FPLVLYDCKFENVKWIYDQEAQEFNITHLQQLWANHAVKTHMLYSMLQGLDTVPVPCGIGPKMDGMTEWGNVKPSVIKQT
+SAFVEGVKMRTYKPLMDRPKCQGLESRIQHFVRRGRIEHPHLFHEEETKAKRDCNDTLEEENTNLETPTKRVCVDTEIKS
+II</string>
+                    <external_references type="UNIPROTKB">Q9BZE2</external_references>
+                </sequence>
+                <ec_number>5.4.99.45</ec_number>
+            </protein_or_peptide>
+            <rna macromolecule_id="2">
+                <name>human tRNA-Gln (70-MER)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024047236</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <sequence>
+                    <string>GGCCCCAUGGUGUAAUGGUUAGCACUCUGGACUUUGAAUCCAGCGAUCCGAGUUCAAAUCUCGGUGGGACCUCCA</string>
+                </sequence>
+            </rna>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.3</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil</model>
+                        <material>COPPER</material>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY ARRAY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">60</time>
+                            <atmosphere>AIR</atmosphere>
+                        </pretreatment>
+                        <details>8 mA</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">95</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.9</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">1.8</nominal_defocus_max>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>8320</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>482246</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>alphafold2</insilico_model>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <resolution units="Å" res_type="BY AUTHOR">3.1</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>147307</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.1</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>3</number_classes>
+                    <average_number_members_per_class>16000.0</average_number_members_per_class>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.1</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_16926.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">220.16</a>
+            <b units="Å">220.16</b>
+            <c units="Å">220.16</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-1.4930806</minimum>
+            <maximum>2.363563</maximum>
+            <average>0.0011719924</average>
+            <std>0.05781334</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.86</x>
+            <y units="Å">0.86</y>
+            <z units="Å">0.86</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.25</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-16926::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <chain>
+                        <source_name>AlphaFold</source_name>
+                        <initial_model_type>in silico model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_16926_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_16926_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">220.16</a>
+                    <b units="Å">220.16</b>
+                    <c units="Å">220.16</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.3716618</minimum>
+                    <maximum>0.799014</maximum>
+                    <average>0.0013992119</average>
+                    <std>0.03808699</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.86</x>
+                    <y units="Å">0.86</y>
+                    <z units="Å">0.86</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16926::::</label>
+                <annotation_details>half map B</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_16926_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">220.16</a>
+                    <b units="Å">220.16</b>
+                    <c units="Å">220.16</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.40624383</minimum>
+                    <maximum>0.88869536</maximum>
+                    <average>0.0014096261</average>
+                    <std>0.037975315</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.86</x>
+                    <y units="Å">0.86</y>
+                    <z units="Å">0.86</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16926::::</label>
+                <annotation_details>half map A</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

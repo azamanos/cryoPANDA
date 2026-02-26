@@ -1,0 +1,96 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10065" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2016-06-18</depositionDate>
+            <releaseDate>2016-06-20</releaseDate>
+            <updateDate>2016-06-20</updateDate>
+        </keyDates>
+        <title>Lambda excision HJ intermediate</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-1506-909X</authorORCID>
+            <firstName>Nikolaus</firstName>
+            <lastName>Grigorieff</lastName>
+            <organization type="academic">Howard Hughes Medical Institute</organization>
+            <street>19700 Helix Drive</street>
+            <townOrCity>Ashburn</townOrCity>
+            <stateOrProvince>Virginia</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>20147</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-1506-909X</authorORCID>
+            <firstName>Nikolaus</firstName>
+            <lastName>Grigorieff</lastName>
+            <organization type="academic">Howard Hughes Medical Institute</organization>
+            <street>19700 Helix Drive</street>
+            <townOrCity>Ashburn</townOrCity>
+            <stateOrProvince>Virginia</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>20147</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Laxmikanthan G</author>
+            <author>Xu C</author>
+            <author>Brilot AF</author>
+            <author>Warren D</author>
+            <author>Steele L</author>
+            <author>Seah N</author>
+            <author>Tong W</author>
+            <author authorORCID="0000-0002-1506-909X">Grigorieff N</author>
+            <author>Landy A</author>
+            <author>Van Duyne G</author>
+        </authorsList>
+        <datasetSize units="GB">4.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10065</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-3400</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Laxmikanthan G</author>
+                    <author order="2">Xu C</author>
+                    <author authorORCID="0000-0001-8548-4224" order="3">Brilot AF</author>
+                    <author order="4">Warren D</author>
+                    <author order="5">Steele L</author>
+                    <author order="6">Seah N</author>
+                    <author authorORCID="0000-0001-5065-6591" order="7">Tong W</author>
+                    <author authorORCID="0000-0002-1506-909X" order="8">Grigorieff N</author>
+                    <author order="9">Landy A</author>
+                    <author authorORCID="0000-0003-0247-1626" order="10">Van Duyne GD</author>
+                    <title>Structure of a Holliday junction complex reveals mechanisms governing a highly regulated DNA transaction</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation>Elife</journalAbbreviation>
+                    <country></country>
+                    <volume>5</volume>
+                    <year>2016</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.7554/eLife.14313</externalReferences>
+                    <externalReferences type="pubmed">27223329</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Particle stack and Frealign parameter file</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>66033</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>128</imageWidth>
+            <pixelWidth>2.8</pixelWidth>
+            <imageHeight>128</imageHeight>
+            <pixelHeight>2.8</pixelHeight>
+        </dimensions>
+        <details>Particle stack contains images normalized with zero average and constant variance. The particle density is dark on light background. The data were collected on a Falcon II detector mounted on an FEI F30 microscope running at 300 kV. The Frealign parameter file contains the final particle alignments and classification results for the best class that was used to calculate the published 11-Å reconstruction. The table at the end of the parameter file does not contain the final FSC curve; the final FSC curve was calculated using more tightly masked half reconstructions (see related publication).</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

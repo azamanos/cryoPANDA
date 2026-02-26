@@ -1,0 +1,118 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11567" schemaVersion="0.63" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-05-19</depositionDate>
+            <releaseDate>2023-10-31</releaseDate>
+            <updateDate>2023-10-31</updateDate>
+        </keyDates>
+        <title>Cryogenic electron microscopy structure of human plakophilin-3</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-2895-483X</authorORCID>
+            <firstName>Izard</firstName>
+            <lastName>T</lastName>
+            <organization type="academic">UF Scripps Biomedical Research</organization>
+            <street>130 Scripps way</street>
+            <townOrCity>Jupiter</townOrCity>
+            <stateOrProvince>Florida</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>33458</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-2895-483X</authorORCID>
+            <firstName>Izard</firstName>
+            <lastName>T</lastName>
+            <organization type="academic">UF Scripps Biomedical Research</organization>
+            <street>130 Scripps way</street>
+            <townOrCity>Jupiter</townOrCity>
+            <stateOrProvince>Florida</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>33458</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-7506-1196">Gupta J</author>
+            <author authorORCID="0000-0003-3902-8847">Rangarajan ES</author>
+            <author authorORCID="0000-0002-2895-483X">Izard T</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">8.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11567</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-40675</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-7506-1196" order="1">Gupta J</author>
+                    <author authorORCID="0000-0003-3902-8847" order="2">Rangarajan ES</author>
+                    <author order="3">Troyanovsky RB</author>
+                    <author authorORCID="0000-0001-5381-7397" order="4">Indra I</author>
+                    <author authorORCID="0000-0001-7368-9708" order="5">Troyanovsky SM</author>
+                    <author authorORCID="0000-0002-2895-483X" order="6">Izard T</author>
+                    <title>Plakophilin-3 Binds the Membrane and Filamentous Actin without Bundling F-Actin</title>
+                    <journal>International journal of molecular sciences</journal>
+                    <journalAbbreviation>Int J Mol Sci</journalAbbreviation>
+                    <country>Switzerland</country>
+                    <issue>11</issue>
+                    <volume>24</volume>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.3390/ijms24119458</externalReferences>
+                    <details>5A structure of human plakophilin-3 ARM domain.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi frame micrographs of plakophilin-3</name>
+        <directory>/data/Movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>21951</numImagesOrTiltSeries>
+        <framesPerImage>32</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.36</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.36</pixelHeight>
+        </dimensions>
+        <details>Raw movies for the plakophilin-3 dataset collected on CryoARM300 at 60,000 mag.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Motioncorrected micrographs of plakophilin-3 dataset.</name>
+        <directory>/data/Micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>20105</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.72</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.72</pixelHeight>
+        </dimensions>
+        <details>Patch motion corrected micrographs obtained from CryoSPARC.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

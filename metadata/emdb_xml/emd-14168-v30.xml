@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-14168">
+    <admin>
+        <current_status>
+            <date>2024-07-17</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-01-19</deposition>
+            <header_release>2022-06-29</header_release>
+            <map_release>2022-06-29</map_release>
+            <update>2024-07-17</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Other government</funding_body>
+                <code>LOM2018</code>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Israel Science Foundation</funding_body>
+                <code>2111/20</code>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Israel Ministry of Science and Technology</funding_body>
+                <code>3-15517</code>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>United States - Israel Binational Science Foundation (BSF)</funding_body>
+                <code>2017280</code>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Joachim Herz Stiftung</funding_body>
+                <code>Add-on Fellowship</code>
+            </grant_reference>
+        </grant_support>
+        <title>Amyloid fibril from the antimicrobial peptide aurein 3.3</title>
+        <authors_list>
+            <author>Buecker R</author>
+            <author>Seuring C</author>
+        </authors_list>
+        <keywords>antimicrobial peptide, amyloid, filament, cross-beta, PROTEIN FIBRIL</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Bucker R</author>
+                    <author ORCID="0000-0003-1000-0859" order="2">Seuring C</author>
+                    <author order="3">Cazey C</author>
+                    <author order="4">Veith K</author>
+                    <author ORCID="0000-0002-5200-7816" order="5">Garcia-Alai M</author>
+                    <author ORCID="0000-0002-4788-2691" order="6">Grunewald K</author>
+                    <author ORCID="0000-0002-1743-3430" order="7">Landau M</author>
+                    <title>The Cryo-EM structures of two amphibian antimicrobial cross-beta amyloid fibrils.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>13</volume>
+                    <first_page>4356</first_page>
+                    <last_page>4356</last_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">35896552</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-022-32039-z</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7qv6</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>aurein 3.3</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>aurein 3.3</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI" synthetically_produced="true">
+                    <organism ncbi="116057">Ranoidea raniformis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="kDa/nm">22.3</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Aurein-3.3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="116057">Ranoidea raniformis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.001800171</theoretical>
+                </molecular_weight>
+                <number_of_copies>18</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GLFDIVKKIAGHIVSSI</string>
+                    <external_references type="UNIPROTKB">P82396</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <concentration units="mg/mL">5</concentration>
+                    <buffer>
+                        <ph>7.0</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/1</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY ARRAY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">120</time>
+                            <atmosphere>AIR</atmosphere>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>wait time 15s after application, blot time 4s. </details>
+                    </vitrification>
+                    <details>Concentration refers to peptide monomer before fibrillation</details>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">70.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.5</nominal_defocus_min>
+                    <calibrated_defocus_min units="µm">0.35000000000000003</calibrated_defocus_min>
+                    <nominal_defocus_max units="µm">2.5</nominal_defocus_max>
+                    <calibrated_defocus_max units="µm">3.1</calibrated_defocus_max>
+                    <nominal_magnification>105000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <zemlin_tableau/>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Bioquantum</name>
+                            <slit_width units="eV">15</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>5514</number_real_images>
+                            <average_exposure_time units="s">2.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                            <details>Collected in movie-mode; 40 frames per exposure.</details>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">4.892</delta_z>
+                            <delta_phi units="deg">-1.136</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.5</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1.3</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>35289</number_images_used>
+                </final_reconstruction>
+                <segment_selection>
+                    <number_selected>174291</number_selected>
+                    <details>4 unique helical units per segment</details>
+                </segment_selection>
+                <startup_model type_of_model="NONE">
+                    <details>Ab-initio initial model from stochastic gradient descent with fixed helical parameters estimated from two-dimensional class averages.</details>
+                </startup_model>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1.3</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="141151">
+        <file>emd_14168.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>328</col>
+            <row>328</row>
+            <sec>328</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>328</x>
+            <y>328</y>
+            <z>328</z>
+        </spacing>
+        <cell>
+            <a units="Å">278.80002</a>
+            <b units="Å">278.80002</b>
+            <c units="Å">278.80002</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.029938202</minimum>
+            <maximum>0.06529757</maximum>
+            <average>0.00008247845</average>
+            <std>0.002902022</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.8500001</x>
+            <y units="Å">0.8500001</y>
+            <z units="Å">0.8500001</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.01</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-14168::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+                <details>- Initial model building of a single helical layer using ChimeraX and Coot
+- Expansion to three layers, refinement in ISOLDE
+- Truncation of outer layers, re-expansion to three layers, refinement using phenix.real_space_refine</details>
+                <target_criteria>CC</target_criteria>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>78.370000000000005</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_14168_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="141151">
+                <file>emd_14168_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>328</col>
+                    <row>328</row>
+                    <sec>328</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>328</x>
+                    <y>328</y>
+                    <z>328</z>
+                </spacing>
+                <cell>
+                    <a units="Å">278.80002</a>
+                    <b units="Å">278.80002</b>
+                    <c units="Å">278.80002</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0.0</minimum>
+                    <maximum>46.466667000000001</maximum>
+                    <average>10.825765000000001</average>
+                    <std>9.922978000000001</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.8500001</x>
+                    <y units="Å">0.8500001</y>
+                    <z units="Å">0.8500001</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14168::::</label>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="141151">
+                <file>emd_14168_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>328</col>
+                    <row>328</row>
+                    <sec>328</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>328</x>
+                    <y>328</y>
+                    <z>328</z>
+                </spacing>
+                <cell>
+                    <a units="Å">278.80002</a>
+                    <b units="Å">278.80002</b>
+                    <c units="Å">278.80002</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.030342795</minimum>
+                    <maximum>0.054233003</maximum>
+                    <average>0.0000842149</average>
+                    <std>0.0033183673</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.8500001</x>
+                    <y units="Å">0.8500001</y>
+                    <z units="Å">0.8500001</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14168::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="141151">
+                <file>emd_14168_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>328</col>
+                    <row>328</row>
+                    <sec>328</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>328</x>
+                    <y>328</y>
+                    <z>328</z>
+                </spacing>
+                <cell>
+                    <a units="Å">278.80002</a>
+                    <b units="Å">278.80002</b>
+                    <c units="Å">278.80002</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.035482228</minimum>
+                    <maximum>0.048624683</maximum>
+                    <average>0.000080741935</average>
+                    <std>0.003379876</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.8500001</x>
+                    <y units="Å">0.8500001</y>
+                    <z units="Å">0.8500001</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14168::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

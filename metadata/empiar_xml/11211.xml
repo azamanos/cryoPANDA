@@ -1,0 +1,152 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11211" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-09-06</depositionDate>
+            <releaseDate>2023-09-21</releaseDate>
+            <updateDate>2024-02-27</updateDate>
+        </keyDates>
+        <title>Single-particle cryo-EM dataset of ALC1 bound to an asymmetric, site-specifically PARylated nucleosome</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-3405-6021</authorORCID>
+            <firstName>Guillaume</firstName>
+            <lastName>Gaullier</lastName>
+            <organization type="academic">Université Toulouse 3</organization>
+            <townOrCity>Toulouse</townOrCity>
+            <country>France</country>
+            <postOrZipCode>31000</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-6807-8654</authorORCID>
+            <firstName>Sebastian</firstName>
+            <lastName>Deindl</lastName>
+            <organization type="academic">Uppsala University</organization>
+            <street>Husargatan 3</street>
+            <townOrCity>Uppsala</townOrCity>
+            <country>Sweden</country>
+            <postOrZipCode>751 24</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-6896-3506">Bacic L</author>
+            <author authorORCID="0000-0003-3405-6021">Gaullier G</author>
+            <author authorORCID="0000-0001-6807-8654">Deindl S</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">8.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11211</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-15777</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0001-6896-3506" order="1">Bacic L</author>
+                    <title>TBD</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <externalReferences type="doi">10.1038/s41467-024-45237-8</externalReferences>
+                    <externalReferences type="pubmed">38307862</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+        <relatedEmpiarEntries>
+            <empiarEntry>EMPIAR-10739</empiarEntry>
+            <empiarEntry>EMPIAR-10465</empiarEntry>
+        </relatedEmpiarEntries>
+    </crossReferences>
+    <imageSet>
+        <name>Raw movies from grid 1</name>
+        <directory>/data/grid-1</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>13668</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.8617</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.8617</pixelHeight>
+        </dimensions>
+        <details>Movies from grid 1 and final set of particles from both grids.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/grid-1/Images-Disc1/GridSquare_*/Data/*_fractions.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/P1-J40/P1-J40.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/P1-J40</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Raw movies from grid 2</name>
+        <directory>/data/grid-2</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>8487</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.8617</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.8617</pixelHeight>
+        </dimensions>
+        <details>Movies from grid 2 and final set of particles from both grids.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/grid-1/Images-Disc1/GridSquare_*/Data/*_fractions.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/P1-J40/P1-J40.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/P1-J40</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final set of particles after refinement in cryoSPARC</name>
+        <directory>/data/P1-J40</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>212256</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>0.8617</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>0.8617</pixelHeight>
+        </dimensions>
+        <details>Final set of particles that produced the map in EMD-15777 after refinement in cryoSPARC.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/grid-*/Images-Disc1/GridSquare_*/Data/*_fractions.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/P1-J40/P1-J40.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/P1-J40</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Intermediate set of particles after classification in RELION, before 3DVA clustering in cryoSPARC</name>
+        <directory>/data/job067</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>739042</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>0.8617</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>0.8617</pixelHeight>
+        </dimensions>
+        <details>Intermediate set of particles obtained after classification in RELION. This was the input of cryoSPARC 3DVA and clustering.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/grid-*/Images-Disc1/GridSquare_*/Data/*_fractions.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/job067/job067.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/job067</pickedParticlesDirectory>
+    </imageSet>
+</entry>

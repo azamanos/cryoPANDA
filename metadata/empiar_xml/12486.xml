@@ -1,0 +1,143 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12486" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-12-12</depositionDate>
+            <releaseDate>2025-02-10</releaseDate>
+            <updateDate>2025-02-27</updateDate>
+        </keyDates>
+        <title>HSV-1 DNA polymerase-processivity factor complex in halted elongation state</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-6781-0345</authorORCID>
+            <firstName>Martin</firstName>
+            <lastName>Hällberg</lastName>
+            <organization type="academic">Karolinska Institutet</organization>
+            <townOrCity>Stockholm</townOrCity>
+            <country>Sweden</country>
+            <postOrZipCode>17177</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-6781-0345</authorORCID>
+            <firstName>Martin</firstName>
+            <lastName>Hällberg</lastName>
+            <organization type="academic">Karolinska Institutet</organization>
+            <townOrCity>Stockholm</townOrCity>
+            <country>Sweden</country>
+            <postOrZipCode>17177</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-0166-1786">Gustavsson E</author>
+            <author authorORCID="0000-0002-4788-2691">Grünewald K</author>
+            <author>Elias P</author>
+            <author authorORCID="0000-0002-6781-0345">Hällberg BM</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Swedish Research Council</fundingBody>
+                <code>2017-06702</code>
+                <country>Sweden</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">1.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12486</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-17013</emdbEntry>
+            <emdbEntry>EMD-16907</emdbEntry>
+            <emdbEntry>EMD-16924</emdbEntry>
+            <emdbEntry>EMD-16925</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-0166-1786" order="1">Gustavsson E</author>
+                    <author authorORCID="0000-0002-4788-2691" order="2">Grünewald K</author>
+                    <author order="3">Elias P</author>
+                    <author authorORCID="0000-0002-6781-0345" order="4">Hällberg BM</author>
+                    <title>Dynamics of the Herpes simplex virus DNA polymerase holoenzyme during DNA synthesis and proof-reading revealed by Cryo-EM</title>
+                    <journal>Nucleic acids research</journal>
+                    <journalAbbreviation>Nucleic Acids Res</journalAbbreviation>
+                    <country></country>
+                    <issue>12</issue>
+                    <volume>52</volume>
+                    <firstPage>7292</firstPage>
+                    <lastPage>7304</lastPage>
+                    <year>2024</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1093/nar/gkae374</externalReferences>
+                    <externalReferences type="pubmed">38806233</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Dataset 1 Unaligned multi-frame micrographs of HSV-1 DNA polymerase complex in halted elongation state</name>
+        <directory>/data/Emil_20211104_Halted_DNAp_SA105kx_C70_sz7_50eA2_15epxs_20eV</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1156</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.85</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.85</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Emil_20211104_Halted_DNAp_SA105kx_C70_sz7_50eA2_15epxs_20eV/Images-Disc1/GridSquare_*/Data/*.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Particle_coordinates/*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dataset 2 Unaligned multi-frame micrographs of HSV-1 DNA polymerase complex in halted elongation state</name>
+        <directory>/data/Emil_20211215_Halted_DNAp_SA105kx_C70_sz7_50eA2_15epxs_20eV</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1335</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.85</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.85</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Emil_20211215_Halted_DNAp_SA105kx_C70_sz7_50eA2_15epxs_20eV/Images-Disc1/GridSquare_*/Data/*.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Particle_coordinates/*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>MotionCorr2 aligned single-frame micrographs of HSV-1 DNA polymerase complex in halted elongation state</name>
+        <directory>/data/job178/Movies</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2484</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>50</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.85</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.85</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/job178/Movies/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Particle_coordinates/*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

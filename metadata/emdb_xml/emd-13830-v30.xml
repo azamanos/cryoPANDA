@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-13830">
+    <admin>
+        <current_status>
+            <date>2024-11-13</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-11-03</deposition>
+            <header_release>2022-04-06</header_release>
+            <map_release>2022-04-06</map_release>
+            <update>2024-11-13</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>French Infrastructure for Integrated Structural Biology (FRISBI)</funding_body>
+                <code>ANR-10-INSB-05-01</code>
+                <country>France</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>GM122510</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>K99GM138756</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Lanreotide nanotube</title>
+        <authors_list>
+            <author>Pieri L</author>
+            <author>Wang F</author>
+        </authors_list>
+        <keywords>Lanreotide, nanotube, assembly, HORMONE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0003-0779-9014" order="1">Pieri L</author>
+                    <author ORCID="0000-0003-1008-663X" order="2">Wang F</author>
+                    <author ORCID="0000-0001-6462-905X" order="3">Arteni AA</author>
+                    <author ORCID="0000-0002-6046-9949" order="4">Vos M</author>
+                    <author order="5">Winter JM</author>
+                    <author order="6">Le Du MH</author>
+                    <author ORCID="0000-0002-5613-576X" order="7">Artzner F</author>
+                    <author ORCID="0000-0003-4410-2378" order="8">Gobeaux F</author>
+                    <author ORCID="0000-0003-2431-2255" order="9">Legrand P</author>
+                    <author ORCID="0000-0002-2857-1732" order="10">Boulard Y</author>
+                    <author ORCID="0000-0002-0921-6727" order="11">Bressanelli S</author>
+                    <author ORCID="0000-0003-4844-5212" order="12">Egelman EH</author>
+                    <author ORCID="0000-0002-3303-8959" order="13">Paternostre M</author>
+                    <title>Atomic structure of Lanreotide nanotubes revealed by cryo-EM.</title>
+                    <journal_abbreviation>Proc.Natl.Acad.Sci.USA</journal_abbreviation>
+                    <country>US</country>
+                    <volume>119</volume>
+                    <year>2022</year>
+                    <external_references type="PUBMED">35042822</external_references>
+                    <external_references type="DOI">doi:10.1073/pnas.2120346119</external_references>
+                    <external_references type="ISSN">1091-6490</external_references>
+                    <external_references type="CSD">0040</external_references>
+                    <external_references type="ASTM">PNASA6</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7q5a</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Lanreotide</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Lanreotide</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="kDa/nm">1.096</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Lanreotide</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0010983389999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>8</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>(4J2)CY(DTR)KVCT(NH2)</string>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>helicalArray</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <concentration units="mg/mL">20</concentration>
+                    <buffer>
+                        <ph>6.0</ph>
+                        <component>
+                            <concentration units="mg/ml">40.0</concentration>
+                            <name>Pure water</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>PELCO Ultrathin Carbon with Lacey Carbon</model>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>LACEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">25</time>
+                            <atmosphere>OTHER</atmosphere>
+                            <pressure units="kPa">0.039</pressure>
+                        </pretreatment>
+                        <details>Current intensity 15 mA</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">295</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>Blot for 30 seconds before plunging. </details>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">100.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.6</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.4</nominal_defocus_max>
+                    <nominal_magnification>105000.0</nominal_magnification>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <specialist_optics>
+                        <sph_aberration_corrector>No corrector</sph_aberration_corrector>
+                        <chr_aberration_corrector>No corrector</chr_aberration_corrector>
+                        <energy_filter>
+                            <name>GIF Bioquantum</name>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                        <details>Bioquantum + K3 camera</details>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">5760</width>
+                                    <height units="pixel">4092</height>
+                                </dimensions>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>19497</number_real_images>
+                            <average_exposure_time units="s">1.69</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">39.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <number_classes_used>20</number_classes_used>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">1.04</delta_z>
+                            <delta_phi units="deg">26.219</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.46</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.2</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>2264921</number_images_used>
+                </final_reconstruction>
+                <segment_selection>
+                    <number_selected>5109922</number_selected>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.2</version>
+                        </software>
+                    </software_list>
+                    <details>Template-based picking</details>
+                </segment_selection>
+                <startup_model type_of_model="NONE"/>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.2</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="240946">
+        <file>emd_13830.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>392</col>
+            <row>392</row>
+            <sec>392</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>392</x>
+            <y>392</y>
+            <z>392</z>
+        </spacing>
+        <cell>
+            <a units="Å">435.2</a>
+            <b units="Å">435.2</b>
+            <c units="Å">435.2</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-1.02016</minimum>
+            <maximum>1.7793083</maximum>
+            <average>0.005300911</average>
+            <std>0.085088626</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.1102041</x>
+            <y units="Å">1.1102041</y>
+            <z units="Å">1.1102041</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.362</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-13830::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>OTHER</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

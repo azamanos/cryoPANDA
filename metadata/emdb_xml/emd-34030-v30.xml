@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd emdb_id="EMD-34030">
+    <admin>
+        <current_status>
+            <date>2023-06-21</date>
+            <code>REL</code>
+            <processing_site>PDBj</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBj</deposition>
+            <last_processing>PDBj</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-08-08</deposition>
+            <header_release>2023-06-21</header_release>
+            <map_release>2023-06-21</map_release>
+            <update>2023-06-21</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Academia Sinica (Taiwan)</funding_body>
+                <country>Taiwan</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM map of a dimeric form of Ecoli Malate Synthase G (MSG)</title>
+        <authors_list>
+            <author>Wu K-P</author>
+            <author>Wu Y-M</author>
+            <author>Lu Y-C</author>
+        </authors_list>
+        <keywords>glyoxylate, malate, MSG, citric acid cycel, malate synthase G, BIOSYNTHETIC PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Ho MR</author>
+                    <author order="2">Wu YM</author>
+                    <author order="3">Lu YC</author>
+                    <author order="4">Ko TP</author>
+                    <author order="5">Wu KP</author>
+                    <title>Cryo-EM reveals the structure and dynamics of a 723-residue malate synthase G.</title>
+                    <journal_abbreviation>J.Struct.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>215</volume>
+                    <first_page>107958</first_page>
+                    <last_page>107958</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">36997036</external_references>
+                    <external_references type="DOI">doi:10.1016/j.jsb.2023.107958</external_references>
+                    <external_references type="ISSN">1095-8657</external_references>
+                    <external_references type="CSD">0803</external_references>
+                    <external_references type="ASTM">JSBIEM</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-34029</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-34030</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>2.9-angstrom cryo-EM structure of 723-aa malate synthase G</name>
+        <supramolecule_list>
+            <cell_supramolecule supramolecule_id="1">
+                <name>2.9-angstrom cryo-EM structure of 723-aa malate synthase G</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="668369">Escherichia coli DH5[alpha]</organism>
+                </natural_source>
+            </cell_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.3</concentration>
+                    <buffer>
+                        <ph>7.6</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">1.8</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 QUANTUM (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <average_electron_dose_per_image units="e/Å^2">51.2</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="INSILICO MODEL"/>
+                <final_reconstruction>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">4.14</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>15832</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="131073">
+        <file>emd_34030.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>320</col>
+            <row>320</row>
+            <sec>320</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>320</x>
+            <y>320</y>
+            <z>320</z>
+        </spacing>
+        <cell>
+            <a units="Å">263.04</a>
+            <b units="Å">263.04</b>
+            <c units="Å">263.04</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.14517538</minimum>
+            <maximum>0.36493236</maximum>
+            <average>0.00020508848</average>
+            <std>0.011412177</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.822</x>
+            <y units="Å">0.822</y>
+            <z units="Å">0.822</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.05</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-34030::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>1P7T</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                    </chain>
+                </initial_model>
+            </modelling>
+        </modelling_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="131073">
+                <file>emd_34030_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">263.04</a>
+                    <b units="Å">263.04</b>
+                    <c units="Å">263.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.6678288</minimum>
+                    <maximum>0.63968587</maximum>
+                    <average>0.0004070717</average>
+                    <std>0.06347067</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.822</x>
+                    <y units="Å">0.822</y>
+                    <z units="Å">0.822</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-34030::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="131073">
+                <file>emd_34030_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">263.04</a>
+                    <b units="Å">263.04</b>
+                    <c units="Å">263.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.48443532</minimum>
+                    <maximum>0.6424696</maximum>
+                    <average>0.00042580298</average>
+                    <std>0.063180484</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.822</x>
+                    <y units="Å">0.822</y>
+                    <z units="Å">0.822</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-34030::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

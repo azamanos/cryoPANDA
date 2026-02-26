@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_2/emdb.xsd" version="3.0.9.2" emdb_id="EMD-20841">
+    <admin>
+        <current_status>
+            <date>2024-03-20</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-10-17</deposition>
+            <header_release>2019-12-11</header_release>
+            <map_release>2019-12-11</map_release>
+            <update>2024-03-20</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Howard Hughes Medical Institute (HHMI)</funding_body>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>FACT_subnucleosome complex 2</title>
+        <authors_list>
+            <author>Zhou K</author>
+            <author>Tan YZ</author>
+        </authors_list>
+        <keywords>nucleosome assembly, nucleosome disassembly, transient, integrity, TRANSCRIPTION, replication, histone chaperone, TRANSCRIPTION-DNA complex</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Liu Y</author>
+                    <author order="2">Zhou K</author>
+                    <author order="3">Zhang N</author>
+                    <author order="4">Wei H</author>
+                    <author order="5">Tan YZ</author>
+                    <author order="6">Zhang Z</author>
+                    <author order="7">Carragher B</author>
+                    <author order="8">Potter CS</author>
+                    <author order="9">D'Arcy S</author>
+                    <author order="10">Luger K</author>
+                    <title>FACT caught in the act of manipulating the nucleosome.</title>
+                    <journal_abbreviation>Nature</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>577</volume>
+                    <first_page>426</first_page>
+                    <last_page>431</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">31775157</external_references>
+                    <external_references type="DOI">doi:10.1038/s41586-019-1820-0</external_references>
+                    <external_references type="ISSN">1476-4687</external_references>
+                    <external_references type="CSD">0006</external_references>
+                    <external_references type="ASTM">NATUAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6upl</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>FACT_subNucleosome_complex_class2</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>FACT_subNucleosome_complex_class2</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>8</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.35</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Histone H3.1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015437166999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="866768">Escherichia coli 'BL21-Gold(DE3)pLysS AG'</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARTKQTARKSTGGKAPRKQLATKAARKSAPATGGVKKPHRYRPGTVALREIRRYQKSTELLIRKLPFQRLVREIAQDFK
+TDLRFQSSAVMALQEACEAYLVGLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA</string>
+                    <external_references type="UNIPROTKB">P68431</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Histone H4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.011394426</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="866768">Escherichia coli 'BL21-Gold(DE3)pLysS AG'</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSGRGKGGKGLGKGGAKRHRKVLRDNIQGITKPAIRRLARRGGVKRISGLIYEETRGVLKVFLENVIRDAVTYTEHAKRK
+TVTAMDVVYALKRQGRTLYGFGG</string>
+                    <external_references type="UNIPROTKB">P62805</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Histone H2A</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014135522999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="866768">Escherichia coli 'BL21-Gold(DE3)pLysS AG'</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLTAEILELAGNAARDNKKTRII
+PRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKKTESHHKAKGK</string>
+                    <external_references type="UNIPROTKB">Q93077</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Histone H2B</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013937212999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="866768">Escherichia coli 'BL21-Gold(DE3)pLysS AG'</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPEPAKSAPAPKKGSKKAVTKAQKKDGKKRKRSRKESYSVYVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAGEASR
+LAHYNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK</string>
+                    <external_references type="UNIPROTKB">P62807</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>FACT complex subunit SPT16</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.10957486699999999</theoretical>
+                </molecular_weight>
+                <details>Amino acids 640-651 cannot be identified due to the resolution limitations. To show the connectivity of the electron density, poly-(UNK) was placed. This was also done for the end of this chain (926-967). The full sequence for the experiment is: MHHHHHHAVTLDKDAYYRRVKRLYSNWRKGEDEYANVDAIVVSVGVDEEIVYAKSTALQTWLFGYELTDTIMVFCDDKII FMASKKKVEFLKQIANTKGNENANGAPAITLLIREKNESNKSSFDKMIEAIKESKNGKKIGVFSKDKFPGEFMKSWNDCL NKEGFDKIDISAVVAYTIAVKEDGELNLMKKAASITSEVFNKFFKERVMEIVDADEKVRHSKLAESVEKAIEEKKYLAGA DPSTVEMCYPPIIQSGGNYNLKFSVVSDKNHMHFGAITCAMGIRFKSYCSNLVRTLMVDPSQEVQENYNFLLQLQEELLK ELRHGVKICDVYNAVMDVVKKQKPELLNKITKNLGFGMGIEFREGSLVINSKNQYKLKKGMVFSINLGFSDLTNKEGKKP EEKTYALFIGDTVLVDEDGPATVLTSVKKKVKNVGIFLKNEDEEEEEEEKDEAEDLLGRGSRAALLTERTRNEMTAEEKR RAHQKELAAQLNEEAKRRLTEQKGEQQIQKARKSNVSYKNPSLMPKEPHIREMKIYIDKKYETVIMPVFGIATPFHIATI KNISMSVEGDYTYLRINFYCPGSALGRNEGNIFPNPEATFVKEITYRASNIKAPGEQTVPALNLQNAFRIIKEVQKRYKT REAEEKEKEGIVKQDSLVINLNRSNPKLKDLYIRPNIAQKRMQGSLEAHVNGFRFTSVRGDKVDILYNNIKHALFQPCDG EMIIVLHFHLKNAIMFGKKRHTDVQFYTEVGEITTDLGKHQHMHDRDDLYAEQMEREMRHKLKTAFKNFIEKVEALTKEE LEFEVPFRDLGFNGAPYRSTCLLQPTSSALVNATEWPPFVVTLDEVELIHFERVQFHLKNFDMVIVYKDYSKKVTMINAI PVASLDPIKEWLNSCDLKYTEGVQSLNWTKIMKTIVDDPEGFFEQGGWSFLEPEGEGSDAEEGDSESEIEDETFNPSEDD YEEEEEDSDEDYSSEAEESDYSKESLGSEEESGKDWDELEEEARKADRESRYEEEEEQSRSMSRKRKASVHSSGRGSNRG SRHSSAPPKKKRK</details>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MHHHHHHAVTLDKDAYYRRVKRLYSNWRKGEDEYANVDAIVVSVGVDEEIVYAKSTALQTWLFGYELTDTIMVFCDDKII
+FMASKKKVEFLKQIANTKGNENANGAPAITLLIREKNESNKSSFDKMIEAIKESKNGKKIGVFSKDKFPGEFMKSWNDCL
+NKEGFDKIDISAVVAYTIAVKEDGELNLMKKAASITSEVFNKFFKERVMEIVDADEKVRHSKLAESVEKAIEEKKYLAGA
+DPSTVEMCYPPIIQSGGNYNLKFSVVSDKNHMHFGAITCAMGIRFKSYCSNLVRTLMVDPSQEVQENYNFLLQLQEELLK
+ELRHGVKICDVYNAVMDVVKKQKPELLNKITKNLGFGMGIEFREGSLVINSKNQYKLKKGMVFSINLGFSDLTNKEGKKP
+EEKTYALFIGDTVLVDEDGPATVLTSVKKKVKNVGIFLKNEDEEEEEEEKDEAEDLLGRGSRAALLTERTRNEMTAEEKR
+RAHQKELAAQLNEEAKRRLTEQKGEQQIQKARKSNVSYKNPSLMPKEPHIREMKIYIDKKYETVIMPVFGIATPFHIATI
+KNISMSVEGDYTYLRINFYCPGSALGRNEGNIFPNPEATFVKEITYRASNIKAPGEQTVPALNLQNAFRIIKEVQKRYK
+(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)VKQDSLVINLNRSNPKLKDL
+YIRPNIAQKRMQGSLEAHVNGFRFTSVRGDKVDILYNNIKHALFQPCDGEMIIVLHFHLKNAIMFGKKRHTDVQFYTEVG
+EITTDLGKHQHMHDRDDLYAEQMEREMRHKLKTAFKNFIEKVEALTKEELEFEVPFRDLGFNGAPYRSTCLLQPTSSALV
+NATEWPPFVVTLDEVELIHFERVQFHLKNFDMVIVYKDYSKKVTMINAIPVASLDPIKEWLNSCDLKYTEGVQSLNWTKI
+MKTIVDDPEGFFEQGGWSFL(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)
+(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)
+(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="6">
+                <name>FACT complex subunit SSRP1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.073361172</theoretical>
+                </molecular_weight>
+                <details>The poly-(UNK) was placed to show the electron density between 171-198. The full sequence for the experiment is: MAETLEFNDVYQEVKGSMNDGRLRLSRQGIIFKNSKTGKVDNIQAGELTEGIWRRVALGHGLKLLTKNGHVYKYDGFRES EFEKLSDFFKTHYRLELMEKDLCVKGWNWGTVKFGGQLLSFDIGDQPVFEIPLSNVSQCTTGKNEVTLEFHQNDDAEVSL MEVRFYVPPTQEDGVDPVEAFAQNVLSKADVIQATGDAICIFRELQCLTPRGRYDIRIYPTFLHLHGKTFDYKIPYTTVL RLFLLPHKDQRQMFFVISLDPPIKQGQTRYHFLILLFSKDEDISLTLNMNEEEVEKRFEGRLTKNMSGSLYEMVSRVMKA LVNRKITVPGNFQGHSGAQCITCSYKASSGLLYPLERGFIYVHKPPVHIRFDEISFVNFARGTTTTRSFDFEIETKQGTQ YTFSSIEREEYGKLFDFVNAKKLNIKNRGLKEGMNPSYDEYADSDEDQHDAYLERMKEEGKIREENANDSSDDSGEETDE SFNPGEEEEDVAEEFDSNASASSSSNEGDSDRDEKKRKQLKKAKMAKDRKSRKKPVEVKKGKDPNAPKRPMSAYMLWLNA SREKIKSDHPGISITDLSKKAGEIWKGMSKEKKEEWDRKAEDARRDYEKAMKEYEGGRGESSKRDKSKKKKKVKVKMEKK STPSRGSSSKSSSRQLSESFKSKEFVSSDESSSGENKSKKKRRRSEDSEEEELASTPPSSEDSASGSDE</details>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAETLEFNDVYQEVKGSMNDGRLRLSRQGIIFKNSKTGKVDNIQAGELTEGIWRRVALGHGLKLLTKNGHVYKYDGFRES
+EFEKLSDFFKTHYRLELMEKDLCVKGWNWGTVKFGGQLLSFDIGDQPVFEIPLSNVSQCTTGKNEVTLEFHQNDDAEVSL
+MEVRFYVPPTQ(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)
+(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)DAICIFRELQCLTPRGRYDI
+RIYPTFLHLHGKTFDYKIPYTTVLRLFLLPHKDQRQMFFVISLDPPIKQGQTRYHFLILLFSKDEDISLTLNMNEEEVEK
+RFEGRLTKNMSGSLYEMVSRVMKALVNRKITVPGNFQGHSGAQCITCSYKASSGLLYPLERGFIYVHKPPVHIRFDEISF
+VNFARGTTTTRSFDFEIETKQGTQYTFSSIEREEYGKLFDFVNAKKLNIKNRGLKEGMNPSYDEYADSDEDQHDAYLERM
+KEEGKIREENANDSSDDSGEETDESFNPGEEEEDVAEEFDSNASASSSSNEGDSDRDEKKRKQLKKAKMAKDRKSRKKPV
+EVKKGKDPNAPKRPMSAYMLWLNASREKIKSDHPGISITDLSKKAGEIWKGMSKEKKEEWDRKAEDARRDYEKAMKEYEG
+GRGESSKRDKSKKKKKVKVKMEKK</string>
+                </sequence>
+            </protein_or_peptide>
+            <dna macromolecule_id="7">
+                <name>DNA (79-mer)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024144422</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>(DT)(DC)(DG)(DT)(DA)(DG)(DA)(DC)(DA)(DG)(DC)(DT)(DC)(DT)(DA)(DG)(DC)(DA)(DC)(DC)
+(DG)(DC)(DT)(DT)(DA)(DA)(DA)(DC)(DG)(DC)(DA)(DC)(DG)(DT)(DA)(DC)(DG)(DC)(DG)(DC)
+(DT)(DG)(DT)(DC)(DC)(DC)(DC)(DC)(DG)(DC)(DG)(DT)(DT)(DT)(DT)(DA)(DA)(DC)(DC)(DG)
+(DC)(DC)(DA)(DA)(DG)(DG)(DG)(DG)(DA)(DT)(DT)(DA)(DC)(DT)(DC)(DC)(DC)(DT)(DA)</string>
+                </sequence>
+                <classification>DNA</classification>
+            </dna>
+            <dna macromolecule_id="8">
+                <name>DNA (79-mer)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024584679999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>(DT)(DA)(DG)(DG)(DG)(DA)(DG)(DT)(DA)(DA)(DT)(DC)(DC)(DC)(DC)(DT)(DT)(DG)(DG)(DC)
+(DG)(DG)(DT)(DT)(DA)(DA)(DA)(DA)(DC)(DG)(DC)(DG)(DG)(DG)(DG)(DG)(DA)(DC)(DA)(DG)
+(DC)(DG)(DC)(DG)(DT)(DA)(DC)(DG)(DT)(DG)(DC)(DG)(DT)(DT)(DT)(DA)(DA)(DG)(DC)(DG)
+(DG)(DT)(DG)(DC)(DT)(DA)(DG)(DA)(DG)(DC)(DT)(DG)(DT)(DC)(DT)(DA)(DC)(DG)(DA)</string>
+                </sequence>
+                <classification>DNA</classification>
+            </dna>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">7.8</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">7.4</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>6990</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="32001">
+        <file>emd_20841.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>200</col>
+            <row>200</row>
+            <sec>200</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>200</x>
+            <y>200</y>
+            <z>200</z>
+        </spacing>
+        <cell>
+            <a units="Å">280.6016</a>
+            <b units="Å">280.6016</b>
+            <c units="Å">280.6016</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.12810564</minimum>
+            <maximum>0.56809723</maximum>
+            <average>0.006349318</average>
+            <std>0.02754264</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.403008</x>
+            <y units="Å">1.403008</y>
+            <z units="Å">1.403008</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.153</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-20841::::</label>
+        <annotation_details>sharpened map</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_20841_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="32001">
+                <file>emd_20841_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>200</col>
+                    <row>200</row>
+                    <sec>200</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>200</x>
+                    <y>200</y>
+                    <z>200</z>
+                </spacing>
+                <cell>
+                    <a units="Å">280.6016</a>
+                    <b units="Å">280.6016</b>
+                    <c units="Å">280.6016</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.0</minimum>
+                    <maximum>0.4474705</maximum>
+                    <average>0.0062712035</average>
+                    <std>0.025155421</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.403008</x>
+                    <y units="Å">1.403008</y>
+                    <z units="Å">1.403008</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-20841::::</label>
+                <annotation_details>unfiltered map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="32001">
+                <file>emd_20841_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>200</col>
+                    <row>200</row>
+                    <sec>200</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>200</x>
+                    <y>200</y>
+                    <z>200</z>
+                </spacing>
+                <cell>
+                    <a units="Å">280.6016</a>
+                    <b units="Å">280.6016</b>
+                    <c units="Å">280.6016</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-2.1168807</minimum>
+                    <maximum>1.929885</maximum>
+                    <average>0.003192524</average>
+                    <std>0.26258686</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.403008</x>
+                    <y units="Å">1.403008</y>
+                    <z units="Å">1.403008</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>EMDB</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-20841::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="32001">
+                <file>emd_20841_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>200</col>
+                    <row>200</row>
+                    <sec>200</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>200</x>
+                    <y>200</y>
+                    <z>200</z>
+                </spacing>
+                <cell>
+                    <a units="Å">280.6016</a>
+                    <b units="Å">280.6016</b>
+                    <c units="Å">280.6016</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-2.0041924</minimum>
+                    <maximum>2.0205612</maximum>
+                    <average>0.003158251</average>
+                    <std>0.2575518</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.403008</x>
+                    <y units="Å">1.403008</y>
+                    <z units="Å">1.403008</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>EMDB</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-20841::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

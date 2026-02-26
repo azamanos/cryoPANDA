@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-13439">
+    <admin>
+        <current_status>
+            <date>2024-07-17</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-08-20</deposition>
+            <header_release>2022-06-15</header_release>
+            <map_release>2022-06-15</map_release>
+            <update>2024-07-17</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Foundation for Polish Science</funding_body>
+                <code>POIR.04.04.00-00-20E7/16-00</code>
+                <country>Poland</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Union (EU)</funding_body>
+                <code>POIG.02.02.00-14-024/08-00</code>
+                <country>European Union</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of E. coli TnsB in complex with right end fragment of Tn7 transposon</title>
+        <authors_list>
+            <author>Kaczmarska Z</author>
+            <author>Czarnocki-Cieciura M</author>
+        </authors_list>
+        <keywords>complex, nuclease, DNA binding protein, Tn7, transposon</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Kaczmarska Z</author>
+                    <author order="2">Czarnocki-Cieciura M</author>
+                    <author order="3">Gorecka-Minakowska KM</author>
+                    <author order="4">Wingo RJ</author>
+                    <author order="5">Jackiewicz J</author>
+                    <author order="6">Zajko W</author>
+                    <author order="7">Poznanski JT</author>
+                    <author order="8">Rawski M</author>
+                    <author order="9">Grant T</author>
+                    <author order="10">Peters JE</author>
+                    <author order="11">Nowotny M</author>
+                    <title>Structural basis of transposon end recognition explains central features of Tn7 transposition systems.</title>
+                    <journal_abbreviation>Mol.Cell</journal_abbreviation>
+                    <country>US</country>
+                    <volume>82</volume>
+                    <first_page>2618</first_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">35654042</external_references>
+                    <external_references type="DOI">doi:10.1016/j.molcel.2022.05.005</external_references>
+                    <external_references type="ISSN">1097-2765</external_references>
+                    <external_references type="CSD">2168</external_references>
+                    <external_references type="ASTM">MOCEFL</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7pik</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>TnsB-DNA complex</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>TnsB-DNA complex</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>TnsB from the canonical E. coli Tn7 element in complex with the right transposon end fragment</details>
+                <molecular_weight>
+                    <theoretical units="MDa">0.043</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>TnsB</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>TnsB from the canonical E. coli Tn7 element</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>Tn7 transposon right end fragment</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>E. coli Tn7 transposon right end fragment</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Transposon Tn7 transposition protein TnsB</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.08102669500000001</theoretical>
+                </molecular_weight>
+                <number_of_copies>5</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SMWQINEVVLFDNDPYRILAIEDGQVVWMQISADKGVPQARAELLLMQYLDEGRLVRTDDPYVHLDLEEPSVDSVSFQKR
+EEDYRKILPIINSKDRFDPKVRSELVEHVVQEHKVTKATVYKLLRRYWQRGQTPNALIPDYKNSGAPGERRSATGTAKIG
+RAREYGKGEGTKVTPEIERLFRLTIEKHLLNQKGTKTTVAYRRFVDLFAQYFPRIPQEDYPTLRQFRYFYDREYPKAQRL
+KSRVKAGVYKKDVRPLSSTATSQALGPGSRYEIDATIADIYLVDHHDRQKIIGRPTLYIVIDVFSRMITGFYIGFENPSY
+VVAMQAFVNACSDKTAICAQHDIEISSSDWPCVGLPDVLLADRGELMSHQVEALVSSFNVRVESAPPRRGDAKGIVESTF
+RTLQAEFKSFAPGIVEGSRIKSHGETDYRLDASLSVFEFTQIILRTILFRNNHLVMDKYDRDADFPTDLPSIPVQLWQWG
+MQHRTGSLRAVEQEQLRVALLPRRKVSISSFGVNLWGLYYSGSEILREGWLQRSTDIARPQHLEAAYDPVLVDTIYLFPQ
+VGSRVFWRCNLTERSRQFKGLSFWEVWDIQAQEKHNKANAKQDELTKRRELEAFIQQTIQKANKLTPSTTEPKSTRIKQI
+KTNKKEAVTSERKKRAEHLKPSSSGDEAKVIPFNAVEADDQEDYSLPTYVPELFQDPPEKDES</string>
+                    <external_references type="UNIPROTKB">P13989</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <dna macromolecule_id="2">
+                <name>Right end fragment of Tn7 transposon</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.021471771</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>(DC)(DT)(DA)(DG)(DT)(DT)(DT)(DA)(DA)(DG)(DA)(DC)(DT)(DT)(DT)(DA)(DT)(DT)(DG)(DT)
+(DC)(DA)(DT)(DA)(DG)(DT)(DT)(DT)(DA)(DG)(DA)(DT)(DC)(DT)(DA)(DT)(DT)(DT)(DT)(DG)
+(DT)(DT)(DC)(DA)(DG)(DT)(DT)(DT)(DA)(DA)(DG)(DA)(DC)(DT)(DT)(DT)(DA)(DT)(DT)(DG)
+(DT)(DC)(DC)(DG)(DC)(DC)(DC)(DA)(DC)(DA)</string>
+                </sequence>
+                <classification>DNA</classification>
+            </dna>
+            <dna macromolecule_id="3">
+                <name>Right end fragment of Tn7 transposon</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.021678018</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <sequence>
+                    <string>(DT)(DG)(DT)(DG)(DG)(DG)(DC)(DG)(DG)(DA)(DC)(DA)(DA)(DT)(DA)(DA)(DA)(DG)(DT)(DC)
+(DT)(DT)(DA)(DA)(DA)(DC)(DT)(DG)(DA)(DA)(DC)(DA)(DA)(DA)(DA)(DT)(DA)(DG)(DA)(DT)
+(DC)(DT)(DA)(DA)(DA)(DC)(DT)(DA)(DT)(DG)(DA)(DC)(DA)(DA)(DT)(DA)(DA)(DA)(DG)(DT)
+(DC)(DT)(DT)(DA)(DA)(DA)(DC)(DT)(DA)(DG)</string>
+                </sequence>
+                <classification>DNA</classification>
+            </dna>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>HEPES</formula>
+                            <name>HEPES</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>PELCO Ultrathin Carbon with Lacey Carbon</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">60</time>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">95</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>4 s blot time, -5 blot force.. </details>
+                    </vitrification>
+                    <details>Sample fixed with 0.05% glutaraldehyde and concentrated prior to vitrification; exact concentration cannot be estimated accurately.</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.0</nominal_defocus_max>
+                    <nominal_magnification>105000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>1141614</number_selected>
+                    <details>Filament Tracer in cryoSPARC</details>
+                </particle_selection>
+                <startup_model type_of_model="NONE">
+                    <details>initial model was generated directly from particle stack with Helical Refinement</details>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">2.68</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.2</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>901496</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="536871">
+        <file>emd_13439.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>512</col>
+            <row>512</row>
+            <sec>512</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>512</x>
+            <y>512</y>
+            <z>512</z>
+        </spacing>
+        <cell>
+            <a units="Å">440.32</a>
+            <b units="Å">440.32</b>
+            <c units="Å">440.32</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-3.9236138</minimum>
+            <maximum>5.4858685</maximum>
+            <average>0.0014117248</average>
+            <std>0.04463585</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.86</x>
+            <y units="Å">0.86</y>
+            <z units="Å">0.86</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.5</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-13439::::</label>
+        <annotation_details>Primary map used for model generation; sharpened with B-factor of -70 and after Local Filtering</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_13439_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="536871">
+                <file>emd_13439_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>512</col>
+                    <row>512</row>
+                    <sec>512</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>512</x>
+                    <y>512</y>
+                    <z>512</z>
+                </spacing>
+                <cell>
+                    <a units="Å">440.32</a>
+                    <b units="Å">440.32</b>
+                    <c units="Å">440.32</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.6577822</minimum>
+                    <maximum>1.7427275</maximum>
+                    <average>0.0017359989</average>
+                    <std>0.03044744</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.86</x>
+                    <y units="Å">0.86</y>
+                    <z units="Å">0.86</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13439::::</label>
+                <annotation_details>Raw map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="536871">
+                <file>emd_13439_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>512</col>
+                    <row>512</row>
+                    <sec>512</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>512</x>
+                    <y>512</y>
+                    <z>512</z>
+                </spacing>
+                <cell>
+                    <a units="Å">440.32</a>
+                    <b units="Å">440.32</b>
+                    <c units="Å">440.32</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.79512393</minimum>
+                    <maximum>1.9166586</maximum>
+                    <average>0.00010708053</average>
+                    <std>0.08352166</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.86</x>
+                    <y units="Å">0.86</y>
+                    <z units="Å">0.86</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13439::::</label>
+                <annotation_details>Half map B</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="536871">
+                <file>emd_13439_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>512</col>
+                    <row>512</row>
+                    <sec>512</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>512</x>
+                    <y>512</y>
+                    <z>512</z>
+                </spacing>
+                <cell>
+                    <a units="Å">440.32</a>
+                    <b units="Å">440.32</b>
+                    <c units="Å">440.32</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.75474375</minimum>
+                    <maximum>1.8968495</maximum>
+                    <average>0.000100051555</average>
+                    <std>0.083586246</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.86</x>
+                    <y units="Å">0.86</y>
+                    <z units="Å">0.86</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13439::::</label>
+                <annotation_details>Half map A</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_2/emdb.xsd" emdb_id="EMD-11267" version="3.0.2.2">
+    <admin>
+        <current_status>
+            <date>2020-12-16</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-06-30</deposition>
+            <header_release>2020-09-23</header_release>
+            <map_release>2020-09-23</map_release>
+            <update>2020-12-16</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Swedish Research Council</funding_body>
+                <code>2015-04107</code>
+                <country>Sweden</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>ERC-2018-StG-805230</code>
+                <country>European Union</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Swedish Research Council</funding_body>
+                <code>2017-04641</code>
+                <country>Sweden</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Knut and Alice Wallenberg Foundation</funding_body>
+                <code>2018.0080</code>
+                <country>Sweden</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>bioexcel-823830</code>
+                <country>European Union</country>
+            </grant_reference>
+        </grant_support>
+        <title>E2 core of the fungal Pyruvate dehydrogenase complex with flexible/oversym. periphery, structured core and S4X-structured interior.</title>
+        <authors_list>
+            <author>Forsberg BO</author>
+            <author>Lindahl E</author>
+            <author>Aibara S</author>
+            <author>Howard RJ</author>
+            <author>Mortezaei N</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Forsberg BO</author>
+                    <author order="2">Aibara S</author>
+                    <author order="3">Howard RJ</author>
+                    <author order="4">Mortezaei N</author>
+                    <author order="5">Lindahl E</author>
+                    <title>Arrangement and symmetry of the fungal E3BP-containing core of the pyruvate dehydrogenase complex.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>11</volume>
+                    <first_page>4667</first_page>
+                    <last_page>4667</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32938938</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-020-18401-z</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-11266</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-11267</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>endogenous pyruvate dehydrogenase complex form Neurospora crassa</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>endogenous pyruvate dehydrogenase complex form Neurospora crassa</name>
+                <parent>0</parent>
+                <details>Catalytic (C-terminal) domain of Dihydrolipoyllysine-residue acetyltransferase (E2-component of pyruvate dehydrogenase complex)</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="5141">Neurospora crassa</organism>
+                    <organelle>mitochondria</organelle>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">7</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">3</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TALOS ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON II (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <average_electron_dose_per_image units="e/Å^2">35.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>T</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">4.4</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>18558</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="131073">
+        <file>emd_11267.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>320</col>
+            <row>320</row>
+            <sec>320</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>320</x>
+            <y>320</y>
+            <z>320</z>
+        </spacing>
+        <cell>
+            <a units="Å">400.0</a>
+            <b units="Å">400.0</b>
+            <c units="Å">400.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.098044135</minimum>
+            <maximum>0.215307</maximum>
+            <average>0.0016172924</average>
+            <std>0.01322224</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.25</x>
+            <y units="Å">1.25</y>
+            <z units="Å">1.25</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0235</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-11267::::</label>
+        <annotation_details>Fungal PDC (N. crassa). Endogenous preparation-E1 E2 E3 PX. Enforced symmetry: T. Periphery is flexible/oversym. Core is structured. Interior is structured in arrangement X / S4X.</annotation_details>
+    </map>
+    <interpretation>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="131073">
+                <file>emd_11267_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">400.0</a>
+                    <b units="Å">400.0</b>
+                    <c units="Å">400.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.018451536</minimum>
+                    <maximum>0.04630768</maximum>
+                    <average>0.00064978376</average>
+                    <std>0.004746647</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.25</x>
+                    <y units="Å">1.25</y>
+                    <z units="Å">1.25</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-11267::::</label>
+                <annotation_details>Half-map 1.
+Fungal PDC (N. crassa). Endogenous preparation-E1 E2 E3 PX. Enforced symmetry: T. Periphery is flexible/oversym. Core is structured. Interior is structured in arrangement X / S4X.</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="131073">
+                <file>emd_11267_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">400.0</a>
+                    <b units="Å">400.0</b>
+                    <c units="Å">400.0</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.018570185</minimum>
+                    <maximum>0.047077544</maximum>
+                    <average>0.000659506</average>
+                    <std>0.0047525223</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.25</x>
+                    <y units="Å">1.25</y>
+                    <z units="Å">1.25</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-11267::::</label>
+                <annotation_details>Half-map 2.
+Fungal PDC (N. crassa). Endogenous preparation-E1 E2 E3 PX. Enforced symmetry: T. Periphery is flexible/oversym. Core is structured. Interior is structured in arrangement X / S4X.</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

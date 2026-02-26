@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_2/emdb.xsd" version="3.0.9.2" emdb_id="EMD-8948">
+    <admin>
+        <current_status>
+            <date>2024-03-13</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2018-07-06</deposition>
+            <header_release>2018-08-08</header_release>
+            <map_release>2019-02-06</map_release>
+            <update>2024-03-13</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>5R01GM106717</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>PDB: afTMEM16 reconstituted in nanodiscs in the presence of Ca2+</title>
+        <authors_list>
+            <author>Falzone ME</author>
+            <author>Accardi A</author>
+        </authors_list>
+        <keywords>scramblase, Ca2+-activated, membrane-reorganization, LIPID TRANSPORT</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-6738-7017" order="1">Falzone ME</author>
+                    <author ORCID="0000-0002-9901-2065" order="2">Rheinberger J</author>
+                    <author order="3">Lee BC</author>
+                    <author order="4">Peyear T</author>
+                    <author order="5">Sasset L</author>
+                    <author order="6">Raczkowski AM</author>
+                    <author ORCID="0000-0002-8014-7269" order="7">Eng ET</author>
+                    <author order="8">Di Lorenzo A</author>
+                    <author order="9">Andersen OS</author>
+                    <author ORCID="0000-0002-6254-4447" order="10">Nimigean CM</author>
+                    <author ORCID="0000-0002-6584-0102" order="11">Accardi A</author>
+                    <title>Structural basis of Ca2+-dependent activation and lipid transport by a TMEM16 scramblase.</title>
+                    <journal_abbreviation>Elife</journal_abbreviation>
+                    <country>US</country>
+                    <volume>8</volume>
+                    <year>2019</year>
+                    <external_references type="PUBMED">30648972</external_references>
+                    <external_references type="DOI">doi:10.7554/eLife.43229</external_references>
+                    <external_references type="ISSN">2050-084X</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-8959</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6e0h</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>afTMEM16 reconstituted in nanodiscs in the presence of Ca2+</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>afTMEM16 reconstituted in nanodiscs in the presence of Ca2+</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="746128">Aspergillus fumigatus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="kDa/nm">168</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Plasma membrane channel protein (Aqy1), putative</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="330879">Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100)</organism>
+                    <strain>ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.08461685899999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="4932">Saccharomyces cerevisiae</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAFNPAPKAVQENHHVDYVIRFNYGDIDTPEAIKKFEVLLLELSEVGLQTEVRQGDENSLFVFVRAASKKKLKRAVYQSR
+VRDWLYGVRNTEPEPASSAKPQSEAERLLVIYHLITVPKAEGGAGITPRHGEWKNVDAIFPLHDEETNRQCMREWSKKTF
+LSTEDLDRIRNTFGEHVGFYFAFLQSYFRFLMFPAAFGFSCWLLLGSFSIIYTVVNCLWCIVFIEYWKRQEEDLSCRWQT
+KGVSAVHEKRAEFKPEKEIRDESTGEVRGVFPATKRMYRQLLQVPFALLAAVALGAIIATCFAIEIFISEVYNGPLKGYL
+VFIPTILVSALIPTMSAVLLTVATKLNDYENYETQDAYKVALTQKIFVVNFITSYLPIILTAFVYVPFASRIVPYLDVFH
+LTVRPFVSKEHAIKARTEFSINPDRLRKQVIYFTVTAQIVGFALETIVPFVKQRVFREYKEYTKKQHAKAEPGNGAGEKK
+TVSLGDDEDEARFLTRVRNEAELEDYDVTDDLREMCIQFGYLALFSPVWPLVPVSFLINNWVELRSDFFKICVECKRPWP
+QRADTIGPWLDSLGFLSWVGSITSSALVYMFSNGHEGPNGEPTTIRCWALLLTIFFSEHLYLIVRYAVRSALAKLEPPNT
+RRERIERFMMRKRYLDTVLSAESDDDADEVKGVVSSIPPSEITRESLEQDARDWSKQGTDPTERFWMRQRGWKESAEVGL
+SLITKAKGDETKKQQ</string>
+                    <external_references type="UNIPROTKB">Q4WA18</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>CALCIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">4.0078e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <formula>CA</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">7</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">288</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                    <details>afTMEM16 reconstituted in nanodiscs in the presence of Ca2+</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>OTHER</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <average_electron_dose_per_image units="e/Å^2">69.97</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="PDB ENTRY"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C2</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">4.05</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>37146</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_8948.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">280.6016</a>
+            <b units="Å">280.6016</b>
+            <c units="Å">280.6016</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.062984966</minimum>
+            <maximum>0.12801337</maximum>
+            <average>0.0009588381</average>
+            <std>0.005075395</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.0961</x>
+            <y units="Å">1.0961</y>
+            <z units="Å">1.0961</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0355</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-8948::::</label>
+        <annotation_details>afTMEM16 reconstituted into nanodiscs in the presence of Ca2</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_8948_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_8948_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">280.6016</a>
+                    <b units="Å">280.6016</b>
+                    <c units="Å">280.6016</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.042833257</minimum>
+                    <maximum>0.096828364</maximum>
+                    <average>-0.00005106638</average>
+                    <std>0.004448917</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.0961</x>
+                    <y units="Å">1.0961</y>
+                    <z units="Å">1.0961</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-8948::::</label>
+                <annotation_details>afTMEM16  Ca2  C1 unmasked map containing nanodisc density used for membrane analysis</annotation_details>
+            </additional_map>
+        </additional_map_list>
+    </interpretation>
+</emd>

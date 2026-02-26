@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='utf-8'?>
+<emd emdb_id="EMD-24162" version="3.0.2.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_6/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2021-09-29</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-06-04</deposition>
+            <header_release>2021-09-22</header_release>
+            <map_release>2021-09-22</map_release>
+            <update>2021-09-29</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>1DP2GM123459</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Molecular Biology Organization (EMBO)</funding_body>
+                <code>ALTF 711-2019</code>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of the human SSU processome, state post-A1 - Core focused map</title>
+        <authors_list>
+            <author>Vanden Broeck A</author>
+            <author>Singh S</author>
+            <author>Klinge S</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Singh S</author>
+                    <author order="2">Vanden Broeck A</author>
+                    <author order="3">Miller L</author>
+                    <author order="4">Chaker-Margot M</author>
+                    <author order="5">Klinge S</author>
+                    <title>Nucleolar maturation of the human small subunit processome.</title>
+                    <journal_abbreviation>Science</journal_abbreviation>
+                    <country>US</country>
+                    <volume>373</volume>
+                    <first_page>eabj5338</first_page>
+                    <last_page>eabj5338</last_page>
+                    <year>2021</year>
+                    <external_references type="PUBMED">34516797</external_references>
+                    <external_references type="DOI">doi:10.1126/science.abj5338</external_references>
+                    <external_references type="ISSN">1095-9203</external_references>
+                    <external_references type="CSD">0038</external_references>
+                    <external_references type="ASTM">SCIEAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-23938</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-24162</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Human SSU processome, state post-A1</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Human SSU processome, state post-A1</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">5</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.6</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/2</model>
+                        <material>GOLD</material>
+                        <mesh>400</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                            <film_thickness units="nm">3.0</film_thickness>
+                        </support_film>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">90</chamber_humidity>
+                        <chamber_temperature units="K">283</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">0.01</nominal_cs>
+                    <nominal_defocus_min units="µm">0.7000000000000001</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.7</nominal_defocus_max>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <specialist_optics>
+                        <energy_filter>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <number_real_images>84904</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">58.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>9297626</number_selected>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>Gctf</name>
+                            <version>v1.06</version>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution res_type="BY AUTHOR" units="Å">2.63</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>243944</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="702465">
+        <file>emd_24162.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>560</col>
+            <row>560</row>
+            <sec>560</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>560</x>
+            <y>560</y>
+            <z>560</z>
+        </spacing>
+        <cell>
+            <a units="Å">604.80005</a>
+            <b units="Å">604.80005</b>
+            <c units="Å">604.80005</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.10457367</minimum>
+            <maximum>0.25828284</maximum>
+            <average>0.00019405279</average>
+            <std>0.0034541497</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.08</x>
+            <y units="Å">1.08</y>
+            <z units="Å">1.08</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0334</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-24162::::</label>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_24162_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="54191">
+                <file>emd_24162_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>216</col>
+                    <row>280</row>
+                    <sec>224</sec>
+                </dimensions>
+                <origin>
+                    <col>144</col>
+                    <row>147</row>
+                    <sec>171</sec>
+                </origin>
+                <spacing>
+                    <x>224</x>
+                    <y>280</y>
+                    <z>216</z>
+                </spacing>
+                <cell>
+                    <a units="Å">241.92001</a>
+                    <b units="Å">302.40002</b>
+                    <c units="Å">233.28001</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>Z</fast>
+                    <medium>Y</medium>
+                    <slow>X</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-2.0605094</minimum>
+                    <maximum>2.6214972</maximum>
+                    <average>-2.7104396e-13</average>
+                    <std>0.11238928</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.08</x>
+                    <y units="Å">1.08</y>
+                    <z units="Å">1.08</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-24162::::</label>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="702465">
+                <file>emd_24162_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>560</col>
+                    <row>560</row>
+                    <sec>560</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>560</x>
+                    <y>560</y>
+                    <z>560</z>
+                </spacing>
+                <cell>
+                    <a units="Å">604.80005</a>
+                    <b units="Å">604.80005</b>
+                    <c units="Å">604.80005</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.034603667</minimum>
+                    <maximum>0.1355322</maximum>
+                    <average>0.00025279546</average>
+                    <std>0.0044521135</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.08</x>
+                    <y units="Å">1.08</y>
+                    <z units="Å">1.08</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-24162::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="702465">
+                <file>emd_24162_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>560</col>
+                    <row>560</row>
+                    <sec>560</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>560</x>
+                    <y>560</y>
+                    <z>560</z>
+                </spacing>
+                <cell>
+                    <a units="Å">604.80005</a>
+                    <b units="Å">604.80005</b>
+                    <c units="Å">604.80005</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.035116635</minimum>
+                    <maximum>0.13502336</maximum>
+                    <average>0.00025047807</average>
+                    <std>0.004445807</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.08</x>
+                    <y units="Å">1.08</y>
+                    <z units="Å">1.08</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-24162::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_2/emdb.xsd" version="3.0.9.2" emdb_id="EMD-0724">
+    <admin>
+        <current_status>
+            <date>2024-03-27</date>
+            <code>REL</code>
+            <processing_site>PDBj</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBj</deposition>
+            <last_processing>PDBj</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-07-31</deposition>
+            <header_release>2020-02-26</header_release>
+            <map_release>2020-04-15</map_release>
+            <update>2024-03-27</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Japan Agency for Medical Research and Development (AMED)</funding_body>
+                <code>JP18am0101076</code>
+                <country>Japan</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Japan Society for the Promotion of Science (JSPS)</funding_body>
+                <code>JP17K17085</code>
+                <country>Japan</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Japan Society for the Promotion of Science (JSPS)</funding_body>
+                <code>JP19K10083</code>
+                <country>Japan</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Japan Society for the Promotion of Science (JSPS)</funding_body>
+                <code>JP16H05504</code>
+                <country>Japan</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Japan Society for the Promotion of Science (JSPS)</funding_body>
+                <code>JP17K07318</code>
+                <country>Japan</country>
+            </grant_reference>
+        </grant_support>
+        <title>FimA type V pilus from P.gingivalis</title>
+        <authors_list>
+            <author>Shibata S</author>
+            <author>Shoji M</author>
+        </authors_list>
+        <keywords>Type V pilus, FimA, Porphyromonas gingivalis, ATCC33277, CELL ADHESION</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Shibata S</author>
+                    <author order="2">Shoji M</author>
+                    <author order="3">Okada K</author>
+                    <author order="4">Matsunami H</author>
+                    <author order="5">Matthews MM</author>
+                    <author order="6">Imada K</author>
+                    <author order="7">Nakayama K</author>
+                    <author order="8">Wolf M</author>
+                    <title>Structure of polymerized type V pilin reveals assembly mechanism involving protease-mediated strand exchange.</title>
+                    <journal_abbreviation>Nat Microbiol</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>5</volume>
+                    <first_page>830</first_page>
+                    <last_page>837</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32284566</external_references>
+                    <external_references type="DOI">doi:10.1038/s41564-020-0705-1</external_references>
+                    <external_references type="ISSN">2058-5276</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6kmf</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Type V pilus (FimA)</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Type V pilus (FimA)</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="431947">Porphyromonas gingivalis ATCC 33277</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="kDa/nm">6</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Major fimbrium subunit FimA type-1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="431947">Porphyromonas gingivalis ATCC 33277</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.036488805</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="511693">Escherichia coli BL21</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>AFGVGDDESKVAKLTVMVYNGEQQEAIKSAENATKVEDIKCSAGQRTLVVMANTGAMELVGKTLAEVKALTTELTAENQE
+AAGLIMTAEPKTIVLKAGKNYIGYSGTGEGNHIENDPLKIKRVHARMAFTEIKVQMSAAYDNIYTFVPEKIYGLIAKKQS
+NLFGATLVNADANYLTGSLTTFNGAYTPANYANVPWLSRNYVAPAADAPQGFYVLENDYSANGGTIHPTILCVYGKLQKN
+GADLAGADLAAAQAANWVDAEGKTYYPVLVNFNSNNYTYDSNYTPKNKIERNHKYDIKLTITGPGTNNPENPITESAHLN
+VQCTVAEWVLVGQNATW</string>
+                    <external_references type="UNIPROTKB">B2RH54</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1.5</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>C4H11NO3</formula>
+                            <name>Tris</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                            <film_thickness>100.10000000000001</film_thickness>
+                        </support_film>
+                        <pretreatment>
+                            <type>PLASMA CLEANING</type>
+                            <time units="s">30</time>
+                            <atmosphere>OTHER</atmosphere>
+                            <pressure units="kPa">1e-06</pressure>
+                        </pretreatment>
+                        <details>Gatan Solarus</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">289</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>3 second blot, 3.0uL. </details>
+                    </vitrification>
+                    <details>matured, polymerized state</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TALOS ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">30.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">-1.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">-2.5</nominal_defocus_max>
+                    <nominal_magnification>92000.0</nominal_magnification>
+                    <calibrated_magnification>125000.0</calibrated_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <temperature>
+                        <temperature_min units="K">77.0</temperature_min>
+                        <temperature_max units="K">100.0</temperature_max>
+                    </temperature>
+                    <alignment_procedure>
+                        <coma_free>
+                            <residual_tilt units="mrad">0.1</residual_tilt>
+                        </coma_free>
+                    </alignment_procedure>
+                    <details>nanoprobe, parallel beam illumination</details>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">4000</width>
+                                    <height units="pixel">4000</height>
+                                </dimensions>
+                                <frames_per_image>1-75</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>1153</number_real_images>
+                            <average_exposure_time units="s">60.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">46.0</average_electron_dose_per_image>
+                            <details>frame alignment and dose weighting using motioncor2</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>frame alignment and integration with motioncor2 incl. dose weighting</details>
+                <particle_selection>
+                    <number_selected>831459</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="OTHER">
+                    <details>ab initio 3D (cisTEM)</details>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">3.6</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cisTEM</name>
+                            <version>1.0.1-beta</version>
+                        </software>
+                    </software_list>
+                    <details>independent</details>
+                    <number_images_used>61728</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                    <software_list>
+                        <software>
+                            <name>cisTEM</name>
+                            <version>1.0.1-beta</version>
+                        </software>
+                    </software_list>
+                    <details>cisTEM global orientation search</details>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cisTEM</name>
+                            <version>1.0.1-beta</version>
+                        </software>
+                    </software_list>
+                    <details>cisTEM</details>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>2</number_classes>
+                    <average_number_members_per_class>59071.0</average_number_members_per_class>
+                    <software_list>
+                        <software>
+                            <name>cisTEM</name>
+                            <version>1.0.1</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="226493">
+        <file>emd_0724.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>384</col>
+            <row>384</row>
+            <sec>384</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>384</x>
+            <y>384</y>
+            <z>384</z>
+        </spacing>
+        <cell>
+            <a units="Å">430.08002</a>
+            <b units="Å">430.08002</b>
+            <c units="Å">430.08002</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-14.449788</minimum>
+            <maximum>22.173960000000001</maximum>
+            <average>0.000000001603835</average>
+            <std>1.0</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.12</x>
+            <y units="Å">1.12</y>
+            <z units="Å">1.12</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>5.5</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-0724::::</label>
+        <annotation_details>FimA pilus cryo-EM reconstruction</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>6JZJ</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+                <target_criteria>CC</target_criteria>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>128.0</overall_bvalue>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_10_0/emdb.xsd" version="3.0.10.0" emdb_id="EMD-45207">
+    <admin>
+        <current_status>
+            <date>2025-03-05</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <revision_history>
+            <revision version="1.0" date="2024-12-18">
+                <change_list>
+                    <model>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </model>
+                    <metadata>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </metadata>
+                    <additional_map part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </additional_map>
+                    <additional_map part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </additional_map>
+                    <additional_map part="3">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </additional_map>
+                    <fsc>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </fsc>
+                    <half_map part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <half_map part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <image>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </image>
+                    <mask part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </mask>
+                    <mask part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </mask>
+                    <mask part="3">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </mask>
+                    <primary_map>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </primary_map>
+                </change_list>
+            </revision>
+            <revision version="1.1" date="2025-03-05">
+                <change_list>
+                    <model>
+                        <revision_group>DATABASE_REFERENCES</revision_group>
+                        <categories>
+                            <category>citation</category>
+                            <category>citation_author</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_citation.country</item>
+                            <item>_citation.journal_abbrev</item>
+                            <item>_citation.journal_id_ASTM</item>
+                            <item>_citation.journal_id_CSD</item>
+                            <item>_citation.journal_id_ISSN</item>
+                            <item>_citation.journal_volume</item>
+                            <item>_citation.page_first</item>
+                            <item>_citation.page_last</item>
+                            <item>_citation.pdbx_database_id_DOI</item>
+                            <item>_citation.pdbx_database_id_PubMed</item>
+                            <item>_citation.title</item>
+                            <item>_citation.year</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>citation</category>
+                            <category>citation_author</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_citation.country</item>
+                            <item>_citation.journal_abbrev</item>
+                            <item>_citation.journal_id_ASTM</item>
+                            <item>_citation.journal_id_CSD</item>
+                            <item>_citation.journal_id_ISSN</item>
+                            <item>_citation.journal_volume</item>
+                            <item>_citation.page_first</item>
+                            <item>_citation.page_last</item>
+                            <item>_citation.pdbx_database_id_DOI</item>
+                            <item>_citation.pdbx_database_id_PubMed</item>
+                            <item>_citation.title</item>
+                            <item>_citation.year</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+        </revision_history>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2024-06-06</deposition>
+            <header_release>2024-12-18</header_release>
+            <map_release>2024-12-18</map_release>
+            <update>2025-03-05</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R35 GM150960</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>AP-3 bound to myristoylated Arf1 (Q71L)</title>
+        <authors_list>
+            <author>Begley MC</author>
+            <author>Baker RW</author>
+        </authors_list>
+        <keywords>Adaptor Protein complex, AP-3, Lysosomal transport, Endosomal transport, Protein trafficking, TRANSPORT PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0003-4852-7656" order="1">Begley M</author>
+                    <author ORCID="0000-0002-0004-6514" order="2">Aragon M</author>
+                    <author ORCID="0000-0003-1136-6000" order="3">Baker RW</author>
+                    <title>A structure-based mechanism for initiation of AP-3 coated vesicle formation.</title>
+                    <journal_abbreviation>Proc.Natl.Acad.Sci.USA</journal_abbreviation>
+                    <country>US</country>
+                    <volume>121</volume>
+                    <first_page>e2411974121</first_page>
+                    <last_page>e2411974121</last_page>
+                    <year>2024</year>
+                    <external_references type="PUBMED">39705307</external_references>
+                    <external_references type="DOI">doi:10.1073/pnas.2411974121</external_references>
+                    <external_references type="ISSN">1091-6490</external_references>
+                    <external_references type="CSD">0040</external_references>
+                    <external_references type="ASTM">PNASA6</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>9c58</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>AP-3 bound to myristoylated Arf1 (Q71L)</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>AP-3 bound to myristoylated Arf1 (Q71L)</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.240</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>AP-3 complex subunit delta-1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.069381977</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MALKMVKGSIDRMFDKNLQDLVRGIRNHKEDEAKYISQCIDEIKQELKQDNIAVKANAVCKLTYLQMLGYDISWAAFNII
+EVMSASKFTFKRIGYLAASQSFHEGTDVIMLTTNQIRKDLSSPSQYDTGVALTGLSCFVTPDLARDLANDIMTLMSHTKP
+YIRKKAVLIMYKVFLKYPESLRPAFPRLKEKLEDPDPGVQSAAVNVICELARRNPKNYLSLAPLFFKLMTSSTNNWVLIK
+IIKLFGALTPLEPRLGKKLIEPLTNLIHSTSAMSLLYECVNTVIAVLISLSSGMPNHSASIQLCVQKLRILIEDSDQNLK
+YLGLLAMSKILKTHPKSVQSHKDLILQCLDDKDESIRLRALDLLYGMVSKKNLMEIVKKLMTHVDKAEGTTYRDELLTKI
+IDICSQSNYQYITNFEWYISILVELTRLEGTRHGHLIAAQMLDVAIRVKAIRKFAVSQMSALLDSAHLLASSTQRNGICE
+VLYAAAWICGEFSEHLQEPHHTLEAMLRPRVTTLPGHIQAVYVQNVVKLYASILQQKEQAGEAEGAQAVTQLMVDRLPQF
+VQSADLEVQERASCILQLVKHIQKLQAKDVPVAEEVSALFAGELNPVAPKAQKKVPV</string>
+                    <external_references type="UNIPROTKB">O14617</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>AP-3 complex subunit beta-1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.076499609</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSSNSFPYNEQSGGGEATELGQEATSTISPSGAFGLFSSDLKKNEDLKQMLESNKDSAKLDAMKRIVGMIAKGKNASELF
+PAVVKNVASKNIEIKKLVYVYLVRYAEEQQDLALLSISTFQRALKDPNQLIRASALRVLSSIRVPIIVPIMMLAIKEASA
+DLSPYVRKNAAHAIQKLYSLDPEQKEMLIEVIEKLLKDKSTLVAGSVVMAFEEVCPDRIDLIHKNYRKLCNLLVDVEEWG
+QVVIIHMLTRYARTQFVSPWKEGDELEDNGKNFYESDDDQKEKTDKKKKPYTMDPDHRLLIRNTKPLLQSRNAAVVMAVA
+QLYWHISPKSEAGIISKSLVRLLRSNREVQYIVLQNIATMSIQRKGMFEPYLKSFYVRSTDPTMIKTLKLEILTNLANEA
+NISTLLREFQTYVKSQDKQFAAATIQTIGRCATNILEVTDTCLNGLVCLLSNRDEIVVAESVVVIKKLLQMQPAQHGEII
+KHMAKLLDSITVPVARASILWLIGENCERVPKIAPDVLRKMAKSFTSEDDLVKLQILNLGAKLYLTNSKQTKLLTQYILN
+LGKYDQNYDIRDRTRFIRQLIVPNVKSGALSKYAKKIFLAQKPAPLLESPFKDRDHFQLGTLSHTLNIKATGYLELSNWP
+EVAPDPSVRNVEVIELAKEWTPAGKAKQENSAKKFYS</string>
+                    <external_references type="UNIPROTKB">O00203</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>AP-3 complex subunit mu-1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.046989964999999995</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MIHSLFLINCSGDIFLEKHWKSVVSQSVCDYFFEAQEKAADVENVPPVISTPHHYLISIYRDKLFFVSVIQTEVPPLFVI
+EFLHRVADTFQDYFGECSEAAIKDNVVIVYELLEEMLDNGFPLATESNILKELIKPPTILRSVVNSITGSSNVGDTLPTG
+QLSNIPWRRAGVKYTNNEAYFDVVEEIDAIIDKSGSTVFAEIQGVIDACIKLSGMPDLSLSFMNPRLLDDVSFHPCIRFK
+RWESERVLSFIPPDGNFRLISYRVSSQNLVAIPVYVKHSISFKENSSCGRFDITIGPKQNMGKTIEGITVTVHMPKVVLN
+MNLTPTQGSYTFDPVTKVLTWDVGKITPQKLPSLKGLVNLQSGAPKPEENPSLNIQFKIQQLAISGLKVNRLDMYGEKYK
+PFKGVKYVTKAGKFQVRT</string>
+                    <external_references type="UNIPROTKB">Q9Y2T2</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>AP-3 complex subunit sigma-1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.021755061</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MIKAILIFNNHGKPRLSKFYQPYSEDTQQQIIRETFHLVSKRDENVCNFLEGGLLIGGSDNKLIYRHYATLYFVFCVDSS
+ESELGILDLIQVFVETLDKCFENVCELDLIFHVDKVHNILAEMVMGGMVLETNMNEIVTQIDAQNKLEKSEAGLAGAPAR
+AVSAVKNMNLPEIPRNINIGDISIKVPNLPSFK</string>
+                    <external_references type="UNIPROTKB">Q92572</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>ADP-ribosylation factor 1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.020775812</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GNIFANLFKGLFGKKEMRILMVGLDAAGKTTILYKLKLGEIVTTIPTIGFNVETVEYKNISFTVWDVGGLDKIRPLWRHY
+FQNTQGLIFVVDSNDRERVNEAREELMRMLAEDELRDAVLLVFANKQDLPNAMNAAEITDKLGLHSLRHRNWYIQATCAT
+SGDGLYEGLDWLSNQLRNQKSL</string>
+                    <external_references type="UNIPROTKB">P84077</external_references>
+                </sequence>
+                <ec_number>3.6.5.2</ec_number>
+            </protein_or_peptide>
+            <ligand macromolecule_id="6">
+                <name>MAGNESIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">2.4305e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>MG</formula>
+            </ligand>
+            <ligand macromolecule_id="7">
+                <name>GUANOSINE-5'-TRIPHOSPHATE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0005231799999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>GTP</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1.5</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                        <component>
+                            <concentration units="mM">2.7</concentration>
+                            <formula>KCl</formula>
+                            <name>Potassium Chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <formula>Na2HPO4</formula>
+                            <name>Sodium Phosphate (Dibasic)</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.8</concentration>
+                            <formula>KH2PO4</formula>
+                            <name>Potassium Phosphate (Monobasic)</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">300.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>Sodium Chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.0</concentration>
+                            <formula>C9H15O6P</formula>
+                            <name>TCEP</name>
+                        </component>
+                        <details>1x PBS (pH 7.4), 300mM NaCl, 1mM TCEP</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>PLASMA CLEANING</type>
+                            <time units="s">40</time>
+                            <atmosphere>AIR</atmosphere>
+                        </pretreatment>
+                        <details>Used Quantifoil Active grids - backside gold coated before plasma cleaning. 12 mA used for plasma cleaning.</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">296</chamber_temperature>
+                        <instrument>SPOTITON</instrument>
+                        <details>Commercialized version - Chameleon. </details>
+                    </vitrification>
+                    <details>Specimen appeared as a monodisperse peak via size exclusion chromatography (SEC)</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.4</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">1.4000000000000001</nominal_defocus_max>
+                    <nominal_magnification>81000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>TFS Selectris</name>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">49.97</average_electron_dose_per_image>
+                            <details>4 datasets collected, processed independently, and merged.</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <details>Mixture of blob picker, template picker, crYOLO, and Topaz</details>
+                </particle_selection>
+                <startup_model type_of_model="OTHER"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">4.7</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.4.1</version>
+                        </software>
+                    </software_list>
+                    <details>NU refinement in cryoSPARC</details>
+                    <number_images_used>285082</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.4.1</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>OTHER</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.4.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.4.1</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="108001">
+        <file>emd_45207.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>300</col>
+            <row>300</row>
+            <sec>300</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>300</x>
+            <y>300</y>
+            <z>300</z>
+        </spacing>
+        <cell>
+            <a units="Å">317.4</a>
+            <b units="Å">317.4</b>
+            <c units="Å">317.4</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.504133</minimum>
+            <maximum>1.1040016</maximum>
+            <average>0.0003716363</average>
+            <std>0.019176668</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.058</x>
+            <y units="Å">1.058</y>
+            <z units="Å">1.058</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.1</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-45207::::</label>
+        <annotation_details>B factor sharpened map</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <chain>
+                        <source_name>AlphaFold</source_name>
+                        <initial_model_type>in silico model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_45207_msk_3.map</file>
+            </segmentation>
+            <segmentation>
+                <file>emd_45207_msk_2.map</file>
+            </segmentation>
+            <segmentation>
+                <file>emd_45207_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="108001">
+                <file>emd_45207_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">317.4</a>
+                    <b units="Å">317.4</b>
+                    <c units="Å">317.4</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.10992048</minimum>
+                    <maximum>0.41785228</maximum>
+                    <average>0.00037163624</average>
+                    <std>0.011220897</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.058</x>
+                    <y units="Å">1.058</y>
+                    <z units="Å">1.058</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-45207::::</label>
+                <annotation_details>Full, unsharpened mask</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="108001">
+                <file>emd_45207_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">317.4</a>
+                    <b units="Å">317.4</b>
+                    <c units="Å">317.4</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.0017361754</minimum>
+                    <maximum>2.1748512</maximum>
+                    <average>0.00092766853</average>
+                    <std>0.022007152</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.058</x>
+                    <y units="Å">1.058</y>
+                    <z units="Å">1.058</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-45207::::</label>
+                <annotation_details>deepEMhancer sharpened map</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="108001">
+                <file>emd_45207_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">317.4</a>
+                    <b units="Å">317.4</b>
+                    <c units="Å">317.4</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0.0</minimum>
+                    <maximum>68.03998</maximum>
+                    <average>0.1393756</average>
+                    <std>0.9893166</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.058</x>
+                    <y units="Å">1.058</y>
+                    <z units="Å">1.058</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-45207::::</label>
+                <annotation_details>Locres file</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="108001">
+                <file>emd_45207_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">317.4</a>
+                    <b units="Å">317.4</b>
+                    <c units="Å">317.4</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.15016575</minimum>
+                    <maximum>0.504668</maximum>
+                    <average>0.00047323605</average>
+                    <std>0.015241245</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.058</x>
+                    <y units="Å">1.058</y>
+                    <z units="Å">1.058</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-45207::::</label>
+                <annotation_details>Half map 1</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="108001">
+                <file>emd_45207_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">317.4</a>
+                    <b units="Å">317.4</b>
+                    <c units="Å">317.4</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.1597693</minimum>
+                    <maximum>0.45493895</maximum>
+                    <average>0.00046617514</average>
+                    <std>0.015229337</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.058</x>
+                    <y units="Å">1.058</y>
+                    <z units="Å">1.058</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-45207::::</label>
+                <annotation_details>Half map 2</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

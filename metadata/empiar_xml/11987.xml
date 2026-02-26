@@ -1,0 +1,155 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11987" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-02-27</depositionDate>
+            <releaseDate>2025-04-07</releaseDate>
+            <updateDate>2025-04-07</updateDate>
+        </keyDates>
+        <title>Single-particle cryo-EM dataset of the glycosyltransferase ArnC from Salmonella enterica in the UDP-bound state from Talos Arctica microscope</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-3194-9863</authorORCID>
+            <firstName>Vasileios</firstName>
+            <middleName>I</middleName>
+            <lastName>Petrou</lastName>
+            <organization type="academic">Rutgers New Jersey Medical School</organization>
+            <street>225 Warren Street</street>
+            <townOrCity>Newark</townOrCity>
+            <stateOrProvince>NJ</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>07103</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-3194-9863</authorORCID>
+            <firstName>Vasileios</firstName>
+            <middleName>I</middleName>
+            <lastName>Petrou</lastName>
+            <organization type="academic">Rutgers New Jersey Medical School</organization>
+            <street>225 Warren Street</street>
+            <townOrCity>Newark</townOrCity>
+            <stateOrProvince>NJ</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>07103</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-0799-4947">Ashraf KU</author>
+            <author authorORCID="0000-0002-2845-5459">Punetha A</author>
+            <author authorORCID="0000-0001-9426-1030">Kaelber JT</author>
+            <author authorORCID="0000-0002-3194-9863">Petrou VI</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</fundingBody>
+                <code>R00GM123228</code>
+                <country>United States</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</fundingBody>
+                <code>R35GM150831</code>
+                <country>United States</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">1.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11987</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-43812</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author authorORCID="0000-0002-0799-4947" order="1">Ashraf KU</author>
+                    <author authorORCID="0000-0002-2468-748X" order="2">Bunoro-Batista M</author>
+                    <author order="3">Ansell TB</author>
+                    <author authorORCID="0000-0002-2845-5459" order="4">Punetha A</author>
+                    <author authorORCID="0009-0006-3350-6448" order="5">Rosario-Garrido S</author>
+                    <author authorORCID="0000-0003-0190-6528" order="6">Firlar E</author>
+                    <author authorORCID="0000-0001-9426-1030" order="7">Kaelber JT</author>
+                    <author authorORCID="0000-0001-8800-7669" order="8">Stansfeld PJ</author>
+                    <author authorORCID="0000-0002-3194-9863" order="9">Petrou VI</author>
+                    <title>Structural basis of undecaprenyl phosphate glycosylation leading to polymyxin resistance in Gram-negative bacteria</title>
+                    <journal>bioRxiv</journal>
+                    <journalAbbreviation>bioRxiv</journalAbbreviation>
+                    <country>United States</country>
+                    <year>2025</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1101/2025.01.29.634835</externalReferences>
+                    <details>The single-particle cryo-EM dataset contains unaligned movies (53 frames per movie, accumulated exposure of 39.88 electrons per angstrom squared, gain corrected), patch-aligned/doseweighted micrographs (subset contributing to final particle stack) and final particle stack used for reconstruction deposited in EMD-43812.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+        <relatedEmpiarEntries>
+            <empiarEntry>EMPIAR-11924</empiarEntry>
+        </relatedEmpiarEntries>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of ArnC from S. enterica in the UDP-bound state collected on Talos Arctica</name>
+        <directory>/data/rawdata</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>7925</numImagesOrTiltSeries>
+        <framesPerImage>53</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>53</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>0.818</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>0.818</pixelHeight>
+        </dimensions>
+        <details>The dataset contains unaligned gain-corrected micrograph movies in TIFF format. Cryo-EM data were collected at the Rutgers Cryo-EM &amp; Nanoimaging Facility using a 200 kV Talos Arctica (FEI/ThermoFisher) electron microscope equipped with a K2 Summit direct electron detector (Gatan) and a BioQuantum energy filter (Gatan) with slit width of 20 eV. Data were collected automatically in counting mode using EPU (FEI/ThermoFisher), a nominal magnification of 165,000X, a nominal pixel size of 0.818 Å/pixel, and a dose rate of 5.0344 electrons/pixel/s. Movies were recorded at 100 ms/frame for 5.3s (53 frames total), resulting in a total dose of 39.88 electrons/Å2. Nominal defocus range was -0.5 to -2.5 μm. A total of 7,925 micrographs were recorded from one grid over two days. Micrographs were gain-normalized and defect corrected. At the end of processing a calibrated pixel size of 0.82 Å/pixel was determined for this dataset, representing an 0.24% error from the nominal pixel size value.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/rawdata/20220107_KA*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned and dose-weighted micrographs of ArnC from S. enterica in the UDP-bound state collected on Talos Arctica</name>
+        <directory>/data/aligned</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5556</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>0.818</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>0.818</pixelHeight>
+        </dimensions>
+        <details>Aligned and dose-weighted micrographs produced from the raw movies using patch motion correction in cryoSPARC. The dataset contains a subset of micrographs that have contributed particles to the final particle stack. Nominal pixel size 0.818 Å/pixel. Calibrated pixel size imposed on final reconstruction is 0.82 Å/pixel.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/aligned/*patch_aligned_doseweighted.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final particle stack of ArnC from S. enterica in the UDP-bound state collected on Talos Arctica</name>
+        <directory>/data/particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3318</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>288</imageWidth>
+            <pixelWidth>0.818</pixelWidth>
+            <imageHeight>288</imageHeight>
+            <pixelHeight>0.818</pixelHeight>
+        </dimensions>
+        <details>Final particle stack of 216,104 particles from 5556 aligned/dose-weighted micrographs corresponding to the reconstruction deposited in EMD-43812. Nominal pixel size 0.818 Å/pixel. Calibrated pixel size imposed on final reconstruction is 0.82 Å/pixel.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/particles/extract/*patch_aligned_doseweighted_particles.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/particles/J276_particles_exported.cs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

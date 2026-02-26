@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-4898">
+    <admin>
+        <current_status>
+            <date>2024-11-13</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-04-25</deposition>
+            <header_release>2019-08-21</header_release>
+            <map_release>2019-08-21</map_release>
+            <update>2024-11-13</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Swiss National Science Foundation</funding_body>
+                <code>BSSGI0_155778</code>
+                <country>Switzerland</country>
+            </grant_reference>
+        </grant_support>
+        <title>TssA protein from T6SS of Vibrio cholerae.</title>
+        <authors_list>
+            <author>Nazarov S</author>
+            <author>Adaixo R</author>
+            <author>Basler M</author>
+        </authors_list>
+        <keywords>T6SS, Vibrio, TssA, cap, TRANSPORT PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-6028-9956" order="1">Schneider JP</author>
+                    <author ORCID="0000-0002-5240-5849" order="2">Nazarov S</author>
+                    <author order="3">Adaixo R</author>
+                    <author order="4">Liuzzo M</author>
+                    <author order="5">Ringel PD</author>
+                    <author ORCID="0000-0002-1185-4592" order="6">Stahlberg H</author>
+                    <author ORCID="0000-0001-5414-2088" order="7">Basler M</author>
+                    <title>Diverse roles of TssA-like proteins in the assembly of bacterial type VI secretion systems.</title>
+                    <journal_abbreviation>Embo J.</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>38</volume>
+                    <first_page>e100825</first_page>
+                    <last_page>e100825</last_page>
+                    <year>2019</year>
+                    <external_references type="PUBMED">31403721</external_references>
+                    <external_references type="DOI">doi:10.15252/embj.2018100825</external_references>
+                    <external_references type="ISSN">1460-2075</external_references>
+                    <external_references type="CSD">0897</external_references>
+                    <external_references type="ASTM">EMJODG</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6riu</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Type VI secretion system protein TssA.</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Type VI secretion system protein TssA.</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="666">Vibrio cholerae</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.634</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>Middle N-terminal domain (Nt2) of TssA protein from T6SS of Vibrio cholerae.</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="666">Vibrio cholerae</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Type VI secretion system protein TssA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="666">Vibrio cholerae</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.053102792999999995</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MEMTEYRQCVAKPISSSNPVGERLVDHPLFDFIEDQMMKVGSLSHASVQWDEVEHSTLKLLGEQSKDIKLLVYLLQCLHN
+QVTPTRLITSFAVMSEFLNQYWNDSYPAPGARGNLPRRKFFSQMAQRFTTVIEKFDFHHLDEADRQALQAAVEEWQQAVE
+KQGLSSELVESVVVRITAEIKRAEQRQQVTAQSSAERETPSAATSSPAASMVVDHSSDKAAKQTLLKVADFLAEQEFGIA
+LSIRLRRFAVWGSITSLPDHKPDGETLLRGMQADRVKDYQDQLRHPDLALWRKVEQSLTMAPYWFEGQWMSYTIAQQLGK
+SDWCQAIAEETQQFLRRLPSLLELKFKGGEPFVSDSVKEWLASVGQSQGAAGQSVGGDWQEKRKEAFQLAKEGGIAVALS
+MLNDGLVSAVEPRDKFYWRLLSADLLRANHLDAMAGEQYQTLLNQVTTLSVPEWEPSLVEQIQRYTTSE</string>
+                    <external_references type="UNIPROTKB">A0A023PTF2</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <grid>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>LACEY</film_topology>
+                        </support_film>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">90</chamber_humidity>
+                        <chamber_temperature units="K">293</chamber_temperature>
+                        <details>Leica EM GP2. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <basic/>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Quantum LS</name>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details/>
+                            <number_real_images>2963</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">60.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>261412</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="OTHER"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C6</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.9</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>31781</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="136049">
+        <file>emd_4898.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>324</col>
+            <row>324</row>
+            <sec>324</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>324</x>
+            <y>324</y>
+            <z>324</z>
+        </spacing>
+        <cell>
+            <a units="Å">342.792</a>
+            <b units="Å">342.792</b>
+            <c units="Å">342.792</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.008977853</minimum>
+            <maximum>0.04275847</maximum>
+            <average>0.000004379197</average>
+            <std>0.00118218</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.058</x>
+            <y units="Å">1.058</y>
+            <z units="Å">1.058</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.01</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-4898::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>6G7C</access_code>
+                    <chain>
+                        <chain_id>A</chain_id>
+                        <residue_range>388-474</residue_range>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_4898_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_4898_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>-63</col>
+                    <row>-63</row>
+                    <sec>-63</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">135.424</a>
+                    <b units="Å">135.424</b>
+                    <c units="Å">135.424</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.8225149</minimum>
+                    <maximum>2.699835</maximum>
+                    <average>0.010184063</average>
+                    <std>0.11261743</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.058</x>
+                    <y units="Å">1.058</y>
+                    <z units="Å">1.058</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-4898::::</label>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_4898_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>324</col>
+                    <row>324</row>
+                    <sec>324</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>324</x>
+                    <y>324</y>
+                    <z>324</z>
+                </spacing>
+                <cell>
+                    <a units="Å">342.792</a>
+                    <b units="Å">342.792</b>
+                    <c units="Å">342.792</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.03602912</minimum>
+                    <maximum>0.07252933</maximum>
+                    <average>0.00004027687</average>
+                    <std>0.0018026672</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.058</x>
+                    <y units="Å">1.058</y>
+                    <z units="Å">1.058</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-4898::::</label>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="8389">
+                <file>emd_4898_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>324</col>
+                    <row>324</row>
+                    <sec>324</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>324</x>
+                    <y>324</y>
+                    <z>324</z>
+                </spacing>
+                <cell>
+                    <a units="Å">342.792</a>
+                    <b units="Å">342.792</b>
+                    <c units="Å">342.792</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>Z</fast>
+                    <medium>Y</medium>
+                    <slow>X</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-19.102803999999999</minimum>
+                    <maximum>37.149554999999999</maximum>
+                    <average>-0.000000000004526</average>
+                    <std>1.0</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.058</x>
+                    <y units="Å">1.058</y>
+                    <z units="Å">1.058</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-4898::::</label>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="136049">
+                <file>emd_4898_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>324</col>
+                    <row>324</row>
+                    <sec>324</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>324</x>
+                    <y>324</y>
+                    <z>324</z>
+                </spacing>
+                <cell>
+                    <a units="Å">342.792</a>
+                    <b units="Å">342.792</b>
+                    <c units="Å">342.792</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.010397181</minimum>
+                    <maximum>0.04368514</maximum>
+                    <average>0.000012426487</average>
+                    <std>0.001228593</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.058</x>
+                    <y units="Å">1.058</y>
+                    <z units="Å">1.058</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-4898::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="136049">
+                <file>emd_4898_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>324</col>
+                    <row>324</row>
+                    <sec>324</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>324</x>
+                    <y>324</y>
+                    <z>324</z>
+                </spacing>
+                <cell>
+                    <a units="Å">342.792</a>
+                    <b units="Å">342.792</b>
+                    <c units="Å">342.792</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.010681489</minimum>
+                    <maximum>0.04391016</maximum>
+                    <average>0.00006812726</average>
+                    <std>0.0012299947</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.058</x>
+                    <y units="Å">1.058</y>
+                    <z units="Å">1.058</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-4898::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

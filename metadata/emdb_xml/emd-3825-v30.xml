@@ -1,0 +1,238 @@
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" emdb_id="EMD-3825" version="3.0.0.0" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_0_0/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2017-09-20</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2017-07-26</deposition>
+            <header_release>2017-08-30</header_release>
+            <map_release>2017-09-06</map_release>
+            <update>2017-09-20</update>
+        </key_dates>
+        <title>Three-dimensional cryo-EM density map of paired C2S2M PSII-LHCII supercomplexes from thylakoid membranes of Pisum sativum</title>
+        <authors_list>
+            <author>Pagliano C</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Albanese P</author>
+                    <author order="2">Melero R</author>
+                    <author order="3">Engel BD</author>
+                    <author order="4">Grinzato A</author>
+                    <author order="5">Berto P</author>
+                    <author order="6">Manfredi M</author>
+                    <author order="7">Chiodoni A</author>
+                    <author order="8">Vargas J</author>
+                    <author order="9">Sorzano COS</author>
+                    <author order="10">Marengo E</author>
+                    <author order="11">Saracco G</author>
+                    <author order="12">Zanotti G</author>
+                    <author order="13">Carazo JM</author>
+                    <author order="14">Pagliano C</author>
+                    <title>Pea PSII-LHCII supercomplexes form pairs by making connections across the stromal gap.</title>
+                    <journal_abbreviation>Sci Rep</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>7</volume>
+                    <first_page>10067</first_page>
+                    <last_page>10067</last_page>
+                    <year>2017</year>
+                    <external_references type="PUBMED">28855679</external_references>
+                    <external_references type="DOI">doi:10.1038/s41598-017-10700-8</external_references>
+                    <external_references type="ISSN">2045-2322</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-3825</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>paired PSII-LHCII supercomplexes from pea plants</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>paired PSII-LHCII supercomplexes from pea plants</name>
+                <parent>0</parent>
+                <details>paired PSII-LHCII supercomplexes connected across the stromal gap</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="3888">Pisum sativum</organism>
+                    <strain>Palladio nano</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">2.75</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>5.7</ph>
+                        <component>
+                            <concentration units="mM">25.0</concentration>
+                            <formula>C6H13NO4S</formula>
+                            <name>MES</name>
+                        </component>
+                        <details>fresh solution</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil lacey carbon</model>
+                        <material>COPPER</material>
+                        <mesh>200</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>LACEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">294</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK III</instrument>
+                        <details>blot for 4 seconds befoere plunging. </details>
+                    </vitrification>
+                    <details>Specimen concentration (mg/mL) is given in terms of Chlorophyll</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON II (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details />
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>6834</number_real_images>
+                            <average_exposure_time units="s">1.5</average_exposure_time>
+                            <average_electron_dose_per_image units="e/&#8491;^2">7.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>CTFFIND</name>
+                            <version>4</version>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>D2</point_group>
+                    </applied_symmetry>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">14.0</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>SCIPION</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>26953</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="256001">
+        <file>emd_3825.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>400</col>
+            <row>400</row>
+            <sec>400</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>400</x>
+            <y>400</y>
+            <z>400</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">560.0</a>
+            <b units="&#8491;">560.0</b>
+            <c units="&#8491;">560.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.0027011025</minimum>
+            <maximum>0.022493664</maximum>
+            <average>0.0000822539</average>
+            <std>0.00074280193</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">1.4</x>
+            <y units="&#8491;">1.4</y>
+            <z units="&#8491;">1.4</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0003</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-3825::::</label>
+        <annotation_details>Three-dimensional cryo-EM density map of paired C2S2M PSII-LHCII supercomplexes from thylakoid membranes of Pisum sativum</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

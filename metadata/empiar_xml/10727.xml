@@ -1,0 +1,150 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10727" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-04-04</depositionDate>
+            <releaseDate>2021-07-07</releaseDate>
+            <updateDate>2021-07-21</updateDate>
+        </keyDates>
+        <title>Locating Macromolecular Assemblies in Cells by 2D Template Matching with cisTEM</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-1506-909X</authorORCID>
+            <firstName>Nikolaus</firstName>
+            <lastName>Grigorieff</lastName>
+            <organization type="academic">University of Massachusetts Medical School</organization>
+            <street>368 Plantation Street</street>
+            <townOrCity>Worcester</townOrCity>
+            <stateOrProvince>Massachusetts</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>01605</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-1506-909X</authorORCID>
+            <firstName>Nikolaus</firstName>
+            <lastName>Grigorieff</lastName>
+            <organization type="academic">University of Massachusetts Medical School</organization>
+            <street>368 Plantation Street</street>
+            <townOrCity>Worcester</townOrCity>
+            <stateOrProvince>Massachusetts</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>01605</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-9162-0421">Lucas BA</author>
+            <author authorORCID="0000-0001-7777-0298">Himes BA</author>
+            <author authorORCID="0000-0003-4368-2526">Xue L</author>
+            <author authorORCID="0000-0002-4855-8703">Grant T</author>
+            <author authorORCID="0000-0001-6968-041X">Mahamid J</author>
+            <author authorORCID="0000-0002-1506-909X">Grigorieff N</author>
+        </authorsList>
+        <datasetSize>11.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10727</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-23771</emdbEntry>
+            <emdbEntry>EMD-23772</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-9162-0421" order="1">Lucas BA</author>
+                    <author authorORCID="0000-0001-7777-0298" order="2">Himes BA</author>
+                    <author authorORCID="0000-0003-4368-2526" order="3">Xue L</author>
+                    <author authorORCID="0000-0002-4855-8703" order="4">Grant T</author>
+                    <author authorORCID="0000-0001-6968-041X" order="5">Mahamid J</author>
+                    <author authorORCID="0000-0002-1506-909X" order="6">Grigorieff N</author>
+                    <title>Locating macromolecular assemblies in cells by 2D template matching with cisTEM</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation>Elife</journalAbbreviation>
+                    <country>United States</country>
+                    <volume>10</volume>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.7554/elife.68946</externalReferences>
+                    <externalReferences type="pubmed">34114559</externalReferences>
+                    <details>Two datasets of images of Mycoplasma pneumoniae that were searched for 50S ribosomal subunits using 2D template matching.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+        <relatedEmpiarEntries>
+            <empiarEntry>EMPIAR-10731</empiarEntry>
+        </relatedEmpiarEntries>
+    </crossReferences>
+    <imageSet>
+        <name>Exposure-weighted micrographs of M. pneumoniae</name>
+        <directory>/data/Images</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>220</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>20</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4032</imageWidth>
+            <pixelWidth>1.5</pixelWidth>
+            <imageHeight>2864</imageHeight>
+            <pixelHeight>1.5</pixelHeight>
+        </dimensions>
+        <details>Particles were selected by 2D template matching with high-resolution templates of either M. pneumoniae or B. subtilis 50S subunits, and using a threshold with an expected false positive rate of 1 per image.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Images/00*_*_0.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/*/*_stack.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particle stack and cisTEM star file for 50S ribosomal subunits identified in the associated 220 images using the M. pneumoniae 50S template</name>
+        <directory>/data/Mpneumoniae</directory>
+        <category>picked particles - single frame - unprocessed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5080</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>20</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.5</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.5</pixelHeight>
+        </dimensions>
+        <details>Particle stack and cisTEM star file of 50S ribosomal subunits identified in the associated 220 images of M. pneumoniae, using a M. pneumoniae 50S template</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Mpneumoniae/Mpneumoniae_stack.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Mpneumoniae</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particle stack and cisTEM star file for 50S ribosomal subunits identified in the associated 220 images using the B. subtilis 50S template</name>
+        <directory>/data/Bsubtilis</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1172</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>20</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.5</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.5</pixelHeight>
+        </dimensions>
+        <details>Particle stack and cisTEM star file of 50S ribosomal subunits identified in the associated 220 images of M. pneumoniae, using a B. subtilis 50S template</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Bsubtilis/Bsubtilis_stack.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Bsubtilis</pickedParticlesDirectory>
+    </imageSet>
+</entry>

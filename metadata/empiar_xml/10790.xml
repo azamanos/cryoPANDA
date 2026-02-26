@@ -1,0 +1,178 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10790" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-08-11</depositionDate>
+            <releaseDate>2022-01-18</releaseDate>
+            <updateDate>2022-01-18</updateDate>
+        </keyDates>
+        <title>High-resolution mapping of metal ions reveals principles of surface layer assembly in Caulobacter crescentus cells</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-0017-2414</authorORCID>
+            <firstName>Andriko</firstName>
+            <lastName>von Kügelgen</lastName>
+            <organization type="academic">Sir William Dunn School of Pathology, University of Oxford</organization>
+            <street>South Parks Road</street>
+            <townOrCity>Oxford</townOrCity>
+            <stateOrProvince>Oxfordshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>OX1 3RE</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-0168-0277</authorORCID>
+            <firstName>Tanmay</firstName>
+            <middleName>AM</middleName>
+            <lastName>Bharat</lastName>
+            <organization type="academic">Sir William Dunn School of Pathology, University of Oxford</organization>
+            <street>South Parks Road</street>
+            <townOrCity>Oxford</townOrCity>
+            <stateOrProvince>Oxfordshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>OX1 3RE</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-0017-2414">von Kugelgen A</author>
+            <author authorORCID="0000-0002-0168-0277">Bharat TAM</author>
+        </authorsList>
+        <datasetSize>304.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10790</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-13355</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Herdman M</author>
+                    <author authorORCID="0000-0002-0017-2414" order="2">von Kügelgen A</author>
+                    <author order="3">Kureisaite-Ciziene D</author>
+                    <author order="4">Duman R</author>
+                    <author order="5">El Omari K</author>
+                    <author authorORCID="0000-0001-8329-5665" order="6">Garman EF</author>
+                    <author order="7">Kjaer A</author>
+                    <author order="8">Kolokouris D</author>
+                    <author order="9">Löwe J</author>
+                    <author order="10">Wagner A</author>
+                    <author order="11">Stansfeld PJ</author>
+                    <author authorORCID="0000-0002-0168-0277" order="12">Bharat TAM</author>
+                    <title>High-resolution mapping of metal ions reveals principles of surface layer assembly in Caulobacter crescentus cells</title>
+                    <journal>Structure</journal>
+                    <journalAbbreviation>Structure</journalAbbreviation>
+                    <country></country>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.str.2021.10.012</externalReferences>
+                    <externalReferences type="pubmed">34800371</externalReferences>
+                    <details>The micrographs are the motion-corrected and dose-weighted averages of the raw 20 movie frames (accumulating 44.8 electrons per squared Angstrom in a 8 second exposure). The raw movies were collected using EPU and saved as non-gain corrected MRC files, which have been compressed with 'relion_convert_to_tif' before deposition (see https://relion.readthedocs.io/en/latest/Reference/MovieCompression.html). The original gain reference for the tilted and non-tilted data set have been deposited as well.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multiframe micrographs of RsaA_NTD spiral soaked with 5 mM HoCl3 for 2 hours (converted from .mrc into .tif with relion_convert_to_tiff)</name>
+        <directory>/data/EMPAIR/movies_non_tilted</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>903</numImagesOrTiltSeries>
+        <framesPerImage>20</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.08</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.08</pixelHeight>
+        </dimensions>
+        <details>Unaligned multiframe micrographs of RsaA_NTD spiral soaked with 5 mM HoCl3 for 2 hours (converted from .mrc into .tif with relion_convert_to_tiff). The movies contain 20 frames accumulating 44.8 electrons per squared Angstrom in a 8 second exposure. The raw movies were collected using EPU and saved as non-gain corrected MRC files, which have been compressed with 'relion_convert_to_tif' before deposition (see https://relion.readthedocs.io/en/latest/Reference/MovieCompression.html).</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPAIR/movies_non_tilted/FoilHole_*_Data_*_*_*_*-*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multiframe micrographs of RsaA_NTD spiral soaked with 5 mM HoCl3 for 2 hours with a 30 degree stage tilt (converted from .mrc into .tif with relion_convert_to_tiff)</name>
+        <directory>/data/EMPAIR/movies_tilted</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1115</numImagesOrTiltSeries>
+        <framesPerImage>20</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.08</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.08</pixelHeight>
+        </dimensions>
+        <details>Unaligned multiframe micrographs of RsaA_NTD spiral soaked with 5 mM HoCl3 for 2 hours with a 30 degree stage tilt (converted from .mrc into .tif with relion_convert_to_tiff). The movies contain 20 frames accumulating 44.8 electrons per squared Angstrom in a 8 second exposure. The raw movies were collected using EPU and saved as non-gain corrected MRC files, which have been compressed with 'relion_convert_to_tif' before deposition (see https://relion.readthedocs.io/en/latest/Reference/MovieCompression.html).</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPAIR/movies_tilted/FoilHole_*_Data_*_*_*_*-*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned and dose-weighted micrographs of RsaA_NTD spiral soaked with 5 mM HoCl3 for 2 hours</name>
+        <directory>/data/EMPAIR/micrographs_non_tilted</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>903</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.08</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.08</pixelHeight>
+        </dimensions>
+        <details>Aligned and dose-weighted micrographs of RsaA_NTD spiral soaked with 5 mM HoCl3 for 2 hours.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPAIR/micrographs_non_tilted/FoilHole_*_Data_*_*_*_*-*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned and dose-weighted micrographs of RsaA_NTD spiral soaked with 5 mM HoCl3 for 2 hours with a 30 degree stage tilt</name>
+        <directory>/data/EMPAIR/micrographs_tilted</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1115</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.08</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.08</pixelHeight>
+        </dimensions>
+        <details>Aligned and dose-weighted micrographs of RsaA_NTD spiral soaked with 5 mM HoCl3 for 2 hours with a 30 degree stage tilt.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPAIR/micrographs_tilted/FoilHole_*_Data_*_*_*_*-*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Gain reference image of the non-tilted and tilted dataset in MRC format</name>
+        <directory>/data/EMPAIR/gain_ref</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.08</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.08</pixelHeight>
+        </dimensions>
+        <details>Gain reference image of the non-tilted and tilted dataset in MRC format</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

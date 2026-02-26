@@ -1,0 +1,139 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12542" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2025-02-03</depositionDate>
+            <releaseDate>2025-03-10</releaseDate>
+            <updateDate>2025-03-10</updateDate>
+        </keyDates>
+        <title>Cryo-electron micrographs of Cholinephosphotransferase in complex with diacylglycerol</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-9976-5828</authorORCID>
+            <firstName>Jacquelyn</firstName>
+            <middleName>Renee</middleName>
+            <lastName>Roberts</lastName>
+            <organization type="academic">Department of Biological Chemistry, University of Michigan</organization>
+            <street>1136 Catherine St</street>
+            <townOrCity>Ann Arbor</townOrCity>
+            <stateOrProvince>Michigan</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>48109</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-1750-4793</authorORCID>
+            <firstName>Melanie</firstName>
+            <middleName>D</middleName>
+            <lastName>Ohi</lastName>
+            <organization type="academic">Life Sciences Institute, University of Michigan</organization>
+            <street>210 Washtenaw Ave</street>
+            <townOrCity>Ann Arbor</townOrCity>
+            <stateOrProvince>Michigan</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>48109</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-7762-9793</authorORCID>
+            <firstName>Shoji</firstName>
+            <lastName>Maeda</lastName>
+            <organization type="academic">Department of Pharmacology, University of Michigan School of Medicine</organization>
+            <street>1150 W Medical Center Dr</street>
+            <townOrCity>Ann Arbor</townOrCity>
+            <stateOrProvince>Michigan</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>48109</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-9976-5828">Roberts JR</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>National Institutes of Health (NIH)</fundingBody>
+                <code>S10OD030275</code>
+                <country>United States</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">1.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12542</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-42357</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-9976-5828" order="1">Roberts JR</author>
+                    <author authorORCID="0009-0004-3384-4354" order="2">Horibata Y</author>
+                    <author order="3">Kwarcinski FE</author>
+                    <author authorORCID="0000-0001-8228-2133" order="4">Lam V</author>
+                    <author order="5">Raczkowski AM</author>
+                    <author authorORCID="0009-0005-5855-6022" order="6">Hubbard A</author>
+                    <author order="7">White B</author>
+                    <author order="8">Sugimoto H</author>
+                    <author authorORCID="0000-0002-6540-4896" order="9">Tall GG</author>
+                    <author authorORCID="0000-0003-1750-4793" order="10">Ohi MD</author>
+                    <author authorORCID="0000-0002-7762-9793" order="11">Maeda S</author>
+                    <title>Structural basis for catalysis and selectivity of phospholipid synthesis by eukaryotic choline-phosphotransferase</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>16</volume>
+                    <year>2025</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-024-55673-1</externalReferences>
+                    <externalReferences type="pubmed">39747155</externalReferences>
+                    <details>CryoEM dataset of yeast cholinephosphotransferase in complex with diacylglycerol [3,625 multi-frame micrographs composed of 60 frames each in TIF format].</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of cholinephosphotransferase in complex with diacylglycerol</name>
+        <directory>/data</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>3625</numImagesOrTiltSeries>
+        <framesPerImage>60</framesPerImage>
+        <frameRange>
+            <frameRangeMin>0</frameRangeMin>
+            <frameRangeMax>59</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.08</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.08</pixelHeight>
+        </dimensions>
+        <details>Unaligned micrographs in TIF format. Total accumulated dose of 59.81 electrons per square angstrom.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/2023-01-30_14.25.06_yCPT_Nb25_0000_X+0Y-1-0.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Gain reference</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.08</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.08</pixelHeight>
+        </dimensions>
+        <details>Gain reference in .mrc format</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/CountRef_2023-01-30_14.25.06_yCPT_Nb25_0000_X+0Y-1-0.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

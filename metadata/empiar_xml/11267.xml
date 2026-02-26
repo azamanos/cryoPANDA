@@ -1,0 +1,101 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11267" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-08-23</depositionDate>
+            <releaseDate>2022-11-07</releaseDate>
+            <updateDate>2022-11-07</updateDate>
+        </keyDates>
+        <title>Topological Crossing in the Misfolded Tetrahymena Ribozyme Resolved by Cryo-EM</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0003-0414-4776</authorORCID>
+            <firstName>Kaiming</firstName>
+            <lastName>Zhang</lastName>
+            <organization type="academic">University of Science and Technology of China</organization>
+            <townOrCity>Hefei</townOrCity>
+            <stateOrProvince>Anhui</stateOrProvince>
+            <country>China</country>
+            <postOrZipCode>230027</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0003-0414-4776</authorORCID>
+            <firstName>Kaiming</firstName>
+            <lastName>Zhang</lastName>
+            <organization type="academic">University of Science and Technology of China</organization>
+            <townOrCity>Hefei</townOrCity>
+            <stateOrProvince>Anhui</stateOrProvince>
+            <country>China</country>
+            <postOrZipCode>230027</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-7041-5960">Li S</author>
+            <author authorORCID="0000-0003-4883-6766">Palo M</author>
+            <author authorORCID="0000-0002-0848-5335">Pintilie GD</author>
+            <author authorORCID="0000-0001-8424-3824">Zhang X</author>
+            <author authorORCID="0000-0002-9279-1721">Su Z</author>
+            <author authorORCID="0000-0002-2129-199X">Kappel K</author>
+            <author authorORCID="0000-0002-8910-3078">Chiu W</author>
+            <author authorORCID="0000-0003-0414-4776">Zhang K</author>
+            <author authorORCID="0000-0001-7497-0972">Das R</author>
+        </authorsList>
+        <datasetSize units="TB">3.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11267</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-33425</emdbEntry>
+            <emdbEntry>EMD-33426</emdbEntry>
+            <emdbEntry>EMD-33427</emdbEntry>
+            <emdbEntry>EMD-33428</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-7041-5960" order="1">Li S</author>
+                    <author authorORCID="0000-0003-4883-6766" order="2">Palo M</author>
+                    <author authorORCID="0000-0002-0848-5335" order="3">Pintilie GD</author>
+                    <author authorORCID="0000-0001-8424-3824" order="4">Zhang X</author>
+                    <author authorORCID="0000-0002-9279-1721" order="5">Su Z</author>
+                    <author authorORCID="0000-0002-2129-199X" order="6">Kappel K</author>
+                    <author authorORCID="0000-0002-8910-3078" order="7">Chiu W</author>
+                    <author authorORCID="0000-0003-0414-4776" order="8">Zhang K</author>
+                    <author authorORCID="0000-0001-7497-0972" order="9">Das R</author>
+                    <title>Topological crossing in the misfolded &lt;i&gt;Tetrahymena&lt;/i&gt; ribozyme resolved by cryo-EM</title>
+                    <journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+                    <journalAbbreviation>Proc Natl Acad Sci U S A</journalAbbreviation>
+                    <country></country>
+                    <issue>37</issue>
+                    <volume>119</volume>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1073/pnas.2209146119</externalReferences>
+                    <externalReferences type="pubmed">36067294</externalReferences>
+                    <details>The motion-corrected images of misfolded Tetrahymena Ribozyme</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Misfolded Tetrahymena ribozyme</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>42382</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.82</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>Motion corrected micrographs. The large single particle cryo-EM dataset of misfolded Tetrahymena ribozyme.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

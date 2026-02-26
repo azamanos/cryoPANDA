@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-13124">
+    <admin>
+        <current_status>
+            <date>2024-11-13</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-06-28</deposition>
+            <header_release>2022-07-13</header_release>
+            <map_release>2022-07-13</map_release>
+            <update>2024-11-13</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>787679</code>
+                <country>European Union</country>
+            </grant_reference>
+        </grant_support>
+        <title>PMCA-amplified alpha-synuclein fibril polymorph, Multiple System Atrophy patient-derived seeds</title>
+        <authors_list>
+            <author>Frieg B</author>
+            <author>Geraets JA</author>
+        </authors_list>
+        <keywords>alpha-synuclein amyloid Multiple System Atrophy PMCA amplified, PROTEIN FIBRIL</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="false">
+                    <author ORCID="0000-0002-7877-0262" order="1">Frieg B</author>
+                    <author ORCID="0000-0003-3378-0683" order="2">Geraets JA</author>
+                    <author order="3">Strohaeker T</author>
+                    <author order="4">Dienemann C</author>
+                    <author ORCID="0000-0002-5460-2336" order="5">Mavroeidi P</author>
+                    <author order="6">Jung BC</author>
+                    <author order="7">Woojin SK</author>
+                    <author order="8">Lee S-J</author>
+                    <author ORCID="0000-0001-7038-0780" order="9">Xilouri M</author>
+                    <author ORCID="0000-0002-2536-6581" order="10">Zweckstetter M</author>
+                    <author ORCID="0000-0003-1803-5431" order="11">Schroeder GF</author>
+                    <title>alpha-synuclein polymorphism determines             oligodendroglial dysfunction</title>
+                    <journal_abbreviation>To Be Published</journal_abbreviation>
+                    <external_references type="CSD">0353</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-13123</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>EMDB-13123 was derived from the same protein amplified from different seeds</details>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7ozh</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Alpha-synuclein amyloid fibril</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Alpha-synuclein amyloid fibril</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>The fibril consists of alpha-synuclein monomers</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Alpha-synuclein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014476108</theoretical>
+                </molecular_weight>
+                <number_of_copies>10</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQK
+TVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</string>
+                    <external_references type="UNIPROTKB">P37840</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">100.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="%">0.02</concentration>
+                            <formula>NaN3</formula>
+                            <name>sodium azide</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R3.5/1</model>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">293</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.7000000000000001</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.9</nominal_defocus_max>
+                    <nominal_magnification>81000.0</nominal_magnification>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <number_real_images>4474</number_real_images>
+                            <average_exposure_time units="s">2.2</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">43.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">2.37</delta_z>
+                            <delta_phi units="deg">179.66</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.02</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>25692</number_images_used>
+                </final_reconstruction>
+                <segment_selection>
+                    <number_selected>1848677</number_selected>
+                </segment_selection>
+                <startup_model type_of_model="OTHER">
+                    <details>featureless cylinder</details>
+                </startup_model>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="62501">
+        <file>emd_13124.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>250</col>
+            <row>250</row>
+            <sec>250</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>250</x>
+            <y>250</y>
+            <z>250</z>
+        </spacing>
+        <cell>
+            <a units="Å">262.5</a>
+            <b units="Å">262.5</b>
+            <c units="Å">262.5</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-13.741717</minimum>
+            <maximum>26.285993999999999</maximum>
+            <average>-0.00000000000369</average>
+            <std>1.0016223</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.05</x>
+            <y units="Å">1.05</y>
+            <z units="Å">1.05</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>3.5</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-13124::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>6SST</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+            </modelling>
+        </modelling_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="62501">
+                <file>emd_13124_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>250</col>
+                    <row>250</row>
+                    <sec>250</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>250</x>
+                    <y>250</y>
+                    <z>250</z>
+                </spacing>
+                <cell>
+                    <a units="Å">262.5</a>
+                    <b units="Å">262.5</b>
+                    <c units="Å">262.5</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.028955435</minimum>
+                    <maximum>0.09913165</maximum>
+                    <average>0.0015634635</average>
+                    <std>0.006346732</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.05</x>
+                    <y units="Å">1.05</y>
+                    <z units="Å">1.05</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13124::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="62501">
+                <file>emd_13124_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>250</col>
+                    <row>250</row>
+                    <sec>250</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>250</x>
+                    <y>250</y>
+                    <z>250</z>
+                </spacing>
+                <cell>
+                    <a units="Å">262.5</a>
+                    <b units="Å">262.5</b>
+                    <c units="Å">262.5</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.029307777</minimum>
+                    <maximum>0.10084238</maximum>
+                    <average>0.001538902</average>
+                    <std>0.006339733</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.05</x>
+                    <y units="Å">1.05</y>
+                    <z units="Å">1.05</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-13124::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

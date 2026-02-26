@@ -1,0 +1,192 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10342" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-11-29</depositionDate>
+            <releaseDate>2020-07-28</releaseDate>
+            <updateDate>2021-10-15</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of the formoterol-bound turkey beta1 adrenoceptor coupled to beta-arrestin-1 with bound Fab30 in lipid nanodisc</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-8040-3648</authorORCID>
+            <firstName>Yang</firstName>
+            <lastName>Lee</lastName>
+            <organization type="academic">MRC Laboratory of Molecular Biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-2008-9183</authorORCID>
+            <firstName>Christopher</firstName>
+            <middleName>G</middleName>
+            <lastName>Tate</lastName>
+            <organization type="academic">MRC Laboratory of Molecular Biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-8040-3648">Lee Y</author>
+            <author authorORCID="0000-0002-2008-9183">Tate CG</author>
+        </authorsList>
+        <datasetSize units="TB">4.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10342</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-10515</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-8040-3648" order="1">Lee Y</author>
+                    <author order="2">Warne T</author>
+                    <author order="3">Nehmé R</author>
+                    <author order="4">Pandey S</author>
+                    <author order="5">Dwivedi-Agnihotri H</author>
+                    <author order="6">Chaturvedi M</author>
+                    <author order="7">Edwards PC</author>
+                    <author order="8">García-Nafría J</author>
+                    <author order="9">Leslie AGW</author>
+                    <author order="10">Shukla AK</author>
+                    <author authorORCID="0000-0002-2008-9183" order="11">Tate CG</author>
+                    <title>Molecular basis of β-arrestin coupling to formoterol-bound β1-adrenoceptor</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country>United Kingdom</country>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41586-020-2419-1</externalReferences>
+                    <externalReferences type="pubmed">32555462</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs</name>
+        <directory>/data/Movies/190830</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>9026</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>50</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.1</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.1</pixelHeight>
+        </dimensions>
+        <details>data/Movies/190830 contains unaligned movies related to collection "LMB Krios2-1". The "_hn_"-portion of the filename, where n=1-9, denotes the hole position within the 3x3 image-shift acquisition matrix. Two exposures per hole are differentiated by the time-stamp portion of the filename (~20 seconds apart). Micrographs were collected with a nominal stage-tilt of 30deg. The files were written as gain-unnormalised integer TIFF files by serialEM. The real pixel size is 1.1 Å/pix. The dose rate is 1.02 e/Å^2/frame. Please use data/Movies/GainRef/190830_gainref.mrc as gain reference without any rotation or flipping. The associated K2 defects file is data/Movies/Defect/190830_defects.txt.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Movies/190830/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Subtracted/subtracted_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Subtracted/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs</name>
+        <directory>/data/Movies/190907</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>6808</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>50</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.1</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.1</pixelHeight>
+        </dimensions>
+        <details>data/Movies/190907 contains unaligned movies related to collection "LMB Krios2-2". The "_hn_"-portion of the filename, where n=1-9, denotes the hole position within the 3x3 image-shift acquisition matrix. Two exposures per hole are differentiated by the time-stamp portion of the filename (~20 seconds apart). Micrographs were collected with a nominal stage-tilt of 30deg. The files were written as gain-unnormalised integer TIFF files by serialEM. The real pixel size is 1.1 Å/pix. The dose rate is 0.98 e/Å^2/frame. Please use data/Movies/GainRef/190907_gainref.mrc as gain reference without any rotation or flipping. The associated K2 defects file is data/Movies/Defect/190907_defects.txt.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Movies/190907/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Subtracted/subtracted_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Subtracted/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs</name>
+        <directory>/data/Movies/190911</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>2747</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>50</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.047</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.047</pixelHeight>
+        </dimensions>
+        <details>data/Movies/190911 contains unaligned movies related to collection "DLS eBIC Krios1". Two exposures per hole are differentiated by the two fields following "_Data_" in the filename. Micrographs were collected with a nominal stage-tilt of 30deg. The files were written as gain-unnormalised integer MRC files by EPU and then converted to TIFF files by mrc2tif in the IMOD suite. During this process, the pixel size in the header was lost. The real pixel size is 1.047 Å/pix. The dose rate is 0.9 e/Å^2/frame. Please use data/Movies/GainRef/190911_gainref.mrc as gain reference without any rotation or flipping.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Movies/190911/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Subtracted/subtracted_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Subtracted/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Nanodisc subtracted particles</name>
+        <directory>/data/Subtracted</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>403991</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>240</imageWidth>
+            <pixelWidth>1.1</pixelWidth>
+            <imageHeight>240</imageHeight>
+            <pixelHeight>1.1</pixelHeight>
+        </dimensions>
+        <details>Nanodisc-subtracted particles used for final reconstruction. 
+
+/data/Masks/for_refinement.mrc is the mask used for refinement. 
+
+/data/Masks/initial_subtraction.mrc is the mask used for initial subtraction of nanodisc density.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Subtracted</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Subtracted/subtracted_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Subtracted</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Nanodisc-reinstated particles</name>
+        <directory>/data/Reverted</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>403991</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>240</imageWidth>
+            <pixelWidth>1.1</pixelWidth>
+            <imageHeight>240</imageHeight>
+            <pixelHeight>1.1</pixelHeight>
+        </dimensions>
+        <details>Refined subtracted particles reverted to original particle images; suitable for calculating or refining the complex with nanodisc-signal contribution.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Reverted</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Reverted/reverted_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/Reverted/Particles/190*/</pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,159 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10731" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-06-12</depositionDate>
+            <releaseDate>2021-11-15</releaseDate>
+            <updateDate>2021-11-15</updateDate>
+        </keyDates>
+        <title>Locating Macromolecular Assemblies in Cells by 2D Template Matching with cisTEM</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-1506-909X</authorORCID>
+            <firstName>Nikolaus</firstName>
+            <lastName>Grigorieff</lastName>
+            <organization type="academic">University of Massachusetts Medical School</organization>
+            <street>368 Plantation Street</street>
+            <townOrCity>Worcester</townOrCity>
+            <stateOrProvince>Massachusetts</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>01605</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-1506-909X</authorORCID>
+            <firstName>Nikolaus</firstName>
+            <lastName>Grigorieff</lastName>
+            <organization type="academic">University of Massachusetts Medical School</organization>
+            <street>368 Plantation Street</street>
+            <townOrCity>Worcester</townOrCity>
+            <stateOrProvince>Massachusetts</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>01605</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-9162-0421">Lucas BA</author>
+            <author authorORCID="0000-0001-7777-0298">Himes BA</author>
+            <author authorORCID="0000-0003-4368-2526">Xue L</author>
+            <author authorORCID="0000-0002-4855-8703">Grant T</author>
+            <author authorORCID="0000-0001-6968-041X">Mahamid J</author>
+            <author authorORCID="0000-0002-1506-909X">Grigorieff N</author>
+        </authorsList>
+        <datasetSize>67.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10731</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-11999</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-9162-0421" order="1">Lucas BA</author>
+                    <author authorORCID="0000-0001-7777-0298" order="2">Himes BA</author>
+                    <author authorORCID="0000-0003-4368-2526" order="3">Xue L</author>
+                    <author authorORCID="0000-0002-4855-8703" order="4">Grant T</author>
+                    <author authorORCID="0000-0001-6968-041X" order="5">Mahamid J</author>
+                    <author authorORCID="0000-0002-1506-909X" order="6">Grigorieff N</author>
+                    <title>Locating macromolecular assemblies in cells by 2D template matching with cisTEM</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation>Elife</journalAbbreviation>
+                    <country></country>
+                    <volume>10</volume>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.7554/elife.68946</externalReferences>
+                    <externalReferences type="pubmed">34114559</externalReferences>
+                    <details>19 2D images and tomograms of Mycoplasma pneumoniae that were searched using 2D and 3D template matching, respectively, with the Mycoplasma pneumoniae 50S subunit as a template.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+        <relatedEmpiarEntries>
+            <empiarEntry>EMPIAR-10727</empiarEntry>
+            <empiarEntry>EMPIAR-10721</empiarEntry>
+        </relatedEmpiarEntries>
+    </crossReferences>
+    <imageSet>
+        <name>50S templates of Mycoplasma pneumoniae used for 2D and 3D template matching</name>
+        <directory>/data/50S_Templates</directory>
+        <category>reconstructed volumes</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>3D density maps used as templates to detect 50S ribosomal subunits the 2D images and 3D tomograms of Mycoplasma pneumoniae cells by 2D and 3D template matching, respectively. The pixel size of the map used for 2D template matching is 1.27 Å. The map used for 3D template matching has a pixel size of 6.80 Å.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Single-exposure micrographs of untilted Mycoplasma pneumoniae cells</name>
+        <directory>/data/2D_Images</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>19</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>1919</imageWidth>
+            <pixelWidth>1.27</pixelWidth>
+            <imageHeight>1855</imageHeight>
+            <pixelHeight>1.27</pixelHeight>
+        </dimensions>
+        <details>19 micrographs of Mycoplasma pneumoniae cells, using movies of 20 frames and a total exposures of 32 e-/Å^2. The movies were aligned using cisTEM, and exposure weighting was applied to calculate the frame average.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/2D_Images/2D_*_Oct0*_0.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Tomographic tilt series of Mycoplasma pneumoniae cells</name>
+        <directory>/data/Tilt_Series</directory>
+        <category>tilt series</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>19</numImagesOrTiltSeries>
+        <framesPerImage>41</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3708</imageWidth>
+            <pixelWidth>1.7</pixelWidth>
+            <imageHeight>3708</imageHeight>
+            <pixelHeight>1.7</pixelHeight>
+        </dimensions>
+        <details>19 aligned tomographic tilt series of Mycoplasma pneumoniae cells collected using SerialEM. Tilts ranged from -60 to 60 deg using 3 deg angular steps. The total exposure was 129 e-/Å^2. The tilt series were recorded after a pre-exposure of 32 e-/Å^2 to collect a 2D image of each cell at higher resolution.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Tomographic reconstructions of Mycoplasma pneumoniae cells</name>
+        <directory>/data/Reconstructions</directory>
+        <category>reconstructed volumes</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>19</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>928</imageWidth>
+            <pixelWidth>6.8</pixelWidth>
+            <imageHeight>928</imageHeight>
+            <pixelHeight>6.8</pixelHeight>
+        </dimensions>
+        <details>19 tomographic reconstructions of Mycoplasma pneumoniae cells</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,135 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10406" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-05-05</depositionDate>
+            <releaseDate>2020-11-24</releaseDate>
+            <updateDate>2022-02-08</updateDate>
+        </keyDates>
+        <title>Motion-corrected micrographs and extracted particle images of the 70S ribosome from the human pathogen Acinetobacter baumannii in complex with amikacin</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-5404-8251</authorORCID>
+            <firstName>David</firstName>
+            <lastName>Nicholson</lastName>
+            <organization type="academic">Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds</organization>
+            <townOrCity>Leeds</townOrCity>
+            <stateOrProvince>West Yorkshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>LS2 9JT</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-1467-3674</authorORCID>
+            <firstName>Thomas</firstName>
+            <middleName>A</middleName>
+            <lastName>Edwards</lastName>
+            <organization type="academic">Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds</organization>
+            <townOrCity>Leeds</townOrCity>
+            <stateOrProvince>West Yorkshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>LS2 9JT</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-3222-5493</authorORCID>
+            <firstName>Alex</firstName>
+            <middleName>J</middleName>
+            <lastName>O'Neill</lastName>
+            <organization type="academic">Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds</organization>
+            <townOrCity>Leeds</townOrCity>
+            <stateOrProvince>West Yorkshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>LS2 9JT</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-3640-5275</authorORCID>
+            <firstName>Neil</firstName>
+            <middleName>A</middleName>
+            <lastName>Ranson</lastName>
+            <organization type="academic">Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds</organization>
+            <townOrCity>Leeds</townOrCity>
+            <stateOrProvince>West Yorkshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>LS2 9JT</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-5404-8251">Nicholson D</author>
+            <author authorORCID="0000-0002-1467-3674">Edwards TA</author>
+            <author authorORCID="0000-0003-3222-5493">O'Neill AJ</author>
+            <author authorORCID="0000-0002-3640-5275">Ranson NA</author>
+        </authorsList>
+        <datasetSize units="GB">177.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10406</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-10809</emdbEntry>
+            <emdbEntry>EMD-10869</emdbEntry>
+            <emdbEntry>EMD-10892</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-5404-8251" order="1">Nicholson D</author>
+                    <author authorORCID="0000-0002-1467-3674" order="2">Edwards TA</author>
+                    <author authorORCID="0000-0003-3222-5493" order="3">O'Neill AJ</author>
+                    <author authorORCID="0000-0002-3640-5275" order="4">Ranson NA</author>
+                    <title>Structure of the 70S Ribosome from the Human Pathogen Acinetobacter baumannii in Complex with Clinically Relevant Antibiotics</title>
+                    <journal>Structure (London, England : 1993)</journal>
+                    <journalAbbreviation>Structure</journalAbbreviation>
+                    <country></country>
+                    <issue>10</issue>
+                    <volume>28</volume>
+                    <firstPage>1087</firstPage>
+                    <lastPage>1100.e3</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.str.2020.08.004</externalReferences>
+                    <externalReferences type="pubmed">32857965</externalReferences>
+                    <details>Drift-corrected and dose-corrected averages of movies collected at an accumulated dose of 58 e-/A^2 across 50 frames over a 10 s exposure, recorded by a Gatan K2 Summit detector.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion-corrected micrographs of the 70S ribosome from the human pathogen Acinetobacter baumannii in complex with amikacin</name>
+        <directory>/data/acinetobacter_baumannii_ribosome_amikacin/micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2717</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.07</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.07</pixelHeight>
+        </dimensions>
+        <details>Drift-corrected and dose-corrected averages of movies collected at an accumulated dose of 58 e-/A^2 across 50 frames over a 10 s exposure, recorded by a Gatan K2 Summit detector. Motion correction was performed using MotionCor2 within RELION 3.0, by using all frames, applying a B-factor of 150, and using 5 patches in both the X and Y directions. Coordinates corresponding to extracted particle images are in the particles.star file.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/acinetobacter_baumannii_ribosome_amikacin/micrographs/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/acinetobacter_baumannii_ribosome_amikacin/particles/particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/acinetobacter_baumannii_ribosome_amikacin/particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Extracted particle images of the 70S ribosome from the human pathogen Acinetobacter baumannii in complex with amikacin</name>
+        <directory>/data/acinetobacter_baumannii_ribosome_amikacin/particles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>554</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>416</imageWidth>
+            <pixelWidth>1.07</pixelWidth>
+            <imageHeight>416</imageHeight>
+            <pixelHeight>1.07</pixelHeight>
+        </dimensions>
+        <details>Particles were extracted from motion-corrected, CTF-estimated micrographs into 416 square pixel boxes with re-centring of refined coordinates. Images of particles extracted from each micrograph are stacked into separate mrcs files. Coordinates and further metadata corresponding to extracted particle images are in the particle.star file.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/acinetobacter_baumannii_ribosome_amikacin/micrographs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/acinetobacter_baumannii_ribosome_amikacin/particles/particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/acinetobacter_baumannii_ribosome_amikacin/particles</pickedParticlesDirectory>
+    </imageSet>
+</entry>

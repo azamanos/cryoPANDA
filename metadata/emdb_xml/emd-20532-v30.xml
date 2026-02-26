@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_0/emdb.xsd" emdb_id="EMD-20532" version="3.0.2.0">
+    <admin>
+        <current_status>
+            <date>2020-11-25</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-07-31</deposition>
+            <header_release>2019-09-11</header_release>
+            <map_release>2019-09-11</map_release>
+            <update>2020-11-25</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01-GM081871</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Mental Health (NIH/NIMH)</funding_body>
+                <code>R01-MH114817</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Science Foundation (NSF, United States)</funding_body>
+                <code>DGE-1644869</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Other private</funding_body>
+                <code>Simons Foundation / SF349247</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>F32GM128303</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>GM103310</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Other government</funding_body>
+                <code>New York State Office of Science, Technology and Academic Research (NYSTAR)</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/Office of the Director</funding_body>
+                <code>OD019994</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Other private</funding_body>
+                <code>Agouron Institute / F00316</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Toll receptor EM map from Topaz picks</title>
+        <authors_list>
+            <author>Rapp M</author>
+            <author>Bepler T</author>
+            <author>Morin A</author>
+            <author>Brasch J</author>
+            <author>Shapiro L</author>
+            <author>Noble AJ</author>
+            <author>Berger B</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Bepler T</author>
+                    <author order="2">Morin A</author>
+                    <author order="3">Rapp M</author>
+                    <author order="4">Brasch J</author>
+                    <author order="5">Shapiro L</author>
+                    <author order="6">Noble AJ</author>
+                    <author order="7">Berger B</author>
+                    <title>Positive-unlabeled convolutional neural networks for particle picking in cryo-electron micrographs.</title>
+                    <journal_abbreviation>Nat.Methods</journal_abbreviation>
+                    <country>US</country>
+                    <volume>16</volume>
+                    <first_page>1153</first_page>
+                    <last_page>1160</last_page>
+                    <year>2019</year>
+                    <external_references type="PUBMED">31591578</external_references>
+                    <external_references type="DOI">doi:10.1038/s41592-019-0575-8</external_references>
+                    <external_references type="ISSN">1548-7105</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-20532</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Toll receptor</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Toll receptor</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="7227">Drosophila melanogaster</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7227">Drosophila melanogaster</recombinant_organism>
+                    <recombinant_cell>S2</recombinant_cell>
+                </recombinant_expression>
+                <molecular_weight>
+                    <theoretical units="MDa">0.105</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.4</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <details></details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">3710</width>
+                                    <height units="pixel">3838</height>
+                                </dimensions>
+                            </digitization_details>
+                            <average_electron_dose_per_image units="e/Å^2">73.48</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>Motioncor2 frame aligned</details>
+                <particle_selection>
+                    <number_selected>1010937</number_selected>
+                    <details>Topaz picking</details>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>CTFFIND</name>
+                            <version>4</version>
+                            <processing_details>estimated</processing_details>
+                        </software>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2.9</version>
+                            <processing_details>corrected</processing_details>
+                        </software>
+                    </software_list>
+                    <details>Estimated with CTFFind4, applied with cryosparc 2.9</details>
+                </ctf_correction>
+                <startup_model type_of_model="OTHER">
+                    <details>Cryosparc 2.9 ab-initio reconstruction</details>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.7</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2.9</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>1006089</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2.9</version>
+                        </software>
+                    </software_list>
+                    <details>Cryosparc 2.9 ab-initio reconstruction</details>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2.9</version>
+                        </software>
+                    </software_list>
+                    <details>non-uniform refinement</details>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="131073">
+        <file>emd_20532.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>320</col>
+            <row>320</row>
+            <sec>320</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>320</x>
+            <y>320</y>
+            <z>320</z>
+        </spacing>
+        <cell>
+            <a units="Å">266.24</a>
+            <b units="Å">266.24</b>
+            <c units="Å">266.24</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-2.008821</minimum>
+            <maximum>3.3242455</maximum>
+            <average>0.0012220803</average>
+            <std>0.046381347</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.83199996</x>
+            <y units="Å">0.83199996</y>
+            <z units="Å">0.83199996</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.53</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-20532::::</label>
+        <annotation_details>Sharpened map after CryoSparc 2.9 non-uniform refinement using DoG picks</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_20532_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="131073">
+                <file>emd_20532_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">266.24</a>
+                    <b units="Å">266.24</b>
+                    <c units="Å">266.24</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.38636604</minimum>
+                    <maximum>0.8831274</maximum>
+                    <average>0.0012221663</average>
+                    <std>0.030170972</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.83199996</x>
+                    <y units="Å">0.83199996</y>
+                    <z units="Å">0.83199996</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-20532::::</label>
+                <annotation_details>Unsharpened map after CryoSparc 2.9 non-uniform refinement using DoG picks</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="131073">
+                <file>emd_20532_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">266.24</a>
+                    <b units="Å">266.24</b>
+                    <c units="Å">266.24</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.78447634</minimum>
+                    <maximum>1.1412939</maximum>
+                    <average>0.0012993251</average>
+                    <std>0.04541946</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.83199996</x>
+                    <y units="Å">0.83199996</y>
+                    <z units="Å">0.83199996</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-20532::::</label>
+                <annotation_details>Half map after CryoSparc 2.9 non-uniform refinement using DoG picks</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="131073">
+                <file>emd_20532_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">266.24</a>
+                    <b units="Å">266.24</b>
+                    <c units="Å">266.24</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.9364691</minimum>
+                    <maximum>1.0714227</maximum>
+                    <average>0.0012544644</average>
+                    <std>0.045457467</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.83199996</x>
+                    <y units="Å">0.83199996</y>
+                    <z units="Å">0.83199996</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-20532::::</label>
+                <annotation_details>Half map after CryoSparc 2.9 non-uniform refinement using DoG picks</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_2/emdb.xsd" emdb_id="EMD-21382" version="3.0.2.2">
+    <admin>
+        <current_status>
+            <date>2020-12-16</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-02-13</deposition>
+            <header_release>2020-02-26</header_release>
+            <map_release>2020-12-16</map_release>
+            <update>2020-12-16</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Health and Medical Research Council (NHMRC, Australia)</funding_body>
+                <code>APP1012161</code>
+                <country>Australia</country>
+            </grant_reference>
+        </grant_support>
+        <title>Negative stain EM map of an MTA-HDAC-MBD complex</title>
+        <authors_list>
+            <author>Silva APG</author>
+            <author>Low JKK</author>
+            <author>Tabar MS</author>
+            <author>Torrado M</author>
+            <author>Schmidberger JW</author>
+            <author>Brillault L</author>
+            <author>Landsberg MJ</author>
+            <author>Mackay JP</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Low JKK</author>
+                    <author order="2">Silva APG</author>
+                    <author order="3">Sharifi Tabar M</author>
+                    <author order="4">Torrado M</author>
+                    <author order="5">Webb SR</author>
+                    <author order="6">Parker BL</author>
+                    <author order="7">Sana M</author>
+                    <author order="8">Smits C</author>
+                    <author order="9">Schmidberger JW</author>
+                    <author order="10">Brillault L</author>
+                    <author order="11">Jackman MJ</author>
+                    <author order="12">Williams Jr DC</author>
+                    <author order="13">Blobel GA</author>
+                    <author order="14">Hake SB</author>
+                    <author order="15">Shepherd NE</author>
+                    <author order="16">Landsberg MJ</author>
+                    <author order="17">Mackay JP</author>
+                    <title>The Nucleosome Remodeling and Deacetylase Complex Has an Asymmetric, Dynamic, and Modular Architecture.</title>
+                    <journal_abbreviation>Cell Rep</journal_abbreviation>
+                    <country>US</country>
+                    <volume>33</volume>
+                    <first_page>108450</first_page>
+                    <last_page>108450</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">33264611</external_references>
+                    <external_references type="DOI">doi:10.1016/j.celrep.2020.108450</external_references>
+                    <external_references type="ISSN">2211-1247</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-21382</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>MHm complex</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>MHm complex</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Complex formed by HA-MTA2(1-429), HA-HDAC1 and FLAG-MBD3cc that were recombinantly expressed in HEK293 cells.</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                    <recombinant_cell>HEK293</recombinant_cell>
+                </recombinant_expression>
+                <molecular_weight>
+                    <experimental units="MDa">0.3</experimental>
+                </molecular_weight>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>Metastasis-associated protein MTA2,</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                    <recombinant_cell>HEK293</recombinant_cell>
+                </recombinant_expression>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>Histone deacetylase 1</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Metastasis-associated protein MTA2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAANMYRVGDYVYFENSSSNPYLVRRIEELNKTANGNVEAKVVCLFRRRDISSSLNSLAD
+SNAREFEEESKQPGVSEQQRHQLKHRELFLSRQFESLPATHIRGKCSVTLLNETDILNQY
+LDKEDCFFYSLVFDPVQKTLLADQGEIRVGCKFQAEIPDRLAEGESDNRNQQKMEMKVWD
+PDNPLTDRQIDQFLVVARAVGTFARALDCSSSIRQPSLHMSAAAASRDITLFHAMDTLQR
+NGYDLAKAMSTLVPQGGPVLCRDEMEEWSASEAMLFEEALEKYGKDFNDIRQDFLPWKSL
+ASIVQFYYMWKTTDRYIQQKRLKAAEADSKLKQVYIPTYTKPNPNQIISVGSKPGMNGAG
+FQKGLTCESCHTTQSAQWYAWGPPNMQCRLCASCWIYWKKYGGLKTPTQLEGAARGTTEP
+HSRGHLSRP</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Histone deacetylase 1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAQTQGTRRKVCYYYDGDVGNYYYGQGHPMKPHRIRMTHNLLLNYGLYRKMEIYRPHKAN
+AEEMTKYHSDDYIKFLRSIRPDNMSEYSKQMQRFNVGEDCPVFDGLFEFCQLSTGGSVAS
+AVKLNKQQTDIAVNWAGGLHHAKKSEASGFCYVNDIVLAILELLKYHQRVLYIDIDIHHG
+DGVEEAFYTTDRVMTVSFHKYGEYFPGTGDLRDIGAGKGKYYAVNYPLRDGIDDESYEAI
+FKPVMSKVMEMFQPSAVVLQCGSDSLSGDRLGCFNLTIKGHAKCVEFVKSFNLPMLMLGG
+GGYTIRNVARCWTYETAVALDTEIPNELPYNDYFEYFGPDFKLHISPSNMTNQNTNEYLE
+KIKQRLFENLRMLPHAPGVQMQAIPEDAIPEESGDEDEDDPDKRISICSSDKRIACEEEF
+SDSEEEGEGGRKNSSNFKKAKRVKTEDEKEKDPEEKKEVTEEEKTKEEKPEAKGVKEEVK
+LA</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Methyl-CpG-binding protein MBD3/GATA zinc finger domain-containing protein 2A fusion</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MERKRWECPALPQGWEREEVPRRSGLSAGHRDVFYYSPSGKKFRSKPQLARYLGGSMDLS
+TFDFRTGKMLMNKMNKSRQRVRYDSSNQVKGKPDLNTALPVRQTASIFKQPVTKITNHPS
+NKVKSDPQKAVDQPRQLFWEKKLSGLSAFDIAEELVRTMDLPKGLQGVGPGCTDETLLSA
+IASALHTSTLPITGQLSAAVEKNPGVWLNTAQPLCKAFMVTDDDIRKQEELVQQVRKRLE
+EALMADMLAHVEELARDGEAPLDKACAEEEEEEEEEEEEPEPERVSPEERERMIKQLKEELRLEEAKLVLLKKLRQSQIQKEATAQK</string>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.027</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <name>HEPES-KOH</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">75.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>Sodium Chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">3.0</concentration>
+                            <name>DTT</name>
+                        </component>
+                    </buffer>
+                    <staining>
+                        <type>NEGATIVE</type>
+                        <material>Uranyl Acetate</material>
+                        <details>Sample (5 microliters) was applied to a glow-discharged, carbon-coated 400-mesh copper grid (GSCu400CC, ProSciTech). After 2 minutes incubation time, the grid was blotted and washed with ten drops of distilled water, blotting on a filter paper in between washes. The grid was then washed in a drop of 1 % (w/v) uranyl acetate, blotted and subsequently incubated in another drop of 1% (w/v) uranyl acetate solution for 30 seconds, blotted and allowed to air dry at room temperature.</details>
+                    </staining>
+                    <grid>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>CONTINUOUS</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <details>Sample was a sample from GraFix purification.</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TECNAI 12</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>LAB6</electron_source>
+                    <acceleration_voltage units="kV">120</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>OTHER</film_or_detector_model>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>325</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">10.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>49216</number_selected>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>4BKX</pdb_id>
+                    </pdb_model>
+                    <details>We used as a startup model the PDB structure of the MTA1-HDAC1 dimer (PDB 4BKX).</details>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">29.0</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>8233</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>1</number_classes>
+                    <average_number_members_per_class>8233.0</average_number_members_per_class>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="12968">
+        <file>emd_21382.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>148</col>
+            <row>148</row>
+            <sec>148</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>148</x>
+            <y>148</y>
+            <z>148</z>
+        </spacing>
+        <cell>
+            <a units="Å">412.91998</a>
+            <b units="Å">412.91998</b>
+            <c units="Å">412.91998</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.06063687</minimum>
+            <maximum>0.45139435</maximum>
+            <average>0.0022417589</average>
+            <std>0.021404171</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">2.79</x>
+            <y units="Å">2.79</y>
+            <z units="Å">2.79</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.12</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-21382::::</label>
+        <annotation_details>Negative stain EM map of an MTA-HDAC-MBD complex.</annotation_details>
+    </map>
+</emd>

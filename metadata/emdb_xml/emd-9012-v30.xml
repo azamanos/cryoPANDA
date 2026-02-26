@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_2/emdb.xsd" version="3.0.9.2" emdb_id="EMD-9012">
+    <admin>
+        <current_status>
+            <date>2024-03-13</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2018-07-31</deposition>
+            <header_release>2018-08-15</header_release>
+            <map_release>2018-08-15</map_release>
+            <update>2024-03-13</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute Of Allergy and Infectious Diseases (NIH/NIAID)</funding_body>
+                <code>R01AI136680-01</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01GM109524</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01GM033050</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Sub-2 Angstrom Ewald Curvature Corrected Single-Particle Cryo-EM Reconstruction of AAV-2 L336C</title>
+        <authors_list>
+            <author>Tan YZ</author>
+            <author>Aiyer S</author>
+        </authors_list>
+        <keywords>AAV-2 L336C, Gene therapy, Ewald sphere curvature correction, Per particle CTF, VIRUS LIKE PARTICLE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-6656-6320" order="1">Tan YZ</author>
+                    <author ORCID="0000-0001-6436-0521" order="2">Aiyer S</author>
+                    <author order="3">Mietzsch M</author>
+                    <author order="4">Hull JA</author>
+                    <author order="5">McKenna R</author>
+                    <author order="6">Grieger J</author>
+                    <author order="7">Samulski RJ</author>
+                    <author order="8">Baker TS</author>
+                    <author order="9">Agbandje-McKenna M</author>
+                    <author ORCID="0000-0002-8124-7472" order="10">Lyumkis D</author>
+                    <title>Sub-2 angstrom Ewald curvature corrected structure of an AAV2 capsid variant.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>9</volume>
+                    <first_page>3628</first_page>
+                    <last_page>3628</last_page>
+                    <year>2018</year>
+                    <external_references type="PUBMED">30194371</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-018-06076-6</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6e9d</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Adeno-associated virus - 2</name>
+        <supramolecule_list>
+            <virus_supramolecule supramolecule_id="1">
+                <name>Adeno-associated virus - 2</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <sci_species_name ncbi="10804">Adeno-associated virus - 2</sci_species_name>
+                <natural_host database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_host>
+                <molecular_weight>
+                    <theoretical units="MDa">3.9</theoretical>
+                </molecular_weight>
+                <virus_shell shell_id="1">
+                    <name>Icosahedral capsid</name>
+                    <diameter units="Å">250.0</diameter>
+                    <triangulation>1</triangulation>
+                </virus_shell>
+                <virus_type>VIRUS-LIKE PARTICLE</virus_type>
+                <virus_isolate>STRAIN</virus_isolate>
+                <virus_enveloped>false</virus_enveloped>
+                <virus_empty>true</virus_empty>
+            </virus_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Capsid protein VP1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="648242">Adeno-associated virus 2 Srivastava/1982</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.08202133599999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>60</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAADGYLPDWLEDTLSEGIRQWWKLKPGPPPPKPAERHKDDSRGLVLPGYKYLGPFNGLDKGEPVNEADAAALEHDKAYD
+RQLDSGDNPYLKYNHADAEFQERLKEDTSFGGNLGRAVFQAKKRVLEPLGLVEEPVKTAPGKKRPVEHSPVEPDSSSGTG
+KAGQQPARKRLNFGQTGDADSVPDPQPLGQPPAAPSGLGTNTMATGSGAPMADNNEGADGVGNSSGNWHCDSTWMGDRVI
+TTSTRTWALPTYNNHLYKQISSQSGASNDNHYFGYSTPWGYFDFNRFHCHFSPRDWQRLINNNWGFRPKRLNFKLFNIQV
+KEVTQNDGTTTIANNCTSTVQVFTDSEYQLPYVLGSAHQGCLPPFPADVFMVPQYGYLTLNNGSQAVGRSSFYCLEYFPS
+QMLRTGNNFTFSYTFEDVPFHSSYAHSQSLDRLMNPLIDQYLYYLSRTNTPSGTTTQSRLQFSQAGASDIRDQSRNWLPG
+PCYRQQRVSKTSADNNNSEYSWTGATKYHLNGRDSLVNPGPAMASHKDDEEKFFPQSGVLIFGKQGSEKTNVDIEKVMIT
+DEEEIRTTNPVATEQYGSVSTNLQRGNRQAATADVNTQGVLPGMVWQDRDVYLQGPIWAKIPHTDGHFHPSPLMGGFGLK
+HPPPQILIKNTPVPANPSTTFSAAKFASFITQYSTGQVSVEIEWELQKENSKRWNPEIQYTSNYNKSVNVDFTVDTNGVY
+SEPRPIGTRYLTRNL</string>
+                    <external_references type="UNIPROTKB">P03135</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>11820</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1.7</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">2.0</concentration>
+                            <formula>MgCl2</formula>
+                            <name>magnesium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <formula>C8H18N2O4S</formula>
+                            <name>HEPES</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil, UltrAuFoil, R1.2/1.3</model>
+                        <material>GOLD</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>PLASMA CLEANING</type>
+                            <time units="s">5</time>
+                            <atmosphere>OTHER</atmosphere>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">80</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>HOMEMADE PLUNGER</instrument>
+                        <details>Double blotting was used to increase particle concentration. Sample was added to a plasma-cleaned (Gatan Solarus) grid and blotted away using Whatman grade 4 filter paper after 20 second wait time.. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">70.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.6</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.0</nominal_defocus_max>
+                    <nominal_magnification>37000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <zemlin_tableau/>
+                    </alignment_procedure>
+                    <details>Beam tilt in 8 directions +/- 5 mrad</details>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>SUPER-RESOLUTION</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">3838</width>
+                                    <height units="pixel">3710</height>
+                                </dimensions>
+                                <frames_per_image>5-19</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>1317</number_real_images>
+                            <average_exposure_time units="s">3.5</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">22.5</average_electron_dose_per_image>
+                            <details>Stage shift mode for data collection</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>super-resolution mode</details>
+                <particle_selection>
+                    <number_selected>78194</number_selected>
+                    <details>Template-based picking by generating template from a 2-D classification of an initial subset of data.</details>
+                </particle_selection>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>Ab initio model generated using CryoSPARC.</insilico_model>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>I</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">1.86</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>FREALIGN</name>
+                            <version>9.11</version>
+                        </software>
+                    </software_list>
+                    <details>Frequency limited refinement</details>
+                    <number_images_used>30515</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>0.65</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>FREALIGN</name>
+                            <version>9.11</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="1492993">
+        <file>emd_9012.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>720</col>
+            <row>720</row>
+            <sec>720</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>720</x>
+            <y>720</y>
+            <z>720</z>
+        </spacing>
+        <cell>
+            <a units="Å">283.68</a>
+            <b units="Å">283.68</b>
+            <c units="Å">283.68</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.22251815</minimum>
+            <maximum>0.41616842</maximum>
+            <average>0.0019748327</average>
+            <std>0.02993493</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.394</x>
+            <y units="Å">0.394</y>
+            <z units="Å">0.394</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.06</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-9012::::</label>
+        <annotation_details>Final map reconstructed with a box of 800, clipped to 360, and then resampled to 720 pixels</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>1LP3</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <target_criteria>Correlation coefficient, EM ringer score</target_criteria>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>61.899999999999999</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="185074">
+                <file>emd_9012_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>359</col>
+                    <row>359</row>
+                    <sec>359</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>359</x>
+                    <y>359</y>
+                    <z>359</z>
+                </spacing>
+                <cell>
+                    <a units="Å">282.892</a>
+                    <b units="Å">282.892</b>
+                    <c units="Å">282.892</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0.0</minimum>
+                    <maximum>1.0000001</maximum>
+                    <average>0.22148526</average>
+                    <std>0.3675184</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.788</x>
+                    <y units="Å">0.788</y>
+                    <z units="Å">0.788</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-9012::::</label>
+                <annotation_details>Raw 3D FSC volume generated from the half maps</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="186625">
+                <file>emd_9012_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>360</col>
+                    <row>360</row>
+                    <sec>360</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>360</x>
+                    <y>360</y>
+                    <z>360</z>
+                </spacing>
+                <cell>
+                    <a units="Å">283.68</a>
+                    <b units="Å">283.68</b>
+                    <c units="Å">283.68</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.013495815</minimum>
+                    <maximum>0.042843092</maximum>
+                    <average>0.000017371556</average>
+                    <std>0.0043832446</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.788</x>
+                    <y units="Å">0.788</y>
+                    <z units="Å">0.788</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-9012::::</label>
+                <annotation_details>First half map reconstructed with a box of 800, clipped to 360 pixels</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="186625">
+                <file>emd_9012_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>360</col>
+                    <row>360</row>
+                    <sec>360</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>360</x>
+                    <y>360</y>
+                    <z>360</z>
+                </spacing>
+                <cell>
+                    <a units="Å">283.68</a>
+                    <b units="Å">283.68</b>
+                    <c units="Å">283.68</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.012406162</minimum>
+                    <maximum>0.042423658</maximum>
+                    <average>0.000019641555</average>
+                    <std>0.004384281</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.788</x>
+                    <y units="Å">0.788</y>
+                    <z units="Å">0.788</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-9012::::</label>
+                <annotation_details>Second half map reconstructed with a box of 800, clipped to 360 pixels</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

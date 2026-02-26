@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd emdb_id="EMD-40162">
+    <admin>
+        <current_status>
+            <date>2023-06-14</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-03-16</deposition>
+            <header_release>2023-05-10</header_release>
+            <map_release>2023-05-10</map_release>
+            <update>2023-06-14</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>GM128777</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>E. coli MlaC bound to MlaFEDB</title>
+        <authors_list>
+            <author ORCID="0000-0003-4941-9526">MacRae MR</author>
+            <author ORCID="0000-0002-6050-2219">Coudray N</author>
+            <author ORCID="0000-0002-2570-0404">Ekiert D</author>
+            <author ORCID="0000-0003-0624-6178">Bhabha G</author>
+        </authors_list>
+        <keywords>E. coli, bacteria, outer membrane, cryo-EM, lipid transport, mla, structural biology</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">MacRae MR</author>
+                    <author order="2">Puvanendran D</author>
+                    <author order="3">Haase MAB</author>
+                    <author order="4">Coudray N</author>
+                    <author order="5">Kolich L</author>
+                    <author order="6">Lam C</author>
+                    <author order="7">Baek M</author>
+                    <author order="8">Bhabha G</author>
+                    <author order="9">Ekiert DC</author>
+                    <title>Protein-protein interactions in the Mla lipid transport system probed by computational structure prediction and deep mutational scanning.</title>
+                    <journal_abbreviation>J.Biol.Chem.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>299</volume>
+                    <first_page>104744</first_page>
+                    <last_page>104744</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">37100290</external_references>
+                    <external_references type="DOI">doi:10.1016/j.jbc.2023.104744</external_references>
+                    <external_references type="ISSN">1083-351X</external_references>
+                    <external_references type="CSD">0071</external_references>
+                    <external_references type="ASTM">JBCHA3</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-40162</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>E. coli MlaC bound to MlaFEDB</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>E. coli MlaC bound to MlaFEDB</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli K-12</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>MlaE</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli K-12</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="469008">Escherichia coli BL21(DE3)</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLLNALASLGHKGIKTLRTFGRAGLMLFNALVGKPEFRKHAPLLVRQLYNVGVLSMLIIVVSGVFIGMVLGLQGYLVLTTYSAETSLGMLVALSLLRELGPVVAALLFAGRAGSALTAEIGLMRATEQLSSMEMMAVDPLRRVISPRFWAGVISLPLLTVIFVAVGIWGGSLVGVSWKGIDSGFFWSAMQNAVDWRMDLVNCLIKSVVFAITVTWISLFNGYDAIPTSAGISRATTRTVVHSSLAVLGLDFVLTALMFGN</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>MlaF</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli K-12</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="469008">Escherichia coli BL21(DE3)</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MEQSVANLVD MRDVSFTRGN RCIFDNISLT VPRGKITAIM GPSGIGKTTL LRLIGGQIAP
+DHGEILFDGE NIPAMSRSRL YTVRKRMSML FQSGALFTDM NVFDNVAYPL REHTQLPAPL
+LHSTVMMKLE AVGLRGAAKL MPSELSGGMA RRAALARAIA LEPDLIMFDE PFVGQDPITM
+GVLVKLISEL NSALGVTCVV VSHDVPEVLS IADHAWILAD KKIVAHGSAQ ALQANPDPRV
+RQFLDGIADG PVPFRYPAGD YHADLLPGS</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>MlaD</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli K-12</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="469008">Escherichia coli BL21(DE3)</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MHHHHHHQHQHENLYFQGMQ
+TKKNEIWV GIFLLAALLA ALFVCLKAAN VTSIRTEPTY TLYATFDNIG GLKARSPVSI
+GGVVVGRVAD ITLDPKTYLP RVTLEIEQRY NHIPDTSSLS IRTSGLLGEQ YLALNVGFED
+PELGTAILKD GDTIQDTKSA MVLEDLIGQF LYGSKGDDNK NSGDAPAAAP GNNETTEPVG
+TTK</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>MlaB</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli K-12</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="469008">Escherichia coli BL21(DE3)</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSESLSWMQT GDTLALSGEL DQDVLLPLWE MREEAVKGIT CIDLSRVSRV DTGGLALLLH
+LIDLAKKQGN NVTLQGVNDK VYTLAKLYNL PADVLPR</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>Foldon-MlaC</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="83333">Escherichia coli K-12</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="469008">Escherichia coli BL21(DE3)</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MHHHHHHPGSGYIPEAPRDGQAYVRKDGEWVLLSTFLSSGGGSGGGSGGGSSSGGGSGGGSGGGSSSGGGSGGGSGGGSADQTNPYKLMDEAAQKTFDRLKNEQPQIRANPDYLRTIVDQELLPYVQVKYAGALVLGQYYKSATPAQREAYFAAFREYLKQAYGQALAMYHGQTYQIAPEQPLGDKTIVPIRVTIIDPNGRPPVRLDFQWRKNSQTGNWQAYDMIAEGVSMITTKQNEWGTLLRTKGIDGLTAQLKSISQQKITLEEKK</string>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.2</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <formula>Na2HPO4-7H2O</formula>
+                            <name>sodium phosphate</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">137.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">2.7</concentration>
+                            <formula>KCl</formula>
+                            <name>potassium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.5</concentration>
+                            <formula>KH2PO4</formula>
+                            <name>potassium phosphate</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">0.25</concentration>
+                            <formula>C24H46O11</formula>
+                            <name>n-dodecyl-beta-D-maltoside</name>
+                        </component>
+                        <details>10 mM Na2HPO4.7H2O, 137 mM NaCl, 2.7 mM KCl, 1.5 mM KH2PO4, 0.25 mM DDM</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/2</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>CONTINUOUS</film_topology>
+                            <film_thickness>2.0</film_thickness>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">5</time>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">293</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TECNAI ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">1.1</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.6</nominal_defocus_max>
+                    <nominal_magnification>36000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">53.0</average_electron_dose_per_image>
+                            <details>Pixel size = 0.5480 Angstrom</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>3769521</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <number_classes_used>3</number_classes_used>
+                    <resolution units="Å" res_type="BY AUTHOR">6.6</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.2</version>
+                        </software>
+                    </software_list>
+                    <details>Map 1</details>
+                    <number_images_used>228579</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.2</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.2</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>9</number_classes>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.2</version>
+                        </software>
+                    </software_list>
+                    <details>Classes 1, 2 and 4 were combined and refined (Map 1)
+Classes 3 and 7 were combined and refined (Map 2)
+Classes 4 was refined (Map 3)
+Classes 5 was refined (Map 4)
+
+Details for Map 1 are provided below, and Maps 2, 3 and 4 are provided as additional maps</details>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="112378">
+        <file>emd_40162.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>304</col>
+            <row>304</row>
+            <sec>304</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>304</x>
+            <y>304</y>
+            <z>304</z>
+        </spacing>
+        <cell>
+            <a units="Å">333.184</a>
+            <b units="Å">333.184</b>
+            <c units="Å">333.184</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.34261838</minimum>
+            <maximum>0.68565667</maximum>
+            <average>-0.000030368716</average>
+            <std>0.034457665</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.096</x>
+            <y units="Å">1.096</y>
+            <z units="Å">1.096</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.15</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-40162::::</label>
+        <annotation_details>E. coli MlaFEDB bound to MlaC, Map 1</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+            <modelling>
+                <initial_model>
+                    <access_code>ma-a56fx</access_code>
+                    <chain>
+                        <source_name>ModelArchive</source_name>
+                        <initial_model_type>in silico model</initial_model_type>
+                    </chain>
+                    <details>computed with AlphaFold2</details>
+                </initial_model>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_40162_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="112378">
+                <file>emd_40162_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>304</col>
+                    <row>304</row>
+                    <sec>304</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>304</x>
+                    <y>304</y>
+                    <z>304</z>
+                </spacing>
+                <cell>
+                    <a units="Å">333.184</a>
+                    <b units="Å">333.184</b>
+                    <c units="Å">333.184</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.47000772</minimum>
+                    <maximum>0.83518374</maximum>
+                    <average>-0.00047832826</average>
+                    <std>0.034758437</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.096</x>
+                    <y units="Å">1.096</y>
+                    <z units="Å">1.096</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-40162::::</label>
+                <annotation_details>E. coli MlaFEDB bound to MlaC, Map 2</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="112378">
+                <file>emd_40162_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>304</col>
+                    <row>304</row>
+                    <sec>304</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>304</x>
+                    <y>304</y>
+                    <z>304</z>
+                </spacing>
+                <cell>
+                    <a units="Å">333.184</a>
+                    <b units="Å">333.184</b>
+                    <c units="Å">333.184</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.38813058</minimum>
+                    <maximum>0.8194869</maximum>
+                    <average>-0.0002059963</average>
+                    <std>0.03479799</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.096</x>
+                    <y units="Å">1.096</y>
+                    <z units="Å">1.096</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-40162::::</label>
+                <annotation_details>E. coli MlaFEDB bound to MlaC, Map 3</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="112378">
+                <file>emd_40162_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>304</col>
+                    <row>304</row>
+                    <sec>304</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>304</x>
+                    <y>304</y>
+                    <z>304</z>
+                </spacing>
+                <cell>
+                    <a units="Å">333.184</a>
+                    <b units="Å">333.184</b>
+                    <c units="Å">333.184</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.26820526</minimum>
+                    <maximum>0.55111974</maximum>
+                    <average>0.00038784285</average>
+                    <std>0.035093267</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.096</x>
+                    <y units="Å">1.096</y>
+                    <z units="Å">1.096</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-40162::::</label>
+                <annotation_details>E. coli MlaFEDB bound to MlaC, Map 4</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="112378">
+                <file>emd_40162_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>304</col>
+                    <row>304</row>
+                    <sec>304</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>304</x>
+                    <y>304</y>
+                    <z>304</z>
+                </spacing>
+                <cell>
+                    <a units="Å">333.184</a>
+                    <b units="Å">333.184</b>
+                    <c units="Å">333.184</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.37350327</minimum>
+                    <maximum>0.73117656</maximum>
+                    <average>0.0013206074</average>
+                    <std>0.035719212</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.096</x>
+                    <y units="Å">1.096</y>
+                    <z units="Å">1.096</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-40162::::</label>
+                <annotation_details>E. coli MlaFEDB bound to MlaC, half map A of Map 1</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="112378">
+                <file>emd_40162_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>304</col>
+                    <row>304</row>
+                    <sec>304</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>304</x>
+                    <y>304</y>
+                    <z>304</z>
+                </spacing>
+                <cell>
+                    <a units="Å">333.184</a>
+                    <b units="Å">333.184</b>
+                    <c units="Å">333.184</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.37608543</minimum>
+                    <maximum>0.7231505</maximum>
+                    <average>0.0013050117</average>
+                    <std>0.03572906</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.096</x>
+                    <y units="Å">1.096</y>
+                    <z units="Å">1.096</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-40162::::</label>
+                <annotation_details>E. coli MlaFEDB bound to MlaC, half map B of Map 1</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

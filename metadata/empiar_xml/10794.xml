@@ -1,0 +1,82 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10794" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-09-03</depositionDate>
+            <releaseDate>2021-09-17</releaseDate>
+            <updateDate>2021-09-17</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of SARS-CoV-2 NSP15 NendoU at pH 6.0</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-0613-9164</authorORCID>
+            <firstName>Andre</firstName>
+            <middleName>Schutzer</middleName>
+            <lastName>Godoy</lastName>
+            <organization type="academic">University of Sao Paulo</organization>
+            <street>Av. João Dagnone, 1100, Jd. Santa Angelina</street>
+            <townOrCity>Sao Carlos</townOrCity>
+            <stateOrProvince>SAO PAULO</stateOrProvince>
+            <country>Brazil</country>
+            <postOrZipCode>13563-120</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-0613-9164</authorORCID>
+            <firstName>Glaucius</firstName>
+            <middleName>Schutzer</middleName>
+            <lastName>Oliva</lastName>
+            <organization type="academic">University of Sao Paulo</organization>
+            <street>Av. João Dagnone, 1100, Jd. Santa Angelina</street>
+            <townOrCity>Sao Carlos</townOrCity>
+            <stateOrProvince>Sao Paulo</stateOrProvince>
+            <country>Brazil</country>
+            <postOrZipCode>13563-120</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-0613-9164">Godoy AS</author>
+        </authorsList>
+        <datasetSize>359.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10794</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-23786</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0002-0613-9164" order="1">Godoy AS</author>
+                    <title>Cryo-EM structure of SARS-CoV-2 NSP15 NendoU at pH 6.0</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country>Brazil</country>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned micrographs of SARS-CoV-2 NSP15 NendoU at pH 6.0</name>
+        <directory>/data/raw2</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4080</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.832</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.832</pixelHeight>
+        </dimensions>
+        <details>The raw data were taken in K3 super resolution mode. The micrographs are gain-corrected aligned averages of 40 frames movies with total dose of 41,705  (e/Å2)</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/raw2/Grid*/Data/*fractions.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

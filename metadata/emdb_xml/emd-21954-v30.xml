@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-21954">
+    <admin>
+        <current_status>
+            <date>2024-11-20</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-05-10</deposition>
+            <header_release>2020-05-20</header_release>
+            <map_release>2020-05-20</map_release>
+            <update>2024-11-20</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Canadian Institutes of Health Research (CIHR)</funding_body>
+                <country>Canada</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Natural Sciences and Engineering Research Council (NSERC, Canada)</funding_body>
+                <country>Canada</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Canada Excellence Research Chair Award</funding_body>
+                <country>Canada</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM Structure of Influenza Hemagglutinin (HA) Trimer Vitrified Using Back-it-up</title>
+        <authors_list>
+            <author>Tan YZ</author>
+            <author>Rubinstein JL</author>
+        </authors_list>
+        <keywords>Hemagglutinin, trimer, Influenza, back-it-up, through-grid wicking, VIRAL PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-6656-6320" order="1">Tan YZ</author>
+                    <author ORCID="0000-0003-0566-2209" order="2">Rubinstein JL</author>
+                    <title>Through-grid wicking enables high-speed cryoEM specimen preparation.</title>
+                    <journal_abbreviation>Acta Crystallogr D Struct Biol</journal_abbreviation>
+                    <volume>76</volume>
+                    <first_page>1092</first_page>
+                    <last_page>1103</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">33135680</external_references>
+                    <external_references type="DOI">doi:10.1107/S2059798320012474</external_references>
+                    <external_references type="ISSN">2059-7983</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6wxb</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Influenza Hemagglutinin Trimer (H3N2) (A/Hong Kong/1/1968)</name>
+        <supramolecule_list>
+            <organelle_or_cellular_component_supramolecule supramolecule_id="1">
+                <name>Influenza Hemagglutinin Trimer (H3N2) (A/Hong Kong/1/1968)</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="119210">H3N2 subtype</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.19</theoretical>
+                </molecular_weight>
+            </organelle_or_cellular_component_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Hemagglutinin</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="506350">Influenza A virus (strain A/Hong Kong/1/1968 H3N2)</organism>
+                    <strain>A/Hong Kong/1/1968 H3N2</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.06285521499999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>QDLPGNDNSTATLCLGHHAVPNGTLVKTITDDQIEVTNATELVQSSSTGKICNNPHRILDGIDCTLIDALLGDPHCDVFQ
+NETWDLFVERSKAFSNCYPYDVPDYASLRSLVASSGTLEFITEGFTWTGVTQNGGSNACKRGPGSGFFSRLNWLTKSGST
+YPVLNVTMPNNDNFDKLYIWGVHHPSTNQEQTSLYVQASGRVTVSTRRSQQTIIPNIGSRPWVRGLSSRISIYWTIVKPG
+DVLVINSNGNLIAPRGYFKMRTGKSSIMRSDAPIDTCISECITPNGSIPNDKPFQNVNKITYGACPKYVKQNTLKLATGM
+RNVPEKQTRGLFGAIAGFIENGWEGMIDGWYGFRHQNSEGTGQAADLKSTQAAIDQINGKLNRVIEKTNEKFHQIEKEFS
+EVEGRIQDLEKYVEDTKIDLWSYNAELLVALENQHTIDLTDSEMNKLFEKTRRQLRENAEDMGNGCFKIYHKCDNACIES
+IRNGTYDHDVYRDEALNNRFQIKGVELKSGYDGGGGTGGGGTGRMKQIEDKIEEILSKIYHIENEIARIKKLIGERHHHH
+HH</string>
+                    <external_references type="UNIPROTKB">Q91MA7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>2-acetamido-2-deoxy-beta-D-glucopyranose</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000221208</theoretical>
+                </molecular_weight>
+                <number_of_copies>12</number_of_copies>
+                <formula>NAG</formula>
+            </ligand>
+            <ligand macromolecule_id="3">
+                <name>beta-D-mannopyranose</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000180156</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <formula>BMA</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <grid>
+                        <model>Homemade</model>
+                        <material>COPPER/RHODIUM</material>
+                        <support_film film_type_id="1">
+                            <film_material>GOLD</film_material>
+                            <film_topology>HOLEY ARRAY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">120</time>
+                            <atmosphere>AIR</atmosphere>
+                        </pretreatment>
+                        <details>Grid was glow discharged on both sides for 120s each.</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                        <chamber_humidity units="percentage">50</chamber_humidity>
+                        <chamber_temperature units="K">298</chamber_temperature>
+                        <instrument>HOMEMADE PLUNGER</instrument>
+                        <details>Back-it-up (ultrasonic specimen application and through-grid wicking in a high-speed specimen preparation device) was used. </details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <zemlin_tableau/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">4096</width>
+                                    <height units="pixel">4096</height>
+                                </dimensions>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>1556</number_real_images>
+                            <average_exposure_time units="s">9.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">45.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>378143</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>Made using cryoSPARC 2 ab initio refinement</insilico_model>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C3</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.9</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>128305</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_21954.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">263.68</a>
+            <b units="Å">263.68</b>
+            <c units="Å">263.68</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-7.2507486</minimum>
+            <maximum>11.195214</maximum>
+            <average>-0.000964305</average>
+            <std>0.29797086</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.03</x>
+            <y units="Å">1.03</y>
+            <z units="Å">1.03</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>1.5</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-21954::::</label>
+        <annotation_details>Sharpened map</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>3WHE</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_21954_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="66326">
+                <file>emd_21954_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>255</col>
+                    <row>255</row>
+                    <sec>255</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>255</x>
+                    <y>255</y>
+                    <z>255</z>
+                </spacing>
+                <cell>
+                    <a units="Å">262.65</a>
+                    <b units="Å">262.65</b>
+                    <c units="Å">262.65</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.10005919</minimum>
+                    <maximum>1.0</maximum>
+                    <average>0.14427736</average>
+                    <std>0.31520292</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.03</x>
+                    <y units="Å">1.03</y>
+                    <z units="Å">1.03</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-21954::::</label>
+                <annotation_details>3DFSC - Raw</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="66326">
+                <file>emd_21954_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>255</col>
+                    <row>255</row>
+                    <sec>255</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>255</x>
+                    <y>255</y>
+                    <z>255</z>
+                </spacing>
+                <cell>
+                    <a units="Å">262.65</a>
+                    <b units="Å">262.65</b>
+                    <c units="Å">262.65</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0.0</minimum>
+                    <maximum>1.0</maximum>
+                    <average>0.14242414</average>
+                    <std>0.31571066</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.03</x>
+                    <y units="Å">1.03</y>
+                    <z units="Å">1.03</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-21954::::</label>
+                <annotation_details>3DFSC - Thresholded</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="66326">
+                <file>emd_21954_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>255</col>
+                    <row>255</row>
+                    <sec>255</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>255</x>
+                    <y>255</y>
+                    <z>255</z>
+                </spacing>
+                <cell>
+                    <a units="Å">262.65</a>
+                    <b units="Å">262.65</b>
+                    <c units="Å">262.65</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0.0</minimum>
+                    <maximum>1.0</maximum>
+                    <average>0.14379652</average>
+                    <std>0.35088328</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.03</x>
+                    <y units="Å">1.03</y>
+                    <z units="Å">1.03</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-21954::::</label>
+                <annotation_details>3DFSC - Thresholded and Binarized</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_21954_additional_4.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">263.68</a>
+                    <b units="Å">263.68</b>
+                    <c units="Å">263.68</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0.0</minimum>
+                    <maximum>10.004758000000001</maximum>
+                    <average>0.14387633</average>
+                    <std>0.82336277</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.03</x>
+                    <y units="Å">1.03</y>
+                    <z units="Å">1.03</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-21954::::</label>
+                <annotation_details>Local resolution map</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_21954_additional_5.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">263.68</a>
+                    <b units="Å">263.68</b>
+                    <c units="Å">263.68</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.1454923</minimum>
+                    <maximum>2.6287823</maximum>
+                    <average>-0.00096479384</average>
+                    <std>0.08872252</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.03</x>
+                    <y units="Å">1.03</y>
+                    <z units="Å">1.03</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-21954::::</label>
+                <annotation_details>Raw map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_21954_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">263.68</a>
+                    <b units="Å">263.68</b>
+                    <c units="Å">263.68</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.2205138</minimum>
+                    <maximum>2.7004495</maximum>
+                    <average>0.0012912343</average>
+                    <std>0.11230624</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.03</x>
+                    <y units="Å">1.03</y>
+                    <z units="Å">1.03</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-21954::::</label>
+                <annotation_details>Half map 1</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_21954_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">263.68</a>
+                    <b units="Å">263.68</b>
+                    <c units="Å">263.68</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.1800946</minimum>
+                    <maximum>2.689934</maximum>
+                    <average>0.0012818795</average>
+                    <std>0.112384334</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.03</x>
+                    <y units="Å">1.03</y>
+                    <z units="Å">1.03</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-21954::::</label>
+                <annotation_details>Half map 2</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

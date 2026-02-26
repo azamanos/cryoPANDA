@@ -1,0 +1,87 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11116" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-05-31</depositionDate>
+            <releaseDate>2022-11-25</releaseDate>
+            <updateDate>2022-11-25</updateDate>
+        </keyDates>
+        <title>Cryo-EM dataset of P.berghei kinesin-8B motor domain in AMPPNP state bound to tubulin dimer</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0001-5686-6290</authorORCID>
+            <firstName>Carolyn</firstName>
+            <lastName>Moores</lastName>
+            <organization type="academic">Birkbeck College</organization>
+            <street>Malet street</street>
+            <townOrCity>London</townOrCity>
+            <stateOrProvince>London</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>WC1E 7HX</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0001-5686-6290</authorORCID>
+            <firstName>Carolyn</firstName>
+            <lastName>Moores</lastName>
+            <organization type="academic">Birkbeck College</organization>
+            <street>Malet street</street>
+            <townOrCity>London</townOrCity>
+            <stateOrProvince>London</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>WC1E 7HX</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-2598-8572">Liu T</author>
+            <author authorORCID="0000-0002-9275-0604">Shilliday F</author>
+            <author authorORCID="0000-0003-1283-1541">Cook AD</author>
+            <author authorORCID="0000-0001-5686-6290">Moores CA</author>
+        </authorsList>
+        <datasetSize>54.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11116</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-14460</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="true">
+                    <author authorORCID="0000-0003-2598-8572" order="1">Liu T</author>
+                    <author authorORCID="0000-0002-9275-0604" order="2">Shilliday F</author>
+                    <author authorORCID="0000-0003-1283-1541" order="3">Cook AD</author>
+                    <author authorORCID="0000-0001-5686-6290" order="4">Moores CA</author>
+                    <title>Mechanochemical tuning of a kinesin motor essential for malaria parasite transmission</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country>United Kingdom</country>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Cryo-EM dataset of P.berghei kinesin-8B motor domains in AMPPNP state bound to MT</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1026</numImagesOrTiltSeries>
+        <framesPerImage>15</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>15</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.05</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.05</pixelHeight>
+        </dimensions>
+        <details>Dataset was collected on Titan Krios with K2 camera operating in counting mode with a GIF Quantum LS imaging Filter and motion corrected using MotionCor2.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

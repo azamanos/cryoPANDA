@@ -1,0 +1,121 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11092" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-03-20</depositionDate>
+            <releaseDate>2022-07-26</releaseDate>
+            <updateDate>2022-07-26</updateDate>
+        </keyDates>
+        <title>Micrographs of PI3-kinase SH3 amyloid fibrils</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0003-1803-5431</authorORCID>
+            <firstName>Gunnar</firstName>
+            <middleName>F</middleName>
+            <lastName>Schröder</lastName>
+            <organization type="academic">Forschungszentrum Jülich</organization>
+            <townOrCity>Jülich</townOrCity>
+            <country>Germany</country>
+            <postOrZipCode>52425</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0003-1803-5431</authorORCID>
+            <firstName>Gunnar</firstName>
+            <middleName>F</middleName>
+            <lastName>Schröder</lastName>
+            <organization type="academic">Forschungszentrum Jülich</organization>
+            <townOrCity>Jülich</townOrCity>
+            <country>Germany</country>
+            <postOrZipCode>52425</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator>
+            <authorORCID>0000-0003-1161-3622</authorORCID>
+            <firstName>Alexander</firstName>
+            <middleName>K</middleName>
+            <lastName>Buell</lastName>
+            <organization type="academic">Department of Biotechnology and Biomedicine, Technical University of Denmark</organization>
+            <townOrCity>Kgs. Lyngby</townOrCity>
+            <country>Denmark</country>
+            <postOrZipCode>2800</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-2600-8636">Röder C</author>
+            <author authorORCID="0000-0003-1803-5431">Schröder GF</author>
+        </authorsList>
+        <datasetSize>32.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11092</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-4727</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-2600-8636" order="1">Röder C</author>
+                    <author authorORCID="0000-0002-1776-220X" order="2">Vettore N</author>
+                    <author authorORCID="0000-0002-4486-1959" order="3">Mangels LN</author>
+                    <author authorORCID="0000-0001-7065-5027" order="4">Gremer L</author>
+                    <author authorORCID="0000-0001-6056-5888" order="5">Ravelli RBG</author>
+                    <author authorORCID="0000-0002-0065-7366" order="6">Willbold D</author>
+                    <author authorORCID="0000-0003-4301-5416" order="7">Hoyer W</author>
+                    <author authorORCID="0000-0003-1161-3622" order="8">Buell AK</author>
+                    <author authorORCID="0000-0003-1803-5431" order="9">Schröder GF</author>
+                    <title>Atomic structure of PI3-kinase SH3 amyloid fibrils by cryo-electron microscopy</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>10</volume>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-019-11320-8</externalReferences>
+                    <externalReferences type="pubmed">31434882</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>PI3-kinase SH3 amyloid fibrils, MotionCor2-aligned dose-weighted averages</name>
+        <directory>/data/SH3/Micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>256</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.935</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.935</pixelHeight>
+        </dimensions>
+        <details>These data are aligned average dose-weighted micrographs collected on a Technai Arctica at 200kV with a Falcon III detector operating in electron counting mode. Applied defocus values ranged from −1.5 to −2.25 µm. MotionCor2 was used to align 60 dose fractions that were taken with a total electron dose of ~26e-/Å². Only included are micrographs with resolution estimated by CTFFIND4 to be better than 5Å.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>PI3-kinase SH3 amyloid fibrils, MotionCor2-aligned non-dose-weighted averages</name>
+        <directory>/data/SH3/Micrographs_noDW</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>256</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.935</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.935</pixelHeight>
+        </dimensions>
+        <details>These data are aligned average non-dose-weighted micrographs collected on a Technai Arctica at 200kV with a Falcon III detector operating in electron counting mode. Applied defocus values ranged from −1.5 to −2.25 µm. MotionCor2 was used to align 60 dose fractions that were taken with a total electron dose of ~26e-/Å². Only included are micrographs with resolution estimated by CTFFIND4 to be better than 5Å.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

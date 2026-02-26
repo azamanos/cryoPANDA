@@ -1,0 +1,129 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10451" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-06-23</depositionDate>
+            <releaseDate>2020-12-11</releaseDate>
+            <updateDate>2020-12-11</updateDate>
+        </keyDates>
+        <title>Cryo electron tomography after FIB-milling of Planctomycetes species Tuwongella immobilis (33k magnification)</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-0241-9158</authorORCID>
+            <firstName>Christian</firstName>
+            <lastName>Seeger</lastName>
+            <organization type="academic">Department of Cell and Molecular Biology, Molecular Evolution, Uppsala University</organization>
+            <townOrCity>Uppsala</townOrCity>
+            <country>Sweden</country>
+            <postOrZipCode>75124</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-0241-9158</authorORCID>
+            <firstName>Siv</firstName>
+            <lastName>Andersson</lastName>
+            <organization type="academic">Department of Cell and Molecular Biology</organization>
+            <street>Husargatan 3</street>
+            <townOrCity>Uppsala</townOrCity>
+            <stateOrProvince>Uppsala</stateOrProvince>
+            <country>Sweden</country>
+            <postOrZipCode>75124</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-0241-9158">Seeger C</author>
+            <author authorORCID="0000-0003-0864-0259">Andersson SG</author>
+        </authorsList>
+        <datasetSize units="GB">15.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10451</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-11124</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-6548-5756" order="1">Mahajan M</author>
+                    <author authorORCID="0000-0003-0241-9158" order="2">Seeger C</author>
+                    <author order="3">Yee B</author>
+                    <author authorORCID="0000-0003-0864-0259" order="4">Andersson SGE</author>
+                    <title>Evolutionary Remodeling of the Cell Envelope in Bacteria of the Planctomycetes Phylum</title>
+                    <journal>Genome biology and evolution</journal>
+                    <journalAbbreviation>Genome Biol Evol</journalAbbreviation>
+                    <country>Sweden</country>
+                    <issue>9</issue>
+                    <volume>12</volume>
+                    <firstPage>1528</firstPage>
+                    <lastPage>1548</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1093/gbe/evaa159</externalReferences>
+                    <externalReferences type="pubmed">32761170</externalReferences>
+                    <details>Tilt series obtained during cryo-ET data collection using SerialEM on Titan Krios; species: Tuwongella immobilis (33k magnification); number of tilts: 61; total dose of tilt series: 100e-/Å^2</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Single micrographs from cryo-ET tilt series (uncorrected) of Tuwongella immobilis after FIB-milling (33k magnification)</name>
+        <directory>/data/micrographs of tilt series (uncorrected)</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>61</numImagesOrTiltSeries>
+        <framesPerImage>5</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>4.291</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>4.291</pixelHeight>
+        </dimensions>
+        <details>Uncorrected micrographs from cryo-ET tilt series from Tuwongella immobilis obtained after FIB-milling. Total electron dose: 95e-/Å^2; 61 tilts; -60°/+60°, 2° increment, start at +20°; defocus: -4µm</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/micrographs of tilt series (uncorrected)/CS_04_grid2_tomo_001_000_20.0.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/micrographs of tilt series (uncorrected)/CS_04_grid2_tomo_001_000_20.0.mrc</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/micrographs of tilt series (uncorrected)</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Single micrographs from cryo-ET tilt series (motion-corrected) of Tuwongella immobilis after FIB-milling (33k magnification)</name>
+        <directory>/data/micrographs of tilt series (motion corrected)</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>61</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>4.291</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>4.291</pixelHeight>
+        </dimensions>
+        <details>Motion-corrected micrographs from cryo-ET tilt series from Tuwongella immobilis obtained after FIB-milling. Total electron dose: 95e-/Å^2; 61 tilts; -60°/+60°, 2° increment, start at +20°; defocus: -4µm</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/micrographs of tilt series (motion corrected)/CS_04_grid2_tomo_001_000_20.0_MC.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/micrographs of tilt series (motion corrected)/CS_04_grid2_tomo_001_000_20.0_MC.mrc</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/micrographs of tilt series (motion corrected)</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Image stack (motion-corrected) from cryo-ET tilt series of Tuwongella immobilis after FIB-milling (33k magnification)</name>
+        <directory>/data/stacked tilt series (motion corrected)</directory>
+        <category>tilt series</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>61</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>4.291</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>4.291</pixelHeight>
+        </dimensions>
+        <details>Image stack (motion corrected) from cryo-ET tilt series from Tuwongella immobilis obtained after FIB-milling. Total electron dose: 95e-/Å^2; 61 tilts; -60°/+60°, 2° increment, start at +20°; defocus: -4µm</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,127 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ftp://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10050" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2015-12-11</depositionDate>
+            <releaseDate>2016-02-04</releaseDate>
+            <updateDate>2016-02-04</updateDate>
+        </keyDates>
+        <title>Volta phase plate cryo-EM of the small protein complex Prx3</title>
+        <correspondingAuthor>
+            <firstName>Radostin</firstName>
+            <lastName>Danev</lastName>
+            <organization type="academic">Max-Planck Institute of Biochemistry</organization>
+            <street>Am Klopferspitz 18</street>
+            <townOrCity>Martinsried</townOrCity>
+            <stateOrProvince>Bavaria</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>82152</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <firstName>Radostin</firstName>
+            <lastName>Danev</lastName>
+            <organization type="academic">Max-Planck Institute of Biochemistry</organization>
+            <street>Am Klopferspitz 18</street>
+            <townOrCity>Martinsried</townOrCity>
+            <stateOrProvince>Bavaria</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>82152</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Khoshouei MK</author>
+        </authorsList>
+        <datasetSize>612.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10050</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-3233</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>VPP_Prx3_4.4res</name>
+        <directory>/data/Prx3</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>802</numImagesOrTiltSeries>
+        <framesPerImage>15</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>15</frameRangeMax>
+        </frameRange>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.74</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.74</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>VPP_Prx3_7.3res</name>
+        <directory>/data/VPP_Prx3_7.3res</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>81</numImagesOrTiltSeries>
+        <framesPerImage>10</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>10</frameRangeMax>
+        </frameRange>
+        <voxelType>SIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.35</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.35</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>No_VPP_mrc_files</name>
+        <directory>/data/No_VPP</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>176</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.35</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.35</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>No_VPP_dat_files</name>
+        <directory>/data/No_VPP_dat_files</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>dat</headerFormat>
+        <dataFormat>dat</dataFormat>
+        <numImagesOrTiltSeries>150</numImagesOrTiltSeries>
+        <framesPerImage>33</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>33</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.35</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.35</pixelHeight>
+        </dimensions>
+        <details>.dat files can be opened with TOM software</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

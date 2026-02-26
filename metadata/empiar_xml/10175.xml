@@ -1,0 +1,86 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10175" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-04-18</depositionDate>
+            <releaseDate>2018-04-23</releaseDate>
+            <updateDate>2018-07-11</updateDate>
+        </keyDates>
+        <title>Single particle cryoEM of hemagglutinin with spot-to-plunge time of 100ms</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0624-5020</authorORCID>
+            <firstName>Bridget</firstName>
+            <lastName>Carragher</lastName>
+            <organization type="academic">New York Structural Biology Center</organization>
+            <street>89 Convent Avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0624-5020</authorORCID>
+            <firstName>Bridget</firstName>
+            <lastName>Carragher</lastName>
+            <organization type="academic">New York Structural Biology Center</organization>
+            <street>89 Convent Avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-8634-2279">Noble AJ</author>
+            <author>Wei H</author>
+            <author>Dandey VP</author>
+            <author>Zhang Z</author>
+            <author authorORCID="0000-0003-2394-0831">Potter CS</author>
+            <author authorORCID="0000-0002-0624-5020">Carragher B</author>
+        </authorsList>
+        <datasetSize units="GB">288.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10175</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-7792</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author authorORCID="0000-0001-8634-2279" order="1">Noble AJ</author>
+                    <author order="2">Wei H</author>
+                    <author order="3">Dandey VP</author>
+                    <author order="4">Zhang Z</author>
+                    <author authorORCID="0000-0003-2394-0831" order="5">Potter CS</author>
+                    <author authorORCID="0000-0002-0624-5020" order="6">Carragher B</author>
+                    <title>Reducing effects of particle adsorption to the air-water interface in cryoEM</title>
+                    <journal>BioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1101/288340</externalReferences>
+                    <details>Hemagglutinin plunged with a 100 ms spot-to-plunge time with Spotiton.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Full Leginon data collection, including all magnification images and aligned micrographs with and without dose weighting</name>
+        <directory>/data/leginondata</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1100</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>0.85</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>0.85</pixelHeight>
+        </dimensions>
+        <details>Includes unaligned images (enn), MotionCor2 frame-aligned images (enn-a), and frame aligned images with dose weighting using MotionCor2 (enn-a-DW). Also includes all grid, hole, and square magnification images during the collection session.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

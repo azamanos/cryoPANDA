@@ -1,0 +1,336 @@
+<emd emdb_id="EMD-5976" version="3.0.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+    <admin>
+        <current_status>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2014-05-21</deposition>
+            <header_release>2014-07-30</header_release>
+            <map_release>2014-08-06</map_release>
+            <update>2015-10-07</update>
+        </key_dates>
+        <title>Structures of yeast 80S ribosome-tRNA complexes in the rotated and non-rotated conformations (Class II - 1 tRNA in rotated conformation)</title>
+        <authors_list>
+            <author>Svidritskiy E</author>
+            <author>Brilot AF</author>
+            <author>Koh CS</author>
+            <author>Grigorieff N</author>
+            <author>Korostelev AA</author>
+        </authors_list>
+        <keywords>80S ribosome, Kozak sequence, translation</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Svidritskiy E</author>
+                    <author order="2">Brilot AF</author>
+                    <author order="3">Koh CS</author>
+                    <author order="4">Grigorieff N</author>
+                    <author order="5">Korostelev AA</author>
+                    <title>Structures of Yeast 80S Ribosome-tRNA Complexes in the Rotated and Nonrotated Conformations.</title>
+                    <journal>STRUCTURE</journal>
+                    <volume>22</volume>
+                    <first_page>1210</first_page>
+                    <last_page>1218</last_page>
+                    <year>2014</year>
+                    <external_references type="PUBMED">25043550</external_references>
+                    <external_references type="DOI">doi:10.1016/j.str.2014.06.003</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-5977</emdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>3j77</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+        <auxiliary_link_list>
+            <auxiliary_link>
+                <link>http://dx.doi.org/10.6019/EMPIAR-10016</link>
+            </auxiliary_link>
+        </auxiliary_link_list>
+    </crossreferences>
+    <sample>
+        <name>80S ribosome bound to mRNA containing Kozak sequence and to one tRNA</name>
+        <supramolecule_list>
+            <sample_supramolecule supramolecule_id="1000">
+                <name>80S ribosome bound to mRNA containing Kozak sequence and to one tRNA</name>
+                <details>Sample was monodisperse.</details>
+                <number_unique_components>3</number_unique_components>
+                <molecular_weight>
+                    <experimental units="MDa">3.5</experimental>
+                </molecular_weight>
+            </sample_supramolecule>
+            <complex_supramolecule supramolecule_id="1">
+                <name>80S ribosome</name>
+                <recombinant_exp_flag>false</recombinant_exp_flag>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                    <synonym_organism>Yeast</synonym_organism>
+                </natural_source>
+                <recombinant_expression database="NCBI" />
+                <molecular_weight>
+                    <experimental units="MDa">3.5</experimental>
+                </molecular_weight>
+                <ribosome-details>ribosome-eukaryote: ALL</ribosome-details>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <rna macromolecule_id="1">
+                <name>mRNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.005</theoretical>
+                </molecular_weight>
+                <sequence>
+                    <string>AAAAAUGUAAAAAA</string>
+                </sequence>
+                <classification>OTHER</classification>
+                <structure>SINGLE STRANDED</structure>
+                <synthetic_flag>true</synthetic_flag>
+            </rna>
+            <rna macromolecule_id="2">
+                <name synonym="tRNA">transfer RNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="562">Escherichia coli</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.025</theoretical>
+                </molecular_weight>
+                <details>tRNA fmet</details>
+                <classification>TRANSFER</classification>
+                <structure>OTHER</structure>
+                <synthetic_flag>false</synthetic_flag>
+            </rna>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1.2</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <details>20 mM Tris-HCl, 50 mM NH4Cl, 20 mM MgCl2, 0.3 U/uL RNasin</details>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">95</chamber_humidity>
+                        <instrument>FEI VITROBOT MARK II</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">0.01</nominal_cs>
+                    <nominal_defocus_min units="&#181;m">1.159</nominal_defocus_min>
+                    <nominal_defocus_max units="&#181;m">4.844</nominal_defocus_max>
+                    <nominal_magnification>133333.0</nominal_magnification>
+                    <calibrated_magnification>133333.0</calibrated_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <date>2013-01-02</date>
+                    <image_recording_list>
+                        <image_recording>
+                            <film_or_detector_model category="CCD">FEI FALCON I (4k x 4k)</film_or_detector_model>
+                            <digitization_details>
+                                <sampling_interval units="&#181;m">14</sampling_interval>
+                            </digitization_details>
+                            <number_real_images>4754</number_real_images>
+                            <average_electron_dose_per_image units="e/&#8491;^2">30</average_electron_dose_per_image>
+                            <bits_per_pixel>16.</bits_per_pixel>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <ctf_correction>
+                    <details>CTFFIND3, FREALIGN per micrograph</details>
+                </ctf_correction>
+                <final_reconstruction>
+                    <algorithm>OTHER</algorithm>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">6.2</resolution>
+                    <resolution_method>OTHER</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>EMAN2, IMAGIC, FREALIGN, RSAMPLE, CTFFIND3</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>25136</number_images_used>
+                </final_reconstruction>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="182251">
+        <file>emd_5976.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>360</col>
+            <row>360</row>
+            <sec>360</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>360</x>
+            <y>360</y>
+            <z>360</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">377.99997</a>
+            <b units="&#8491;">377.99997</b>
+            <c units="&#8491;">377.99997</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.18186775</minimum>
+            <maximum>0.47021329</maximum>
+            <average>0.00601077</average>
+            <std>0.04798295</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">1.05</x>
+            <y units="&#8491;">1.05</y>
+            <z units="&#8491;">1.05</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.12</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <annotation_details>Reconstruction of a yeast 80S ribosome in the rotated state with 1 tRNA bound. (Class II)</annotation_details>
+        <details>::::EMDATABANK.org::::EMD-5976::::</details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>3U5B</access_code>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <software_list>
+                    <software>
+                        <name>Chimera, CNS</name>
+                    </software>
+                </software_list>
+                <details>3U5B, 3U5C, 3U5D, and 3U5E were combined prior to fitting. tRNA and mRNA were modeled using individual tRNA and mRNA from the crystal structure (4GD1) of the hybrid-state 70S ribosome containing P/E tRNA. The structure of rpL1 was obtained by homology modeling from PDB ID 3J3B.</details>
+                <target_criteria>cross-correlation</target_criteria>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+            <modelling>
+                <initial_model>
+                    <access_code>3U5C</access_code>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <software_list>
+                    <software>
+                        <name>Chimera, CNS</name>
+                    </software>
+                </software_list>
+                <details>3U5B, 3U5C, 3U5D, and 3U5E were combined prior to fitting. tRNA and mRNA were modeled using individual tRNA and mRNA from the crystal structure (4GD1) of the hybrid-state 70S ribosome containing P/E tRNA. The structure of rpL1 was obtained by homology modeling from PDB ID 3J3B.</details>
+                <target_criteria>cross-correlation</target_criteria>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+            <modelling>
+                <initial_model>
+                    <access_code>3U5D</access_code>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <software_list>
+                    <software>
+                        <name>Chimera, CNS</name>
+                    </software>
+                </software_list>
+                <details>3U5B, 3U5C, 3U5D, and 3U5E were combined prior to fitting. tRNA and mRNA were modeled using individual tRNA and mRNA from the crystal structure (4GD1) of the hybrid-state 70S ribosome containing P/E tRNA. The structure of rpL1 was obtained by homology modeling from PDB ID 3J3B.</details>
+                <target_criteria>cross-correlation</target_criteria>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+            <modelling>
+                <initial_model>
+                    <access_code>3U5E</access_code>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <software_list>
+                    <software>
+                        <name>Chimera, CNS</name>
+                    </software>
+                </software_list>
+                <details>3U5B, 3U5C, 3U5D, and 3U5E were combined prior to fitting. tRNA and mRNA were modeled using individual tRNA and mRNA from the crystal structure (4GD1) of the hybrid-state 70S ribosome containing P/E tRNA. The structure of rpL1 was obtained by homology modeling from PDB ID 3J3B.</details>
+                <target_criteria>cross-correlation</target_criteria>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+            <modelling>
+                <initial_model>
+                    <access_code>4GD1</access_code>
+                    <chain>
+                        <chain_id>V</chain_id>
+                    </chain>
+                    <chain>
+                        <chain_id>X</chain_id>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <software_list>
+                    <software>
+                        <name>Chimera, CNS</name>
+                    </software>
+                </software_list>
+                <details>3U5B, 3U5C, 3U5D, and 3U5E were combined prior to fitting. tRNA and mRNA were modeled using individual tRNA and mRNA from the crystal structure (4GD1) of the hybrid-state 70S ribosome containing P/E tRNA. The structure of rpL1 was obtained by homology modeling from PDB ID 3J3B.</details>
+                <target_criteria>cross-correlation</target_criteria>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+            <modelling>
+                <initial_model>
+                    <access_code>3J3B</access_code>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <software_list>
+                    <software>
+                        <name>Chimera, CNS</name>
+                    </software>
+                </software_list>
+                <details>3U5B, 3U5C, 3U5D, and 3U5E were combined prior to fitting. tRNA and mRNA were modeled using individual tRNA and mRNA from the crystal structure (4GD1) of the hybrid-state 70S ribosome containing P/E tRNA. The structure of rpL1 was obtained by homology modeling from PDB ID 3J3B.</details>
+                <target_criteria>cross-correlation</target_criteria>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

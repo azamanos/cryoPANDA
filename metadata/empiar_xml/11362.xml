@@ -1,0 +1,160 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11362" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-12-06</depositionDate>
+            <releaseDate>2023-04-11</releaseDate>
+            <updateDate>2023-04-11</updateDate>
+        </keyDates>
+        <title>Sarecycline inhibits protein translation in Cutibacterium acnes 70S ribosome using a two-site mechanism</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-4011-8308</authorORCID>
+            <firstName>Christopher</firstName>
+            <middleName>G</middleName>
+            <lastName>Bunick</lastName>
+            <organization type="academic">Department of Dermatalogy, Yale School of Medicine</organization>
+            <street>266 Whitney Avenue</street>
+            <townOrCity>New Haven</townOrCity>
+            <stateOrProvince>Connecticut</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>06511</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-4011-8308</authorORCID>
+            <firstName>Christopher</firstName>
+            <lastName>Bunick</lastName>
+            <organization type="academic">Department of Dermatology, Yale School of Medicine</organization>
+            <street>266 Whitney Avenue</street>
+            <townOrCity>New Haven</townOrCity>
+            <stateOrProvince>Connecticut</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>06511</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-6528-5068">Lomakin IB</author>
+            <author authorORCID="0000-0002-9271-243X">Devarkar SC</author>
+            <author authorORCID="0000-0003-2480-7274">Patel S</author>
+            <author authorORCID="0000-0002-5321-0584">Grada A</author>
+            <author authorORCID="0000-0002-4011-8308">Bunick CG</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">6.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11362</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-26959</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-6528-5068" order="1">Lomakin IB</author>
+                    <author authorORCID="0000-0002-9271-243X" order="2">Devarkar SC</author>
+                    <author authorORCID="0000-0003-2480-7274" order="3">Patel S</author>
+                    <author authorORCID="0000-0002-5321-0584" order="4">Grada A</author>
+                    <author authorORCID="0000-0002-4011-8308" order="5">Bunick CG</author>
+                    <title>Sarecycline inhibits protein translation in Cutibacterium acnes 70S ribosome using a two-site mechanism</title>
+                    <journal>Nucleic acids research</journal>
+                    <journalAbbreviation>Nucleic Acids Res</journalAbbreviation>
+                    <country></country>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1093/nar/gkad103</externalReferences>
+                    <externalReferences type="pubmed">36864821</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Raw multiframe micrographs for Sarecycline bound 70S Ribosome from C. acnes</name>
+        <directory>/data/rawTIF Movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>10765</numImagesOrTiltSeries>
+        <framesPerImage>35</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.534</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.534</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Extracted particle stack based on Template picking from cryoSPARC</name>
+        <directory>/data/ParticleStack</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1108852</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>340</imageWidth>
+            <pixelWidth>1.068</pixelWidth>
+            <imageHeight>340</imageHeight>
+            <pixelHeight>1.068</pixelHeight>
+        </dimensions>
+        <details>A stack of 1108852 particles picked from 10,765 motion-corrected micrographs</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dose-Weighted Motion Corrected Micrographs for Sarecycline bound 70S Ribosome from C. acnes</name>
+        <directory>/data/MotionCorrected_Micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>10765</numImagesOrTiltSeries>
+        <framesPerImage>35</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.068</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.068</pixelHeight>
+        </dimensions>
+        <details>Dose-weighted motion corrected micrographs using Patch motion correction in cryoSPARC</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/MotionCorrected_Micrographs/*_slot12_*_patch_aligned_doseweighted.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Non-Dose-Weighted Motion Corrected Micrographs for Sarecycline bound 70S Ribosome from C. acnes</name>
+        <directory>/data/MotionCorrected_Micrographs/Non-Doseweighted</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>10765</numImagesOrTiltSeries>
+        <framesPerImage>35</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.068</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.068</pixelHeight>
+        </dimensions>
+        <details>Non-dose-weighted motion corrected micrographs using Patch motion correction in cryoSPARC</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/MotionCorrected_Micrographs/Non-Doseweighted/*_slot12_*_patch_aligned.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

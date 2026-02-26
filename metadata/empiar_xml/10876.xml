@@ -1,0 +1,151 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10876" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-04-02</depositionDate>
+            <releaseDate>2022-04-01</releaseDate>
+            <updateDate>2022-04-01</updateDate>
+        </keyDates>
+        <title>2.3 A structure of the ATP-dependent chromatin remodeler Chd1 bound to the nucleosome in a nucleotide-free state</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0001-9195-2282</authorORCID>
+            <firstName>Jean-Paul</firstName>
+            <lastName>Armache</lastName>
+            <organization type="academic">Pennsylvania State University</organization>
+            <street>428 South Frear</street>
+            <townOrCity>University Park</townOrCity>
+            <stateOrProvince>PA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>16802</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0001-9195-2282</authorORCID>
+            <firstName>Jean-Paul</firstName>
+            <lastName>Armache</lastName>
+            <organization type="academic">Pennsylvania State University</organization>
+            <street>428 South Frear</street>
+            <townOrCity>University Park</townOrCity>
+            <stateOrProvince>PA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>16802</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator>
+            <authorORCID>0000-0001-8025-4315</authorORCID>
+            <firstName>Gregory</firstName>
+            <middleName>D</middleName>
+            <lastName>Bowman</lastName>
+            <organization type="academic">Johns Hopkins University</organization>
+            <street>302 Jenkins Hall, 3400 N. Charles St.</street>
+            <townOrCity>Baltimore</townOrCity>
+            <stateOrProvince>MD</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>21218</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-1181-6913">Nodelman IM</author>
+            <author authorORCID="0000-0002-8925-6832">Das S</author>
+            <author authorORCID="0000-0003-1743-9186">Faustino AM</author>
+            <author authorORCID="0000-0003-2494-2193">Fried SD</author>
+            <author authorORCID="0000-0001-8025-4315">Bowman GD</author>
+            <author authorORCID="0000-0001-9195-2282">Armache JP</author>
+        </authorsList>
+        <datasetSize units="TB">4.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10876</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-25479</emdbEntry>
+            <emdbEntry>EMD-25480</emdbEntry>
+            <emdbEntry>EMD-25481</emdbEntry>
+            <emdbEntry>EMD-25483</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-1181-6913" order="1">Nodelman IM</author>
+                    <author authorORCID="0000-0002-8925-6832" order="2">Das S</author>
+                    <author authorORCID="0000-0003-1743-9186" order="3">Faustino AM</author>
+                    <author authorORCID="0000-0003-2494-2193" order="4">Fried SD</author>
+                    <author authorORCID="0000-0001-8025-4315" order="5">Bowman GD</author>
+                    <author authorORCID="0000-0001-9195-2282" order="6">Armache JP</author>
+                    <title>Nucleosome recognition and DNA distortion by the Chd1 remodeler in a nucleotide-free state</title>
+                    <journal>Nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>Nat Struct Mol Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>2</issue>
+                    <volume>29</volume>
+                    <firstPage>121</firstPage>
+                    <lastPage>129</lastPage>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41594-021-00719-x</externalReferences>
+                    <externalReferences type="pubmed">35173352</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned frames of Chd1-bound nucleosomes collected on Gatan K3 in Super Resolution</name>
+        <directory>/data/RawFrames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>6906</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.54</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.54</pixelHeight>
+        </dimensions>
+        <details>Raw frames</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/RawFrames/*.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>MotionCor2-aligned frames of Chd1-bound nucleosomes collected on Gatan K3</name>
+        <directory>/data/MotionCorr</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6906</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>7680</imageWidth>
+            <pixelWidth>0.81</pixelWidth>
+            <imageHeight>5456</imageHeight>
+            <pixelHeight>0.81</pixelHeight>
+        </dimensions>
+        <details>Data corrected with MotionCor2 v1.4.0</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Processed subsets</name>
+        <directory>/data/SubSets</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>6906</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.972</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.972</pixelHeight>
+        </dimensions>
+        <details>Multiple processed subsets</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,115 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10230" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-10-17</depositionDate>
+            <releaseDate>2019-02-20</releaseDate>
+            <updateDate>2021-08-06</updateDate>
+        </keyDates>
+        <title>Cryo electron microscopy of tau filaments from sporadic Alzheimer's disease brain</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0462-6540</authorORCID>
+            <firstName>Sjors</firstName>
+            <lastName>Scheres</lastName>
+            <organization type="academic">MRC Laboratory of Molecular Biology</organization>
+            <townOrCity>Cambridge</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8176-2618</authorORCID>
+            <firstName>Benjamin</firstName>
+            <lastName>Falcon</lastName>
+            <organization type="academic">MRC Laboratory of Molecular Biology</organization>
+            <townOrCity>Cambridge</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <firstName>Michel</firstName>
+            <lastName>Goedert</lastName>
+            <organization type="academic">MRC Laboratory of Molecular Biology</organization>
+            <townOrCity>Cambridge</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-8176-2618">Falcon B</author>
+            <author>Zhang W</author>
+            <author authorORCID="0000-0002-1848-1610">Schweighauser M</author>
+            <author>Murzin AG</author>
+            <author authorORCID="0000-0002-5803-3871">Vidal R</author>
+            <author>Garringer HJ</author>
+            <author authorORCID="0000-0002-1842-8019">Ghetti B</author>
+            <author authorORCID="0000-0002-0462-6540">Scheres SHW</author>
+            <author authorORCID="0000-0002-5214-7886">Goedert M</author>
+        </authorsList>
+        <datasetSize units="GB">27.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10230</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-0259</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-8176-2618" order="1">Falcon B</author>
+                    <author order="2">Zhang W</author>
+                    <author authorORCID="0000-0002-1848-1610" order="3">Schweighauser M</author>
+                    <author order="4">Murzin AG</author>
+                    <author authorORCID="0000-0002-5803-3871" order="5">Vidal R</author>
+                    <author order="6">Garringer HJ</author>
+                    <author authorORCID="0000-0002-1842-8019" order="7">Ghetti B</author>
+                    <author authorORCID="0000-0002-0462-6540" order="8">Scheres SHW</author>
+                    <author authorORCID="0000-0002-5214-7886" order="9">Goedert M</author>
+                    <title>Tau filaments from multiple cases of sporadic and inherited Alzheimer's disease adopt a common fold</title>
+                    <journal>Acta neuropathologica</journal>
+                    <journalAbbreviation>Acta Neuropathol.</journalAbbreviation>
+                    <country></country>
+                    <issue>5</issue>
+                    <volume>136</volume>
+                    <firstPage>699</firstPage>
+                    <lastPage>708</lastPage>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1007/s00401-018-1914-z</externalReferences>
+                    <externalReferences type="pubmed">30276465</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Dose-weighted micrographs of tau filaments from sporadic Alzheimer's disease brain (case 2)</name>
+        <directory>/data/AD_patient2_EMPIAR/DW_Micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>507</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>1.15</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>1.15</pixelHeight>
+        </dimensions>
+        <details>Start- and end-points of filaments for PHFs and SFs written out as tube coordinate .star files with the following syntax (ignore comments after //):
+
+data_ 
+
+loop_ 
+_rlnCoordinateX #1 
+_rlnCoordinateY #2 
+  110.000000  1080.000000   // Tube 1 starting coordinates x, y 
+ 1855.000000   585.000000   // Tube 1 end coordinates x, y 
+  635.000000  1325.000000   // Tube 2 
+  560.000000  2490.000000 
+...</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/*/DW_Micrographs/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/*/Coordinates/*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/AD_patient2_EMPIAR/Coordinates</pickedParticlesDirectory>
+    </imageSet>
+</entry>

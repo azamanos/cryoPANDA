@@ -1,0 +1,170 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11522" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-04-06</depositionDate>
+            <releaseDate>2023-05-16</releaseDate>
+            <updateDate>2023-05-16</updateDate>
+        </keyDates>
+        <title>CryoEM of E. coli RNA polymerase Sigma N bound to full duplex DNA fragment dhsU36 (-12T)</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0003-3002-3695</authorORCID>
+            <firstName>Andreas</firstName>
+            <lastName>Mueller</lastName>
+            <organization type="academic">The Rockefeller University</organization>
+            <street>1230 York Avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10065</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-8241-3153</authorORCID>
+            <firstName>Seth</firstName>
+            <lastName>Darst</lastName>
+            <organization type="academic">The Rockefeller University</organization>
+            <street>1230 York Avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10065</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-3002-3695">Mueller AU</author>
+            <author authorORCID="0000-0002-2311-003X">Chen J</author>
+            <author authorORCID="0000-0002-2248-9383">Wu M</author>
+            <author>Chiu C</author>
+            <author authorORCID="0000-0002-3568-5703">Nixon BT</author>
+            <author authorORCID="0000-0002-1332-128X">Campbell EA</author>
+            <author authorORCID="0000-0002-8241-3153">Darst SA</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>National Institutes of Health (NIH)</fundingBody>
+                <code>R35 GM118130</code>
+                <country>United States</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">2.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11522</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-28786</emdbEntry>
+            <emdbEntry>EMD-28790</emdbEntry>
+            <emdbEntry>EMD-28791</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-3002-3695" order="1">Mueller AU</author>
+                    <author authorORCID="0000-0002-2311-003X" order="2">Chen J</author>
+                    <author authorORCID="0000-0002-2248-9383" order="3">Wu M</author>
+                    <author order="4">Chiu C</author>
+                    <author authorORCID="0000-0002-3568-5703" order="5">Nixon BT</author>
+                    <author authorORCID="0000-0002-1332-128X" order="6">Campbell EA</author>
+                    <author authorORCID="0000-0002-8241-3153" order="7">Darst SA</author>
+                    <title>A general mechanism for transcription bubble nucleation in bacteria</title>
+                    <journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+                    <journalAbbreviation>Proc Natl Acad Sci U S A</journalAbbreviation>
+                    <country></country>
+                    <issue>14</issue>
+                    <volume>120</volume>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1073/pnas.2220874120</externalReferences>
+                    <externalReferences type="pubmed">36972428</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned micrographs (raw movies)</name>
+        <directory>/data/micrographs_multiframe</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>6088</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.083</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.083</pixelHeight>
+        </dimensions>
+        <details>FEI Titan Krios + Gatan K3, super-resolution, image shift, BioQuantum energy filter 20 eV slit; accelerating voltage 300 kV; dose 25.7 e-/px; pixel size 1.083 A/px; exposure 2.0 s; dose/frame 0.87647 e-/A^2/frame; frame time 0.05 s; total dose 43.82 e-/A^2; total frames 40; defocus range -0.8 to -2.5um
+Gain references can be found in the "references" subfolder.
+Picked particles star file "EsN-dhsU36full_particles_picked.star" ("aux_files" folder) contains all particles picked initially and is only provided for reference.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/micrographs_multiframe/21apr19d_*enn.frames.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/aux_files/EsN-dhsU36full_particles_picked.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Motion-corrected micrographs (dose-weighted)</name>
+        <directory>/data/micrographs_singleframe</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6088</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.083</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.083</pixelHeight>
+        </dimensions>
+        <details>See also the "corrected_micrographs.star" file in the "aux_files" folder.
+Picked particles star file "EsN-dhsU36full_particles_picked.star" ("aux_files" folder) contains all particles picked initially and is only provided for reference.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/micrographs_singleframe/21apr19d_*enn_frames.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/aux_files/EsN-dhsU36full_particles_picked.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particle images for map 1</name>
+        <directory>/data/particles_shiny_map1</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>5836</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>324</imageWidth>
+            <pixelWidth>1.083</pixelWidth>
+            <imageHeight>324</imageHeight>
+            <pixelHeight>1.083</pixelHeight>
+        </dimensions>
+        <details>Particle stack for map 1 after Bayesian polishing (see "EsN-dhsU36full_particles_map1.star" (final refinement parameters) and "EsN-dhsU36full_particles_shiny.star" (output from Bayesian Polishing) in "aux_files" folder)</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/particles_shiny_map1/21apr19d_*enn_frames_shiny.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/aux_files/EsN-dhsU36full_particles_shiny.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles_shiny_map1</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particle images for map 2 (subtracted particles)</name>
+        <directory>/data/particles_subtracted_map2</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>558</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>324</imageWidth>
+            <pixelWidth>1.083</pixelWidth>
+            <imageHeight>324</imageHeight>
+            <pixelHeight>1.083</pixelHeight>
+        </dimensions>
+        <details>Particle stack for map 2 after masked subtraction (see "EsN-dhsU36full_particles_map2.star" (final refinement parameters) and "EsN-dhsU36full_particles_original_map2.star" (original particles) in "aux_files" folder)</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/particles_subtracted_map2/subtracted_particles_batch_*.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/aux_files/EsN-dhsU36full_particles_map2.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles_subtracted_map2</pickedParticlesDirectory>
+    </imageSet>
+</entry>

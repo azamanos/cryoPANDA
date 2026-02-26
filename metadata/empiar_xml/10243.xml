@@ -1,0 +1,123 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10243" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-01-23</depositionDate>
+            <releaseDate>2019-03-22</releaseDate>
+            <updateDate>2019-03-22</updateDate>
+        </keyDates>
+        <title>Cryo-EM reconstruction of heparin-induced 2N4R tau filaments</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0462-6540</authorORCID>
+            <firstName>Sjors</firstName>
+            <middleName>H.W.</middleName>
+            <lastName>Scheres</lastName>
+            <organization type="academic">MRC laboratory of molecular biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0462-6540</authorORCID>
+            <firstName>Sjors</firstName>
+            <middleName>H.W.</middleName>
+            <lastName>Scheres</lastName>
+            <organization type="academic">MRC laboratory of molecular biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-3011-9956">Zhang W.</author>
+            <author authorORCID="0000-0002-8176-2618">Falcon B.</author>
+            <author>Murzin A.G.</author>
+            <author>Fan J</author>
+            <author>Crowther R.A.</author>
+            <author authorORCID="0000-0002-5214-7886">Goedert M.</author>
+            <author authorORCID="0000-0002-0462-6540">Scheres S.H.W.</author>
+        </authorsList>
+        <datasetSize units="GB">446.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10243</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-4563</emdbEntry>
+            <emdbEntry>EMD-4564</emdbEntry>
+            <emdbEntry>EMD-4565</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-3011-9956" order="1">Zhang W.</author>
+                    <author authorORCID="0000-0002-8176-2618" order="2">Falcon B.</author>
+                    <author order="3">Murzin A.G.</author>
+                    <author order="4">Fan J</author>
+                    <author order="5">Crowther R.A.</author>
+                    <author authorORCID="0000-0002-5214-7886" order="6">Goedert M.</author>
+                    <author authorORCID="0000-0002-0462-6540" order="7">Scheres S.H.W.</author>
+                    <title>Heparin-induced tau filaments are polymorphic and differ from those in Alzheimer's and Pick's diseases</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation>Elife</journalAbbreviation>
+                    <country>United Kingdom</country>
+                    <volume>8</volume>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.7554/eLife.43584</externalReferences>
+                    <externalReferences type="pubmed">30720432</externalReferences>
+                    <details>These are 717 original movies and aligned micrographs.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned micrographs</name>
+        <directory>/data/AlignedMicrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>717</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.38</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.38</pixelHeight>
+        </dimensions>
+        <details>Aligned and dose-weighted sums.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Raw movies</name>
+        <directory>/data/Movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>717</numImagesOrTiltSeries>
+        <framesPerImage>30</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>30</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.38</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.38</pixelHeight>
+        </dimensions>
+        <details>Raw movies. The dose rate is 1.6 electrons / A^2 / frame.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

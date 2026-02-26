@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-27754">
+    <admin>
+        <current_status>
+            <date>2024-10-30</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-08-01</deposition>
+            <header_release>2022-11-02</header_release>
+            <map_release>2022-11-02</map_release>
+            <update>2024-10-30</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Diabetes and Digestive and Kidney Disease (NIH/NIDDK)</funding_body>
+                <code>R01DA055656</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Diabetes and Digestive and Kidney Disease (NIH/NIDDK)</funding_body>
+                <code>U24DK116195</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>CryoEM structure of Gq-coupled MRGPRX1 with ligand Compound-16</title>
+        <authors_list>
+            <author ORCID="0000-0002-8649-7892">Liu Y</author>
+            <author ORCID="0000-0003-4017-741X">Cao C</author>
+            <author ORCID="0000-0003-1822-2384">Fay JF</author>
+            <author ORCID="0000-0002-0561-6520">Roth BL</author>
+        </authors_list>
+        <keywords>GPCR, SIGNALING PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Liu Y</author>
+                    <author order="2">Cao C</author>
+                    <author order="3">Huang XP</author>
+                    <author order="4">Gumpper RH</author>
+                    <author order="5">Rachman MM</author>
+                    <author order="6">Shih SL</author>
+                    <author order="7">Krumm BE</author>
+                    <author order="8">Zhang S</author>
+                    <author order="9">Shoichet BK</author>
+                    <author order="10">Fay JF</author>
+                    <author order="11">Roth BL</author>
+                    <title>Ligand recognition and allosteric modulation of the human MRGPRX1 receptor.</title>
+                    <journal_abbreviation>Nat.Chem.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>19</volume>
+                    <first_page>416</first_page>
+                    <last_page>422</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">36302898</external_references>
+                    <external_references type="DOI">doi:10.1038/s41589-022-01173-6</external_references>
+                    <external_references type="ISSN">1552-4469</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8dwh</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>MRGPRX1-Gq BAM8-22</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>MRGPRX1-Gq BAM8-22</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="kDa/nm">150</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Gs-mini-Gq chimera</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.028084831999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGSTVSAEDKAAAERSKMIDKNLREDGEKARRTLRLLLLGADNSGKSTIVKQMRILHGGSGGSGGTSGIFETKFQVDKVN
+FHMFDVGGQRDERRKWIQCFNDVTAIIFVVDSSDYNRLQEALNDFKSIWNNRWLRTISVILFLNKQDLLAEKVLAGKSKI
+EDYFPEFARYTTPEDATPEPGEDPRVTRAKYFIRKEFVDISTASGDGRHICYPHFTCAVDTENARRIFNDCKDIILQMNL
+REYNLV</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.037728152</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GPGSSGSELDQLRQEAEQLKNQIRDARKACADATLSQITNNIDPVGRIQMRTRRTLRGHLAKIYAMHWGTDSRLLVSASQ
+DGKLIIWDSYTTNKVHAIPLRSSWVMTCAYAPSGNYVACGGLDNICSIYNLKTREGNVRVSRELAGHTGYLSCCRFLDDN
+QIVTSSGDTTCALWDIETGQQTTTFTGHTGDVMSLSLAPDTRLFVSGACDASAKLWDVREGMCRQTFTGHESDINAICFF
+PNGNAFATGSDDATCRLFDLRADQELMTYSHDNIICGITSVSFSKSGRLLLAGYDDFNCNVWDALKADRAGVLAGHDNRV
+SCLGVTDDGMAVATGSWDSFLKIWN</string>
+                    <external_references type="UNIPROTKB">P62873</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007861143</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MASNNTASIAQARKLVEQLKMEANIDRIKVSKAAADLMAYCEAHAKEDPLLTPVPASENPFREKKFFCAIL</string>
+                    <external_references type="UNIPROTKB">P59768</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Mas-related G-protein coupled receptor member X1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.036299879</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="7108">Spodoptera frugiperda</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GPDPTISTLDTELTPINGTEETLCYKQTLSLTVLTCIVSLVGLTGNAVVLWLLGCRMRRNAFSIYILNLAAADFLFLSGR
+LIYSLLSFISIPHTISKILYPVMMFSYFAGLSFLSAVSTERCLSVLWPIWYRCHRPTHLSAVVCVLLWALSLLRSILEWM
+LCGFLFSGADSAWCQTSDFITVAWLIFLCVVLCGSSLVLLIRILCGSRKIPLTRLYVTILLTVLVFLLCGLPFGIQFFLF
+LWIHVDREVLFCHVHLVSIFLSALNSSANPIIYFFVGSFRQRQNRQNLKLVLQRALQDASEVDEGGGQLPEEILELSGSR
+LEQ</string>
+                    <external_references type="UNIPROTKB">Q96LB2</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="5">
+                <name>N-{2-[(1-aminoisoquinolin-6-yl)oxy]-4-methylphenyl}-2-methoxybenzene-1-sulfonamide</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00043549599999999995</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>U2U</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE-PROPANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TALOS ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.1</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">3.6</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">45.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.25</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>116978</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="95552">
+        <file>emd_27754.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>288</col>
+            <row>288</row>
+            <sec>288</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>288</x>
+            <y>288</y>
+            <z>288</z>
+        </spacing>
+        <cell>
+            <a units="Å">253.44</a>
+            <b units="Å">253.44</b>
+            <c units="Å">253.44</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.025849959</minimum>
+            <maximum>1.8649874</maximum>
+            <average>0.001163449</average>
+            <std>0.02265513</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.88</x>
+            <y units="Å">0.88</y>
+            <z units="Å">0.88</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.1</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-27754::::</label>
+        <annotation_details>CryoEM structure of Gq-coupled MRGPRX1 with ligand Compound-16</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_27754_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="95552">
+                <file>emd_27754_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>288</col>
+                    <row>288</row>
+                    <sec>288</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>288</x>
+                    <y>288</y>
+                    <z>288</z>
+                </spacing>
+                <cell>
+                    <a units="Å">253.44</a>
+                    <b units="Å">253.44</b>
+                    <c units="Å">253.44</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.8386965</minimum>
+                    <maximum>2.8845665</maximum>
+                    <average>-0.0033853191</average>
+                    <std>0.063056365</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.88</x>
+                    <y units="Å">0.88</y>
+                    <z units="Å">0.88</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-27754::::</label>
+                <annotation_details>Additional Map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="95552">
+                <file>emd_27754_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>288</col>
+                    <row>288</row>
+                    <sec>288</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>288</x>
+                    <y>288</y>
+                    <z>288</z>
+                </spacing>
+                <cell>
+                    <a units="Å">253.44</a>
+                    <b units="Å">253.44</b>
+                    <c units="Å">253.44</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.80098104</minimum>
+                    <maximum>1.5090386</maximum>
+                    <average>-0.0019328165</average>
+                    <std>0.069165684</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.88</x>
+                    <y units="Å">0.88</y>
+                    <z units="Å">0.88</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-27754::::</label>
+                <annotation_details>Half Map 2</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="95552">
+                <file>emd_27754_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>288</col>
+                    <row>288</row>
+                    <sec>288</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>288</x>
+                    <y>288</y>
+                    <z>288</z>
+                </spacing>
+                <cell>
+                    <a units="Å">253.44</a>
+                    <b units="Å">253.44</b>
+                    <c units="Å">253.44</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.83839583</minimum>
+                    <maximum>1.5094371</maximum>
+                    <average>-0.0019276764</average>
+                    <std>0.0689428</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.88</x>
+                    <y units="Å">0.88</y>
+                    <z units="Å">0.88</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-27754::::</label>
+                <annotation_details>Half Map 1</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

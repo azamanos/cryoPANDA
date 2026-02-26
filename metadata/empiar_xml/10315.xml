@@ -1,0 +1,95 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10315" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-07-19</depositionDate>
+            <releaseDate>2020-07-30</releaseDate>
+            <updateDate>2021-08-25</updateDate>
+        </keyDates>
+        <title>Cryo electron microscopy of RyR1 in the presence and abscence of Ca, Caffeine and ATP ligands</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-9946-3889</authorORCID>
+            <firstName>Abbas</firstName>
+            <lastName>Ourmazd</lastName>
+            <organization type="academic">Physics Department, University of Wisconsin Milwaukee</organization>
+            <street>3153 N. Maryland Ave.</street>
+            <townOrCity>Milwaukee</townOrCity>
+            <stateOrProvince>WI</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>53211</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-9946-3889</authorORCID>
+            <firstName>Abbas</firstName>
+            <lastName>Ourmazd</lastName>
+            <organization type="academic">Physics Department, University of Wisconsin Milwaukee</organization>
+            <street>3153N. Maryland Ave</street>
+            <townOrCity>Milwaukee</townOrCity>
+            <stateOrProvince>Wi</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>53217</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-7032-0913">Dashti A</author>
+        </authorsList>
+        <datasetSize units="GB">334.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10315</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-20486</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-7032-0913" order="1">Dashti A</author>
+                    <author order="2">Mashayekhi G</author>
+                    <author authorORCID="0000-0001-8089-8858" order="3">Shekhar M</author>
+                    <author authorORCID="0000-0002-8210-3446" order="4">Ben Hail D</author>
+                    <author order="5">Salah S</author>
+                    <author authorORCID="0000-0003-2350-8838" order="6">Schwander P</author>
+                    <author authorORCID="0000-0002-9704-3781" order="7">des Georges A</author>
+                    <author authorORCID="0000-0002-9000-2397" order="8">Singharoy A</author>
+                    <author authorORCID="0000-0001-5449-6943" order="9">Frank J</author>
+                    <author authorORCID="0000-0001-9946-3889" order="10">Ourmazd A</author>
+                    <editor order="1">Kuehnel K</editor>
+                    <title>Retrieving functional pathways of biomolecules from single-particle snapshots</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>1</issue>
+                    <volume>11</volume>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-020-18403-x</externalReferences>
+                    <externalReferences type="pubmed">32948759</externalReferences>
+                    <details>A primary reason for the sustained interest in structural biology is the belief that knowledge of structure can elucidate macromolecular functions in living organisms.  Sustained effort has resulted in a sophisticated arsenal of tools for determining the static structure of macromolecules.  But as recognized long ago 1, under physiological conditions, macromolecules undergo continuous conformational changes, a subset of which are functionally relevant.  Techniques for capturing the continuous conformational changes underlying function are essential for further progress.  Here, we present all-atoms conformational movies of biological function, extracted data-analytically from experimental single-particle cryo-EM snapshots of ryanodine receptor type 1 (RyR1), a calcium-activated calcium channel engaged in the binding of ligands 2.  The functional motions, which unfold on two energy landscapes, differ substantially from those inferred from static structures.  The differences include the conformationally active structural domains, the nature, sequence, and extent of conformational motions involved in ligand binding, and the way allosteric signals are transduced within and between domains.  Our approach highlights the importance of combining experiment, advanced data analysis, and molecular simulations.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned stacks of images for both -/+ Ligand RyR1 datasets</name>
+        <directory>/data/data</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>SPIDER</headerFormat>
+        <dataFormat>SPIDER</dataFormat>
+        <numImagesOrTiltSeries>791956</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>336</imageWidth>
+            <pixelWidth>1.255</pixelWidth>
+            <imageHeight>336</imageHeight>
+            <pixelHeight>1.255</pixelHeight>
+        </dimensions>
+        <details>This folder contains two stacks of picked particles and their alignments per bioRxiv, 291922.  
+1. the RyR1 in the absence of the ligands (stack_align_new.spi) with 431,231 particles
+2. RyR1 in the presence of Ca, ATP and Caffeine (stack_aligned_2.spi) with 360,725 particles</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/data/stack_aligned_new.spi</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/data/align_param_new_df.spi</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/data</pickedParticlesDirectory>
+    </imageSet>
+</entry>

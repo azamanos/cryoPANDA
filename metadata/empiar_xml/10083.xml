@@ -1,0 +1,99 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10083" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2017-02-16</depositionDate>
+            <releaseDate>2017-03-13</releaseDate>
+            <updateDate>2017-03-13</updateDate>
+        </keyDates>
+        <title>Bacteriophage P22 mature virion capsid protein</title>
+        <correspondingAuthor private="true">
+            <firstName>Wah</firstName>
+            <lastName>Chiu</lastName>
+            <organization type="academic">Baylor College of Medicine</organization>
+            <street>One Baylor Plaza</street>
+            <townOrCity>Houston</townOrCity>
+            <stateOrProvince>Texas</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>77030</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Wah</firstName>
+            <lastName>Chiu</lastName>
+            <organization type="academic">Baylor College of Medicine</organization>
+            <street>One Baylor Plaza</street>
+            <townOrCity>Houston</townOrCity>
+            <stateOrProvince>Texas</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>77030</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Hryc CF</author>
+            <author>Chen D-H</author>
+            <author>Afonine PV</author>
+            <author>Jakana J</author>
+            <author>Wang Z</author>
+            <author>Haase-Pettingell C</author>
+            <author>Jiang W</author>
+            <author>Adams PD</author>
+            <author>King JA</author>
+            <author>Schmid MF</author>
+            <author>Chiu W</author>
+        </authorsList>
+        <datasetSize units="GB">159.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10083</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-8606</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Chen DH</author>
+                    <author order="2">Afonine PV</author>
+                    <author order="3">Jakana J</author>
+                    <author order="4">Wang Z</author>
+                    <author order="5">Haase-Pettingell C</author>
+                    <author order="6">Jiang W</author>
+                    <author order="7">Adams PD</author>
+                    <author order="8">King JA</author>
+                    <author order="9">Schmid MF</author>
+                    <author order="10">Chiu W</author>
+                    <title>Accurate model annotation of a near-atomic resolution cryo-EM map</title>
+                    <journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+                    <journalAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</journalAbbreviation>
+                    <country>United States</country>
+                    <year>2017</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1073/pnas.1621152114</externalReferences>
+                    <externalReferences type="pubmed">28270620</externalReferences>
+                    <details>The particle images with the box size of 864x864 were drift corrected and damage compensated for each particle image using the program of DE_process_frames.py. The defocus valuves were determined by ctffind3 and averaging by 2 the two defocus values from ctffind3. The parameters in EMAN1 format were stored in the header of each hed/img file.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Corrected images of P22 Mature Phage</name>
+        <directory>/data/donghua</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>IMAGIC</headerFormat>
+        <dataFormat>IMAGIC</dataFormat>
+        <numImagesOrTiltSeries>45150</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>6</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>864</imageWidth>
+            <pixelWidth>1.07</pixelWidth>
+            <imageHeight>864</imageHeight>
+            <pixelHeight>1.07</pixelHeight>
+        </dimensions>
+        <details>The particle images with the box size of 864x864 were drift corrected and damage compensated for each particle image using the program of DE_process_frames.py. The defocus valuves were determined by ctffind3 and averaging by 2 the two defocus values from ctffind3. The parameters in EMAN1 format were stored in the header of each hed/img file.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

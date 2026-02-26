@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-0259">
+    <admin>
+        <current_status>
+            <date>2024-07-10</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2018-09-26</deposition>
+            <header_release>2018-10-10</header_release>
+            <map_release>2018-10-10</map_release>
+            <update>2024-07-10</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Medical Research Council (United Kingdom)</funding_body>
+                <code>MC_U105184291</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Medical Research Council (United Kingdom)</funding_body>
+                <code>MC_UP_A025_1013</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute on Aging (NIH/NIA)</funding_body>
+                <code>P30-AG010133</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Union</funding_body>
+                <code>Joint Programme-Neurodegeneration Research</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Union</funding_body>
+                <code>Horizon 2020 IMPRiND</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>Paired helical filament from sporadic Alzheimer's disease brain</title>
+        <authors_list>
+            <author>Falcon B</author>
+            <author>Zhang W</author>
+        </authors_list>
+        <keywords>Tau, helical, filament, fibril, amyloid, Alzheimer's disease, PHF, paired helical filament, NFT, neurofibrillary tangly, PROTEIN FIBRIL</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-8176-2618" order="1">Falcon B</author>
+                    <author order="2">Zhang W</author>
+                    <author ORCID="0000-0002-1848-1610" order="3">Schweighauser M</author>
+                    <author order="4">Murzin AG</author>
+                    <author ORCID="0000-0002-5803-3871" order="5">Vidal R</author>
+                    <author order="6">Garringer HJ</author>
+                    <author ORCID="0000-0002-1842-8019" order="7">Ghetti B</author>
+                    <author ORCID="0000-0002-0462-6540" order="8">Scheres SHW</author>
+                    <author ORCID="0000-0002-5214-7886" order="9">Goedert M</author>
+                    <title>Tau filaments from multiple cases of sporadic and inherited Alzheimer's disease adopt a common fold.</title>
+                    <journal_abbreviation>Acta Neuropathol.</journal_abbreviation>
+                    <country>DE</country>
+                    <volume>136</volume>
+                    <first_page>699</first_page>
+                    <last_page>708</last_page>
+                    <year>2018</year>
+                    <external_references type="PUBMED">30276465</external_references>
+                    <external_references type="DOI">doi:10.1007/s00401-018-1914-z</external_references>
+                    <external_references type="ISSN">1432-0533</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-3741</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>EMD-3741 contains the tau paired helical filament from a different case of sporadic Alzheimer's disease</details>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6hre</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Tau filaments extracted from the frontotemporal cortex of a patient with sporadic Alzheimer's disease</name>
+        <supramolecule_list>
+            <tissue_supramolecule supramolecule_id="1">
+                <name>Tau filaments extracted from the frontotemporal cortex of a patient with sporadic Alzheimer's disease</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                    <organ>Brain</organ>
+                    <tissue>Frontotemporal cortex</tissue>
+                </natural_source>
+            </tissue_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Microtubule-associated protein tau</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                    <tissue>Brain</tissue>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.045919870999999994</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAEPRQEFEVMEDHAGTYGLGDRKDQGGYTMHQDQEGDTDAGLKESPLQTPTEDGSEEPGSETSDAKSTPTAEDVTAPLV
+DEGAPGKQAAAQPHTEIPEGTTAEEAGIGDTPSLEDEAAGHVTQARMVSKSKDGTGSDDKKAKGADGKTKIATPRGAAPP
+GQKGQANATRIPAKTPPAPKTPPSSGEPPKSGDRSGYSSPGSPGTPGSRSRTPSLPTPPTREPKKVAVVRTPPKSPSSAK
+SRLQTAPVPMPDLKNVKSKIGSTENLKHQPGGGKVQIINKKLDLSNVQSKCGSKDNIKHVPGGGSVQIVYKPVDLSKVTS
+KCGSLGNIHHKPGGGQVEVKSEKLDFKDRVQSKIGSLDNITHVPGGGNKKIETHKLTFRENAKAKTDHGAEIVYKSPVVS
+GDTSPRHLSNVSSTGSIDMVDSPQLATLADEVSASLAKQGL</string>
+                    <external_references type="UNIPROTKB">P10636</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>tissue</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.5</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>Tris-HCl</formula>
+                        </component>
+                        <component>
+                            <concentration units="mM">100.0</concentration>
+                            <formula>NaCl</formula>
+                        </component>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                    <details>Dispersed filaments</details>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">1.7</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.8000000000000003</nominal_defocus_max>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Quantum LS</name>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 QUANTUM (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <average_electron_dose_per_image units="e/Å^2">1.2</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">2.37</delta_z>
+                            <delta_phi units="deg">179.45</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.2</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>95917</number_images_used>
+                </final_reconstruction>
+                <startup_model type_of_model="INSILICO MODEL"/>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="78733">
+        <file>emd_0259.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>270</col>
+            <row>270</row>
+            <sec>270</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>270</x>
+            <y>270</y>
+            <z>270</z>
+        </spacing>
+        <cell>
+            <a units="Å">310.5</a>
+            <b units="Å">310.5</b>
+            <c units="Å">310.5</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.07166</minimum>
+            <maximum>0.14379393</maximum>
+            <average>0.00032994294</average>
+            <std>0.0072139944</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.15</x>
+            <y units="Å">1.15</y>
+            <z units="Å">1.15</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.02</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-0259::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+                <details>Fourier-space refinement of the complete atomic model against the narrow Pick filament map was performed in REFMAC. A stack of three consecutive monomers was refined to preserve nearest-neighbour interactions for the middle chain.</details>
+                <target_criteria>Fourier shell correlation</target_criteria>
+                <refinement_space>RECIPROCAL</refinement_space>
+                <overall_bvalue>72.799999999999997</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_0259_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="78733">
+                <file>emd_0259_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>270</col>
+                    <row>270</row>
+                    <sec>270</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>270</x>
+                    <y>270</y>
+                    <z>270</z>
+                </spacing>
+                <cell>
+                    <a units="Å">280.8</a>
+                    <b units="Å">280.8</b>
+                    <c units="Å">280.8</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.01920799</minimum>
+                    <maximum>0.030003235</maximum>
+                    <average>0.0001414413</average>
+                    <std>0.0014934206</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.04</x>
+                    <y units="Å">1.04</y>
+                    <z units="Å">1.04</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-0259::::</label>
+                <annotation_details>Half map 2</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="78733">
+                <file>emd_0259_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>270</col>
+                    <row>270</row>
+                    <sec>270</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>270</x>
+                    <y>270</y>
+                    <z>270</z>
+                </spacing>
+                <cell>
+                    <a units="Å">280.8</a>
+                    <b units="Å">280.8</b>
+                    <c units="Å">280.8</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.02027719</minimum>
+                    <maximum>0.031030996</maximum>
+                    <average>0.00014038547</average>
+                    <std>0.0014738921</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.04</x>
+                    <y units="Å">1.04</y>
+                    <z units="Å">1.04</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-0259::::</label>
+                <annotation_details>Half map 1</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_7/emdb.xsd" emdb_id="EMD-8731" version="3.0.1.7">
+    <admin>
+        <current_status>
+            <date>2020-01-29</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2017-05-14</deposition>
+            <header_release>2017-06-14</header_release>
+            <map_release>2017-06-14</map_release>
+            <update>2020-01-29</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Agency for Science, Technology and Research Singapore</funding_body>
+                <country>Singapore</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>US National Institutes of Health (NIH)</funding_body>
+                <code>DP5 OD021396-01</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Leona M. and Harry B. Helmsley Charitable Trust Grant</funding_body>
+                <code>2017-PG-MED001</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institute of Aging K99 transitional award</funding_body>
+                <code>AG050749</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Jane Coffin Childs Foundation post-doctoral fellowship</funding_body>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>GM053757</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>GM103310</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Simons Foundation</funding_body>
+                <code>349247</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Influenza hemagglutinin (HA) trimer reconstruction at 4.2 Angstrom resolution using particles from micrographs tilted at 40 degrees</title>
+        <authors_list>
+            <author>Tan Y</author>
+            <author>Baldwin PR</author>
+            <author>Potter CS</author>
+            <author>Carragher B</author>
+            <author>Lyumkis D</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Tan YZ</author>
+                    <author order="2">Baldwin PR</author>
+                    <author order="3">Davis JH</author>
+                    <author order="4">Williamson JR</author>
+                    <author order="5">Potter CS</author>
+                    <author order="6">Carragher B</author>
+                    <author order="7">Lyumkis D</author>
+                    <title>Addressing preferred specimen orientation in single-particle cryo-EM through tilting.</title>
+                    <journal_abbreviation>Nat. Methods</journal_abbreviation>
+                    <country>US</country>
+                    <volume>14</volume>
+                    <first_page>793</first_page>
+                    <last_page>796</last_page>
+                    <year>2017</year>
+                    <external_references type="PUBMED">28671674</external_references>
+                    <external_references type="DOI">doi:10.1038/nmeth.4347</external_references>
+                    <external_references type="ISSN">1548-7105</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-8731</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Influenza hemagglutinin (HA) trimer</name>
+        <supramolecule_list>
+            <organelle_or_cellular_component_supramolecule supramolecule_id="1">
+                <name>Influenza hemagglutinin (HA) trimer</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>A/Hong Kong/1/1968 (H3N2), obtained commercially from MyBioSource, catalog MBS434205</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="506350">Influenza A virus (A/Hong Kong/1/1968(H3N2))</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.15</theoretical>
+                </molecular_weight>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                    <recombinant_strain>HEK293</recombinant_strain>
+                </recombinant_expression>
+            </organelle_or_cellular_component_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Influenza hemagglutinin (HA) Trimer A/Hong Kong/1/1968 H3N2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="506350">Influenza A virus (A/Hong Kong/1/1968(H3N2))</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>QDLPGNDNSTATLCLGHHAVPNGTLVKTITDDQIEVTNATELVQSSSTGKICNNPHRILDGIDCTLIDALLGDPHCDVFQNETWDLFVERSKAFSNCYPYDVPDYASLRSLVASSGTLEFITEGFTWTGVTQNGGSNACKRGPGSGFFSRLNWLTKSGSTYPVLNVTMPNNDNFDKLYIWGVHHPSTNQEQTSLYVQASGRVTVSTRRSQQTIIPNIGSRPWVRGLSSRISIYWTIVKPGDVLVINSNGNLIAPRGYFKMRTGKSSIMRSDAPIDTCISECITPNGSIPNDKPFQNVNKITYGACPKYVKQNTLKLATGMRNVPEKQTRGLFGAIAGFIENGWEGMIDGWYGFRHQNSEGTGQAADLKSTQAAIDQINGKLNRVIEKTNEKFHQIEKEFSEVEGRIQDLEKYVEDTKIDLWSYNAELLVALENQHTIDLTDSEMNKLFEKTRRQLRENAEDMGNGCFKIYHKCDNACIESIRNGTYDHDVYRDEALNNRFQIKGVELKSGYKD</string>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.75</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                        <component>
+                            <concentration units="mM">137.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>Sodium Chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">2.7</concentration>
+                            <formula>KCl</formula>
+                            <name>Potassium Chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <formula>Na2HPO4</formula>
+                            <name>Disodium Phosphate</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.8</concentration>
+                            <formula>KH2PO4</formula>
+                            <name>Monopotassium Phosphate</name>
+                        </component>
+                        <details>PBS Buffer</details>
+                    </buffer>
+                    <grid>
+                        <model>C-Flat CF-1.2/1.3-4Au</model>
+                        <material>GOLD</material>
+                        <mesh>400</mesh>
+                        <support_film film_type_id="1">
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>PLASMA CLEANING</type>
+                            <atmosphere>OTHER</atmosphere>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">80</chamber_humidity>
+                        <chamber_temperature units="K">298</chamber_temperature>
+                        <instrument>GATAN CRYOPLUNGE 3</instrument>
+                        <details>3 microliters of 0.75 mg/mL sample was added to a plasma-cleaned (Gatan Solarus) 1.2-micron-hole, 1.3-micron-spacing holey gold grid (made in-house) and plunge-frozen in liquid ethane using the Cryoplunge 3 system (Gatan) operating at 80% humidity, 298K ambient temperature.. </details>
+                    </vitrification>
+                    <details>Fraction was obtained directly from a sucrose gradient, and was spin-concentrated in a 100 kDa MW-cutoff filter.</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">100.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">3.5</nominal_defocus_max>
+                    <nominal_magnification>22500.0</nominal_magnification>
+                    <calibrated_magnification>38167.0</calibrated_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <zemlin_tableau/>
+                    </alignment_procedure>
+                    <details>In order to account for highly preferred orientations of the specimen, data were acquired using tilts of 40 degrees. The CTF was estimated on a per-particle basis to account for the gradient of CTF values across individual micrographs.</details>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">3710</width>
+                                    <height units="pixel">3838</height>
+                                </dimensions>
+                                <sampling_interval units="µm">5.0</sampling_interval>
+                                <frames_per_image>1-100</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>2</number_grids_imaged>
+                            <number_real_images>847</number_real_images>
+                            <average_exposure_time units="s">20.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">82.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>287820</number_selected>
+                    <details>287820 particles were picked using Gautomatch with templates made from an initial 2D classification of a subset of the particles. These particles were put through 2D classification to produce 158432 particles.</details>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>Gctf</name>
+                            <version>0.5</version>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>Ab initio model was produced using CryoSPARC using the 158432 particles.</insilico_model>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C3</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">4.2</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2</version>
+                        </software>
+                    </software_list>
+                    <details>Directional anisotropy is present in the resolution, with a range from 3.7 to 5.5 Angstrom, 3D FSC sphericity of 0.97, and map-to-model resolution of 4.4 Angstrom.</details>
+                    <number_images_used>158432</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_8731.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">335.36</a>
+            <b units="Å">335.36</b>
+            <c units="Å">335.36</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.071533866</minimum>
+            <maximum>0.13927907</maximum>
+            <average>-0.00001959061</average>
+            <std>0.004145391</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.31</x>
+            <y units="Å">1.31</y>
+            <z units="Å">1.31</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0367</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-8731::::</label>
+        <annotation_details>Influenza hemagglutinin (HA) trimer reconstruction at 4.2 Angstrom resolution using particles from micrographs tilted at 40 degrees, sharpened using a B-factor of 320</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_8731_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="67109">
+                <file>emd_8731_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">335.36</a>
+                    <b units="Å">335.36</b>
+                    <c units="Å">335.36</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.008629856</minimum>
+                    <maximum>0.06308579</maximum>
+                    <average>-0.00001949124</average>
+                    <std>0.002482918</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.31</x>
+                    <y units="Å">1.31</y>
+                    <z units="Å">1.31</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-8731::::</label>
+                <annotation_details>Influenza hemagglutinin (HA) trimer reconstruction at 4.2 Angstrom resolution using particles from micrographs tilted at 40 degrees, unsharpened</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="11697">
+                <file>emd_8731_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>143</col>
+                    <row>143</row>
+                    <sec>143</sec>
+                </dimensions>
+                <origin>
+                    <col>-72</col>
+                    <row>-72</row>
+                    <sec>-72</sec>
+                </origin>
+                <spacing>
+                    <x>143</x>
+                    <y>143</y>
+                    <z>143</z>
+                </spacing>
+                <cell>
+                    <a units="Å">187.32999</a>
+                    <b units="Å">187.32999</b>
+                    <c units="Å">187.32999</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0</minimum>
+                    <maximum>1</maximum>
+                    <average>0.045838326</average>
+                    <std>0.17125797</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.31</x>
+                    <y units="Å">1.31</y>
+                    <z units="Å">1.31</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-8731::::</label>
+                <annotation_details>Influenza hemagglutinin (HA) trimer reconstruction at 4.2 Angstrom resolution using particles from micrographs tilted at 40 degrees, map-to-model 3DFSC, thresholded at 0.5</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="11697">
+                <file>emd_8731_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>143</col>
+                    <row>143</row>
+                    <sec>143</sec>
+                </dimensions>
+                <origin>
+                    <col>-72</col>
+                    <row>-72</row>
+                    <sec>-72</sec>
+                </origin>
+                <spacing>
+                    <x>143</x>
+                    <y>143</y>
+                    <z>143</z>
+                </spacing>
+                <cell>
+                    <a units="Å">187.32999</a>
+                    <b units="Å">187.32999</b>
+                    <c units="Å">187.32999</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>0</minimum>
+                    <maximum>1</maximum>
+                    <average>0.08315212</average>
+                    <std>0.2359162</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.31</x>
+                    <y units="Å">1.31</y>
+                    <z units="Å">1.31</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-8731::::</label>
+                <annotation_details>Influenza hemagglutinin (HA) trimer reconstruction at 4.2 Angstrom resolution using particles from micrographs tilted at 40 degrees, half-map 3DFSC, thresholded at 0.143</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="11697">
+                <file>emd_8731_additional_4.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>143</col>
+                    <row>143</row>
+                    <sec>143</sec>
+                </dimensions>
+                <origin>
+                    <col>-71</col>
+                    <row>-71</row>
+                    <sec>-71</sec>
+                </origin>
+                <spacing>
+                    <x>143</x>
+                    <y>143</y>
+                    <z>143</z>
+                </spacing>
+                <cell>
+                    <a units="Å">187.32999</a>
+                    <b units="Å">187.32999</b>
+                    <c units="Å">187.32999</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.17322367</minimum>
+                    <maximum>1</maximum>
+                    <average>0.07197801</average>
+                    <std>0.19182976</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.31</x>
+                    <y units="Å">1.31</y>
+                    <z units="Å">1.31</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-8731::::</label>
+                <annotation_details>Influenza hemagglutinin (HA) trimer reconstruction at 4.2 Angstrom resolution using particles from micrographs tilted at 40 degrees, map-to-model 3DFSC, raw</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="11697">
+                <file>emd_8731_additional_5.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>143</col>
+                    <row>143</row>
+                    <sec>143</sec>
+                </dimensions>
+                <origin>
+                    <col>-71</col>
+                    <row>-71</row>
+                    <sec>-71</sec>
+                </origin>
+                <spacing>
+                    <x>143</x>
+                    <y>143</y>
+                    <z>143</z>
+                </spacing>
+                <cell>
+                    <a units="Å">187.32999</a>
+                    <b units="Å">187.32999</b>
+                    <c units="Å">187.32999</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.18454453</minimum>
+                    <maximum>1</maximum>
+                    <average>0.08620734</average>
+                    <std>0.23714294</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.31</x>
+                    <y units="Å">1.31</y>
+                    <z units="Å">1.31</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-8731::::</label>
+                <annotation_details>Influenza hemagglutinin (HA) trimer reconstruction at 4.2 Angstrom resolution using particles from micrographs tilted at 40 degrees, half-map 3DFSC, raw</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_8731_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">335.36</a>
+                    <b units="Å">335.36</b>
+                    <c units="Å">335.36</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.011862308</minimum>
+                    <maximum>0.06730088</maximum>
+                    <average>-0.00001842417</average>
+                    <std>0.0025864898</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.31</x>
+                    <y units="Å">1.31</y>
+                    <z units="Å">1.31</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-8731::::</label>
+                <annotation_details>Influenza hemagglutinin (HA) trimer reconstruction at 4.2 Angstrom resolution using particles from micrographs tilted at 40 degrees, half map 1</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_8731_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">335.36</a>
+                    <b units="Å">335.36</b>
+                    <c units="Å">335.36</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.013026363</minimum>
+                    <maximum>0.06625888</maximum>
+                    <average>-0.00001812810</average>
+                    <std>0.002584418</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.31</x>
+                    <y units="Å">1.31</y>
+                    <z units="Å">1.31</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-8731::::</label>
+                <annotation_details>Influenza hemagglutinin (HA) trimer reconstruction at 4.2 Angstrom resolution using particles from micrographs tilted at 40 degrees, half map 2</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

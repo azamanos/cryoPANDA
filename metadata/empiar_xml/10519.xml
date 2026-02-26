@@ -1,0 +1,92 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10519" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-09-28</depositionDate>
+            <releaseDate>2020-10-09</releaseDate>
+            <updateDate>2022-02-25</updateDate>
+        </keyDates>
+        <title>Single particle cryo electron microscopy of aldolase (rabbit, muscle) using beam-tilt on Talos Arctica</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-5640-909X</authorORCID>
+            <firstName>Sarah</firstName>
+            <lastName>Kearns</lastName>
+            <organization type="academic">University of Michigan, Ann Arbor</organization>
+            <street>210 Washtenaw Ave</street>
+            <townOrCity>Ann Arbor</townOrCity>
+            <stateOrProvince>MI</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>48106</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-2067-4999</authorORCID>
+            <firstName>Michael</firstName>
+            <lastName>Cianfrocco</lastName>
+            <organization type="academic">Department of Biological Chemistry</organization>
+            <street>1150 W. Medical Center Dr. 5301 MSRB III</street>
+            <townOrCity>Ann Arbor</townOrCity>
+            <stateOrProvince>MI</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>48109</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-5640-909X">Kearns S</author>
+            <author authorORCID="0000-0002-2067-4999">Cianfrocco MA</author>
+        </authorsList>
+        <datasetSize units="GB">87.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10519</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-22754</emdbEntry>
+            <emdbEntry>EMD-22755</emdbEntry>
+            <emdbEntry>EMD-22756</emdbEntry>
+            <emdbEntry>EMD-22757</emdbEntry>
+            <emdbEntry>EMD-22758</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-0277-7652" order="1">Cash JN</author>
+                    <author authorORCID="0000-0001-5640-909X" order="2">Kearns S</author>
+                    <author authorORCID="0000-0002-6280-8019" order="3">Li Y</author>
+                    <author authorORCID="0000-0002-2067-4999" order="4">Cianfrocco MA</author>
+                    <title>High-resolution cryo-EM using beam-image shift at 200 keV</title>
+                    <journal>IUCrJ</journal>
+                    <journalAbbreviation>IUCrJ</journalAbbreviation>
+                    <country></country>
+                    <issue>Pt 6</issue>
+                    <volume>7</volume>
+                    <firstPage>1179</firstPage>
+                    <lastPage>1187</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1107/s2052252520013482</externalReferences>
+                    <externalReferences type="pubmed">33209328</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned micrographs of aldolase collected with beam-tilt at 200 kV</name>
+        <directory>/data/Movies</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1625</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>0.91</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>0.91</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Movies/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

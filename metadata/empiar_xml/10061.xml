@@ -1,0 +1,117 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10061" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2016-04-11</depositionDate>
+            <releaseDate>2016-04-15</releaseDate>
+            <updateDate>2019-08-24</updateDate>
+        </keyDates>
+        <title>2.2 A resolution cryo-EM structure of beta-galactosidase in complex with a cell-permeant inhibitor</title>
+        <correspondingAuthor private="true">
+            <firstName>Sriram</firstName>
+            <lastName>Subramaniam</lastName>
+            <organization type="academic">LCB/NCI/NIH</organization>
+            <street>50 South Drive, MSC 8008</street>
+            <townOrCity>BETHESDA</townOrCity>
+            <stateOrProvince>MD</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>20892</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Sriram</firstName>
+            <lastName>Subramaniam</lastName>
+            <organization type="academic">LCB/NCI/NIH</organization>
+            <street>50 South Drive, MSC 8008</street>
+            <townOrCity>BETHESDA</townOrCity>
+            <stateOrProvince>MD</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>20892</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Bartesaghi A</author>
+            <author>Merk A</author>
+            <author>Banerjee S</author>
+            <author>Matthies D</author>
+            <author>Wu X</author>
+            <author>Milne JL</author>
+            <author>Subramaniam S</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2016-05-13</date>
+                <statusCode>REL</statusCode>
+                <details>Added the particle coordinates in EMD-2984_boxes.tbz archive.</details>
+            </version>
+        </versionHistory>
+        <datasetSize units="TB">12.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10061</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-2984</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Bartesaghi A</author>
+                    <author order="2">Merk A</author>
+                    <author order="3">Banerjee S</author>
+                    <author order="4">Matthies D</author>
+                    <author order="5">Wu X</author>
+                    <author order="6">Milne JL</author>
+                    <author order="7">Subramaniam S</author>
+                    <title>2.2 Å resolution cryo-EM structure of β-galactosidase in complex with a cell-permeant inhibitor</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country></country>
+                    <issue>6239</issue>
+                    <volume>348</volume>
+                    <firstPage>1147</firstPage>
+                    <lastPage>1151</lastPage>
+                    <year>2015</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.aab1576</externalReferences>
+                    <externalReferences type="pubmed">25953817</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Averages of aligned movie frames</name>
+        <directory>/data/Micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1539</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>7676</imageWidth>
+            <pixelWidth>0.3185</pixelWidth>
+            <imageHeight>7420</imageHeight>
+            <pixelHeight>0.3185</pixelHeight>
+        </dimensions>
+        <details>Micrographs are the average of frames 1-38 after alignment. The particle coordinates are located in EMD-2984_boxes.tbz archive. There is one file for each micrograph containing the coordinates stored in EMAN's box format.</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Raw movie frames</name>
+        <directory>/data/Movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1539</numImagesOrTiltSeries>
+        <framesPerImage>38</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>7676</imageWidth>
+            <pixelWidth>0.3185</pixelWidth>
+            <imageHeight>7420</imageHeight>
+            <pixelHeight>0.3185</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+</entry>

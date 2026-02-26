@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-45981">
+    <admin>
+        <current_status>
+            <date>2024-11-13</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2024-07-30</deposition>
+            <header_release>2024-10-30</header_release>
+            <map_release>2024-10-30</map_release>
+            <update>2024-11-13</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Howard Hughes Medical Institute (HHMI)</funding_body>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Medusavirus Nucleosome Core Particle Native</title>
+        <authors_list>
+            <author ORCID="0000-0002-2409-5177">Toner CM</author>
+            <author ORCID="0000-0001-5136-5331">Luger K</author>
+        </authors_list>
+        <keywords>DNA Protein Complex, Nucleosome, Giant Virus, NCLDV, DNA BINDING PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-2409-5177" order="1">Toner CM</author>
+                    <author ORCID="0000-0003-1538-6367" order="2">Hoitsma NM</author>
+                    <author order="3">Weerawarana S</author>
+                    <author ORCID="0000-0001-5136-5331" order="4">Luger K</author>
+                    <title>Characterization of Medusavirus encoded histones reveals nucleosome-like structures and a unique linker histone.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>15</volume>
+                    <first_page>9138</first_page>
+                    <last_page>9138</last_page>
+                    <year>2024</year>
+                    <external_references type="PUBMED">39443461</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-024-53364-5</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-42053</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>Map from which 8UA7 was derived</details>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Medusavirus Nucleosome Core Particle</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Medusavirus Nucleosome Core Particle</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="2">
+                <name>Histone Complex</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="3044760">Medusavirus</organism>
+                </natural_source>
+            </complex_supramolecule>
+            <complex_supramolecule supramolecule_id="3">
+                <name>WIDOM 601 DNA</name>
+                <parent>1</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="32630">synthetic construct</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Histone H3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="3060194">Medusavirus medusae</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MHHHHHHGKPIPNPLLGLDSTENLYFQGIDPFTMPKERAIKKSKSAVKKVAEKKAAIKSKAKKAATGVKKPHRFRPGTTAKRLSKKEQKLSSTKTTVRRAPFGRIVRTIASLSSADSMRFSANAVDLLQQGIELYMLDLMKNAALAAKQAKRMTLMGKDIDLIQTANHEMIDEAHAAKLANTSSAGFARRRVTKKE</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Histone H4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="3060194">Medusavirus medusae</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MHHHHHHGKPIPNPLLGLDSTENLYFQGIDPFTMPKKIAARRSSKHIKNLGEEIGNSAVRKTVLRTGVVFRLDKTVRPKFHKVMLSKLYEAVNIAKLAAKHSGRSTIQPKDVRLGLKLASIKLLA</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Histone H2A</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="3060194">Medusavirus medusae</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MHHHHHHGKPIPNPLLGLDSTENLYFQGIDPFTMEIDSHVQPAEVLAAASESMQLEEQTQLPASAAGEALEELQTEGKKTSPAKKRTSSGKNVKRANERAGLKLPPGRIQKIIKANQTTDVGRSSPTASVFLTAVIEDIVKEIIKGADKKSEERGRIRISPQDILKYLTENGEAYMHILGDAFVSHGGVGQVAEMAAAAANTGIKKRKRAASTAEGAPKKKIAKKAAAKKATGAKKVVKKKSGSTKSKTTGKSVTKKASSRKVASA</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Histone H2B</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="3060194">Medusavirus medusae</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MHHHHHHGKPIPNPLLGLDSTENLYFQGIDPFTMSQIDEHVTEMTEFEAEHESTYSEHSDEEEQELGARVPSRKQKGKAAAKKVKKAVAKKSGEERRRKKNYDSFATFIAKLVGPNGKGRKPGFSAKGMEVLESIVKSLATEMTIVANELAKHQGRQTLGAGDFRTALAVRGSLIAREPATVKALTEMGEKAVLKYQSSLGRPAKTAPKKKKATKKASA</string>
+                </sequence>
+            </protein_or_peptide>
+            <dna macromolecule_id="5">
+                <name>WIDOM 601 DNA (207 MER) strand 1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="32630">synthetic construct</organism>
+                </natural_source>
+                <details>5' - 3', double stranded</details>
+                <sequence>
+                    <string>ATCGGACCCTATCGCGAGCCAGGCCTGAGAATCCGGTGCCGAGGCCGCTCAATTGGTCGTAGACAGCTCTAGCACCGCTTAAACGCACGTACGCGCTGTCCCCCGCGTTTTAACCGCCAAGGGGATTACTCCCTAGTCTCCAGGCACGTGTCAGATATATACATCCAGGCCTTGTGTCGCGAAATTCATATTAATTAATACTAGAT</string>
+                </sequence>
+                <classification>DNA</classification>
+            </dna>
+            <dna macromolecule_id="6">
+                <name>WIDOM 601 DNA (207 MER) Strand 2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="32630">synthetic construct</organism>
+                </natural_source>
+                <sequence>
+                    <string>ATCTAGTATTAATTAATATGAATTTCGCGACACAAGGCCTGGATGTATATATCTGACACG
+TGCCTGGAGACTAGGGAGTAATCCCCTTGGCGGTTAAAACGCGGGGGACAGCGCGTACGT
+GCGTTTAAGCGGTGCTAGAGCTGTCTACGACCAATTGAGCGGCCTCGGCACCGGATTCTC
+AGGCCTGGCTCGCGATAGGGTCCGAT</string>
+                </sequence>
+                <classification>DNA</classification>
+            </dna>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.8</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>Sodium Chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <name>Tris-Hydrochloric acid</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">5.0</concentration>
+                            <name>Dithiothreitol</name>
+                        </component>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.4</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.0</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">46.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="INSILICO MODEL"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">5.1</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>72768</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_45981.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">260.352</a>
+            <b units="Å">260.352</b>
+            <c units="Å">260.352</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.23283798</minimum>
+            <maximum>0.51211643</maximum>
+            <average>0.0014235482</average>
+            <std>0.0198117</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.017</x>
+            <y units="Å">1.017</y>
+            <z units="Å">1.017</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.118</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-45981::::</label>
+        <annotation_details>Medusavirus medusae Nucleosome-like particle Native</annotation_details>
+    </map>
+    <interpretation>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_45981_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">260.352</a>
+                    <b units="Å">260.352</b>
+                    <c units="Å">260.352</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.3613435</minimum>
+                    <maximum>0.44674894</maximum>
+                    <average>0.0012339561</average>
+                    <std>0.047976166</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.017</x>
+                    <y units="Å">1.017</y>
+                    <z units="Å">1.017</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-45981::::</label>
+                <annotation_details>Medusavirus medusae Nucleosome-like particle Native half map B</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_45981_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">260.352</a>
+                    <b units="Å">260.352</b>
+                    <c units="Å">260.352</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.3659393</minimum>
+                    <maximum>0.44459933</maximum>
+                    <average>0.0012117388</average>
+                    <std>0.048419945</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.017</x>
+                    <y units="Å">1.017</y>
+                    <z units="Å">1.017</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-45981::::</label>
+                <annotation_details>Medusavirus medusae Nucleosome-like particle Native half map A</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

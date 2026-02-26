@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-51164">
+    <admin>
+        <current_status>
+            <date>2024-09-11</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2024-07-26</deposition>
+            <header_release>2024-09-11</header_release>
+            <map_release>2024-09-11</map_release>
+            <update>2024-09-11</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Austrian Science Fund</funding_body>
+                <country>Austria</country>
+            </grant_reference>
+        </grant_support>
+        <title>Nsa-Tap Pre-60S particle - cluster 1, untreated</title>
+        <authors_list>
+            <author ORCID="0000-0002-0365-5913">Grundmann L</author>
+            <author ORCID="0000-0002-5276-5633">Haselbach D</author>
+            <author ORCID="0000-0002-7724-309X">Bergler H</author>
+            <author ORCID="0000-0003-0164-9373">Grishkovskaya I</author>
+            <author ORCID="0000-0003-3904-947X">Valentin VV</author>
+        </authors_list>
+        <keywords>pre-60S, Complex, biogenesis, RIBOSOME</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Kofler L</author>
+                    <author ORCID="0000-0002-0365-5913" order="2">Grundmann L</author>
+                    <author order="3">Gerhalter M</author>
+                    <author ORCID="0000-0002-2526-9896" order="4">Prattes M</author>
+                    <author ORCID="0000-0002-3422-4083" order="5">Merl-Pham J</author>
+                    <author order="6">Zisser G</author>
+                    <author ORCID="0000-0003-0164-9373" order="7">Grishkovskaya I</author>
+                    <author ORCID="0000-0003-3904-947X" order="8">Hodirnau VV</author>
+                    <author order="9">Vareka M</author>
+                    <author ORCID="0000-0001-6009-7359" order="10">Breinbauer R</author>
+                    <author ORCID="0000-0002-1630-6827" order="11">Hauck SM</author>
+                    <author ORCID="0000-0002-5276-5633" order="12">Haselbach D</author>
+                    <author ORCID="0000-0002-7724-309X" order="13">Bergler H</author>
+                    <title>The novel ribosome biogenesis inhibitor usnic acid blocks nucleolar pre-60S maturation.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>15</volume>
+                    <first_page>7511</first_page>
+                    <last_page>7511</last_page>
+                    <year>2024</year>
+                    <external_references type="PUBMED">39209816</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-024-51754-3</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+    </crossreferences>
+    <sample>
+        <name>Nucleolar pre-60S particle</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Nucleolar pre-60S particle</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>HEPES/KOH</formula>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <formula>KCl</formula>
+                            <name>Potassium Chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">2.5</concentration>
+                            <formula>MGCl2</formula>
+                            <name>Magnesium Dichloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.0</concentration>
+                            <formula>EGTA</formula>
+                            <name>Ethylenediaminetetraacetic acid</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.0</concentration>
+                            <formula>DTT</formula>
+                            <name>Dithiothreitol</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">0.5</concentration>
+                            <formula>PMSF</formula>
+                            <name>phenylmethylsulfonyl fluoride</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R3.5/1</model>
+                        <material>COPPER</material>
+                        <mesh>200</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>CONTINUOUS</film_topology>
+                            <film_thickness>2000.0</film_thickness>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">74</chamber_humidity>
+                        <chamber_temperature units="K">277.15</chamber_temperature>
+                        <instrument>LEICA EM GP</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.5</nominal_defocus_max>
+                    <nominal_magnification>81000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>GIF Bioquantum</name>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOCONTINUUM (6k x 4k)</film_or_detector_model>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">5760</width>
+                                    <height units="pixel">4092</height>
+                                </dimensions>
+                            </digitization_details>
+                            <number_grids_imaged>2</number_grids_imaged>
+                            <number_real_images>7595</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">60.0</average_electron_dose_per_image>
+                            <details>3608 exposures for the usnic acid treated dataset and 3987 exposures collected for the untreated dataset.</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>1120165</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.0</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.4.1.</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>24005</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.2.</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.4.1.</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>cryoDRGN</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="359662">
+        <file>emd_51164.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>448</col>
+            <row>448</row>
+            <sec>448</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>448</x>
+            <y>448</y>
+            <z>448</z>
+        </spacing>
+        <cell>
+            <a units="Å">479.36002</a>
+            <b units="Å">479.36002</b>
+            <c units="Å">479.36002</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.01806843</minimum>
+            <maximum>2.2630796</maximum>
+            <average>0.0015900327</average>
+            <std>0.028201662</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.07</x>
+            <y units="Å">1.07</y>
+            <z units="Å">1.07</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0508</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-51164::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+                <details>Initial rigid body fitting was done using ChimeraX</details>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_51164_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="359662">
+                <file>emd_51164_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>448</col>
+                    <row>448</row>
+                    <sec>448</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>448</x>
+                    <y>448</y>
+                    <z>448</z>
+                </spacing>
+                <cell>
+                    <a units="Å">479.36002</a>
+                    <b units="Å">479.36002</b>
+                    <c units="Å">479.36002</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.5831822</minimum>
+                    <maximum>2.0650587</maximum>
+                    <average>0.00053013355</average>
+                    <std>0.20478271</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.07</x>
+                    <y units="Å">1.07</y>
+                    <z units="Å">1.07</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-51164::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="359662">
+                <file>emd_51164_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>448</col>
+                    <row>448</row>
+                    <sec>448</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>448</x>
+                    <y>448</y>
+                    <z>448</z>
+                </spacing>
+                <cell>
+                    <a units="Å">479.36002</a>
+                    <b units="Å">479.36002</b>
+                    <c units="Å">479.36002</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.4585885</minimum>
+                    <maximum>2.2674809</maximum>
+                    <average>0.0005261793</average>
+                    <std>0.20576768</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.07</x>
+                    <y units="Å">1.07</y>
+                    <z units="Å">1.07</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-51164::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

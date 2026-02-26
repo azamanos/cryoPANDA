@@ -1,0 +1,120 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10093" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2017-04-27</depositionDate>
+            <releaseDate>2017-06-28</releaseDate>
+            <updateDate>2022-01-14</updateDate>
+        </keyDates>
+        <title>Structure of an ion channel in nano disc</title>
+        <correspondingAuthor private="true">
+            <firstName>Yifan</firstName>
+            <lastName>Cheng</lastName>
+            <organization type="academic">University of California San Francisco</organization>
+            <townOrCity>San Francisco</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>94143</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Yifan</firstName>
+            <lastName>Cheng</lastName>
+            <organization type="academic">University of California San Francisco</organization>
+            <townOrCity>San Francisco</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>94143</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Jin P</author>
+            <author authorORCID="0000-0002-2535-904X">Bulkley D</author>
+            <author>Guo Y</author>
+            <author>Zhang W</author>
+            <author>Guo Z</author>
+            <author>Huynh W</author>
+            <author>Wu S</author>
+            <author>Meltzer S</author>
+            <author>Cheng T</author>
+            <author>Jan LY</author>
+            <author>Jan YN</author>
+            <author>Cheng Y</author>
+        </authorsList>
+        <datasetSize units="GB">203.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10093</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-8702</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Jin P</author>
+                    <author authorORCID="0000-0002-2535-904X" order="2">Bulkley D</author>
+                    <author order="3">Guo Y</author>
+                    <author order="4">Zhang W</author>
+                    <author order="5">Guo Z</author>
+                    <author order="6">Huynh W</author>
+                    <author order="7">Wu S</author>
+                    <author order="8">Meltzer S</author>
+                    <author order="9">Cheng T</author>
+                    <author order="10">Jan LY</author>
+                    <author order="11">Jan YN</author>
+                    <author order="12">Cheng Y</author>
+                    <editor authorORCID="0000-0002-2535-904X" order="1">Bulkley D</editor>
+                    <title>Electron cryo-microscopy structure of the mechanotransduction channel NOMPC</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <issue>7661</issue>
+                    <volume>547</volume>
+                    <firstPage>118</firstPage>
+                    <lastPage>122</lastPage>
+                    <year>2017</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/nature22981</externalReferences>
+                    <externalReferences type="pubmed">28658211</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion corrected dose weighted summed frames</name>
+        <directory>/data/NOMPC</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1873</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <frameRange>
+            <frameRangeMin>2</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.2156</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.2156</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Motion corrected dose weighted particle images</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>175314</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>400</imageWidth>
+            <pixelWidth>1.2156</pixelWidth>
+            <imageHeight>400</imageHeight>
+            <pixelHeight>1.2156</pixelHeight>
+        </dimensions>
+        <details>Particle stack, Class12456-merge.mrcs, and associated star file, Class12456-merge_onestack.star</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

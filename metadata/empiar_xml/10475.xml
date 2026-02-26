@@ -1,0 +1,106 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10475" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-06-28</depositionDate>
+            <releaseDate>2020-09-02</releaseDate>
+            <updateDate>2022-02-28</updateDate>
+        </keyDates>
+        <title>Structural basis of redox modulation on chloroplast ATP synthase (reduced form)</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-8608-7650</authorORCID>
+            <firstName>Po-Lin</firstName>
+            <lastName>Chiu</lastName>
+            <organization type="academic">School of Molecular Sciences, Arizona State University</organization>
+            <street>1001 S McAllister Ave</street>
+            <townOrCity>Tempe</townOrCity>
+            <stateOrProvince>Arizona</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>85287</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-8608-7650</authorORCID>
+            <firstName>Po-Lin</firstName>
+            <lastName>Chiu</lastName>
+            <organization type="academic">School of Molecular Sciences, Arizona State University</organization>
+            <street>1001 S McAllister Ave</street>
+            <townOrCity>Tempe</townOrCity>
+            <stateOrProvince>Arizona</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>85287</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-0953-4909</authorORCID>
+            <firstName>Petra</firstName>
+            <lastName>Fromme</lastName>
+            <organization type="academic">Biodesign Center for Applied Structural Discovery</organization>
+            <street>1001 S McAllister Ave</street>
+            <townOrCity>Tempe</townOrCity>
+            <stateOrProvince>Arizona</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>85287</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Yang JH</author>
+            <author>Williams D</author>
+            <author authorORCID="0000-0002-9877-7621">Kandiah E</author>
+            <author authorORCID="0000-0003-0953-4909">Fromme P</author>
+            <author authorORCID="0000-0001-8608-7650">Chiu PL</author>
+        </authorsList>
+        <datasetSize units="GB">109.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10475</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-21270</emdbEntry>
+            <emdbEntry>EMD-21271</emdbEntry>
+            <emdbEntry>EMD-21268</emdbEntry>
+            <emdbEntry>EMD-21269</emdbEntry>
+            <emdbEntry>EMD-21266</emdbEntry>
+            <emdbEntry>EMD-21267</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Yang JH</author>
+                    <author order="2">Williams D</author>
+                    <author authorORCID="0000-0002-9877-7621" order="3">Kandiah E</author>
+                    <author authorORCID="0000-0003-0953-4909" order="4">Fromme P</author>
+                    <author authorORCID="0000-0001-8608-7650" order="5">Chiu PL</author>
+                    <title>Structural basis of redox modulation on chloroplast ATP synthase</title>
+                    <journal>Communications biology</journal>
+                    <journalAbbreviation>Commun Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>3</volume>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s42003-020-01221-8</externalReferences>
+                    <externalReferences type="pubmed">32879423</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Reduced state of the chloroplast ATP synthase</name>
+        <directory>/data/reduced-maverages</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2063</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.053</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.053</pixelHeight>
+        </dimensions>
+        <details>Particle positions were stored in the reduced_data_R*.star for individual reconstructed volumes.  The format was followed by the output from the Refine3D procedure in the Relion software output.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/reduced_data_R*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

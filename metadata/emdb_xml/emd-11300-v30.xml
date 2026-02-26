@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-11300">
+    <admin>
+        <current_status>
+            <date>2024-05-01</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-07-03</deposition>
+            <header_release>2021-03-17</header_release>
+            <map_release>2021-03-17</map_release>
+            <update>2024-05-01</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Academy of Finland</funding_body>
+                <code>315950</code>
+                <country>Finland</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Sigrid Juselius Foundation</funding_body>
+                <country>Finland</country>
+            </grant_reference>
+        </grant_support>
+        <title>Coxsackievirus B4 strain E2</title>
+        <authors_list>
+            <author>Flatt JW</author>
+            <author>Domanska A</author>
+        </authors_list>
+        <keywords>Coxsackievirus B4, VIRUS</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-5406-8156" order="1">Flatt JW</author>
+                    <author ORCID="0000-0002-3772-6003" order="2">Domanska A</author>
+                    <author ORCID="0000-0002-0534-246X" order="3">Seppala AL</author>
+                    <author ORCID="0000-0001-7060-5871" order="4">Butcher SJ</author>
+                    <title>Identification of a conserved virion-stabilizing network inside the interprotomer pocket of enteroviruses.</title>
+                    <journal_abbreviation>Commun Biol</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>4</volume>
+                    <first_page>250</first_page>
+                    <last_page>250</last_page>
+                    <year>2021</year>
+                    <external_references type="PUBMED">33637854</external_references>
+                    <external_references type="DOI">doi:10.1038/s42003-021-01779-x</external_references>
+                    <external_references type="ISSN">2399-3642</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6zms</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Coxsackievirus B4 (strain E2)</name>
+        <supramolecule_list>
+            <virus_supramolecule supramolecule_id="1">
+                <name>Coxsackievirus B4 (strain E2)</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <sci_species_name ncbi="103905">Coxsackievirus B4 (strain E2)</sci_species_name>
+                <natural_host database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_host>
+                <virus_shell shell_id="1">
+                    <name>icosahedral</name>
+                    <diameter units="Å">300.0</diameter>
+                    <triangulation>3</triangulation>
+                </virus_shell>
+                <virus_type>VIRION</virus_type>
+                <virus_isolate>STRAIN</virus_isolate>
+                <virus_enveloped>false</virus_enveloped>
+                <virus_empty>false</virus_empty>
+            </virus_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Capsid protein VP1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="103905">Coxsackievirus B4 (strain E2)</organism>
+                    <strain>E2</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.030685498</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGRVADTIARGPSNSEQIPALTAVETGHTSQVDPSDTMQTRHVHNYHSRSESSIENFLCRSACVIYIKYSSAESNNLKRY
+AEWVINTRQVAQLRRKMEMFTYIRCDMELTFVITSHQEMSTATNSDVPVQTHQIMYVPPGGPVPTSVNDYVWQTSTNPSI
+FWTEGNAPPRMSIPFMSIGNAYTMFYDGWSNFSRDGIYGYNSLNNMGTIYARHVNDSSPGGLTSTIRIYFKPKHVKAYVP
+RPPRLCQYKKAKNVNFDVEAVTTERASLVTT</string>
+                    <external_references type="UNIPROTKB">Q86887</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Capsid protein VP2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="103905">Coxsackievirus B4 (strain E2)</organism>
+                    <strain>E2</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.027708069999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SDRVRSITLGNSTITTQECANVVVGYGVWPDYLSDEEATAEDQPTQPDVATCRFYTLNSVKWEMQSAGWWWKFPDALSEM
+GLFGQNMQYHYLGRSGYTIHVQCNASKFHQGCLLVVCVPEAEMGCTNAENAPTYGDLCGGETAKQFEQNAVTGETAVQTA
+VCNAGMGVGVGNLTIYPHQWINLRTNNSATIVMPYINSVPMDNMFRHNNFTLMIIPFAPLDYVTGASSYIPITVTVAPMS
+AEYNGLRLAGHQ</string>
+                    <external_references type="UNIPROTKB">Q86887</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Capsid protein VP3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="103905">Coxsackievirus B4 (strain E2)</organism>
+                    <strain>E2</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.026444159999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GLPTMLTPGSTQFLTSDDFQSPSAMPQFDVTPEMNIPGQVRNLMEIAEVDSVVPINNLQANLKTMEAYRVQVRSTDEMGG
+QIFGFPLQPGASSVLQRTLLGEILNYYTHWSGSLKLTFVFCGSAMATGKFLLAYSPPGAGAPDSRKNAMLGTHVIWDVGL
+QSSCVLCVPWISQTHYRYVVDDKYTASGFISCWYQTNVIVPAEAQKSCYIMCFVSACNDFSVRMLRDTQFIKQDTFYQ</string>
+                    <external_references type="UNIPROTKB">Q86887</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Capsid protein VP4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="103905">Coxsackievirus B4 (strain E2)</organism>
+                    <strain>E2</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007499234999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGAQVSTQKTGAHETSLSASGNSIIHYTNINYYKDAASNSANRQDFTQDPSKFTEPVKDVMIKSLPALN</string>
+                    <external_references type="UNIPROTKB">Q86887</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.0</ph>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <formula>C8H18N2O4S</formula>
+                            <name>Hepes</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>Nacl</formula>
+                            <name>Sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">2.0</concentration>
+                            <formula>MgCl2</formula>
+                            <name>Magnesium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">2.0</concentration>
+                            <formula>CaCl2</formula>
+                            <name>Calcium chloride</name>
+                        </component>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS TALOS F200C</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="INSILICO MODEL"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.4</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>40627</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="256001">
+        <file>emd_11300.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>400</col>
+            <row>400</row>
+            <sec>400</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>400</x>
+            <y>400</y>
+            <z>400</z>
+        </spacing>
+        <cell>
+            <a units="Å">496.0</a>
+            <b units="Å">496.0</b>
+            <c units="Å">496.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.04550528</minimum>
+            <maximum>0.083117016</maximum>
+            <average>0.0009391678</average>
+            <std>0.0053684674</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.24</x>
+            <y units="Å">1.24</y>
+            <z units="Å">1.24</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.00816</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-11300::::</label>
+        <annotation_details>Coxsackievirus B4 strain E2</annotation_details>
+    </map>
+</emd>

@@ -1,0 +1,109 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10271" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-04-25</depositionDate>
+            <releaseDate>2019-10-17</releaseDate>
+            <updateDate>2019-10-17</updateDate>
+        </keyDates>
+        <title>Cryo electron microscopy of TssA protein from T6SS of Vibrio cholerae.</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-5240-5849</authorORCID>
+            <firstName>Sergey</firstName>
+            <lastName>Nazarov</lastName>
+            <organization type="academic">EPFL</organization>
+            <townOrCity>Lausanne</townOrCity>
+            <country>Switzerland</country>
+            <postOrZipCode>CH-1015 Lausanne</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-5414-2088</authorORCID>
+            <firstName>Marek</firstName>
+            <lastName>Basler</lastName>
+            <organization type="academic">Biozentrum, University of Basel</organization>
+            <street>Klingelbergstrasse 50/70</street>
+            <townOrCity>Basel</townOrCity>
+            <country>Switzerland</country>
+            <postOrZipCode>CH - 4056 Basel</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-5240-5849">Nazarov S</author>
+            <author>Adaixo R</author>
+            <author authorORCID="0000-0001-5414-2088">Basler M</author>
+        </authorsList>
+        <datasetSize units="TB">1.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10271</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-4898</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-6028-9956" order="1">Schneider JP</author>
+                    <author authorORCID="0000-0002-5240-5849" order="2">Nazarov S</author>
+                    <author order="3">Adaixo R</author>
+                    <author order="4">Liuzzo M</author>
+                    <author order="5">Ringel PD</author>
+                    <author authorORCID="0000-0002-1185-4592" order="6">Stahlberg H</author>
+                    <author authorORCID="0000-0001-5414-2088" order="7">Basler M</author>
+                    <editor order="1">--- ---</editor>
+                    <title>Diverse roles of TssA-like proteins in the assembly of bacterial type VI secretion systems</title>
+                    <journal>The EMBO journal</journal>
+                    <journalAbbreviation>EMBO J.</journalAbbreviation>
+                    <country></country>
+                    <issue>18</issue>
+                    <volume>38</volume>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.15252/embj.2018100825</externalReferences>
+                    <externalReferences type="pubmed">31403721</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Frame-averaged micrographs of TssA protein from T6SS of Vibrio cholerae</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2944</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.058</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.058</pixelHeight>
+        </dimensions>
+        <details>Frame-averaged micrographs, with alignment, of 40 raw movie frames.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/coordinates/*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/coordinates/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned multi-frame micrographs of TssA protein from T6SS of Vibrio cholerae</name>
+        <directory>/data/aligned</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>493</numImagesOrTiltSeries>
+        <framesPerImage>49</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.058</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.058</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/aligned/*.mrcs.bz2</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/coordinates/*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/coordinates/</pickedParticlesDirectory>
+    </imageSet>
+</entry>

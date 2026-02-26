@@ -1,0 +1,112 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11000" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-03-29</depositionDate>
+            <releaseDate>2022-04-22</releaseDate>
+            <updateDate>2022-04-22</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of human U2 snRNP after ATP-dependent remodeling</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-0789-2692</authorORCID>
+            <firstName>Jonas</firstName>
+            <lastName>Tholen</lastName>
+            <organization type="academic">EMBL</organization>
+            <street>71 Avenue des Martyrs</street>
+            <townOrCity>Grenoble</townOrCity>
+            <stateOrProvince>Isere</stateOrProvince>
+            <country>France</country>
+            <postOrZipCode>38042</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0001-8859-5229</authorORCID>
+            <firstName>Wojciech</firstName>
+            <middleName>P.</middleName>
+            <lastName>Galej</lastName>
+            <organization type="academic">EMBL</organization>
+            <street>71 Avenue des Martyrs</street>
+            <townOrCity>Grenoble</townOrCity>
+            <stateOrProvince>Isere</stateOrProvince>
+            <country>France</country>
+            <postOrZipCode>38042</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-0789-2692">Tholen J</author>
+            <author authorORCID="0000-0001-8859-5229">Galej WP</author>
+            <author authorORCID="0000-0002-8137-3532">Weis F</author>
+        </authorsList>
+        <datasetSize units="TB">1.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11000</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-13812</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-0789-2692" order="1">Tholen J</author>
+                    <author authorORCID="0000-0003-1306-4743" order="2">Razew M</author>
+                    <author authorORCID="0000-0002-8137-3532" order="3">Weis F</author>
+                    <author authorORCID="0000-0001-8859-5229" order="4">Galej WP</author>
+                    <title>Structural basis of branch site recognition by the human spliceosome</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country></country>
+                    <issue>6576</issue>
+                    <volume>375</volume>
+                    <firstPage>50</firstPage>
+                    <lastPage>57</lastPage>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.abm4245</externalReferences>
+                    <externalReferences type="pubmed">34822310</externalReferences>
+                    <details>We isolated human 17S U2 snRNP and reconstituted in vitro its ATP–dependent remodeling and binding to the pre–messenger RNA substrate. We determined a series of high-resolution (2.0 to 2.2 angstrom) structures providing snapshots of the spliceosomal branch site selection process.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of the U2 snRNP after ATP-dependent remodeling</name>
+        <directory>/data/tatatpcoll3_2103117images</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>7809</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.64</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.64</pixelHeight>
+        </dimensions>
+        <details>Unaligned movies (40 frames) acquired over 1 s with a total 50.76e/Å2 dose with defocus range of -0.8 to -1.8 μm in 0.1 μm steps. Gain reference is CountRef_114-1_001.mrc</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/tatatpcoll3_2103117images/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/allparticlesWARPpicked.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Final polished particles of the U2 snRNP after ATP-dependent remodeling</name>
+        <directory>/data/particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>7611</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>640</imageWidth>
+            <pixelWidth>0.64</pixelWidth>
+            <imageHeight>640</imageHeight>
+            <pixelHeight>0.64</pixelHeight>
+        </dimensions>
+        <details>Polished particles after auto-refinement in Relion3.1. In the star file the columns rlnMicrographName and rlnImageName are not correct: The paths have to be changed to point to the mrc/mrcs files. The final resolution was 2.15 A. The 3' domain of U2 snRNP could not be resolved.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/finalrefinedparticles_data.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles/*.mrcs</pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,214 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11843" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-05-18</depositionDate>
+            <releaseDate>2024-03-18</releaseDate>
+            <updateDate>2024-03-18</updateDate>
+        </keyDates>
+        <title>Cryo electron tomography image- and volume-series subtomograms of chloramphenicol-treated mycoplasma pneumoniae</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-8858-8907</authorORCID>
+            <firstName>Joseph</firstName>
+            <middleName>H</middleName>
+            <lastName>Davis</lastName>
+            <organization type="academic">Department of Biology, Massachusetts Institute of Technology</organization>
+            <street>31 Ames St</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02139</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8858-8907</authorORCID>
+            <firstName>Joseph</firstName>
+            <middleName>H</middleName>
+            <lastName>Davis</lastName>
+            <organization type="academic">Department of Biology, Massachusetts Institute of Technology</organization>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02139</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-4228-2977">Powell B.M.</author>
+            <author authorORCID="0000-0002-8858-8907">Davis J.H.</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>National Science Foundation (NSF, United States)</fundingBody>
+                <code>2046778</code>
+                <country>United States</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>National Institutes of Health (NIH)</fundingBody>
+                <code>R01-GM144542</code>
+                <country>United States</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>National Institutes of Health (NIH)</fundingBody>
+                <code>5T32-GM007287</code>
+                <country>United States</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">788.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11843</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-43287</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author authorORCID="0000-0003-4228-2977" order="1">Powell BM</author>
+                    <author authorORCID="0000-0002-8858-8907" order="2">Davis JH</author>
+                    <title>Learning structural heterogeneity from cryo-electron sub-tomograms with tomoDRGN</title>
+                    <journal>bioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country>United States</country>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1101/2023.05.31.542975</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+        <relatedEmpiarEntries>
+            <empiarEntry>EMPIAR-10499</empiarEntry>
+        </relatedEmpiarEntries>
+    </crossReferences>
+    <imageSet>
+        <name>Image tilt-series of ribosomes extracted from EMPIAR-10499 at intramolecular scale, small box, large pixel</name>
+        <directory>/data/particleseries_box96_angpix3.7</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>22291</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>96</imageWidth>
+            <pixelWidth>3.71</pixelWidth>
+            <imageHeight>96</imageHeight>
+            <pixelHeight>3.71</pixelHeight>
+        </dimensions>
+        <details>Particle positions in starfiles/10499_22k_box96_angpix3.7.star
+Images are tilt-series of particles extracted in Warp/M using the "extract subtomograms &gt; image-series" option</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Image tilt-series subtomograms of ribosomes extracted from EMPIAR-10499 at intramolecular scale, medium box, small pixel</name>
+        <directory>/data/particleseries_box210_angpix1.7</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>22291</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>210</imageWidth>
+            <pixelWidth>1.71</pixelWidth>
+            <imageHeight>210</imageHeight>
+            <pixelHeight>1.71</pixelHeight>
+        </dimensions>
+        <details>Particle positions in starfiles/10499_22k_box210_angpix1.7.star
+Images are tilt-series of particles extracted in Warp/M using the "extract subtomograms &gt; image-series" option</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Image tilt-series subtomograms of ribosomes extracted from EMPIAR-10499 at intramolecular scale, large box, small pixel</name>
+        <directory>/data/particleseries_box352_angpix1.7</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>22291</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>352</imageWidth>
+            <pixelWidth>1.71</pixelWidth>
+            <imageHeight>352</imageHeight>
+            <pixelHeight>1.71</pixelHeight>
+        </dimensions>
+        <details>Particle positions in starfiles/10499_22k_box352_angpix1.7.star
+Images are tilt-series of particles extracted in Warp/M using the "extract subtomograms &gt; image-series" option</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Image tilt-series subtomograms of ribosomes extracted from EMPIAR-10499 at intermolecular scale</name>
+        <directory>/data/particleseries_box200_angpix3.7</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>22291</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>200</imageWidth>
+            <pixelWidth>3.71</pixelWidth>
+            <imageHeight>200</imageHeight>
+            <pixelHeight>3.71</pixelHeight>
+        </dimensions>
+        <details>Particle positions in starfiles/10499_22k_box200_angpix3.7.star
+Images are tilt-series of particles extracted in Warp/M using the "extract subtomograms &gt; image-series" option</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Volumetric subtomograms of ribosomes extracted from EMPIAR-10499 at intramolecular scale</name>
+        <directory>/data/subtomo_box64_angpix6</directory>
+        <category>subtomograms</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>22291</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>64</imageWidth>
+            <pixelWidth>6.0</pixelWidth>
+            <imageHeight>64</imageHeight>
+            <pixelHeight>6.0</pixelHeight>
+        </dimensions>
+        <details>Particle positions in starfiles/10499_22k_box64_angpix6_volumeseries.star
+Particles are volumetric subtomograms extracted in Warp/M using the "extract subtomograms &gt; volume-series" option</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Volumetric subtomograms of ribosome•SecDF complex extracted from EMPIAR-10499 at intramolecular scale</name>
+        <directory>/data/subtomo_box192_angpix4_train30_kmeans100_secdfribo_380ptcls</directory>
+        <category>subtomograms</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>380</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>192</imageWidth>
+            <pixelWidth>4.0</pixelWidth>
+            <imageHeight>192</imageHeight>
+            <pixelHeight>4.0</pixelHeight>
+        </dimensions>
+        <details>Particle positions in starfiles/10499_22k_box192_angpix4_volumeseries_secdfribos.star
+Particles are volumetric subtomograms extracted in Warp/M using the "extract subtomograms &gt; volume-series" option</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

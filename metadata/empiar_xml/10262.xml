@@ -1,0 +1,95 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10262" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-03-18</depositionDate>
+            <releaseDate>2019-05-02</releaseDate>
+            <updateDate>2019-05-02</updateDate>
+        </keyDates>
+        <title>Structure of the human PKD1-PKD2 complex</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-1673-2113</authorORCID>
+            <firstName>Yigong</firstName>
+            <lastName>Shi</lastName>
+            <organization type="academic">School of Life Sciences, Tsinghua University</organization>
+            <street>Qinghuayuan street</street>
+            <townOrCity>Beijing</townOrCity>
+            <stateOrProvince>Beijing</stateOrProvince>
+            <country>China</country>
+            <postOrZipCode>100086</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-1673-2113</authorORCID>
+            <firstName>Yigong</firstName>
+            <lastName>Shi</lastName>
+            <organization type="academic">School of Life Sciences</organization>
+            <street>Qinghuayuan Street</street>
+            <townOrCity>Beijing</townOrCity>
+            <stateOrProvince>Beijing</stateOrProvince>
+            <country>China</country>
+            <postOrZipCode>100086</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-5852-4582">Su Q</author>
+        </authorsList>
+        <datasetSize units="GB">209.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10262</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-6991</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-5852-4582" order="1">Su Q</author>
+                    <author order="2">Hu F</author>
+                    <author order="3">Ge X</author>
+                    <author order="4">Lei J</author>
+                    <author order="5">Yu S</author>
+                    <author order="6">Wang T</author>
+                    <author order="7">Zhou Q</author>
+                    <author order="8">Mei C</author>
+                    <author authorORCID="0000-0002-1673-2113" order="9">Shi Y</author>
+                    <title>Structure of the human PKD1-PKD2 complex</title>
+                    <journal>Science</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country>China</country>
+                    <issue>6406</issue>
+                    <volume>361</volume>
+                    <firstPage>eaat9819</firstPage>
+                    <lastPage>eaat9819</lastPage>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.aat9819</externalReferences>
+                    <externalReferences type="pubmed">30093605</externalReferences>
+                    <details>A total of 3761 zero-loss movie stacks were automatically collected using AutoEMation II (developed by J. Lei)
+in the super-resolution mode with 20-eV slit in energy filter at a nominal magnification of 105,000× with defocus range from −1.0 to −2.0 mm. Each micrograph stack, which contained 32 frames, was exposed for 5.6 s with a
+total electron dose of ~50 e−/Å2. The stacks were motion corrected using MotionCor2 with a binning factor of 2, resulting in a pixel size of 1.091 Å. Dose weighting was performed concurrently. The defocus values were estimated with Gctf.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Autopicked particles of PKD1/PKD2 complex</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>3774</numImagesOrTiltSeries>
+        <framesPerImage>32</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Particles/stack_3038_cor_DW.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/Particles/stack_3038_cor_DW.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data</pickedParticlesDirectory>
+    </imageSet>
+</entry>

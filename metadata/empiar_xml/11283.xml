@@ -1,0 +1,151 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11283" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-08-02</depositionDate>
+            <releaseDate>2023-04-12</releaseDate>
+            <updateDate>2023-04-13</updateDate>
+        </keyDates>
+        <title>LRRC8A-BRIL:C Heteromer in GDN</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0001-6768-3406</authorORCID>
+            <firstName>Stephen</firstName>
+            <middleName>G</middleName>
+            <lastName>Brohawn</lastName>
+            <organization type="academic">UC Berkeley</organization>
+            <street>Weill Hall</street>
+            <townOrCity>Berkeley</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94720</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0001-8529-9045</authorORCID>
+            <firstName>David</firstName>
+            <middleName>M</middleName>
+            <lastName>Kern</lastName>
+            <organization type="academic">UC Berkeley</organization>
+            <street>Weill Hall</street>
+            <townOrCity>Berkeley</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94720</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator>
+            <authorORCID>0000-0001-6768-3406</authorORCID>
+            <firstName>Stephen</firstName>
+            <middleName>G</middleName>
+            <lastName>Brohawn</lastName>
+            <organization type="academic">UC Berkeley</organization>
+            <street>Weill Hall</street>
+            <townOrCity>Berkeley</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94720</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-8529-9045">Kern DM</author>
+            <author authorORCID="0000-0001-6768-3406">Brohawn SG</author>
+        </authorsList>
+        <datasetSize units="TB">8.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11283</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-27682</emdbEntry>
+            <emdbEntry>EMD-27677</emdbEntry>
+            <emdbEntry>EMD-27678</emdbEntry>
+            <emdbEntry>EMD-27679</emdbEntry>
+            <emdbEntry>EMD-27681</emdbEntry>
+            <emdbEntry>EMD-27676</emdbEntry>
+            <emdbEntry>EMD-27674</emdbEntry>
+            <emdbEntry>EMD-27675</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author authorORCID="0000-0001-8529-9045" order="1">Kern DM</author>
+                    <author authorORCID="0000-0001-9146-9864" order="2">Bleier J</author>
+                    <author order="3">Mukherjee S</author>
+                    <author order="4">Hill JM</author>
+                    <author order="5">Kossiakoff AA</author>
+                    <author authorORCID="0000-0003-4775-9359" order="6">Isacoff EY</author>
+                    <author authorORCID="0000-0001-6768-3406" order="7">Brohawn SG</author>
+                    <title>Structural basis for assembly and lipid-mediated gating of LRRC8A:C volume-regulated anion channels</title>
+                    <journal>bioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1101/2022.07.31.502239</externalReferences>
+                    <externalReferences type="pubmed">30775971</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned tif movies for LRRC8ABRIL:C in 150 mM KCl</name>
+        <directory>/data/frames_150</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>8261</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.524</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.524</pixelHeight>
+        </dimensions>
+        <details>Gain reference in dm4 and mrc form is included in the folder with the movies. In RELION, the gain must be flipped upside down. To match our motion correction settings, use 1.076 e/Å2 dose per frame and use bin 2 to produce mrc at the physical pixel size of 1.048Å/px.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned tif movies for LRRC8ABRIL:C in 75 mM KCl</name>
+        <directory>/data/frames_75</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>7208</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.524</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.524</pixelHeight>
+        </dimensions>
+        <details>Gain reference in dm4 and mrc form is included in the folder with the movies. In RELION, the gain must be flipped upside down. To match our motion correction settings, use 0.9953 e/Å2 dose per frame and use bin 2 to produce mrc at the physical pixel size of 1.048Å/px.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Pooled polished particles stacks for LRRC8A-BRIL/C in GDN</name>
+        <directory>/data/PolishedParticles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>11609</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>416</imageWidth>
+            <pixelWidth>1.048</pixelWidth>
+            <imageHeight>416</imageHeight>
+            <pixelHeight>1.048</pixelHeight>
+        </dimensions>
+        <details>Contains polished particles (437,174) as 11,609 mrcs files from the pooled GDN samples (75 and 150 mM KCl). The selections of particles for each conformation (1 and 2) are in the main data folder. They are in RELION star format and can be imported into cryoSPARC as well for processing.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

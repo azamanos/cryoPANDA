@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd emdb_id="EMD-40675">
+    <admin>
+        <current_status>
+            <date>2023-06-21</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-05-02</deposition>
+            <header_release>2023-06-21</header_release>
+            <map_release>2023-06-21</map_release>
+            <update>2023-06-21</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Not funded</funding_body>
+            </grant_reference>
+        </grant_support>
+        <title>Cryogenic electron microscopy map of human plakophilin-3</title>
+        <authors_list>
+            <author>Gupta J</author>
+            <author>Izard T</author>
+            <author>Rangarajan ES</author>
+        </authors_list>
+        <keywords>actin cytoskeleton, armadillo, desmosomes, phosphatidylinositol 4, 5-bisphosphate, plasma membrane, plakophilin, CELL ADHESION</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Gupta J</author>
+                    <author order="2">Rangarajan ES</author>
+                    <author order="3">Troyanovsky RB</author>
+                    <author order="4">Indra I</author>
+                    <author ORCID="0000-0001-7368-9708" order="5">Troyanovsky SM</author>
+                    <author order="6">Izard T</author>
+                    <title>Plakophilin-3 Binds the Membrane and Filamentous Actin without Bundling F-Actin.</title>
+                    <journal_abbreviation>Int J Mol Sci</journal_abbreviation>
+                    <country>CH</country>
+                    <volume>24</volume>
+                    <year>2023</year>
+                    <external_references type="PUBMED">37298410</external_references>
+                    <external_references type="DOI">doi:10.3390/ijms24119458</external_references>
+                    <external_references type="ISSN">1422-0067</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-40675</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>plakophilin-3</name>
+        <supramolecule_list>
+            <organelle_or_cellular_component_supramolecule supramolecule_id="1">
+                <name>plakophilin-3</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0572</theoretical>
+                </molecular_weight>
+            </organelle_or_cellular_component_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>plakophilin-3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>HHHHHHHHSSGLEVLFQGPGSHRTLQ RLSSGFDDID LPSAVKYLMA SDPNLQVLGA AYIQHKCYSD AAAKKQARSL QAVPRLVKLF NHANQEVQRH ATGAMRNLIY DNADNKLALV     EENGIFELLR TLREQDDELR KNVTGILWNL SSSDHLKDRL ARDTLEQLTD  LVLSPLSGAG GPPLIQQNAS EAEIFYNATG FLRNLSSASQ ATRQKMRECH GLVDALVTSI NHALDAGKCE DKSVENAVCV LRNLSYRLYD EMPPSALQRL     EGRGRRDLAG APPGEVVGCF TPQSRRLREL PLAADALTFA EVSKDPKGLE      WLWSPQIVGL YNRLLQRCEL NRHTTEAAAG ALQNITAGDR RWAGVLSRLA      LEQERILNPL LDRVRTADHH QLRSLTGLIR NLSRNARNKD EMSTKVVSHL IEKLPGSVGE KSPPAEVLVN IIAVLNNLVV ASPIAARDLL YFDGLRKLIF IKKKRDSPDS EKSSRAASSL LANLWQYNKL HRDFRAKGYR KEDFLGP</string>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.2</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <details>20 mM Tris, 150 mM NaCl, 1 mM DTT</details>
+                    </buffer>
+                    <grid>
+                        <model>UltrAuFoil R1.2/1.3</model>
+                        <material>GOLD</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>GOLD</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">180</time>
+                            <atmosphere>AIR</atmosphere>
+                            <pressure units="kPa">0.04</pressure>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">95</chamber_humidity>
+                        <chamber_temperature units="K">281</chamber_temperature>
+                        <instrument>LEICA EM GP</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>JEOL CRYO ARM 300</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.4</nominal_defocus_max>
+                    <nominal_magnification>60000.0</nominal_magnification>
+                    <specimen_holder_model>JEOL CRYOSPECPORTER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>In-column Omega Filter</name>
+                            <slit_width units="eV">20</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">60.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>AlphaFold</insilico_model>
+                </startup_model>
+                <final_reconstruction>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">5.03</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.3</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>294650</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.3</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="8389">
+        <file>emd_40675.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>128</col>
+            <row>128</row>
+            <sec>128</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>128</x>
+            <y>128</y>
+            <z>128</z>
+        </spacing>
+        <cell>
+            <a units="Å">184.32</a>
+            <b units="Å">184.32</b>
+            <c units="Å">184.32</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.98487544</minimum>
+            <maximum>1.696459</maximum>
+            <average>0.0006192126</average>
+            <std>0.04583657</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.44</x>
+            <y units="Å">1.44</y>
+            <z units="Å">1.44</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.202</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-40675::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <chain>
+                        <source_name>AlphaFold</source_name>
+                        <initial_model_type>in silico model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="8389">
+                <file>emd_40675_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">184.32</a>
+                    <b units="Å">184.32</b>
+                    <c units="Å">184.32</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.34044883</minimum>
+                    <maximum>0.63979924</maximum>
+                    <average>0.0006187433</average>
+                    <std>0.03341481</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.44</x>
+                    <y units="Å">1.44</y>
+                    <z units="Å">1.44</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-40675::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="8389">
+                <file>emd_40675_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">184.32</a>
+                    <b units="Å">184.32</b>
+                    <c units="Å">184.32</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.3721931</minimum>
+                    <maximum>0.64442295</maximum>
+                    <average>0.000639404</average>
+                    <std>0.033515435</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.44</x>
+                    <y units="Å">1.44</y>
+                    <z units="Å">1.44</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-40675::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

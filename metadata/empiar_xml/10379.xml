@@ -1,0 +1,85 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10379" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-02-28</depositionDate>
+            <releaseDate>2020-12-04</releaseDate>
+            <updateDate>2021-06-30</updateDate>
+        </keyDates>
+        <title>Cryo-EM motion corrected micrographs of rabbit muscle aldolase</title>
+        <correspondingAuthor private="true">
+            <firstName>Michael</firstName>
+            <middleName>A.</middleName>
+            <lastName>Cianfrocco</lastName>
+            <organization type="academic">University of Michigan</organization>
+            <street>210 WASHTENAW AVE</street>
+            <townOrCity>ANN ARBOR</townOrCity>
+            <stateOrProvince>Michigan</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>48109</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Michael</firstName>
+            <middleName>A.</middleName>
+            <lastName>Cianfrocco</lastName>
+            <organization type="academic">University of Michigan</organization>
+            <street>210 WASHTENAW AVE</street>
+            <townOrCity>ANN ARBOR</townOrCity>
+            <stateOrProvince>Michigan</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>48109</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-6280-8019">Li Y.</author>
+            <author>Cash J.N.</author>
+            <author>Tesmer J.J.G.</author>
+            <author>Cianfrocco M.A.</author>
+        </authorsList>
+        <datasetSize units="GB">59.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10379</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-21492</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-6280-8019" order="1">Li Y</author>
+                    <author order="2">Cash JN</author>
+                    <author authorORCID="0000-0003-1125-3727" order="3">Tesmer JJ</author>
+                    <author order="4">Cianfrocco MA</author>
+                    <title>High-throughput cryo-EM enabled by user-free preprocessing routines</title>
+                    <journal>bioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <year>2019</year>
+                    <externalReferences type="doi">10.1101/2019.12.20.885541</externalReferences>
+                    <details>Aligned and averaged micrographs of rabbit muscle aldolase in vitreous ice.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion corrected micrographs of rabbit muscle aldolase</name>
+        <directory>/data/micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1118</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>0.91</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>0.91</pixelHeight>
+        </dimensions>
+        <details>Includes MotionCor2 frame-aligned images.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

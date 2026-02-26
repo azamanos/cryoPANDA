@@ -1,0 +1,114 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11160" schemaVersion="0.63" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-08-07</depositionDate>
+            <releaseDate>2023-06-30</releaseDate>
+            <updateDate>2023-06-30</updateDate>
+        </keyDates>
+        <title>E. coli 50S ribosome bound to SLC21</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-5080-2859</authorORCID>
+            <firstName>James</firstName>
+            <lastName>Fraser</lastName>
+            <organization type="academic">University of California San Francisco</organization>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-5080-2859</authorORCID>
+            <firstName>James</firstName>
+            <lastName>Fraser</lastName>
+            <organization type="academic">University of California San Francisco</organization>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8732-1362</authorORCID>
+            <firstName>Ian</firstName>
+            <lastName>Seiple</lastName>
+            <organization type="academic">University of California San Francisco</organization>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-8732-1362">Seiple IB</author>
+            <author authorORCID="0000-0002-6212-395X">Pellegrino J</author>
+            <author authorORCID="0000-0002-5080-2859">Fraser JS</author>
+            <author authorORCID="0000-0002-5132-3243">Lee DJ</author>
+        </authorsList>
+        <datasetSize units="TB">1.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11160</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-27881</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0002-8732-1362" order="1">Seiple IB</author>
+                    <author authorORCID="0000-0002-6212-395X" order="2">Pellegrino J</author>
+                    <author authorORCID="0000-0002-5080-2859" order="3">Fraser JS</author>
+                    <author authorORCID="0000-0002-5132-3243" order="4">Lee DJ</author>
+                    <author authorORCID="0000-0002-1099-645X" order="5">Yeon SK</author>
+                    <title>SLC collection of antibiotic analogs</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country>United States</country>
+                    <language>English</language>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>dose weighted micrographs</name>
+        <directory>/data/DW</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3699</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.525</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.525</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>unaligned movies</name>
+        <directory>/data/Movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>3700</numImagesOrTiltSeries>
+        <framesPerImage>100</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.2625</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.2625</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

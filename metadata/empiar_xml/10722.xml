@@ -1,0 +1,92 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10722" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-05-19</depositionDate>
+            <releaseDate>2021-06-04</releaseDate>
+            <updateDate>2021-06-04</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of human rod CNGA1 channel in apo-state</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-1874-0504</authorORCID>
+            <firstName>Youxing</firstName>
+            <lastName>Jiang</lastName>
+            <organization type="academic">Department of Physiology, University of Texas Southwestern Medical Center</organization>
+            <street>6001 Forest Park Rd Room ND13.300</street>
+            <townOrCity>Dallas</townOrCity>
+            <stateOrProvince>Texas</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>75390</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-1874-0504</authorORCID>
+            <firstName>Youxing</firstName>
+            <lastName>Jiang</lastName>
+            <organization type="academic">Department of Physiology, University of Texas Southwestern Medical Center</organization>
+            <street>6001 Forest Park Rd Room ND13.300</street>
+            <townOrCity>Dallas</townOrCity>
+            <stateOrProvince>Texas</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>75390</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Xue J</author>
+            <author authorORCID="0000-0002-1207-7756">Han Y</author>
+            <author>Zeng W</author>
+            <author>Wang Y</author>
+            <author authorORCID="0000-0002-1874-0504">Jiang Y</author>
+        </authorsList>
+        <datasetSize>84.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10722</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-23306</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Xue J</author>
+                    <author authorORCID="0000-0002-1207-7756" order="2">Han Y</author>
+                    <author order="3">Zeng W</author>
+                    <author order="4">Wang Y</author>
+                    <author authorORCID="0000-0002-1874-0504" order="5">Jiang Y</author>
+                    <title>Structural mechanisms of gating and selectivity of human rod CNGA1 channel</title>
+                    <journal>Neuron</journal>
+                    <journalAbbreviation>Neuron</journalAbbreviation>
+                    <country></country>
+                    <issue>8</issue>
+                    <volume>109</volume>
+                    <firstPage>1302</firstPage>
+                    <lastPage>13130000.0</lastPage>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.neuron.2021.02.007</externalReferences>
+                    <externalReferences type="pubmed">33651975</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Final particle stack of the CNGA1 channel in apo state</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>274333</numImagesOrTiltSeries>
+        <framesPerImage>60</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>288</imageWidth>
+            <pixelWidth>0.844</pixelWidth>
+            <imageHeight>288</imageHeight>
+            <pixelHeight>0.844</pixelHeight>
+        </dimensions>
+        <details>Final particle stack after CTF refinement and polishing in Relion.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/final_particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data</pickedParticlesDirectory>
+    </imageSet>
+</entry>

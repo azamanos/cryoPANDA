@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_2/emdb.xsd" version="3.0.9.2" emdb_id="EMD-8702">
+    <admin>
+        <current_status>
+            <date>2024-03-13</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2017-04-22</deposition>
+            <header_release>2017-06-28</header_release>
+            <map_release>2017-06-28</map_release>
+            <update>2024-03-13</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01GM098672</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/Office of the Director</funding_body>
+                <code>S10OD020054</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Neurological Disorders and Stroke (NIH/NINDS)</funding_body>
+                <code>R01NS069229</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Neurological Disorders and Stroke (NIH/NINDS)</funding_body>
+                <code>5R37NS040929</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Neurological Disorders and Stroke (NIH/NINDS)</funding_body>
+                <code>1R35NS097227</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01GM098672</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/Office of the Director</funding_body>
+                <code>S10OD020054</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Structure of a mechanotransduction ion channel Drosophila NOMPC in nanodisc</title>
+        <authors_list>
+            <author>Jin P</author>
+        </authors_list>
+        <keywords>Membrane protein, Mechanotransduction Ion channel</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Jin P</author>
+                    <author order="2">Bulkley D</author>
+                    <author order="3">Guo Y</author>
+                    <author order="4">Zhang W</author>
+                    <author order="5">Guo Z</author>
+                    <author order="6">Huynh W</author>
+                    <author order="7">Wu S</author>
+                    <author order="8">Meltzer S</author>
+                    <author order="9">Cheng T</author>
+                    <author order="10">Jan LY</author>
+                    <author order="11">Jan YN</author>
+                    <author order="12">Cheng Y</author>
+                    <title>Electron cryo-microscopy structure of the mechanotransduction channel NOMPC.</title>
+                    <journal_abbreviation>Nature</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>547</volume>
+                    <first_page>118</first_page>
+                    <last_page>122</last_page>
+                    <year>2017</year>
+                    <external_references type="PUBMED">28658211</external_references>
+                    <external_references type="DOI">doi:10.1038/nature22981</external_references>
+                    <external_references type="ISSN">1476-4687</external_references>
+                    <external_references type="CSD">0006</external_references>
+                    <external_references type="ASTM">NATUAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>5vkq</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Tetrameric channel</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Tetrameric channel</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="7227">Drosophila melanogaster</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.754893</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>No mechanoreceptor potential C isoform L</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="7227">Drosophila melanogaster</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.18897873399999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSQPRGGRGGGRGGGVGRKTPSSLTGPPDESATPSERATPASKADSDPKDDSSSNGDKKDMDLFPAPKPPSAGASIRDTA
+NKVLGLAMKSEWTPIEAELKKLEKYVANVGEDGNHIPLAGVHDMNTGMTPLMYATKDNKTAIMDRMIELGADVGARNNDN
+YNVLHIAAMYSREDVVKLLLTKRGVDPFSTGGSRSQTAVHLVSSRQTGTATNILRALLAAAGKDIRLKADGRGKIPLLLA
+VESGNQSMCRELLAAQTAEQLKATTANGDTALHLAARRRDVDMVRILVDYGTNVDTQNGEGQTPLHIAAAEGDEALLKYF
+YGVRASASIADNQDRTPMHLAAENGHAHVIEILADKFKASIFERTKDGSTLMHIASLNGHAECATMLFKKGVYLHMPNKD
+GARSIHTAAAYGHTGIINTLLQKGEKVDVTTNDNYTALHIAVESAKPAVVETLLGFGADVHVRGGKLRETPLHIAARVKD
+GDRCALMLLKSGASPNLTTDDCLTPVHVAARHGNLATLMQLLEDEGDPLYKSNTGETPLHMACRACHPDIVRHLIETVKE
+KHGPDKATTYINSVNEDGATALHYTCQITKEEVKIPESDKQIVRMLLENGADVTLQTKTALETAFHYCAVAGNNDVLMEM
+ISHMNPTDIQKAMNRQSSVGWTPLLIACHRGHMELVNNLLANHARVDVFDTEGRSALHLAAERGYLHVCDALLTNKAFIN
+SKSRVGRTALHLAAMNGFTHLVKFLIKDHNAVIDILTLRKQTPLHLAAASGQMEVCQLLLELGANIDATDDLGQKPIHVA
+AQNNYSEVAKLFLQQHPSLVNATSKDGNTCAHIAAMQGSVKVIEELMKFDRSGVISARNKLTDATPLQLAAEGGHADVVK
+ALVRAGASCTEENKAGFTAVHLAAQNGHGQVLDVLKSTNSLRINSKKLGLTPLHVAAYYGQADTVRELLTSVPATVKSET
+PTGQSLFGDLGTESGMTPLHLAAFSGNENVVRLLLNSAGVQVDAATIENGYNPLHLACFGGHMSVVGLLLSRSAELLQSQ
+DRNGRTGLHIAAMHGHIQMVEILLGQGAEINATDRNGWTPLHCAAKAGHLEVVKLLCEAGASPKSETNYGCAAIWFAASE
+GHNEVLRYLMNKEHDTYGLMEDKRFVYNLMVVSKNHNNKPIQEFVLVSPAPVDTAAKLSNIYIVLSTKEKERAKDLVAAG
+KQCEAMATELLALAAGSDSAGKILQATDKRNVEFLDVLIENEQKEVIAHTVVQRYLQELWHGSLTWASWKILLLLVAFIV
+CPPVWIGFTFPMGHKFNKVPIIKFMSYLTSHIYLMIHLSIVGITPIYPVLRLSLVPYWYEVGLLIWLSGLLLFELTNPSD
+KSGLGSIKVLVLLLGMAGVGVHVSAFLFVSKEYWPTLVYCRNQCFALAFLLACVQILDFLSFHHLFGPWAIIIGDLLKDL
+ARFLAVLAIFVFGFSMHIVALNQSFANFSPEDLRSFEKKNRNRGYFSDVRMHPINSFELLFFAVFGQTTTEQTQVDKIKN
+VATPTQPYWVEYLFKIVFGIYMLVSVVVLIQLLIAMMSDTYQRIQAQSDIEWKFGLSKLIRNMHRTTTAPSPLNLVTTWF
+MWIVEKVKARMKKKKRPSLVQMMGIRQASPRTKAGAKWLSKIKKDSVALSQVHLSPLGSQASFSQANQNRIENVADWEAI
+AKKYRALVGDEEGGSLKDSDAESGSQEGSGGQQPPAQVGRRAIKATLADTTK</string>
+                    <external_references type="UNIPROTKB">E0A9E1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>1,2-DIACYL-SN-GLYCERO-3-PHOSHOCHOLINE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0007340389999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>32</number_of_copies>
+                <formula>PCF</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">3.4</concentration>
+                    <buffer>
+                        <ph>8.5</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>C6H13NO4</formula>
+                            <name>Bicine</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">500.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>Salt</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.0</concentration>
+                            <formula>C10H16N2O8</formula>
+                            <name>EDTA</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>C-flat-1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">30</time>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">92</chamber_humidity>
+                        <chamber_temperature units="K">20</chamber_temperature>
+                        <instrument>GATAN CRYOPLUNGE 3</instrument>
+                        <details>2.5 sec blot, -1 offset, whatman #1 filter paper on front side, plastic on back side. </details>
+                    </vitrification>
+                    <details>sample solubilized in nanodisc</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI POLARA 300</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">30.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.1</nominal_cs>
+                    <nominal_defocus_min units="µm">-1.5</nominal_defocus_min>
+                    <calibrated_defocus_min units="µm">-1.4000000000000001</calibrated_defocus_min>
+                    <nominal_defocus_max units="µm">-3.0</nominal_defocus_max>
+                    <calibrated_defocus_max units="µm">-3.3000000000000003</calibrated_defocus_max>
+                    <nominal_magnification>31000.0</nominal_magnification>
+                    <calibrated_magnification>41132.0</calibrated_magnification>
+                    <specimen_holder_model>GATAN HCHST 3008 SINGLE TILT HIGH RESOLUTION HELIUM COOLING HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <temperature>
+                        <temperature_min units="K">83.0</temperature_min>
+                        <temperature_max units="K">83.0</temperature_max>
+                    </temperature>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>SUPER-RESOLUTION</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">3838</width>
+                                    <height units="pixel">3710</height>
+                                </dimensions>
+                                <frames_per_image>2-40</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>1873</number_real_images>
+                            <average_exposure_time units="s">8.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">54.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>190879</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="OTHER">
+                    <details>SIMPLE PRIME used to generate initial model</details>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>5</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C4</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">3.55</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>1.4</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>175314</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>COMMON LINE</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>1.4</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>COMMON LINE</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>1.4</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>6</number_classes>
+                    <average_number_members_per_class>31600.0</average_number_members_per_class>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>1.4</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="256001">
+        <file>emd_8702.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>400</col>
+            <row>400</row>
+            <sec>400</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>400</x>
+            <y>400</y>
+            <z>400</z>
+        </spacing>
+        <cell>
+            <a units="Å">486.24</a>
+            <b units="Å">486.24</b>
+            <c units="Å">486.24</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-27.666853</minimum>
+            <maximum>60.020862999999999</maximum>
+            <average>-0.000000000243273</average>
+            <std>1.0</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.2156</x>
+            <y units="Å">1.2156</y>
+            <z units="Å">1.2156</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>10.0</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::D_1000227563::::</label>
+        <annotation_details>an ion channel in nano disc -- final sharpened map</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>125.700000000000003</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="256001">
+                <file>emd_8702_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>400</col>
+                    <row>400</row>
+                    <sec>400</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>400</x>
+                    <y>400</y>
+                    <z>400</z>
+                </spacing>
+                <cell>
+                    <a units="Å">486.24</a>
+                    <b units="Å">486.24</b>
+                    <c units="Å">486.24</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-8.467359999999999</minimum>
+                    <maximum>26.844968999999999</maximum>
+                    <average>-0.000000000855628</average>
+                    <std>1.0</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.2156</x>
+                    <y units="Å">1.2156</y>
+                    <z units="Å">1.2156</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::D_1000227563::::</label>
+                <annotation_details>an ion channel in nano disc -- final unsharpened map</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="256001">
+                <file>emd_8702_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>400</col>
+                    <row>400</row>
+                    <sec>400</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>400</x>
+                    <y>400</y>
+                    <z>400</z>
+                </spacing>
+                <cell>
+                    <a units="Å">486.24</a>
+                    <b units="Å">486.24</b>
+                    <c units="Å">486.24</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-8.467359999999999</minimum>
+                    <maximum>26.844968999999999</maximum>
+                    <average>-0.000000000855628</average>
+                    <std>1.0000001</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.2156</x>
+                    <y units="Å">1.2156</y>
+                    <z units="Å">1.2156</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::D_1000227563::::</label>
+                <annotation_details>an ion channel in nano disc -- class 1</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="256001">
+                <file>emd_8702_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>400</col>
+                    <row>400</row>
+                    <sec>400</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>400</x>
+                    <y>400</y>
+                    <z>400</z>
+                </spacing>
+                <cell>
+                    <a units="Å">486.24</a>
+                    <b units="Å">486.24</b>
+                    <c units="Å">486.24</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-8.467359999999999</minimum>
+                    <maximum>26.844968999999999</maximum>
+                    <average>-0.000000000855628</average>
+                    <std>1.0</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.2156</x>
+                    <y units="Å">1.2156</y>
+                    <z units="Å">1.2156</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::D_1000227563::::</label>
+                <annotation_details>an ion channel in nano disc -- class 2</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="256001">
+                <file>emd_8702_additional_4.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>400</col>
+                    <row>400</row>
+                    <sec>400</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>400</x>
+                    <y>400</y>
+                    <z>400</z>
+                </spacing>
+                <cell>
+                    <a units="Å">486.24</a>
+                    <b units="Å">486.24</b>
+                    <c units="Å">486.24</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-8.467359999999999</minimum>
+                    <maximum>26.844968999999999</maximum>
+                    <average>-0.000000000855628</average>
+                    <std>0.99999994</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.2156</x>
+                    <y units="Å">1.2156</y>
+                    <z units="Å">1.2156</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::D_1000227563::::</label>
+                <annotation_details>an ion channel in nano disc -- class 3</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="256001">
+                <file>emd_8702_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>400</col>
+                    <row>400</row>
+                    <sec>400</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>400</x>
+                    <y>400</y>
+                    <z>400</z>
+                </spacing>
+                <cell>
+                    <a units="Å">486.24</a>
+                    <b units="Å">486.24</b>
+                    <c units="Å">486.24</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-10.272947</minimum>
+                    <maximum>27.159649999999999</maximum>
+                    <average>-0.000000002900508</average>
+                    <std>1.0</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.2156</x>
+                    <y units="Å">1.2156</y>
+                    <z units="Å">1.2156</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::D_1000227563::::</label>
+                <annotation_details>an ion channel in nano disc -- half volume 1</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="256001">
+                <file>emd_8702_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>400</col>
+                    <row>400</row>
+                    <sec>400</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>400</x>
+                    <y>400</y>
+                    <z>400</z>
+                </spacing>
+                <cell>
+                    <a units="Å">486.24</a>
+                    <b units="Å">486.24</b>
+                    <c units="Å">486.24</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-11.80359</minimum>
+                    <maximum>29.452010999999999</maximum>
+                    <average>0.000000004526758</average>
+                    <std>1.0</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.2156</x>
+                    <y units="Å">1.2156</y>
+                    <z units="Å">1.2156</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-8702::::</label>
+                <annotation_details>an ion channel in nano disc -- half volume 2</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

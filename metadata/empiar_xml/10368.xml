@@ -1,0 +1,146 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10368" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-01-08</depositionDate>
+            <releaseDate>2020-10-09</releaseDate>
+            <updateDate>2022-02-07</updateDate>
+        </keyDates>
+        <title>Human delta protocadherin 1 full ectodomains on membranes, tomogram 2</title>
+        <correspondingAuthor private="true">
+            <firstName>Lawrence</firstName>
+            <lastName>Shapiro</lastName>
+            <organization type="academic">Zuckerman Mind, Brain and Behavior Institute, Columbia University</organization>
+            <street>3227 Broadway</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Lawrence</firstName>
+            <lastName>Shapiro</lastName>
+            <organization type="academic">Zuckerman Mind, Brain and Behavior Institute, Columbia University</organization>
+            <street>3227 Broadway</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Harrison OJ</author>
+            <author>Brasch J</author>
+            <author>Katsamba PS</author>
+            <author>Ahlsen G</author>
+            <author authorORCID="0000-0001-8634-2279">Noble AJ</author>
+            <author>Dan H</author>
+            <author>Sampogna R</author>
+            <author>Potter CS</author>
+            <author authorORCID="0000-0002-0624-5020">Carragher B</author>
+            <author authorORCID="0000-0002-1835-1031">Honig B</author>
+            <author authorORCID="0000-0001-9943-8819">Shapiro L</author>
+        </authorsList>
+        <datasetSize units="GB">230.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10368</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-21189</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Harrison OJ</author>
+                    <author order="2">Brasch J</author>
+                    <author order="3">Katsamba PS</author>
+                    <author order="4">Ahlsen G</author>
+                    <author authorORCID="0000-0001-8634-2279" order="5">Noble AJ</author>
+                    <author order="6">Dan H</author>
+                    <author order="7">Sampogna R</author>
+                    <author order="8">Potter CS</author>
+                    <author authorORCID="0000-0002-0624-5020" order="9">Carragher B</author>
+                    <author authorORCID="0000-0002-1835-1031" order="10">Honig B</author>
+                    <author authorORCID="0000-0001-9943-8819" order="11">Shapiro L</author>
+                    <title>Family-wide Structural and Biophysical Analysis of Binding Interactions among Non-clustered δ-Protocadherins</title>
+                    <journal>Cell reports</journal>
+                    <journalAbbreviation>Cell Rep</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>8</issue>
+                    <volume>30</volume>
+                    <firstPage>2655</firstPage>
+                    <lastPage>2671.e7</lastPage>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.celrep.2020.02.003</externalReferences>
+                    <externalReferences type="pubmed">32101743</externalReferences>
+                    <details>Includes raw frames, aligned micrographs using MotionCor2, naively summed micrographs, tilt-series for exemplar areas, aligned tilt-series for exemplar areas, and tomograms.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>K2 tilt-series frames</name>
+        <directory>/data/frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>50</numImagesOrTiltSeries>
+        <framesPerImage>12</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.836</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.836</pixelHeight>
+        </dimensions>
+        <details>TIF-compressed tilt image frames.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Whole-frame aligned tilt images</name>
+        <directory>/data/leginon</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>JPEG</headerFormat>
+        <dataFormat>JPEG</dataFormat>
+        <numImagesOrTiltSeries>50</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.836</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.836</pixelHeight>
+        </dimensions>
+        <details>Whole-frame aligned tilt images using Motioncor2 along with all other magnification images from the collection. The images were converted to jpg for internal long-term storage purposes. The jpgs were compressed with loss at 75% quality.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Appion-Protomo tilt-series alignments</name>
+        <directory>/data/protomo_alignments</directory>
+        <category>tilt series</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>16</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.836</pixelWidth>
+            <imageHeight>3838</imageHeight>
+            <pixelHeight>1.836</pixelHeight>
+        </dimensions>
+        <details>Includes a full tilt-series alignment run for the published tilt-series, along with several other tilt-series from the same collection session.
+To view properly, navigate to the protomo_alignments folder in Appion-Protomo.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

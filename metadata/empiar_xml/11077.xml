@@ -1,0 +1,87 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11077" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-05-19</depositionDate>
+            <releaseDate>2022-11-11</releaseDate>
+            <updateDate>2022-11-11</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of full-length human immunoglobulin M</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-0387-2862</authorORCID>
+            <firstName>Peter</firstName>
+            <lastName>Rosenthal</lastName>
+            <organization type="academic">The Francis Crick Institute</organization>
+            <street>1 Midland Rd</street>
+            <townOrCity>London</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>NW1 1AT</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-0387-2862</authorORCID>
+            <firstName>Peter</firstName>
+            <lastName>Rosenthal</lastName>
+            <organization type="academic">The Francis Crick Institute</organization>
+            <street>1 Midland Rd, London</street>
+            <townOrCity>London</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>NW1 1AT</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-5921-8125">Chen Q</author>
+            <author authorORCID="0000-0002-0387-2862">Rosenthal PB</author>
+            <author authorORCID="0000-0003-4693-7299">Tolar P</author>
+        </authorsList>
+        <datasetSize units="TB">2.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11077</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-13921</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-5921-8125" order="1">Chen Q</author>
+                    <author order="2">Menon R</author>
+                    <author authorORCID="0000-0001-5694-4033" order="3">Calder LJ</author>
+                    <author authorORCID="0000-0003-4693-7299" order="4">Tolar P</author>
+                    <author authorORCID="0000-0002-0387-2862" order="5">Rosenthal PB</author>
+                    <title>Cryomicroscopy reveals the structural basis for a flexible hinge motion in the immunoglobulin M pentamer</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>13</volume>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-022-34090-2</externalReferences>
+                    <externalReferences type="pubmed">36274064</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>aligned and dose-weighted single-frame micrographs of full-length IgM</name>
+        <directory>/data/47484168</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>43331</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.09</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.09</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,105 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10049" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2015-11-19</depositionDate>
+            <releaseDate>2015-11-24</releaseDate>
+            <updateDate>2015-11-24</updateDate>
+        </keyDates>
+        <title>Cryo-EM Structures of Synaptic RAG1-RAG2 Complex</title>
+        <correspondingAuthor private="true">
+            <firstName>Maofu</firstName>
+            <lastName>Liao</lastName>
+            <organization type="academic">Department of Cell Biology, Harvard Medical School</organization>
+            <street>240 Longwood Avenue</street>
+            <townOrCity>Boston</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02115</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Maofu</firstName>
+            <lastName>Liao</lastName>
+            <organization type="academic">Department of Cell Biology, Harvard Medical School</organization>
+            <street>240 Longwood Avenue</street>
+            <townOrCity>Boston</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02115</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Heng R</author>
+            <author>Chambers MG</author>
+            <author>Fu T</author>
+            <author>Tong AB</author>
+            <author>Liao M</author>
+            <author>Wu H</author>
+        </authorsList>
+        <datasetSize units="GB">65.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10049</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-6487</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>RAG SEC particle stack</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>108544</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>192</imageWidth>
+            <pixelWidth>1.23</pixelWidth>
+            <imageHeight>192</imageHeight>
+            <pixelHeight>1.23</pixelHeight>
+        </dimensions>
+        <details>"allimg.star" is the Relion star file containing the EM and defocus parameters for each particle.
+"ragSEC_150309.mrcs" is the particle stack from the 1st data set after summing all 30 frames, and "ragSEC_150311_f03-16.mrcs" is the particle stack from the 1st data set after summing frames 3-16.
+"ragSEC_150311.mrcs" and "ragSEC_150311_f03-16.mrcs" are the particle stacks from the 2nd data set.
+"ragSEC_volume_half1.mrc" and "ragSEC_volume_half2.mrc" are the two final unfiltered half maps.</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Summed micrographs from drift-corrected multi-frame microsgraphs of RAG SEC (1st data set)</name>
+        <directory>/data/RAG_1st</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>330</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.23</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.23</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Summed micrographs from drift-corrected multi-frame microsgraphs of RAG SEC (2nd data set)</name>
+        <directory>/data/RAG_2nd</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>350</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.23</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.23</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+    </imageSet>
+</entry>

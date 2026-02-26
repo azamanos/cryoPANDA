@@ -1,0 +1,263 @@
+<emd emdb_id="EMD-6392" version="3.0.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+    <admin>
+        <current_status>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2015-07-18</deposition>
+            <header_release>2015-09-23</header_release>
+            <map_release>2015-09-23</map_release>
+            <update>2015-10-07</update>
+        </key_dates>
+        <title>Structural basis for TBC-DEG assembly with soluble tubulin dimer</title>
+        <authors_list>
+            <author>Nithianantham S</author>
+            <author>Le S</author>
+            <author>Seto E</author>
+            <author>Jia W</author>
+            <author>Leary J</author>
+            <author>Corbett KD</author>
+            <author>Moore JK</author>
+            <author>Al-Bassam J</author>
+        </authors_list>
+        <keywords>Tubulin cofactors, Microtubule dynamics, Chaperones, tubulin biogenesis or degradation, tubulin dimer, TBC-DEG</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Nithianantham S</author>
+                    <author order="2">Le S</author>
+                    <author order="3">Seto E</author>
+                    <author order="4">Jia W</author>
+                    <author order="5">Leary J</author>
+                    <author order="6">Corbett KD</author>
+                    <author order="7">Moore JK</author>
+                    <author order="8">Al-Bassam J</author>
+                    <title>Tubulin cofactors and Arl2 are cage-like chaperones that regulate the soluble alphabeta-tubulin pool for microtubule dynamics.</title>
+                    <journal>eLife</journal>
+                    <volume>4</volume>
+                    <year>2015</year>
+                    <external_references type="PUBMED">26208336</external_references>
+                    <external_references type="DOI">doi:10.7554/eLife.08811</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <auxiliary_link_list>
+            <auxiliary_link>
+                <link>http://dx.doi.org/10.6019/EMPIAR-10035</link>
+            </auxiliary_link>
+        </auxiliary_link_list>
+    </crossreferences>
+    <sample>
+        <name>Tubulin cofactor complex [TBC-DE(N-GFP)G]</name>
+        <supramolecule_list>
+            <sample_supramolecule supramolecule_id="1000">
+                <name>Tubulin cofactor complex [TBC-DE(N-GFP)G]</name>
+                <details>TBC-DEG complex with tubulin dimer behaves as a single biochemical entity.</details>
+                <oligomeric_state>One heterotrimer of TBC-DEG binds to tubulin dimer</oligomeric_state>
+                <number_unique_components>5</number_unique_components>
+                <molecular_weight>
+                    <experimental units="MDa">0.308</experimental>
+                    <theoretical units="MDa">0.310</theoretical>
+                    <method>SEC-MALS</method>
+                </molecular_weight>
+            </sample_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name synonym="TBCD">tubulin folding cofactor D</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                    <synonym_organism>Baker's yeast</synonym_organism>
+                </natural_source>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_exp_flag>true</recombinant_exp_flag>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                    <recombinant_plasmid>pDEST</recombinant_plasmid>
+                </recombinant_expression>
+                <sequence />
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name synonym="TBCE">tubulin folding cofactor E</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                    <synonym_organism>Baker's yeast</synonym_organism>
+                </natural_source>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_exp_flag>true</recombinant_exp_flag>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                    <recombinant_plasmid>pDEST</recombinant_plasmid>
+                </recombinant_expression>
+                <sequence />
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name synonym="DEG(Q73L)">ARL2 GTPase, Q73L mutant</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                    <synonym_organism>Baker's yeast</synonym_organism>
+                </natural_source>
+                <details>Arl2 locked mutant (Q73L) in a GTP-like state</details>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_exp_flag>true</recombinant_exp_flag>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                    <recombinant_plasmid>pDEST</recombinant_plasmid>
+                </recombinant_expression>
+                <sequence />
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>alpha tubulin</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="32644">unidentified</organism>
+                </natural_source>
+                <recombinant_exp_flag>false</recombinant_exp_flag>
+                <recombinant_expression database="NCBI" />
+                <sequence />
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>beta tubulin</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="32644">unidentified</organism>
+                </natural_source>
+                <recombinant_exp_flag>false</recombinant_exp_flag>
+                <recombinant_expression database="NCBI" />
+                <sequence />
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.5</concentration>
+                    <buffer>
+                        <ph>7.0</ph>
+                        <details>50 mM HEPES, 100 mM KCl, 0.1 mM GTP, 3 mM b-mercaptoethanol</details>
+                    </buffer>
+                    <staining>
+                        <type>NEGATIVE</type>
+                        <details>The proteins were incubated on carbon-coated grids, briefly washed, and stained with 1% uranyl formate.</details>
+                    </staining>
+                    <grid>
+                        <details>glow-discharged 200 mesh gold grid with thin carbon support</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>NONE</cryogen_name>
+                        <instrument>OTHER</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>JEOL 2100F</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_defocus_min units="&#181;m">1.1</nominal_defocus_min>
+                    <nominal_defocus_max units="&#181;m">2.7</nominal_defocus_max>
+                    <nominal_magnification>50000.0</nominal_magnification>
+                    <calibrated_magnification>50050.0</calibrated_magnification>
+                    <specimen_holder_model>JEOL</specimen_holder_model>
+                    <date>2014-07-10</date>
+                    <image_recording_list>
+                        <image_recording>
+                            <film_or_detector_model category="FILM">KODAK SO-163 FILM</film_or_detector_model>
+                            <digitization_details>
+                                <scanner>PRIMESCAN</scanner>
+                                <sampling_interval units="&#181;m">3.5</sampling_interval>
+                            </digitization_details>
+                            <number_real_images>90</number_real_images>
+                            <average_electron_dose_per_image units="e/&#8491;^2">9</average_electron_dose_per_image>
+                            <bits_per_pixel>5.</bits_per_pixel>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <details>TBC-DEG:tubulin complex particles were picked semi-automatically using e2boxer.py.</details>
+                <ctf_correction>
+                    <details>Each particle</details>
+                </ctf_correction>
+                <final_reconstruction>
+                    <algorithm>OTHER</algorithm>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">24.0</resolution>
+                    <resolution_method>OTHER</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>Spider, EMAN2</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>20000</number_images_used>
+                </final_reconstruction>
+                <final_two_d_classification>
+                    <number_classes>400</number_classes>
+                </final_two_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="8193">
+        <file>emd_6392.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>128</col>
+            <row>128</row>
+            <sec>128</sec>
+        </dimensions>
+        <origin>
+            <col>-64</col>
+            <row>-64</row>
+            <sec>-64</sec>
+        </origin>
+        <spacing>
+            <x>128</x>
+            <y>128</y>
+            <z>128</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">256.0</a>
+            <b units="&#8491;">256.0</b>
+            <c units="&#8491;">256.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.00000067</minimum>
+            <maximum>0.10691054</maximum>
+            <average>0.00117101</average>
+            <std>0.00657905</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">2.0</x>
+            <y units="&#8491;">2.0</y>
+            <z units="&#8491;">2.0</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0163</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <annotation_details>Reconstruction of TBC-DEG with tubulin dimer</annotation_details>
+        <details>::::EMDATABANK.org::::EMD-6392::::</details>
+    </map>
+</emd>

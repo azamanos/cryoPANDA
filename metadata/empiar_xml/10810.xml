@@ -1,0 +1,181 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10810" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-09-17</depositionDate>
+            <releaseDate>2022-03-28</releaseDate>
+            <updateDate>2022-03-28</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of SARS-CoV-2 Main protease C145S in complex with N-terminal peptide</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-0613-9164</authorORCID>
+            <firstName>Andre</firstName>
+            <middleName>Schutzer</middleName>
+            <lastName>Godoy</lastName>
+            <organization type="academic">University of Sao Paulo</organization>
+            <street>Av. João Dagnone, 1100, Jd. Santa Angelina</street>
+            <townOrCity>Sao Carlos</townOrCity>
+            <stateOrProvince>SAO PAULO</stateOrProvince>
+            <country>Brazil</country>
+            <postOrZipCode>13563-120</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-0613-9164</authorORCID>
+            <firstName>Andre</firstName>
+            <middleName>Schutzer</middleName>
+            <lastName>Godoy</lastName>
+            <organization type="academic">University of Sao Paulo</organization>
+            <street>Av. João Dagnone, 1100, Jd. Santa Angelina</street>
+            <townOrCity>Sao Carlos</townOrCity>
+            <stateOrProvince>SAO PAULO</stateOrProvince>
+            <country>Brazil</country>
+            <postOrZipCode>13563-120</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-0613-9164">Godoy AS</author>
+            <author authorORCID="0000-0002-6966-3801">Song Y</author>
+            <author authorORCID="0000-0002-6498-6521">Noske GD</author>
+            <author authorORCID="0000-0003-2719-0302">Oliva G</author>
+        </authorsList>
+        <datasetSize units="TB">3.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10810</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-24889</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0002-0613-9164" order="1">Godoy AS</author>
+                    <title>Cryo-EM structure of SARS-CoV-2 Main protease C145S in complex with N-terminal peptide</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country>Brazil</country>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Shiny particles used for final model refinement</name>
+        <directory>/data/job177</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>227534</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>226</imageWidth>
+            <pixelWidth>0.653</pixelWidth>
+            <imageHeight>226</imageHeight>
+            <pixelHeight>0.653</pixelHeight>
+        </dimensions>
+        <details>Shiny particles used for last reconstruction</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/raw*/GridSquare_*/Data/FoilHole_*</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/job177/shiny.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/job177/Movies/raw*/GridSquare_*/Data/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multiframes from SARS-CoV-2 Mpro in super-resolution mode</name>
+        <directory>/data/raw2</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>3556</numImagesOrTiltSeries>
+        <framesPerImage>44</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>44</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.3265</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.3265</pixelHeight>
+        </dimensions>
+        <details>Multiframe images collected in super resolution mode</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/raw2/GridSquare_*/Data/FoilHole_*fractions.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multiframes from SARS-CoV-2 Mpro in super-resolution mode</name>
+        <directory>/data/raw3</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>7247</numImagesOrTiltSeries>
+        <framesPerImage>44</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>44</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.3265</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.3265</pixelHeight>
+        </dimensions>
+        <details>Multiframe images collected in super resolution mode</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/raw3/GridSquare_*/Data/FoilHole_*fractions.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multiframes from SARS-CoV-2 Mpro in super-resolution mode</name>
+        <directory>/data/raw4</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>252</numImagesOrTiltSeries>
+        <framesPerImage>44</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>44</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.3265</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.3265</pixelHeight>
+        </dimensions>
+        <details>Multiframe images collected in super resolution mode</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/raw4/GridSquare_*/Data/FoilHole_*fractions.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned multiframes from SARS-CoV-2 Mpro in super-resolution mode</name>
+        <directory>/data/raw_yun</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>2715</numImagesOrTiltSeries>
+        <framesPerImage>44</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>44</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.3265</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.3265</pixelHeight>
+        </dimensions>
+        <details>Multiframe images collected in super resolution mode</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/raw_yun/GridSquare_*/Data/FoilHole_*fractions.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

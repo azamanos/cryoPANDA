@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-11911">
+    <admin>
+        <current_status>
+            <date>2024-11-06</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-10-29</deposition>
+            <header_release>2021-08-25</header_release>
+            <map_release>2021-08-25</map_release>
+            <update>2024-11-06</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council (BBSRC)</funding_body>
+                <code>BBS/E/J/000PR9794</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council (BBSRC)</funding_body>
+                <code>BB/L014130/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>John Innes Foundation</funding_body>
+                <code>None</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>Nudaurelia capensis omega virus procapsid: virus-like particles expressed in Nicotiana benthamiana</title>
+        <authors_list>
+            <author>Castells-Graells R</author>
+            <author>Ribeiro JRS</author>
+        </authors_list>
+        <keywords>ICOSAHEDRAL VIRUS, AUTO-CATALYTIC CLEAVAGE, VIRUS MATURATION, TRANSIENT EXPRESSION, VIRUS LIKE PARTICLE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-3985-6194" order="1">Castells-Graells R</author>
+                    <author order="2">Ribeiro JRS</author>
+                    <author order="3">Domitrovic T</author>
+                    <author ORCID="0000-0002-4522-0061" order="4">Hesketh EL</author>
+                    <author ORCID="0000-0001-6168-0060" order="5">Scarff CA</author>
+                    <author ORCID="0000-0001-9782-3721" order="6">Johnson JE</author>
+                    <author ORCID="0000-0002-3640-5275" order="7">Ranson NA</author>
+                    <author ORCID="0000-0002-7637-4303" order="8">Lawson DM</author>
+                    <author ORCID="0000-0003-0700-906X" order="9">Lomonossoff GP</author>
+                    <title>Plant-expressed virus-like particles reveal the intricate maturation process of a eukaryotic virus.</title>
+                    <journal_abbreviation>Commun Biol</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>4</volume>
+                    <first_page>619</first_page>
+                    <last_page>619</last_page>
+                    <year>2021</year>
+                    <external_references type="PUBMED">34031522</external_references>
+                    <external_references type="DOI">doi:10.1038/s42003-021-02134-w</external_references>
+                    <external_references type="ISSN">2399-3642</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7ata</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Nudaurelia capensis omega virus</name>
+        <supramolecule_list>
+            <virus_supramolecule supramolecule_id="1">
+                <name>Nudaurelia capensis omega virus</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>The codon-optimized sequence was transiently expressed in Nicotiana benthamiana</details>
+                <sci_species_name ncbi="12541">Nudaurelia capensis omega virus</sci_species_name>
+                <natural_host database="NCBI">
+                    <organism ncbi="2059211">Gonimbrasia cytherea</organism>
+                </natural_host>
+                <molecular_weight>
+                    <theoretical units="MDa">16.76</theoretical>
+                </molecular_weight>
+                <virus_shell shell_id="1">
+                    <name>coat</name>
+                    <diameter units="Å">480.0</diameter>
+                    <triangulation>4</triangulation>
+                </virus_shell>
+                <virus_type>VIRUS-LIKE PARTICLE</virus_type>
+                <virus_isolate>OTHER</virus_isolate>
+                <virus_enveloped>false</virus_enveloped>
+                <virus_empty>false</virus_empty>
+            </virus_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>p70</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="12541">Nudaurelia capensis omega virus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.062094828</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="4100">Nicotiana benthamiana</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDSNSASGKRRSRNVRIAANTVNVAPKQRQARGRRARSRANNIDNVTAAAQELGQSLDANVITFPTNVATMPEFRSWARG
+KLDIDQDSIGWYFKYLDPAGATESARAVGEYSKIPDGLVKFSVDAEIREIYNEECPTVSDASIPLDGAQWSLSIISYPMF
+RTAYFAVANVDNKEISLDVTNDLIVWLNNLASWRDVVDSGQWFTFSDDPTWFVRIRVLHPTYDLPDPTEGLLRTVSDYRL
+TYKSITCEANMPTLVDQGFWIGGHYALTPIATTQNAVEGSGFVHPFNVTRPGIAAGVTLTWASMPPGGSAPSGDPAWIPD
+STTQFQWRHGGFDAPTGVITYTIPRGYTMQYFDTTTNEWNGFANPDDVVTFGQTGGAAGTNATITITAPTVTLTILATTT
+SAANVINFRNLDAETTAASNRSEVPLPPLTFGQTAPNNPKIEQTLVKDTLGSYLVHSKMRNPVFQLTPASSFGAISFTNP
+GFDRNLDLPGFGGIRDSLDVNMSTAVCHFRSLSKSCSIVTKTYQGWEGVTNVNTPFGQFAHSGLLKNDEILCLADDLATR
+LTGVYGATDN</string>
+                    <external_references type="UNIPROTKB">Q4TVS9</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>p70</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="12541">Nudaurelia capensis omega virus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007815101999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="4100">Nicotiana benthamiana</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>FAAAVLAFAANMLTSVLKSEATTSVIKELGNQATGLANQGLARLPGLLASIPGKIAARVRARRDRRRAARMNNN</string>
+                    <external_references type="UNIPROTKB">Q4TVS9</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.3</concentration>
+                    <buffer>
+                        <ph>7.6</ph>
+                    </buffer>
+                    <grid>
+                        <material>COPPER</material>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">30</time>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">70.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.7000000000000001</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.7</nominal_defocus_max>
+                    <nominal_magnification>75000.0</nominal_magnification>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <detector_mode>INTEGRATING</detector_mode>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>8554</number_real_images>
+                            <average_exposure_time units="s">1.5</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">72.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>6ANM</pdb_id>
+                    </pdb_model>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>I</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">6.63</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>5426</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="45563">
+        <file>emd_11911.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>225</col>
+            <row>225</row>
+            <sec>225</sec>
+        </dimensions>
+        <origin>
+            <col>38</col>
+            <row>38</row>
+            <sec>38</sec>
+        </origin>
+        <spacing>
+            <x>225</x>
+            <y>225</y>
+            <z>225</z>
+        </spacing>
+        <cell>
+            <a units="Å">479.25003</a>
+            <b units="Å">479.25003</b>
+            <c units="Å">479.25003</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>Z</fast>
+            <medium>Y</medium>
+            <slow>X</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.063345045</minimum>
+            <maximum>0.108826414</maximum>
+            <average>-0.000000000000108</average>
+            <std>0.009031488</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">2.13</x>
+            <y units="Å">2.13</y>
+            <z units="Å">2.13</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.007</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-11911::::</label>
+        <annotation_details>Density improved map from phenix.resolve_cryo_em at 6.63 Ang resolution</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>7ANM</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>OTHER</refinement_protocol>
+                <details>The model was built and refined against a density modified map generated using phenix.resolve_cryo_em. This used the Relion half maps as inputs and improved the resolution to 6.6 Angstrom.</details>
+                <target_criteria>Correlation coefficient</target_criteria>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>105.799999999999997</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_11911_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="108001">
+                <file>emd_11911_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">639.00006</a>
+                    <b units="Å">639.00006</b>
+                    <c units="Å">639.00006</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.034437735</minimum>
+                    <maximum>0.070338316</maximum>
+                    <average>0.00092380034</average>
+                    <std>0.009104381</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">2.13</x>
+                    <y units="Å">2.13</y>
+                    <z units="Å">2.13</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-11911::::</label>
+                <annotation_details>Postprocessed map from Relion at 7.1 Ang resolution</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="108001">
+                <file>emd_11911_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">639.00006</a>
+                    <b units="Å">639.00006</b>
+                    <c units="Å">639.00006</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.01794211</minimum>
+                    <maximum>0.0476437</maximum>
+                    <average>0.0009074645</average>
+                    <std>0.007855494</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">2.13</x>
+                    <y units="Å">2.13</y>
+                    <z units="Å">2.13</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-11911::::</label>
+                <annotation_details>Refine3D half map 1 from Relion at 7.52 Ang resolution</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="108001">
+                <file>emd_11911_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">639.00006</a>
+                    <b units="Å">639.00006</b>
+                    <c units="Å">639.00006</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.018359214</minimum>
+                    <maximum>0.04793158</maximum>
+                    <average>0.0009401362</average>
+                    <std>0.00787254</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">2.13</x>
+                    <y units="Å">2.13</y>
+                    <z units="Å">2.13</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-11911::::</label>
+                <annotation_details>Refine3D half map 2 from Relion at 7.52 Ang resolution</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

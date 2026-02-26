@@ -1,0 +1,105 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11910" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-02-06</depositionDate>
+            <releaseDate>2024-06-13</releaseDate>
+            <updateDate>2024-06-13</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of the complete inner kinetochore of the budding yeast point centromere</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-9847-0910</authorORCID>
+            <firstName>Tom</firstName>
+            <lastName>Dendooven</lastName>
+            <organization type="academic">MRC-LMB</organization>
+            <townOrCity>Cambridge</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>David</firstName>
+            <lastName>Barford</lastName>
+            <organization type="academic">MRC-LMB</organization>
+            <townOrCity>Cambridge</townOrCity>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-9847-0910">Dendooven T</author>
+            <author>Zhang Z</author>
+            <author>Yang J</author>
+            <author>McLaughlin S</author>
+            <author>Schwabb J</author>
+            <author>Scheres S</author>
+            <author>Yatskevich S</author>
+            <author>Barford D</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Cancer Research UK</fundingBody>
+                <code>C576/A14109</code>
+                <country>United Kingdom</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Medical Research Council (MRC, United Kingdom)</fundingBody>
+                <code>MC_UP_1201/6</code>
+                <country>United Kingdom</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">51.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11910</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-17226</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-9847-0910" order="1">Dendooven T</author>
+                    <author authorORCID="0000-0002-7268-9631" order="2">Zhang Z</author>
+                    <author authorORCID="0000-0002-8984-4503" order="3">Yang J</author>
+                    <author authorORCID="0000-0001-9135-6253" order="4">McLaughlin S</author>
+                    <author authorORCID="0000-0002-7144-3031" order="5">Schwabb J</author>
+                    <author authorORCID="0000-0002-0462-6540" order="6">Scheres S</author>
+                    <author authorORCID="0000-0003-2999-6561" order="7">Yatskevich S</author>
+                    <author authorORCID="0000-0001-8810-950X" order="8">Barford D</author>
+                    <title>Cryo-EM structure of the complete inner kinetochore of the budding yeast point centromere</title>
+                    <journal>Science advances</journal>
+                    <journalAbbreviation>Sci Adv</journalAbbreviation>
+                    <country>United Kingdom</country>
+                    <issue>30</issue>
+                    <volume>9</volume>
+                    <year>2023</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/sciadv.adg7480</externalReferences>
+                    <externalReferences type="pubmed">37506202</externalReferences>
+                    <details>Particle set that led to the structure of the CBF1-CCAN-CENP-A assembly from budding yeast</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Particle stack that led to the CBF1:CCAN:CENP-A consensus reconstruction</name>
+        <directory>/data/particles_monomer_CCAN_CENPA</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>100000</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>0.831</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>0.831</pixelHeight>
+        </dimensions>
+        <details>Particle stack that led to the CBF1:CCAN:CENP-A consensus reconstruction. This stack was also used for Dynamight refinements.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

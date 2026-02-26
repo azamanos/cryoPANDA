@@ -1,0 +1,279 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10640" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-02-11</depositionDate>
+            <releaseDate>2021-03-05</releaseDate>
+            <updateDate>2021-03-05</updateDate>
+        </keyDates>
+        <title>Cryo-EM of Multiple System Atrophy seeded assembly of alpha-synuclein filaments</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-2152-1476</authorORCID>
+            <firstName>Sofia</firstName>
+            <middleName>Karin Anna</middleName>
+            <lastName>Lövestam</lastName>
+            <organization type="academic">MRC LMB Cambridge</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0462-6540</authorORCID>
+            <firstName>Sjors</firstName>
+            <lastName>Scheres</lastName>
+            <organization type="academic">MRC LMB Cambridge</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-2152-1476">Lövestam S</author>
+            <author authorORCID="0000-0002-5214-7886">Goedert M</author>
+            <author authorORCID="0000-0002-0462-6540">Scheres S</author>
+        </authorsList>
+        <datasetSize units="TB">1.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10640</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-12264</emdbEntry>
+            <emdbEntry>EMD-12265</emdbEntry>
+            <emdbEntry>EMD-12266</emdbEntry>
+            <emdbEntry>EMD-12267</emdbEntry>
+            <emdbEntry>EMD-12268</emdbEntry>
+            <emdbEntry>EMD-12269</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-2152-1476" order="1">Lövestam S</author>
+                    <author authorORCID="0000-0002-1848-1610" order="2">Schweighauser M</author>
+                    <author authorORCID="0000-0002-7559-8284" order="3">Matsubara T</author>
+                    <author authorORCID="0000-0001-9709-5242" order="4">Murayama S</author>
+                    <author authorORCID="0000-0002-0075-5943" order="5">Tomita T</author>
+                    <author authorORCID="0000-0001-7045-7098" order="6">Ando T</author>
+                    <author authorORCID="0000-0002-0142-4839" order="7">Hasegawa K</author>
+                    <author authorORCID="0000-0002-8520-6184" order="8">Yoshida M</author>
+                    <author authorORCID="0000-0003-3835-9070" order="9">Tarutani A</author>
+                    <author authorORCID="0000-0001-7415-8159" order="10">Hasegawa M</author>
+                    <author authorORCID="0000-0002-5214-7886" order="11">Goedert M</author>
+                    <author authorORCID="0000-0002-0462-6540" order="12">Scheres S</author>
+                    <title>Seeded assembly in vitro does not replicate the structures of α-synuclein filaments from multiple system atrophy</title>
+                    <journal>FEBS Open Bio</journal>
+                    <journalAbbreviation>FEBS Open Bio</journalAbbreviation>
+                    <country>United Kingdom</country>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1002/2211-5463.13110</externalReferences>
+                    <externalReferences type="pubmed">33548114</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned movies of alpha-synuclein filament seeded in vitro by filaments purified from Multiple Systems Atrophy Case 1</name>
+        <directory>/data/EMPIAR_upload/Movies/Case1</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>2175</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.1</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.1</pixelHeight>
+        </dimensions>
+        <details>Unaligned and non-gain corrected, 40-frame movies (K2 counting mode) were collected with EPU using a Titan Krios operating at 300 kV (LMB Krios II). The exposure was at  36.7 e/A^2) with a defocus range of -2.8 to -1.5 um. Micrographs were manually picked in relion using start-end helical picking. Gain reference is in Movies/Case1-gain-ref.MRC. Have fun.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIAR_upload/Movies/Case1/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR_upload/ManualPick/Case1/job004/Tiff/*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR_upload/ManualPick/Case1/job004</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of alpha-synuclein filament seeded in vitro by filaments purified from Multiple Systems Atrophy Case 2</name>
+        <directory>/data/EMPIAR_upload/Movies/Case2</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1294</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.14</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.14</pixelHeight>
+        </dimensions>
+        <details>Unaligned and non-gain corrected, 40-frame movies (K2 counting mode) were collected with EPU using a Titan Krios operating at 300 kV (LMB Krios I). The exposure was at  32.6 e/A^2) with a defocus range of -2.8 to -1.5 um. Micrographs were manually picked in relion using start-end helical picking. Gain reference is in Movies/Case2-gain-ref.MRC. Have fun twice.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIAR_upload/Movies/Case2/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR_upload/ManualPick/Case2/job004/Tiff/*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR_upload/ManualPick/Case2/job004</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of alpha-synuclein filament seeded in vitro by filaments purified from Multiple Systems Atrophy Case 5</name>
+        <directory>/data/EMPIAR_upload/Movies/Case5</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>1265</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.14</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.14</pixelHeight>
+        </dimensions>
+        <details>Unaligned and non-gain corrected, 40-frame movies (K2 counting mode) were collected with EPU using a Titan Krios operating at 300 kV (LMB Krios I). The exposure was at  37.5 e/A^2) with a defocus range of -2.8 to -1.5 um. Micrographs were manually picked in relion using start-end helical picking. Gain reference is in Movies/Case5-gain-ref.MRC. Have fun thrice.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIAR_upload/Movies/Case5/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR_upload/ManualPick/Case5/job005/Micrographs/*.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR_upload/ManualPick/Case5/job005</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Type 1A particles after Bayesian polishing</name>
+        <directory>/data/EMPIAR_upload/PolishedParticles/Type1A</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>67619</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.14</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.14</pixelHeight>
+        </dimensions>
+        <details>Polished particles for Type1A</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Type 2A particles after Bayesian polishing</name>
+        <directory>/data/EMPIAR_upload/PolishedParticles/Type2A</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>52502</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.14</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.14</pixelHeight>
+        </dimensions>
+        <details>Polished particles for Type 2A</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Type 1B particles after Bayesian polishing</name>
+        <directory>/data/EMPIAR_upload/PolishedParticles/Type1B</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>33479</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.1</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.1</pixelHeight>
+        </dimensions>
+        <details>Polished particles for Type 1B</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Type 2B particles after Bayesian polishing</name>
+        <directory>/data/EMPIAR_upload/PolishedParticles/Type2B</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>87092</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.1</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.1</pixelHeight>
+        </dimensions>
+        <details>Polished particles for Type 2B</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Type 2AB particles after Bayesian polishing</name>
+        <directory>/data/EMPIAR_upload/PolishedParticles/Type2AB</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>57358</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.1</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.1</pixelHeight>
+        </dimensions>
+        <details>Polished particles for Type 2AB</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Type 3 particles after Bayesian polishing</name>
+        <directory>/data/EMPIAR_upload/PolishedParticles/Type3</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>71131</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.14</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.14</pixelHeight>
+        </dimensions>
+        <details>Polished particles for Type 3</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

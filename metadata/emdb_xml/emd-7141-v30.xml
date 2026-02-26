@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_7/emdb.xsd" emdb_id="EMD-7141" version="3.0.1.7">
+    <admin>
+        <current_status>
+            <date>2020-01-29</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2017-12-05</deposition>
+            <header_release>2017-12-20</header_release>
+            <map_release>2017-12-20</map_release>
+            <update>2020-01-29</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Simons Foundation</funding_body>
+                <code>349247</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>GM103310</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>NYSTAR</funding_body>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/Office of the Director</funding_body>
+                <code>S10 OD019994-01</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Agouron Institute</funding_body>
+                <code>F00316</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Glutamate dehydrogenase on a holey carbon grid</title>
+        <authors_list>
+            <author>Noble AN</author>
+            <author>Dandey VP</author>
+            <author>Wei H</author>
+            <author>Brasch J</author>
+            <author>Chase J</author>
+            <author>Acharya P</author>
+            <author>Tan Y</author>
+            <author>Zhang Z</author>
+            <author>Kim LY</author>
+            <author>Scapin G</author>
+            <author>Rapp M</author>
+            <author>Eng ET</author>
+            <author>Rice WJ</author>
+            <author>Cheng A</author>
+            <author>Negro CJ</author>
+            <author>Shapiro L</author>
+            <author>Kwong PD</author>
+            <author>Jeruzalmi D</author>
+            <author>des Georges A</author>
+            <author>Potter CS</author>
+            <author>Carragher B</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Noble AJ</author>
+                    <author order="2">Dandey VP</author>
+                    <author order="3">Wei H</author>
+                    <author order="4">Brasch J</author>
+                    <author order="5">Chase J</author>
+                    <author order="6">Acharya P</author>
+                    <author order="7">Tan YZ</author>
+                    <author order="8">Zhang Z</author>
+                    <author order="9">Kim LY</author>
+                    <author order="10">Scapin G</author>
+                    <author order="11">Rapp M</author>
+                    <author order="12">Eng ET</author>
+                    <author order="13">Rice WJ</author>
+                    <author order="14">Cheng A</author>
+                    <author order="15">Negro CJ</author>
+                    <author order="16">Shapiro L</author>
+                    <author order="17">Kwong PD</author>
+                    <author order="18">Jeruzalmi D</author>
+                    <author order="19">des Georges A</author>
+                    <author order="20">Potter CS</author>
+                    <author order="21">Carragher B</author>
+                    <title>Routine single particle CryoEM sample and grid characterization by tomography.</title>
+                    <journal_abbreviation>Elife</journal_abbreviation>
+                    <country>US</country>
+                    <volume>7</volume>
+                    <year>2018</year>
+                    <external_references type="PUBMED">29809143</external_references>
+                    <external_references type="DOI">doi:10.7554/eLife.34257</external_references>
+                    <external_references type="ISSN">2050-084X</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-7141</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Glutamate dehydrogenase</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Glutamate dehydrogenase</name>
+                <parent>0</parent>
+                <details>Tomography on single particle sample</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="32644">unidentified</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>tomography</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <tomography_preparation preparation_id="1">
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <details></details>
+                    </vitrification>
+                    <sectioning>
+                        <other_sectioning>NO SECTIONING</other_sectioning>
+                    </sectioning>
+                </tomography_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <tomography_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <average_electron_dose_per_image units="e/Å^2">2.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </tomography_microscopy>
+            </microscopy_list>
+            <tomography_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>Appion-Protomo fiducial-less tilt-series alignment</details>
+                <final_reconstruction>
+                    <algorithm>SIMULTANEOUS ITERATIVE (SIRT)</algorithm>
+                    <software_list>
+                        <software>
+                            <name>TOMO3D</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>40</number_images_used>
+                </final_reconstruction>
+            </tomography_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="2022607">
+        <file>emd_7141.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>926</col>
+            <row>958</row>
+            <sec>570</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>-570</sec>
+        </origin>
+        <spacing>
+            <x>926</x>
+            <y>958</y>
+            <z>570</z>
+        </spacing>
+        <cell>
+            <a units="Å">926.0</a>
+            <b units="Å">958.0</b>
+            <c units="Å">570.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.04832646</minimum>
+            <maximum>0.055116534</maximum>
+            <average>0.011135806</average>
+            <std>0.0041482416</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.0</x>
+            <y units="Å">1.0</y>
+            <z units="Å">1.0</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-7141::::</label>
+        <annotation_details>Tomogram of GDH single particle</annotation_details>
+    </map>
+</emd>

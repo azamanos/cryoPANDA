@@ -1,0 +1,107 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11131" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-03-04</depositionDate>
+            <releaseDate>2022-08-19</releaseDate>
+            <updateDate>2022-08-19</updateDate>
+        </keyDates>
+        <title>Single particle cryo-EM of the human CST•Polα/Primase (POLA1ΔN) complex in a recruitment state</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-9267-367X</authorORCID>
+            <firstName>Titia</firstName>
+            <lastName>de Lange</lastName>
+            <organization type="academic">Laboratory for Cell Biology and Genetics, The Rockefeller University</organization>
+            <street>1230 York Ave</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10065</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-9267-367X</authorORCID>
+            <firstName>Titia</firstName>
+            <lastName>de Lange</lastName>
+            <organization type="academic">Laboratory for Cell Biology and Genetics, The Rockefeller University</organization>
+            <street>1230 York Ave</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10065</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator>
+            <authorORCID>0000-0003-2606-2835</authorORCID>
+            <firstName>Thomas</firstName>
+            <lastName>Walz</lastName>
+            <organization type="academic">Laboratory of Molecular Electron Microscopy, The Rockefeller University</organization>
+            <street>1230 York Ave</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10065</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-3059-3877">Cai SW</author>
+        </authorsList>
+        <datasetSize>869.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11131</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-26346</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-3059-3877" order="1">Cai SW</author>
+                    <author authorORCID="0000-0003-4645-3710" order="2">Zinder JC</author>
+                    <author authorORCID="0000-0002-1977-4271" order="3">Svetlov V</author>
+                    <author authorORCID="0000-0002-0472-5725" order="4">Bush MW</author>
+                    <author authorORCID="0000-0002-8811-3071" order="5">Nudler E</author>
+                    <author authorORCID="0000-0003-2606-2835" order="6">Walz T</author>
+                    <author authorORCID="0000-0002-9267-367X" order="7">de Lange T</author>
+                    <editor order="1"> </editor>
+                    <title>Cryo-EM structure of the human CST-Polα/primase complex in a recruitment state</title>
+                    <journal>Nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>Nat Struct Mol Biol</journalAbbreviation>
+                    <country></country>
+                    <issue>8</issue>
+                    <volume>29</volume>
+                    <firstPage>813</firstPage>
+                    <lastPage>819</lastPage>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41594-022-00766-y</externalReferences>
+                    <externalReferences type="pubmed">35578024</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion corrected micrographs of CST-Pola/Primase deltaN complex in recruitment state</name>
+        <directory>/data/motioncorrected_micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>9885</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <frameRange>
+            <frameRangeMin>0</frameRangeMin>
+            <frameRangeMax>50</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.08</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.08</pixelHeight>
+        </dimensions>
+        <details>Particles.star file from RELION 3.0 and corresponding motion-corrected micrographs.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/motioncorrected_micrographs/SWC_089_*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/particles/particles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles</pickedParticlesDirectory>
+    </imageSet>
+</entry>

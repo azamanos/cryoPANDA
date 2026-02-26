@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_7/emdb.xsd" emdb_id="EMD-8638" version="3.0.1.7">
+    <admin>
+        <current_status>
+            <date>2020-01-29</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2017-03-17</deposition>
+            <header_release>2017-04-26</header_release>
+            <map_release>2017-08-23</map_release>
+            <update>2020-01-29</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01GM052586</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM map of the ERAD components Hrd1/Hrd3 dimer</title>
+        <authors_list>
+            <author>Schoebel S</author>
+            <author>Mi W</author>
+            <author>Stein A</author>
+            <author>Rapoport TA</author>
+            <author>Liao M</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Schoebel S</author>
+                    <author order="2">Mi W</author>
+                    <author order="3">Stein A</author>
+                    <author order="4">Ovchinnikov S</author>
+                    <author order="5">Pavlovicz R</author>
+                    <author order="6">DiMaio F</author>
+                    <author order="7">Baker D</author>
+                    <author order="8">Chambers MG</author>
+                    <author order="9">Su H</author>
+                    <author order="10">Li D</author>
+                    <author order="11">Rapoport TA</author>
+                    <author order="12">Liao M</author>
+                    <title>Cryo-EM structure of the protein-conducting ERAD channel Hrd1 in complex with Hrd3.</title>
+                    <journal_abbreviation>Nature</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>548</volume>
+                    <first_page>352</first_page>
+                    <last_page>355</last_page>
+                    <year>2017</year>
+                    <external_references type="PUBMED">28682307</external_references>
+                    <external_references type="DOI">doi:10.1038/nature23314</external_references>
+                    <external_references type="ISSN">1476-4687</external_references>
+                    <external_references type="CSD">0006</external_references>
+                    <external_references type="ASTM">NATUAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-8638</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-8639</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-8637</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Hrd1/Hrd3 dimer</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Hrd1/Hrd3 dimer</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="559292">Saccharomyces cerevisiae S288c</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="4932">Saccharomyces cerevisiae</recombinant_organism>
+                </recombinant_expression>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>ERAD-associated E3 ubiquitin-protein ligase HRD1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="559292">Saccharomyces cerevisiae S288c</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="4932">Saccharomyces cerevisiae</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MVPENRRKQLAIFVVVTYLLTFYCVYSATKTSVSFLQVTLKLNEGFNLMVLSIFILLNSTLLWQLL
+TKLLFGELRLIEHEHIFERLPFTIINTLFMSSLFHERYFFTVAFFGLLLLYLKVFHWILKDRLEALL
+QSINDSTTMKTLIFSRFSFNLVLLAVVDYQIITRCISSIYTNQKSDIESTSLYLIQVMEFTMLLIDLL
+NLFLQTCLNFWEFYRSQQSLSNENNHIVHGDPTDENTVESDQSQPVLNDDDDDDDDDRQFTGLEGKF
+MYEKAIDVFTRFLKTALHLSMLIPFRMPMMLLKDVVWDILALYQSGTSLWKIWRNNKQLDDTLVTV
+TVEQLQNSANDDNICIICMDELIHSPNQQTWKNKNKKPKRLPCGHILHLSCLKNWMERSQTCPICRLPVFDEK  </string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>ERAD-associated E3 ubiquitin-protein ligase component HRD3</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="559292">Saccharomyces cerevisiae S288c</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="4932">Saccharomyces cerevisiae</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MITLLLYLCVICNAIVLIRADSIADPWPEARHLLNTIAKSRDPMKEAAMEPNADEFVGFY
+VPMDYSPRNEEKNYQSIWQNEITDSQRHIYELLVQSSEQFNNSEATYTLSQIHLWSQYNF
+PHNMTLAHKYLEKFNDLTHFTNHSAIFDLAVMYATGGCASGNDQTVIPQDSAKALLYYQR
+AAQLGNLKAKQVLAYKYYSGFNVPRNFHKSLVLYRDIAEQLRKSYSRDEWDIVFPYWESY
+NVRISDFESGLLGKGLNSVPSSTVRKRTTRPDIGSPFIAQVNGVQMTLQIEPMGRFAFNG
+NDGNINGDEDDEDASERRIIRIYYAALNDYKGTYSQSRNCERAKNLLELTYKEFQPHVDN
+LDPLQVFYYVRCLQLLGHMYFTGEGSSKPNIHMAEEILTTSLEISRRAQGPIGRACIDLG
+LINQYITNNISQAISYYMKAMKTQANNGIVEFQLSKLATSFPEEKIGDPFNLMETAYLNG
+FIPAIYEFAVMIESGMNSKSSVENTAYLFKTFVDKNEAIMAPKLRTAFAALINDRSEVAL
+WAYSQLAEQGYETAQVSAAYLMYQLPYEFEDPPRTTDQRKTLAISYYTRAFKQGNIDAGV
+VAGDIYFQMQNYSKAMALYQGAALKYSIQAIWNLGYMHEHGLGVNRDFHLAKRYYDQVSE
+HDHRFYLASKLSVLKLHLKSWLTWITREKVNYWKPSSPLNPNEDTQHSKTSWYKQLTKIL
+QRMRHKEDSDKAAEDSHKHRTVVQNGANHRGDDQEEASEILGFQMEDGGGENLYFQSGGG
+MDEKTTGWRGGHVVEGLAGELEQLRARLEHHPQGQREP</string>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <details></details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">82.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">4.7</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>1.4</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>139754</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>RANDOM ASSIGNMENT</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="28312">
+        <file>emd_8638.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>192</col>
+            <row>192</row>
+            <sec>192</sec>
+        </dimensions>
+        <origin>
+            <col>-96</col>
+            <row>-96</row>
+            <sec>-96</sec>
+        </origin>
+        <spacing>
+            <x>192</x>
+            <y>192</y>
+            <z>192</z>
+        </spacing>
+        <cell>
+            <a units="Å">259.2</a>
+            <b units="Å">259.2</b>
+            <c units="Å">259.2</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.094780415</minimum>
+            <maximum>0.15879112</maximum>
+            <average>-0.0000624861</average>
+            <std>0.008063772</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.35</x>
+            <y units="Å">1.35</y>
+            <z units="Å">1.35</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.045</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-8638::::</label>
+        <annotation_details>map of Hrd1/Hrd3 dimer filtering to 4.7A and applied with -250 bfactor</annotation_details>
+    </map>
+    <interpretation>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="28312">
+                <file>emd_8638_additional.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>192</col>
+                    <row>192</row>
+                    <sec>192</sec>
+                </dimensions>
+                <origin>
+                    <col>-96</col>
+                    <row>-96</row>
+                    <sec>-96</sec>
+                </origin>
+                <spacing>
+                    <x>192</x>
+                    <y>192</y>
+                    <z>192</z>
+                </spacing>
+                <cell>
+                    <a units="Å">259.2</a>
+                    <b units="Å">259.2</b>
+                    <c units="Å">259.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.030081607</minimum>
+                    <maximum>0.0814761</maximum>
+                    <average>-0.0000624861</average>
+                    <std>0.0046340707</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.35</x>
+                    <y units="Å">1.35</y>
+                    <z units="Å">1.35</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-8638::::</label>
+                <annotation_details>map of Hrd1/Hrd3 dimer without low-pass filtering or modification of amplitude</annotation_details>
+            </additional_map>
+        </additional_map_list>
+    </interpretation>
+</emd>

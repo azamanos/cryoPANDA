@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd emdb_id="EMD-26772" version="3.0.2.10">
+    <admin>
+        <current_status>
+            <date>2023-03-29</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-04-27</deposition>
+            <header_release>2023-03-08</header_release>
+            <map_release>2023-03-08</map_release>
+            <update>2023-03-29</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Science Foundation (NSF, United States)</funding_body>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryogenic electron microscopy 3D map of F-actin bound by human dimeric alpha-catenin</title>
+        <authors_list>
+            <author ORCID="0000-0003-3902-8847">Rangarajan ES</author>
+            <author ORCID="0000-0003-0985-6617">Smith EW</author>
+            <author ORCID="0000-0002-2895-483X">Izard T</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Rangarajan ES</author>
+                    <author order="2">Smith EW</author>
+                    <author ORCID="0000-0002-2895-483X" order="3">Izard T</author>
+                    <title>Distinct inter-domain interactions of dimeric versus monomeric alpha-catenin link cell junctions to filaments.</title>
+                    <journal_abbreviation>Commun Biol</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>6</volume>
+                    <first_page>276</first_page>
+                    <last_page>276</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">36928388</external_references>
+                    <external_references type="DOI">doi:10.1038/s42003-023-04610-x</external_references>
+                    <external_references type="ISSN">2399-3642</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-26748</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>HMP1</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-26772</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+                <details>Cryogenic electron microscopy 3D map of F-actin bound by human dimeric alpha-catenin</details>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7utj</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>dimeric alpha-catenin (residues 22-906) complexed with F-actin</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1" chimera="true">
+                <name>dimeric alpha-catenin (residues 22-906) complexed with F-actin</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Actin, alpha skeletal muscle</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9986">Oryctolagus cuniculus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.042109972999999995</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MCDEDETTALVCDNGSGLVKAGFAGDDAPRAVFPSIVGRPRHQGVMVGMGQKDSYVGDEAQSKRGILTLKYPIE(HIC)G
+IITNWDDMEKIWHHTFYNELRVAPEEHPTLLTEAPLNPKANREKMTQIMFETFNVPAMYVAIQAVLSLYASGRTTGIVLD
+SGDGVTHNVPIYEGYALPHAIMRLDLAGRDLTDYLMKILTERGYSFVTTAEREIVRDIKEKLCYVALDFENEMATAASSS
+SLEKSYELPDGQVITIGNERFRCPETLFQPSFIGMESAGIHETTYNSIMKCDIDIRKDLYANNVMSGGTTMYPGIADRMQ
+KEITALAPSTMKIKIIAPPERKYSVWIGGSILASLSTFQQMWITKQEYDEAGPSIVHRKCF</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Catenin alpha-1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.098216031</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GPHMTLAVERLLEPLVTQVTTLVNTNSKGPSNKKRGRSKKAHVLAASVEQATENFLEKGDKIAKESQFLKEELVAAVEDV
+RKQGDLMKAAAGEFADDPCSSVKRGNMVRAARALLSAVTRLLILADMADVYKLLVQLKVVEDGILKLRNAGNEQDLGIQY
+KALKPEVDKLNIMAAKRQQELKDVGHRDQMAAARGILQKNVPILYTASQACLQHPDVAAYKANRDLIYKQLQQAVTGISN
+AAQATASDDASQHQGGGGGELAYALNNFDKQIIVDPLSFSEERFRPSLEERLESIISGAALMADSSCTRDDRRERIVAEC
+NAVRQALQDLLSEYMGNAGRKERSDALNSAIDKMTKKTRDLRRQLRKAVMDHVSDSFLETNVPLLVLIEAAKNGNEKEVK
+EYAQVFREHANKLIEVANLACSISNNEEGVKLVRMSASQLEALCPQVINAALALAAKPQSKLAQENMDLFKEQWEKQVRV
+LTDAVDDITSIDDFLAVSENHILEDVNKCVIALQEKDVDGLDRTAGAIRGRAARVIHVVTSEMDNYEPGVYTEKVLEATK
+LLSNTVMPRFTEQVEAAVEALSSDPAQPMDENEFIDASRLVYDGIRDIRKAVLMIRTPEELDDSDFETEDFDVRSRTSVQ
+TEDDQLIAGQSARAIMAQLPQEQKAKIAEQVASFQEEKSKLDAEVSKWDDSGNDIIVLAKQMCMIMMEMTDFTRGKGPLK
+NTSDVISAAKKIAEAGSRMDKLGRTIADHCPDSACKQDLLAYLQRIALYCHQLNICSKVKAEVQNLGGELVVSGVDSAMS
+LIQAAKNLMNAVVQTVKASYVASTKYQKSQGMASLNLPAVSWKMKAPEKKPLVKREKQDETQTKIKRASQKKHVNPVQAL
+SEFKAMDSI</string>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="3">
+                <name>ADENOSINE-5'-DIPHOSPHATE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000427201</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>ADP</formula>
+            </ligand>
+            <ligand macromolecule_id="4">
+                <name>MAGNESIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">2.4305e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>MG</formula>
+            </ligand>
+            <ligand macromolecule_id="5">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>21</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>Sodium Chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>Tris</formula>
+                            <name>Tris</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.0</concentration>
+                            <formula>DTT</formula>
+                            <name>Dithiothreitol</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>C-flat-1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>400</mesh>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">60</time>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">65</chamber_humidity>
+                        <chamber_temperature units="K">294.15</chamber_temperature>
+                        <instrument>LEICA EM GP</instrument>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>JEOL CRYO ARM 300</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">3.0</nominal_defocus_max>
+                    <nominal_magnification>60000.0</nominal_magnification>
+                    <specimen_holder_model>JEOL CRYOSPECPORTER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <phase_plate>OTHER</phase_plate>
+                        <energy_filter>
+                            <name>In-column Omega Filter</name>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 BIOQUANTUM (6k x 4k)</film_or_detector_model>
+                            <number_grids_imaged>2</number_grids_imaged>
+                            <average_exposure_time units="s">0.1</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">60.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="Å">27.5</delta_z>
+                            <delta_phi units="deg">-166.7</delta_phi>
+                            <axial_symmetry>C2</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.77</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>403663</number_images_used>
+                </final_reconstruction>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>6UPV</pdb_id>
+                    </pdb_model>
+                </startup_model>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="186625">
+        <file>emd_26772.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>360</col>
+            <row>360</row>
+            <sec>360</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>360</x>
+            <y>360</y>
+            <z>360</z>
+        </spacing>
+        <cell>
+            <a units="Å">391.32</a>
+            <b units="Å">391.32</b>
+            <c units="Å">391.32</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-1.0629992</minimum>
+            <maximum>2.1485922</maximum>
+            <average>0.0002508447</average>
+            <std>0.04518077</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.087</x>
+            <y units="Å">1.087</y>
+            <z units="Å">1.087</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.2</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-26772::::</label>
+        <annotation_details>Cryoem map</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>6UPV</access_code>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="186625">
+                <file>emd_26772_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>360</col>
+                    <row>360</row>
+                    <sec>360</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>360</x>
+                    <y>360</y>
+                    <z>360</z>
+                </spacing>
+                <cell>
+                    <a units="Å">391.32</a>
+                    <b units="Å">391.32</b>
+                    <c units="Å">391.32</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.27226904</minimum>
+                    <maximum>0.67798936</maximum>
+                    <average>0.00017625351</average>
+                    <std>0.03457181</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.087</x>
+                    <y units="Å">1.087</y>
+                    <z units="Å">1.087</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-26772::::</label>
+                <annotation_details>Half map 2</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="186625">
+                <file>emd_26772_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>360</col>
+                    <row>360</row>
+                    <sec>360</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>360</x>
+                    <y>360</y>
+                    <z>360</z>
+                </spacing>
+                <cell>
+                    <a units="Å">391.32</a>
+                    <b units="Å">391.32</b>
+                    <c units="Å">391.32</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.26372844</minimum>
+                    <maximum>0.74236274</maximum>
+                    <average>0.00017039916</average>
+                    <std>0.034559097</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.087</x>
+                    <y units="Å">1.087</y>
+                    <z units="Å">1.087</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-26772::::</label>
+                <annotation_details>Half map 1</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

@@ -1,0 +1,102 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11864" schemaVersion="0.64" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-01-25</depositionDate>
+            <releaseDate>2024-02-06</releaseDate>
+            <updateDate>2024-02-06</updateDate>
+        </keyDates>
+        <title>CryoEM structures of the human CLC-2-AK42 voltage gated chloride channel reveal a ball and chain gating mechanism</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0848-5335</authorORCID>
+            <firstName>Grigore</firstName>
+            <lastName>Pintilie</lastName>
+            <organization type="academic">Department of Bioengineering, Stanford University</organization>
+            <townOrCity>Stanford</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>L6A 1V3</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-7787-306X</authorORCID>
+            <firstName>Merritt</firstName>
+            <lastName>Maduke</lastName>
+            <organization type="academic">Department of Molecular and Cellular Physiology, Stanford University</organization>
+            <townOrCity>Stanford</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>94305</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8910-3078</authorORCID>
+            <firstName>Wah</firstName>
+            <lastName>Chiu</lastName>
+            <organization type="academic">Department of Bioengineering and Department of Microbiology and Immunology, Stanford University</organization>
+            <townOrCity>Stanford</townOrCity>
+            <country>United States</country>
+            <postOrZipCode>94305</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-3895-0469">Xu M</author>
+            <author authorORCID="0000-0002-0848-5335">Pintilie G</author>
+            <author authorORCID="0000-0001-5683-8695">Liu Y</author>
+            <author authorORCID="0000-0002-8910-3078">Chiu W</author>
+            <author authorORCID="0000-0001-7787-306X">Maduke M</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>National Institutes of Health (NIH)</fundingBody>
+                <code>R21NS125767</code>
+                <country>United States</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">1.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11864</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-41127</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0003-3895-0469" order="1">Xu M</author>
+                    <author authorORCID="0000-0002-0848-5335" order="2">Pintilie G</author>
+                    <author authorORCID="0000-0001-5683-8695" order="3">Liu Y</author>
+                    <author authorORCID="0000-0002-8910-3078" order="4">Chiu W</author>
+                    <author authorORCID="0000-0001-7787-306X" order="5">Maduke M</author>
+                    <title>CryoEM structures of the human CLC-2 voltage gated chloride channel reveal a ball and chain gating mechanism</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country>United States</country>
+                    <year>2023</year>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>picked particles for CLC2 trans-membrane domain with bound ligand AK42</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>11498</numImagesOrTiltSeries>
+        <framesPerImage>438</framesPerImage>
+        <frameRange>
+            <frameRangeMin>0</frameRangeMin>
+            <frameRangeMax>437</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>0.946</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>Picked particles extracted from fractionated data</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/CLC-2-AK42/*_Fractions_patch_aligned_doseweighted_particles.mrc</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/CLC-2-AK42</pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,94 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12087" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-05-09</depositionDate>
+            <releaseDate>2024-06-11</releaseDate>
+            <updateDate>2024-06-11</updateDate>
+        </keyDates>
+        <title>Cryo-EM micrographs of human RYBP-PRC1 bound to H2Aub1 mononucleosome</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0009-0003-9124-6945</authorORCID>
+            <firstName>Christian</firstName>
+            <lastName>Benda</lastName>
+            <organization type="academic">Department of Structural Cell Biology, Max-Planck Institute of Biochemistry</organization>
+            <street>Am Klopferspitz 18</street>
+            <townOrCity>Martinsried</townOrCity>
+            <country>Germany</country>
+            <postOrZipCode>82152</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-2391-4641</authorORCID>
+            <firstName>Jürg</firstName>
+            <lastName>Müller</lastName>
+            <organization type="academic">Laboratory of Chromatin Biology, Max-Planck Institute of Biochemistry</organization>
+            <street>Am Klopferspitz 18</street>
+            <townOrCity>Martinsried</townOrCity>
+            <country>Germany</country>
+            <postOrZipCode>82152</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0009-0003-9124-6945">Ciapponi MC</author>
+            <author>Karlukova EK</author>
+            <author>Schkölziger SS</author>
+            <author authorORCID="0000-0001-5551-1332">Benda CB</author>
+            <author authorORCID="0000-0003-2391-4641">Müller JM</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>German Research Foundation (DFG)</fundingBody>
+                <code>SFB1064</code>
+                <country>Germany</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">935.6</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12087</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-17796</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0009-0003-9124-6945" order="1">Ciapponi MC</author>
+                    <author order="2">Karlukova E</author>
+                    <author order="3">Schkölziger S</author>
+                    <author authorORCID="0000-0001-5551-1332" order="4">Benda C</author>
+                    <author authorORCID="0000-0003-2391-4641" order="5">Müller J</author>
+                    <title>Structural basis of the histone ubiquitination read-write mechanism of RYBP-PRC1</title>
+                    <journal>Nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>Nat Struct Mol Biol</journalAbbreviation>
+                    <country></country>
+                    <year>2024</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41594-024-01258-x</externalReferences>
+                    <externalReferences type="pubmed">38528151</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned multi-frame micrographs of human RYBP-PRC1 bound to H2Aub1 nucleosome</name>
+        <directory>/data/subtracted</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>10669</numImagesOrTiltSeries>
+        <framesPerImage>35</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>The micrographs are motion-corrected images of 35 raw movie frames (total exposure 54 electron per squared Angstrom). The dataset was collected on streptavidin grids; the streptavidin layer has already been removed from the micrographs deposited here.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

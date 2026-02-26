@@ -1,0 +1,246 @@
+<emd emdb_id="EMD-2699" version="3.0.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+    <admin>
+        <current_status>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2014-07-03</deposition>
+            <header_release>2014-07-09</header_release>
+            <map_release>2015-03-04</map_release>
+            <update>2016-02-17</update>
+        </key_dates>
+        <title>VipA/VipB, contractile sheath of the type VI secretion system</title>
+        <authors_list>
+            <author>Kudryashev M</author>
+            <author>Wang R</author>
+            <author>Brackmann M</author>
+            <author>Scherer S</author>
+            <author>Maier T</author>
+            <author>DiMaio F</author>
+            <author>Baker D</author>
+            <author>Stahlberg H</author>
+            <author>Egelman EH</author>
+            <author>Basler M</author>
+        </authors_list>
+        <keywords>VipA, VipB, Vibrio, T6SS, cryo-EM, sheath</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Kudryashev M</author>
+                    <author order="2">Wang RY</author>
+                    <author order="3">Brackmann M</author>
+                    <author order="4">Scherer S</author>
+                    <author order="5">Maier T</author>
+                    <author order="6">Baker D</author>
+                    <author order="7">DiMaio F</author>
+                    <author order="8">Stahlberg H</author>
+                    <author order="9">Egelman EH</author>
+                    <author order="10">Basler M</author>
+                    <title>Structure of the type VI secretion system contractile sheath.</title>
+                    <journal>CELL(CAMBRIDGE,MASS.)</journal>
+                    <volume>160</volume>
+                    <first_page>952</first_page>
+                    <last_page>962</last_page>
+                    <year>2015</year>
+                    <external_references type="PUBMED">25723169</external_references>
+                    <external_references type="DOI">doi:10.1016/j.cell.2015.01.037</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>3j9g</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Native VipA/B sheath purified from Vibrio cholerae</name>
+        <supramolecule_list>
+            <sample_supramolecule supramolecule_id="1000">
+                <name>Native VipA/B sheath purified from Vibrio cholerae</name>
+                <oligomeric_state>heterodimer of VipA and VipB assembled in a helix</oligomeric_state>
+                <number_unique_components>2</number_unique_components>
+            </sample_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>VipA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="243277">Vibrio cholerae O1 biovar El Tor str. N16961</organism>
+                    <strain>N16961</strain>
+                    <cellular_location>cytoplasm</cellular_location>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.074</theoretical>
+                </molecular_weight>
+                <oligomeric_state>helix built of heterodimers</oligomeric_state>
+                <recombinant_exp_flag>false</recombinant_exp_flag>
+                <recombinant_expression database="NCBI" />
+                <sequence>
+                    <external_references type="UNIPROTKB">Q9KN57</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>VipB</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="243277">Vibrio cholerae O1 biovar El Tor str. N16961</organism>
+                    <strain>N16961</strain>
+                    <cellular_location>cytoplasm</cellular_location>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.074</theoretical>
+                </molecular_weight>
+                <oligomeric_state>helix built of heterodimers</oligomeric_state>
+                <recombinant_exp_flag>false</recombinant_exp_flag>
+                <recombinant_expression database="NCBI" />
+                <sequence>
+                    <external_references type="UNIPROTKB">Q9KN57</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>helicalArray</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.1</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                        <details>PBS</details>
+                    </buffer>
+                    <grid>
+                        <details>Quantifoil holey carbon grids</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <method>Blot for 1.5 seconds before plunging</method>
+                    </vitrification>
+                    <details>native polymer</details>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="&#181;m">0.4</nominal_defocus_min>
+                    <nominal_defocus_max units="&#181;m">2.0</nominal_defocus_max>
+                    <nominal_magnification>29000.0</nominal_magnification>
+                    <calibrated_magnification>29000.0</calibrated_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <alignment_procedure>
+                        <legacy>
+                            <astigmatism>Was corrected manually at high magnification</astigmatism>
+                            <electron_beam_tilt_params>0</electron_beam_tilt_params>
+                        </legacy>
+                    </alignment_procedure>
+                    <date>2013-11-15</date>
+                    <image_recording_list>
+                        <image_recording>
+                            <film_or_detector_model category="CCD">GATAN K2 (4k x 4k)</film_or_detector_model>
+                            <number_real_images>72</number_real_images>
+                            <average_electron_dose_per_image units="e/&#8491;^2">30</average_electron_dose_per_image>
+                            <details>Images were collected in dose fractionation mode and further aligned by Li and Cheng's algorithm in real time using the 2dx_automator</details>
+                        </image_recording>
+                    </image_recording_list>
+                    <tilt_angle_min>-5</tilt_angle_min>
+                    <tilt_angle_max>5</tilt_angle_max>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <details>We used Iterative Helical Real Space Reconstruction methodology(IHRSR)</details>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="&#8491;">21.8</delta_z>
+                            <delta_phi units="deg">29.4</delta_phi>
+                            <axial_symmetry>C6</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <algorithm>OTHER</algorithm>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">3.5</resolution>
+                    <resolution_method>OTHER</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>2dx_automator, Ctffind, Helixboxer, IHRSR/Spider</name>
+                        </software>
+                    </software_list>
+                    <details>Resolution was detected by Resmap, it varied from 3.2 A in well ordered parts till 5 A outside of the helix.</details>
+                </final_reconstruction>
+                <ctf_correction>
+                    <details>Ctffind for each micrograph</details>
+                </ctf_correction>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="281251">
+        <file>emd_2699.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>600</col>
+            <row>600</row>
+            <sec>200</sec>
+        </dimensions>
+        <origin>
+            <col>-300</col>
+            <row>-300</row>
+            <sec>-99</sec>
+        </origin>
+        <spacing>
+            <x>600</x>
+            <y>600</y>
+            <z>200</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">300.0</a>
+            <b units="&#8491;">300.0</b>
+            <c units="&#8491;">100.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-553.858886719999987</minimum>
+            <maximum>760.908996580000007</maximum>
+            <average>-99.09090424</average>
+            <std>111.769683839999999</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">0.5</x>
+            <y units="&#8491;">0.5</y>
+            <z units="&#8491;">0.5</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>120.0</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <annotation_details>Structure of the native helical assembly isolated from Vibrio cholerae</annotation_details>
+        <details>::::EMDATABANK.org::::EMD-2699::::</details>
+    </map>
+</emd>

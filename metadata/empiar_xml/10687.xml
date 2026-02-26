@@ -1,0 +1,396 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10687" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-02-21</depositionDate>
+            <releaseDate>2021-05-10</releaseDate>
+            <updateDate>2021-05-10</updateDate>
+        </keyDates>
+        <title>Yeast C, Ci, C*, and P complex spliceosomes</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0003-4738-9503</authorORCID>
+            <firstName>Max</firstName>
+            <lastName>Wilkinson</lastName>
+            <organization type="academic">MRC Laboratory of Molecular Biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0003-1785-6510</authorORCID>
+            <firstName>Kiyoshi</firstName>
+            <lastName>Nagai</lastName>
+            <organization type="academic">MRC Laboratory of Molecular Biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-4738-9503">Wilkinson ME</author>
+            <author authorORCID="0000-0001-9186-0361">Fica SM</author>
+            <author authorORCID="0000-0001-8859-5229">Galej WP</author>
+            <author authorORCID="0000-0003-1785-6510">Nagai K</author>
+        </authorsList>
+        <datasetSize units="TB">8.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10687</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-12106</emdbEntry>
+            <emdbEntry>EMD-12107</emdbEntry>
+            <emdbEntry>EMD-12108</emdbEntry>
+            <emdbEntry>EMD-12109</emdbEntry>
+            <emdbEntry>EMD-12110</emdbEntry>
+            <emdbEntry>EMD-12111</emdbEntry>
+            <emdbEntry>EMD-12112</emdbEntry>
+            <emdbEntry>EMD-12113</emdbEntry>
+            <emdbEntry>EMD-12114</emdbEntry>
+            <emdbEntry>EMD-12115</emdbEntry>
+            <emdbEntry>EMD-12116</emdbEntry>
+            <emdbEntry>EMD-12117</emdbEntry>
+            <emdbEntry>EMD-12118</emdbEntry>
+            <emdbEntry>EMD-3542</emdbEntry>
+            <emdbEntry>EMD-3539</emdbEntry>
+            <emdbEntry>EMD-3541</emdbEntry>
+            <emdbEntry>EMD-4057</emdbEntry>
+            <emdbEntry>EMD-4059</emdbEntry>
+            <emdbEntry>EMD-4055</emdbEntry>
+            <emdbEntry>EMD-4056</emdbEntry>
+            <emdbEntry>EMD-4058</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-4738-9503" order="1">Wilkinson ME</author>
+                    <author authorORCID="0000-0001-9186-0361" order="2">Fica SM</author>
+                    <author authorORCID="0000-0001-8859-5229" order="3">Galej WP</author>
+                    <author authorORCID="0000-0003-1785-6510" order="4">Nagai K</author>
+                    <title>Structural basis for conformational equilibrium of the catalytic spliceosome</title>
+                    <journal>Molecular Cell</journal>
+                    <journalAbbreviation>Mol Cell</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>7</issue>
+                    <volume>81</volume>
+                    <firstPage>1439</firstPage>
+                    <lastPage>1452</lastPage>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.molcel.2021.02.021</externalReferences>
+                    <externalReferences type="pubmed">33705709</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+        <relatedEmpiarEntries>
+            <empiarEntry>EMPIAR-10298</empiarEntry>
+        </relatedEmpiarEntries>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned movies of C-complex spliceosome with 3' splice site AG to AC mutation (Dataset 1)</name>
+        <directory>/data/EMPIAR_C/Dataset1_AGtoAC</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>2215</numImagesOrTiltSeries>
+        <framesPerImage>20</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>20</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>7420</imageWidth>
+            <pixelWidth>0.7135</pixelWidth>
+            <imageHeight>7420</imageHeight>
+            <pixelHeight>0.7135</pixelHeight>
+        </dimensions>
+        <details>Unaligned, non-gain-normalised, 20-frame movies from a K2 camera operating in super-resolution mode. Data were collected manually on the LMB Titan Krios 1 operated at 300 kV. Each micrograph accumulate 40 electrons per square Angstrom over 20 frames (16 s). The super-resolution pixel size is 0.7135 Å/pixel, during processing micrographs were binned to pixel size 1.427 Å. 
+
+Data were collected over four sessions, found in four folders: Krios_K2_12feb2016, Krios_K2_19feb2016, Krios_K2_19mar2016, and Krios_K2_8apr2016
+The original data were in gain-normalised .dm4 format, for EMPIAR deposition these were first converted to mrcs, then to compressed TIFF with relion_convert_to_tiff, with gain references estimated for each of the 4 sessions. The estimated gains are called gain-reference_*.mrc, and the raw convert_to_tiff outputs of gain_estimate*.bin and gain_estimate*_reliablity.bin are also uploaded.
+
+Picked particle coordinates can be found in core_refinement_EMD12107_data.star, and extracted polished particles as a single stack in C_polishedstacks/particles_dataset1.mrcs</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIAR_C/Dataset1_AGtoAC/Krios_K2_*/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR_C/core_refinement_EMD12107_data.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR_C/C_polishedstacks</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of C and C*-complex spliceosomes with 3' splice site AG to AdG mutation (Dataset 2)</name>
+        <directory>/data/EMPIAR_C/Dataset2_Cstar_LMBKrios</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>807</numImagesOrTiltSeries>
+        <framesPerImage>20</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>20</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>7420</imageWidth>
+            <pixelWidth>0.7135</pixelWidth>
+            <imageHeight>7420</imageHeight>
+            <pixelHeight>0.7135</pixelHeight>
+        </dimensions>
+        <details>Unaligned, non-gain-normalised, 20-frame movies from a K2 camera operating in super-resolution mode. Data were collected manually on the LMB Titan Krios 1 operated at 300 kV. Each micrograph accumulate 40 electrons per square Angstrom over 20 frames (16 s). The super-resolution pixel size is 0.7135 Å/pixel, during processing micrographs were binned to pixel size 1.427 Å. 
+
+Data were collected over two sessions, found in two folders: Movies_17jun2016 and Movies_24jun2016
+The original data were in gain-normalised .dm4 format, for EMPIAR deposition these were first converted to mrcs, then to compressed TIFF with relion_convert_to_tiff, with gain references estimated for each of the 4 sessions. The estimated gains are called gain-reference_*.mrc, and the raw convert_to_tiff outputs of gain_estimate*.bin and gain_estimate*_reliablity.bin are also uploaded.
+
+In the publications, Dataset 2 contains 1571 movies. Unfortunately, 764 of these appear not to have been backed up on discs, so are not uploaded to EMPIAR.
+
+For C-complex only, picked particle coordinates can be found in core_refinement_EMD12107_data.star, and extracted polished particles as a single stack in C_polishedstacks/particles_dataset2.mrcs
+You will have to do your own picking to extract C* particles, sorry.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIAR_C/Dataset2_Cstar_LMBKrios/Movies_*/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR_C/core_refinement_EMD12107_data.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR_C/C_polishedstacks</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of C and C*-complex spliceosomes with 3' splice site AG to AdG mutation (Dataset 3)</name>
+        <directory>/data/EMPIAR_C/Dataset3_Cstar_DLSKrios</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>2027</numImagesOrTiltSeries>
+        <framesPerImage>28</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>28</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.031</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.031</pixelHeight>
+        </dimensions>
+        <details>Unaligned, non-gain-normalised, 28-frame movies from a K2 camera operating in counting mode. Data were collected with EPU at Diamond Light Source on Titan Krios 1 operated at 300 kV. Each micrograph accumulate 42 electrons per square Angstrom over 28 frames (14 s). 
+
+The original data were in gain-normalised .mrcs format, for EMPIAR deposition these were converted to compressed TIFF with relion_convert_to_tiff, which also estimated the gain reference. The estimated gain is called gain-reference.mrc, and the raw convert_to_tiff outputs of gain_estimate.bin and gain_estimate_reliablity.bin are also uploaded.
+
+For C-complex only, picked particle coordinates can be found in core_refinement_EMD12107_data.star, and extracted polished particles as a single stack in C_polishedstacks/particles_dataset3.mrcs
+You will have to do your own picking to extract C* particles, sorry.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIAR_C/Dataset3_Cstar_DLSKrios/Movies_DLS_18jul2016/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR_C/core_refinement_EMD12107_data.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR_C/C_polishedstacks</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned movies of C-complex spliceosomes with cold-sensitive prp16-302 mutation, purified with Cwc25 (Dataset 4)</name>
+        <directory>/data/EMPIAR_C/Dataset4_prp16-302</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>2896</numImagesOrTiltSeries>
+        <framesPerImage>28</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>28</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.023</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.023</pixelHeight>
+        </dimensions>
+        <details>ALIGNED, gain-normalised, 28-frame movies from a K2 camera operating in counting mode. Data were collected with EPU at Diamond Light Source on Titan Krios 2 operated at 300 kV. Each micrograph accumulate 44 electrons per square Angstrom over 28 frames (14 s). 
+
+Unfortunately, the original non-motion-corrected movies appear to have been lost. Only the motion-corrected stacks used for movie refinement in RELION 1.4 were saved. These will work fine for processing including polishing, but unfortunately means the gain could not be estimated and so TIFF compression was not possible. Therefore, I am sorry that this dataset is so large! It's very nice data otherwise, it's worth the wait to download it ;)
+
+Picked particle coordinates can be found in core_refinement_EMD12107_data.star, and extracted polished particles as a single stack in C_polishedstacks/particles_dataset4.mrcs</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIAR_C/Dataset4_prp16-302/*/*.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR_C/core_refinement_EMD12107_data.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR_C/C_polishedstacks</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of C-complex spliceosomes with cold-sensitive prp16-302 mutation, purified with Cwc25 and incubated with ATP and Mg (Dataset 5)</name>
+        <directory>/data/EMPIAR_C/Dataset5_prp16-302-ATPMg</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>2517</numImagesOrTiltSeries>
+        <framesPerImage>28</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>28</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.12</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.12</pixelHeight>
+        </dimensions>
+        <details>Unaligned, non-gain-normalised, 28-frame movies from a K2 camera operating in counting mode. Data were collected with EPU on the LMB Titan Krios 1 operated at 300 kV. Each micrograph accumulate 56 electrons per square Angstrom over 28 frames (14 s). 
+
+The original data were in gain-normalised .mrcs format, for EMPIAR deposition these were converted to compressed TIFF with relion_convert_to_tiff, which also estimated the gain reference. The estimated gain is called gain-reference.mrc, and the raw convert_to_tiff outputs of gain_estimate.bin and gain_estimate_reliablity.bin are also uploaded.
+
+Picked particle coordinates can be found in core_refinement_EMD12107_data.star, and extracted polished particles as a single stack in C_polishedstacks/particles_dataset5.mrcs</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIAR_C/Dataset5_prp16-302-ATPMg/Movies/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR_C/core_refinement_EMD12107_data.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR_C/C_polishedstacks</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of C, C*, and P-complex spliceosomes with dominant-negative Prp22 mutation K512A, purified with Slu7 (Dataset 6)</name>
+        <directory>/data/EMPIAR_C/Dataset6_Prp22K512A</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>4368</numImagesOrTiltSeries>
+        <framesPerImage>20</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>20</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.028</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.028</pixelHeight>
+        </dimensions>
+        <details>Unaligned, non-gain-normalised, 20-frame movies from a K2 camera operating in counting mode. Data were collected with EPU at SciLifeLab, Stockholm, Sweden on a Titan Krios operated at 300 kV. Each micrograph accumulate 39.7 electrons per square Angstrom over 20 frames (8 s). 
+
+The original data were in gain-normalised .mrcs format, for EMPIAR deposition these were converted to compressed TIFF with relion_convert_to_tiff, which also estimated the gain reference. The estimated gain is called gain-reference.mrc, and the raw convert_to_tiff outputs of gain_estimate.bin and gain_estimate_reliablity.bin are also uploaded.
+
+For C-complex, picked particle coordinates can be found in core_refinement_EMD12107_data.star and allPandCparticles_data.star, and extracted polished C particles as a single stack in C_polishedstacks/particles_dataset6.mrcs
+P (and probably C*) complex particles can be found in allPandCparticles_data.star, and the extracted polished P particles in P_polished/Dataset6</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIAR_C/Dataset6_Prp22K512A/Movies/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR_C/allPandCparticles_data.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR_C/C_polishedstacks</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of P-complex spliceosomes with dominant-negative Prp22 mutation K512A, treated with anti-3'exon RNaseH oligo, purified in presence of Mg (Dataset 9)</name>
+        <directory>/data/EMPIAR_C/Dataset9_Prp22K512A_RH_Mg/Movies</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>4830</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.03</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.03</pixelHeight>
+        </dimensions>
+        <details>Unaligned, non-gain-normalised, 40-frame movies from a K2 camera operating in counting mode. Data were collected with EPU at Diamond Light Source on a Titan Krios operated at 300 kV. Each micrograph accumulate 49.2 electrons per square Angstrom over 40 frames (12 s). 
+
+The original data were in gain-normalised .mrcs format, for EMPIAR deposition these were converted to compressed TIFF with relion_convert_to_tiff, which also estimated the gain reference. The estimated gain is called gain-reference.mrc, and the raw convert_to_tiff outputs of gain_estimate.bin and gain_estimate_reliablity.bin are also uploaded.
+
+Picked particle coordinates can be found in allPandCparticles_data.star, and extracted polished particles in P_polished/Dataset9</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIAR_C/Dataset9_Prp22K512A_RH_Mg/Movies/GridSquare_*/Data/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR_C/allPandCparticles_data.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR_C/P_polished/Dataset9</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Selected C-complex particles after polishing</name>
+        <directory>/data/EMPIAR_C/C_polishedstacks</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>403474</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>C-complex particles from datasets 1-6 were refined and polished in Relion 2.0 (non-Bayesian polishing). Each dataset was then reduced to a single stack (e.g. particles_dataset1.mrcs)
+The stacks retain their original pixel sizes.
+
+Refinement of all particles together produced the overall C-complex reconstruction deposited in the EMDB as EMD-12107, the corresponding run_data.star file can be found here as core_refinement_EMD12107_data.star
+
+These particles also produced:
+The U2 snRNP reconstruction, EMD-12108, found here as U2_refinement_EMD12108_data.star
+Prp17 focussed classification, EMD-12112, found here as prp17_selected_particles_EMD12112.star
+Slu7 focussed classification, EMD-12113, found here as slu7_selected_particles_EMD12113.star
+Prp18 focussed classification, EMD-12114, found here as prp18_selected_particles_EMD12114.star
+Prp19 focussed classification, EMD-12116, found here as prp19_selected_C_particles_EMD12116.star
+
+And combined with the P complex particles in P_polished, found in allPandCparticles_data.star, produced:
+U5 Sm focussed classification, EMD-12117, found here as u5sm_selected_particles_EMD12117.star
+Cwc22 NTD focussed classification, EMD-12118, found here as cwc22N_selected_particles_EMD12118.star
+Note, these P complex particles also include two datasets deposited previously as EMPIAR 10298.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR_C/C_polishedstacks/*.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Selected P-complex particles after polishing</name>
+        <directory>/data/EMPIAR_C/P_polished</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>320770</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>P-complex particles from datasets 6-9 were refined. Datasets 6 and 8 were polished in RELION 2.0 (non-Bayesian polishing); datasets 7 and 9 were polished in RELION 3.1 (Bayesian polishing). The particles retain their original pixel sizes.
+(Datasets 7 and 8 were deposited previously in EMPIAR 10298 as datasets 1 and 2 respectively). 
+
+These particles when combined with the C complex particles in C_polishedstacks/ produced:
+U5 Sm focussed classification, EMD-12117, found here as u5sm_selected_particles_EMD12117.star
+Cwc22 NTD focussed classification, EMD-12118, found here as cwc22N_selected_particles_EMD12118.star</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR_C/P_polished/*/*.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Various signal subtractions for C- and P-complex spliceosomes</name>
+        <directory>/data/EMPIAR_C/Subtract</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>1531192</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>C- and P-complex particles after signal subtraction. For full details, see Wilkinson et al. Mol Cell (2021)
+
+Subtract/helicase/ contains C-complex particles after signal-subtraction around the Prp16/Brr2/Prp8Jab1 region
+Focussed refinement of these produced EMD-12110, found here as helicase_refinement_EMD12110_data.star
+Further focussed refinement with a mask just on Brr2 produced EMD-12111, found here as brr2_refinement_EMD12111_data.star
+
+Subtract/NTC/ contains C-complex particles after signal-subtraction around the NTC (Syf1 and Clf1 TPR particularly)
+Focussed refinement of these produced EMD-12109, found here as NTC_refinement_EMD12109_data.star
+
+Subtract/prp19_C/ contains C-complex particles after signal-subtraction around the Prp19 tetramer
+Subtract/prp19_P/ contains P-complex particles after signal-subtraction around the Prp19 tetramer
+After focussed classification, together these produced EMD-12115, found here as prp19_selected_subtracted_particles_EMD12115.star</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR_C/Subtract/*/Particles/subtracted*.mrcs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

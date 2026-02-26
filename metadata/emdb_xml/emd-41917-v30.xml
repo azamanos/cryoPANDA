@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_10_1/emdb.xsd" version="3.0.10.1" emdb_id="EMD-41917">
+    <admin>
+        <current_status>
+            <date>2025-04-16</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-09-12</deposition>
+            <header_release>2023-10-04</header_release>
+            <map_release>2023-10-04</map_release>
+            <update>2025-04-16</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Simons Foundation</funding_body>
+                <code>SF349247</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>CryoEM structure of PP7 virus-like particle from a multi-species dataset</title>
+        <authors_list>
+            <author ORCID="0000-0003-0188-9799">Kopylov M</author>
+            <author>Bobe D</author>
+            <author>Eng ET</author>
+        </authors_list>
+        <keywords>PP7 VLP, icosahedral cage, multi-species, VIRUS LIKE PARTICLE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-7388-8907" order="1">Bobe D</author>
+                    <author ORCID="0000-0003-0188-9799" order="2">Kopylov M</author>
+                    <author ORCID="0000-0002-0396-8549" order="3">Miller J</author>
+                    <author order="4">Owji AP</author>
+                    <author ORCID="0000-0002-8014-7269" order="5">Eng ET</author>
+                    <title>Multi-species cryoEM calibration and workflow verification standard.</title>
+                    <journal_abbreviation>Acta Crystallogr.,Sect.F</journal_abbreviation>
+                    <country>US</country>
+                    <volume>80</volume>
+                    <first_page>320</first_page>
+                    <last_page>327</last_page>
+                    <year>2024</year>
+                    <external_references type="PUBMED">39494502</external_references>
+                    <external_references type="DOI">doi:10.1107/S2053230X24010318</external_references>
+                    <external_references type="ISSN">2053-230X</external_references>
+                    <external_references type="ASTM">ACSFEN</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+    </crossreferences>
+    <sample>
+        <name>Pseudomonas phage PP7</name>
+        <supramolecule_list>
+            <virus_supramolecule supramolecule_id="1">
+                <name>Pseudomonas phage PP7</name>
+                <parent>0</parent>
+                <details>Virus-like particles</details>
+                <sci_species_name ncbi="12023">Pseudomonas phage PP7</sci_species_name>
+                <molecular_weight>
+                    <theoretical units="MDa">2.5</theoretical>
+                </molecular_weight>
+                <virus_type>VIRUS-LIKE PARTICLE</virus_type>
+                <virus_isolate>SPECIES</virus_isolate>
+                <virus_enveloped>false</virus_enveloped>
+                <virus_empty>true</virus_empty>
+            </virus_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">1.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.5</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">70.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="OTHER">
+                    <details>ab-initio reconstruction</details>
+                </startup_model>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.36</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.3.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>1803</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>RANDOM ASSIGNMENT</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.3.1</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.3.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="442369">
+        <file>emd_41917.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>480</col>
+            <row>480</row>
+            <sec>480</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>480</x>
+            <y>480</y>
+            <z>480</z>
+        </spacing>
+        <cell>
+            <a units="Å">526.07996</a>
+            <b units="Å">526.07996</b>
+            <c units="Å">526.07996</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-1.0090529</minimum>
+            <maximum>2.5285237</maximum>
+            <average>0.02156632</average>
+            <std>0.14146268</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.096</x>
+            <y units="Å">1.096</y>
+            <z units="Å">1.096</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.639</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-41917::::</label>
+        <annotation_details>Final sharpened map</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_41917_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="442369">
+                <file>emd_41917_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>480</col>
+                    <row>480</row>
+                    <sec>480</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>480</x>
+                    <y>480</y>
+                    <z>480</z>
+                </spacing>
+                <cell>
+                    <a units="Å">526.07996</a>
+                    <b units="Å">526.07996</b>
+                    <c units="Å">526.07996</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-1.0308646</minimum>
+                    <maximum>1.7286805</maximum>
+                    <average>0.011579348</average>
+                    <std>0.16141888</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.096</x>
+                    <y units="Å">1.096</y>
+                    <z units="Å">1.096</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-41917::::</label>
+                <annotation_details>Half B</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="442369">
+                <file>emd_41917_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>480</col>
+                    <row>480</row>
+                    <sec>480</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>480</x>
+                    <y>480</y>
+                    <z>480</z>
+                </spacing>
+                <cell>
+                    <a units="Å">526.07996</a>
+                    <b units="Å">526.07996</b>
+                    <c units="Å">526.07996</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.9306797</minimum>
+                    <maximum>1.7392642</maximum>
+                    <average>0.01171098</average>
+                    <std>0.1616853</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.096</x>
+                    <y units="Å">1.096</y>
+                    <z units="Å">1.096</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-41917::::</label>
+                <annotation_details>Half A</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

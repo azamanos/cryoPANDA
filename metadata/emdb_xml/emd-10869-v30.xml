@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-10869">
+    <admin>
+        <current_status>
+            <date>2024-05-22</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-04-16</deposition>
+            <header_release>2020-09-16</header_release>
+            <map_release>2020-09-16</map_release>
+            <update>2024-05-22</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Wellcome Trust</funding_body>
+                <code>203743/Z/16/Z</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Wellcome Trust</funding_body>
+                <code>108466/Z/15/Z</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>Acinetobacter baumannii ribosome-amikacin complex - 30S subunit body</title>
+        <authors_list>
+            <author>Nicholson D</author>
+            <author>Edwards TA</author>
+            <author>O'Neill AJ</author>
+            <author>Ranson NA</author>
+        </authors_list>
+        <keywords>antibiotic, amikacin, translation, ribosome</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Nicholson D</author>
+                    <author order="2">Edwards TA</author>
+                    <author order="3">O'Neill AJ</author>
+                    <author order="4">Ranson NA</author>
+                    <title>Structure of the 70S Ribosome from the Human Pathogen Acinetobacter baumannii in Complex with Clinically Relevant Antibiotics.</title>
+                    <journal_abbreviation>Structure</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>28</volume>
+                    <first_page>1087</first_page>
+                    <last_page>1100.e3</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32857965</external_references>
+                    <external_references type="DOI">doi:10.1016/j.str.2020.08.004</external_references>
+                    <external_references type="ISSN">0969-2126</external_references>
+                    <external_references type="CSD">2005</external_references>
+                    <external_references type="ASTM">STRUE6</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6ypu</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Acinetobacter baumannii ribosome-amikacin complex - 30S subunit body</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Acinetobacter baumannii ribosome-amikacin complex - 30S subunit body</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>8</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>9</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>10</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>11</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>12</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>13</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>14</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="575584">Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <rna macromolecule_id="1">
+                <name>16S ribosomal RNA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="575584">Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.500126156</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <sequence>
+                    <string>UUUAACUGAAGAGUUUGAUCAUGGCUCAGAUUGAACGCUGGCGGCAGGCUUAACACAUGCAAGUCGAGCGGGGGAAGGUA
+GCUUGCUACCGGACCUAGCGGCGGACGGGUGAGUAAUGCUUAGGAAUCUGCCUAUUAGUGGGGGACAACAUCUCGAAAGG
+GAUGCUAAUACCGCAUACGUCCUACGGGAGAAAGCAGGGGAUCUUCGGACCUUGCGCUAAUAGAUGAGCCUAAGUCGGAU
+UAGCUAGUUGGUGGGGUAAAGGCCUACCAAGGCGACGAUCUGUAGCGGGUCUGAGAGGAUGAUCCGCCACACUGGGACUG
+AGACACGGCCCAGACUCCUACGGGAGGCAGCAGUGGGGAAUAUUGGACAAUGGGGGGAACCCUGAUCCAGCCAUGCCGCG
+UGUGUGAAGAAGGCCUUAUGGUUGUAAAGCACUUUAAGCGAGGAGGAGGCUACUUUAGUUAAUACCUAGAGAUAGUGGAC
+GUUACUCGCAGAAUAAGCACCGGCUAACUCUGUGCCAGCAGCCGCGGUAAUACAGAGGGUGCGAGCGUUAAUCGGAUUUA
+CUGGGCGUAAAGCGUGCGUAGGCGGCUUAUUAAGUCGGAUGUGAAAUCCCCGAGCUUAACUUGGGAAUUGCAUUCGAUAC
+UGGUGAGCUAGAGUAUGGGAGAGGAUGGUAGAAUUCCAGGUGUAGCGGUGAAAUGCGUAGAGAUCUGGAGGAAUACCGAU
+GGCGAAGGCAGCCAUCUGGCCUAAUACUGACGCUGAGGUACGAAAGCAUGGGGAGCAAACAGGAUUAGAUACCCUGGUAG
+UCCAUGCCGUAAACGAUGUCUACUAGCCGUUGGGGCCUUUGAGGCUUUAGUGGCGCAGCUAACGCGAUAAGUAGACCGCC
+UGGGGAGUACGGUCGCAAGACUAAAACUCAAAUGAAUUGACGGGGGCCCGCACAAGCGGUGGAGCAUGUGGUUUAAUUCG
+AUGCAACGCGAAGAACCUUACCUGGCCUUGACAUACUAGAAACUUUCCAGAGAUGGAUUGGUGCCUUCGGGAAUCUAGAU
+ACAGGUGCUGCAUGGCUGUCGUCAGCUCGUGUCGUGAGAUGUUGGGUUAAGUCCCGCAACGAGCGCAACCCUUUUCCUUA
+CUUGCCAGCAUUUCGGAUGGGAACUUUAAGGAUACUGCCAGUGACAAACUGGAGGAAGGCGGGGACGACGUCAAGUCAUC
+AUGGCCCUUACGGCCAGGGCUACACACGUGCUACAAUGGUCGGUACAAAGGGUUGCUACACAGCGAUGUGAUGCUAAUCU
+CAAAAAGCCGAUCGUAGUCCGGAUUGGAGUCUGCAACUCGACUCCAUGAAGUCGGAAUCGCUAGUAAUCGCGGAUCAGAA
+UGCCGCGGUGAAUACGUUCCCGGGCCUUGUACACACCGCCCGUCACACCAUGGGAGUUUGUUGCACCAGAAGUAGCUAGC
+CUAACUGCAAAGAGGGCGGUUACCACGGUGUGGCCGAUGACUGGGGUGAAGUCGUAACAAGGUAGCCGUAGGGGAACCUG
+CGGCUGGAUCACCUCCUUAACGAA</string>
+                    <external_references type="GENBANK">CP009534.1</external_references>
+                </sequence>
+            </rna>
+            <protein_or_peptide macromolecule_id="2">
+                <name>30S ribosomal protein S2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="575584">Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.027680357</theoretical>
+                </molecular_weight>
+                <details>modelled without side chains</details>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MADYNVSMRDLLQAGAHFGHQTRFWNPKMRQYIFGARNKIHIINLEHTVPALNDALNFANQLASKKNKVLFVGTKRAASN
+IIREQAQRAGQPYVDHRWLGGMLTNWKTLRQSINRLKDLQTQSQDGTFAKLTKREALERTREMEKLERSLGGVKNMGGLP
+DALFVIDVDHEAIAIKEAKNLGIPVIGIVDTNSNPDNVDYVIPGNDDAIRAVTLYASAMADAILAGKEYAQSQANAQAKG
+DDAAKDASEA</string>
+                    <external_references type="UNIPROTKB">D0CC74</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>30S ribosomal protein S4</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="575584">Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023311817999999998</theoretical>
+                </molecular_weight>
+                <details>residues 23-30 and 43-51 modelled without side chains</details>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARYIGPKCKLSRREGTDLQLKSGVKPFDVKTKKANKAPGQHGQARGGKQSEYSLQLREKQKVRRIYGVLERQFSNYYKE
+AARVKGATGENLLKLLESRLDNVVYRMGFGSTRAEARQLVSHRSITLNGRRVNIASIQVKAGDVIAVHEGAKQQLRIKNA
+IELAAQRGIPAWIEVDHSKLEGTFKAAPDRSDLPAEINESLIVELYSK</string>
+                    <external_references type="UNIPROTKB">D0CD21</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>30S ribosomal protein S5</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="575584">Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.017181765999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKVEQNEGLVEKLVAVDRVAKVVKGGRIFSFTALTVVGDGNGRVGFGRGKAREVPAAISKALEAARRNMITVDLAGTTL
+QHPVNARHGASRVYMQPASEGTGVIAGGAMRAVLEAAGVHNVLAKCYGSTNAANVVNATFKGLRDMTSPEKVAAKRGKSV
+EEIQG</string>
+                    <external_references type="UNIPROTKB">D0CD14</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>30S ribosomal protein S6</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="575584">Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014986951999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MRHYEIVLLVHPDQSDQVVGMVERYISQIKEADGQIHRLEDWGRRQLAYPINKIHKAHYILMNVECGQSTLDELEELFRY
+NDAIIRNLIIRREHAITEESLLAKSAEEKRARKAQREEAQQVAQEAE</string>
+                    <external_references type="UNIPROTKB">D0C5Z0</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="6">
+                <name>30S ribosomal protein S8</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="575584">Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014250666999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSMQDTVADMLTRVRNAQMAKKQTVSMPSSKLKVAIANVLQQEGYISNVEVAQEETKSTLTITLKYFEGKPVIEMVKRVS
+RPGLRQYRGKDKLPSVKQGLGIAIVSTSKGIMTDRAARAAGIGGEVIAFVS</string>
+                    <external_references type="UNIPROTKB">D0CD11</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="7">
+                <name>30S ribosomal protein S11</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="575584">Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013558512</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAKDTRTRKKVTRTVSEGVAHIHASFNNTIVTITDRQGNALAWATSGGQGFRGSRKSTPFAAQVAAEVAGKAALDYGLKN
+LDVLVKGPGPGRESAVRALGAVGYKINSITDVTPIPHNGCRPPKKRRV</string>
+                    <external_references type="UNIPROTKB">D0CD20</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="8">
+                <name>30S ribosomal protein S12</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="575584">Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013797133999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MATTNQLIRKGRTTLVEKSKVPALKACPQRRGVCTRVYTTTPKKPNSAMRKVCRVRLTSGFEVSSYIGGEGHNLQEHSVV
+LIRGGRVKDLPGVRYHTVRGSLDCAGVKDRNQSRSKYGAKRPKK</string>
+                    <external_references type="UNIPROTKB">D0C9P6</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="9">
+                <name>30S ribosomal protein S15</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="575584">Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0101456</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MALTNADRAEIIAKFARAENDTGSPEVQVALLTAQINDLQGHFKAHKHDHHSRRGLIRMVNQRRKLLDYLNGKDHERYTA
+LIGALGLRR</string>
+                    <external_references type="UNIPROTKB">D0CAU9</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="10">
+                <name>30S ribosomal protein S16</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="575584">Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009215529</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MVVIRLARGGAKKRPFYQIVVTDSRNARDGRFIERIGFFNPTAQGQAEKLRLDADRFAHWVSQGAQPSERVASLAAQAKK
+ATA</string>
+                    <external_references type="UNIPROTKB">D0CCR5</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="11">
+                <name>30S ribosomal protein S17</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="575584">Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009543101</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSEKTVRTLTGKVVSDKMDKSIVVLIERRVQHPLYGKSIRRSTKLHAHDENNVAKIGDVVTIKESRPISKTKAWTLVEVV
+EAAAE</string>
+                    <external_references type="UNIPROTKB">D0CD06</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="12">
+                <name>30S ribosomal protein S18</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="575584">Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009009452</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MARFYRRRKFCRFTAENVAYIDYKDIDTLKQYITENGKIVPSRITGTKARYQRQLALAIKQARYLSLIPYTDNHK</string>
+                    <external_references type="UNIPROTKB">D0C5Y9</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="13">
+                <name>30S ribosomal protein S20</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="575584">Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00972342</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MANSAQAKKRARQNVKARKHNASLRSMVRTYIKRTLSAIAGGDYAVATEAYKKAVPVIDRMADKGIIHKNKAARHKSRLN
+AQVKALAN</string>
+                    <external_references type="UNIPROTKB">D0C7N1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="14">
+                <name>30S ribosomal protein S21</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="575584">Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008474032999999999</theoretical>
+                </molecular_weight>
+                <details>residues 2-36 modelled without side chains</details>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPQVKLKEGEPVDVAIRRFKRSCEKAGVLADVRKREFYEKPTQERKRKKAAAVKRYQKKLARESVRTTRLY</string>
+                    <external_references type="UNIPROTKB">D0C5Q3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="15">
+                <name>MAGNESIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">2.4305e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>59</number_of_copies>
+                <formula>MG</formula>
+            </ligand>
+            <ligand macromolecule_id="16">
+                <name>(2S)-N-[(1R,2S,3S,4R,5S)-4-[(2R,3R,4S,5S,6R)-6-(aminomethyl)-3,4,5-tris(oxidanyl)oxan-2-yl]oxy-5-azanyl-2-[(2S,3R,4S,5S ,6R)-4-azanyl-6-(hydroxymethyl)-3,5-bis(oxidanyl)oxan-2-yl]oxy-3-oxidanyl-cyclohexyl]-4-azanyl-2-oxidanyl-butanamide</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000585603</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>AKN</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.7</nominal_defocus_max>
+                    <nominal_magnification>130000.0</nominal_magnification>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details/>
+                            <average_exposure_time units="s">10.0</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">58.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>Made by stochastic gradient descent in RELION 3.0</insilico_model>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.9</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                    <details>Multi-body refinement was carried out in RELION 3.0 to obtain the final '30S subunit body' reconstruction. The mask used for this procedure is deposited with this entry.</details>
+                    <number_images_used>51958</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="256001">
+        <file>emd_10869.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>400</col>
+            <row>400</row>
+            <sec>400</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>400</x>
+            <y>400</y>
+            <z>400</z>
+        </spacing>
+        <cell>
+            <a units="Å">428.00003</a>
+            <b units="Å">428.00003</b>
+            <c units="Å">428.00003</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.12541683</minimum>
+            <maximum>0.22252214</maximum>
+            <average>0.00008920443</average>
+            <std>0.0032966165</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.07</x>
+            <y units="Å">1.07</y>
+            <z units="Å">1.07</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.02</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-10869::::</label>
+        <annotation_details>Acinetobacter baumannii ribosome-amikacin complex - 30S subunit body, post-processed map</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>5MDZ</access_code>
+                    <chain>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <initial_model>
+                    <access_code>5AFI</access_code>
+                    <chain>
+                        <chain_id>w</chain_id>
+                        <source_name>PDB</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <target_criteria>correlation coefficient</target_criteria>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_10869_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="256001">
+                <file>emd_10869_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>400</col>
+                    <row>400</row>
+                    <sec>400</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>400</x>
+                    <y>400</y>
+                    <z>400</z>
+                </spacing>
+                <cell>
+                    <a units="Å">428.00003</a>
+                    <b units="Å">428.00003</b>
+                    <c units="Å">428.00003</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.37728232</minimum>
+                    <maximum>0.8372474</maximum>
+                    <average>0.0001323871</average>
+                    <std>0.013336221</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.07</x>
+                    <y units="Å">1.07</y>
+                    <z units="Å">1.07</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-10869::::</label>
+                <annotation_details>Acinetobacter baumannii ribosome-amikacin complex, consensus map filtered by local resolution</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="256001">
+                <file>emd_10869_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>400</col>
+                    <row>400</row>
+                    <sec>400</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>400</x>
+                    <y>400</y>
+                    <z>400</z>
+                </spacing>
+                <cell>
+                    <a units="Å">428.00003</a>
+                    <b units="Å">428.00003</b>
+                    <c units="Å">428.00003</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.046843376</minimum>
+                    <maximum>0.12346018</maximum>
+                    <average>-0.00035630207</average>
+                    <std>0.004753287</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.07</x>
+                    <y units="Å">1.07</y>
+                    <z units="Å">1.07</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-10869::::</label>
+                <annotation_details>Acinetobacter baumannii ribosome-amikacin complex - 30S subunit body, half map 2</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="256001">
+                <file>emd_10869_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>400</col>
+                    <row>400</row>
+                    <sec>400</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>400</x>
+                    <y>400</y>
+                    <z>400</z>
+                </spacing>
+                <cell>
+                    <a units="Å">428.00003</a>
+                    <b units="Å">428.00003</b>
+                    <c units="Å">428.00003</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.04748103</minimum>
+                    <maximum>0.12243548</maximum>
+                    <average>-0.0003509186</average>
+                    <std>0.004760256</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.07</x>
+                    <y units="Å">1.07</y>
+                    <z units="Å">1.07</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-10869::::</label>
+                <annotation_details>Acinetobacter baumannii ribosome-amikacin complex - 30S subunit body, half map 1</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

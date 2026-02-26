@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-16466">
+    <admin>
+        <current_status>
+            <date>2024-05-29</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-01-16</deposition>
+            <header_release>2024-05-29</header_release>
+            <map_release>2024-05-29</map_release>
+            <update>2024-05-29</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Ministerio de Ciencia e Innovacion (MCIN)</funding_body>
+                <code>PID2019-105872GB-I00</code>
+                <country>Spain</country>
+            </grant_reference>
+        </grant_support>
+        <title>The structural architecture of alpha-synuclein oligomer</title>
+        <authors_list>
+            <author ORCID="0000-0002-7789-807X">Cuellar J</author>
+            <author>Santos J</author>
+            <author>Pallares I</author>
+            <author>Ventura S</author>
+            <author>Valpuesta JM</author>
+        </authors_list>
+        <keywords>alpha-synuclein, oligomers, toxic, symmetric, NEUROPEPTIDE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-9045-7765" order="1">Santos J</author>
+                    <author order="2">Cuellar J</author>
+                    <author ORCID="0000-0002-8205-2060" order="3">Pallares I</author>
+                    <author order="4">Byrd EJ</author>
+                    <author order="5">Lends A</author>
+                    <author order="6">Moro F</author>
+                    <author order="7">Abdul-Shukkoor MB</author>
+                    <author order="8">Pujols J</author>
+                    <author order="9">Velasco-Carneros L</author>
+                    <author ORCID="0000-0001-9029-1865" order="10">Sobott F</author>
+                    <author ORCID="0000-0002-2918-8989" order="11">Otzen DE</author>
+                    <author ORCID="0000-0003-2437-7761" order="12">Calabrese AN</author>
+                    <author order="13">Muga A</author>
+                    <author ORCID="0000-0002-7768-0206" order="14">Pedersen JS</author>
+                    <author ORCID="0000-0001-7176-7813" order="15">Loquet A</author>
+                    <author order="16">Valpuesta JM</author>
+                    <author ORCID="0000-0002-3079-8039" order="17">Radford SE</author>
+                    <author ORCID="0000-0002-9652-6351" order="18">Ventura S</author>
+                    <title>A Targetable N-Terminal Motif Orchestrates alpha-Synuclein Oligomer-to-Fibril Conversion.</title>
+                    <journal_abbreviation>J.Am.Chem.Soc.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>146</volume>
+                    <first_page>12702</first_page>
+                    <last_page>12711</last_page>
+                    <year>2024</year>
+                    <external_references type="PUBMED">38683963</external_references>
+                    <external_references type="DOI">doi:10.1021/jacs.4c02262</external_references>
+                    <external_references type="ISSN">1520-5126</external_references>
+                    <external_references type="ASTM">JACSAT</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+    </crossreferences>
+    <sample>
+        <name>The structural architecture of an alpha-synuclein toxic oligomer</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>The structural architecture of an alpha-synuclein toxic oligomer</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.42</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">4.5</concentration>
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R2/2</model>
+                        <material>COPPER/RHODIUM</material>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">30</time>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TALOS ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">1.2</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">0.5</nominal_defocus_max>
+                    <nominal_magnification>73000.0</nominal_magnification>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">4096</width>
+                                    <height units="pixel">4096</height>
+                                </dimensions>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>967</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">28.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>193427</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="INSILICO MODEL"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">18.3</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>2.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>38069</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="2049">
+        <file>emd_16466.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>80</col>
+            <row>80</row>
+            <sec>80</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>80</x>
+            <y>80</y>
+            <z>80</z>
+        </spacing>
+        <cell>
+            <a units="Å">219.2</a>
+            <b units="Å">219.2</b>
+            <c units="Å">219.2</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.06660122</minimum>
+            <maximum>0.11587822</maximum>
+            <average>0.002653689</average>
+            <std>0.014088419</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">2.74</x>
+            <y units="Å">2.74</y>
+            <z units="Å">2.74</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.033</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-16466::::</label>
+    </map>
+    <interpretation>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="2049">
+                <file>emd_16466_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>80</col>
+                    <row>80</row>
+                    <sec>80</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>80</x>
+                    <y>80</y>
+                    <z>80</z>
+                </spacing>
+                <cell>
+                    <a units="Å">219.2</a>
+                    <b units="Å">219.2</b>
+                    <c units="Å">219.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.075271726</minimum>
+                    <maximum>0.13236514</maximum>
+                    <average>0.0026312217</average>
+                    <std>0.01468754</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">2.74</x>
+                    <y units="Å">2.74</y>
+                    <z units="Å">2.74</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16466::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="2049">
+                <file>emd_16466_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>80</col>
+                    <row>80</row>
+                    <sec>80</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>80</x>
+                    <y>80</y>
+                    <z>80</z>
+                </spacing>
+                <cell>
+                    <a units="Å">219.2</a>
+                    <b units="Å">219.2</b>
+                    <c units="Å">219.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.07148435</minimum>
+                    <maximum>0.13415684</maximum>
+                    <average>0.0026771787</average>
+                    <std>0.0146305235</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">2.74</x>
+                    <y units="Å">2.74</y>
+                    <z units="Å">2.74</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16466::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

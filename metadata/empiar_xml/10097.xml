@@ -1,0 +1,137 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10097" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2017-05-11</depositionDate>
+            <releaseDate>2017-08-16</releaseDate>
+            <updateDate>2021-11-02</updateDate>
+        </keyDates>
+        <title>40 Degree Tilted Single-Particle CryoEM of Highly Preferred Orientated Influenza Hemagglutinin Trimer</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-6656-6320</authorORCID>
+            <firstName>Yong Zi</firstName>
+            <lastName>Tan</lastName>
+            <organization type="academic">New York Structural Biology Center/Columbia University</organization>
+            <street>89 Convent Ave</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8124-7472</authorORCID>
+            <firstName>Dmitry</firstName>
+            <lastName>Lyumkis</lastName>
+            <organization type="academic">Laboratory of Genetics and Helmsley Center for Genomic Medicine, The Salk Institute for Biological Studies</organization>
+            <street>10010 North Torrey Pines Road</street>
+            <townOrCity>La Jolla</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>92037</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-6656-6320">Tan YZ</author>
+            <author authorORCID="0000-0002-8124-7472">Lyumkis D</author>
+        </authorsList>
+        <datasetSize units="TB">1.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10097</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-8731</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-6656-6320" order="1">Tan YZ</author>
+                    <author authorORCID="0000-0002-4202-4129" order="2">Baldwin PR</author>
+                    <author authorORCID="0000-0002-8858-8907" order="3">Davis JH</author>
+                    <author authorORCID="0000-0002-8772-468X" order="4">Williamson JR</author>
+                    <author authorORCID="0000-0002-3287-121X" order="5">Potter CS</author>
+                    <author authorORCID="0000-0002-0624-5020" order="6">Carragher B</author>
+                    <author authorORCID="0000-0002-8124-7472" order="7">Lyumkis D</author>
+                    <title>Addressing preferred specimen orientation in single-particle cryo-EM through tilting</title>
+                    <journal>Nature methods</journal>
+                    <journalAbbreviation>Nat. Methods</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>8</issue>
+                    <volume>14</volume>
+                    <firstPage>793</firstPage>
+                    <lastPage>796</lastPage>
+                    <year>2017</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/nmeth.4347</externalReferences>
+                    <externalReferences type="pubmed">28671674</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned raw multi-frame 40 degree tilted micrographs of Influenza Hemagglutinin Trimer</name>
+        <directory>/data/Raw-Frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>668</numImagesOrTiltSeries>
+        <framesPerImage>100</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>100</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.31</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.31</pixelHeight>
+        </dimensions>
+        <details>Unaligned raw multi-frame 40 degree tilted micrographs of Influenza Hemagglutinin Trimer. Micrographs were collected when tilt angle is set to -40 degrees. The gain normalization reference images (bright and norm) are included for each of the 3 sessions. No dark gain reference images are present because dark images values are always zero in counting mode camera.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned, summed and exposure weighted 40 degree tilted micrographs of Influenza Hemagglutinin Trimer</name>
+        <directory>/data/Dose-Weighted-Micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>668</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.31</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.31</pixelHeight>
+        </dimensions>
+        <details>Aligned, summed and exposure weighted 40 degree tilted micrographs of Influenza Hemagglutinin Trimer. Micrographs were aligned and summed from the raw frames using MotionCor2, with 5 by 5 patch and exposure weighting.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Equalized particle stack of Influenza Hemagglutinin Trimer from 40 degree tilted micrographs</name>
+        <directory>/data/Particle-Stack</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>130000</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.31</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.31</pixelHeight>
+        </dimensions>
+        <details>Equalized particle stack of Influenza Hemagglutinin Trimer from 40 degree tilted micrographs. Particles were extracted from aligned, exposured weighted and summed micrographs. In order to compare these particles with a 40 degree tilted dataset, these particles were equalized based on GCTF-estimated per-particle CTF values so a subset of particles with the same defocus spread would be obtained. This equalized stack of 130,000 is the uploaded stack. A Relion .star metadata file is also provided containing the final refined Euler angles.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

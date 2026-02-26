@@ -1,0 +1,219 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10675" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-11-04</depositionDate>
+            <releaseDate>2021-07-29</releaseDate>
+            <updateDate>2022-02-28</updateDate>
+        </keyDates>
+        <title>The Myosin II Coiled Coil Domain Atomic Structure in its Native Environment</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0001-9594-8360</authorORCID>
+            <firstName>Kenneth</firstName>
+            <lastName>Taylor</lastName>
+            <organization type="academic">Florida State University</organization>
+            <street>91 Chieftan Way</street>
+            <townOrCity>Tallahassee</townOrCity>
+            <stateOrProvince>Florida</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>32304</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0001-9594-8360</authorORCID>
+            <firstName>Kenneth</firstName>
+            <lastName>Taylor</lastName>
+            <organization type="academic">Florida State University</organization>
+            <street>91 Chieftan Way</street>
+            <townOrCity>Tallahassee</townOrCity>
+            <stateOrProvince>Florida</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>32304</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-0222-6989">Rahmani H</author>
+            <author authorORCID="0000-0003-0431-0834">Hu Z</author>
+            <author authorORCID="0000-0002-5661-1228">Daneshparvar N</author>
+            <author authorORCID="0000-0002-2033-4978">Taylor DW</author>
+            <author authorORCID="0000-0001-9594-8360">Taylor KT</author>
+        </authorsList>
+        <datasetSize units="TB">18.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10675</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-22975</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-0222-6989" order="1">Rahmani H</author>
+                    <author authorORCID="0000-0002-1123-5273" order="2">Ma W</author>
+                    <author authorORCID="0000-0003-0431-0834" order="3">Hu Z</author>
+                    <author authorORCID="0000-0002-5661-1228" order="4">Daneshparvar N</author>
+                    <author authorORCID="0000-0002-2033-4978" order="5">Taylor DW</author>
+                    <author authorORCID="0000-0003-3065-1456" order="6">McCammon JA</author>
+                    <author authorORCID="0000-0003-4848-3323" order="7">Irving TC</author>
+                    <author authorORCID="0000-0003-4446-1194" order="8">Edwards RJ</author>
+                    <author authorORCID="0000-0001-9594-8360" order="9">Taylor KA</author>
+                    <title>The myosin II coiled-coil domain atomic structure in its native environment</title>
+                    <journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+                    <journalAbbreviation>Proc Natl Acad Sci U S A</journalAbbreviation>
+                    <country></country>
+                    <issue>14</issue>
+                    <volume>118</volume>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1073/pnas.2024151118</externalReferences>
+                    <externalReferences type="pubmed">33782130</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Frame Stacks 1/3</name>
+        <directory>/data/Frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1432</numImagesOrTiltSeries>
+        <framesPerImage>35</framesPerImage>
+        <frameRange>
+            <frameRangeMin>0</frameRangeMin>
+            <frameRangeMax>34</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>8192</imageWidth>
+            <pixelWidth>1.009</pixelWidth>
+            <imageHeight>8192</imageHeight>
+            <pixelHeight>1.009</pixelHeight>
+        </dimensions>
+        <details>Particle positions are given in the final star file in the particle stack directory.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Frames/17dec15a/rawdata/17dec15a_*.frames.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/ParticleStack/17dec15a-768-localctf.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Frame Stacks 2/3</name>
+        <directory>/data/Frames2</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>591</numImagesOrTiltSeries>
+        <framesPerImage>35</framesPerImage>
+        <frameRange>
+            <frameRangeMin>0</frameRangeMin>
+            <frameRangeMax>34</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>8192</imageWidth>
+            <pixelWidth>1.009</pixelWidth>
+            <imageHeight>8192</imageHeight>
+            <pixelHeight>1.009</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Frames2/17dec15a/rawdata/17dec15a_*.frames.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/ParticleStack/17dec15a-768-localctf.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Frame Stacks 3/3</name>
+        <directory>/data/Frames3</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1432</numImagesOrTiltSeries>
+        <framesPerImage>35</framesPerImage>
+        <frameRange>
+            <frameRangeMin>0</frameRangeMin>
+            <frameRangeMax>34</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>8192</imageWidth>
+            <pixelWidth>1.009</pixelWidth>
+            <imageHeight>8192</imageHeight>
+            <pixelHeight>1.009</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Frames3/17dec15a/rawdata/17dec15a_*.frames.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Micrographs before frames alignment</name>
+        <directory>/data/Micrographs/17dec15a</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3507</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>8192</imageWidth>
+            <pixelWidth>1.009</pixelWidth>
+            <imageHeight>8192</imageHeight>
+            <pixelHeight>1.009</pixelHeight>
+        </dimensions>
+        <details>Micrographs before frame alignment.
+Gain References to be used for frame alignment are stored in 
+data/Micrographs/17dec15_ref_a
+
+directory.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Micrographs/17dec15a/rawdata/*ex.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Micrographs: frame-aligned and dose-weighted</name>
+        <directory>/data/Micrographs/17dec15a</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3507</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>8192</imageWidth>
+            <pixelWidth>1.009</pixelWidth>
+            <imageHeight>8192</imageHeight>
+            <pixelHeight>1.009</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/Micrographs/17dec15a/rawdata/*ex-a-DW.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particle Stack</name>
+        <directory>/data/ParticleStack</directory>
+        <category>picked particles - single frame - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>216045</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>768</imageWidth>
+            <pixelWidth>1.009</pixelWidth>
+            <imageHeight>768</imageHeight>
+            <pixelHeight>1.009</pixelHeight>
+        </dimensions>
+        <details>Particle stack produced using relion with .star and .mrcs files. The mrcs file has been split with the command:
+split -b 10000000k 17dec15a-768-localctf.mrcs -d parts-
+
+To combine it back execute:
+cat parts-* &gt; 17dec15a-768-localctf_combined.mrcs</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

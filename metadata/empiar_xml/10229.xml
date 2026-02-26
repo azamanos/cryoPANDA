@@ -1,0 +1,116 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10229" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2018-11-13</depositionDate>
+            <releaseDate>2018-11-23</releaseDate>
+            <updateDate>2018-11-23</updateDate>
+        </keyDates>
+        <title>Cryo-EM Reconstruction of apo EsCas13d</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-8124-7472</authorORCID>
+            <firstName>Dmitry</firstName>
+            <lastName>Lyumkis</lastName>
+            <organization type="academic">The Salk Institute for Biological Studies</organization>
+            <street>10010 North Torrey Pines Road</street>
+            <townOrCity>La Jolla</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>92037</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-8124-7472</authorORCID>
+            <firstName>Dmitry</firstName>
+            <lastName>Lyumkis</lastName>
+            <organization type="academic">Laboratory of Genetics and Helmsley Center for Genomic Medicine, The Salk Institute for Biological Studies</organization>
+            <street>10010 North Torrey Pines Road</street>
+            <townOrCity>La Jolla</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>92037</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-6245-6618">Zhang C</author>
+            <author authorORCID="0000-0002-8124-7472">Lyumkis D</author>
+        </authorsList>
+        <datasetSize units="GB">66.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10229</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-9015</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-6245-6618" order="1">Zhang C</author>
+                    <author authorORCID="0000-0001-7915-1685" order="2">Konermann S</author>
+                    <author order="3">Brideau N</author>
+                    <author order="4">Lotfy P</author>
+                    <author order="5">Wu X</author>
+                    <author order="6">Novick SJ</author>
+                    <author order="7">Strutzenberg T</author>
+                    <author authorORCID="0000-0002-3404-690X" order="8">Griffin P</author>
+                    <author authorORCID="0000-0002-9380-2648" order="9">Hsu PD</author>
+                    <author authorORCID="0000-0002-8124-7472" order="10">Lyumkis D</author>
+                    <title>Structural Basis for the RNA-Guided Ribonuclease Activity of CRISPR-Cas13d</title>
+                    <journal>Cell</journal>
+                    <journalAbbreviation>Cell</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>175</volume>
+                    <firstPage>212</firstPage>
+                    <lastPage>223</lastPage>
+                    <year>2018</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.cell.2018.09.001</externalReferences>
+                    <externalReferences type="pubmed">30241607</externalReferences>
+                    <details>Two datasets are deposited. The first dataset is a stack and associated .star file of 154,889 particles. This stack was used as input to common-lines-based ab initio 3D orientation assignment and reconstruction in cryoSparc. The procedure resulted in the automated selection of 15,846 particles, from which a reconstruction was performed. This reconstruction is reported in the associated publication and in EMD-9015. The second dataset is a stack and associated .star file that is generated from the selected 15,846 particles. Using these as input to ab initio orientation assignment and reconstruction in cryoSparc results in a similar map as the first dataset.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>stack of ~150k particles used for ab initio orientation assignment and reconstruction</name>
+        <directory>/data/All_Particles</directory>
+        <category>picked particles - single frame - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>154889</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>320</imageWidth>
+            <pixelWidth>0.73</pixelWidth>
+            <imageHeight>320</imageHeight>
+            <pixelHeight>0.73</pixelHeight>
+        </dimensions>
+        <details>This directory contains a stack and associated .star file of 154,889 particles. This stack was used as input to common-lines-based ab initio 3D orientation assignment and reconstruction in cryoSparc. The procedure resulted in the automated selection of 15,846 particles, from which a reconstruction was performed. This reconstruction is reported in the associated publication and in EMD-9015.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>stack of ~16k best particles from above</name>
+        <directory>/data/Best_Particles</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>15846</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>0.73</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>0.73</pixelHeight>
+        </dimensions>
+        <details>This directory contains a stack and associated .star file of the 15,846 best particles selected from the full stack. This stack represents the clean particles from above and reproduces the deposited map when subjected to an ab initio orientation assignment and reconstruction procedure.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

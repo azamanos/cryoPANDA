@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_8_0/emdb.xsd" version="3.0.8.0" emdb_id="EMD-16087">
+    <admin>
+        <current_status>
+            <date>2023-09-06</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-11-03</deposition>
+            <header_release>2023-07-12</header_release>
+            <map_release>2023-07-12</map_release>
+            <update>2023-09-06</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>H2020 Marie Curie Actions of the European Commission</funding_body>
+                <code>847548</code>
+                <country>European Union</country>
+            </grant_reference>
+        </grant_support>
+        <title>Structure of the human UBR5 Dimer.</title>
+        <authors_list>
+            <author>Hodakova Z</author>
+            <author>Grishkovskaya I</author>
+            <author>Haselbach D</author>
+        </authors_list>
+        <keywords>UBR5, E3 Ligase, nuclear, Degradation, Ubiquitin, LIGASE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0002-2599-0333" order="1">Hodakova Z</author>
+                    <author ORCID="0000-0003-0164-9373" order="2">Grishkovskaya I</author>
+                    <author order="3">Brunner HL</author>
+                    <author ORCID="0000-0002-9062-9739" order="4">Bolhuis DL</author>
+                    <author order="5">Belacic K</author>
+                    <author ORCID="0000-0001-6251-2747" order="6">Schleiffer A</author>
+                    <author ORCID="0000-0003-1684-5211" order="7">Kotisch H</author>
+                    <author ORCID="0000-0002-6141-0164" order="8">Brown NG</author>
+                    <author ORCID="0000-0002-5276-5633" order="9">Haselbach D</author>
+                    <title>Cryo-EM structure of the chain-elongating E3 ubiquitin ligase UBR5.</title>
+                    <journal_abbreviation>Embo J.</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>42</volume>
+                    <first_page>e113348</first_page>
+                    <last_page>e113348</last_page>
+                    <year>2023</year>
+                    <external_references type="PUBMED">37409633</external_references>
+                    <external_references type="DOI">doi:10.15252/embj.2022113348</external_references>
+                    <external_references type="ISSN">1460-2075</external_references>
+                    <external_references type="CSD">0897</external_references>
+                    <external_references type="ASTM">EMJODG</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8bja</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>UBR5</name>
+        <supramolecule_list>
+            <organelle_or_cellular_component_supramolecule supramolecule_id="1">
+                <name>UBR5</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Homodimer</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="kDa/nm">310</theoretical>
+                </molecular_weight>
+            </organelle_or_cellular_component_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>E3 ubiquitin-protein ligase UBR5</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.312810906</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTSIHFVVHPLPGTEDQLNDRLREVSEKLNKYNLNSHPPLNVLEQATIKQCVVGPNHAAFLLEDGRVCRIGFSVQPDRLE
+LGKPDNNDGSKLNSNSGAGRTSRPGRTSDSPWFLSGSETLGRLAGNTLGSRWSSGVGGSGGGSSGRSSAGARDSRRQTRV
+IRTGRDRGSGLLGSQPQPVIPASVIPEELISQAQVVLQGKSRSVIIRELQRTNLDVNLAVNNLLSRDDEDGDDGDDTASE
+SYLPGEDLMSLLDADIHSAHPSVIIDADAMFSEDISYFGYPSFRRSSLSRLGSSRVLLLPLERDSELLRERESVLRLRER
+RWLDGASFDNERGSTSKEGEPNLDKKNTPVQSPVSLGEDLQWWPDKDGTKFICIGALYSELLAVSSKGELYQWKWSESEP
+YRNAQNPSLHHPRATFLGLTNEKIVLLSANSIRATVATENNKVATWVDETLSSVASKLEHTAQTYSELQGERIVSLHCCA
+LYTCAQLENSLYWWGVVPFSQRKKMLEKARAKNKKPKSSAGISSMPNITVGTQVCLRNNPLYHAGAVAFSISAGIPKVGV
+LMESVWNMNDSCRFQLRSPESLKNMEKASKTTEAKPESKQEPVKTEMGPPPSPASTCSDASSIASSASMPYKRRRSTPAP
+KEEEKVNEEQWSLREVVFVEDVKNVPVGKVLKVDGAYVAVKFPGTSSNTNCQNSSGPDADPSSLLQDCRLLRIDELQVVK
+TGGTPKVPDCFQRTPKKLCIPEKTEILAVNVDSKGVHAVLKTGNWVRYCIFDLATGKAEQENNFPTSSIAFLGQNERNVA
+IFTAGQESPIILRDGNGTIYPMAKDCMGGIRDPDWLDLPPISSLGMGVHSLINLPANSTIKKKAAVIIMAVEKQTLMQHI
+LRCDYEACRQYLMNLEQAVVLEQNLQMLQTFISHRCDGNRNILHACVSVCFPTSNKETKEEEEAERSERNTFAERLSAVE
+AIANAISVVSSNGPGNRAGSSSSRSLRLREMMRRSLRAAGLGRHEAGASSSDHQDPVSPPIAPPSWVPDPPAMDPDGDID
+FILAPAVGSLTTAATGTGQGPSTSTIPGPSTEPSVVESKDRKANAHFILKLLCDSVVLQPYLRELLSAKDARGMTPFMSA
+VSGRAYPAAITILETAQKIAKAEISSSEKEEDVFMGMVCPSGTNPDDSPLYVLCCNDTCSFTWTGAEHINQDIFECRTCG
+LLESLCCCTECARVCHKGHDCKLKRTSPTAYCDCWEKCKCKTLIAGQKSARLDLLYRLLTATNLVTLPNSRGEHLLLFLV
+QTVARQTVEHCQYRPPRIREDRNRKTASPEDSDMPDHDLEPPRFAQLALERVLQDWNALKSMIMFGSQENKDPLSASSRI
+GHLLPEEQVYLNQQSGTIRLDCFTHCLIVKCTADILLLDTLLGTLVKELQNKYTPGRREEAIAVTMRFLRSVARVFVILS
+VEMASSKKKNNFIPQPIGKCKRVFQALLPYAVEELCNVAESLIVPVRMGIARPTAPFTLASTSIDAMQGSEELFSVEPLP
+PRPSSDQSSSSSQSQSSYIIRNPQQRRISQSQPVRGRDEEQDDIVSADVEEVEVVEGVAGEEDHHDEQEEHGEENAEAEG
+QHDEHDEDGSDMELDLLAAAETESDSESNHSNQDNASGRRSVVTAATAGSEAGASSVPAFFSEDDSQSNDSSDSDSSSSQ
+SDDIEQETFMLDEPLERTTNSSHANGAAQAPRSMQWAVRNTQHQRAASTAPSSTSTPAASSAGLIYIDPSNLRRSGTIST
+SAAAAAAALEASNASSYLTSASSLARAYSIVIRQISDLMGLIPKYNHLVYSQIPAAVKLTYQDAVNLQNYVEEKLIPTWN
+WMVSIMDSTEAQLRYGSALASAGDPGHPNHPLHASQNSARRERMTAREEASLRTLEGRRRATLLSARQGMMSARGDFLNY
+ALSLMRSHNDEHSDVLPVLDVCSLKHVAYVFQALIYWIKAMNQQTTLDTPQLERKRTRELLELGIDNEDSEHENDDDTNQ
+SATLNDKDDDSLPAETGQNHPFFRRSDSMTFLGCIPPNPFEVPLAEAIPLADQPHLLQPNARKEDLFGRPSQGLYSSSAS
+SGKCLMEVTVDRNCLEVLPTKMSYAANLKNVMNMQNRQKKEGEEQPVLPEETESSKPGPSAHDLAAQLKSSLLAEIGLTE
+SEGPPLTSFRPQCSFMGMVISHDMLLGRWRLSLELFGRVFMEDVGAEPGSILTELGGFEVKESKFRREMEKLRNQQSRDL
+SLEVDRDRDLLIQQTMRQLNNHFGRRCATTPMAVHRVKVTFKDEPGEGSGVARSFYTAIAQAFLSNEKLPNLECIQNANK
+GTHTSLMQRLRNRGERDREREREREMRRSSGLRAGSRRDRDRDFRRQLSIDTRPFRPASEGNPSDDPEPLPAHRQALGER
+LYPRVQAMQPAFASKITGMLLELSPAQLLLLLASEDSLRARVDEAMELIIAHGRENGADSILDLGLVDSSEKVQQENRKR
+HGSSRSVVDMDLDDTDDGDDNAPLFYQPGKRGFYTPRPGKNTEARLNCFRNIGRILGLCLLQNELCPITLNRHVIKVLLG
+RKVNWHDFAFFDPVMYESLRQLILASQSSDADAVFSAMDLAFAIDLCKEEGGGQVELIPNGVNIPVTPQNVYEYVRKYAE
+HRMLVVAEQPLHAMRKGLLDVLPKNSLEDLTAEDFRLLVNGCGEVNVQMLISFTSFNDESGENAEKLLQFKRWFWSIVEK
+MSMTERQDLVYFWTSSPSLPASEEGFQPMPSITIRPPDDQHLPTANTCISRLYVPLYSSKQILKQKLLLAIKTKNFGFVG
+SAWSHPQFEKGGGSGGGSGGSAWSHPQFEK</string>
+                    <external_references type="UNIPROTKB">O95071</external_references>
+                </sequence>
+                <ec_number>2.3.2.26</ec_number>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>ZINC ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">6.5409e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>ZN</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.5</ph>
+                    </buffer>
+                    <sugar_embedding>
+                        <material>CHAPSO, fOG</material>
+                        <details>Sample vitrified using a final concentration of 4mM CHAPSO or 0.005% fluorinated octyl beta-maltoside</details>
+                    </sugar_embedding>
+                    <grid>
+                        <model>Quantifoil</model>
+                        <material>COPPER</material>
+                        <mesh>200</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.0</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">3.0</resolution>
+                    <resolution_method>FSC 0.5 CUT-OFF</resolution_method>
+                    <number_images_used>288287</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="108001">
+        <file>emd_16087.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>300</col>
+            <row>300</row>
+            <sec>300</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>300</x>
+            <y>300</y>
+            <z>300</z>
+        </spacing>
+        <cell>
+            <a units="Å">446.69998</a>
+            <b units="Å">446.69998</b>
+            <c units="Å">446.69998</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.018491998</minimum>
+            <maximum>1.3302218</maximum>
+            <average>0.0005496162</average>
+            <std>0.012445254</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.489</x>
+            <y units="Å">1.489</y>
+            <z units="Å">1.489</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0632</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-16087::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>104.0</overall_bvalue>
+            </modelling>
+        </modelling_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="108001">
+                <file>emd_16087_additional_3.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">446.69998</a>
+                    <b units="Å">446.69998</b>
+                    <c units="Å">446.69998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.015624413</minimum>
+                    <maximum>1.4432153</maximum>
+                    <average>0.00078221754</average>
+                    <std>0.015126572</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.489</x>
+                    <y units="Å">1.489</y>
+                    <z units="Å">1.489</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::D_1292126449::::</label>
+                <annotation_details>second obtained EM map</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="186625">
+                <file>emd_16087_additional_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>360</col>
+                    <row>360</row>
+                    <sec>360</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>360</x>
+                    <y>360</y>
+                    <z>360</z>
+                </spacing>
+                <cell>
+                    <a units="Å">536.04</a>
+                    <b units="Å">536.04</b>
+                    <c units="Å">536.04</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.00073009083</minimum>
+                    <maximum>2.0521984</maximum>
+                    <average>0.0028991848</average>
+                    <std>0.03731459</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.489</x>
+                    <y units="Å">1.489</y>
+                    <z units="Å">1.489</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16087::::</label>
+                <annotation_details>Map of UBR5 tetramer</annotation_details>
+            </additional_map>
+            <additional_map format="CCP4" size_kbytes="108001">
+                <file>emd_16087_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">446.69998</a>
+                    <b units="Å">446.69998</b>
+                    <c units="Å">446.69998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.015150819</minimum>
+                    <maximum>2.1275108</maximum>
+                    <average>0.0005950929</average>
+                    <std>0.014615709</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.489</x>
+                    <y units="Å">1.489</y>
+                    <z units="Å">1.489</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16087::::</label>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="108001">
+                <file>emd_16087_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">446.69998</a>
+                    <b units="Å">446.69998</b>
+                    <c units="Å">446.69998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.52857345</minimum>
+                    <maximum>1.0982304</maximum>
+                    <average>0.0015273533</average>
+                    <std>0.045930296</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.489</x>
+                    <y units="Å">1.489</y>
+                    <z units="Å">1.489</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16087::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="108001">
+                <file>emd_16087_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>300</col>
+                    <row>300</row>
+                    <sec>300</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>300</x>
+                    <y>300</y>
+                    <z>300</z>
+                </spacing>
+                <cell>
+                    <a units="Å">446.69998</a>
+                    <b units="Å">446.69998</b>
+                    <c units="Å">446.69998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.51039153</minimum>
+                    <maximum>1.050162</maximum>
+                    <average>0.0015029898</average>
+                    <std>0.045077823</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.489</x>
+                    <y units="Å">1.489</y>
+                    <z units="Å">1.489</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-16087::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

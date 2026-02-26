@@ -1,0 +1,111 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11720" schemaVersion="0.63" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-10-14</depositionDate>
+            <releaseDate>2023-10-20</releaseDate>
+            <updateDate>2023-10-20</updateDate>
+        </keyDates>
+        <title>Regularisation by denoising lowers the size barrier of cryo-EM structure determination</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0462-6540</authorORCID>
+            <firstName>Sjors</firstName>
+            <middleName>HW</middleName>
+            <lastName>Scheres</lastName>
+            <organization type="academic">MRC Laboratory of Molecular Biology</organization>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0462-6540</authorORCID>
+            <firstName>Sjors</firstName>
+            <middleName>HW</middleName>
+            <lastName>Scheres</lastName>
+            <organization type="academic">MRC Laboratory of Molecular Biology</organization>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-2152-1476">Lövestam S</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Medical Research Council (MRC, United Kingdom)</fundingBody>
+                <code>none</code>
+                <country>United Kingdom</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">81.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11720</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-17806</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author order="1">Kimanius D</author>
+                    <author order="2">Jamali K</author>
+                    <author authorORCID="0000-0003-4738-9503" order="3">Wilkinson M</author>
+                    <author authorORCID="0000-0002-2152-1476" order="4">Lövestam S</author>
+                    <author authorORCID="0000-0001-8028-8486" order="5">Velazhahan V</author>
+                    <author authorORCID="0000-0003-2697-2767" order="6">Nakane T</author>
+                    <author authorORCID="0000-0002-0462-6540" order="7">Scheres SHW</author>
+                    <title>Regularisation by denoising lowers the size barrier of cryo-EM structure determination</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned movies (MotionCorr)</name>
+        <directory>/data/FIA/MotionCorr</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1503</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.727</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.727</pixelHeight>
+        </dimensions>
+        <details>Autopicked particles using Topaz filament picker</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/FIA/AutoPick</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Polished particles</name>
+        <directory>/data/FIA/Polish</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>59124</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>SIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>384</imageWidth>
+            <pixelWidth>0.727</pixelWidth>
+            <imageHeight>384</imageHeight>
+            <pixelHeight>0.727</pixelHeight>
+        </dimensions>
+        <details>Polished particles used for the refinement comparisons of Blush (regularisation by denoising) vs normal relion refinement.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

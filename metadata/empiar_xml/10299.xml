@@ -1,0 +1,142 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10299" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-07-24</depositionDate>
+            <releaseDate>2019-10-14</releaseDate>
+            <updateDate>2019-10-14</updateDate>
+        </keyDates>
+        <title>PolyA polymerase module of the cleavage and polyadenylation factor (CPF) from Saccharomyces cerevisiae</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-1815-3710</authorORCID>
+            <firstName>Passmore</firstName>
+            <lastName>LA</lastName>
+            <organization type="academic">MRC laboratory of molecular biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-1815-3710</authorORCID>
+            <firstName>Passmore</firstName>
+            <lastName>LA</lastName>
+            <organization type="academic">MRC laboratory of molecular biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-0334-0591">Casanal A</author>
+            <author authorORCID="0000-0002-6366-5451">Kumar A</author>
+            <author authorORCID="0000-0001-7037-0611">Hill CH</author>
+            <author authorORCID="0000-0002-0138-5227">Emsley P</author>
+            <author authorORCID="0000-0003-1815-3710">Passmore LA</author>
+        </authorsList>
+        <datasetSize units="TB">15.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10299</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-3908</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-0334-0591" order="1">Casañal A</author>
+                    <author authorORCID="0000-0002-6366-5451" order="2">Kumar A</author>
+                    <author authorORCID="0000-0001-7037-0611" order="3">Hill CH</author>
+                    <author authorORCID="0000-0001-7015-8661" order="4">Easter AD</author>
+                    <author authorORCID="0000-0002-0138-5227" order="5">Emsley P</author>
+                    <author authorORCID="0000-0001-6387-2533" order="6">Degliesposti G</author>
+                    <author authorORCID="0000-0002-4356-2228" order="7">Gordiyenko Y</author>
+                    <author authorORCID="0000-0001-8523-4145" order="8">Santhanam B</author>
+                    <author authorORCID="0000-0003-1316-8809" order="9">Wolf J</author>
+                    <author order="10">Wiederhold K</author>
+                    <author authorORCID="0000-0002-5170-9015" order="11">Dornan GL</author>
+                    <author authorORCID="0000-0002-2432-0901" order="12">Skehel M</author>
+                    <author authorORCID="0000-0001-7829-5505" order="13">Robinson CV</author>
+                    <author authorORCID="0000-0003-1815-3710" order="14">Passmore LA</author>
+                    <title>Architecture of eukaryotic mRNA 3′-end processing machinery</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country></country>
+                    <issue>6366</issue>
+                    <volume>358</volume>
+                    <firstPage>1056</firstPage>
+                    <lastPage>1059</lastPage>
+                    <year>2017</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.aao6535</externalReferences>
+                    <externalReferences type="pubmed">29074584</externalReferences>
+                    <details>Raw movies and polished particles for PolyA polymerase module of the cleavage and polyadenylation factor (CPF) from Saccharomyces cerevisiae.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Polished shiny particles</name>
+        <directory>/data/Particles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>459867</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>128</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>128</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>This folder contains particles polished in RELION 3.1. The nominal pixel size is 1.40 A/px except for MRCS_Diamond folder, which is 1.36 A/px. The particles were pre-multiplied by CTF before cropping to counter the effect of signal delocalisation by CTF. The STAR file is not compatible with earlier versions of RELION.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned super-resolution movies</name>
+        <directory>/data/Movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>3952</numImagesOrTiltSeries>
+        <framesPerImage>20</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>20</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>7676</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>7420</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>This dataset was collected over five sessions.
+
+Common parameters:
+300 kV
+Cs 2.7 mm
+
+Nominal pixel sizes:
+MRCS_Diamond: 0.68 Å / super-resolution pixel
+Others: 0.70 Å / super-resolution pixel
+
+Nominal dose rate:
+MRCS_GAIN_1608: 2.24 e/A2/frame
+MRCS_GAIN_1609: 2.0 e/A2/frame
+MRCS_GAIN_1611: 2.23 e/A2/frame
+MRCS_GO_161202: 1.8 e/A2/frame
+MRCS_Diamond: 2.24 e/A2/frame</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

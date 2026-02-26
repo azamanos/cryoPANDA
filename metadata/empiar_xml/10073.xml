@@ -1,0 +1,105 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10073" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2016-08-24</depositionDate>
+            <releaseDate>2016-09-22</releaseDate>
+            <updateDate>2018-07-06</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of the yeast U4/U6.U5 tri-snRNP at 3.7 Angstrom (particle images)</title>
+        <correspondingAuthor private="true">
+            <firstName>Thi Hoang Duong</firstName>
+            <lastName>Nguyen</lastName>
+            <organization type="academic">Molecular and Cell Biology, University of California, Berkeley</organization>
+            <street>742 Stanley Hall</street>
+            <townOrCity>Berkeley</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94720</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Kiyoshi</firstName>
+            <lastName>Nagai</lastName>
+            <organization type="academic">MRC-Laboratory of Molecular Biology</organization>
+            <street>Francis Crick Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Cambridgeshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CB2 0QH</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Nguyen TH</author>
+            <author>Galej WP</author>
+            <author>Bai XC</author>
+            <author>Oubridge C</author>
+            <author>Newman AJ</author>
+            <author authorORCID="0000-0002-0462-6540">Scheres SH</author>
+            <author>Nagai K</author>
+        </authorsList>
+        <versionHistory>
+            <version>
+                <versionNumber>1</versionNumber>
+                <date>2018-06-18</date>
+                <statusCode>REL</statusCode>
+                <details>Added star file</details>
+            </version>
+            <version>
+                <versionNumber>2</versionNumber>
+                <date>2018-07-06</date>
+                <statusCode>REL</statusCode>
+                <details>Cleaned up corrupted mrc files, updated the star file.</details>
+            </version>
+        </versionHistory>
+        <datasetSize units="GB">75.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10073</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-8012</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Nguyen THD</author>
+                    <author order="2">Galej WP</author>
+                    <author order="3">Bai XC</author>
+                    <author authorORCID="0000-0001-8492-8305" order="4">Oubridge C</author>
+                    <author order="5">Newman AJ</author>
+                    <author authorORCID="0000-0002-0462-6540" order="6">Scheres SHW</author>
+                    <author order="7">Nagai K</author>
+                    <title>Cryo-EM structure of the yeast U4/U6.U5 tri-snRNP at 3.7 Å resolution</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country></country>
+                    <issue>7590</issue>
+                    <volume>530</volume>
+                    <firstPage>298</firstPage>
+                    <lastPage>302</lastPage>
+                    <year>2016</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/nature16940</externalReferences>
+                    <externalReferences type="pubmed">26829225</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned particle images of the yeast U4/U6.U5 tri-snRNP</name>
+        <directory>/data</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>473827</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>380</imageWidth>
+            <pixelWidth>1.43</pixelWidth>
+            <imageHeight>380</imageHeight>
+            <pixelHeight>1.43</pixelHeight>
+        </dimensions>
+        <details>These particle images have been "polished" by RELION as described in the paper. The deposited dataset is nearly complete (from 2366 of 2477 collected micrographs).</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

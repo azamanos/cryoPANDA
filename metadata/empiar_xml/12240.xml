@@ -1,0 +1,131 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12240" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-07-23</depositionDate>
+            <releaseDate>2024-09-03</releaseDate>
+            <updateDate>2024-09-03</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of 1.51 Angstroms mouse heavy-chain apoferritin in 290 nm gold foil holes (HexAuFoil)</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-0289-3768</authorORCID>
+            <firstName>Yuan-Chih</firstName>
+            <lastName>Chang</lastName>
+            <organization type="academic">Institute of Biological Chemistry, Academia Sinica</organization>
+            <street>No. 128, Sect. 2, Academia Rd., Nankang</street>
+            <townOrCity>Taipei</townOrCity>
+            <country>Taiwan</country>
+            <postOrZipCode>115</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-0289-3768</authorORCID>
+            <firstName>Yuan-Chih</firstName>
+            <lastName>Chang</lastName>
+            <organization type="academic">Institute of Biological Chemistry, Academia Sinica</organization>
+            <street>No. 128, Sect. 2, Academia Rd., Nankang</street>
+            <townOrCity>Taipei</townOrCity>
+            <country>Taiwan</country>
+            <postOrZipCode>115</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-1525-6004</authorORCID>
+            <firstName>Kuen-Phon</firstName>
+            <lastName>Wu</lastName>
+            <organization type="academic">Institute of Biological Chemistry, Academia Sinica</organization>
+            <street>No. 128, Sect. 2, Academia Rd., Nankang</street>
+            <townOrCity>Taipei</townOrCity>
+            <country>Taiwan</country>
+            <postOrZipCode>115</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-2242-7200">Wang CH</author>
+            <author authorORCID="0000-0002-1525-6004">Wu KP</author>
+            <author authorORCID="0000-0002-0289-3768">Chang YC</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Academia Sinica (Taiwan)</fundingBody>
+                <code>AS-CFII-111-210</code>
+                <country>Taiwan</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Academia Sinica (Taiwan)</fundingBody>
+                <code>AS-KPQ-109-TPP2</code>
+                <country>Taiwan</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">3.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12240</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-60915</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <nonJournalCitation published="false">
+                    <author authorORCID="0000-0003-2242-7200" order="1">Wang CH</author>
+                    <author authorORCID="0000-0002-1525-6004" order="2">Wu KP</author>
+                    <author authorORCID="0000-0002-0289-3768" order="3">Chang YC</author>
+                    <editor authorORCID="0000-0002-0289-3768" order="1">Chang YC</editor>
+                    <editor authorORCID="0000-0002-1525-6004" order="2">Wu KP</editor>
+                    <bookTitle>Cryo-EM structure of mouse heavy-chain apoferritin resolved at 1.51 Å resolution in 290 nm gold foil holes (HexAuFoil)</bookTitle>
+                    <publisher></publisher>
+                    <publicationLocation></publicationLocation>
+                    <country>Taiwan</country>
+                    <year>2024</year>
+                    <details>The aligned and dose-weighted micrographs are from the first 36 motion-corrected images derived from 60 raw movie frames (accumulating 52 electrons per square angstrom in a 1.6-second exposure)</details>
+                </nonJournalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame movies of mouse heavy-chain apoferritin in 290 nm gold foil holes (HexAuFoil)</name>
+        <directory>/data/APO_HexaAuFoil_For_EMPIRE/01_Raw_Movies_60_Frames</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>9017</numImagesOrTiltSeries>
+        <framesPerImage>60</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>60</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.324</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.324</pixelHeight>
+        </dimensions>
+        <details>Unaligned multi-frame movies of mouse heavy-chain apoferritin in 290 nm gold foil holes (HexAuFoil). The movies (60 frames) were collected using Titan Krios (Magnification 130,000x) and K3 Bio-Quantum in super-resolution model with energy filter set to 15 eV energy slit width. Pixel size is 0.324 Å/pixel in super-resolution model, accumulating around 52 electron per squared Angstrom in a 1.6 second exposure. The beam shifts (X and Y), as reported by EPU, for each micrograph are listed in the attached .xml file.
+Gain reference is 240508_Gain_Ref.mrc.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned and dose-weighted micrographs of mouse heavy-chain apoferritin in 290 nm gold foil holes (HexAuFoil) from the first 36 raw movie frames</name>
+        <directory>/data/APO_HexaAuFoil_For_EMPIRE/02_Motioncorrected_First_36_Frames_merged</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>9017</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.648</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.648</pixelHeight>
+        </dimensions>
+        <details>The aligned and dose-weighted micrographs of mouse heavy-chain apoferritin in 290 nm gold foil holes (HexAuFoil) are from the first 36 motion-corrected images derived from 60 raw movie frames (accumulating 52 electrons per square angstrom in a 1.6-second exposure). Pixel size is 0.648 Å/pixel, accumulating around 31 electron per squared Angstrom in 36 frames. The beam shifts (X and Y), as reported by EPU, for each micrograph are listed in the attached .xml file.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

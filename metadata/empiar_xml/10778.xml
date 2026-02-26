@@ -1,0 +1,86 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10778" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2021-07-20</depositionDate>
+            <releaseDate>2021-09-28</releaseDate>
+            <updateDate>2021-09-28</updateDate>
+        </keyDates>
+        <title>A. baumannii MsbA in complex with TBT1</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-3481-450X</authorORCID>
+            <firstName>Maofu</firstName>
+            <lastName>Liao</lastName>
+            <organization type="academic">Department of Cell Biology, Harvard Medical School</organization>
+            <street>250 Longwood Avenue</street>
+            <townOrCity>Boston</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02115</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-3481-450X</authorORCID>
+            <firstName>Maofu</firstName>
+            <lastName>Liao</lastName>
+            <organization type="academic">Department of Cell Biology, Harvard Medical School</organization>
+            <street>250 Longwood Avenue</street>
+            <townOrCity>Boston</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02115</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-7439-2137">Thélot FA</author>
+            <author authorORCID="0000-0002-3481-450X">Liao M</author>
+        </authorsList>
+        <datasetSize>267.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10778</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-23803</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="true">
+                    <author authorORCID="0000-0002-7439-2137" order="1">Thélot FA</author>
+                    <author order="2">Zhang W</author>
+                    <author order="3">Song K</author>
+                    <author order="4">Xu C</author>
+                    <author order="5">Huang J</author>
+                    <author authorORCID="0000-0002-3481-450X" order="6">Liao M</author>
+                    <title>Distinct allosteric mechanisms of first-generation MsbA inhibitors</title>
+                    <journal>bioRxiv</journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <year>2021</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1101/2021.05.25.445681</externalReferences>
+                    <details>motion-corrected micrographs for A. baumannii MsbA in complex with TBT1 stimulator</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>motion-corrected micrographs of A. baumannii MsbA in complex with TBT1 stimulator</name>
+        <directory>/data/TBT1-MsbA_EMPIAR</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6083</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.06</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.06</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/TBT1-MsbA_EMPIAR/XMS3_0****_ali.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

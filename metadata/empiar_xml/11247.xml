@@ -1,0 +1,143 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11247" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-08-03</depositionDate>
+            <releaseDate>2023-01-19</releaseDate>
+            <updateDate>2023-05-12</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of the RhlR-PqsE complex from Pseudomonas aeruginosa</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0002-4402-4659</authorORCID>
+            <firstName>J</firstName>
+            <middleName>Ryan</middleName>
+            <lastName>Feathers</lastName>
+            <organization type="academic">Department of Molecular Biology and Genetics, Weill Institute for Cell and Molecular Biology, Cornell University</organization>
+            <townOrCity>Ithaca</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>14850</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <firstName>J</firstName>
+            <middleName>Christopher</middleName>
+            <lastName>Fromme</lastName>
+            <organization type="academic">Department of Molecular Biology and Genetics, Weill Institute for Cell and Molecular Biology, Cornell University</organization>
+            <townOrCity>Ithaca</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>14850</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator>
+            <firstName>Jon</firstName>
+            <middleName>E</middleName>
+            <lastName>Paczkowski</lastName>
+            <organization type="academic">Department of Biomedical Sciences, University at Albany, School of Public Health</organization>
+            <townOrCity>Albany</townOrCity>
+            <stateOrProvince>New York</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>12201</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-4402-4659">Feathers JR</author>
+            <author>Fromme JC</author>
+            <author>Paczkowski JE</author>
+        </authorsList>
+        <datasetSize units="TB">2.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11247</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-27645</emdbEntry>
+            <emdbEntry>EMD-27646</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-4402-4659" order="1">Feathers JR</author>
+                    <author order="2">Richael EK</author>
+                    <author order="3">Simanek KA</author>
+                    <author order="4">Fromme JC</author>
+                    <author order="5">Paczkowski JE</author>
+                    <title>Structure of the RhlR-PqsE complex from Pseudomonas aeruginosa reveals mechanistic insights into quorum-sensing gene regulation</title>
+                    <journal>Structure (London, England : 1993)</journal>
+                    <journalAbbreviation>Structure</journalAbbreviation>
+                    <country></country>
+                    <issue>12</issue>
+                    <volume>30</volume>
+                    <firstPage>1626</firstPage>
+                    <lastPage>1636.e4</lastPage>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.str.2022.10.008</externalReferences>
+                    <externalReferences type="pubmed">36379213</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of RhlR-PqsE complex from Pseudomonas aeruginosa</name>
+        <directory>/data/micrographs</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>2357</numImagesOrTiltSeries>
+        <framesPerImage>60</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>11520</imageWidth>
+            <pixelWidth>0.645</pixelWidth>
+            <imageHeight>8184</imageHeight>
+            <pixelHeight>0.645</pixelHeight>
+        </dimensions>
+        <details>Raw super-resolution movies of 60 frames saved in tif format.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Polished particles of RhlR-PqsE complex from Pseudomonas aeruginosa</name>
+        <directory>/data/particles/EMD27645</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>2229</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>168</imageWidth>
+            <pixelWidth>1.29</pixelWidth>
+            <imageHeight>168</imageHeight>
+            <pixelHeight>1.29</pixelHeight>
+        </dimensions>
+        <details>Polished particle image stacks used to generate EMD27645 maps</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/particles/EMD27645/961g1_*_shiny.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/particles/EMD27645/run_data.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles/EMD27645/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Polished particles of RhlR-PqsE complex from Pseudomonas aeruginosa bound to DNA</name>
+        <directory>/data/empiar_particles/EMD27646</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>1909</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>168</imageWidth>
+            <pixelWidth>1.29</pixelWidth>
+            <imageHeight>168</imageHeight>
+            <pixelHeight>1.29</pixelHeight>
+        </dimensions>
+        <details>Polished particle image stacks used to generate EMD27646 maps</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/particles/EMD27646/961g1_*_shiny.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/particles/EMD27646/run_data.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/particles/EMD27646</pickedParticlesDirectory>
+    </imageSet>
+</entry>

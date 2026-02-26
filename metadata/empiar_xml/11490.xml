@@ -1,0 +1,105 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11490" schemaVersion="0.64" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-03-30</depositionDate>
+            <releaseDate>2024-02-01</releaseDate>
+            <updateDate>2024-02-01</updateDate>
+        </keyDates>
+        <title>Cryo-EM micrographs of Sweet Potato Mild Mottle Virus</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-5829-6057</authorORCID>
+            <firstName>Abid</firstName>
+            <lastName>Javed</lastName>
+            <organization type="academic">Leeds University</organization>
+            <street>Astbury Centre, University of leeds, School of Chemistry, Woodhouse</street>
+            <townOrCity>Leeds</townOrCity>
+            <stateOrProvince>West Yorkshire</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>LS2 9JT</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-3640-5275</authorORCID>
+            <firstName>Neil</firstName>
+            <middleName>A</middleName>
+            <lastName>Ranson</lastName>
+            <organization type="academic">Department of Structural and Molecular Biology</organization>
+            <street>Astbury Centre for Structural Molecular Biology</street>
+            <townOrCity>University of Leeds</townOrCity>
+            <stateOrProvince>Leeds</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>LS2 9JT</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-5829-6057">Javed A</author>
+            <author authorORCID="0000-0001-8111-4605">Byrne MJ</author>
+            <author authorORCID="0000-0002-3640-5275">Ranson NA</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Biotechnology and Biological Sciences Research Council (BBSRC)</fundingBody>
+                <code>BB/T004703/1</code>
+                <country>United Kingdom</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>Agencia Estatal de Investigacion (AEI)</fundingBody>
+                <code>PID2019-105692RB-100</code>
+                <country>Spain</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">141.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11490</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>virus</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-15346</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="false">
+                    <author authorORCID="0000-0003-0834-3457" order="1">Chase O</author>
+                    <author authorORCID="0000-0002-5829-6057" order="2">Javed A</author>
+                    <author authorORCID="0000-0001-8111-4605" order="3">Byrne MJ</author>
+                    <author authorORCID="0000-0002-9083-2593" order="4">Thuenemann EC</author>
+                    <author authorORCID="0000-0003-0700-906X" order="5">Lomonosoff GP</author>
+                    <author authorORCID="0000-0002-3640-5275" order="6">Ranson NA</author>
+                    <author authorORCID="0000-0002-3176-9651" order="7">Lopez-Moya JJ</author>
+                    <title>CryoEM structures of a potyvirus and an ipomovirus that infect sweet potato as common natural host</title>
+                    <journal>Communications Biology</journal>
+                    <journalAbbreviation>Comms.Biol.</journalAbbreviation>
+                    <country>United Kingdom</country>
+                    <year>2023</year>
+                    <language>English</language>
+                    <details>The micrographs are motion-corrected; an average of 32 individual frames.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion-corrected micrographs of SPMMV filaments</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2260</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>32</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.065</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.065</pixelHeight>
+        </dimensions>
+        <details>The micrographs are motion-corrected; an average of 32 individual frames.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

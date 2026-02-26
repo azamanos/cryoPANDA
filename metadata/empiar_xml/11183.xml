@@ -1,0 +1,104 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11183" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-08-29</depositionDate>
+            <releaseDate>2022-10-31</releaseDate>
+            <updateDate>2022-10-31</updateDate>
+        </keyDates>
+        <title>cryoEM structure of Gq-coupled MRGPRX1 with peptide agonist BAM8-22</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0003-1822-2384</authorORCID>
+            <firstName>Jonathan</firstName>
+            <middleName>Firoze</middleName>
+            <lastName>Fay</lastName>
+            <organization type="academic">UNC at Chapel Hill</organization>
+            <street>Thurston-Bowles Building Room 6107</street>
+            <townOrCity>Chapel Hill</townOrCity>
+            <stateOrProvince>NC</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>27599</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-0561-6520</authorORCID>
+            <firstName>Bryan</firstName>
+            <middleName>L</middleName>
+            <lastName>Roth</lastName>
+            <organization type="academic">UNC Department of Pharmacology</organization>
+            <street>4072 Genetic Medicine Building</street>
+            <townOrCity>Chapel Hill</townOrCity>
+            <stateOrProvince>NC</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>27514</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-8649-7892">Liu Y</author>
+            <author authorORCID="0000-0003-4017-741X">Cao C</author>
+            <author>Huang XP</author>
+            <author>Gumpper RH</author>
+            <author>Rachman MM</author>
+            <author authorORCID="0000-0002-6874-0529">Shih SL</author>
+            <author authorORCID="0000-0001-6039-4767">Krumm BE</author>
+            <author authorORCID="0000-0002-5245-443X">Zhang S</author>
+            <author authorORCID="0000-0002-6098-7367">Shoichet BK</author>
+            <author authorORCID="0000-0003-1822-2384">Fay JF</author>
+            <author authorORCID="0000-0002-0561-6520">Roth BL</author>
+        </authorsList>
+        <datasetSize>333.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11183</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-27752</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-8649-7892" order="1">Liu Y</author>
+                    <author authorORCID="0000-0003-4017-741X" order="2">Cao C</author>
+                    <author order="3">Huang XP</author>
+                    <author order="4">Gumpper RH</author>
+                    <author order="5">Rachman MM</author>
+                    <author authorORCID="0000-0002-6874-0529" order="6">Shih SL</author>
+                    <author authorORCID="0000-0001-6039-4767" order="7">Krumm BE</author>
+                    <author authorORCID="0000-0002-5245-443X" order="8">Zhang S</author>
+                    <author authorORCID="0000-0002-6098-7367" order="9">Shoichet BK</author>
+                    <author authorORCID="0000-0003-1822-2384" order="10">Fay JF</author>
+                    <author authorORCID="0000-0002-0561-6520" order="11">Roth BL</author>
+                    <title>Ligand recognition and allosteric modulation of the human MRGPRX1 receptor</title>
+                    <journal>Nature chemical biology</journal>
+                    <journalAbbreviation>Nat Chem Biol</journalAbbreviation>
+                    <country></country>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41589-022-01173-6</externalReferences>
+                    <externalReferences type="pubmed">36302898</externalReferences>
+                    <details>The micrographs are motion corrected 60 frame movies collected on a 200 kV ThermoFisher Scientific G3 Talos Arctica equipped with a Gatan K3 direct-electron detector (total exposure dose 44.5 e/A^2, 0.88 raw pixel size)</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned multi-frame micrographs</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3801</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.88</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.88</pixelHeight>
+        </dimensions>
+        <details>The micrographs are dose weighted motion corrected with a total electron exposure of 44.5e/A2</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

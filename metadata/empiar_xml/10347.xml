@@ -1,0 +1,250 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10347" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-01-16</depositionDate>
+            <releaseDate>2020-08-25</releaseDate>
+            <updateDate>2020-08-25</updateDate>
+        </keyDates>
+        <title>FAK structure from single particle analysis of 2D crystals</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-4247-4303</authorORCID>
+            <firstName>Ricardo</firstName>
+            <lastName>Righetto</lastName>
+            <organization type="academic">Center for Cellular Imaging and NanoAnalytics, Biozentrum, University of Basel</organization>
+            <street>Mattenstrasse 26</street>
+            <townOrCity>Basel</townOrCity>
+            <country>Switzerland</country>
+            <postOrZipCode>4058</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-6133-6486</authorORCID>
+            <firstName>Daniel</firstName>
+            <lastName>Lietha</lastName>
+            <organization type="academic">Structural and Chemical Biology, Biological Research Center (CIB-CSIC)</organization>
+            <townOrCity>Madrid</townOrCity>
+            <country>Spain</country>
+            <postOrZipCode>28040</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-1185-4592</authorORCID>
+            <firstName>Henning</firstName>
+            <lastName>Stahlberg</lastName>
+            <organization type="academic">Center for Cellular Imaging and NanoAnalytics, Biozentrum, University of Basel</organization>
+            <street>Mattenstrasse 26</street>
+            <townOrCity>Basel</townOrCity>
+            <country>Switzerland</country>
+            <postOrZipCode>4058</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-0397-1550">Acebron I</author>
+            <author authorORCID="0000-0003-4247-4303">Righetto RD</author>
+            <author authorORCID="0000-0002-5405-7112">Biyani N</author>
+            <author authorORCID="0000-0002-8733-055X">Chami M</author>
+            <author authorORCID="0000-0001-6135-0686">Boskovic J</author>
+            <author authorORCID="0000-0002-1185-4592">Stahlberg H</author>
+            <author authorORCID="0000-0002-6133-6486">Lietha D</author>
+        </authorsList>
+        <datasetSize units="TB">1.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10347</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-10615</emdbEntry>
+            <emdbEntry>EMD-10616</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-0397-1550" order="1">Acebrón I</author>
+                    <author authorORCID="0000-0003-4247-4303" order="2">Righetto RD</author>
+                    <author order="3">Schoenherr C</author>
+                    <author order="4">de Buhr S</author>
+                    <author order="5">Redondo P</author>
+                    <author order="6">Culley J</author>
+                    <author authorORCID="0000-0001-9166-0132" order="7">Rodríguez CF</author>
+                    <author order="8">Daday C</author>
+                    <author authorORCID="0000-0002-5405-7112" order="9">Biyani N</author>
+                    <author authorORCID="0000-0001-5705-0699" order="10">Llorca O</author>
+                    <author authorORCID="0000-0002-5939-9883" order="11">Byron A</author>
+                    <author authorORCID="0000-0002-8733-055X" order="12">Chami M</author>
+                    <author order="13">Gräter F</author>
+                    <author authorORCID="0000-0001-6135-0686" order="14">Boskovic J</author>
+                    <author authorORCID="0000-0001-5882-1942" order="15">Frame MC</author>
+                    <author authorORCID="0000-0002-1185-4592" order="16">Stahlberg H</author>
+                    <author authorORCID="0000-0002-6133-6486" order="17">Lietha D</author>
+                    <title>Structural basis of Focal Adhesion Kinase activation on lipid membranes</title>
+                    <journal>The EMBO journal</journal>
+                    <journalAbbreviation>EMBO J.</journalAbbreviation>
+                    <country></country>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.15252/embj.2020104743</externalReferences>
+                    <externalReferences type="pubmed">32779739</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Dose-weighted aligned movie averages of the FAK AMP-PNP dataset</name>
+        <directory>/data/amp-pnp/micrographs/alignaver</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>2513</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.058</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.058</pixelHeight>
+        </dimensions>
+        <details>The filenames contain the tilt angle estimated by FOCUS as well as their unique ID within the FOCUS project.
+Micrographs have been downsampled by a factor of two in relation to the super-resolution movies, i.e. they are at the physical pixel size.
+More details in the data/README file.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/amp-pnp/micrographs/alignaver/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/amp-pnp/micrographs/coordinates/*.box</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/amp-pnp/particles/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of the FAK AMP-PNP dataset</name>
+        <directory>/data/amp-pnp/micrographs/raw</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>2513</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>7676</imageWidth>
+            <pixelWidth>0.529</pixelWidth>
+            <imageHeight>7420</imageHeight>
+            <pixelHeight>0.529</pixelHeight>
+        </dimensions>
+        <details>Movies have been acquired in super-resolution mode of the K2 detector.
+The gain reference and defects list file are stored under data/amp-pnp/micrographs/gainref/.
+The filenames contain the tilt angle estimated by FOCUS as well as their unique ID within the FOCUS project.
+More details in the data/README file.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/amp-pnp/micrographs/alignaver/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/amp-pnp/micrographs/coordinates/*.box</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/amp-pnp/particles/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Stack of particles extracted from the FAK AMP-PNP dataset</name>
+        <directory>/data/amp-pnp/particles</directory>
+        <category>picked particles - single frame - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>2666154</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>200</imageWidth>
+            <pixelWidth>2.116</pixelWidth>
+            <imageHeight>200</imageHeight>
+            <pixelHeight>2.116</pixelHeight>
+        </dimensions>
+        <details>Particle boxes have been downsampled by a factor of two in relation to the aligned micrographs.
+The initial orientations and defocii values are determined from the 2D crystal processing are available in the particles.star file.
+More details in the data/README file.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/amp-pnp/micrographs/alignaver/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/amp-pnp/micrographs/coordinates/*.box</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/amp-pnp/particles</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dose-weighted aligned movie averages of the FAK APO Polara dataset</name>
+        <directory>/data/apo/micrographs/polara/alignaver</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>88</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3808</imageWidth>
+            <pixelWidth>1.7</pixelWidth>
+            <imageHeight>3808</imageHeight>
+            <pixelHeight>1.7</pixelHeight>
+        </dimensions>
+        <details>The filenames contain the tilt angle estimated by FOCUS as well as their unique ID within the FOCUS project.
+More details in the data/README file.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/apo/micrographs/polara/alignaver/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/apo/micrographs/polara/coordinates/*.box</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/apo/particles/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Dose-weighted aligned movie averages of the FAK APO Titan dataset</name>
+        <directory>/data/apo/micrographs/titan/alignaver</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>509</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3808</imageWidth>
+            <pixelWidth>1.058</pixelWidth>
+            <imageHeight>3808</imageHeight>
+            <pixelHeight>1.058</pixelHeight>
+        </dimensions>
+        <details>The filenames contain the tilt angle estimated by FOCUS as well as their unique ID within the FOCUS project.
+More details in the data/README file.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/apo/micrographs/titan/alignaver/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/apo/micrographs/titan/coordinates/*.box</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/apo/particles/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Unaligned movies of the FAK APO Titan dataset</name>
+        <directory>/data/apo/micrographs/titan/raw</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>509</numImagesOrTiltSeries>
+        <framesPerImage>80</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>7676</imageWidth>
+            <pixelWidth>0.529</pixelWidth>
+            <imageHeight>7420</imageHeight>
+            <pixelHeight>0.529</pixelHeight>
+        </dimensions>
+        <details>Movies have been acquired in super-resolution mode of the K2 detector.
+The gain reference and defects list file are stored under data/apo/micrographs/titan/gainref/.
+The filenames contain the tilt angle estimated by FOCUS as well as their unique ID within the FOCUS project.
+More details in the data/README file.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/apo/micrographs/titan/alignaver/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/apo/micrographs/titan/coordinates/*.box</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/apo/particles/</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Stack of particles extracted from the FAK APO Titan and Polara datasets</name>
+        <directory>/data/apo/particles</directory>
+        <category>picked particles - single frame - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>361796</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>238</imageWidth>
+            <pixelWidth>1.7</pixelWidth>
+            <imageHeight>238</imageHeight>
+            <pixelHeight>1.7</pixelHeight>
+        </dimensions>
+        <details>Particle boxes extracted from the Titan dataset have been downsampled to approximately match the pixel size of the Polara dataset. The stack contains all particles extracted from the FAK APO Titan and Polara datasets merged.
+The initial orientations and defocii values are determined from the 2D crystal processing are available in the particles_preprocessed.star file.
+More details in the data/README file.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/apo/micrographs/titan/alignaver/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/apo/micrographs/titan/coordinates/*.box</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/apo/particles/</pickedParticlesDirectory>
+    </imageSet>
+</entry>

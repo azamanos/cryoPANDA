@@ -1,0 +1,195 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10296" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-07-12</depositionDate>
+            <releaseDate>2019-10-09</releaseDate>
+            <updateDate>2020-02-06</updateDate>
+        </keyDates>
+        <title>Single particle cryo-EM dataset of the triskelion hub subparticle extraction from clathrin cages</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-3364-7946</authorORCID>
+            <firstName>Corinne</firstName>
+            <middleName>J</middleName>
+            <lastName>Smith</lastName>
+            <organization type="academic">University of Warwick</organization>
+            <street>Gibbet Hill Road</street>
+            <townOrCity>Coventry</townOrCity>
+            <stateOrProvince>West Midlands</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CV47AL</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-3364-7946</authorORCID>
+            <firstName>Corinne</firstName>
+            <middleName>J</middleName>
+            <lastName>Smith</lastName>
+            <organization type="academic">University of Warwick</organization>
+            <street>Gibbet Hill Road</street>
+            <townOrCity>Coventry</townOrCity>
+            <stateOrProvince>West Midlands</stateOrProvince>
+            <country>United Kingdom</country>
+            <postOrZipCode>CV47AL</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-1717-8134">Morris KL</author>
+            <author authorORCID="0000-0002-6924-9985">Jones JR</author>
+            <author authorORCID="0000-0001-9712-1519">Halebian M</author>
+            <author>Wu S</author>
+            <author>Baker M</author>
+            <author authorORCID="0000-0001-9195-2282">Armache JP</author>
+            <author>Avila Ibarra A</author>
+            <author authorORCID="0000-0003-0320-0895">Sessions RB</author>
+            <author authorORCID="0000-0001-8776-3518">Cameron AD</author>
+            <author>Cheng Y</author>
+            <author authorORCID="0000-0003-3364-7946">Smith CJ</author>
+        </authorsList>
+        <datasetSize units="GB">88.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10296</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-0126</emdbEntry>
+            <emdbEntry>EMD-0125</emdbEntry>
+            <emdbEntry>EMD-0124</emdbEntry>
+            <emdbEntry>EMD-0123</emdbEntry>
+            <emdbEntry>EMD-0122</emdbEntry>
+            <emdbEntry>EMD-0121</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0002-1717-8134" order="1">Morris KL</author>
+                    <author authorORCID="0000-0002-6924-9985" order="2">Jones JR</author>
+                    <author authorORCID="0000-0001-9712-1519" order="3">Halebian M</author>
+                    <author order="4">Wu S</author>
+                    <author order="5">Baker M</author>
+                    <author authorORCID="0000-0001-9195-2282" order="6">Armache JP</author>
+                    <author order="7">Avila Ibarra A</author>
+                    <author authorORCID="0000-0003-0320-0895" order="8">Sessions RB</author>
+                    <author authorORCID="0000-0001-8776-3518" order="9">Cameron AD</author>
+                    <author order="10">Cheng Y</author>
+                    <author authorORCID="0000-0003-3364-7946" order="11">Smith CJ</author>
+                    <title>Cryo-EM of multiple cage architectures reveals a universal mode of clathrin self-assembly</title>
+                    <journal>Nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>Nat. Struct. Mol. Biol.</journalAbbreviation>
+                    <country></country>
+                    <issue>10</issue>
+                    <volume>26</volume>
+                    <firstPage>890</firstPage>
+                    <lastPage>898</lastPage>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41594-019-0292-0</externalReferences>
+                    <externalReferences type="pubmed">31582853</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Hub subparticles of the 28 mini coat</name>
+        <directory>/data/LocalRec/Particles_localrec_cor2_256px_2945ptcl_750px_normal</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>82460</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.705</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.705</pixelHeight>
+        </dimensions>
+        <details>Hub subparticles extracted from whole cages using Relion Localised Reconstruction for the 28 mini coat</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/LocalRec/Particles_localrec_cor2_256px_2945ptcl_750px_normal/localrec_CHC_LMB_all_localrec_2945ptcl_1/particles_*_subparticles.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/LocalRec/Particles_localrec_cor2_256px_2945ptcl_750px_normal/localrec_CHC_LMB_all_localrec_2945ptcl_1/particles_*_subparticles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/LocalRec/Particles_localrec_cor2_256px_2945ptcl_750px_normal/localrec_CHC_LMB_all_localrec_2945ptcl_*</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Hub subparticles of the 32 sweet potato</name>
+        <directory>/data/LocalRec/Particles_localrec_cor2_256px_1761ptcl_nopflip</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>56352</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.705</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.705</pixelHeight>
+        </dimensions>
+        <details>Hub subparticles extracted from whole cages using Relion Localised Reconstruction for the 32 sweet potato</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/LocalRec/Particles_localrec_cor2_256px_1761ptcl_nopflip/localrec_CHC_LMB_all_localrec_1761ptcl_1/particles_*_subparticles.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/LocalRec/Particles_localrec_cor2_256px_1761ptcl_nopflip/localrec_CHC_LMB_all_localrec_1761ptcl_1/particles_*_subparticles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/LocalRec/Particles_localrec_cor2_256px_1761ptcl_nopflip/localrec_CHC_LMB_all_localrec_1761ptcl_*</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Hub subparticles of the 36 D6 barrel</name>
+        <directory>/data/LocalRec/Particles_localrec_cor2_256px_1160ptcl_nopflip</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>41760</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.705</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.705</pixelHeight>
+        </dimensions>
+        <details>Hub subparticles extracted from whole cages using Relion Localised Reconstruction for the 36 D6 barrel</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/LocalRec/Particles_localrec_cor2_256px_1160ptcl_nopflip/localrec_CHC_LMB_all_localrec_1160ptcl_1/particles_*_subparticles.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/LocalRec/Particles_localrec_cor2_256px_1160ptcl_nopflip/localrec_CHC_LMB_all_localrec_1160ptcl_1/particles_*_subparticles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/LocalRec/Particles_localrec_cor2_256px_1160ptcl_nopflip/localrec_CHC_LMB_all_localrec_1160ptcl_*</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Hub subparticles of the 36 tennis ball</name>
+        <directory>/data/LocalRec/Particles_localrec_cor2_256px_1624ptcl_nopflip</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>58500</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.705</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.705</pixelHeight>
+        </dimensions>
+        <details>Hub subparticles extracted from whole cages using Relion Localised Reconstruction for the 36 tennis ball.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/LocalRec/Particles_localrec_cor2_256px_1624ptcl_nopflip/localrec_CHC_LMB_all_localrec_1624ptcl_1/particles_*_subparticles.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/LocalRec/Particles_localrec_cor2_256px_1624ptcl_nopflip/localrec_CHC_LMB_all_localrec_1624ptcl_1/particles_*_subparticles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/LocalRec/Particles_localrec_cor2_256px_1624ptcl_nopflip/localrec_CHC_LMB_all_localrec_1624ptcl_*</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Hub subparticles of the 37 big apple</name>
+        <directory>/data/LocalRec/Particles_localrec_cor2_256px_2010ptcl_nopflip</directory>
+        <category>picked particles - multiframe - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>74370</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.705</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.705</pixelHeight>
+        </dimensions>
+        <details>Hub subparticles extracted from whole cages using Relion Localised Reconstruction for the 37 big apple.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/LocalRec/Particles_localrec_cor2_256px_2010ptcl_nopflip/localrec_CHC_LMB_all_localrec_2010ptcl_1/particles_*_subparticles.mrcs</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/LocalRec/Particles_localrec_cor2_256px_2010ptcl_nopflip/localrec_CHC_LMB_all_localrec_2010ptcl_1/particles_*_subparticles.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/LocalRec/Particles_localrec_cor2_256px_2010ptcl_nopflip/localrec_CHC_LMB_all_localrec_2010ptcl_*</pickedParticlesDirectory>
+    </imageSet>
+</entry>

@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-24188">
+    <admin>
+        <current_status>
+            <date>2024-05-29</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2021-06-05</deposition>
+            <header_release>2022-02-16</header_release>
+            <map_release>2022-02-16</map_release>
+            <update>2024-05-29</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Heart, Lung, and Blood Institute (NIH/NHLBI)</funding_body>
+                <code>HL143297</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Wellcome Trust</funding_body>
+                <code>208361/Z/17/Z</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council (BBSRC)</funding_body>
+                <code>BB/N000145/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Engineering and Physical Sciences Research Council</funding_body>
+                <code>EP/R004722/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>Structure of Mechanosensitive Ion Channel Flycatcher1 Protomer in 'Down' conformation in GDN</title>
+        <authors_list>
+            <author>Jojoa-Cruz S</author>
+            <author>Saotome K</author>
+            <author>Lee WH</author>
+            <author>Patapoutian A</author>
+            <author>Ward AB</author>
+        </authors_list>
+        <keywords>mechanically activated ion channel, MEMBRANE PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Jojoa-Cruz S</author>
+                    <author order="2">Saotome K</author>
+                    <author order="3">Tsui CCA</author>
+                    <author order="4">Lee WH</author>
+                    <author order="5">Sansom MSP</author>
+                    <author order="6">Murthy SE</author>
+                    <author order="7">Patapoutian A</author>
+                    <author order="8">Ward AB</author>
+                    <title>Structural insights into the Venus flytrap mechanosensitive ion channel Flycatcher1.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>13</volume>
+                    <first_page>850</first_page>
+                    <last_page>850</last_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">35165281</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-022-28511-5</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-24186</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>Composite map</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-24187</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>C1 map of inner core</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-24189</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>Protomer in down conformation</details>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7n5f</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>FLYC1</name>
+        <supramolecule_list>
+            <organelle_or_cellular_component_supramolecule supramolecule_id="1">
+                <name>FLYC1</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="4362">Dionaea muscipula</organism>
+                    <organ>Trap</organ>
+                    <tissue>Trigger hair</tissue>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.607</theoretical>
+                </molecular_weight>
+            </organelle_or_cellular_component_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Mechanosensitive ion channel Flycatcher1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="4362">Dionaea muscipula</organism>
+                    <organ>Trap</organ>
+                    <tissue>Trigger hair</tissue>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.08681452299999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="9606">Homo sapiens</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MGSYLHEPPGDEPSMRIEQPKTADRAPEQVAIHICEPSKVVTESFPFSETAEPEAKSKNCPCPEIARIGPCPNKPPKIPI
+NRGLSRISTNKSRPKSRFGEPSWPVESSLDLTSQSPVSPYREEAFSVENCGTAGSRRGSFARGTTSRAASSSRKDETKEG
+PDEKEVYQRVTAQLSARNQKRMTVKLMIELSVFLCLLGCLVCSLTVDGFKRYTVIGLDIWKWFLLLLVIFSGMLITHWIV
+HVAVFFVEWKFLMRKNVLYFTHGLKTSVEVFIWITVVLATWVMLIKPDVNQPHQTRKILEFVTWTIVTVLIGAFLWLVKT
+TLLKILASSFHLNRFFDRIQESVFHHSVLQTLAGRPVVELAQGISRTESQDGAGQVSFMEHTKTQNKKVVDVGKLHQMKQ
+EKVPAWTMQLLVDVVSNSGLSTMSGMLDEDMVEGGVELDDDEITNEEQAIATAVRIFDNIVQDKVDQSYIDRVDLHRFLI
+WEEVDHLFPLFEVNEKGQISLKAFAKWVVKVYNDQAALKHALNDNKTAVKQLNKLVTAILIVMMIVIWLIVTGIATTKLI
+VLLSSQLVVAAFIFGNTCKTIFEAIIFVFVMHPFDVGDRCVIDGNKMLVEEMNILTTVFLKWDKEKVYYPNSILCTKAIG
+NFFRSPDQGDVLEFSVDFTTPVLKIGDLKDRIKMYLEQNLNFWHPQHNMVVKEIENVNKIKMALFVNHTINFQDFAEKNR
+RRSELVLELKKIFEELDIKYNLLPQEISIRNMGSGSLEVLFQ</string>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="2">
+                <name>PALMITIC ACID</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00025642399999999994</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>PLM</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">7</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                        <component>
+                            <concentration units="mM">25.0</concentration>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">150.0</concentration>
+                            <name>NaCl</name>
+                        </component>
+                        <component>
+                            <concentration units="mg/mL">0.0004</concentration>
+                            <name>leupeptin</name>
+                        </component>
+                        <component>
+                            <concentration units="mg/mL">0.0004</concentration>
+                            <name>aprotinin</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">0.0004</concentration>
+                            <name>pepstatin</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">0.2</concentration>
+                            <name>phenylmethylsulfonyl fluoride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">0.4</concentration>
+                            <name>diothiothreitol</name>
+                        </component>
+                        <component>
+                            <concentration units="%">0.04</concentration>
+                            <name>GDN</name>
+                        </component>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">283</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">70.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.7000000000000001</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.2</nominal_defocus_max>
+                    <nominal_magnification>29000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">3710</width>
+                                    <height units="pixel">3838</height>
+                                </dimensions>
+                            </digitization_details>
+                            <average_electron_dose_per_image units="e/Å^2">50.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>1100000</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.7</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                    <details>Symmetry expanded particles</details>
+                    <number_images_used>145362</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>6</number_classes>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.1</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="87809">
+        <file>emd_24188.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>280</col>
+            <row>280</row>
+            <sec>280</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>280</x>
+            <y>280</y>
+            <z>280</z>
+        </spacing>
+        <cell>
+            <a units="Å">288.4</a>
+            <b units="Å">288.4</b>
+            <c units="Å">288.4</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.0017395475</minimum>
+            <maximum>1.7858655</maximum>
+            <average>0.0014839643</average>
+            <std>0.027461449</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.03</x>
+            <y units="Å">1.03</y>
+            <z units="Å">1.03</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0882</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-24188::::</label>
+        <annotation_details>Focused map of 'Down' protomer of Mechanosensitive Ion Channel Flycatcher1 in GDN</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <refinement_protocol>AB INITIO MODEL</refinement_protocol>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="87809">
+                <file>emd_24188_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>280</col>
+                    <row>280</row>
+                    <sec>280</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>280</x>
+                    <y>280</y>
+                    <z>280</z>
+                </spacing>
+                <cell>
+                    <a units="Å">288.4</a>
+                    <b units="Å">288.4</b>
+                    <c units="Å">288.4</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.0326493</minimum>
+                    <maximum>0.07828871</maximum>
+                    <average>0.00008085484</average>
+                    <std>0.0033169906</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.03</x>
+                    <y units="Å">1.03</y>
+                    <z units="Å">1.03</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-24188::::</label>
+                <annotation_details>Half-map 2</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="87809">
+                <file>emd_24188_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>280</col>
+                    <row>280</row>
+                    <sec>280</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>280</x>
+                    <y>280</y>
+                    <z>280</z>
+                </spacing>
+                <cell>
+                    <a units="Å">288.4</a>
+                    <b units="Å">288.4</b>
+                    <c units="Å">288.4</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.038069114</minimum>
+                    <maximum>0.07840504</maximum>
+                    <average>0.00009432785</average>
+                    <std>0.0033153463</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.03</x>
+                    <y units="Å">1.03</y>
+                    <z units="Å">1.03</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-24188::::</label>
+                <annotation_details>Half-map 1</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

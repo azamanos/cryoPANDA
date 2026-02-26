@@ -1,0 +1,303 @@
+<emd emdb_id="EMD-5942" version="3.0.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+    <admin>
+        <current_status>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2014-04-09</deposition>
+            <header_release>2014-05-28</header_release>
+            <map_release>2014-06-11</map_release>
+            <update>2015-10-07</update>
+        </key_dates>
+        <title>Cryo-EM Map of a yeast ribosome bound to the TSV IRES (Class II)</title>
+        <authors_list>
+            <author>Koh CS</author>
+            <author>Brilot AF</author>
+            <author>Grigorieff N</author>
+            <author>Korostelev AA</author>
+        </authors_list>
+        <keywords>Translation Initiation, Internal Ribosome Entry Site</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Koh CS</author>
+                    <author order="2">Brilot AF</author>
+                    <author order="3">Grigorieff N</author>
+                    <author order="4">Korostelev AA</author>
+                    <title>Taura syndrome virus IRES initiates translation by binding its tRNA-mRNA-like structural element in the ribosomal decoding center.</title>
+                    <journal>PROC.NAT.ACAD.SCI.USA</journal>
+                    <volume>111</volume>
+                    <first_page>9139</first_page>
+                    <last_page>9144</last_page>
+                    <year>2014</year>
+                    <external_references type="PUBMED">24927574</external_references>
+                    <external_references type="DOI">doi:10.1073/pnas.1406335111</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-5943</emdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>3j6x</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+        <auxiliary_link_list>
+            <auxiliary_link>
+                <link>http://dx.doi.org/10.6019/EMPIAR-10015</link>
+            </auxiliary_link>
+        </auxiliary_link_list>
+    </crossreferences>
+    <sample>
+        <name>Saccharomyces cerevisiae 80S ribosome bound with TSV IRES</name>
+        <supramolecule_list>
+            <sample_supramolecule supramolecule_id="1000">
+                <name>Saccharomyces cerevisiae 80S ribosome bound with TSV IRES</name>
+                <number_unique_components>2</number_unique_components>
+                <molecular_weight>
+                    <experimental units="MDa">3.5</experimental>
+                    <theoretical units="MDa">3.5</theoretical>
+                </molecular_weight>
+            </sample_supramolecule>
+            <complex_supramolecule supramolecule_id="1">
+                <name>80S ribosome</name>
+                <recombinant_exp_flag>false</recombinant_exp_flag>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                    <strain>W303</strain>
+                    <synonym_organism>Yeast</synonym_organism>
+                </natural_source>
+                <recombinant_expression database="NCBI" />
+                <molecular_weight>
+                    <experimental units="MDa">3.4</experimental>
+                    <theoretical units="MDa">3.4</theoretical>
+                </molecular_weight>
+                <ribosome-details>ribosome-eukaryote: ALL</ribosome-details>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <rna macromolecule_id="1">
+                <name synonym="IRES">Internal Ribosome Entry Site</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="142102">Taura syndrome virus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <experimental units="MDa">0.08</experimental>
+                    <theoretical units="MDa">0.08</theoretical>
+                </molecular_weight>
+                <sequence>
+                    <string>UAGCACCACCCGAUCGUAAACUCCAUGUAUUGGUUACCCAUCUGCAUCGAAAACUCUCCGAACACUAGGUGCAGUAAGGCUUUCAUGGAGUGGUUUGCUAUUUAGCGUACGUGUACCAUAGGCAGCCCCAAAAACACGUGUGAGGAGAAAGUCCCAGUCACUUUGGGCAAAGUAGACAGCCGCGCUUGCGUGGUGGGACUUAAUUAAUGCCUGCUAACCCAGUUGAAAUUGAUAAUUUUGAUACAACAAC</string>
+                </sequence>
+                <classification>OTHER</classification>
+                <structure>DOUBLE HELIX</structure>
+                <synthetic_flag>true</synthetic_flag>
+            </rna>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1.044</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <details>45 mM HEPES/KOH, 10 mM MgCl2, 100 mM KCl, 2.5 mM spermine, 2 mM BME, 0.5 U/ul RNasin</details>
+                    </buffer>
+                    <grid>
+                        <details>C-flat 1.2-1.3 400C</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">95</chamber_humidity>
+                        <instrument>FEI VITROBOT MARK II</instrument>
+                        <method>Fresh glow discharge, 7 second blot</method>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">0.01</nominal_cs>
+                    <nominal_defocus_min units="&#181;m">1.15</nominal_defocus_min>
+                    <nominal_defocus_max units="&#181;m">6.53</nominal_defocus_max>
+                    <nominal_magnification>133333.0</nominal_magnification>
+                    <calibrated_magnification>132138.0</calibrated_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <alignment_procedure>
+                        <legacy>
+                            <astigmatism>Corrected using FEI software bundled with Titan Krios/Cs Corrector.</astigmatism>
+                        </legacy>
+                    </alignment_procedure>
+                    <date>2012-12-26</date>
+                    <image_recording_list>
+                        <image_recording>
+                            <film_or_detector_model category="CCD">FEI FALCON I (4k x 4k)</film_or_detector_model>
+                            <digitization_details>
+                                <sampling_interval units="&#181;m">14.0</sampling_interval>
+                            </digitization_details>
+                            <number_real_images>11498</number_real_images>
+                            <average_electron_dose_per_image units="e/&#8491;^2">30</average_electron_dose_per_image>
+                            <bits_per_pixel>32.</bits_per_pixel>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <ctf_correction>
+                    <details>CTFFIND3, FREALIGN per micrograph</details>
+                </ctf_correction>
+                <final_reconstruction>
+                    <algorithm>OTHER</algorithm>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">6.1</resolution>
+                    <resolution_method>OTHER</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>EMAN2, IMAGIC, FREALIGN, RSAMPLE, CTFFIND3</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>52444</number_images_used>
+                </final_reconstruction>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="289408">
+        <file>emd_5942.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>420</col>
+            <row>420</row>
+            <sec>420</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>420</x>
+            <y>420</y>
+            <z>420</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">444.99</a>
+            <b units="&#8491;">444.99</b>
+            <c units="&#8491;">444.99</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-1.57481194</minimum>
+            <maximum>4.02578783</maximum>
+            <average>0.02754904</average>
+            <std>0.28375852</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">1.0595</x>
+            <y units="&#8491;">1.0595</y>
+            <z units="&#8491;">1.0595</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.815</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <annotation_details>Reconstruction of yeast 80S ribosome bound with the Taura Syndrome Virus IRES</annotation_details>
+        <details>::::EMDATABANK.org::::EMD-5942::::</details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>3U5B</access_code>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <software_list>
+                    <software>
+                        <name>Chimera, CNS</name>
+                    </software>
+                </software_list>
+                <details>1. TSV IRES was modeled with iFoldRNA and ModeRNA programs and then fitted into the cryo-EM map in Chimera.
+2. The 80S-IRES complex was refined against the map, using stereochemically restrained real-space refinement in RSRef.</details>
+                <target_criteria>Cross-correlation</target_criteria>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+            <modelling>
+                <initial_model>
+                    <access_code>3U5C</access_code>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <software_list>
+                    <software>
+                        <name>Chimera, CNS</name>
+                    </software>
+                </software_list>
+                <details>1. TSV IRES was modeled with iFoldRNA and ModeRNA programs and then fitted into the cryo-EM map in Chimera.
+2. The 80S-IRES complex was refined against the map, using stereochemically restrained real-space refinement in RSRef.</details>
+                <target_criteria>Cross-correlation</target_criteria>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+            <modelling>
+                <initial_model>
+                    <access_code>3U5D</access_code>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <software_list>
+                    <software>
+                        <name>Chimera, CNS</name>
+                    </software>
+                </software_list>
+                <details>1. TSV IRES was modeled with iFoldRNA and ModeRNA programs and then fitted into the cryo-EM map in Chimera.
+2. The 80S-IRES complex was refined against the map, using stereochemically restrained real-space refinement in RSRef.</details>
+                <target_criteria>Cross-correlation</target_criteria>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+            <modelling>
+                <initial_model>
+                    <access_code>3U5E</access_code>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <software_list>
+                    <software>
+                        <name>Chimera, CNS</name>
+                    </software>
+                </software_list>
+                <details>1. TSV IRES was modeled with iFoldRNA and ModeRNA programs and then fitted into the cryo-EM map in Chimera.
+2. The 80S-IRES complex was refined against the map, using stereochemically restrained real-space refinement in RSRef.</details>
+                <target_criteria>Cross-correlation</target_criteria>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

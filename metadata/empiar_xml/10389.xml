@@ -1,0 +1,172 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10389" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-01-30</depositionDate>
+            <releaseDate>2020-06-12</releaseDate>
+            <updateDate>2021-02-12</updateDate>
+        </keyDates>
+        <title>High resolution cryo-EM structure of urease from the pathogen Yersinia enterocolitica</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-4247-4303</authorORCID>
+            <firstName>Ricardo</firstName>
+            <lastName>Righetto</lastName>
+            <organization type="academic">Center for Cellular Imaging and NanoAnalytics, Biozentrum, University of Basel</organization>
+            <street>Mattenstrasse 26</street>
+            <townOrCity>Basel</townOrCity>
+            <country>Switzerland</country>
+            <postOrZipCode>4058</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-1185-4592</authorORCID>
+            <firstName>Henning</firstName>
+            <lastName>Stahlberg</lastName>
+            <organization type="academic">Center for Cellular Imaging and NanoAnalytics, Biozentrum, University of Basel</organization>
+            <street>Mattenstrasse 26</street>
+            <townOrCity>Basel</townOrCity>
+            <country>Switzerland</country>
+            <postOrZipCode>4058</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <firstName>Timm</firstName>
+            <lastName>Maier</lastName>
+            <organization type="academic">Biozentrum, University of Basel</organization>
+            <street>Klingelbergstrasse 50/70</street>
+            <townOrCity>Basel</townOrCity>
+            <country>Switzerland</country>
+            <postOrZipCode>4056</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-4247-4303">Righetto RD</author>
+            <author authorORCID="0000-0003-0008-2141">Anton L</author>
+            <author>Adaixo R</author>
+            <author authorORCID="0000-0002-6451-8656">Jakob RP</author>
+            <author>Zivanov J</author>
+            <author>Mahi MA</author>
+            <author>Ringler P</author>
+            <author authorORCID="0000-0003-2715-335X">Schwede T</author>
+            <author authorORCID="0000-0002-7459-1363">Maier T</author>
+            <author authorORCID="0000-0002-1185-4592">Stahlberg H</author>
+        </authorsList>
+        <datasetSize units="GB">839.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10389</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-10835</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-4247-4303" order="1">Righetto RD</author>
+                    <author authorORCID="0000-0003-0008-2141" order="2">Anton L</author>
+                    <author order="3">Adaixo R</author>
+                    <author authorORCID="0000-0002-6451-8656" order="4">Jakob RP</author>
+                    <author order="5">Zivanov J</author>
+                    <author order="6">Mahi MA</author>
+                    <author order="7">Ringler P</author>
+                    <author authorORCID="0000-0003-2715-335X" order="8">Schwede T</author>
+                    <author authorORCID="0000-0002-7459-1363" order="9">Maier T</author>
+                    <author authorORCID="0000-0002-1185-4592" order="10">Stahlberg H</author>
+                    <title>High-resolution cryo-EM structure of urease from the pathogen Yersinia enterocolitica</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>11</volume>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-020-18870-2</externalReferences>
+                    <externalReferences type="pubmed">33037208</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned averages of Y. enterocolitica urease</name>
+        <directory>/data/alignaver</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4313</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>0.639</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>0.639</pixelHeight>
+        </dimensions>
+        <details>Y. enterocolitica Urease dataset
+********************************
+
+Acceleration voltage = 300 kV
+Cs = 2.7 mm
+Physical pixel size = 0.639 A/px
+Total exposure = 42 e- / A^2 distributed over 40 frames for 8 s
+Detector = Gatan K2 with Quantum-LS energy filter (20 slit eV width)
+
+Data structure:
+
+alignaver/ : This directory contains dose-weighted aligned movie averages from MotionCor2, the coordinates of the Gautomatch picked particles (STAR and BOX formats), and the meta-data for the Bayesian polishing (STAR format).
+
+gainref/ : This directory contains the gain references in DM4 and MRC formats, pixel defect lists in TXT format.
+
+raw/ : raw movies in TIFF format
+
+micrographs_multi+single_joined.star : this file contains all the micrographs used for processing with their respective _rlnBeamTiltClass label.
+
+run_ct14_data.star : this file contains the metadata for the particles used in the final reconstruction.
+
+NOTE: The directories contain all data from the multi- and single-shot movies together, as specified by the file name.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/alignaver/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/alignaver/*_automatch.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/alignaver</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Raw multi-frame micrographs of Y. enterocolitica urease</name>
+        <directory>/data/raw</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>4314</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>0.639</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>0.639</pixelHeight>
+        </dimensions>
+        <details>Dose rate is 1.05 e-/A^2.
+
+Y. enterocolitica Urease dataset
+********************************
+
+Acceleration voltage = 300 kV
+Cs = 2.7 mm
+Physical pixel size = 0.639 A/px
+Total exposure = 42 e- / A^2 distributed over 40 frames for 8 s
+Detector = Gatan K2 with Quantum-LS energy filter (20 slit eV width)
+
+Data structure:
+
+alignaver/ : This directory contains dose-weighted aligned movie averages from MotionCor2, the coordinates of the Gautomatch picked particles (STAR and BOX formats), and the meta-data for the Bayesian polishing (STAR format).
+
+gainref/ : This directory contains the gain references in DM4 and MRC formats, pixel defect lists in TXT format.
+
+raw/ : raw movies in TIFF format
+
+micrographs_multi+single_joined.star : this file contains all the micrographs used for processing with their respective _rlnBeamTiltClass label.
+
+run_ct14_data.star : this file contains the metadata for the particles used in the final reconstruction.
+
+NOTE: The directories contain all data from the multi- and single-shot movies together, as specified by the file name.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/raw/*.tif</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/alignaver/*_automatch.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/alignaver</pickedParticlesDirectory>
+    </imageSet>
+</entry>

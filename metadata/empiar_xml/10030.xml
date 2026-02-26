@@ -1,0 +1,82 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10030" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2015-07-08</depositionDate>
+            <releaseDate>2015-08-12</releaseDate>
+            <updateDate>2022-09-01</updateDate>
+        </keyDates>
+        <title>Cryo-EM micrographs of microtubules in GDP-state obtained by copolymerization with EB3</title>
+        <correspondingAuthor private="true">
+            <firstName>Rui</firstName>
+            <lastName>Zhang</lastName>
+            <organization type="academic">Life Sciences Division, Lawrence Berkeley National Laboratory</organization>
+            <street>1 Cyclotron Rd</street>
+            <townOrCity>Berkeley</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>CA 94720</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Eva</firstName>
+            <lastName>Nogales</lastName>
+            <organization type="academic">Life Sciences Division, Lawrence Berkeley National Laboratory</organization>
+            <street>1 Cyclotron Rd</street>
+            <townOrCity>Berkeley</townOrCity>
+            <stateOrProvince>California</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>CA 94720</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Zhang R</author>
+            <author>Alushin GM</author>
+            <author authorORCID="0000-0002-0021-0476">Brown A</author>
+            <author>Nogales E</author>
+        </authorsList>
+        <datasetSize units="GB">426.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10030</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-6351</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList/>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned multi-frame micrographs of microtubules in GDP-state</name>
+        <directory>/data/unaligned_movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>383</numImagesOrTiltSeries>
+        <framesPerImage>20</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.32</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.32</pixelHeight>
+        </dimensions>
+        <details>Particle-picking box files can be found under /data/boxfiles</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Aligned single-frame micrographs of microtubules in GDP-state</name>
+        <directory>/data/aligned_images</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>383</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3710</imageWidth>
+            <pixelWidth>1.32</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.32</pixelHeight>
+        </dimensions>
+        <details>Aligned micrographs using UCSF motioncorr program</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

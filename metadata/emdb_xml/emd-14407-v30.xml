@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_0/emdb.xsd" version="3.0.9.0" emdb_id="EMD-14407">
+    <admin>
+        <current_status>
+            <date>2023-12-13</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2022-02-22</deposition>
+            <header_release>2023-01-11</header_release>
+            <map_release>2023-01-11</map_release>
+            <update>2023-12-13</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Helmholtz Association</funding_body>
+                <country>Germany</country>
+            </grant_reference>
+        </grant_support>
+        <title>Single particle structure of keyhole limpet hemocyanin obtained via iDPC scanning transmission electron microscopy</title>
+        <authors_list>
+            <author ORCID="0000-0002-9106-9358">Mann D</author>
+            <author ORCID="0000-0001-5238-952X">Lazic I</author>
+            <author ORCID="0000-0002-0463-1462">Wirix M</author>
+            <author ORCID="0000-0002-4544-5156">de Haas F</author>
+            <author ORCID="0000-0002-1168-5143">Sachse C</author>
+        </authors_list>
+        <keywords>iDPC, STEM, KLH, single particle analysis, OXYGEN TRANSPORT</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-5238-952X" order="1">Lazic I</author>
+                    <author order="2">Wirix M</author>
+                    <author ORCID="0000-0001-8896-1647" order="3">Leidl ML</author>
+                    <author order="4">de Haas F</author>
+                    <author ORCID="0000-0002-9106-9358" order="5">Mann D</author>
+                    <author order="6">Beckers M</author>
+                    <author order="7">Pechnikova EV</author>
+                    <author order="8">Muller-Caspary K</author>
+                    <author order="9">Egoavil R</author>
+                    <author order="10">Bosch EGT</author>
+                    <author ORCID="0000-0002-1168-5143" order="11">Sachse C</author>
+                    <title>Single-particle cryo-EM structures from iDPC-STEM at near-atomic resolution.</title>
+                    <journal_abbreviation>Nat.Methods</journal_abbreviation>
+                    <country>US</country>
+                    <volume>19</volume>
+                    <first_page>1126</first_page>
+                    <last_page>1136</last_page>
+                    <year>2022</year>
+                    <external_references type="PUBMED">36064775</external_references>
+                    <external_references type="DOI">doi:10.1038/s41592-022-01586-0</external_references>
+                    <external_references type="ISSN">1548-7105</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+    </crossreferences>
+    <sample>
+        <name>keyhole limpet hemocyanin</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>keyhole limpet hemocyanin</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="55429">Megathura crenulata</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>keyhole limpet hemocyanin</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="55429">Megathura crenulata</organism>
+                </natural_source>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLSVRLLIVVLALANAENLVRKSVEHLTQEETLDLQAALRELQMDSSSIGFQKIAAAHGAPASCVHKDTSIACCIHGMPTFPHWHRAYVVHMERALQTKRRTSGLPYWDWTEPITQLPSLAADPVYIDSQGGKAHTNYWYRGNIDFLDKKTNRAVDDRLFEKVKPGQHTHLMESVLDALEQDEFCKFEIQFELAHNAIHYLVGGKHDYSMANLEYTAYDPIFFLHHSNVDRIFAIWQRLQELRNKDPKAMDCAQELLHQKMEPFSWEDNDIPLTNEHSTPADLFDYCELHYDYDTLNLNGMTPEELKTYLDERSSRARAFASFRLKGFGGSANVFVYVCIPDDNDRNDDHCEKAGDFFVLGGPSEMKWQFYRPYLFDLSDTVHKMGMKLDGHYTVKAELFSVNGTALPDDLLPHPVVVHHPEKGFTDPPVKHHQSANLLVRKNINDLTREEVLNLREAFHKFQEDRSVDGYQATAEYHGLPARCPRPDAKDRYACCVHGMPIFPHWHRLFVTQVEDALVGRGATIGIPYWDWTEPMTHIPGLAGNKTYVDSHGASHTNPFHSSVIAFEENAPHTKRQIDQRLFKPATFGHHTDLFNQILYAFEQEDYCDFEVQFEITHNTIHAWTGGSEHFSMSSLHYTAFDPLFYFHHSNVDRLWAVWQALQMRRHKPYRAHCAISLEHMHLKPFAFSSPLNNNEKTHANAMPNKIYDYENVLHYTYEDLTFGGISLENIEKMIHENQQEDRIYAGFLLAGIRTSANVDIFIKTTDSVQHKAGTFAVLGGSKEMKWGFDRVFKFDITHVLKDLDLTADGDFEVTVDITEVDGTKLASSLIPHASVIREHARVKFDKVPRSRLIRKNVDRLSPEEMNELRKALALLKEDKSAGGFQQLGAFHGEPKWCPSPEASKKFACCVHGMSVFPHWHRLLTVQSENALRRHGYDGALPYWDWTSPLNHLPELADHEKYVDPEDGVEKHNPWFDGHIDTVDKTTTRSVQNKLFEQPEFGHYTSIAKQVLLALEQDNFCDFEIQYEIAHNYIHALVGGAQPYGMASLRYTAFDPLFYLHHSNTDRIWAIWQALQKYRGKPYNVANCAVTSMREPLQPFGLSANINTDHVTKEHSVPFNVFDYKTNFNYEYDTLEFNGLSISQLNKKLEAIKSQDRFFAGFLLSGFKKSSLVKFNICTDSSNCHPAGEFYLLGDENEMPWAYDRVFKYDITEKLHDLKLHAEDHFYIDYEVFDLKPASLGKDLFKQPSVIHEPRIGHHEGEVYQAEVTSANRIRKNIENLSLGELESLRAAFLEIENDGTYESIAKFHGSPGLCQLNGNPISCCVHGMPTFPHWHRLYVVVVENALLKKGSSVAVPYWDWTKRIEHLPHLISDATYYNSRQHHYETNPFHHGKITHENEITTRDPKDSLFHSDYFYEQVLYALEQDNFCDFEIQLEILHNALHSLLGGKGKYSMSNLDYAAFDPVFFLHHATTDRIWAIWQDLQRFRKRPYREANCAIQLMHTPLQPFDKSDNNDEATKTHATPHDGFEYQNSFGYAYDNLELNHYSIPQLDHMLQERKRHDRVFAGFLLHNIGTSADGHVFVCLPTGEHTKDCSHEAGMFSILGGQTEMSFVFDRLYKLDITKALKKNGVHLQGDFDLEIEITAVNGSHLDSHVIHSPTILFEAGTDSAHTDDGHTEPVMIRKDITQLDKRQQLSLVKALESMKADHSSDGFQAIASFHALPPLCPSPAASKRFACCVHGMATFPQWHRLYTVQFQDSLRKHGAVVGLPYWDWTLPRSELPELLTVSTIHDPETGRDIPNPFIGSKIEFEGENVHTKRDINRDRLFQGSTKTHHNWFIEQALLALEQTNYCDFEVQFEIMHNGVHTWVGGKEPYGIGHLHYASYDPLFYIHHSQTDRIWAIWQSLQRFRGLSGSEANCAVNLMKTPLKPFSFGAPYNLNDHTHDFSKPEDTFDYQKFGYIYDTLEFAGWSIRGIDHIVRNRQEHSRVFAGFLLEGFGTSATVDFQVCRTAGDCEDAGYFTVLGGEKEMPWAFDRLYKYDITETLDKMNLRHDEIFQIEVTITSYDGTVLDSGLIPTPSIIYDPAHHDISSHHLSLNKVRHDLSTLSERDIGSLKYALSSLQADTSADGFAAIASFHGLPAKCNDSHNNEVACCIHGMPTFPHWHRLYTLQFEQALRRHGSSVAVPYWDWTKPIHNIPHLFTDKEYYDVWRNKVMPNPFARGYVPSHDTYTVRDVQEGLFHLTSTGEHSALLNQALLALEQHDYCDFAVQFEVMHNTIHYLVGGPQVYSLSSLHYASYDPIFFIHHSFVDKVWAVWQALQEKRGLPSDRADCAVSLMTQNMRPFHYEINHNQFTKKHAVPNDVFKYELLGYRYDNLEIGGMNLHEIEKEIKDKQHHVRVFAGFLLHGIRTSADVQFQICKTSEDCHHGGQIFVLGGTKEMAWAYNRLFKYDITHALHDAHITPEDVFHPSEPFFIKVSVTAVNGTVLPASILHAPTIIYEPGLDHHEDHHSSSMAGHGVRKEINTLTTAEVDNLKDAMRAVMADHGPNGYQAIAAFHGNPPMCPMPDGKNYSCCTHGMATFPHWHRLYTKQMEDALTAHGARVGLPYWDGTTAFTALPTFVTDEEDNPFHHGHIDYLGVDTTRSPRDKLFNDPERGSESFFYRQVLLALEQTDFCQFEVQFEITHNAIHSWTGGLTPYGMSTLEYTTYDPLFWLHHANTDRIWAIWQALQEYRGLPYDHANCEIQAMKRPLRPFSDPINHNAFTHSNAKPTDVFEYSRFNFQYDNLRFHGMTIKKLEHELEKQKEEDRTFAAFLLHGIKKSADVSFDVCNHDGECHFAGTFAILGGEHEMPWSFDRLFRYDITQVLKQMHLEYDSDFTFHMRIIDTSGKQLPSDLIKMPTVEHSPGGKHHEKHHEDHHEDILVRKNIHSLSHHEAEELRDALYKLQNDESHGGYEHIAGFHGYPNLCPEKGDEKYPCCVHGMSIFPHWHRLHTIQFERALKKHGSHLGIPYWDWTQTISSLPTFFADSGNNNPFFKYHIRSINQDTVRDVNEAIFQQTKFGEFSSIFYLALQALEEDNYCDFEVQYEILHNEVHALIGGAEKYSMSTLEYSAFDPYFMIHHASLDKIWIIWQELQKRRVKPAHAGSCAGDIMHVPLHPFNYESVNNDDFTRENSLPNAVVDSHRFNYKYDNLNLHGHNIEELEEVLRSLRLKSRVFAGFVLSGIRTTAVVKVYIKSGTDSDDEYAGSFVILGGAKEMPWAYERLYRFDITETVHNLNLTDDHVKFRFDLKKYDHTELDASVLPAPIIVRRPNNAVFDIIEIPIGKDVNLPPKVVVKRGTKIMFMSVDEAVTTPMLNLGSYTAMFKCKVPPFSFHAFELGKMYSVESGDYFMTASTTELCNDNNLRIHVHVDDE</string>
+                    <external_references type="UNIPROTKB">Q10583</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.4</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>SPOT SCAN</illumination_mode>
+                    <imaging_mode>OTHER</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">0.0</nominal_defocus_max>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>OTHER</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">35.0</average_electron_dose_per_image>
+                            <details>STEM imaging was conducted using a Thermo Fisher Scientific Titan Krios G4, operated at 300 kV. The column was equipped with a standard high-brightness field emission gun (XFEG), three-condenser lens system, C-TWIN objective lens with wide-gap pole piece (11 mm and Cs = 2.7mm), Panther segmented STEM detector, a Ceta camera and Falcon 4 direct electron detection (DED) camera. A combination of different C2 apertures (20 mum and 50 mum) and C2/C3 lens current ratios were used to create different CSA of the beam. Alignment for STEM was done by aligning beam shift, beam tilt pivot points and beam tilt in STEM mode for the different convergence angles. For accurate determination of the COM, a de-scan alignment has additionally been performed. The CSA of the applied beams were measured with high precision using the Au cross-grating and Ceta
+camera by first recording the radii of the gold diffraction rings for calibration and subsequently measuring the radius of the bright-field (BF) disc.</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>Panther segmented STEM detector</details>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>D5</point_group>
+                    </applied_symmetry>
+                    <algorithm>BACK PROJECTION</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">6.51</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>3.3.1</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>18597</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="67109">
+        <file>emd_14407.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>256</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>256</z>
+        </spacing>
+        <cell>
+            <a units="Å">624.64</a>
+            <b units="Å">624.64</b>
+            <c units="Å">624.64</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.62414944</minimum>
+            <maximum>2.1362143</maximum>
+            <average>-0.0010584741</average>
+            <std>0.17536116</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">2.44</x>
+            <y units="Å">2.44</y>
+            <z units="Å">2.44</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.6</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-14407::::</label>
+        <annotation_details>sharpened map from cryosparc local refinement v3.3.1</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_14407_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_14407_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">624.64</a>
+                    <b units="Å">624.64</b>
+                    <c units="Å">624.64</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.44483486</minimum>
+                    <maximum>1.2620138</maximum>
+                    <average>0.00075656694</average>
+                    <std>0.1595552</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">2.44</x>
+                    <y units="Å">2.44</y>
+                    <z units="Å">2.44</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14407::::</label>
+                <annotation_details>half map A</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="67109">
+                <file>emd_14407_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>256</col>
+                    <row>256</row>
+                    <sec>256</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>256</x>
+                    <y>256</y>
+                    <z>256</z>
+                </spacing>
+                <cell>
+                    <a units="Å">624.64</a>
+                    <b units="Å">624.64</b>
+                    <c units="Å">624.64</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.45623147</minimum>
+                    <maximum>1.2460616</maximum>
+                    <average>0.0007252352</average>
+                    <std>0.15954934</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">2.44</x>
+                    <y units="Å">2.44</y>
+                    <z units="Å">2.44</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-14407::::</label>
+                <annotation_details>half map B</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_0/emdb.xsd" emdb_id="EMD-22895" version="3.0.2.0">
+    <admin>
+        <current_status>
+            <date>2020-12-09</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-10-26</deposition>
+            <header_release>2020-12-09</header_release>
+            <map_release>2020-12-09</map_release>
+            <update>2020-12-09</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Health and Medical Research Council (NHMRC, Australia)</funding_body>
+                <code>1126357</code>
+                <country>Australia</country>
+            </grant_reference>
+        </grant_support>
+        <title>Low resolution map of the nucleosome remodelling and deacetylase complex from MEL cells.</title>
+        <authors_list>
+            <author>Jackman MJ</author>
+            <author>Landsberg MJ</author>
+            <author>Mackay JP</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Low JKK</author>
+                    <author order="2">Silva APG</author>
+                    <author order="3">Sharifi Tabar M</author>
+                    <author order="4">Torrado M</author>
+                    <author order="5">Webb SR</author>
+                    <author order="6">Parker BL</author>
+                    <author order="7">Sana M</author>
+                    <author order="8">Smits C</author>
+                    <author order="9">Schmidberger JW</author>
+                    <author order="10">Brillault L</author>
+                    <author order="11">Jackman MJ</author>
+                    <author order="12">Williams Jr DC</author>
+                    <author order="13">Blobel GA</author>
+                    <author order="14">Hake SB</author>
+                    <author order="15">Shepherd NE</author>
+                    <author order="16">Landsberg MJ</author>
+                    <author order="17">Mackay JP</author>
+                    <title>The Nucleosome Remodeling and Deacetylase Complex Has an Asymmetric, Dynamic, and Modular Architecture.</title>
+                    <journal_abbreviation>Cell Rep</journal_abbreviation>
+                    <country>US</country>
+                    <volume>33</volume>
+                    <first_page>108450</first_page>
+                    <last_page>108450</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">33264611</external_references>
+                    <external_references type="DOI">doi:10.1016/j.celrep.2020.108450</external_references>
+                    <external_references type="ISSN">2211-1247</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-22895</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Endogenous nucleosome remodelling and deacetylase complex purified from MEL cells</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Endogenous nucleosome remodelling and deacetylase complex purified from MEL cells</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Purified using a GST-tagged column bound by a recombinant GST-FOG1 protein; crosslinked using GraFix</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                    <organ>Spleen</organ>
+                    <organelle>Nucleus</organelle>
+                </natural_source>
+                <molecular_weight>
+                    <experimental units="MDa">0.955</experimental>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>cell</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>7.2</ph>
+                    </buffer>
+                    <staining>
+                        <type>NEGATIVE</type>
+                        <material>Uranyl acetate</material>
+                    </staining>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TECNAI 12</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>LAB6</electron_source>
+                    <acceleration_voltage units="kV">120</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>OTHER</film_or_detector_model>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">4096</width>
+                                    <height units="pixel">4096</height>
+                                </dimensions>
+                            </digitization_details>
+                            <average_electron_dose_per_image units="e/Å^2">100.0</average_electron_dose_per_image>
+                            <details>Images recorded on a DE LC1100 lens coupled CCD detector.
+
+Estimated dose.</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2.14.2</version>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <startup_model type_of_model="NONE">
+                    <details>Ab-initio reconstruction</details>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">14.0</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>111503</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>RANDOM ASSIGNMENT</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2.14.2</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2.14.2</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>3</number_classes>
+                    <average_number_members_per_class>42000</average_number_members_per_class>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>2.14.2</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="108001">
+        <file>emd_22895.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>300</col>
+            <row>300</row>
+            <sec>300</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>300</x>
+            <y>300</y>
+            <z>300</z>
+        </spacing>
+        <cell>
+            <a units="Å">651.0</a>
+            <b units="Å">651.0</b>
+            <c units="Å">651.0</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.655235</minimum>
+            <maximum>4.7355237</maximum>
+            <average>-0.009246632</average>
+            <std>0.17418209</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">2.17</x>
+            <y units="Å">2.17</y>
+            <z units="Å">2.17</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.05</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-22895::::</label>
+        <annotation_details>Map of the nucleosome remodelling and deacetylase complex (NuRD) produced using negative-stained electron microscopy images analyzed in Cryosparc.</annotation_details>
+    </map>
+</emd>

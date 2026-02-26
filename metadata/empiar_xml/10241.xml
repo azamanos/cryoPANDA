@@ -1,0 +1,98 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10241" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-01-16</depositionDate>
+            <releaseDate>2019-01-30</releaseDate>
+            <updateDate>2019-07-25</updateDate>
+        </keyDates>
+        <title>afTMEM16/nanodisc complex in the absence of Ca2+</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-6584-0102</authorORCID>
+            <firstName>Alessio</firstName>
+            <lastName>Accardi</lastName>
+            <organization type="academic">Weill Cornell Medicine</organization>
+            <street>1300 York Anue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10021</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-6584-0102</authorORCID>
+            <firstName>Alessio</firstName>
+            <lastName>Accardi</lastName>
+            <organization type="academic">Weill Cornell Medicine</organization>
+            <street>1300 york avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10021</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-6738-7017">Falzone ME</author>
+            <author authorORCID="0000-0002-9901-2065">Rheinberger J</author>
+            <author>Di Lorenzo A</author>
+            <author authorORCID="0000-0002-6584-0102">Accardi A</author>
+        </authorsList>
+        <datasetSize units="GB">162.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10241</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-9831</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-6738-7017" order="1">Falzone ME</author>
+                    <author authorORCID="0000-0002-9901-2065" order="2">Rheinberger J</author>
+                    <author order="3">Lee BC</author>
+                    <author order="4">Peyear T</author>
+                    <author order="5">Sasset L</author>
+                    <author order="6">Raczkowski AM</author>
+                    <author authorORCID="0000-0002-8014-7269" order="7">Eng ET</author>
+                    <author order="8">Di Lorenzo A</author>
+                    <author order="9">Andersen OS</author>
+                    <author authorORCID="0000-0002-6254-4447" order="10">Nimigean CM</author>
+                    <author authorORCID="0000-0002-6584-0102" order="11">Accardi A</author>
+                    <title>Structural basis of Ca2+-dependent activation and lipid transport by a TMEM16 scramblase</title>
+                    <journal>eLife</journal>
+                    <journalAbbreviation>Elife</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>8</issue>
+                    <volume>8</volume>
+                    <firstPage>1</firstPage>
+                    <lastPage>7</lastPage>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.7554/eLife.43229</externalReferences>
+                    <externalReferences type="pubmed">30648972</externalReferences>
+                    <details>Motion corrected micrographs (from 45 frames) in mrc format</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>motion corrected 2D micrographs from 45 frames of afTMEM16/nanodisc complex in the absence of Ca2+</name>
+        <directory>/data/EDTA_micrographs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>3054</numImagesOrTiltSeries>
+        <framesPerImage>45</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

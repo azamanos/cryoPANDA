@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-41022">
+    <admin>
+        <current_status>
+            <date>2024-11-06</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-06-08</deposition>
+            <header_release>2024-05-22</header_release>
+            <map_release>2024-05-22</map_release>
+            <update>2024-11-06</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of Neurological Disorders and Stroke (NIH/NINDS)</funding_body>
+                <code>ZO1 NS003163</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Map of Tubulin Tyrosine Ligase Like 6</title>
+        <authors_list>
+            <author ORCID="0000-0003-0135-4444">Mahalingan KK</author>
+            <author ORCID="0000-0001-5908-7882">Grotjahn D</author>
+            <author>Li Y</author>
+            <author ORCID="0000-0003-4921-1135">Lander GC</author>
+            <author ORCID="0000-0002-9768-5792">Zehr EA</author>
+            <author ORCID="0000-0003-2621-7307">Roll-Mecak A</author>
+        </authors_list>
+        <keywords>Tubulin polyglutamylase, tubulin post-translational modifications, microtubules, TTLL, LIGASE</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Mahalingan KK</author>
+                    <author order="2">Grotjahn DA</author>
+                    <author ORCID="0000-0003-3820-5960" order="3">Li Y</author>
+                    <author ORCID="0000-0003-4921-1135" order="4">Lander GC</author>
+                    <author order="5">Zehr EA</author>
+                    <author ORCID="0000-0003-2621-7307" order="6">Roll-Mecak A</author>
+                    <title>Structural basis for alpha-tubulin-specific and modification state-dependent glutamylation.</title>
+                    <journal_abbreviation>Nat.Chem.Biol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>20</volume>
+                    <first_page>1493</first_page>
+                    <last_page>1504</last_page>
+                    <year>2024</year>
+                    <external_references type="PUBMED">38658656</external_references>
+                    <external_references type="DOI">doi:10.1038/s41589-024-01599-0</external_references>
+                    <external_references type="ISSN">1552-4469</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-41018</emdb_id>
+                <relationship>
+                    <other>consensus EM volume</other>
+                </relationship>
+                <details>Microtubule-TTLL6 map</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-41090</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>Composite map of TTLL6 bound to unmodified human microtubule</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-42884</emdb_id>
+                <relationship>
+                    <other>consensus EM volume</other>
+                </relationship>
+                <details>Microtubule-TTLL6 map</details>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>TTLL6 bound to unmodified human microtubules</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>TTLL6 bound to unmodified human microtubules</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Microtubules were decorated with TTLL6 on electron microscopy grids</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                    <cellular_location>cytoplasm</cellular_location>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.02</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Tubulin Tyrosine Ligase Like 6</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="10090">Mus musculus</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="1005441">Escherichia coli 0.1304</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>GKKKRKKKRLVINLSNCRYDSVRRAAQQYGLREAGDNDDWTLYWTDYSVSLERVMEMKSYQKINHFPGMSEICRKDLLARNMSRMLKLFPKDFHFFPRTWCLPADWGDLQTYSRTRKNKTYICKPDSGCQGRGIFITRSVKEIKPGEDMICQLYISKPFIIDGFKFDLRVYVLVTSCDPLRVFVYNEGLARFATTSYSHPNLDNLDEICMHLTNYSINKHSSNFVQDAFSGSKRKLSTFNSYMKTHGYDVEQIWRGIEDVIIKTLISAHPVIKHNYHTCFPSHTLNSACFEILGFDILLDRKLKPWLLEVNHSPSFSTDSKLDKEVKDSLLYDALVLINLGNCDKKKVLEEERQRGRFLQQCPNREIRLEEVKGFQAMRLQKTEEYEKKNCGGFRLIYPGLNLEKYDKFFQDNSSLFQNTVASRARELYARQLIQELRQKQEKKVFLKKARKA</string>
+                    <external_references type="UNIPROTKB">A4Q9E8</external_references>
+                </sequence>
+                <ec_number>6.3.2.61</ec_number>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.1</concentration>
+                    <buffer>
+                        <ph>7.0</ph>
+                        <component>
+                            <concentration units="mM">40.0</concentration>
+                            <formula>C8H18N2O4S</formula>
+                            <name>HEPES</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">100.0</concentration>
+                            <formula>KCl</formula>
+                            <name>Potassium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>MgCl2</formula>
+                            <name>Magnesium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">4.0</concentration>
+                            <formula>DTT</formula>
+                            <name>Dithiothreitol</name>
+                        </component>
+                        <component>
+                            <concentration units="uM">20.0</concentration>
+                            <formula>ATP</formula>
+                            <name>Adenosine triphosphate</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>GOLD</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>GOLD</film_material>
+                            <film_topology>HOLEY</film_topology>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">30</time>
+                            <atmosphere>AIR</atmosphere>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">303</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details>The sample was blotted with Whatman #5 blotting paper on both sides of the grid for 3 s with a blot offset of -1 using a Vitrobot Mark IV (Thermo Fisher Scientific) with a chamber set to 30C at 100% humidity and subsequently plunged into liquid ethane.. </details>
+                    </vitrification>
+                    <details>TTLL6 decoration of microtubule was heterogenous</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TALOS ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.0</nominal_defocus_max>
+                    <nominal_magnification>36000.0</nominal_magnification>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <digitization_details>
+                                <frames_per_image>1-39</frames_per_image>
+                            </digitization_details>
+                            <number_real_images>2771</number_real_images>
+                            <average_exposure_time units="s">9.75</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">42.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>59044</number_selected>
+                    <details>Due to highly heterogeneous TTLL6 decoration of microtubules microtubules were manually selected. 59044 overlapping segments with a box size of 568 pixels were extracted every 82 A</details>
+                </particle_selection>
+                <startup_model type_of_model="OTHER">
+                    <details>Map of TTLL6 bound to unmodified human microtubules</details>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">7.2</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.8</version>
+                        </software>
+                    </software_list>
+                    <details>Map obtained through focused classification with subtraction of microtubule signal, followed by 3D refinement.</details>
+                    <number_images_used>151716</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.8</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.8</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>2</number_classes>
+                    <average_number_members_per_class>196000.0</average_number_members_per_class>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.8</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="733002">
+        <file>emd_41022.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>568</col>
+            <row>568</row>
+            <sec>568</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>568</x>
+            <y>568</y>
+            <z>568</z>
+        </spacing>
+        <cell>
+            <a units="Å">653.2</a>
+            <b units="Å">653.2</b>
+            <c units="Å">653.2</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.02678331</minimum>
+            <maximum>0.04489845</maximum>
+            <average>0.00000048974226</average>
+            <std>0.0001945757</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.15</x>
+            <y units="Å">1.15</y>
+            <z units="Å">1.15</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.005</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-41022::::</label>
+        <annotation_details>Map of TTLL6 bound to unmodified human microtubules, obtained by focused classification and refinement</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_41022_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="733002">
+                <file>emd_41022_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>568</col>
+                    <row>568</row>
+                    <sec>568</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>568</x>
+                    <y>568</y>
+                    <z>568</z>
+                </spacing>
+                <cell>
+                    <a units="Å">653.2</a>
+                    <b units="Å">653.2</b>
+                    <c units="Å">653.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.02325404</minimum>
+                    <maximum>0.037021097</maximum>
+                    <average>-0.00016321258</average>
+                    <std>0.0003083557</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.15</x>
+                    <y units="Å">1.15</y>
+                    <z units="Å">1.15</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-41022::::</label>
+                <annotation_details>Second half-map of TTLL6 bound to unmodified human microtubules, obtained by focused classification and refinement</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="733002">
+                <file>emd_41022_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>568</col>
+                    <row>568</row>
+                    <sec>568</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>568</x>
+                    <y>568</y>
+                    <z>568</z>
+                </spacing>
+                <cell>
+                    <a units="Å">653.2</a>
+                    <b units="Å">653.2</b>
+                    <c units="Å">653.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.022934712</minimum>
+                    <maximum>0.037668854</maximum>
+                    <average>-0.000161903</average>
+                    <std>0.00030916464</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.15</x>
+                    <y units="Å">1.15</y>
+                    <z units="Å">1.15</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-41022::::</label>
+                <annotation_details>First half-map of TTLL6 bound to unmodified human microtubules, obtained by focused classification and refinement</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

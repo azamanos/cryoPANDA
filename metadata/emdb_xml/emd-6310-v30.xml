@@ -1,0 +1,198 @@
+<emd emdb_id="EMD-6310" version="3.0.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+    <admin>
+        <current_status>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2015-03-19</deposition>
+            <header_release>2015-04-08</header_release>
+            <map_release>2015-06-03</map_release>
+            <update>2015-06-03</update>
+        </key_dates>
+        <title>A Virus that Infects a Hyperthermophile Encapsidates A-Form DNA</title>
+        <authors_list>
+            <author>DiMaio F</author>
+            <author>Yu X</author>
+            <author>Rensen E</author>
+            <author>Krupovic M</author>
+            <author>Prangishvili D</author>
+            <author>Egelman E</author>
+        </authors_list>
+        <keywords>archaeal virus, helical symmetry</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">DiMaio F</author>
+                    <author order="2">Yu X</author>
+                    <author order="3">Rensen E</author>
+                    <author order="4">Krupovic M</author>
+                    <author order="5">Prangishvili D</author>
+                    <author order="6">Egelman EH</author>
+                    <title>A virus that infects a hyperthermophile encapsidates A-form DNA</title>
+                    <journal>SCIENCE</journal>
+                    <volume>348</volume>
+                    <first_page>914</first_page>
+                    <last_page>917</last_page>
+                    <year>2015</year>
+                    <external_references type="PUBMED">25999507</external_references>
+                    <external_references type="DOI">doi:10.1126/science.aaa4181</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>3j9x</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>SIRV2</name>
+        <supramolecule_list>
+            <sample_supramolecule supramolecule_id="1000">
+                <name>SIRV2</name>
+                <number_unique_components>1</number_unique_components>
+            </sample_supramolecule>
+            <virus_supramolecule supramolecule_id="1">
+                <name synonym="SIRV2">Sulfolobus islandicus rod-shaped virus 2</name>
+                <sci_species_name ncbi="157899">Sulfolobus islandicus rod-shaped virus 2</sci_species_name>
+                <natural_host database="NCBI">
+                    <organism ncbi="43080">Sulfolobus islandicus</organism>
+                    <synonym_organism>ARCHAEA</synonym_organism>
+                </natural_host>
+                <host_system database="NCBI" />
+                <virus_type>VIRION</virus_type>
+                <virus_isolate>SPECIES</virus_isolate>
+                <virus_enveloped>false</virus_enveloped>
+                <virus_empty>false</virus_empty>
+                <syn_species_name>SIRV2</syn_species_name>
+            </virus_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>helical</method>
+            <aggregation_state>helicalArray</aggregation_state>
+            <specimen_preparation_list>
+                <helical_preparation preparation_id="1">
+                    <buffer>
+                        <ph>6.0</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </helical_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <helical_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="&#181;m">0.5</nominal_defocus_min>
+                    <nominal_defocus_max units="&#181;m">3.0</nominal_defocus_max>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <date>2014-09-19</date>
+                    <image_recording_list>
+                        <image_recording>
+                            <film_or_detector_model category="CCD">FEI FALCON II (4k x 4k)</film_or_detector_model>
+                            <number_real_images>437</number_real_images>
+                            <average_electron_dose_per_image units="e/&#8491;^2">20</average_electron_dose_per_image>
+                            <bits_per_pixel>16.</bits_per_pixel>
+                        </image_recording>
+                    </image_recording_list>
+                </helical_microscopy>
+            </microscopy_list>
+            <helical_processing image_processing_id="1">
+                <details>IHRSR</details>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <helical_parameters>
+                            <delta_z units="&#8491;">2.9</delta_z>
+                            <delta_phi units="deg">24.5</delta_phi>
+                            <axial_symmetry>C1</axial_symmetry>
+                        </helical_parameters>
+                    </applied_symmetry>
+                    <algorithm>OTHER</algorithm>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">3.8</resolution>
+                    <resolution_method>OTHER</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>Spider</name>
+                        </software>
+                    </software_list>
+                </final_reconstruction>
+                <ctf_correction>
+                    <details>multiply images by CTF, divide reconstruction by sum of CTF**2</details>
+                </ctf_correction>
+            </helical_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="32769">
+        <file>emd_6310.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>256</col>
+            <row>256</row>
+            <sec>128</sec>
+        </dimensions>
+        <origin>
+            <col>-128</col>
+            <row>-128</row>
+            <sec>-64</sec>
+        </origin>
+        <spacing>
+            <x>256</x>
+            <y>256</y>
+            <z>128</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">268.8</a>
+            <b units="&#8491;">268.8</b>
+            <c units="&#8491;">134.4</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.24791992</minimum>
+            <maximum>0.3934437</maximum>
+            <average>0.01061555</average>
+            <std>0.06525622</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">1.05</x>
+            <y units="&#8491;">1.05</y>
+            <z units="&#8491;">1.05</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.14</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <annotation_details>Reconstruction of SIRV2</annotation_details>
+        <details>::::EMDATABANK.org::::EMD-6310::::</details>
+    </map>
+</emd>

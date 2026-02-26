@@ -1,0 +1,180 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12093" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-04-01</depositionDate>
+            <releaseDate>2024-09-06</releaseDate>
+            <updateDate>2024-09-06</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of the full-length Pseudomonas aeruginosa bacteriophytochrome in its Pfr and Pr states</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-3303-5897</authorORCID>
+            <firstName>Szabolcs</firstName>
+            <middleName>A.</middleName>
+            <lastName>Bodizs</lastName>
+            <organization type="academic">Uppsala University</organization>
+            <townOrCity>Uppsala</townOrCity>
+            <country>Sweden</country>
+            <postOrZipCode>752 37</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-6961-8015</authorORCID>
+            <firstName>Sebastian</firstName>
+            <lastName>Westenhoff</lastName>
+            <organization type="academic">Uppsala University</organization>
+            <townOrCity>Uppsala</townOrCity>
+            <country>Sweden</country>
+            <postOrZipCode>752 37</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0002-3303-5897">Bodizs SB</author>
+            <author authorORCID="0000-0002-6961-8015">Westenhoff SW</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody></fundingBody>
+                <code></code>
+                <country></country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">19.3</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12093</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-19989</emdbEntry>
+            <emdbEntry>EMD-19981</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="true">
+                    <author authorORCID="0000-0002-3303-5897" order="1">Bodizs SB</author>
+                    <title>Bacteriophytochrome activation mechanisms revealed by full-length bathy bacteriophytochrome structures</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country></country>
+                    <externalReferences type="doi">10.1016/j.str.2024.08.008</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Raw micrographs of PaBphP in its Pfr state</name>
+        <directory>/data/cem_00535_00063</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>15496</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>0</frameRangeMin>
+            <frameRangeMax>39</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>400</imageWidth>
+            <pixelWidth>0.828</pixelWidth>
+            <imageHeight>400</imageHeight>
+            <pixelHeight>0.828</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/cem_00535_00063/k3_frames_a/Images-Disc1/GridSquare_*/Data/FoilHole_*_Data_*_*_*_*_fractions.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Raw micrographs of PaBphP in its Pr state, dataset 1</name>
+        <directory>/data/cem00535_00044</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>13501</numImagesOrTiltSeries>
+        <framesPerImage>39</framesPerImage>
+        <frameRange>
+            <frameRangeMin>0</frameRangeMin>
+            <frameRangeMax>39</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>400</imageWidth>
+            <pixelWidth>0.828</pixelWidth>
+            <imageHeight>400</imageHeight>
+            <pixelHeight>0.828</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/cem00535_00044/k3_frames_b/Images-Disc1/GridSquare_*/Data/FoilHole_*_Data_*_*_*_*_fractions.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Raw micrographs of PaBphP in its Pr state, dataset 2</name>
+        <directory>/data/cem00438_00002</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>16835</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <frameRange>
+            <frameRangeMin>0</frameRangeMin>
+            <frameRangeMax>39</frameRangeMax>
+        </frameRange>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>400</imageWidth>
+            <pixelWidth>0.828</pixelWidth>
+            <imageHeight>400</imageHeight>
+            <pixelHeight>0.828</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern>data/cem00438_00002/k3_frames_a/Images-Disc1/GridSquare_*/Data/FoilHole_*_Data_*_*_*_*_fractions.tiff</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned particle images of PaBphP in its Pfr state</name>
+        <directory>/data/J391_particle_sets</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1103315</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>400</imageWidth>
+            <pixelWidth>0.828</pixelWidth>
+            <imageHeight>400</imageHeight>
+            <pixelHeight>0.828</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/J391_particle_sets/J391_split_0/J391_split_0_exported.cs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/J391_particle_sets/J391_split_0/J390/extract</pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Aligned particle images of PaBphP in its Pr state</name>
+        <directory>/data/J394_particle_sets</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>889461</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>400</imageWidth>
+            <pixelWidth>0.828</pixelWidth>
+            <imageHeight>400</imageHeight>
+            <pixelHeight>0.828</pixelHeight>
+        </dimensions>
+        <details></details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern>data/J394_particle_sets/J394_split_0/J394_split_0_exported.cs</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/J394_particle_sets/J394_split_0/J392/restack</pickedParticlesDirectory>
+    </imageSet>
+</entry>

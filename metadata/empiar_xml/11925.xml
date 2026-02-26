@@ -1,0 +1,227 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11925" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-01-25</depositionDate>
+            <releaseDate>2024-05-20</releaseDate>
+            <updateDate>2024-05-20</updateDate>
+        </keyDates>
+        <title>Structural basis of human U5 snRNP late biogenesis and recycling (single particle cryo-EM dataset)</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0001-5975-5609</authorORCID>
+            <firstName>Matthias</firstName>
+            <middleName>Kopano</middleName>
+            <lastName>Vorländer</lastName>
+            <organization type="academic">Forschungsinstitut für Molekulare Pathologie</organization>
+            <street>Campus-Vienna-Biocenter</street>
+            <townOrCity>Vienna</townOrCity>
+            <country>Austria</country>
+            <postOrZipCode>1020</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-6020-9514</authorORCID>
+            <firstName>Clemens</firstName>
+            <lastName>Plaschka</lastName>
+            <organization type="academic">Forschungsinstitut für Molekulare Pathologie</organization>
+            <street>Campus-Vienna-Biocenter</street>
+            <townOrCity>Vienna</townOrCity>
+            <stateOrProvince>Austria</stateOrProvince>
+            <country>Austria</country>
+            <postOrZipCode>1030</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Riabov Bassat D</author>
+            <author authorORCID="0000-0002-6689-9632">Phillips AW</author>
+            <author authorORCID="0000-0002-6020-9514">Plaschka C</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>European Research Council (ERC)</fundingBody>
+                <code>ERC- 2020-STG 949081</code>
+                <country>Belgium</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">1.8</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11925</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-18229</emdbEntry>
+            <emdbEntry>EMD-18234</emdbEntry>
+            <emdbEntry>EMD-18235</emdbEntry>
+            <emdbEntry>EMD-18237</emdbEntry>
+            <emdbEntry>EMD-18238</emdbEntry>
+            <emdbEntry>EMD-18239</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Riabov Bassat D</author>
+                    <author authorORCID="0000-0002-9506-8360" order="2">Visanpattanasin S</author>
+                    <author authorORCID="0000-0001-5975-5609" order="3">Vorländer MK</author>
+                    <author order="4">Fin L</author>
+                    <author authorORCID="0000-0002-6689-9632" order="5">Phillips AW</author>
+                    <author authorORCID="0000-0002-6020-9514" order="6">Plaschka C</author>
+                    <title>Structural basis of human U5 snRNP late biogenesis and recycling</title>
+                    <journal>Nature structural &amp; molecular biology</journal>
+                    <journalAbbreviation>Nat Struct Mol Biol</journalAbbreviation>
+                    <country>United Kingdom</country>
+                    <year>2024</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41594-024-01243-4</externalReferences>
+                    <externalReferences type="pubmed">38467876</externalReferences>
+                    <details>Motion corrected micrographs</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Motion-corrected micrographs (non-doseweighted)</name>
+        <directory>/data/motioncorrected</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>EER</headerFormat>
+        <dataFormat>EER</dataFormat>
+        <numImagesOrTiltSeries>23756</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.7445</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.7445</pixelHeight>
+        </dimensions>
+        <details>Non-doseweighted micrographs used for CTF estimation</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/motioncorrected/*aligned.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Motion-corrected micrographs (doseweighted)</name>
+        <directory>/data/motioncorrected</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>EER</headerFormat>
+        <dataFormat>EER</dataFormat>
+        <numImagesOrTiltSeries>23756</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>0.7445</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>0.7445</pixelHeight>
+        </dimensions>
+        <details>Doseweighted micrographs</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/motioncorrected/*doseweighted.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particles for Map 1</name>
+        <directory>/data/J660</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>15173</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>360</imageWidth>
+            <pixelWidth>1.241</pixelWidth>
+            <imageHeight>360</imageHeight>
+            <pixelHeight>1.241</pixelHeight>
+        </dimensions>
+        <details>Cryosparc directory containing restacked particles for Map 1</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particles for Map 2</name>
+        <directory>/data/J657</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>19303</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>16 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>360</imageWidth>
+            <pixelWidth>1.241</pixelWidth>
+            <imageHeight>360</imageHeight>
+            <pixelHeight>1.241</pixelHeight>
+        </dimensions>
+        <details>Cryosparc directory containing restacked particles for Map 2</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particles for Map 3</name>
+        <directory>/data/J659</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>5636</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>16 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>360</imageWidth>
+            <pixelWidth>1.241</pixelWidth>
+            <imageHeight>360</imageHeight>
+            <pixelHeight>1.241</pixelHeight>
+        </dimensions>
+        <details>Cryosparc directory containing restacked particles for Map 3</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particles for Map 4</name>
+        <directory>/data/J658</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>6879</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>16 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>360</imageWidth>
+            <pixelWidth>1.241</pixelWidth>
+            <imageHeight>360</imageHeight>
+            <pixelHeight>1.241</pixelHeight>
+        </dimensions>
+        <details>Cryosparc directory containing restacked particles for Map 3</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Particles for Map 5 and 6</name>
+        <directory>/data/J662</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>265427</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>16 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>360</imageWidth>
+            <pixelWidth>1.241</pixelWidth>
+            <imageHeight>360</imageHeight>
+            <pixelHeight>1.241</pixelHeight>
+        </dimensions>
+        <details>Cryosparc directory containing restacked particles for Map 5 and Map 6</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

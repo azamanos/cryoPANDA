@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='utf-8'?>
+<emd emdb_id="EMD-21443" version="3.0.2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_4/emdb.xsd">
+    <admin>
+        <current_status>
+            <date>2021-03-24</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-02-22</deposition>
+            <header_release>2020-03-25</header_release>
+            <map_release>2020-03-25</map_release>
+            <update>2021-03-24</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01GM098672</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Science Foundation (NSF, United States)</funding_body>
+                <code>1453847</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>F32GM119322</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>BurrH bound to DNA Origami Goniometer</title>
+        <authors_list>
+            <author>Aksel T</author>
+            <author>Yu Z</author>
+            <author>Cheng Y</author>
+            <author>Douglas SM</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Aksel T</author>
+                    <author order="2">Yu Z</author>
+                    <author order="3">Cheng Y</author>
+                    <author order="4">Douglas SM</author>
+                    <title>Molecular goniometers for single-particle cryo-electron microscopy of DNA-binding proteins.</title>
+                    <journal_abbreviation>Nat.Biotechnol.</journal_abbreviation>
+                    <country>US</country>
+                    <volume>39</volume>
+                    <first_page>378</first_page>
+                    <last_page>386</last_page>
+                    <year>2021</year>
+                    <external_references type="PUBMED">33077960</external_references>
+                    <external_references type="DOI">doi:10.1038/s41587-020-0716-8</external_references>
+                    <external_references type="ISSN">1087-0156</external_references>
+                    <external_references type="CSD">2119</external_references>
+                    <external_references type="ASTM">NABIF9</external_references>
+                </journal_citation>
+            </primary_citation>
+            <secondary_citation>
+                <journal_citation published="true">
+                    <author order="5">Aksel T</author>
+                    <author order="6">Yu Z</author>
+                    <author order="7">Cheng Y</author>
+                    <author order="8">Douglas SM</author>
+                    <title>Molecular goniometers for single-particle cryo-EM of DNA-binding proteins</title>
+                    <journal_abbreviation>Biorxiv</journal_abbreviation>
+                    <country>US</country>
+                    <year>2020</year>
+                    <external_references type="DOI">doi:10.1101/2020.02.27.968883</external_references>
+                </journal_citation>
+            </secondary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-21443</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>BurrH bound to DNA</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>BurrH bound to DNA</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="412963">Paraburkholderia rhizoxinica</organism>
+                </natural_source>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="562">Escherichia coli</recombinant_organism>
+                </recombinant_expression>
+                <molecular_weight>
+                    <theoretical units="MDa">0.081</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>BurrH</name>
+                <enantiomer>DEXTRO</enantiomer>
+                <sequence>
+                    <string>MGSTAFVDQDKQMANRLNLSPLERSKIEKQYGGATTLAFISNKQNELAQILSRADILKIASYDCAAHALQAVLDCGPMLG
+KRGFSQSDIVKIAGNIGGAQALQAVLDLESMLGKRGFSRDDIAKMAGNIGGAQTLQAVLDLESAFRERGFSQADIVKIAG
+NNGGAQALYSVLDVEPTLGKRGFSRADIVKIAGNTGGAQALHTVLDLEPALGKRGFSRIDIVKIAANNGGAQALHAVLDL
+GPTLRECGFSQATIAKIAGNIGGAQALQMVLDLGPALGKRGFSQATIAKIAGNIGGAQALQTVLDLEPALCERGFSQATI
+AKMAGNNGGAQALQTVLDLEPALRKRDFRQADIIKIAGNDGGAQALQAVIEHGPTLRQHGFNLADIVKMAGNIGGAQALQ
+AVLDLKPVLDEHGFSQPDIVKMAGNIGGAQALQAVLSLGPALRERGFSQPDIVKIAGNTGGAQALQAVLDLELTLVEHGF
+SQPDIVRITGNRGGAQALQAVLALELTLRERGFSQPDIVKIAGNSGGAQALQAVLDLELTFRERGFSQADIVKIAGNDGG
+TQALHAVLDLERMLGERGFSRADIVNVAGNNGGAQALKAVLEHEATLNERGFSRADIVKIAGNGGGAQALKAVLEHEATL
+DERGFSRADIVRIAGNGGGAQALKAVLEHGPTLNERGFNLTDIVEMAANSGGAQALKAVLEHGPTLRQRGLSLIDIVEIA
+SNGGAQALKAVLKYGPVLMQAGRSNEEIVHVAARRGGAGRIRKMVAPLLERQWGSGHHHHHH</string>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.1</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>GOLD</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>GRAPHENE OXIDE</film_material>
+                            <film_topology>CONTINUOUS</film_topology>
+                        </support_film>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">293</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                    <details>DNA Origami goniometer complexed with BurrH. Total concentration comprises the concentrations of both.</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TALOS ARCTICA</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">200</acceleration_voltage>
+                    <nominal_defocus_min units="µm">5.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">20.0</nominal_defocus_max>
+                    <nominal_magnification>22000.0</nominal_magnification>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">56.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>Gctf</name>
+                            <version>1.06</version>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution res_type="BY AUTHOR" units="Å">6.5</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>68482</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                    <software_list>
+                        <software>
+                            <processing_details>In house written python package that can be installed via pip.</processing_details>
+                        </software>
+                    </software_list>
+                    <details>A priori angles for tilt and rot angles are assigned from DNA Origami Goniometer barcode information. Psi angles are assigned from 2D classifications that are aligned to a common reference.</details>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>5</number_classes>
+                    <average_number_members_per_class>72816.0</average_number_members_per_class>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="8389">
+        <file>emd_21443.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>128</col>
+            <row>128</row>
+            <sec>128</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>128</x>
+            <y>128</y>
+            <z>128</z>
+        </spacing>
+        <cell>
+            <a units="Å">232.96</a>
+            <b units="Å">232.96</b>
+            <c units="Å">232.96</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.06539507</minimum>
+            <maximum>0.13911764</maximum>
+            <average>9.330046e-06</average>
+            <std>0.0058135367</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.82</x>
+            <y units="Å">1.82</y>
+            <z units="Å">1.82</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.045</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-21443::::</label>
+        <annotation_details>Final refinement map for BurrH bound to DNA Goniometer tilt DNA</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <access_code>4CJA</access_code>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <target_criteria>RMSD</target_criteria>
+                <refinement_space>REAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_21443_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="8389">
+                <file>emd_21443_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">232.96</a>
+                    <b units="Å">232.96</b>
+                    <c units="Å">232.96</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.07377977</minimum>
+                    <maximum>0.13713303</maximum>
+                    <average>-3.235203e-05</average>
+                    <std>0.0062103607</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.82</x>
+                    <y units="Å">1.82</y>
+                    <z units="Å">1.82</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-21443::::</label>
+                <annotation_details>The first half map for BurrH bound to DNA Goniometer tilt DNA</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="8389">
+                <file>emd_21443_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>128</col>
+                    <row>128</row>
+                    <sec>128</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>128</x>
+                    <y>128</y>
+                    <z>128</z>
+                </spacing>
+                <cell>
+                    <a units="Å">232.96</a>
+                    <b units="Å">232.96</b>
+                    <c units="Å">232.96</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.07550484</minimum>
+                    <maximum>0.14454487</maximum>
+                    <average>0.0002127134</average>
+                    <std>0.0062138746</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.82</x>
+                    <y units="Å">1.82</y>
+                    <z units="Å">1.82</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-21443::::</label>
+                <annotation_details>The second half map for BurrH bound to DNA Goniometer tilt DNA</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

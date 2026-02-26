@@ -1,0 +1,90 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10495" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2020-07-27</depositionDate>
+            <releaseDate>2020-11-18</releaseDate>
+            <updateDate>2020-11-18</updateDate>
+        </keyDates>
+        <title>Structure and assembly of ESCRT-III helical Vps24 filaments</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-3721-5104</authorORCID>
+            <firstName>Stefan</firstName>
+            <middleName>T</middleName>
+            <lastName>Huber</lastName>
+            <organization type="academic">Department of Bionanoscience / TU Delft</organization>
+            <street>Van der Maasweg 9</street>
+            <townOrCity>Delft</townOrCity>
+            <stateOrProvince>Zuid-Holland</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>52428</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-1168-5143</authorORCID>
+            <firstName>Carsten</firstName>
+            <lastName>Sachse</lastName>
+            <organization type="academic">Forschungszentrum Jülich GmbH</organization>
+            <street>Wilhelm-Johnen-Straße</street>
+            <townOrCity>Juelich</townOrCity>
+            <stateOrProvince>NRW</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>52425</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-3721-5104">Huber ST</author>
+            <author authorORCID="0000-0002-4330-3285">Mostafavi S</author>
+            <author authorORCID="0000-0001-9013-1802">Mortensen SA</author>
+            <author authorORCID="0000-0002-1168-5143">Sachse C</author>
+        </authorsList>
+        <datasetSize units="GB">70.0</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10495</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-11212</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-3721-5104" order="1">Huber ST</author>
+                    <author authorORCID="0000-0002-4330-3285" order="2">Mostafavi S</author>
+                    <author authorORCID="0000-0001-9013-1802" order="3">Mortensen SA</author>
+                    <author authorORCID="0000-0002-1168-5143" order="4">Sachse C</author>
+                    <title>Structure and assembly of ESCRT-III helical Vps24 filaments</title>
+                    <journal>Science Advances</journal>
+                    <journalAbbreviation>Sci.Adv</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>34</issue>
+                    <volume>6</volume>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/sciadv.aba4897</externalReferences>
+                    <details>ESCRT-III proteins mediate a range of cellular membrane remodeling activities such as multivesicular body biogenesis, cytokinesis, and viral release. Critical to these processes is the assembly of ESCRT-III subunits into polymeric structures. In this study, we determined the cryo-EM structure of a helical assembly of Saccharomyces cerevisiae Vps24 at 3.2-Å resolution and found that Vps24 adopts an elongated open conformation. Vps24 forms a domain-swapped dimer extended into protofilaments that associate into a double-stranded apolar filament. We demonstrate that, upon binding negatively charged lipids, Vps24 homopolymer filaments undergo partial disassembly into shorter filament fragments and oligomers. Upon the addition of Vps24, Vps2, and Snf7, liposomes are deformed into neck and tubular structures by an ESCRT-III heteropolymer coat. The filamentous Vps24 homopolymer assembly structure and interaction studies reveal how Vps24 could introduce unique geometric properties to mixed-type ESCRT-III heteropolymers and contribute to the process of membrane scission events.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Aligned micrographs of Vps24 helical filaments</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>1320</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>3838</imageWidth>
+            <pixelWidth>1.04</pixelWidth>
+            <imageHeight>3710</imageHeight>
+            <pixelHeight>1.04</pixelHeight>
+        </dimensions>
+        <details>Selection of 1320 K2 micrographs based on specimen coverage, ice quality, and minimal
+drift. The same micrographs were used in the paper. Movies were motion-corrected and dose-weighted using MotionCor2. 40 e-/A2 cumulative exposure, 0.75 um to 3 um defocus range. 4 images per hole were taken on Quantifoil R2/1 grids.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/*mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

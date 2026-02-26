@@ -1,0 +1,102 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-12140" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-02-29</depositionDate>
+            <releaseDate>2024-09-06</releaseDate>
+            <updateDate>2024-09-06</updateDate>
+        </keyDates>
+        <title>Human PRC2 - RvLEAM(short) (1:6 molar ratio), 10 mM MgCl2</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-3327-1926</authorORCID>
+            <firstName>Ci Ji</firstName>
+            <lastName>Lim</lastName>
+            <organization type="academic">University of Wisconsin, Madison</organization>
+            <street>440 Henry Mall</street>
+            <townOrCity>Madison</townOrCity>
+            <stateOrProvince>WI</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>53706</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-3327-1926</authorORCID>
+            <firstName>Ci Ji</firstName>
+            <lastName>Lim</lastName>
+            <organization type="academic">University of Wisconsin, Madison</organization>
+            <street>440 Henry Mall</street>
+            <townOrCity>Madison</townOrCity>
+            <stateOrProvince>WI</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>53706</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-6055-5604">Abe KM</author>
+            <author authorORCID="0009-0008-6697-8825">Li G</author>
+            <author authorORCID="0000-0002-0738-679X">He Q</author>
+            <author authorORCID="0000-0002-4855-8703">Grant T</author>
+            <author authorORCID="0000-0003-3327-1926">Lim C</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</fundingBody>
+                <code>GM130550</code>
+                <country>United States</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</fundingBody>
+                <code>R00GM131023</code>
+                <country>United States</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</fundingBody>
+                <code>DP2GM150023</code>
+                <country>United States</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">380.5</datasetSize>
+        <entryDOI>10.6019/EMPIAR-12140</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-43622</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="false" preprint="true">
+                    <author authorORCID="0000-0001-6055-5604" order="1">Abe KM</author>
+                    <author authorORCID="0009-0008-6697-8825" order="2">Li G</author>
+                    <author authorORCID="0000-0002-0738-679X" order="3">He Q</author>
+                    <author authorORCID="0000-0002-4855-8703" order="4">Grant T</author>
+                    <author authorORCID="0000-0003-3327-1926" order="5">Lim C</author>
+                    <title>Small LEA proteins as an effective air-water interface protectant for fragile samples during cryo-EM grid plunge freezing</title>
+                    <journal></journal>
+                    <journalAbbreviation></journalAbbreviation>
+                    <country>United States</country>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Micrographs of Human PRC2 with RvLEAMshort (1:6 molar ratio) with 10 mM MgCl2</name>
+        <directory>/data</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>4333</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>1.063</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>1.063</pixelHeight>
+        </dimensions>
+        <details>These aligned micrographs were collected on a Talos Arctica with a K3 detector and energy filter.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/*_doseweighted.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

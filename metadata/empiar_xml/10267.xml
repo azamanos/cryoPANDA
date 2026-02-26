@@ -1,0 +1,93 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10267" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-04-11</depositionDate>
+            <releaseDate>2020-04-21</releaseDate>
+            <updateDate>2019-04-12</updateDate>
+        </keyDates>
+        <title>Cryo-EM reconstruction of CFA/I pili</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-4644-0127</authorORCID>
+            <firstName>Weili</firstName>
+            <lastName>Zheng</lastName>
+            <organization type="academic">University of Virginia</organization>
+            <street>1340 Jefferson Park Avenue</street>
+            <townOrCity>Charlottesville</townOrCity>
+            <stateOrProvince>VA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>22903</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0003-4644-0127</authorORCID>
+            <firstName>Weili</firstName>
+            <lastName>Zheng</lastName>
+            <organization type="academic">University of Virginia</organization>
+            <street>1340 Jefferson Park Avenue</street>
+            <townOrCity>Charlottesville</townOrCity>
+            <stateOrProvince>VA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>22903</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-4644-0127">Zheng W</author>
+            <author authorORCID="0000-0002-9835-3263">Andersson M</author>
+            <author>Mortezaei N</author>
+            <author authorORCID="0000-0003-2447-6209">Bullitt E</author>
+            <author authorORCID="0000-0003-4844-5212">Egelman E</author>
+        </authorsList>
+        <datasetSize units="GB">183.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10267</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-0497</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0003-4644-0127" order="1">Zheng W</author>
+                    <author authorORCID="0000-0002-9835-3263" order="2">Andersson M</author>
+                    <author order="3">Mortezaei N</author>
+                    <author authorORCID="0000-0003-2447-6209" order="4">Bullitt E</author>
+                    <author authorORCID="0000-0003-4844-5212" order="5">Egelman E</author>
+                    <title>Cryo-EM structure of the CFA/I pilus rod</title>
+                    <journal>IUCrJ</journal>
+                    <journalAbbreviation>IUCrJ</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>Pt 5</issue>
+                    <volume>6</volume>
+                    <firstPage>815</firstPage>
+                    <lastPage>821</lastPage>
+                    <year>2019</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1107/S2052252519007966</externalReferences>
+                    <externalReferences type="pubmed">31576215</externalReferences>
+                    <details>The micrographs are the motion-corrected, aligned images of 31 raw movie frames (accumulatining 40 electron per squared Angstrom in a 2 seconds exposure).</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>motion-corrected micrographs of CFA/I pili</name>
+        <directory>/data/EMPIAR</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>SPIDER</headerFormat>
+        <dataFormat>SPIDER</dataFormat>
+        <numImagesOrTiltSeries>2884</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>4096</imageWidth>
+            <pixelWidth>1.09</pixelWidth>
+            <imageHeight>4096</imageHeight>
+            <pixelHeight>1.09</pixelHeight>
+        </dimensions>
+        <details>The micrographs are the motion-corrected,aligned of 31 raw movie frames.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/EMPIAR/Corrected*.spi</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/EMPIAR/Corrected*.box</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/EMPIAR/</pickedParticlesDirectory>
+    </imageSet>
+</entry>

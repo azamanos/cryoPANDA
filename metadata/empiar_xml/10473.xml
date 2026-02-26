@@ -1,0 +1,106 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10473" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2019-06-18</depositionDate>
+            <releaseDate>2020-11-27</releaseDate>
+            <updateDate>2021-09-07</updateDate>
+        </keyDates>
+        <title>Micrograph frames from 110 internal SEMC/NYSBC test datasets used for Topaz-Denoise model generation &amp; analysis</title>
+        <correspondingAuthor private="true">
+            <firstName>Bonnie</firstName>
+            <lastName>Berger</lastName>
+            <organization type="academic">Massachusetts Institute of Technology</organization>
+            <street>77 Massachusetts Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Massachusetts</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02139</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Bonnie</firstName>
+            <lastName>Berger</lastName>
+            <organization type="academic">Massachusetts Institute of Technology</organization>
+            <street>77 Massachusetts Avenue</street>
+            <townOrCity>Cambridge</townOrCity>
+            <stateOrProvince>Massachusetts</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02139</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-8634-2279</authorORCID>
+            <firstName>Alex</firstName>
+            <lastName>Noble</lastName>
+            <organization type="academic">New York Structural Biology Center</organization>
+            <street>89 Convent Avenue</street>
+            <townOrCity>New York</townOrCity>
+            <stateOrProvince>NY</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>10027</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-5595-9954">Bepler T</author>
+            <author>Kelley K</author>
+            <author authorORCID="0000-0001-8634-2279">Noble AJ</author>
+            <author authorORCID="0000-0002-2724-7228">Berger B</author>
+        </authorsList>
+        <datasetSize units="TB">33.9</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10473</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-22059</emdbEntry>
+            <emdbEntry>EMD-22060</emdbEntry>
+            <emdbEntry>EMD-22052</emdbEntry>
+            <emdbEntry>EMD-22053</emdbEntry>
+            <emdbEntry>EMD-22056</emdbEntry>
+            <emdbEntry>EMD-22057</emdbEntry>
+            <emdbEntry>EMD-22058</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-5595-9954" order="1">Bepler T</author>
+                    <author order="2">Kelley K</author>
+                    <author authorORCID="0000-0001-8634-2279" order="3">Noble AJ</author>
+                    <author authorORCID="0000-0002-2724-7228" order="4">Berger B</author>
+                    <title>Topaz-Denoise: general deep denoising models for cryoEM and cryoET</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>1</issue>
+                    <volume>11</volume>
+                    <year>2020</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-020-18952-1</externalReferences>
+                    <externalReferences type="pubmed">33060581</externalReferences>
+                    <details>Includes raw frames, aligned micrographs using MotionCor2 with 5x5 patches, and naively summed micrographs.</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned micrograph frames from 110 internal SEMC/NYSBC test datasets</name>
+        <directory>/data/frames</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>1000000</numImagesOrTiltSeries>
+        <framesPerImage>50</framesPerImage>
+        <voxelType>UNSIGNED 16 BIT INTEGER</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>Here are micrograph frames for 110 internal SEMC/NYSBC datasets that we used to generate and analyze numerous different denoising models when writing the Topaz-Denoise software and manuscript. Many of these datasets were used in the pre-trained denoising models included in Topaz. Some frames are in mrcs format, some are in tiff format, and some are zipped with bzip2.
+
+In this EMPIAR entry, you will find an Excel (.xlsx) with sample information, pixelsize, microscope information, and total dose for each dataset.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

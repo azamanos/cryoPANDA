@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_10_1/emdb.xsd" version="3.0.10.1" emdb_id="EMD-4577">
+    <admin>
+        <current_status>
+            <date>2025-04-09</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <revision_history>
+            <revision version="1.0" date="2020-03-18">
+                <change_list>
+                    <additional_map>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </additional_map>
+                    <metadata>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </metadata>
+                    <fsc>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </fsc>
+                    <half_map part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <half_map part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <image>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </image>
+                    <primary_map>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </primary_map>
+                </change_list>
+            </revision>
+            <revision version="1.1" date="2025-04-09">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>database_2</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_database_2.pdbx_DOI</item>
+                            <item>_database_2.pdbx_database_accession</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="1.2" date="2025-04-09">
+                <change_list>
+                    <model>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>chem_comp_atom</category>
+                            <category>chem_comp_bond</category>
+                            <category>database_2</category>
+                            <category>em_admin</category>
+                            <category>pdbx_entry_details</category>
+                            <category>struct_conn</category>
+                        </categories>
+                        <items>
+                            <item>_database_2.pdbx_DOI</item>
+                            <item>_database_2.pdbx_database_accession</item>
+                            <item>_em_admin.last_update</item>
+                            <item>_struct_conn.pdbx_leaving_atom_flag</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+        </revision_history>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2019-01-31</deposition>
+            <header_release>2019-02-27</header_release>
+            <map_release>2020-03-18</map_release>
+            <update>2025-04-09</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>German Research Foundation</funding_body>
+                <code>SFB860-TP A5</code>
+                <country>Germany</country>
+            </grant_reference>
+        </grant_support>
+        <title>Structure of fatty acid synthase complex with bound gamma subunit from Saccharomyces cerevisiae at 2.8 angstrom</title>
+        <authors_list>
+            <author>Singh K</author>
+            <author>Graf B</author>
+        </authors_list>
+        <keywords>Fatty acid synthase, Acyl carrier protein, Ketosynthase, Ketoreductase, Enoyl reductase, Dehydratase, Malonyl/palmitoyl transferase, Acetyl transferase, Phosphopantetheine transferase, transferase</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Singh K</author>
+                    <author order="2">Graf B</author>
+                    <author order="3">Linden A</author>
+                    <author order="4">Sautner V</author>
+                    <author order="5">Urlaub H</author>
+                    <author order="6">Tittmann K</author>
+                    <author order="7">Stark H</author>
+                    <author order="8">Chari A</author>
+                    <title>Discovery of a Regulatory Subunit of the Yeast Fatty Acid Synthase.</title>
+                    <journal_abbreviation>Cell</journal_abbreviation>
+                    <volume>180</volume>
+                    <first_page>1130</first_page>
+                    <last_page>1143.e20</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32160528</external_references>
+                    <external_references type="DOI">doi:10.1016/j.cell.2020.02.034</external_references>
+                    <external_references type="ISSN">1097-4172</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>6ql5</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Fatty acid synthase holoenzyme complex at 2.8 angstrom resolution</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Fatty acid synthase holoenzyme complex at 2.8 angstrom resolution</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                    <strain>BJ2168 (MATa prc1-407 prb1-1122 pep4-3 leu2 trp1 ura3-52 gal2 tma17::kanMX)</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">2.6</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Fatty acid synthase subunit alpha</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.20718442199999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKPEVEQELAHILLTELLAYQFASPVRWIETQDVFLKDFNTERVVEIGPSPTLAGMAQRTLKNKYESYDAALSLHREILC
+YSKDAKEIYYTPDPSELAAKEEPAKEEAPAPTPAASAPAPAAAAPAPVAAAAPAAAAAEIADEPVKASLLLHVLVAHKLK
+KSLDSIPMSKTIKDLVGGKSTVQNEILGDLGKEFGTTPEKPEETPLEELAETFQDTFSGALGKQSSSLLSRLISSKMPGG
+FTITVARKYLQTRWGLPSGRQDGVLLVALSNEPAARLGSEADAKAFLDSMAQKYASIVGVDLSSAASASGAAGAGAAAGA
+AMIDAGALEEITKDHKVLARQQLQVLARYLKMDLDNGERKFLKEKDTVAELQAQLDYLNAELGEFFVNGVATSFSRKKAR
+TFDSSWNWAKQSLLSLYFEIIHGVLKNVDREVVSEAINIMNRSNDALIKFMEYHISNTDETKGENYQLVKTLGEQLIENC
+KQVLDVDPVYKDVAKPTGPKTAIDKNGNITYSEEPREKVRKLSQYVQEMALGGPITKESQPTIEEDLTRVYKAISAQADK
+QDISSSTRVEFEKLYSDLMKFLESSKEIDPSQTTQLAGMDVEDALDKDSTKEVASLPNKSTISKTVSSTIPRETIPFLHL
+RKKTPAGDWKYDRQLSSLFLDGLEKAAFNGVTFKDKYVLITGAGKGSIGAEVLQGLLQGGAKVVVTTSRFSKQVTDYYQS
+IYAKYGAKGSTLIVVPFNQGSKQDVEALIEFIYDTEKNGGLGWDLDAIIPFAAIPEQGIELEHIDSKSEFAHRIMLTNIL
+RMMGCVKKQKSARGIETRPAQVILPMSPNHGTFGGDGMYSESKLSLETLFNRWHSESWANQLTVCGAIIGWTRGTGLMSA
+NNIIAEGIEKMGVRTFSQKEMAFNLLGLLTPEVVELCQKSPVMADLNGGLQFVPELKEFTAKLRKELVETSEVRKAVSIE
+TALEHKVVNGNSADAAYAQVEIQPRANIQLDFPELKPYKQVKQIAPAELEGLLDLERVIVVTGFAEVGPWGSARTRWEME
+AFGEFSLEGCVEMAWIMGFISYHNGNLKGRPYTGWVDSKTKEPVDDKDVKAKYETSILEHSGIRLIEPELFNGYNPEKKE
+MIQEVIVEEDLEPFEASKETAEQFKHQHGDKVDIFEIPETGEYSVKLLKGATLYIPKALRFDRLVAGQIPTGWNAKTYGI
+SDDIISQVDPITLFVLVSVVEAFIASGITDPYEMYKYVHVSEVGNCSGSGMGGVSALRGMFKDRFKDEPVQNDILQESFI
+NTMSAWVNMLLISSSGPIKTPVGACATSVESVDIGVETILSGKARICIVGGYDDFQEEGSFEFGNMKATSNTLEEFEHGR
+TPAEMSRPATTTRNGFMEAQGAGIQIIMQADLALKMGVPIYGIVAMAATATDKIGRSVPAPGKGILTTAREHHSSVKYAS
+PNLNMKYRKRQLVTREAQIKDWVENELEALKLEAEEIPSEDQNEFLLERTREIHNEAESQLRAAQQQWGNDFYKRDPRIA
+PLRGALATYGLTIDDLGVASFHGTSTKANDKNESATINEMMKHLGRSEGNPVIGVFQKFLTGHPKGAAGAWMMNGALQIL
+NSGIIPGNRNADNVDKILEQFEYVLYPSKTLKTDGVRAVSITSFGFGQKGGQAIVVHPDYLYGAITEDRYNEYVAKVSAR
+EKSAYKFFHNGMIYNKLFVSKEHAPYTDELEEDVYLDPLARVSKDKKSGSLTFNSKNIQSKDSYINANTIETAKMIENMT
+KEKVSNGGVGVDVELITSINVENDTFIERNFTPQEIEYCSAQPSVQSSFAGTWSAKEAVFKSLGVKSLGGGAALKDIEIV
+RVNKNAPAVELHGNAKKAAEEAGVTDVKVSISHDDLQAVAVAVSTKK</string>
+                    <external_references type="UNIPROTKB">P19097</external_references>
+                </sequence>
+                <ec_number>2.3.1.86</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Fatty acid synthase subunit beta</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.227785141</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>STRPLTLSHGSLEHVLLVPTASFFIASQLQEQFNKILPEPTEGFAADDEPTTPAELVGKFLGYVSSLVEPSKVGQFDQVL
+NLCLTEFENCYLEGNDIHALAAKLLQENDTTLVKTKELIKNYITARIMAKRPFDKKSNSALFRAVGEGNAQLVAIFGGQG
+NTDDYFEELRDLYQTYHVLVGDLIKFSAETLSELIRTTLDAEKVFTQGLNILEWLENPSNTPDKDYLLSIPISCPLIGVI
+QLAHYVVTAKLLGFTPGELRSYLKGATGHSQGLVTAVAIAETDSWESFFVSVRKAITVLFFIGVRCYEAYPNTSLPPSIL
+EDSLENNEGVPSPMLSISNLTQEQVQDYVNKTNSHLPAGKQVEISLVNGAKNLVVSGPPQSLYGLNLTLRKAKAPSGLDQ
+SRIPFSERKLKFSNRFLPVASPFHSHLLVPASDLINKDLVKNNVSFNAKDIQIPVYDTFDGSDLRVLSGSISERIVDCII
+RLPVKWETTTQFKATHILDFGPGGASGLGVLTHRNKDGTGVRVIVAGTLDINPDDDYGFKQEIFDVTSNGLKKNPNWLEE
+YHPKLIKNKSGKIFVETKFSKLIGRPPLLVPGMTPCTVSPDFVAATTNAGYTIELAGGGYFSAAGMTAAIDSVVSQIEKG
+STFGINLIYVNPFMLQWGIPLIKELRSKGYPIQFLTIGAGVPSLEVASEYIETLGLKYLGLKPGSIDAISQVINIAKAHP
+NFPIALQWTGGRGGGHHSFEDAHTPMLQMYSKIRRHPNIMLIFGSGFGSADDTYPYLTGEWSTKFDYPPMPFDGFLFGSR
+VMIAKEVKTSPDAKKCIAACTGVPDDKWEQTYKKPTGGIVTVRSEMGEPIHKIATRGVMLWKEFDETIFNLPKNKLVPTL
+EAKRDYIISRLNADFQKPWFATVNGQARDLATMTYEEVAKRLVELMFIRSTNSWFDVTWRTFTGDFLRRVEERFTKSKTL
+SLIQSYSLLDKPDEAIEKVFNAYPAAREQFLNAQDIDHFLSMCQNPMQKPVPFVPVLDRRFEIFFKKDSLWQSEHLEAVV
+DQDVQRTCILHGPVAAQFTKVIDEPIKSIMDGIHDGHIKKLLHQYYGDDESKIPAVEYFGGESPVDVQSDSEDSAVFKAT
+SSTDEESWFKALAGSEINWRHASFLCSFITQDKMFVSNPIRKVFKPSQGMVVEISNGNTSSKTVVTLSEPVQGELKPTVI
+LKLLKENIIQMEMIENRTMDGKPVSLPLLYNFNPDNGFAPISEVMEDRNQRIKEMYWKLWIDEPFNLDFDPRDVIKGKDF
+EITAKEVYDFTHAVGNNCEDFVSRPDRTMLAPMDFAIVVGWRAIIKAIFPNTVDGDLLKLVHLSNGYKMIPGAKPLQVGD
+VVSTTAVIESVVNQPTGKIVDVVGTLSRNGKPVMEVTSSFFYRGNYTDFENTFQKTVEPVYQMHIKTSKDIAVLRSKEWF
+QLDDEDFDLLNKTLTFETETEVTFKNANIFSSVKCFGPIKVELPTKETVEIGIVDYEAGASHGNPVVDFLKRNGSTLEQK
+VNLENPIPIAVLDSYTPSTNEPYARVSGDLNPIHVSRHFASYANLPGTITHGMFSSASVRALIENWAADSVSSRVRGYTC
+QFVDMVLPNTALKTSIQHVGMINGRKLIKFETRNEDDVVVLTGEAEIEQPVTTFVFTGQGSQEQGMGMDLYKTSKAAQDV
+WNRADNHFKDTYGFSILDIVINNPVNLTIHFGGEKGKRIRENYSAMIFETIVDGKLKTEKIFKEINEHSTSYTFRSEKGL
+LSATQFTQPALTLMEKAAFEDLKSKGLIPADATFAGHSLGEYAALASLADVMSIESLVEVVFYRGMTMQVAVPRDELGRS
+NYGMIAINPGRVAASFSQEALQYVVERVGKRTGWLVEIVNYNVENQQYVAAGDLRALDTVTNVLNFIKLQKIDIIELQKS
+LSLEEVEGHLFEIIDEASKKSAVKPRPLKLERGFACIPLVGISVPFHSTYLMNGVKPFKSFLKKNIIKENVKVARLAGKY
+IPNLTAKPFQVTKEYFQDVYDLTGSEPIKEIIDNWEKYEQ</string>
+                    <external_references type="UNIPROTKB">P07149</external_references>
+                </sequence>
+                <ec_number>2.3.1.86</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Translation machinery-associated protein 17</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="4932">Saccharomyces cerevisiae</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.016558116999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SAGGIRRPIQIEEFKTAISGMSDMELAQIKTEIENSINHLQRSNARLGKYIAKLEGADDRLEADDSDDLENIDSGDLALY
+KDSVRENEIVLNNYNERVDALEQETVYRKTGHGKSKHEVEAKDNTNKGPDVDMDNSNVDVVTPNSIFI</string>
+                    <external_references type="UNIPROTKB">Q12513</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="4">
+                <name>4'-PHOSPHOPANTETHEINE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000358348</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>PNS</formula>
+            </ligand>
+            <ligand macromolecule_id="5">
+                <name>FLAVIN MONONUCLEOTIDE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00045634399999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>FMN</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.5</concentration>
+                    <buffer>
+                        <ph>6.5</ph>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <name>BisTris pH 6.5</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <name>Potassium acetate</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <name>Magnesium acetate</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <name>Dithiothreitol</name>
+                        </component>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">278</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">3.0</nominal_defocus_max>
+                    <nominal_magnification>132000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON III (4k x 4k)</film_or_detector_model>
+                            <detector_mode>INTEGRATING</detector_mode>
+                            <number_real_images>5441</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">48.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>856940</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="EMDB MAP">
+                    <emdb_id>EMD-1623</emdb_id>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>D3</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.8</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>110597</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="131073">
+        <file>emd_4577.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>320</col>
+            <row>320</row>
+            <sec>320</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>320</x>
+            <y>320</y>
+            <z>320</z>
+        </spacing>
+        <cell>
+            <a units="Å">339.19998</a>
+            <b units="Å">339.19998</b>
+            <c units="Å">339.19998</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.057575833</minimum>
+            <maximum>0.14180543</maximum>
+            <average>0.00007031265</average>
+            <std>0.009491231</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.06</x>
+            <y units="Å">1.06</y>
+            <z units="Å">1.06</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.016</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-4577::::</label>
+        <annotation_details>Sharpened map</annotation_details>
+    </map>
+    <interpretation>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="131073">
+                <file>emd_4577_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">339.19998</a>
+                    <b units="Å">339.19998</b>
+                    <c units="Å">339.19998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.030299636</minimum>
+                    <maximum>0.0787329</maximum>
+                    <average>-0.00008894714</average>
+                    <std>0.0076214783</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.06</x>
+                    <y units="Å">1.06</y>
+                    <z units="Å">1.06</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-4577::::</label>
+                <annotation_details>unsharpened map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="131073">
+                <file>emd_4577_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">339.19998</a>
+                    <b units="Å">339.19998</b>
+                    <c units="Å">339.19998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.03110156</minimum>
+                    <maximum>0.08005862</maximum>
+                    <average>0.00007080487</average>
+                    <std>0.0077356375</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.06</x>
+                    <y units="Å">1.06</y>
+                    <z units="Å">1.06</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-4577::::</label>
+                <annotation_details>half map 2</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="131073">
+                <file>emd_4577_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>320</col>
+                    <row>320</row>
+                    <sec>320</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>320</x>
+                    <y>320</y>
+                    <z>320</z>
+                </spacing>
+                <cell>
+                    <a units="Å">339.19998</a>
+                    <b units="Å">339.19998</b>
+                    <c units="Å">339.19998</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.031114906</minimum>
+                    <maximum>0.08095117</maximum>
+                    <average>0.000069820424</average>
+                    <std>0.0077394187</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.06</x>
+                    <y units="Å">1.06</y>
+                    <z units="Å">1.06</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-4577::::</label>
+                <annotation_details>half map 1</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

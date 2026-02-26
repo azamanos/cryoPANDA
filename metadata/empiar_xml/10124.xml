@@ -1,0 +1,114 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10124" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2017-11-01</depositionDate>
+            <releaseDate>2018-01-22</releaseDate>
+            <updateDate>2018-01-22</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of the TMEM16A in LMNG</title>
+        <correspondingAuthor private="true">
+            <firstName>Shangyu</firstName>
+            <lastName>Dang</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, University of California San Francisco</organization>
+            <street>600 16th St.</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Yifan</firstName>
+            <lastName>Cheng</lastName>
+            <organization type="academic">Department of Biochemistry and Biophysics, University of California San Francisco</organization>
+            <street>600 16th St.</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <firstName>Lily</firstName>
+            <middleName>Yeh</middleName>
+            <lastName>Jan</lastName>
+            <organization type="academic">Department of Physiology, University of California San Francisco</organization>
+            <street>1550 4th St.</street>
+            <townOrCity>San Francisco</townOrCity>
+            <stateOrProvince>CA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>94158</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Dang S</author>
+            <author>Cheng Y</author>
+        </authorsList>
+        <datasetSize units="GB">244.2</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10124</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-7096</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="13">Nung Jan Y</author>
+                    <author order="16">Yeh Jan L</author>
+                    <title>Cryo-EM structures of the TMEM16A calcium-activated chloride channel</title>
+                    <journal>Nature</journal>
+                    <journalAbbreviation>Nature</journalAbbreviation>
+                    <country>United States</country>
+                    <issue>7685</issue>
+                    <volume>552</volume>
+                    <firstPage>426</firstPage>
+                    <lastPage>429</lastPage>
+                    <year>2017</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/nature25024</externalReferences>
+                    <externalReferences type="pubmed">29236684</externalReferences>
+                    <details>Stacks of particles extracted from motion corrected micrographs</details>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Particle stacks extracted from motion corrected micrographs of TMEM16A in LMNG</name>
+        <directory>/data/16A_LMNG</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>5010</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>256</imageWidth>
+            <pixelWidth>1.02</pixelWidth>
+            <imageHeight>256</imageHeight>
+            <pixelHeight>1.02</pixelHeight>
+        </dimensions>
+        <details>LMNG_all.star includes all raw particles.
+LMNG_final.star includes particles used for final construction.
+</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Particle stacks extracted from motion corrected micrographs of TMEM16A bound with Fab in LMNG</name>
+        <directory>/data/16A_LMNG_Fab</directory>
+        <category>picked particles - single frame - processed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>2556</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>300</imageWidth>
+            <pixelWidth>1.02</pixelWidth>
+            <imageHeight>300</imageHeight>
+            <pixelHeight>1.02</pixelHeight>
+        </dimensions>
+        <details>LMNG_Fab_all_particles.star includes all raw particles.
+LMNG_Fab_final_particles.star includes particles which used for subtraction of Fab density and combined with LMNG_final.star for final reconstruction.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>

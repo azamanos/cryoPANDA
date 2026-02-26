@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-22975">
+    <admin>
+        <current_status>
+            <date>2024-09-25</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-11-09</deposition>
+            <header_release>2021-03-24</header_release>
+            <map_release>2021-03-24</map_release>
+            <update>2024-09-25</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funding_body>
+                <code>R01 GM30598</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>American Heart Association</funding_body>
+                <code>20PRE35120273</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Lethocerus Myosin II complete coiled-coil domain resolved in its native environment</title>
+        <authors_list>
+            <author>Rahmani H</author>
+            <author>Hu Z</author>
+            <author>Daneshparvar N</author>
+            <author>Taylor D</author>
+            <author>Irving T</author>
+            <author>Edwards RJ</author>
+            <author>Taylor KA</author>
+        </authors_list>
+        <keywords>striated muscle, asynchronous flight muscle, MOTOR PROTEIN</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Rahmani H</author>
+                    <author order="2">Ma W</author>
+                    <author order="3">Hu Z</author>
+                    <author order="4">Daneshparvar N</author>
+                    <author order="5">Taylor DW</author>
+                    <author order="6">McCammon JA</author>
+                    <author order="7">Irving TC</author>
+                    <author order="8">Edwards RJ</author>
+                    <author order="9">Taylor KA</author>
+                    <title>The myosin II coiled-coil domain atomic structure in its native environment.</title>
+                    <journal_abbreviation>Proc.Natl.Acad.Sci.USA</journal_abbreviation>
+                    <country>US</country>
+                    <volume>118</volume>
+                    <year>2021</year>
+                    <external_references type="PUBMED">33782130</external_references>
+                    <external_references type="DOI">doi:10.1073/pnas.2024151118</external_references>
+                    <external_references type="ISSN">1091-6490</external_references>
+                    <external_references type="CSD">0040</external_references>
+                    <external_references type="ASTM">PNASA6</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-3301</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>Previous structure with lower resolution</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-7029</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+                <details>Structure of poorly ordered myosin filaments</details>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>7kog</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Lethocerus flight muscle myosin filament</name>
+        <supramolecule_list>
+            <organelle_or_cellular_component_supramolecule supramolecule_id="1">
+                <name>Lethocerus flight muscle myosin filament</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>The sample is a bipolar helical structure, with helical repeat 145 Angstrom and helical turn 33.98 degree. The sample has C4 symmetry. The map contains 6 unique features: myosin molecule with completely resolved rods, 4 resolved non-myosin densities among the myosin rods and an annular region inside of annulus occupied by myosin rods that most likely contains paramyosin. The 4 non-myosin densities may contain parts of the proteins myofilin and flightin.</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="212017">Lethocerus indicus</organism>
+                    <organ>myocyte</organ>
+                    <tissue>dorsal longitudinal indirect flight muscle</tissue>
+                    <organelle>Sarcomere</organelle>
+                    <cellular_location>myofibril</cellular_location>
+                </natural_source>
+            </organelle_or_cellular_component_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Myosin heavy chain isoform Mhc_X1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="212017">Lethocerus indicus</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.225227562</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPGSKPTKTEEEDDPTPYLFVSLEQKRIDQTKPYDAKKACWVPDEHEGFVQGEIRGTKGDIVSVHLPNGETKDFKKDQVG
+QVNPPKFEKCEDMSNLTYLNDASVLYNLKQRYYNKLIYTYSGLFCVAINPYKRFPVYTMRCAKLYRGKRRNEVPPHIFAI
+SDGAYVNMLTNKENQSMLITGESGAGKTENTKKVIAYFATVGASTKKEEAASAASQKKGTLEDQVVQTNPVLEAFGNAKT
+VRNDNSSRFGKFIRIHFGPSGKLAGADIETYLLEKARVISQQSLERSYHIFYQVMSGAVPGVKELCLLSNDIYEYNYVSQ
+GKVTIPSVDDGEEFQATDQAFDVLGFTQEEKDDIYKITASVMHMGCMKFKQRGREEQAEADGTAEGERVAKLLGLEAADL
+YKNLLKPRIKVGNEFVTQGRNLNQVIYSVGALSKGVFDRLFKFLVKKCNETLDTKQKRQHFIGVLDIAGFEIFDFNGFEQ
+LCINFTNEKLQQFFNHHMFVLEQEEYTREGITWAFIDFGMDLVACIDLIEKPMGILSILEEESMFPKATDKTFEEKLMNN
+HLGKSPNFQKPKPPKPGCQAAHFAISHYAGVVSYNLTGWLEKNKDPLNDTVVDQFKKGSNKLLVEIFADHPGQSGAPEAG
+GGGKGGRGKKGGGFATVSSSYKEQLNNLMTTLKSTQPHFVRCIIPNELKQPGLIDSHLVMHQLTCNGVLEGIRICRKGFP
+NRMVYPDFKLRYMILAPATMAAEPDPKKAADKCLKEVGLESETYRIGHTKVFFRAGVLGQLEEMRDERLSKIIGWMQSHI
+RGYLARKQFKKYQDQRLSLQVVQRNLRKYMALRTWPWWKMWTKVKPLLNVANVEEEMRKLEELVATTQAALEKEEKARKE
+VEALNAKLIQEKTDLLRNLEGEKGSISSIQEKAAKLQAQKSDLESQLMDTQERLQQEEDNRNQMFQQKKKLEQEVGGLKK
+DIEDLELSLQKSDQDKASKDHQIRNLNDEIAHQDELINKLNKEKKMQGEHTQKTAEELQASEDKVNHLTKVKAKLEQTLD
+ELEDSLEREKKLRGDVEKAKRKVEGDLKLTQEAVADLERNKKELEQTIQRKDKEIASLTAKLEDEQSIVSKTQKQIKELQ
+SRIEELEEEVEAERQARGKAEKQRADLARELEELGERLEEAGGATSAQIELNKKREAEMSKLRRDLEESNIQHESTLANL
+RKKHNDAVSEMGEQIDQLNKLKTKAEHDRTHVQNDLNNTRHALDQMCREKAATEKIAKQLQHQVNEIQGKLDEANRTLND
+FDSAKKKLSIENSDLLRQLEEAESQVSQLSKIKVSLTTQLEDTKRLADEEARERATLLGKFRNLEHDLDNIREQLEEEAE
+GKADIQRQLSKANAEAQLWRTKYESEGVARAEELEEAKRKLQARLAEAEETIESLNQKVIALEKTKQRLATEVEDLQLEV
+DRATAIANAAEKKAKAIDKIIGEWKLKVDDLAAELDASQKECRNYSTELFRLKGAYEEAQEQLEAVRRENKNLADEVKDL
+LDQIGEGGRNIHEIEKQKKRLEVEKDELQAALEEAEAALEQEENKVLRSQLELSQVRQEIDRRIQEKEEEFENTRKNHQR
+ALDSMQASLEAEAKGKAEALRMKKKLEADINELEIALDHANKANSEAQKTIKKYQQQLKDVQTALEEEQRARDDAREQLG
+ISERRANALQNELEESRTLLEQADRGRRQAEQELGDAHEQINELAAQATSASAAKRKLEGELQTLHADLDELLNEAKNSE
+EKAKKAMVDAARLADELRAEQDHAQTQEKLRKALETQIKELQIRLDEAETNALKGGKKAIAKLEQRVRELENELDGEQRR
+HADAQKNLRKSERRIKELSFQADEDRKNHERMQDLVDKLQQKIKTYKRQIEEAEEIAALNLAKFRKAQQELEEAEERADL
+AEQAIAKFRTKGGRAGSAARAMSPVAHRPPVKHPLDGSTFPPRFDLHEDMM</string>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>filament</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>6.8</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>DIRECT ELECTRON DE-64 (8k x 8k)</film_or_detector_model>
+                            <detector_mode>INTEGRATING</detector_mode>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">8192</width>
+                                    <height units="pixel">8192</height>
+                                </dimensions>
+                                <frames_per_image>1-34</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>3507</number_real_images>
+                            <average_electron_dose_per_image units="e/Å^2">60.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <startup_model type_of_model="EMDB MAP"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">4.25</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cisTEM</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>173515</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>RANDOM ASSIGNMENT</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>PROJECTION MATCHING</type>
+                    <projection_matching_processing/>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>50</number_classes>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="174488">
+        <file>emd_22975.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>140</col>
+            <row>182</row>
+            <sec>1712</sec>
+        </dimensions>
+        <origin>
+            <col>1044</col>
+            <row>936</row>
+            <sec>239</sec>
+        </origin>
+        <spacing>
+            <x>140</x>
+            <y>182</y>
+            <z>1712</z>
+        </spacing>
+        <cell>
+            <a units="Å">137.2</a>
+            <b units="Å">178.36</b>
+            <c units="Å">1677.76</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.07149465</minimum>
+            <maximum>3.2776268</maximum>
+            <average>0.0024193982</average>
+            <std>0.046974123</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.97999996</x>
+            <y units="Å">0.98</y>
+            <z units="Å">0.98</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.12</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-22975::::</label>
+        <annotation_details>One myosin molecule segmented out of the helically extended reconstruction</annotation_details>
+    </map>
+</emd>

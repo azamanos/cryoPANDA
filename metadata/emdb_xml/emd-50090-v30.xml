@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_9_3/emdb.xsd" version="3.0.9.3" emdb_id="EMD-50090">
+    <admin>
+        <current_status>
+            <date>2024-07-24</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2024-04-14</deposition>
+            <header_release>2024-06-19</header_release>
+            <map_release>2024-06-19</map_release>
+            <update>2024-07-24</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>820150</code>
+                <country>European Union</country>
+            </grant_reference>
+        </grant_support>
+        <title>Vibrio cholerae DdmD apo complex</title>
+        <authors_list>
+            <author>Loeff L</author>
+            <author>Jinek M</author>
+        </authors_list>
+        <keywords>Helicase, Nuclease, Complex, Effector, IMMUNE SYSTEM</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Loeff L</author>
+                    <author order="2">Adams DW</author>
+                    <author order="3">Chanez C</author>
+                    <author order="4">Stutzmann S</author>
+                    <author order="5">Righi L</author>
+                    <author order="6">Blokesch M</author>
+                    <author order="7">Jinek M</author>
+                    <title>Molecular mechanism of plasmid elimination by the DdmDE defense system.</title>
+                    <journal_abbreviation>Science</journal_abbreviation>
+                    <country>US</country>
+                    <volume>385</volume>
+                    <first_page>188</first_page>
+                    <last_page>194</last_page>
+                    <year>2024</year>
+                    <external_references type="PUBMED">38870273</external_references>
+                    <external_references type="DOI">doi:10.1126/science.adq0534</external_references>
+                    <external_references type="ISSN">1095-9203</external_references>
+                    <external_references type="CSD">0038</external_references>
+                    <external_references type="ASTM">SCIEAS</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>9ezx</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+    </crossreferences>
+    <sample>
+        <name>Dimeric complex of the DdmD protein</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Dimeric complex of the DdmD protein</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="666">Vibrio cholerae</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.266</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Helicase/UvrB N-terminal domain-containing protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="666">Vibrio cholerae</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.136427594</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="469008">Escherichia coli BL21(DE3)</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SNAMNVSIEEFTHFDFQLVPEPSPLDLVITEPLKNHIEVNGVKSGALLPLPFQTGIGKTYTALNFLLQQMLEQVRSELKE
+ENTGKKSKRLLYYVTDSVDNVVSAKADLLKLIEKQTVKGEPRFTLEQQEYLKAQIVHLPNQSEQLLQCSDAVLNDVLIGF
+NLNAERDVQAEWSAISGLRRHASNPEVKISLNRQAGYFYRNLIDRLQKKQKGADRVLLSGSLLASVETLLPGEKIRNGSA
+HVAFLTTSKFLKGFHNTRSRYSPLRDLSGAVLIIDEIDKQNQVILSELCKQQAQDLIWAIRTLRANFRDHQLESSPRYDK
+IEDLFEPLRERLEEFGTNWNLAFAFNTEGANLNERPVRLFSDRSFTHVSSATHKLSLKSDFLRRKNLIFSDEKVEGSLIE
+KHGLLTRFVNEADVIYQWFLGTMRKAVFQYWENVRGLEIEVRENRSLEGTFQEAVQSLLTHFNLQEFESAVYESFDTRGL
+RQSAGGKANKLSSSKSYHHTGLKLVEVAHNQGTRDTVNCKASFLNTSPSGVLADMVDAGAVILGISATARADTVIHNFDF
+KYLNERLGNKLLSLSREQKQRVNNYYHSRRNYKDNGVVLTVKYLNSRDAFLDALLEEYKPEARSSHFILNHYLGIAESEQ
+AFVRSWLSKLLASIKAFISSPDNRYMLSLLNRTLDTTRQNINDFIQFCCDKWAKEFNVKTKTFFGVNADWMRLVGYDEIS
+KHLNTELGKVVVFSTYASMGAGKNPDYAVNLALEGESLISVADVTYSTQLRSDIDSIYLEKPTQLLLSDDYSHTANQLCQ
+FHQILSLQENGELSPKSAENWCRQQLMGMSRERSLQQYHQTSDYQSAVRKYIEQAVGRAGRTSLKRKQILLFVDSGLKEI
+LAEESRDPSLFSHEYVALVNKAKSAGKSIVEDRAVRRLFNLAQRNNKDGMLSIKALVHRLHNQPASKSDIQEWQDIRTQL
+LRYPTVAFQPERFNRLYLQSMTKGYYRYQGNLDGDPNSFEFFDRVPYGDMVSEEDCSLATLVQNQYVRPWFERKGFACSW
+QKEANVMTPIMFTNIYKGALGEQAVEAVLTAFDFTFEEVPNSIYERFDNRVIFAGIEQPIWLDSKYWKHEGNESSEGYSS
+KIALVEEEFGPSKFIYVNALGDTSKPIRYLNSCFVETSPQLAKVIEIPALIDDSNADTNRTAVQELIKWLHHS</string>
+                    <external_references type="UNIPROTKB">Q9KR72</external_references>
+                </sequence>
+            </protein_or_peptide>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1.5</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>Tris-HCl</formula>
+                            <name>Tris hydrochloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">350.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>Sodium chloride</name>
+                        </component>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                    <details>This sample was monodisperse.</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">1.0</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.4</nominal_defocus_max>
+                    <calibrated_magnification>130000.0</calibrated_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">59.98</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>2023352</number_selected>
+                </particle_selection>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C2</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.55</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.4.1.</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>184227</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.4.1.</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="764412">
+        <file>emd_50090.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>576</col>
+            <row>576</row>
+            <sec>576</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>576</x>
+            <y>576</y>
+            <z>576</z>
+        </spacing>
+        <cell>
+            <a units="Å">374.4</a>
+            <b units="Å">374.4</b>
+            <c units="Å">374.4</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.077990845</minimum>
+            <maximum>0.2035368</maximum>
+            <average>0.00002018019</average>
+            <std>0.0033595234</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.65</x>
+            <y units="Å">0.65</y>
+            <z units="Å">0.65</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.0299</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-50090::::</label>
+        <annotation_details>Unsharpened map</annotation_details>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <chain>
+                        <source_name>AlphaFold</source_name>
+                        <initial_model_type>in silico model</initial_model_type>
+                    </chain>
+                    <details>Initial model was generated with alpha fold</details>
+                </initial_model>
+            </modelling>
+        </modelling_list>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_50090_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="764412">
+                <file>emd_50090_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>576</col>
+                    <row>576</row>
+                    <sec>576</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>576</x>
+                    <y>576</y>
+                    <z>576</z>
+                </spacing>
+                <cell>
+                    <a units="Å">374.4</a>
+                    <b units="Å">374.4</b>
+                    <c units="Å">374.4</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.6339273</minimum>
+                    <maximum>0.8363405</maximum>
+                    <average>0.00002018019</average>
+                    <std>0.012599212</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.65</x>
+                    <y units="Å">0.65</y>
+                    <z units="Å">0.65</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-50090::::</label>
+                <annotation_details>Sharpened EM map</annotation_details>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="764412">
+                <file>emd_50090_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>576</col>
+                    <row>576</row>
+                    <sec>576</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>576</x>
+                    <y>576</y>
+                    <z>576</z>
+                </spacing>
+                <cell>
+                    <a units="Å">374.4</a>
+                    <b units="Å">374.4</b>
+                    <c units="Å">374.4</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.11383437</minimum>
+                    <maximum>0.23647493</maximum>
+                    <average>0.000043958913</average>
+                    <std>0.011747136</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.65</x>
+                    <y units="Å">0.65</y>
+                    <z units="Å">0.65</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-50090::::</label>
+                <annotation_details>Half map A</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="764412">
+                <file>emd_50090_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>576</col>
+                    <row>576</row>
+                    <sec>576</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>576</x>
+                    <y>576</y>
+                    <z>576</z>
+                </spacing>
+                <cell>
+                    <a units="Å">374.4</a>
+                    <b units="Å">374.4</b>
+                    <c units="Å">374.4</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.118456155</minimum>
+                    <maximum>0.23775265</maximum>
+                    <average>0.00004421509</average>
+                    <std>0.011735405</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.65</x>
+                    <y units="Å">0.65</y>
+                    <z units="Å">0.65</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-50090::::</label>
+                <annotation_details>Half map A</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

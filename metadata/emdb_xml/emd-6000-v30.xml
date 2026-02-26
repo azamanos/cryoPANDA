@@ -1,0 +1,215 @@
+<emd emdb_id="EMD-6000" version="3.0.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_1_1/emdb_relaxed.xsd">
+    <admin>
+        <current_status>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2014-07-10</deposition>
+            <header_release>2014-08-20</header_release>
+            <map_release>2014-09-10</map_release>
+            <update>2016-02-17</update>
+        </key_dates>
+        <title>Full virus map of Brome Mosaic Virus</title>
+        <authors_list>
+            <author>Wang Z</author>
+            <author>Hryc FC</author>
+            <author>Bammes B</author>
+            <author>Afonine PV</author>
+            <author>Jakana J</author>
+            <author>Chen DH</author>
+            <author>Liu XA</author>
+            <author>Baker ML</author>
+            <author>Kao C</author>
+            <author>Ludtke SJ</author>
+            <author>Schmid MF</author>
+            <author>Adams PD</author>
+            <author>Chiu W</author>
+        </authors_list>
+        <keywords />
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Wang Z</author>
+                    <author order="2">Hryc CF</author>
+                    <author order="3">Bammes B</author>
+                    <author order="4">Afonine PV</author>
+                    <author order="5">Jakana J</author>
+                    <author order="6">Chen DH</author>
+                    <author order="7">Liu X</author>
+                    <author order="8">Baker ML</author>
+                    <author order="9">Kao C</author>
+                    <author order="10">Ludtke SJ</author>
+                    <author order="11">Schmid MF</author>
+                    <author order="12">Adams PD</author>
+                    <author order="13">Chiu W</author>
+                    <title>An atomic model of brome mosaic virus using direct electron detection and real-space optimization</title>
+                    <journal>Nature Communications</journal>
+                    <volume>5</volume>
+                    <first_page>4808</first_page>
+                    <last_page>4808</last_page>
+                    <year>2014</year>
+                    <external_references type="PUBMED">25185801</external_references>
+                    <external_references type="DOI">doi:10.1038/ncomms5808</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>3j7l</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+            <pdb_reference>
+                <pdb_id>3j7m</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+            <pdb_reference>
+                <pdb_id>3j7n</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+        <auxiliary_link_list>
+            <auxiliary_link>
+                <link>http://dx.doi.org/10.6019/EMPIAR-10010</link>
+            </auxiliary_link>
+        </auxiliary_link_list>
+    </crossreferences>
+    <sample>
+        <name>brome mosaic virus</name>
+        <supramolecule_list>
+            <sample_supramolecule supramolecule_id="1000">
+                <name>brome mosaic virus</name>
+                <number_unique_components>1</number_unique_components>
+                <molecular_weight>
+                    <theoretical units="MDa">4.6</theoretical>
+                </molecular_weight>
+            </sample_supramolecule>
+            <virus_supramolecule supramolecule_id="1">
+                <name>Brome mosaic virus</name>
+                <sci_species_name ncbi="12302">Brome mosaic virus</sci_species_name>
+                <natural_host database="NCBI">
+                    <organism ncbi="4565">Triticum aestivum</organism>
+                    <synonym_organism>PLANTAE(HIGHER PLANTS)</synonym_organism>
+                </natural_host>
+                <host_system database="NCBI" />
+                <virus_type>VIRION</virus_type>
+                <virus_isolate>STRAIN</virus_isolate>
+                <virus_enveloped>false</virus_enveloped>
+                <virus_empty>false</virus_empty>
+            </virus_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">171.0</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>JEOL 3200FSC</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="&#181;m">0.5</nominal_defocus_min>
+                    <nominal_defocus_max units="&#181;m">2.0</nominal_defocus_max>
+                    <nominal_magnification>50000.0</nominal_magnification>
+                    <specimen_holder_model>JEOL 3200FSC CRYOHOLDER</specimen_holder_model>
+                    <date>2013-01-10</date>
+                    <image_recording_list>
+                        <image_recording>
+                            <film_or_detector_model category="CCD">DIRECT ELECTRON DE-12 (4k x 3k)</film_or_detector_model>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <final_reconstruction>
+                    <resolution res_type="BY AUTHOR" units="&#8491;">3.8</resolution>
+                    <resolution_method>OTHER</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>MPSA, EMAN</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>30000</number_images_used>
+                </final_reconstruction>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="289408">
+        <file>emd_6000.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>420</col>
+            <row>420</row>
+            <sec>420</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>420</x>
+            <y>420</y>
+            <z>420</z>
+        </spacing>
+        <cell>
+            <a units="&#8491;">415.8</a>
+            <b units="&#8491;">415.8</b>
+            <c units="&#8491;">415.8</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-10.33948612</minimum>
+            <maximum>17.469449999999998</maximum>
+            <average>0.00000003</average>
+            <std>1.11417329</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="&#8491;">0.99</x>
+            <y units="&#8491;">0.99</y>
+            <z units="&#8491;">0.99</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>5.0</level>
+                <source>EMDB</source>
+            </contour>
+        </contour_list>
+        <annotation_details>full BMV map with combined data</annotation_details>
+        <details>::::EMDATABANK.org::::EMD-6000::::</details>
+    </map>
+</emd>

@@ -1,0 +1,139 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11511" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2023-04-03</depositionDate>
+            <releaseDate>2024-07-16</releaseDate>
+            <updateDate>2024-08-27</updateDate>
+        </keyDates>
+        <title>Cryo-EM structure of human pseudouridine synthase 3 and tRNA-Gln</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0003-2815-7133</authorORCID>
+            <firstName>Sebastian</firstName>
+            <lastName>Glatt</lastName>
+            <organization type="academic">Malopolska Centrum Biotechnology</organization>
+            <street>gronostajowa 7a</street>
+            <townOrCity>Krakow</townOrCity>
+            <stateOrProvince>malopolska</stateOrProvince>
+            <country>Poland</country>
+            <postOrZipCode>30-387</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0001-7914-2164</authorORCID>
+            <firstName>Ting-Yu</firstName>
+            <lastName>Lin</lastName>
+            <organization type="academic">Jagiellonian University Krakow</organization>
+            <street>gronostajowa 7a</street>
+            <townOrCity>Krakow</townOrCity>
+            <stateOrProvince>malopolska</stateOrProvince>
+            <country>Poland</country>
+            <postOrZipCode>30-387</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-7914-2164">Lin T.-Y.</author>
+            <author authorORCID="0000-0003-2815-7133">Glatt S.</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Polish National Science Centre</fundingBody>
+                <code>2019/35/D/NZ1/02397</code>
+                <country>Poland</country>
+            </grantReference>
+            <grantReference>
+                <fundingBody>European Research Council (ERC)</fundingBody>
+                <code>101001394</code>
+                <country>Poland</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="TB">3.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11511</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-16926</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-7914-2164" order="1">Lin TY</author>
+                    <author order="2">Kleemann L</author>
+                    <author authorORCID="0000-0002-8785-138X" order="3">Jeżowski J</author>
+                    <author order="4">Dobosz D</author>
+                    <author order="5">Rawski M</author>
+                    <author order="6">Indyka P</author>
+                    <author order="7">Ważny G</author>
+                    <author order="8">Mehta R</author>
+                    <author order="9">Chramiec-Głąbik A</author>
+                    <author authorORCID="0000-0003-3885-3845" order="10">Koziej Ł</author>
+                    <author order="11">Ranff T</author>
+                    <author order="12">Fufezan C</author>
+                    <author order="13">Wawro M</author>
+                    <author order="14">Kochan J</author>
+                    <author order="15">Bereta J</author>
+                    <author order="16">Leidel SA</author>
+                    <author authorORCID="0000-0003-2815-7133" order="17">Glatt S</author>
+                    <title>The molecular basis of tRNA selectivity by human pseudouridine synthase 3</title>
+                    <journal>Molecular cell</journal>
+                    <journalAbbreviation>Mol Cell</journalAbbreviation>
+                    <country></country>
+                    <issue>13</issue>
+                    <volume>84</volume>
+                    <firstPage>2472</firstPage>
+                    <lastPage>2489.e8</lastPage>
+                    <year>2024</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1016/j.molcel.2024.06.013</externalReferences>
+                    <externalReferences type="pubmed">38996458</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Cryo-EM structure of human PUS3-tRNA complex</name>
+        <directory>/data/tiffs</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>8792</numImagesOrTiltSeries>
+        <framesPerImage>40</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>variable</imageWidth>
+            <pixelWidth>variable</pixelWidth>
+            <imageHeight>variable</imageHeight>
+            <pixelHeight>variable</pixelHeight>
+        </dimensions>
+        <details>high tension	300kV
+spherical aberration	2.7mm
+pixel size	0.86 A/px
+total dose on vacuum	40.06 e/A2
+frames per movie	40
+
+defocus range set	-1.5, -1.2, -0.9 um
+
+sample tilt  0 deg
+
+imaging mode EFTEM
+magnification of hole image	11500x
+magnification of exposure image	105000x
+beam size 0.75 um
+C2 aperture 50um
+objective aperture retracted
+
+Gatan BioQuantum energy filter
+energy slit	20eV
+Gatan K3 counting mode
+dose rate on vacuum	16.35 e/px/s
+exposure image resolution	5760 x 4092
+physical pixel (Super Resolution off)
+image type	.tiff (gain corrected)
+
+EPU version 2.10.0.1941REL</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>

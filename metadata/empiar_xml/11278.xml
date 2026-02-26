@@ -1,0 +1,149 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11278" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2022-09-20</depositionDate>
+            <releaseDate>2022-11-15</releaseDate>
+            <updateDate>2022-11-15</updateDate>
+        </keyDates>
+        <title>Amyloid fibril from the antimicrobial peptide uperin 3.5</title>
+        <correspondingAuthor>
+            <authorORCID>0000-0001-7654-4707</authorORCID>
+            <firstName>Robert</firstName>
+            <lastName>Bücker</lastName>
+            <organization type="academic">Centre for Structural Systems Biology</organization>
+            <street>Notkestr. 85</street>
+            <townOrCity>Hamburg</townOrCity>
+            <stateOrProvince>Hamburg</stateOrProvince>
+            <country>Germany</country>
+            <postOrZipCode>22761</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator>
+            <authorORCID>0000-0002-4788-2691</authorORCID>
+            <firstName>Kay</firstName>
+            <lastName>Grünewald</lastName>
+            <organization type="academic">Centre for Structural Systems Biology, University of Hamburg, Hamburg, Germany</organization>
+            <street>Notkestr. 85</street>
+            <townOrCity>Germany</townOrCity>
+            <country>Germany</country>
+            <postOrZipCode>22761</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator>
+            <authorORCID>0000-0002-1743-3430</authorORCID>
+            <firstName>Meytal</firstName>
+            <lastName>Landau</lastName>
+            <organization type="academic">Technion Israel Institute of Technology</organization>
+            <townOrCity>Haifa</townOrCity>
+            <country>Israel</country>
+            <postOrZipCode>32000</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0001-7654-4707">Bücker R</author>
+            <author authorORCID="0000-0003-1000-0859">Seuring C</author>
+            <author>Cazey C</author>
+            <author>Veith K</author>
+            <author authorORCID="0000-0002-5200-7816">Garcia-Alai M</author>
+            <author authorORCID="0000-0002-4788-2691">Grünewald K</author>
+            <author authorORCID="0000-0002-1743-3430">Landau M</author>
+        </authorsList>
+        <datasetSize units="TB">7.4</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11278</entryDOI>
+        <experimentType>EMDB</experimentType>
+        <scale>molecule</scale>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-14167</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author authorORCID="0000-0001-7654-4707" order="1">Bücker R</author>
+                    <author authorORCID="0000-0003-1000-0859" order="2">Seuring C</author>
+                    <author order="3">Cazey C</author>
+                    <author order="4">Veith K</author>
+                    <author authorORCID="0000-0002-5200-7816" order="5">García-Alai M</author>
+                    <author authorORCID="0000-0002-4788-2691" order="6">Grünewald K</author>
+                    <author authorORCID="0000-0002-1743-3430" order="7">Landau M</author>
+                    <title>The Cryo-EM structures of two amphibian antimicrobial cross-β amyloid fibrils</title>
+                    <journal>Nature communications</journal>
+                    <journalAbbreviation>Nat Commun</journalAbbreviation>
+                    <country></country>
+                    <issue>1</issue>
+                    <volume>13</volume>
+                    <year>2022</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1038/s41467-022-32039-z</externalReferences>
+                    <externalReferences type="pubmed">35896552</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Unaligned movie frames of uperin 3.5 filaments</name>
+        <directory>/data/Movies</directory>
+        <category>micrographs - multiframe</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>11857</numImagesOrTiltSeries>
+        <framesPerImage>60</framesPerImage>
+        <frameRange>
+            <frameRangeMin>1</frameRangeMin>
+            <frameRangeMax>40</frameRangeMax>
+        </frameRange>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.85</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.85</pixelHeight>
+        </dimensions>
+        <details>Aligned micrographs and picked particles are available in folders MotionCorr and final_segments, respectively.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Motion-corrected micrographs of uperin 3.5 filaments</name>
+        <directory>/data/MotionCorr/job004/Movies</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>11857</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>5760</imageWidth>
+            <pixelWidth>0.85</pixelWidth>
+            <imageHeight>4092</imageHeight>
+            <pixelHeight>0.85</pixelHeight>
+        </dimensions>
+        <details>Raw movies and picked particles are available in folders Movies and final_segments, respectively.</details>
+        <segmentationList/>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+    <imageSet>
+        <name>Picked particles (helical segments) used for final reconstruction of uperin 3.5 filament</name>
+        <directory>/data/final_segments</directory>
+        <category>picked particles - single frame - unprocessed</category>
+        <headerFormat>MRCS</headerFormat>
+        <dataFormat>MRCS</dataFormat>
+        <numImagesOrTiltSeries>215020</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>328</imageWidth>
+            <pixelWidth>0.85</pixelWidth>
+            <imageHeight>328</imageHeight>
+            <pixelHeight>0.85</pixelHeight>
+        </dimensions>
+        <details>Raw movies and aligned micrographs are available in folders Movies and MotionCorr, respectively.</details>
+        <segmentationList/>
+        <micrographsFilePattern>data/MotionCorr/job004/Movies/*.mrc</micrographsFilePattern>
+        <pickedParticlesFilePattern>data/final_segments/final_segments.star</pickedParticlesFilePattern>
+        <pickedParticlesDirectory>data/final_segments</pickedParticlesDirectory>
+    </imageSet>
+</entry>

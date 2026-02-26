@@ -1,0 +1,50 @@
+model:
+  config_file: /mnt/extdisk/azamanos_data/PANDA-checkpoints/checkpoint_pretrain_vitL16_b_2048_i_1000_e_130_ue15_oa_LR5e-4/config.yaml
+  pretrained_weights: /mnt/extdisk/azamanos_data/PANDA-checkpoints/checkpoint_pretrain_vitL16_b_2048_i_1000_e_130_ue15_oa_LR5e-4/eval/training_129999/teacher_checkpoint.pth
+  dino_hub: null
+train:
+  dataset: MultiH5:root=/mnt/extdisk/azamanos_data/particles_h5/:h5_key=images:parquet_annotations=../../empiar_dataset/parquet_files/train/EMD_Resolution_ue_train.parquet
+  val_dataset: MultiH5:root=/mnt/extdisk/azamanos_data/particles_h5/:h5_key=images:parquet_annotations=../../empiar_dataset/parquet_files/eval/EMD_Resolution_ue_train.parquet
+  val_metric_type: MEAN_ACCURACY
+  batch_size: 128
+  num_workers: 8
+  learning_rates:
+  - 1.0e-05
+  - 2.0e-05
+  - 5.0e-05
+  - 0.0001
+  - 0.0002
+  - 0.0005
+  - 0.001
+  - 0.002
+  - 0.005
+  - 0.01
+  - 0.02
+  - 0.05
+  - 0.1
+  n_last_blocks_list:
+  - 1
+  loss_type: CROSS_ENTROPY
+  optimizer_type: SGD
+  scheduler_type: COSINE_ANNEALING
+  epochs: 10
+  epoch_length: 1250
+  save_checkpoint_iterations: null
+  eval_period_iterations: null
+  checkpoint_retention_policy: LAST_AND_BEST
+  resume: true
+  classifier_fpath: null
+eval:
+  test_datasets: []
+  test_metric_types: []
+  batch_size: 256
+  num_workers: 8
+transform:
+  resize_size: 256
+  crop_size: 224
+few_shot:
+  enable: false
+  k_or_percent: null
+  n_tries: 1
+save_results: false
+output_dir: /mnt/extdisk/azamanos_data/PANDA-checkpoints/checkpoint_pretrain_vitL16_b_2048_i_1000_e_130_ue15_oa_LR5e-4/eval/training_129999/Linear_EMD_Resolution_ue_train/

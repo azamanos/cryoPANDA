@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v3/v3_0_2_0/emdb.xsd" emdb_id="EMD-21699" version="3.0.2.0">
+    <admin>
+        <current_status>
+            <date>2020-12-02</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2020-04-14</deposition>
+            <header_release>2020-08-05</header_release>
+            <map_release>2020-08-05</map_release>
+            <update>2020-12-02</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Cancer Institute (NIH/NCI)</funding_body>
+                <code>1 ZIA BC011490</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Science Foundation (NSF, United States)</funding_body>
+                <code>1531991</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>National Institutes of Health/National Cancer Institute (NIH/NCI)</funding_body>
+                <code>CCR FLEX program</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>SA-like state of human 26S proteasome in complex with non-cleavable M1-linked hexaubiquitin</title>
+        <authors_list>
+            <author>Chen X</author>
+            <author>Walters KJ</author>
+        </authors_list>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Chen X</author>
+                    <author order="2">Dorris Z</author>
+                    <author order="3">Shi D</author>
+                    <author order="4">Huang RK</author>
+                    <author order="5">Khant H</author>
+                    <author order="6">Fox T</author>
+                    <author order="7">de Val N</author>
+                    <author order="8">Williams D</author>
+                    <author order="9">Zhang P</author>
+                    <author order="10">Walters KJ</author>
+                    <title>Cryo-EM Reveals Unanchored M1-Ubiquitin Chain Binding at hRpn11 of the 26S Proteasome.</title>
+                    <journal_abbreviation>Structure</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>28</volume>
+                    <first_page>1206</first_page>
+                    <last_page>1217.e4</last_page>
+                    <year>2020</year>
+                    <external_references type="PUBMED">32783951</external_references>
+                    <external_references type="DOI">doi:10.1016/j.str.2020.07.011</external_references>
+                    <external_references type="ISSN">0969-2126</external_references>
+                    <external_references type="CSD">2005</external_references>
+                    <external_references type="ASTM">STRUE6</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-9217</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-21699</emdb_id>
+                <relationship>
+                    <other>associated EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-21691</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-21696</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-21697</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-21698</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-21700</emdb_id>
+                <relationship>
+                    <other>other EM volume</other>
+                </relationship>
+            </emdb_reference>
+        </emdb_list>
+    </crossreferences>
+    <sample>
+        <name>Human 26S Proteasome with non-cleavable M1-linked hexaubiquitin</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Human 26S Proteasome with non-cleavable M1-linked hexaubiquitin</name>
+                <parent>0</parent>
+                <natural_source database="NCBI">
+                    <organism ncbi="9606">Homo sapiens</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <formula>Tris</formula>
+                            <name>(hydroxymethyl) aminomethane</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">1.5</concentration>
+                            <formula>ATP-gamma-S</formula>
+                            <name>ATP-gamma-S</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">5.0</concentration>
+                            <formula>MgCl2</formula>
+                            <name>Magnesium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">2.0</concentration>
+                            <formula>DTT</formula>
+                            <name>Dithiothreitol</name>
+                        </component>
+                        <component>
+                            <concentration units="uM">10.0</concentration>
+                            <formula>ZnSO4</formula>
+                            <name>Zinc sulphate</name>
+                        </component>
+                        <details>50 mM Tris, pH 7.5, 50 mM NaCl, 1.5 mM ATP-gamma-S, 5 mM MgCl2, 2 mM DTT, 10 uM zinc sulfate</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>200</mesh>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">291.15</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                        <details></details>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>FEI TITAN KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K2 SUMMIT (4k x 4k)</film_or_detector_model>
+                            <detector_mode>SUPER-RESOLUTION</detector_mode>
+                            <digitization_details>
+                                <frames_per_image>1-40</frames_per_image>
+                            </digitization_details>
+                            <number_grids_imaged>1</number_grids_imaged>
+                            <number_real_images>1645</number_real_images>
+                            <average_exposure_time units="s">0.2</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">43.44</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>164645</number_selected>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>CTFFIND</name>
+                        </software>
+                    </software_list>
+                </ctf_correction>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">6.75</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.8</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>9308</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.8</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.8</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>3.0.8</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="364501">
+        <file>emd_21699.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>450</col>
+            <row>450</row>
+            <sec>450</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>450</x>
+            <y>450</y>
+            <z>450</z>
+        </spacing>
+        <cell>
+            <a units="Å">614.25</a>
+            <b units="Å">614.25</b>
+            <c units="Å">614.25</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.025530094</minimum>
+            <maximum>0.057303462</maximum>
+            <average>0.00010737902</average>
+            <std>0.0015483167</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.365</x>
+            <y units="Å">1.365</y>
+            <z units="Å">1.365</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.007</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-21699::::</label>
+    </map>
+</emd>

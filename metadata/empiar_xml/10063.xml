@@ -1,0 +1,138 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-10063" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2016-06-13</depositionDate>
+            <releaseDate>2016-06-17</releaseDate>
+            <updateDate>2016-06-17</updateDate>
+        </keyDates>
+        <title>Cryo-EM Structure of the Activated NAIP2/NLRC4 Inflammasome Reveals Nucleated Polymerization</title>
+        <correspondingAuthor private="true">
+            <firstName>Youdong</firstName>
+            <middleName>Jack</middleName>
+            <lastName>Mao</lastName>
+            <organization type="academic">Dana-Farber Cancer Institute</organization>
+            <street>450 Brookline Ave</street>
+            <townOrCity>Boston</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02215</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <firstName>Youdong</firstName>
+            <lastName>Mao</lastName>
+            <organization type="academic">Dana-Farber Cancer Institute</organization>
+            <street>450 Brookline Ave</street>
+            <townOrCity>Boston</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>1165</postOrZipCode>
+        </principalInvestigator>
+        <principalInvestigator private="true">
+            <firstName>Hao</firstName>
+            <lastName>Wu</lastName>
+            <organization type="academic">Harvard Medical School</organization>
+            <street>3 Blackfan Circle</street>
+            <townOrCity>Boston</townOrCity>
+            <stateOrProvince>MA</stateOrProvince>
+            <country>United States</country>
+            <postOrZipCode>02115</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author>Zhang L</author>
+            <author>Chen S</author>
+            <author>Ruan J</author>
+            <author>Wu J</author>
+            <author>Tong AB</author>
+            <author>Yin Q</author>
+            <author>Li Y</author>
+            <author>David L</author>
+            <author>Lu A</author>
+            <author>Wang WL</author>
+            <author>Marks C</author>
+            <author>Ouyang Q</author>
+            <author>Zhang X</author>
+            <author>Mao Y</author>
+            <author>Wu H</author>
+        </authorsList>
+        <datasetSize units="TB">1.7</datasetSize>
+        <entryDOI>10.6019/EMPIAR-10063</entryDOI>
+        <experimentType>EMDB</experimentType>
+    </admin>
+    <crossReferences>
+        <relatedEMDBEntries>
+            <emdbEntry>EMD-6458</emdbEntry>
+            <emdbEntry>EMD-6459</emdbEntry>
+            <emdbEntry>EMD-6460</emdbEntry>
+        </relatedEMDBEntries>
+        <citationList>
+            <universalCitation>
+                <journalCitation published="true" preprint="false">
+                    <author order="1">Zhang L</author>
+                    <author order="2">Chen S</author>
+                    <author order="3">Ruan J</author>
+                    <author order="4">Wu J</author>
+                    <author order="5">Tong AB</author>
+                    <author order="6">Yin Q</author>
+                    <author order="7">Li Y</author>
+                    <author order="8">David L</author>
+                    <author authorORCID="0000-0003-2353-848X" order="9">Lu A</author>
+                    <author order="10">Wang WL</author>
+                    <author order="11">Marks C</author>
+                    <author order="12">Ouyang Q</author>
+                    <author order="13">Zhang X</author>
+                    <author authorORCID="0000-0001-9302-2257" order="14">Mao Y</author>
+                    <author order="15">Wu H</author>
+                    <title>Cryo-EM structure of the activated NAIP2-NLRC4 inflammasome reveals nucleated polymerization</title>
+                    <journal>Science (New York, N.Y.)</journal>
+                    <journalAbbreviation>Science</journalAbbreviation>
+                    <country></country>
+                    <issue>6259</issue>
+                    <volume>350</volume>
+                    <firstPage>404</firstPage>
+                    <lastPage>409</lastPage>
+                    <year>2015</year>
+                    <language>English</language>
+                    <externalReferences type="doi">10.1126/science.aac5789</externalReferences>
+                    <externalReferences type="pubmed">26449474</externalReferences>
+                </journalCitation>
+            </universalCitation>
+        </citationList>
+    </crossReferences>
+    <imageSet>
+        <name>Drift-corrected micrographs of NLRC4/NAIP2 inflammasome</name>
+        <directory>/data/driftcorr</directory>
+        <category>micrographs - single frame</category>
+        <headerFormat>SPIDER</headerFormat>
+        <dataFormat>SPIDER</dataFormat>
+        <numImagesOrTiltSeries>7861</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>7420</imageWidth>
+            <pixelWidth>0.86</pixelWidth>
+            <imageHeight>7676</imageHeight>
+            <pixelHeight>0.86</pixelHeight>
+        </dimensions>
+        <details>The micrographs are the average after sub-frame based drift correction of 36 raw movie frames (47.6 electrons per squared Angstrom in 9 second exposure).</details>
+        <segmentationList/>
+    </imageSet>
+    <imageSet>
+        <name>Single-particle stacks of NLRC4/NAIP2 inflammasome</name>
+        <directory>/data/particles</directory>
+        <category>picked particles - multiframe - processed</category>
+        <headerFormat>MRC</headerFormat>
+        <dataFormat>MRC</dataFormat>
+        <numImagesOrTiltSeries>110033</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>32 BIT FLOAT</voxelType>
+        <dimensions>
+            <imageWidth>448</imageWidth>
+            <pixelWidth>0.86</pixelWidth>
+            <imageHeight>448</imageHeight>
+            <pixelHeight>0.86</pixelHeight>
+        </dimensions>
+        <details>ring10.mrcs contains 4,489 particles, with 250*250 image size, 1.72*1.72 pixel size. ring11.mrcs contains 75,114 particles, with 448* 448 image size, 0.86*0.86 pixel size. ring12.mrcs contains 30,430 particles, with 250*250 image size, 1.72*1.72 pixel size.</details>
+        <segmentationList/>
+    </imageSet>
+</entry>
