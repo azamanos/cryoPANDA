@@ -7,10 +7,6 @@ from multiprocessing import Pool
 import xml.etree.ElementTree as ET
 from utils.utils import PDB, compute_geometric_diameters
 
-import os
-import xml.etree.ElementTree as ET
-import requests
-
 def get_empiar_metadata(empiar_id, category_filter=("micrographs - single frame",), empiar_dir='./metadata/empiar_xml', use_local=False):
     """
     Fetches EMPIAR XML and extracts all <imageSet> entries matching the specified category,
@@ -219,7 +215,7 @@ def fetch_empiar_emd_metadata_and_pdb_data(empiar_id, emd_ids, category_filter, 
             empiar_dict[empiar_id]['emd_info'][emd_id_] = scraped_info
         try:
             pdb_id_ = empiar_dict[empiar_id]['emd_info'][emd_id_]['pdb_id']
-        except:
+        except (KeyError, TypeError):
             continue
         if len(pdb_id_):
             if pdb_id_ in obsolete.keys():
@@ -230,13 +226,11 @@ def fetch_empiar_emd_metadata_and_pdb_data(empiar_id, emd_ids, category_filter, 
             try:
                 pdb = PDB(pdb_path)
                 empiar_dict[empiar_id]['pdb_info'][pdb_id_] = compute_geometric_diameters(pdb.coords)
-            except:
+            except Exception:
                 continue
     return empiar_dict
 
 def fetch_empiar_emd_metadata_and_pdb_data_multiprocess(empiar_emd_dict, threads=10, category_filter=("micrographs - single frame",), use_local=False, download_pdb=False):
-    pool = Pool(processes=threads)
-    info = pool.starmap(fetch_empiar_emd_metadata_and_pdb_data, [(empiar_id, emd_id, category_filter, use_local, download_pdb) for empiar_id, emd_id in empiar_emd_dict.items()])
-    pool.close()
-    pool.join()
+    with Pool(processes=threads) as pool:
+        info = pool.starmap(fetch_empiar_emd_metadata_and_pdb_data, [(empiar_id, emd_id, category_filter, use_local, download_pdb) for empiar_id, emd_id in empiar_emd_dict.items()])
     return info

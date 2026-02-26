@@ -21,7 +21,7 @@ def download_emdb_map(emdb_id, output_dir='emdb_maps'):
     # Define the path to save the downloaded file
     output_path = os.path.join(output_dir, f'{emdb_id}.map.gz')
     if os.path.exists(output_path):
-        return
+        return output_path
     try:
         # Send a GET request to download the file
         response = requests.get(url, stream=True)
@@ -44,8 +44,5 @@ def download_emdb_maps_multiprocess(emd_list, output_dir='emds/', threads=8, onl
     Downloads protein structures from PDB by utilizing different cpu threads.
     """
 
-    pool = Pool(processes=threads)
-    download = pool.starmap(download_emdb_map, [(emd_id, output_dir) for emd_id in emd_list])
-    pool.close()
-    pool.join()
-    return
+    with Pool(processes=threads) as pool:
+        pool.starmap(download_emdb_map, [(emd_id, output_dir) for emd_id in emd_list])
