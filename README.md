@@ -22,13 +22,15 @@ cryoPANDA: A benchmark dataset of over 37 million particles from 252 experiments
 ## Methods
 
 <div align="center">
-  <img src="./metadata/figures/methods.png" width="700">
+  <img src="./metadata/figures/methods.png" width="600">
 </div>
 
 <a id="dataset_structure"></a>
 ## Dataset Structure
 
-![Figure 2](./metadata/figures/cryoPANDA_structure.png)
+<div align="center">
+  <img src="./metadata/figures/cryoPANDA_structure.png" width="600">
+</div>
 
 <a id="installation"></a>
 ## Installation (Linux)
