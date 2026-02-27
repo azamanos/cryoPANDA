@@ -6,8 +6,8 @@ cryoPANDA: A benchmark dataset of over 37 million particles from 252 experiments
 
 # Methods
 
-![Figure 1](./metadata/figures/methods.pdf)
+![Figure 1](./metadata/figures/methods.png)
 
 # Dataset Structure
 
-![Figure 2](./metadata/figures/cryoPANDA_structure.pdf)
+![Figure 2](./metadata/figures/cryoPANDA_structure.png)
