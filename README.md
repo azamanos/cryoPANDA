@@ -3,7 +3,7 @@
 cryoPANDA: A benchmark dataset of over 37 million particles from 252 experiments to accelerate automated cryo-EM analysis
 
 <div align="center">
-  <img src="./metadata/figures/cryoPANDA.png" width="350">
+  <img src="./metadata/figures/cryoPANDA.png" width="400">
 </div>
 
 ## Table of Contents
@@ -29,7 +29,7 @@ cryoPANDA: A benchmark dataset of over 37 million particles from 252 experiments
 ## Dataset Structure
 
 <div align="center">
-  <img src="./metadata/figures/cryoPANDA_structure.png" width="800">
+  <img src="./metadata/figures/cryoPANDA_structure.png" width="900">
 </div>
 
 <a id="installation"></a>
