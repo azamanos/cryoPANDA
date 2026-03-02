@@ -1,0 +1,30 @@
+# dinov3/configs/train/dinov3_vitl16_custom_h5.yaml
+train:
+  dataset_path: MultiH5:root=/path/to/h5_dir:h5_key=images  # override at launch if you prefer
+  batch_size_per_gpu: 16
+  num_workers: 16
+  cache_dataset: true
+  output_dir: ./checkpoints/
+
+student:
+  arch: vit_large               # 1024-d latent, 24 blocks
+  patch_size: 16
+  drop_path_rate: 0.3
+  layerscale: 1.0e-05
+  n_storage_tokens: 4
+  in_chans: 1
+
+teacher:
+  momentum_teacher: 0.992
+  final_momentum_teacher: 1
+  warmup_teacher_temp: 0.04
+  teacher_temp: 0.07
+  warmup_teacher_temp_epochs: 30
+  in_chans: 1
+
+optim:
+  epochs: 100
+  lr: 1.0e-3
+  warmup_epochs: 10
+  weight_decay: 0.04
+  weight_decay_end: 0.4
