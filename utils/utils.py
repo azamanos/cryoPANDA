@@ -85,7 +85,10 @@ class MRC(object):
         self.xlen = struct.unpack_from('<f', MRCdata, 40)[0]
         self.ylen = struct.unpack_from('<f', MRCdata, 44)[0]
         self.zlen = struct.unpack_from('<f', MRCdata, 48)[0]
-        self.voxel = round(self.xlen/self.mx, 3)
+        try:
+            self.voxel = round(self.xlen/self.mx, 3)
+        except:
+            self.voxel = 0
         #cell angles
         self.alpha = struct.unpack_from('<f', MRCdata, 52)[0]
         self.beta = struct.unpack_from('<f', MRCdata, 56)[0]
