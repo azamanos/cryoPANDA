@@ -74,7 +74,7 @@ jupyter lab
 - **10 · `10_particle_picking_with_dinov2.ipynb`**: Runs a DINOv2-based feature pipeline for particle picking from micrographs via PCA-projected latent structure.
 - **11 · `11_pca_and_umap_on_particles.ipynb`**: Encodes particles with DINOv2, produces per-patch PCA overlays, and computes UMAP visualizations of particle embeddings.
 
-- ** · `unzip_data.ipynb`**: Finds `.zip` files inside cryoPANDA data subfolders and unpacks them in parallel (requires system `unzip`).
+`unzip_data.ipynb`: Finds `.zip` files inside cryoPANDA data subfolders and unpacks them in parallel (requires system `unzip`).
 
 <a id="license"></a>
 ## License
