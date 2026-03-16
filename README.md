@@ -44,6 +44,10 @@ conda env create -f environment.yml
 ```bash
 conda activate cryoPANDA
 ```
+3\. Download from https://doi.org/10.57760/sciencedb.27164 the metadata.zip to access all related data to the analysis code.
+
+<a id="usage"></a>
+## Usage
 
 <a id="license"></a>
 ## License
