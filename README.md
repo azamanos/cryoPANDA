@@ -57,7 +57,7 @@ conda activate cryoPANDA
 Run notebooks in the following order. The notebooks cover curation, splitting, training, and analysis.
 
 ```bash
-jupyter lab
+jupyter-lab
 ```
 
 ### Notebook pipeline
