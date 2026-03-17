@@ -54,7 +54,7 @@ conda activate cryoPANDA
 <a id="usage"></a>
 ## Usage
 
-Run notebooks in the following order. The notebooks cover curation, splitting, training, and analysis.
+Run notebooks in the following order. The notebooks cover curation of experiments, training linear probing, and analysis.
 
 ```bash
 jupyter-lab
