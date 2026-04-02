@@ -3,8 +3,8 @@ model:
   pretrained_weights: /mnt/extdisk/azamanos_data/PANDA-checkpoints/checkpoint_pretrain_vitL16_b_2048_i_1000_e_130_ue15_oa_LR5e-4/eval/training_129999/teacher_checkpoint.pth
   dino_hub: null
 train:
-  dataset: MultiH5:root=/mnt/extdisk/azamanos_data/particles_h5/:h5_key=images:parquet_annotations=../../empiar_dataset/parquet_files/train/EMD_Resolution_ue_train_on_eval.parquet
-  val_dataset: MultiH5:root=/mnt/extdisk/azamanos_data/particles_h5/:h5_key=images:parquet_annotations=../../empiar_dataset/parquet_files/eval/EMD_Resolution_ue_train_on_eval.parquet
+  dataset: MultiH5:root=/mnt/extdisk/azamanos_data/particles_h5/:h5_key=images:parquet_annotations=../../empiar_dataset/parquet_files/train/EMD_Resolution_ue_train_on_eval_ne.parquet
+  val_dataset: MultiH5:root=/mnt/extdisk/azamanos_data/particles_h5/:h5_key=images:parquet_annotations=../../empiar_dataset/parquet_files/eval/EMD_Resolution_ue_train_on_eval_ne.parquet
   val_metric_type: MEAN_ACCURACY
   batch_size: 128
   num_workers: 8
@@ -47,4 +47,4 @@ few_shot:
   k_or_percent: null
   n_tries: 1
 save_results: false
-output_dir: /mnt/extdisk/azamanos_data/PANDA-checkpoints/checkpoint_pretrain_vitL16_b_2048_i_1000_e_130_ue15_oa_LR5e-4/eval/training_129999/Linear_EMD_Resolution_ue_train_on_eval/
+output_dir: /mnt/extdisk/azamanos_data/PANDA-checkpoints/checkpoint_pretrain_vitL16_b_2048_i_1000_e_130_ue15_oa_LR5e-4/eval/training_129999/Linear_EMD_Resolution_ue_train_on_eval_ne_onpatches/

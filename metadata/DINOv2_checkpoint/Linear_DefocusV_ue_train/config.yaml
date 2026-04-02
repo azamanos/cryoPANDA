@@ -65,7 +65,7 @@ train:
   batch_size_per_gpu: 256
   dataset_path: MultiH5:root=/ldata/data/h5/:h5_key=images:parquet_annotations=./dinov3/train/parquet_split/train_ue.parquet
   data_config: null
-  output_dir: /mnt/extdisk/azamanos_data/PANDA-checkpoints/checkpoint_pretrain_vitL16_b_2048_i_1000_e_130_ue15_oa_LR5e-4/eval/training_129999/Linear_DefocusV_ue_train
+  output_dir: /mnt/extdisk/azamanos_data/PANDA-checkpoints/checkpoint_pretrain_vitL16_b_2048_i_1000_e_130_ue15_oa_LR5e-4/eval/training_129999/Linear_DefocusV_ue_train_ne_onpatches
   saveckp_freq: 20
   seed: 0
   num_workers: 14

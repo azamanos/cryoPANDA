@@ -147,6 +147,7 @@ def remove_ddp_wrapper(m: nn.Module) -> nn.Module:
 
 def create_linear_input(x_tokens_list, use_n_blocks, use_avgpool):
     intermediate_output = x_tokens_list[-use_n_blocks:]
+    return torch.mean(intermediate_output[-1][0], dim=1).float()
     output = torch.cat([class_token for _, class_token in intermediate_output], dim=-1)
     if use_avgpool:
         output = torch.cat(
