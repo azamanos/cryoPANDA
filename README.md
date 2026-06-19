@@ -49,7 +49,7 @@ conda env create -f environment.yml
 ```bash
 conda activate cryoPANDA
 ```
-3\. Download `metadata.zip` from https://doi.org/10.57760/sciencedb.27164 to access all data required by the notebooks.
+3\. Download `metadata.zip` from https://doi.org/10.57760/sciencedb.27164 to access all data and pretrained DINOv2 weights required by the notebooks.
 
 <a id="usage"></a>
 ## Usage
