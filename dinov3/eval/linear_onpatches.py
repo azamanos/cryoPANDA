@@ -147,6 +147,7 @@ def remove_ddp_wrapper(m: nn.Module) -> nn.Module:
 
 def create_linear_input(x_tokens_list, use_n_blocks, use_avgpool):
     intermediate_output = x_tokens_list[-use_n_blocks:]
+    return torch.mean(intermediate_output[-1][0], dim=1).float()
     output = torch.cat([class_token for _, class_token in intermediate_output], dim=-1)
     if use_avgpool:
         output = torch.cat(
@@ -339,6 +340,10 @@ class Evaluator:
         accumulated_best_results = None
         if accumulated_results is not None:
             accumulated_best_results = accumulated_results[best_classifier]
+            # try:
+            #     accumulated_best_results = accumulated_results[best_classifier]
+            # except:
+            #     accumulated_best_results = 0
 
         if distributed.is_main_process():
             with open(self.metrics_file_path, "a") as f:
@@ -368,6 +373,8 @@ class Evaluator:
             best_classifier_on_val=best_classifier_on_val,
             accumulate_results=save_results,
         )
+        # if not accumulated_best_results:
+        #     return accumulated_best_results
         if self.save_results_func is not None:
             self.save_results_func(
                 filename_suffix=f"{self.dataset_str}{save_filename_suffix}", **accumulated_best_results
